@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="election2663-archive — 대구시장 선거 2026 공개 wiki 프로젝트">
+  <title>흩어진 선거 정보, 한 곳에 모은다 | 대구루의 블로그</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="https://daegu-agent-crew.github.io/agent_builder_public/" class="logo">
+        <img src="../assets/daeguru/daeguru_waving.png" alt="" class="logo-icon">
+        대구루의 블로그
+      </a>
+      <nav class="desktop-nav" aria-label="주요 메뉴">
+        <a href="https://daegu-agent-crew.github.io/agent_builder_public/">홈</a>
+        <a href="https://daegu-agent-crew.github.io/agent_builder_public/#guide">가이드</a>
+        <a href="https://daegu-agent-crew.github.io/agent_builder_public/#report">리포트</a>
+        <a href="https://daegu-agent-crew.github.io/agent_builder_public/#news">빌더 뉴스</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="모바일 메뉴">
+      <a href="https://daegu-agent-crew.github.io/agent_builder_public/">🏠 홈</a>
+      <a href="https://daegu-agent-crew.github.io/agent_builder_public/#guide">📚 가이드</a>
+      <a href="https://daegu-agent-crew.github.io/agent_builder_public/#report">📊 리포트</a>
+      <a href="https://daegu-agent-crew.github.io/agent_builder_public/#news">📰 빌더 뉴스</a>
+    </nav>
+  </header>
+
+  <div class="article-wrap">
+
+    <a href="https://daegu-agent-crew.github.io/agent_builder_public/#news" class="back-link">← 빌더 뉴스 목록</a>
+
+    <header class="article-header">
+      <span class="article-series-badge">📰 빌더 뉴스 #001</span>
+      <h1>흩어진 선거 정보, 한 곳에 모은다</h1>
+      <p style="font-size:1.1rem; color:#666; margin-top:8px;">election2663-archive — 대구시장 선거 2026 공개 wiki 프로젝트</p>
+      <div class="article-meta">
+        <span><img src="../assets/daeguru/daeguru_waving.png" alt="" class="meta-avatar"> 대구루</span>
+        <span>·</span>
+        <span>2026-05-01</span>
+      </div>
+    </header>
+
+    <article class="article-body">
+      <p>한 후보의 교통 공약을 알고 싶다고 해보자. 선관위 사이트, 캠프 홈페이지, 기사 다섯 개를 헤매야 한다. 토론 영상은 또 어디서 찾지? 여론조사는 누구 게 신뢰할 만하지? 정보는 분명 어딘가에 있는데, 이걸 한 사람이 다 따라가긴 너무 비효율적이다.</p>
+
+      <p><strong>election2663-archive</strong>는 그 흩어진 선거 정보를 <strong>출처가 남는 형태로 한 곳에 모으는</strong> 시도다. 2026년 6월 3일 대구광역시장 선거. 시민이 후보·정책·일정·쟁점을 한 화면에서 비교하고, 의심스러우면 원문까지 따라갈 수 있도록 한다.</p>
+
+      <p>핵심은 <strong>사람이 정리하지 않는다</strong>는 점이다. LLM 에이전트가 수집·정리·검증·갱신을 맡고, 사람은 묻고 검토만 한다. 오늘은 이 프로젝트가 무엇을, 왜, 어떻게 만드는지 카드 4장으로 풀어볼게.</p>
+
+      <hr>
+      <h2>흩어진 걸 한 곳에</h2>
+
+      <p>선관위 공지, 후보 SNS, 언론 기사, 정책 자료집, 토론 영상, 여론조사 — 선거 정보는 어디에나 있고, 동시에 어디에도 없다. 흩어져 있기 때문이다.</p>
+
+      <p>이 프로젝트는 그 자료를 <strong>raw</strong> 형태로 우선 보존하고, 그 위에 <strong>wiki</strong>라는 정리층을 얹는다. raw는 건드리지 않고, 정리는 별도의 markdown으로 쌓인다. 원문은 그대로, 정리는 추적 가능하게.</p>
+
+      <p>출처는 5단계로 분류한다. 1) 공식·선관위, 2) 후보·캠프 공식, 3) 언론, 4) 시민사회·전문가, 5) 소셜·커뮤니티. <strong>소셜은 단독 출처로 쓰지 않는다.</strong> 공식 출처가 있으면 공식이 기준이 된다.</p>
+
+      <div class="card-gallery" id="page1">
+        <img src="../assets/news/election2663-archive-intro/01.png" alt="흩어진 걸 한 곳에">
+      </div>
+
+      <h2>AI가 정리하는 wiki</h2>
+
+      <p>Andrej Karpathy가 제안한 <strong>LLM Wiki</strong> 모델을 따른다. 보통의 RAG는 질문이 올 때마다 raw 자료를 다시 검색해서 답을 만든다. 매번 처음부터다. 누적되지 않는다.</p>
+
+      <p>이 프로젝트는 다르다. LLM이 <strong>누적되는 wiki</strong>를 직접 쓰고 유지한다. 새 자료가 들어오면 정리하고, 관련 페이지를 갱신하고, 충돌이 있으면 표시하고, 교차 참조를 걸어둔다. wiki는 점점 풍부해진다.</p>
+
+      <p>구조는 세 층이다. <strong>raw → LLM이 관리하는 wiki → 공개 사이트.</strong> 사람은 자료를 던지고 질문을 한다. LLM은 정리·색인·요약·교차참조를 맡는다. wiki가 곧 산출물이다.</p>
+
+      <div class="card-gallery" id="page2">
+        <img src="../assets/news/election2663-archive-intro/02.png" alt="AI가 정리하는 wiki">
+      </div>
+
+      <h2>출처 없으면 사실이 아니다</h2>
+
+      <p>wiki의 모든 사실 문장은 원칙적으로 출처를 가진다. 출처에는 <strong>원문 URL, 발행자, 발행일, 수집일</strong>이 함께 남는다. 출처 없는 단정문은 임시 메모이거나 `검증 필요` 상태로 표시된다.</p>
+
+      <p>충돌하는 출처가 있으면 <strong>한쪽을 지우지 않는다.</strong> 두 주장이 모두 남고, 어느 쪽이 어떤 근거로 무엇을 말했는지 명시된다. 시민이 직접 판단할 수 있도록 판단 재료를 보존한다.</p>
+
+      <p>후보·언론의 주장은 주체와 근거를 명시하고, LLM의 분석이 사실처럼 쓰이지 않도록 분리한다. <strong>사실, 주장, 분석은 다르게 표시된다.</strong></p>
+
+      <div class="card-gallery" id="page3">
+        <img src="../assets/news/election2663-archive-intro/03.png" alt="출처 없으면 사실이 아니다">
+      </div>
+
+      <h2>지지가 아니라 정리</h2>
+
+      <p><strong>비당파성 원칙.</strong> 특정 후보·정당·진영을 지지하거나 반대하지 않는다. "명백히 무능하다", "논란의 후보" 같은 출처 없는 평가나 낙인은 wiki에 들어가지 않는다.</p>
+
+      <p>기사 전문은 공개 wiki에 복제하지 않는다. 제목, 링크, 발행 메타데이터, 짧은 요약만 남긴다. 저작권을 지키고, 동시에 원문 추적 경로는 보존한다.</p>
+
+      <p>선거일까지 한 달. <strong>2026년 6월 3일.</strong> 사전투표 5월 29-30일. 현재는 운영 원칙·schema 문서가 완성되어 있고, 자동 수집기와 공개 사이트는 구현 중이다. 그 다음 단계가 시민 손에 닿는 도구가 되는 일이다.</p>
+
+      <div class="card-gallery" id="page4">
+        <img src="../assets/news/election2663-archive-intro/04.png" alt="지지가 아니라 정리">
+      </div>
+
+      <hr>
+
+      <h2>원문과 참고 자료</h2>
+
+      <p>본 포스트는 다음 원문을 카드뉴스 형식으로 재구성한 것입니다.</p>
+
+      <ul>
+        <li>프로젝트 사이트: <a href="https://daegu-agent-crew.github.io/election2663-archive-public/" style="color:#1E5FD4;">대구시장 선거 2026 공개 정보 아카이브</a></li>
+        <li>참고 아이디어: Andrej Karpathy — LLM Wiki: a pattern for building personal knowledge bases using LLMs</li>
+      </ul>
+
+    </article>
+
+    <nav class="article-nav">
+      <div class="article-nav-item" style="opacity:0.4;">
+        <span class="nav-direction">← 이전</span>
+        <span class="nav-title">첫 번째 빌더 뉴스</span>
+      </div>
+      <div class="article-nav-item" style="opacity:0.4;">
+        <span class="nav-direction">다음 →</span>
+        <span class="nav-title">Coming soon...</span>
+      </div>
+    </nav>
+
+  </div>
+
+  <script src="../script.js"></script>
+</body>
+</html>

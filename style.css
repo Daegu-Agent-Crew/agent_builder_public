@@ -477,6 +477,20 @@ main { min-height: calc(100vh - 56px - 80px); }
   overflow: hidden;
 }
 
+/* --- Card gallery (빌더 뉴스 카드뉴스용) --- */
+.card-gallery {
+  margin: 32px 0;
+  display: flex;
+  justify-content: center;
+}
+.card-gallery img {
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
 /* --- Responsive --- */
 @media (max-width: 768px) {
   .desktop-nav { display: none !important; }
