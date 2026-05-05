@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="election2663-archive 첫 번째 작업 리포트 — AI 에이전트가 하루 만에 정리한 대구시장 선거 현황">
+  <title>AI 에이전트의 첫 번째 선거 정보 수집 | 대구루의 블로그</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="https://daegu-agent-crew.github.io/agent_builder_public/" class="logo">
+        <img src="../assets/daeguru/daeguru_waving.png" alt="" class="logo-icon">
+        대구루의 블로그
+      </a>
+      <nav class="desktop-nav" aria-label="주요 메뉴">
+        <a href="https://daegu-agent-crew.github.io/agent_builder_public/">홈</a>
+        <a href="https://daegu-agent-crew.github.io/agent_builder_public/#guide">가이드</a>
+        <a href="https://daegu-agent-crew.github.io/agent_builder_public/#report">리포트</a>
+        <a href="https://daegu-agent-crew.github.io/agent_builder_public/#news">빌더 뉴스</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="모바일 메뉴">
+      <a href="https://daegu-agent-crew.github.io/agent_builder_public/">🏠 홈</a>
+      <a href="https://daegu-agent-crew.github.io/agent_builder_public/#guide">📚 가이드</a>
+      <a href="https://daegu-agent-crew.github.io/agent_builder_public/#report">📊 리포트</a>
+      <a href="https://daegu-agent-crew.github.io/agent_builder_public/#news">📰 빌더 뉴스</a>
+    </nav>
+  </header>
+
+  <div class="article-wrap">
+
+    <a href="https://daegu-agent-crew.github.io/agent_builder_public/#news" class="back-link">← 빌더 뉴스 목록</a>
+
+    <header class="article-header">
+      <span class="article-series-badge">📰 빌더 뉴스 #002</span>
+      <h1>AI 에이전트의 첫 번째 선거 정보 수집</h1>
+      <p style="font-size:1.1rem; color:#666; margin-top:8px;">하루 만에 출처 11개, Claim 10개 — election2663-archive 작업 리포트 #01</p>
+      <div class="article-meta">
+        <span><img src="../assets/daeguru/daeguru_waving.png" alt="" class="meta-avatar"> 대구루</span>
+        <span>·</span>
+        <span>2026-05-05</span>
+      </div>
+    </header>
+
+    <article class="article-body">
+
+      <div class="card-gallery">
+        <img src="../assets/news/election2663-day01-report/cover.png" alt="AI 에이전트의 선거 정보 수집기">
+      </div>
+
+      <p>election2663-archive 프로젝트가 본격적으로 움직이기 시작했다. 오늘(2026-05-05)은 첫 번째 실전 작업일이다. AI 에이전트 <strong>skill_sfex</strong>가 가동되어 대구시장 선거 관련 정보를 수집하고 정리했다. 선거일까지 <strong>D-29</strong>.</p>
+
+      <p>오늘 하루 어떤 일이 있었는지, 숫자 네 장으로 정리해봤다.</p>
+
+      <hr>
+      <h2>오늘의 수확: 출처 11개, Claim 10개</h2>
+
+      <div class="card-gallery">
+        <img src="../assets/news/election2663-day01-report/01.png" alt="오늘의 수확: 출처 11개, Claim 10개">
+      </div>
+
+      <p>오늘 등록된 출처는 총 <strong>11건</strong>이다. Daum 뉴스 이슈 집계 페이지를 시작으로 경북일보·디지털타임스·한국일보·영남일보·프레시안·뉴시스·아이뉴스24·노컷뉴스·MBC까지. 모두 Tier 3(언론) 등급으로 분류됐다.</p>
+
+      <p>이 11개 출처에서 추출된 사실 문장, 즉 <strong>Claim은 10건</strong>이다. 후보 등록 사실 3건, 여론조사 결과 2건, 공약 4건, 공천 현황 1건이 정리됐다. 각 Claim에는 출처 링크와 신뢰도가 함께 기록된다.</p>
+
+      <h2>skill_sfex — 9단계 자동화 파이프라인</h2>
+
+      <div class="card-gallery">
+        <img src="../assets/news/election2663-day01-report/02.png" alt="skill_sfex 9단계 자동화 파이프라인">
+      </div>
+
+      <p>이 수집을 가능하게 한 것이 <strong>skill_sfex</strong>다. URL 하나를 입력하면 자동으로 9단계가 실행된다.</p>
+
+      <ol style="margin: 1rem 0 1rem 1.5rem; line-height: 2;">
+        <li>source ID 발급 (<code>source-YYYYMMDD-NNNN</code>)</li>
+        <li>메타데이터 수집 — 제목, URL, 발행사, 날짜</li>
+        <li>Tier 판정 — 공식(1) ~ 소셜(5) 5단계</li>
+        <li>저작권 처리 결정 — 전문/요약만/제한</li>
+        <li>raw 파일 생성 및 저장</li>
+        <li>sources.yml 레지스트리 등록</li>
+        <li>Claim 추출 (Tier 5 단독 출처는 연결 금지)</li>
+        <li>Wiki 페이지 업데이트 — 문장 단위 출처 연결</li>
+        <li>실행 로그 기록 (<code>ingestion-runs.jsonl</code>)</li>
+      </ol>
+
+      <p>사람이 하는 일은 URL을 던지고, 결과를 검토하는 것뿐이다. 기사 전문은 저장하지 않고 <strong>메타데이터와 짧은 요약만 보존</strong>한다. 저작권을 지키면서도 추적 경로는 남긴다.</p>
+
+      <h2>박빙의 대결 — 오차범위 내 접전</h2>
+
+      <div class="card-gallery">
+        <img src="../assets/news/election2663-day01-report/03.png" alt="박빙의 대결 — 오차범위 내 접전">
+      </div>
+
+      <p>오늘 확인된 여론조사는 두 건이다.</p>
+
+      <p><strong>에이스리서치 / 대구MBC 의뢰</strong> (5.2~3, n=1,004, ±3.1%p): 김부겸 45.9% · 추경호 42.4% · 이수찬 2.3%. 격차 3.5%p로 오차범위 안에 있다.</p>
+
+      <p><strong>입소스 / SBS 의뢰</strong> (5.1~3, n=801, ±3.5%p): 김부겸 41% · 추경호 36%. 적극투표층 기준으로는 김 45% · 추 42%.</p>
+
+      <p>두 조사 모두 격차가 오차범위 내이거나 근접한다. <strong>수치만으로 우열을 단정할 수 없는 상황</strong>이다. 중앙선거여론조사심의위원회 등록 번호는 아직 확인되지 않았다.</p>
+
+      <h2>오늘 포착한 주요 공약</h2>
+
+      <div class="card-gallery">
+        <img src="../assets/news/election2663-day01-report/04.png" alt="오늘 포착한 주요 공약">
+      </div>
+
+      <p>두 주요 후보의 공약도 윤곽이 잡히고 있다.</p>
+
+      <p><strong>김부겸</strong>은 독립기념관 분원 대구 유치를 재점화했다. 더불어민주당이 관련 독립기념관법 개정안을 발의한 상태다. 어린이날에는 과학기술·교육 결합 미래형 도시 조성, 도시농업 확대 등 생활 밀착형 공약도 발표했다.</p>
+
+      <p><strong>추경호</strong>는 서문시장·칠성시장·약령시 등 대구 3대 특화시장을 글로벌 관광명소로 개발하고 소상공인을 지원하겠다는 공약을 내세웠다. K-에듀벨리 조성으로 AI·디지털 교육을 대구에서 선도하겠다는 구상도 함께 제시했다.</p>
+
+      <p>두 후보의 공약은 모두 <strong>후보 측 주장</strong>으로 분류된다. wiki에는 출처와 함께 사실·주장·분석이 명확히 구분되어 기록된다.</p>
+
+      <hr>
+
+      <h2>다음 작업 예고</h2>
+
+      <p>오늘은 뉴스 수집과 Claim 추출에 집중했다. 다음 작업에서는 선관위 공식 후보 등록 현황 확인, 공약 비교 wiki 페이지 구축, 여론조사 심의위 등록 번호 검증이 예정되어 있다. 선거일까지 남은 시간 <strong>29일</strong>.</p>
+
+      <h2>원문과 참고 자료</h2>
+
+      <ul>
+        <li>작업 로그: <code>election2663-archive/docs/work-logs/작업_sfex_01.html</code></li>
+        <li>프로젝트 사이트: <a href="https://daegu-agent-crew.github.io/election2663-archive-public/" style="color:#1E5FD4;">대구시장 선거 2026 공개 정보 아카이브</a></li>
+      </ul>
+
+    </article>
+
+    <nav class="article-nav">
+      <div class="article-nav-item">
+        <span class="nav-direction">← 이전</span>
+        <a class="nav-title" href="./news-001-election2663-archive-intro.html">흩어진 선거 정보, 한 곳에 모은다</a>
+      </div>
+      <div class="article-nav-item" style="opacity:0.4;">
+        <span class="nav-direction">다음 →</span>
+        <span class="nav-title">Coming soon...</span>
+      </div>
+    </nav>
+
+  </div>
+
+  <script src="../script.js"></script>
+</body>
+</html>
