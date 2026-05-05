@@ -32,6 +32,7 @@
 ## 참여
 
 - **GitHub**: [Daegu-Agent-Crew](https://github.com/Daegu-Agent-Crew)
+- **블로그**: [대구루의 블로그](https://daegu-agent-crew.github.io/agent_builder_public/)
 - **공개 아카이브**: [대구시장 선거 2026 정보 Wiki](https://daegu-agent-crew.github.io/election2663-archive-public/)
 
 ---
