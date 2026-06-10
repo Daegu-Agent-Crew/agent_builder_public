@@ -707,6 +707,30 @@ body {
   font-size: 0.85rem;
 }
 
+/* Role tags */
+.role-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.role-human {
+  background: #FFF7ED;
+  color: #C2410C;
+  border: 1px solid #FDBA74;
+}
+
+.role-agent {
+  background: #EFF6FF;
+  color: #1D4ED8;
+  border: 1px solid #93C5FD;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .desktop-nav { display: none; }

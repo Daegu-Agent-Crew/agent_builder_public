@@ -345,147 +345,166 @@
 
   // ── Help Modal System ──
 
+  var HUMAN = '<span class="role-tag role-human">👤 사람</span>';
+  var AGENT = '<span class="role-tag role-agent">🤖 에이전트</span>';
+
   var helpContent = {
     overview: {
       title: '📊 팀 개요 — 작동 방식',
-      body: '<h4>데이터는 어디서 오나요?</h4>' +
-        '<p>대시보드는 <code>team-memory</code> 리포지토리의 데이터를 기반으로 자동 생성됩니다.</p>' +
-        '<h4>업데이트 방법</h4>' +
+      body: '<p>대시보드는 <code>team-memory</code> 리포의 데이터를 기반으로 자동 생성됩니다.</p>' +
+        '<h4>' + HUMAN + ' 대시보드 갱신 지시</h4>' +
+        '<p>에이전트에게 스킬로 지시합니다:</p>' +
+        '<div class="tip"><code>tm-sync</code> 또는 <code>tm-dashboard</code></div>' +
+        '<h4>' + AGENT + ' 실행 워크플로</h4>' +
         '<ol>' +
-        '<li><code>team-memory</code>에 레코드를 추가하거나 수정합니다</li>' +
-        '<li><code>bin/memory-dashboard --output dashboard.json</code> 실행</li>' +
-        '<li>생성된 JSON을 <code>agent_builder_public/dashboard/data/</code>에 커밋</li>' +
+        '<li><code>bin/memory-verify</code> — 기록 검증</li>' +
+        '<li><code>bin/memory-dashboard --output context/dashboard.json</code> — JSON 생성</li>' +
+        '<li>JSON을 <code>agent_builder_public/dashboard/data/</code>에 커밋·푸시</li>' +
         '</ol>' +
-        '<div class="tip">💡 자동화: GitHub Actions를 연동하면 <code>team-memory</code> push 시 자동으로 JSON이 갱신될 수 있습니다.</div>' +
-        '<h4>관련 명령어</h4>' +
-        '<pre><code># team-memory 리포에서 실행\nbin/memory-dashboard --output context/dashboard.json\n\n# 전체 검증 후 대시보드 생성\nbin/memory-verify \&\& bin/memory-dashboard --output context/dashboard.json</code></pre>'
+        '<div class="tip">💡 GitHub Actions를 연동하면 <code>team-memory</code> push 시 자동 갱신도 가능합니다.</div>'
     },
 
     wiki: {
       title: '📖 위키 요약 — 업데이트 방법',
-      body: '<h4>위키란?</h4>' +
-        '<p>각 프로젝트의 <strong>현재 컨텍스트 요약</strong>입니다. 소스 레코드에서 자동 생성됩니다.</p>' +
-        '<h4>위키 갱신 절차</h4>' +
-        '<pre><code># 1. 레코드를 먼저 추가\nbin/memory-ingest \\\n  --project &lt;project&gt; \\\n  --member &lt;github-username&gt; \\\n  --source-type research-note \\\n  --title "조사 제목" \\\n  note.md\n\n# 2. 위키 재생성\nbin/memory-wiki --project &lt;project&gt;\n\n# 3. 검증\nbin/memory-verify\n\n# 4. 대시보드 JSON 재생성\nbin/memory-dashboard --output context/dashboard.json</code></pre>' +
-        '<h4>위키 작성 규칙</h4>' +
+      body: '<p>각 프로젝트의 <strong>현재 컨텍스트 요약</strong>입니다. 소스 레코드에서 자동 생성됩니다.</p>' +
+        '<h4>' + HUMAN + ' 위키 갱신 지시</h4>' +
+        '<div class="tip"><code>tm-wiki</code></div>' +
+        '<h4>' + AGENT + ' 실행 워크플로</h4>' +
+        '<ol>' +
+        '<li><code>bin/memory-ingest</code> — 레코드가 아직 없으면 먼저 추가</li>' +
+        '<li><code>bin/memory-wiki --project &lt;project&gt;</code> — 위키 재생성</li>' +
+        '<li><code>bin/memory-verify</code> — 인용·안전 검증</li>' +
+        '</ol>' +
+        '<h4>위키 규칙</h4>' +
         '<ul>' +
-        '<li>직접 편집하지 않습니다 — <code>memory-wiki</code>가 레코드에서 자동 생성</li>' +
+        '<li>직접 편집 금지 — <code>memory-wiki</code>가 레코드에서 자동 생성</li>' +
         '<li>모든 인용은 <code>[source: context/records/...]</code> 형식</li>' +
-        '<li>레코드가 충돌하면 한쪽을 없애지 말고 충돌을 보존</li>' +
-        '</ul>' +
-        '<div class="tip">💡 스킬: <code>tm-wiki</code> / 명령어: <code>bin/memory-wiki</code></div>'
+        '<li>레코드 충돌 시 한쪽을 없애지 말고 충돌 보존</li>' +
+        '</ul>'
     },
 
     timeline: {
       title: '🕐 타임라인 — 레코드 추가 방법',
-      body: '<h4>타임라인에 항목 추가하기</h4>' +
-        '<p>새 레코드를 <code>memory-ingest</code>로 추가하면 자동으로 타임라인에 나타납니다.</p>' +
-        '<h4>레코드 추가 절차</h4>' +
-        '<pre><code># 1. 메모 파일 작성\ncat > /tmp/note.md &lt;&lt;EOF\n---\nproject: daegu-agent-crew\nmember: sfex11\nsource_type: research-note\ndate: 2026-06-10\ntitle: "조사 제목"\n---\n\n# 내용\n...\nEOF\n\n# 2. ingest\nbin/memory-ingest \\\n  --project daegu-agent-crew \\\n  --member sfex11 \\\n  --source-type research-note \\\n  --title "조사 제목" \\\n  /tmp/note.md\n\n# 3. 위키 + 검증 + 대시보드 재생성\nbin/memory-wiki --project daegu-agent-crew\nbin/memory-verify\nbin/memory-dashboard --output context/dashboard.json</code></pre>' +
-        '<h4>허용되는 source_type</h4>' +
+      body: '<p>새 레코드가 추가되면 자동으로 타임라인에 나타납니다.</p>' +
+        '<h4>' + HUMAN + ' 레코드 추가 지시</h4>' +
+        '<div class="tip"><code>tm-ingest</code></div>' +
+        '<p>예: "경쟁사 X를 조사해서 team-memory에 기록해줘"</p>' +
+        '<h4>' + AGENT + ' 실행 워크플로</h4>' +
+        '<ol>' +
+        '<li><code>.github/team-memory-members.yml</code>에서 멤버 확인</li>' +
+        '<li>마크다운 노트 작성</li>' +
+        '<li><code>bin/memory-ingest --project &lt;project&gt; --member &lt;github&gt; --source-type &lt;type&gt; --title "제목" note.md</code></li>' +
+        '<li><code>bin/memory-wiki --project &lt;project&gt;</code></li>' +
+        '<li><code>bin/memory-verify</code></li>' +
+        '</ol>' +
+        '<h4>source_type 종류</h4>' +
         '<ul>' +
-        '<li><code>codex-session</code> — 코딩 세션 기록</li>' +
-        '<li><code>meeting-note</code> — 회의록</li>' +
-        '<li><code>research-note</code> — 조사 기록</li>' +
-        '<li><code>decision</code> — 결정 사항</li>' +
-        '<li><code>messenger-manual</code> — 메신저에서 수동 복사</li>' +
-        '<li><code>markdown</code> — 일반 마크다운</li>' +
-        '<li><code>repo-note</code> — 리포 분석 노트</li>' +
+        '<li><code>codex-session</code> · <code>meeting-note</code> · <code>research-note</code> · <code>decision</code> · <code>messenger-manual</code> · <code>markdown</code> · <code>repo-note</code></li>' +
         '</ul>' +
-        '<div class="warn">⚠️ 인터뷰 등 민감한 레코드는 frontmatter에 <code>visibility: private</code>를 추가하면 대시보드에 노출되지 않습니다.</div>'
+        '<div class="warn">⚠️ 민감한 레코드에 <code>visibility: private</code> 추가 → 대시보드에서 제외됩니다.</div>'
     },
 
     projects: {
       title: '🚀 프로젝트 — 등록 및 관리',
-      body: '<h4>새 프로젝트 등록</h4>' +
-        '<p><code>context/registry/projects/</code>에 YAML 파일을 추가합니다.</p>' +
+      body: '<h4>' + HUMAN + ' 프로젝트 등록 지시</h4>' +
+        '<div class="tip"><code>tm-load</code> — 기존 프로젝트 확인 후 작업 시작</div>' +
+        '<p>새 프로젝트가 필요하면 에이전트에게 지시:</p>' +
+        '<p>"새 프로젝트 my-project를 등록해줘"</p>' +
+        '<h4>' + AGENT + ' 실행 워크플로</h4>' +
+        '<ol>' +
+        '<li><code>context/registry/projects/my-project.yml</code> 작성</li>' +
+        '<li><code>bin/memory-verify</code>로 검증</li>' +
+        '</ol>' +
         '<pre><code># context/registry/projects/my-project.yml\nid: my-project\nname: "내 프로젝트"\nstatus: active\nkind: "development"\ndescription: "프로젝트 설명"</code></pre>' +
         '<h4>프로젝트 상태값</h4>' +
-        '<ul>' +
-        '<li><code>active</code> — 활성</li>' +
-        '<li><code>planning</code> — 기획 중</li>' +
-        '<li><code>paused</code> — 일시 중단</li>' +
-        '<li><code>completed</code> — 완료</li>' +
-        '</ul>' +
+        '<ul><li><code>active</code> · <code>planning</code> · <code>paused</code> · <code>completed</code></li></ul>' +
         '<h4>리포지토리 연결</h4>' +
-        '<p><code>context/registry/repositories/</code>에 프로젝트와 연결할 리포를 등록합니다.</p>' +
-        '<pre><code># context/registry/repositories/my-repo.yml\nslug: my-repo\nproject: my-project\nrole: "리포 설명"\nurl: https://github.com/org/repo\naliases:\n  - org/repo</code></pre>' +
-        '<div class="tip">💡 스킬: <code>tm-load</code>로 프로젝트 컨텍스트를 로드한 후 작업을 시작하세요.</div>'
+        '<p>에이전트가 <code>context/registry/repositories/</code>에 YAML을 작성합니다.</p>' +
+        '<pre><code>slug: my-repo\nproject: my-project\nrole: "리포 설명"\nurl: https://github.com/org/repo</code></pre>'
     },
 
     tasks: {
       title: '✅ 태스크 — 추적 방법',
-      body: '<h4>태스크 만들기</h4>' +
-        '<p>레코드에 <code>task_phase</code> 프론트매터를 추가하면 자동으로 태스크로 인식됩니다.</p>' +
-        '<pre><code># 레코드 파일 예시\n---\nschema_version: 1\ntitle: "API 서버 프로토타입 구현"\ndate: 2026-06-10\nproject: my-project\nmember: sfex11\nsource_type: decision\ntask_phase: development\ntask_status: in-progress\nmilestone: M1\nassignee: normalkim\ndue: 2026-07-01\nstatus: raw-record\n---\n\n# API 서버 프로토타입\nFastAPI 기반으로 ...</code></pre>' +
+      body: '<h4>' + HUMAN + ' 태스크 생성 지시</h4>' +
+        '<div class="tip"><code>tm-ingest</code></div>' +
+        '<p>예: "API 서버 프로토타입을 태스크로 등록해줘. 담당 normalkim, 마감 7/1"</p>' +
+        '<h4>' + AGENT + ' 실행 워크플로</h4>' +
+        '<ol>' +
+        '<li><code>task_phase</code> 필드가 포함된 레코드 작성</li>' +
+        '<li><code>bin/memory-ingest</code>로 추가</li>' +
+        '<li><code>bin/memory-verify</code>로 검증</li>' +
+        '<li><code>bin/memory-dashboard</code>로 JSON 갱신</li>' +
+        '</ol>' +
+        '<h4>태스크 레코드 프론트매터</h4>' +
+        '<pre><code>task_phase: development      # 필수 — 태스크로 인식됨\ntask_status: in-progress     # pending | in-progress | done | blocked\nmilestone: M1                # 선택\nassignee: normalkim          # 선택\ndue: 2026-07-01              # 선택</code></pre>' +
         '<h4>task_status 값</h4>' +
         '<ul>' +
-        '<li><code>pending</code> ⏳ — 대기 중</li>' +
-        '<li><code>in-progress</code> 🔄 — 진행 중</li>' +
-        '<li><code>done</code> ✅ — 완료</li>' +
-        '<li><code>blocked</code> 🚫 — 차단됨</li>' +
-        '</ul>' +
-        '<h4>필수 필드</h4>' +
-        '<ul>' +
-        '<li><code>task_phase</code> — 있어야 태스크로 인식됨</li>' +
-        '<li><code>task_status</code> — 상태 (기본값: pending)</li>' +
-        '</ul>' +
-        '<h4>선택 필드</h4>' +
-        '<ul>' +
-        '<li><code>milestone</code> — 마일스톤 (예: M1, M2)</li>' +
-        '<li><code>assignee</code> — 담당자 GitHub 아이디</li>' +
-        '<li><code>due</code> — 마감일 (YYYY-MM-DD)</li>' +
-        '</ul>' +
-        '<div class="tip">💡 대시보드에서 진행 중(in-progress) 태스크가 상단에 표시됩니다.</div>'
+        '<li><code>pending</code> ⏳ · <code>in-progress</code> 🔄 · <code>done</code> ✅ · <code>blocked</code> 🚫</li>' +
+        '</ul>'
     },
 
     decisions: {
       title: '📜 결정 로그 — 기록 방법',
-      body: '<h4>결정 기록하기</h4>' +
-        '<p>레코드에 <code>decision_status</code> 프론트매터를 추가하면 결정 로그에 자동 등록됩니다.</p>' +
-        '<pre><code># 결정 레코드 예시\n---\nschema_version: 1\ntitle: "FastAPI를 백엔드로 채택"\ndate: 2026-06-10\nproject: my-project\nmember: sfex11\nsource_type: decision\ndecision_status: active\nstatus: raw-record\n---\n\n# FastAPI 백엔드 채택\n\n## 결정 내용\nREST API 서버를 FastAPI로 구현한다.\n\n## 결정 근거\n- 비동기 지원으로 성능 우수\n- 자동 Swagger 문서 생성\n- Python 생태계와 호환\n\n## 기각된 대안\n- Express.js: 팀 Python 역량 활용 불가\n- Django: 과도한 오버헤드</code></pre>' +
+      body: '<h4>' + HUMAN + ' 결정 기록 지시</h4>' +
+        '<div class="tip"><code>tm-ingest</code></div>' +
+        '<p>예: "FastAPI 백엔드 채택을 결정 로그에 기록해줘"</p>' +
+        '<h4>' + AGENT + ' 실행 워크플로</h4>' +
+        '<ol>' +
+        '<li><code>decision_status</code> 필드가 포함된 레코드 작성</li>' +
+        '<li><code>bin/memory-ingest</code>로 추가</li>' +
+        '<li><code>bin/memory-verify</code>로 검증</li>' +
+        '</ol>' +
+        '<pre><code>decision_status: active     # 필수 — 결정으로 인식됨\n\n# 본문에는 결정 내용, 근거, 기각된 대안 포함</code></pre>' +
         '<h4>decision_status 값</h4>' +
         '<ul>' +
-        '<li><code>active</code> ✅ — 현재 유효한 결정</li>' +
-        '<li><code>revised</code> 🔄 — 수정됨 (새 결정이 후속)</li>' +
-        '<li><code>superseded</code> ⏭️ — 새 결정으로 대체됨</li>' +
-        '<li><code>reverted</code> ↩️ — 철회됨</li>' +
+        '<li><code>active</code> ✅ · <code>revised</code> 🔄 · <code>superseded</code> ⏭️ · <code>reverted</code> ↩️</li>' +
         '</ul>' +
-        '<div class="tip">💡 결정 본문 전체가 대시보드에 마크다운으로 렌더링됩니다. 배경, 근거, 대안까지 상세히 적으면 팀에 큰 도움이 됩니다.</div>'
+        '<div class="tip">💡 결정 본문 전체가 대시보드에 렌더링됩니다. 배경·근거·대안까지 상세히 적으면 좋습니다.</div>'
     },
 
     members: {
       title: '👥 멤버 — 등록 방법',
-      body: '<h4>멤버 추가</h4>' +
-        '<p><code>.github/team-memory-members.yml</code>에 GitHub 아이디를 추가합니다.</p>' +
-        '<pre><code># .github/team-memory-members.yml\n# Daegu Agent Crew members\n- sfex11\n- normalkim\n- eugene\n- junteken</code></pre>' +
+      body: '<h4>' + HUMAN + ' 멤버 추가 지시</h4>' +
+        '<p>에이전트에게 지시:</p>' +
+        '<p>"새 멤버 github-id를 team-memory에 추가해줘"</p>' +
+        '<div class="warn">⚠️ 멤버 추가는 <strong>반드시 사람이 승인</strong>해야 합니다. 에이전트가 임의로 추가하지 않습니다.</div>' +
+        '<h4>' + AGENT + ' 실행 워크플로 (승인 후)</h4>' +
+        '<ol>' +
+        '<li><code>.github/team-memory-members.yml</code>에 GitHub 아이디 추가</li>' +
+        '<li><code>bin/memory-verify</code>로 검증</li>' +
+        '</ol>' +
         '<h4>규칙</h4>' +
         '<ul>' +
         '<li>GitHub 아이디만 허용 (영문, 숫자, 하이픈)</li>' +
-        '<li>이 목록에 있는 멤버만 레코드를 생성할 수 있음</li>' +
-        '<li><code>memory-verify</code>가 이 목록으로 멤버를 검증</li>' +
-        '</ul>' +
-        '<div class="warn">⚠️ 멤버를 추가한 후 반드시 <code>bin/memory-verify</code>로 검증하세요.</div>'
+        '<li>이 목록에 있는 멤버만 레코드 생성 가능</li>' +
+        '</ul>'
     },
 
     records: {
       title: '📂 전체 기록 — 관리 방법',
-      body: '<h4>기록의 생명주기</h4>' +
-        '<p>모든 기록은 <strong>append-only</strong> (추가 전용)입니다. 한 번 생성하면 수정하지 않는 것이 원칙입니다.</p>' +
-        '<h4>저장 위치</h4>' +
-        '<pre><code>context/records/projects/&lt;project&gt;/YYYY-MM-DD-&lt;slug&gt;.md</code></pre>' +
+      body: '<h4>기록 원칙</h4>' +
+        '<p>모든 기록은 <strong>append-only</strong> (추가 전용)입니다.</p>' +
+        '<h4>' + HUMAN + ' 작업 시작 지시</h4>' +
+        '<div class="tip"><code>tm-load</code> — 프로젝트 컨텍스트 로드 후 작업 시작</div>' +
+        '<h4>' + AGENT + ' 전체 워크플로</h4>' +
+        '<ol>' +
+        '<li><code>bin/memory-load</code> — 컨텍스트 로드</li>' +
+        '<li><code>bin/memory-ingest</code> — 레코드 추가</li>' +
+        '<li><code>bin/memory-wiki</code> — 위키 갱신</li>' +
+        '<li><code>bin/memory-verify</code> — 검증</li>' +
+        '<li><code>bin/memory-dashboard</code> — 대시보드 JSON 생성</li>' +
+        '<li><code>bin/memory-share-plan</code> — 공유 초안 작성 (승인 필요)</li>' +
+        '</ol>' +
+        '<div class="tip">💡 <code>tm-sync</code> 스킬을 쓰면 verify + Git 상태를 한번에 확인합니다.</div>' +
         '<h4>공개/비공개 제어</h4>' +
         '<ul>' +
         '<li><code>visibility: private</code> → 대시보드에서 제외</li>' +
         '<li>visibility 필드 없음 → 기본 공개</li>' +
         '</ul>' +
-        '<h4>전체 워크플로우</h4>' +
-        '<pre><code># 1. 컨텍스트 로드\nbin/memory-load\n\n# 2. 레코드 추가\nbin/memory-ingest \\\n  --project &lt;project&gt; \\\n  --member &lt;github&gt; \\\n  --source-type &lt;type&gt; \\\n  --title "제목" \\\n  note.md\n\n# 3. 위키 갱신\nbin/memory-wiki --project &lt;project&gt;\n\n# 4. 검증\nbin/memory-verify\n\n# 5. 대시보드 재생성\nbin/memory-dashboard --output context/dashboard.json\n\n# 6. 공유 초안 (승인 필요)\nbin/memory-share-plan --project &lt;project&gt; --title "업데이트"</code></pre>' +
-        '<div class="tip">💡 6단계 전체를 자동화하려면 <code>bin/memory-sync</code>를 사용하세요. verify + Git 상태를 한번에 확인합니다.</div>' +
         '<h4>금지 사항</h4>' +
         '<ul>' +
         '<li>비밀, 자격증명, 개인 연락처 기록 금지</li>' +
-        '<li>외부 메신저 발송 전 반드시 승인 필요</li>' +
+        '<li>외부 메신저 발송 전 <strong>반드시 사람 승인</strong></li>' +
         '</ul>'
     }
   };
