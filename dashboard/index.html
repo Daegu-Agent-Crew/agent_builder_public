@@ -23,6 +23,7 @@
         <a href="#tasks">태스크</a>
         <a href="#decisions">결정 로그</a>
         <a href="#members">멤버</a>
+        <a href="#records">기록</a>
       </nav>
     </div>
   </header>
@@ -35,14 +36,20 @@
 
       <section id="overview" class="section">
         <div class="section-inner">
-          <h2 class="section-title">📊 팀 개요</h2>
+          <div class="section-title-wrap">
+            <h2 class="section-title">📊 팀 개요</h2>
+            <button class="help-btn" data-help="overview" aria-label="도움말">?</button>
+          </div>
           <div class="stats-grid" id="stats-grid"></div>
         </div>
       </section>
 
       <section id="wiki" class="section">
         <div class="section-inner">
-          <h2 class="section-title">📖 위키 요약</h2>
+          <div class="section-title-wrap">
+            <h2 class="section-title">📖 위키 요약</h2>
+            <button class="help-btn" data-help="wiki" aria-label="도움말">?</button>
+          </div>
           <p class="section-desc">각 프로젝트의 현재 컨텍스트 요약</p>
           <div id="wiki-content" class="wiki-container"></div>
         </div>
@@ -50,53 +57,69 @@
 
       <section id="timeline" class="section">
         <div class="section-inner">
-          <h2 class="section-title">🕐 타임라인</h2>
+          <div class="section-title-wrap">
+            <h2 class="section-title">🕐 타임라인</h2>
+            <button class="help-btn" data-help="timeline" aria-label="도움말">?</button>
+          </div>
           <p class="section-desc">팀 활동을 시간순으로 정리합니다</p>
           <div id="timeline-list" class="timeline"></div>
-          <div id="no-timeline" class="empty-state" style="display:none">
-            공개 기록이 없습니다.
-          </div>
+          <div id="no-timeline" class="empty-state" style="display:none">공개 기록이 없습니다.</div>
         </div>
       </section>
 
       <section id="projects" class="section">
         <div class="section-inner">
-          <h2 class="section-title">🚀 프로젝트</h2>
+          <div class="section-title-wrap">
+            <h2 class="section-title">🚀 프로젝트</h2>
+            <button class="help-btn" data-help="projects" aria-label="도움말">?</button>
+          </div>
           <div id="projects-list" class="card-grid"></div>
         </div>
       </section>
 
       <section id="tasks" class="section">
         <div class="section-inner">
-          <h2 class="section-title">✅ 태스크</h2>
+          <div class="section-title-wrap">
+            <h2 class="section-title">✅ 태스크</h2>
+            <button class="help-btn" data-help="tasks" aria-label="도움말">?</button>
+          </div>
           <div id="tasks-list" class="task-list"></div>
           <div id="no-tasks" class="empty-state" style="display:none">
-            아직 추적 중인 태스크가 없습니다. <code>task_phase</code> 필드가 있는 레코드를 추가하면 자동으로 표시됩니다.
+            아직 추적 중인 태스크가 없습니다.
           </div>
         </div>
       </section>
 
       <section id="decisions" class="section">
         <div class="section-inner">
-          <h2 class="section-title">📜 결정 로그</h2>
+          <div class="section-title-wrap">
+            <h2 class="section-title">📜 결정 로그</h2>
+            <button class="help-btn" data-help="decisions" aria-label="도움말">?</button>
+          </div>
           <p class="section-desc">팀의 결정과 그 배경을 기록합니다</p>
           <div id="decisions-list" class="decision-list"></div>
           <div id="no-decisions" class="empty-state" style="display:none">
-            아직 기록된 결정이 없습니다. <code>decision_status</code> 필드가 있는 레코드를 추가하면 자동으로 표시됩니다.
+            아직 기록된 결정이 없습니다.
           </div>
         </div>
       </section>
 
       <section id="members" class="section">
         <div class="section-inner">
-          <h2 class="section-title">👥 팀 멤버</h2>
+          <div class="section-title-wrap">
+            <h2 class="section-title">👥 팀 멤버</h2>
+            <button class="help-btn" data-help="members" aria-label="도움말">?</button>
+          </div>
           <div id="members-list" class="member-grid"></div>
         </div>
       </section>
 
       <section id="records" class="section">
         <div class="section-inner">
-          <h2 class="section-title">📂 전체 기록</h2>
+          <div class="section-title-wrap">
+            <h2 class="section-title">📂 전체 기록</h2>
+            <button class="help-btn" data-help="records" aria-label="도움말">?</button>
+          </div>
           <div id="records-tabs" class="tab-bar"></div>
           <div id="records-content" class="records-content"></div>
         </div>
