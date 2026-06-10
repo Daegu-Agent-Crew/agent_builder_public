@@ -1,6 +1,3 @@
----
-layout: none
----
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -20,6 +17,8 @@ layout: none
       </a>
       <nav class="desktop-nav">
         <a href="#overview">개요</a>
+        <a href="#wiki">위키</a>
+        <a href="#timeline">타임라인</a>
         <a href="#projects">프로젝트</a>
         <a href="#tasks">태스크</a>
         <a href="#decisions">결정 로그</a>
@@ -38,6 +37,25 @@ layout: none
         <div class="section-inner">
           <h2 class="section-title">📊 팀 개요</h2>
           <div class="stats-grid" id="stats-grid"></div>
+        </div>
+      </section>
+
+      <section id="wiki" class="section">
+        <div class="section-inner">
+          <h2 class="section-title">📖 위키 요약</h2>
+          <p class="section-desc">각 프로젝트의 현재 컨텍스트 요약</p>
+          <div id="wiki-content" class="wiki-container"></div>
+        </div>
+      </section>
+
+      <section id="timeline" class="section">
+        <div class="section-inner">
+          <h2 class="section-title">🕐 타임라인</h2>
+          <p class="section-desc">팀 활동을 시간순으로 정리합니다</p>
+          <div id="timeline-list" class="timeline"></div>
+          <div id="no-timeline" class="empty-state" style="display:none">
+            공개 기록이 없습니다.
+          </div>
         </div>
       </section>
 
@@ -61,6 +79,7 @@ layout: none
       <section id="decisions" class="section">
         <div class="section-inner">
           <h2 class="section-title">📜 결정 로그</h2>
+          <p class="section-desc">팀의 결정과 그 배경을 기록합니다</p>
           <div id="decisions-list" class="decision-list"></div>
           <div id="no-decisions" class="empty-state" style="display:none">
             아직 기록된 결정이 없습니다. <code>decision_status</code> 필드가 있는 레코드를 추가하면 자동으로 표시됩니다.

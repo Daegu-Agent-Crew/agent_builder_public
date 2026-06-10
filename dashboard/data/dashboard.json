@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-10T10:57:35Z",
+  "generated": "2026-06-10T11:14:32Z",
   "members": [
     "sfex11",
     "normalkim",
@@ -39,20 +39,13 @@
   "records_by_project": {
     "daegu-agent-crew": [
       {
-        "title": "phase1-interview-sfex11",
-        "date": "2026-06-01",
-        "member": "sfex11",
-        "source_type": "meeting-note",
-        "status": "raw-record",
-        "path": "context/records/projects/daegu-agent-crew/2026-06-01-phase1-interview-sfex11.md"
-      },
-      {
         "title": "team-memory-kit setup complete",
         "date": "2026-06-01",
         "member": "sfex11",
         "source_type": "codex-session",
         "status": "raw-record",
-        "path": "context/records/projects/daegu-agent-crew/2026-06-01-team-memory-kit-setup-complete.md"
+        "path": "context/records/projects/daegu-agent-crew/2026-06-01-team-memory-kit-setup-complete.md",
+        "body": "\n# Team Memory Kit 초기 설정 완료\n\nDaegu Agent Crew 팀 메모리 시스템을 설정했다.\n\n## 완료 항목\n- team-memory-kit 클론 및 private memory repo 초기화\n- 멤버 등록: sfex11\n- 프로젝트 등록: daegu-agent-crew\n- Discord 채널 등록: #댑관리실 (channel_id: 1505930373224202412)\n- Termux 환경 맞춤 (shebang 패치, rg 대체)\n\n## 다음 단계\n- 실제 공동 기획 프로젝트에 memory-ingest 테스트\n- Discord share 기능 연동\n- 팀원 추가 시 .github/team-memory-members.yml 업데이트\n\n"
       },
       {
         "title": "MassGen 오픈소스 멀티에이전트 스케일링 시스템 조사",
@@ -60,49 +53,19 @@
         "member": "sfex11",
         "source_type": "research-note",
         "status": "raw-record",
-        "path": "context/records/projects/daegu-agent-crew/2026-06-10-massgen-research.md"
+        "path": "context/records/projects/daegu-agent-crew/2026-06-10-massgen-research.md",
+        "body": "\n# MassGen — 오픈소스 멀티에이전트 스케일링 시스템 조사\n\n**URL:** <https://github.com/massgen/massgen>\n**원본 저장소:** <https://github.com/Leezekun/MassGen>\n**최신 버전:** v0.1.95 (2026-06-08 릴리즈)\n**라이선스:** 오픈소스\n**언어:** Python (PyPI 배포, pip install massgen)\n**문서:** <https://docs.massgen.ai>\n\n## 핵심 개요\n\nMassGen은 터미널에서 실행되는 오픈소스 멀티에이전트 스케일링 시스템. 여러 프론티어 모델(Claude, GPT, Gemini, Grok 등)을 병렬로 구동하여 협업·추론·품질 향상을 도모하는 프레임워크.\n\n## 아키텍처\n\n- **Orchestrator**가 작업을 분배\n- 여러 Agent가 동일 문제를 동시에 해결 (Parallel Processing)\n- **Shared Collaboration Hub**로 실시간 정보 공유\n- 결과가 안정되면 에이전트들이 투표(Vote) → 최적 합의 결과 선택\n- 반복 정제(Iterative Refinement) 사이클 기반\n\n## 주요 특징\n\n1. **Cross-Model Synergy** — Claude/GPT/Gemini/Grok 등 다양한 모델 혼합 사용\n2. **병렬 처리** — 여러 에이전트가 동시에 동일 작업 수행\n3. **지능 공유** — 에이전트 간 실시간 요약 및 인사이트 공유\n4. **합의 기반 검증** — 투표를 통한 최적 결과 선택\n5. **실시간 시각화** — Textual TUI, Web UI, Rich 디스플레이 지원\n6. **MCP 지원** — Model Context Protocol 통합\n7. **Docker 실행 환경** — 샌드박스 코드 실행\n8. **Agent Skills 표준** — npx skills add 방식으로 Claude Code, Codex, Copilot, Cursor 등 40+ 에이전트에서 사용 가능\n\n## v0.1.95 주요 변경\n\n- Programmatic Steering Inbox (파일 기반 인간 개입)\n- Interrupt-and-Resume Steering (실행 중 인터럽트 후 재개)\n- MCP-Hook Injection Parity (Antigravity 백엔드 개선)\n\n## 설치 및 실행\n\n```bash\npip install massgen==0.1.95\nmassgen --setup        # API 키, Docker, Skills 설정\nmassgen --quickstart   # 빠른 시작\nmassgen \"질문\"         # 단일 쿼리 실행\n```\n\n## 학술 배경\n\n- AG2 (기존 autogen)의 \"multi-agent conversation\" 개념 확장\n- \"The Myth of Reasoning\" 논문의 \"threads of thought\" / \"iterative refinement\" 아이디어 기반\n- Berkeley Agentic AI Summit 2025 발표\n\n## 대구에이전트빌더 관점\n\n- **참고 가치:** 멀티에이전트 협업 아키텍처, 투표 기반 합의 메커니즘, Agent Skills 표준\n- **활용 가능:** 팀 메모리 시스템과 연동 가능한 멀티에이전트 패턴 참고\n- **Agent Skills 표준:** npx skills add 방식은 대구에이전트빌더 스킬 배포 모델로 참고 가능\n"
       }
     ],
     "team-intent-align": [
-      {
-        "title": "collect-eugene",
-        "date": "2026-06-01",
-        "member": "eugene",
-        "source_type": "interview",
-        "status": "raw-record",
-        "path": "context/records/projects/team-intent-align/2026-06-01-collect-eugene.md"
-      },
-      {
-        "title": "interview-round1-sfex11",
-        "date": "2026-06-01",
-        "member": "sfex11",
-        "source_type": "interview",
-        "status": "raw-record",
-        "path": "context/records/projects/team-intent-align/2026-06-01-interview-round1-sfex11.md"
-      },
-      {
-        "title": "phase1-interview-sfex11",
-        "date": "2026-06-01",
-        "member": "sfex11",
-        "source_type": "interview",
-        "status": "raw-record",
-        "path": "context/records/projects/team-intent-align/2026-06-01-phase1-interview-sfex11.md"
-      },
       {
         "title": "phase1-kickoff",
         "date": "2026-06-01",
         "member": "sfex11",
         "source_type": "meeting-note",
         "status": "raw-record",
-        "path": "context/records/projects/team-intent-align/2026-06-01-phase1-kickoff.md"
-      },
-      {
-        "title": "session-log-2026-06-01",
-        "date": "2026-06-01",
-        "member": "sfex11",
-        "source_type": "session-log",
-        "status": "raw-record",
-        "path": "context/records/projects/team-intent-align/2026-06-01-session-log.md"
+        "path": "context/records/projects/team-intent-align/2026-06-01-phase1-kickoff.md",
+        "body": "\n# 기획 시작: 팀의 의도 Align\n\n작성일: 2026-06-01\n프로젝트: team-intent-align\nPhase: 1 (키워드 수집)\n시작자: sfex11\n\n## 배경\n팀원 간 의도와 방향을 정렬하기 위한 공동 기획 세션 시작.\n\n## Phase 1 목표\n- 각 참여자가 이 주제에 대해 생각하는 핵심 파악\n- 공통 관심사와 차이점 도출\n- 향후 방향성에 대한 인터뷰 수집\n\n## 다음 단계\n- 참여자 파악\n- 1:1 인터뷰 진행\n\n"
       },
       {
         "title": "sfex11 Intent Engineering v2 추가 의견",
@@ -110,7 +73,8 @@
         "member": "sfex11",
         "source_type": "blog-post",
         "status": "raw-record",
-        "path": "context/records/projects/team-intent-align/2026-06-06-sfex11-intent-engineering-v2.md"
+        "path": "context/records/projects/team-intent-align/2026-06-06-sfex11-intent-engineering-v2.md",
+        "body": "\n# sfex11 추가 의견: Intent Engineering v2\n\n작성일: 2026-06-06\n프로젝트: team-intent-align\n출처: <https://sfex11.github.io/Myno_public/posts/news-037-intent-engineering-v2.html>\n\n## 핵심 주장\n\n**v1(개인) → v2(팀+AI 에이전트)로 진화해야 한다.**\n\nv1은 Why/What/Not 정의로 개인이 혼자 바이브 코딩할 때 충분했다.\n그러나 팀이 커지고 AI 에이전트가 여러 명 되면 누가 최종 결정자인지, AI가 어디까지 자율적으로 행동할 수 있는지가 불명확해진다.\n\n## v2의 5가지 원칙\n\n1. **코드보다 의도가 먼저다** — 출발점은 Intent, 코드는 결과물\n2. **의도는 기능 목록이 아니다** — Goal + User + Constraints + Priorities + Success Criteria + Boundaries의 결합\n3. **AI는 의도 실행 엔진이다** — 경계 안에서 탐색, 구현, 검증, 개선, 폐기\n4. **자율성에도 경계가 필요하다** — \"무엇을 할 것인가\"뿐 아니라 \"어디까지 스스로 결정할 수 있는가\"를 정의\n5. **Intent는 계속 학습된다** — 고정 문서가 아니라 실험과 학습을 통해 지속 갱신\n\n## v2의 핵심 추가 요소\n\n### Operating Header\n- **Owner**: 누가 최종 결정자인가\n- **Priority Order**: 무엇이 가장 중요한가\n- **Authority Boundary**: AI가 어디까지 자율적으로 할 수 있는가\n- **Evidence Bar**: 상태 전이를 위해 필요한 증거 기준\n\n### Authority Boundary 구분\n- AI 자율 가능: 문서 작성, 코드 생성, 테스트, 분석, 리팩터링\n- 반드시 승인 필요: 운영 배포, 데이터 변경, 비용 발생, 외부 공개, 권한 변경\n\n### 본문 4섹션\n- **Why**: 왜 존재하는가\n- **What**: 무엇이 참이어야 하는가\n- **Not**: 절대 넘으면 안 되는 선\n- **Learnings**: 실험 → 증거 → 의미 → Intent 수정 여부\n\n### 상태 전이\nSeed → Exploring → Clarified → Killed\n각 전이는 Evidence Bar(예: \"사용자 인터뷰 5건 이상\")를 만족해야 발생\n\n## v1 vs v2 요약\n- v1: 개인 문서, 경험 기반, 암묵적, 운영성 낮음\n- v2: 팀+에이전트 계약, Evidence Bar 기반, 명시적, 조직 확장 가능\n\n## 슬로건\n> Define Intent. Define Authority. Let AI Execute.\n\n## 프로젝트에 주는 시사점\n\n이 v2 프레임워크는 \"멀티폴원\" 제품 설계에 직접 적용 가능:\n- 개인 인터뷰 산출물(의도 파일)에 Operating Header 포함\n- AI가 팀 의도를 컴파일할 때 Authority Boundary 인식\n- 의도 정렬 결과를 \"실행 가능한 계약\"으로 산출\n- 상태 전이 모델로 프로젝트 진행 관리\n"
       },
       {
         "title": "경쟁 구도 및 차별화 포인트",
@@ -118,7 +82,8 @@
         "member": "sfex11",
         "source_type": "competitive-analysis",
         "status": "raw-record",
-        "path": "context/records/projects/team-intent-align/2026-06-07-competitive-analysis.md"
+        "path": "context/records/projects/team-intent-align/2026-06-07-competitive-analysis.md",
+        "body": "\n# 경쟁 구도 및 차별화 포인트\n\n작성일: 2026-06-07\n프로젝트: team-intent-align\n\n## 경쟁 구도\n\nAsana나 Monday는 작업 관리와 진행 추적에는 강하지만, **합의 형성 전 단계의 의도 충돌 구조화**는 약합니다. Miro는 브레인스토밍과 시각 협업에는 강하지만, 결정 추적과 우선순위 운영 체계는 상대적으로 약하고, airfocus는 우선순위·전략 정렬에는 강하지만 제품 조직 중심이라 범용 팀 중재 서비스와는 초점이 다릅니다. [youtube](https://www.youtube.com/watch?v=rx-NsTtheaY)\n\n## 경쟁사 비교\n\n| 솔루션 | 강점 | 약점 | 당신 서비스와 차이 |\n|---|---|---|---|\n| Asana | 작업, 일정, 책임 관리 [youtube](https://www.youtube.com/watch?v=rx-NsTtheaY) | 의도 충돌 분석 약함 [youtube](https://www.youtube.com/watch?v=rx-NsTtheaY) | 결정 이후 관리에 강함 |\n| Monday | 시각적 워크 관리, 운영 대시보드 [projectmanagertemplate](https://www.projectmanagertemplate.com/post/asana-vs-monday-com-which-project-management-tool-is-better) | 합의 근거 구조화는 제한적 [monday](https://monday.com/blog/project-management/wrike-vs-asana-vs-monday-work-management/) | 실행 운영에 가까움 |\n| Miro | 워크숍, 화이트보드, 브레인스토밍 [miro](https://miro.com/al/asana-alternatives/) | 기록성과 결정 추적 약함 [youtube](https://www.youtube.com/watch?v=rx-NsTtheaY) | 논의 공간에 가까움 |\n| airfocus | 우선순위 프레임워크, Priority Poker, 전략 연결 [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html) | 제품 조직 중심, 사람 간 중재는 약함 [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html) | 전략형 우선순위 도구 |\n| Workplace mediation 서비스 | 구조화된 중재, 갈등 완화, 합의 문서화 [jjan](https://www.jjan.kr/article/20100520355328) | 소프트웨어 제품성이 낮고 확장성 제한 [jjan](https://www.jjan.kr/article/20100520355328) | 사람 중심 서비스 |\n\n## 차별화 포인트\n\n가장 유망한 차별점은 \"할 일 관리\"가 아니라 **왜 이 결정을 하는지**를 남기는 것입니다. 기존 툴이 task alignment에 강하다면, 이 서비스는 **intent alignment + decision traceability**에 집중해야 합니다. [jjan](https://www.jjan.kr/article/20100520355328)\n\n### 핵심 차별점 3가지\n1. 사람별 의도와 양보 불가 조건을 구조화한다. [jjan](https://www.jjan.kr/article/20100520355328)\n2. 충돌을 감정이 아니라 목표·제약·자원 축으로 분해한다. [jjan](https://www.jjan.kr/article/20100520355328)\n3. 합의안뿐 아니라 반대 의견과 재검토 조건까지 남긴다. [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html)\n"
       },
       {
         "title": "용어 정리: 의도의 충돌 및 관련 용어",
@@ -126,7 +91,8 @@
         "member": "sfex11",
         "source_type": "glossary",
         "status": "raw-record",
-        "path": "context/records/projects/team-intent-align/2026-06-07-glossary-intent-conflict.md"
+        "path": "context/records/projects/team-intent-align/2026-06-07-glossary-intent-conflict.md",
+        "body": "\n# 용어 정리: 의도의 충돌 및 관련 용어\n\n작성일: 2026-06-07\n프로젝트: team-intent-align\n\n## 의도의 충돌 (Intent Conflict)\n\n의도의 충돌은 한 주체의 **1차 목적**과 그 목적을 흐릴 수 있는 **2차 이해관계**가 서로 맞부딪히는 상황을 뜻합니다. 예를 들어, 객관적 판단이 필요한 사람이 개인적 이익 때문에 판단이 흔들릴 가능성이 있으면 의도의 충돌로 볼 수 있습니다. [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html)\n\n### 핵심 의미\n의도의 충돌은 단순히 \"의견이 다름\"이 아니라, 어떤 행동이나 판단의 **진짜 목표**와 그에 영향을 주는 다른 동기가 충돌하는 상태입니다. 그래서 문제의 핵심은 충돌 자체보다, 그 충돌이 원래 목적을 훼손하지 않도록 관리하는 데 있습니다. [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html)\n\n### 비슷한 말과 차이\n- **이해충돌**은 개인적 이해관계가 공정한 판단을 방해할 때를 말합니다. [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html)\n- **의견 충돌**은 생각이나 입장이 다른 경우로, 꼭 사익이 개입된 것은 아닙니다. [jjan](https://www.jjan.kr/article/20100520355328)\n- **의도 충돌**은 여러 사용자나 주체가 같은 대상에 대해 서로 다른 목적을 갖고 있을 때도 쓸 수 있습니다. [koreascience](https://www.koreascience.kr/article/CFKO200430710672800.page?lang=ko)\n\n### 쉬운 예\n예를 들어 스마트홈에서 가족 A는 방을 밝게 두고 싶고, 가족 B는 어둡게 두고 싶다면 사용자 간 의도충돌이 생깁니다. 또 자율주행차의 충돌 대응 방식처럼, 어떤 선택을 우선하느냐에 따라 사람들의 이용 의도가 달라질 수도 있습니다. [dbpia.co](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11602224)\n\n## 핵심 관련 용어\n\n- **이해충돌**: 개인적 이익과 공적 책임이 충돌하는 상태입니다. 의도보다 **이해관계**에 초점이 있습니다. [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html)\n- **의견 충돌**: 생각이나 입장이 다른 상태입니다. 사익 개입이 없어도 생길 수 있습니다. [jjan](https://www.jjan.kr/article/20100520355328)\n- **목표 충돌**: 여러 목표가 서로 양립하기 어려운 상태입니다. 조직이나 시스템에서 자주 씁니다. [koreascience](https://www.koreascience.kr/article/CFKO200430710672800.page?lang=ko)\n- **가치 충돌**: 서로 다른 가치 기준이 부딪히는 상황입니다. 윤리, 정책, 문화 논의에서 많이 나옵니다. [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html)\n- **우선순위 충돌**: 둘 이상을 동시에 만족시키기 어려워 선택이 필요한 상태입니다. [koreascience](https://www.koreascience.kr/article/CFKO200430710672800.page?lang=ko)\n\n## 비슷하지만 다른 표현\n\n- **의도 불일치**: 각 주체가 같은 사안을 다르게 해석하거나 다른 방향으로 행동하려는 상태입니다. [koreascience](https://www.koreascience.kr/article/CFKO200430710672800.page?lang=ko)\n- **사용자 간 의도충돌**: 스마트홈처럼 여러 사용자가 같은 장치를 서로 다르게 쓰려 할 때의 충돌입니다. [icserv.gist.ac](http://icserv.gist.ac.kr/mis/publications/data/2004/kips6_451.pdf)\n- **충돌 대응 알고리즘**: 자율주행차처럼 충돌 상황에서 어떤 기준을 우선할지 정하는 방식입니다. [dbpia.co](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11602224)\n- **오해에 의한 충돌**: 실제 적대 의도보다 판단 착오나 커뮤니케이션 실패로 생기는 충돌입니다. [news.kbs.co](https://news.kbs.co.kr/news/view.do?ncd=7897427)\n\n## 문맥별 뉘앙스\n\n- **철학·윤리**에서는 의도, 책임, 결과의 관계를 함께 봅니다. [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html)\n- **조직·업무**에서는 이해충돌, 목표 충돌, 우선순위 충돌이 더 자주 쓰입니다. [koreascience](https://www.koreascience.kr/article/CFKO200430710672800.page?lang=ko)\n- **AI·UX·시스템**에서는 사용자 간 의도충돌, 컨텍스트 충돌, 규칙 충돌 같은 표현이 자연스럽습니다. [icserv.gist.ac](http://icserv.gist.ac.kr/mis/publications/data/2004/kips6_451.pdf)\n- **정치·안보**에서는 오판, 오해, 잘못된 신호로 인한 충돌을 따로 구분합니다. [news.kbs.co](https://news.kbs.co.kr/news/view.do?ncd=7897427)\n\n## 한 줄 구분법\n\n- **누구의 이익이 문제인가** → 이해충돌\n- **무슨 생각이 다른가** → 의견 충돌\n- **무슨 목적이 서로 막는가** → 목표 충돌\n- **같은 상황을 어떻게 다르게 쓰려는가** → 의도 충돌\n"
       },
       {
         "title": "MVP 스펙 및 사용자 흐름 정의",
@@ -134,7 +100,8 @@
         "member": "sfex11",
         "source_type": "design-note",
         "status": "raw-record",
-        "path": "context/records/projects/team-intent-align/2026-06-07-mvp-spec.md"
+        "path": "context/records/projects/team-intent-align/2026-06-07-mvp-spec.md",
+        "body": "\n# MVP 스펙 및 사용자 흐름 정의\n\n작성일: 2026-06-07\n프로젝트: team-intent-align\n\n## MVP 정의\n\n**\"팀 내 의도·제약·우선순위를 구조화해 합의 가능한 결정안으로 바꾸는 서비스\"**\n\n경쟁/유사 솔루션은 작업 관리, 시각 협업, 제품 우선순위, 분쟁 중재 중 한 축에 강하지만, **의도 충돌 자체를 구조화해 합의 기록까지 잇는 제품**은 상대적으로 비어 있음. [miro](https://miro.com/al/asana-alternatives/)\n\n## MVP 최소 핵심 5가지\n\n1. **의도 캡처**: 각 참여자가 목표·제약·우려·우선순위 입력\n2. **충돌 자동 분류**: 시스템이 일정·리소스·목표·책임 충돌 자동 태깅\n3. **합의 보조 화면**: 선택지별 장단점과 점수화 표시\n4. **독립 점수화**: 이해관계자가 먼저 독립적으로 점수 입력 후 차이 드러냄 (airfocus Priority Poker 참고)\n5. **결정 로그**: 최종 결정·반대 의견·재검토 시점 기록\n\n## MVP 기능 표\n\n| 영역 | MVP 기능 | 이유 |\n|---|---|---|\n| 입력 | 목표, 제약, 우려, 중요도 입력 | 사람별 의도 구조화 [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html) |\n| 분석 | 충돌 유형 자동 태깅 | 회의 전에 쟁점 식별 [jjan](https://www.jjan.kr/article/20100520355328) |\n| 합의 | 선택지 비교, 투표/점수화 | 의견이 아닌 기준 기반 논의 [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html) |\n| 기록 | 최종 결정, 미해결 쟁점, 재검토일 | 합의 추적 가능 [jjan](https://www.jjan.kr/article/20100520355328) |\n| 연동 | Slack/Notion/Jira 중 1개라도 연결 | 실제 업무 흐름에 삽입 [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html) |\n\n## 사용자 흐름\n\n기본: 사전 입력 → 충돌 요약 → 합의 세션 → 결정 기록 → 후속 체크\n\n독립 점수화 구조(airfocus Priority Poker)는 회의에서 목소리 큰 사람에게 끌리는 문제를 줄임. [jjan](https://www.jjan.kr/article/20100520355328)\n\n### 상세 단계\n1. 회의 생성\n2. 팀원들이 각자 목표·제약·우선순위 입력\n3. 시스템이 충돌 축과 대안 후보 생성\n4. 팀원별 점수 비교\n5. 중재자가 합의안 확정\n6. 액션 아이템과 재검토 시점 저장 [hani.co](https://www.hani.co.kr/arti/opinion/column/713833.html)\n"
       },
       {
         "title": "경쟁/참고 솔루션 조사: First Tree",
@@ -142,10 +109,85 @@
         "member": "normalkim",
         "source_type": "competitive-research",
         "status": "raw-record",
-        "path": "context/records/projects/team-intent-align/2026-06-07-research-first-tree.md"
+        "path": "context/records/projects/team-intent-align/2026-06-07-research-first-tree.md",
+        "body": "\n# 경쟁/참고 솔루션 조사: First Tree\n\n작성일: 2026-06-07\n프로젝트: team-intent-align\n요청자: Normal Kim (normalkim)\n출처: <https://github.com/agent-team-foundation/first-tree>\n\n## 개요\n\n**First Tree** — Context-grounded agentic work for teams.\n\n오픈소스 워크스페이스. AI 에이전트가 팀의 공유 컨텍스트에서 작동하도록 설계.\n\n핵심은 **Context Tree**: 팀이 유지하는 결정, 소유권, 리포지토리, 책임, 제약, 이전 작업의 메모리. 에이전트가 작업 전에 읽고, 작업 결과를 다시 Context Tree에 반영.\n\n## 컨텍스트 루프\n\n```\n사용자 의도 → 팀 컨텍스트 읽기 → 컨텍스트 기반 에이전트 작업\n→ 인간 리뷰/제어 → 지속 가능한 결과 → 팀 컨텍스트 업데이트\n```\n\n## 해결하는 문제\n\n- 컨텍스트가 한 사람의 터미널/프롬프트/노트에만 머물음\n- 에이전트가 팀 메모리를 못 봐서 이전 결정을 반복\n- 작업이 채팅/PR/문서에서 끝나고 공유 컨텍스트 업데이트로 이어지지 않음\n- 인간이 충분한 배경지식 없이 결정에 끌려옴\n- 새 에이전트 작업이 매번 cold start\n\n## 핵심 구성 요소 5가지\n\n1. **Context Tree** — Git-native 팀 메모리 레이어 (결정, 소유권, 책임, 제약, 공유 컨텍스트)\n2. **Web workspace** — 채팅, 에이전트, 팀원, 컴퓨터, GitHub 연결\n3. **CLI + daemon** — 컴퓨터 연결, 로컬 에이전트 유지\n4. **Agent runtime** — 로컬 머신에서 에이전트 실행, First Tree로 메시지 라우팅\n5. **GitHub integration** — 코드 작업, PR, 리뷰를 워크스페이스에 연결\n\n## 두 가지 사용 모드\n\n- **Focused copilot work**: 에이전트와 심층 협업 (설계, 코딩, 글쓰기, 리서치)\n- **Parallel review work**: 에이전트가 여러 작업 병렬 진행, 결정/블로커/승인 시에만 인간 개입\n\n## 기술 스택\n\n- npm 패키지: `first-tree`\n- CLI: `first-tree` / `ft`\n- 언어/프레임워크: TypeScript, React, Fastify, PostgreSQL\n- 라이선스: Apache 2.0\n- 패키지 구조: CLI, shared (Zod schemas), server (Fastify), client (Agent SDK), web (React), e2e\n\n## 멀티폴원과의 관련성\n\n### 유사점\n- 팀 컨텍스트를 구조화하여 공유한다는 접근\n- AI가 팀의 의도/결정/제약을 읽고 작업\n- 인간 개입 지점을 명시적으로 관리\n- Git-native 접근 (마크다운 기반)\n\n### 차이점\n- First Tree는 **실행 워크스페이스** (작업 관리 + 에이전트 실행 환경)\n- 멀티폴원은 **의도 정렬 → 합의 형성**에 집중\n- First Tree의 Context Tree는 \"이미 합의된 것\"을 저장하지만, **합의 과정 자체를 구조화하지는 않음**\n- 멀티폴원은 충돌 분석, 독립 점수화, 결정 로그 등 합의 형성 메커니즘이 핵심\n\n### 참고할 점\n- Context Tree의 구조 (결정/소유권/제약/책임) → 멀티폴원 의도 캡처 설계 참고\n- \"에이전트가 팀 컨텍스트를 읽고 작업\" → Intent Engineering v2와 유사\n- Git-native 메모리 → team-memory-kit과 유사한 접근\n"
       }
     ]
   },
+  "timeline": [
+    {
+      "title": "MassGen 오픈소스 멀티에이전트 스케일링 시스템 조사",
+      "date": "2026-06-10",
+      "member": "sfex11",
+      "source_type": "research-note",
+      "project": "daegu-agent-crew",
+      "path": "context/records/projects/daegu-agent-crew/2026-06-10-massgen-research.md",
+      "summary": "\n# MassGen — 오픈소스 멀티에이전트 스케일링 시스템 조사\n\n**URL:** <https://github.com/massgen/massgen>\n**원본 저장소:** <https://github.com/Leezekun/MassGen>\n"
+    },
+    {
+      "title": "경쟁/참고 솔루션 조사: First Tree",
+      "date": "2026-06-07",
+      "member": "normalkim",
+      "source_type": "competitive-research",
+      "project": "team-intent-align",
+      "path": "context/records/projects/team-intent-align/2026-06-07-research-first-tree.md",
+      "summary": "\n# 경쟁/참고 솔루션 조사: First Tree\n\n작성일: 2026-06-07\n프로젝트: team-intent-align\n"
+    },
+    {
+      "title": "MVP 스펙 및 사용자 흐름 정의",
+      "date": "2026-06-07",
+      "member": "sfex11",
+      "source_type": "design-note",
+      "project": "team-intent-align",
+      "path": "context/records/projects/team-intent-align/2026-06-07-mvp-spec.md",
+      "summary": "\n# MVP 스펙 및 사용자 흐름 정의\n\n작성일: 2026-06-07\n프로젝트: team-intent-align\n"
+    },
+    {
+      "title": "용어 정리: 의도의 충돌 및 관련 용어",
+      "date": "2026-06-07",
+      "member": "sfex11",
+      "source_type": "glossary",
+      "project": "team-intent-align",
+      "path": "context/records/projects/team-intent-align/2026-06-07-glossary-intent-conflict.md",
+      "summary": "\n# 용어 정리: 의도의 충돌 및 관련 용어\n\n작성일: 2026-06-07\n프로젝트: team-intent-align\n"
+    },
+    {
+      "title": "경쟁 구도 및 차별화 포인트",
+      "date": "2026-06-07",
+      "member": "sfex11",
+      "source_type": "competitive-analysis",
+      "project": "team-intent-align",
+      "path": "context/records/projects/team-intent-align/2026-06-07-competitive-analysis.md",
+      "summary": "\n# 경쟁 구도 및 차별화 포인트\n\n작성일: 2026-06-07\n프로젝트: team-intent-align\n"
+    },
+    {
+      "title": "sfex11 Intent Engineering v2 추가 의견",
+      "date": "2026-06-06",
+      "member": "sfex11",
+      "source_type": "blog-post",
+      "project": "team-intent-align",
+      "path": "context/records/projects/team-intent-align/2026-06-06-sfex11-intent-engineering-v2.md",
+      "summary": "\n# sfex11 추가 의견: Intent Engineering v2\n\n작성일: 2026-06-06\n프로젝트: team-intent-align\n"
+    },
+    {
+      "title": "phase1-kickoff",
+      "date": "2026-06-01",
+      "member": "sfex11",
+      "source_type": "meeting-note",
+      "project": "team-intent-align",
+      "path": "context/records/projects/team-intent-align/2026-06-01-phase1-kickoff.md",
+      "summary": "\n# 기획 시작: 팀의 의도 Align\n\n작성일: 2026-06-01\n프로젝트: team-intent-align\n"
+    },
+    {
+      "title": "team-memory-kit setup complete",
+      "date": "2026-06-01",
+      "member": "sfex11",
+      "source_type": "codex-session",
+      "project": "daegu-agent-crew",
+      "path": "context/records/projects/daegu-agent-crew/2026-06-01-team-memory-kit-setup-complete.md",
+      "summary": "\n# Team Memory Kit 초기 설정 완료\n\nDaegu Agent Crew 팀 메모리 시스템을 설정했다.\n\n"
+    }
+  ],
   "tasks": [],
   "decisions": [],
   "wiki": {
