@@ -341,7 +341,6 @@
     renderDecisions(data);
     renderMembers(data);
     renderRecords(data);
-    setupHelpModals();
   }
 
   // ── Help Modal System ──
@@ -535,6 +534,9 @@
       if (key) showModal(key);
     });
   }
+
+  // Help modals work independently of data loading
+  setupHelpModals();
 
   fetch(DATA_PATH)
     .then(function (res) {
