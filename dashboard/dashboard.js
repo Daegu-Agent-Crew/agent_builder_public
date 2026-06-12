@@ -163,7 +163,7 @@
       var projRepos = repos.filter(function (r) { return r.project === p.id; });
       var latestRec = recs.length > 0 ? recs[recs.length - 1] : null;
 
-      return '<div class="project-card">' +
+      return '<div class="project-card" data-project-id="' + escapeHtml(p.id) + '" tabindex="0" role="button" aria-label="' + escapeHtml(p.name || p.id) + ' 상세 보기">' +
         '<h3>' + escapeHtml(p.name || p.id) + '</h3>' +
         '<span class="project-kind">' + escapeHtml(p.kind || '') + '</span> ' +
         statusBadge(p.status) +
@@ -175,6 +175,219 @@
         '</div>' +
       '</div>';
     }).join('');
+
+    // Click handler for project detail
+    container.addEventListener('click', function (e) {
+      var card = e.target.closest('.project-card');
+      if (!card) return;
+      var pid = card.dataset.projectId;
+      if (pid) showProjectDetail(pid, data);
+    });
+    container.addEventListener('keydown', function (e) {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      var card = e.target.closest('.project-card');
+      if (!card) return;
+      e.preventDefault();
+      var pid = card.dataset.projectId;
+      if (pid) showProjectDetail(pid, data);
+    });
+  }
+
+  function showProjectDetail(projectId, data) {
+    var projects = data.projects || [];
+    var project = projects.filter(function (p) { return p.id === projectId; })[0];
+    if (!project) return;
+
+    var recsByProject = data.records_by_project || {};
+    var repos = data.repositories || [];
+    var wiki = data.wiki || {};
+    var tasks = (data.tasks || []).filter(function (t) { return t.project === projectId; });
+    var decisions = (data.decisions || []).filter(function (d) { return d.project === projectId; });
+    var timeline = (data.timeline || []).filter(function (t) { return t.project === projectId; });
+
+    var recs = recsByProject[projectId] || [];
+    var projRepos = repos.filter(function (r) { return r.project === projectId; });
+    var wikiContent = wiki[projectId] || '';
+
+    // Build tabs content
+    var tabItems = [
+      { key: 'overview', label: '개요' },
+      { key: 'records', label: '기록 (' + recs.length + ')' },
+      { key: 'wiki', label: '위키' },
+      { key: 'timeline', label: '타임라인' },
+      { key: 'tasks', label: '태스크 (' + tasks.length + ')' },
+      { key: 'repos', label: '리포 (' + projRepos.length + ')' }
+    ];
+
+    var tabsHtml = '<div class="detail-tabs">' +
+      tabItems.map(function (t, i) {
+        return '<button class="detail-tab-btn' + (i === 0 ? ' active' : '') + '" data-tab="' + t.key + '">' + escapeHtml(t.label) + '</button>';
+      }).join('') +
+    '</div>';
+
+    // Overview tab
+    var overviewHtml = '<div class="detail-panel" data-panel="overview">' +
+      '<div class="detail-field"><label>상태</label>' + statusBadge(project.status) + '</div>' +
+      '<div class="detail-field"><label>유형</label><span>' + escapeHtml(project.kind || '-') + '</span></div>' +
+      '<div class="detail-field"><label>설명</label><p>' + escapeHtml(project.description || '설명이 없습니다.') + '</p></div>' +
+      '<div class="detail-stats-row">' +
+        '<div class="detail-stat"><span class="detail-stat-value">' + recs.length + '</span><span class="detail-stat-label">기록</span></div>' +
+        '<div class="detail-stat"><span class="detail-stat-value">' + tasks.length + '</span><span class="detail-stat-label">태스크</span></div>' +
+        '<div class="detail-stat"><span class="detail-stat-value">' + decisions.length + '</span><span class="detail-stat-label">결정</span></div>' +
+        '<div class="detail-stat"><span class="detail-stat-value">' + projRepos.length + '</span><span class="detail-stat-label">리포</span></div>' +
+      '</div>' +
+    '</div>';
+
+    // Records tab
+    var recordsHtml = '<div class="detail-panel" data-panel="records" style="display:none">';
+    if (recs.length === 0) {
+      recordsHtml += '<div class="empty-state">공개 기록이 없습니다.</div>';
+    } else {
+      var sorted = recs.slice().reverse();
+      recordsHtml += sorted.map(function (r) {
+        var preview = '';
+        if (r.body) {
+          var p = r.body.trim().split('\n').slice(0, 2).join(' ');
+          if (p.length > 120) p = p.slice(0, 120) + '...';
+          if (p) preview = '<div class="record-preview">' + escapeHtml(p) + '</div>';
+        }
+        return '<div class="record-item">' +
+          '<span class="record-date">' + formatDate(r.date) + '</span>' +
+          '<div class="record-main">' +
+            '<span class="record-title">' + escapeHtml(r.title) + '</span>' +
+            '<span class="record-source">' + escapeHtml(r.member || '') + ' · ' + escapeHtml(r.source_type || '') + '</span>' +
+            preview +
+          '</div>' +
+        '</div>';
+      }).join('');
+    }
+    recordsHtml += '</div>';
+
+    // Wiki tab
+    var wikiHtml = '<div class="detail-panel" data-panel="wiki" style="display:none">';
+    if (!wikiContent) {
+      wikiHtml += '<div class="empty-state">위키 요약이 없습니다.</div>';
+    } else {
+      wikiHtml += '<div class="wiki-body">' + mdToHtml(wikiContent) + '</div>';
+    }
+    wikiHtml += '</div>';
+
+    // Timeline tab
+    var tlHtml = '<div class="detail-panel" data-panel="timeline" style="display:none">';
+    if (timeline.length === 0) {
+      tlHtml += '<div class="empty-state">타임라인 항목이 없습니다.</div>';
+    } else {
+      timeline.slice().reverse().forEach(function (t) {
+        var summary = (t.summary || '').trim().split('\n').slice(0, 3).join(' ');
+        if (summary.length > 150) summary = summary.slice(0, 150) + '...';
+        tlHtml += '<div class="timeline-item">' +
+          '<div class="timeline-item-header">' +
+            '<span class="timeline-title">' + escapeHtml(t.title) + '</span>' +
+            '<span class="timeline-meta">' +
+              (t.member ? '👤 ' + escapeHtml(t.member) : '') +
+            '</span>' +
+          '</div>' +
+          '<div class="timeline-date-inline">' + formatDate(t.date) + '</div>' +
+          (summary ? '<div class="timeline-summary">' + escapeHtml(summary) + '</div>' : '') +
+        '</div>';
+      });
+    }
+    tlHtml += '</div>';
+
+    // Tasks tab
+    var tasksHtml = '<div class="detail-panel" data-panel="tasks" style="display:none">';
+    if (tasks.length === 0) {
+      tasksHtml += '<div class="empty-state">추적 중인 태스크가 없습니다.</div>';
+    } else {
+      var order = { 'in-progress': 0, 'pending': 1, 'blocked': 2, 'done': 3 };
+      tasks.sort(function (a, b) { return (order[a.status] || 99) - (order[b.status] || 99); });
+      tasksHtml += tasks.map(function (t) {
+        return '<div class="task-item">' +
+          taskIcon(t.status) +
+          '<div class="task-info">' +
+            '<div class="task-title">' + escapeHtml(t.title) + '</div>' +
+            '<div class="task-meta">' +
+              (t.assignee ? '<span>👤 ' + escapeHtml(t.assignee) + '</span>' : '') +
+              (t.due ? '<span>📅 ' + formatDate(t.due) + '</span>' : '') +
+            '</div>' +
+          '</div>' +
+          statusBadge(t.status) +
+        '</div>';
+      }).join('');
+    }
+    tasksHtml += '</div>';
+
+    // Repos tab
+    var reposHtml = '<div class="detail-panel" data-panel="repos" style="display:none">';
+    if (projRepos.length === 0) {
+      reposHtml += '<div class="empty-state">등록된 리포가 없습니다.</div>';
+    } else {
+      reposHtml += '<div class="repo-list">' + projRepos.map(function (r) {
+        var url = r.url || ('https://github.com/Daegu-Agent-Crew/' + r.slug);
+        return '<div class="repo-item">' +
+          '<div class="repo-slug">' +
+            (url ? '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">' + escapeHtml(r.slug) + '</a>' : escapeHtml(r.slug)) +
+          '</div>' +
+          '<div class="repo-role">' + escapeHtml(r.role || '') + '</div>' +
+        '</div>';
+      }).join('') + '</div>';
+    }
+    reposHtml += '</div>';
+
+    // Modal
+    var existing = document.querySelector('.modal-overlay');
+    if (existing) existing.remove();
+
+    var overlay = document.createElement('div');
+    overlay.className = 'modal-overlay detail-modal-overlay';
+    overlay.innerHTML =
+      '<div class="modal-card detail-modal-card">' +
+        '<div class="modal-header detail-header">' +
+          '<div>' +
+            '<h3 class="detail-title">' + escapeHtml(project.name || project.id) + '</h3>' +
+            '<span class="project-kind">' + escapeHtml(project.kind || '') + '</span> ' + statusBadge(project.status) +
+          '</div>' +
+          '<button class="modal-close" aria-label="닫기">✕</button>' +
+        '</div>' +
+        tabsHtml +
+        '<div class="detail-body">' +
+          overviewHtml +
+          recordsHtml +
+          wikiHtml +
+          tlHtml +
+          tasksHtml +
+          reposHtml +
+        '</div>' +
+      '</div>';
+
+    document.body.appendChild(overlay);
+    document.body.style.overflow = 'hidden';
+
+    // Tab switching
+    overlay.addEventListener('click', function (e) {
+      var btn = e.target.closest('.detail-tab-btn');
+      if (btn) {
+        overlay.querySelectorAll('.detail-tab-btn').forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        overlay.querySelectorAll('.detail-panel').forEach(function (p) { p.style.display = 'none'; });
+        var panel = overlay.querySelector('.detail-panel[data-panel="' + btn.dataset.tab + '"]');
+        if (panel) panel.style.display = 'block';
+        return;
+      }
+      // Close
+      if (e.target.closest('.modal-close') || e.target === overlay) {
+        overlay.remove();
+        document.body.style.overflow = '';
+      }
+    });
+
+    document.addEventListener('keydown', function escHandler(e) {
+      if (e.key === 'Escape') {
+        overlay.remove();
+        document.body.style.overflow = '';
+        document.removeEventListener('keydown', escHandler);
+      }
+    });
   }
 
   function renderTasks(data) {
