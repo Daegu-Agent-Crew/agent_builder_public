@@ -20,6 +20,13 @@
       "status": "active",
       "kind": "planning",
       "description": "팀원 간 의도와 방향을 정렬하는 공동 기획 프로젝트"
+    },
+    {
+      "id": "three-body-comic",
+      "name": "삼체 만화 연재",
+      "status": "active",
+      "kind": "creative-project",
+      "description": "유우캐 리우싱 삼체문제 원작 기반 에이전트 크리에이티브 만화 연재 프로젝트. 4가지 화풍 시도, 한국어, 비정기 연재."
     }
   ],
   "repositories": [
@@ -34,11 +41,18 @@
       "project": "daegu-agent-crew",
       "role": "Daegu Agent Crew 팀 메모리 저장소",
       "url": ""
+    },
+    {
+      "slug": "three-body-comic",
+      "project": "three-body-comic",
+      "role": "삼체(三体) 만화 연재 프로젝트 — 원작 기반 에이전트 크리에이티브",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic"
     }
   ],
   "records_by_project": {
     "daegu-agent-crew": [],
-    "team-intent-align": []
+    "team-intent-align": [],
+    "three-body-comic": []
   },
   "timeline": [],
   "tasks": [],
