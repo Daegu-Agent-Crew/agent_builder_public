@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T20:53:31Z",
+  "generated": "2026-06-17T21:00:59Z",
   "members": [
     "sfex11",
     "normalkim",
@@ -10,6 +10,34 @@
     "juntaek-lee"
   ],
   "projects": [
+    {
+      "id": "agent_builder",
+      "name": "대구 에이전트 빌더",
+      "status": "active",
+      "kind": "community",
+      "description": "대구 에이전트 빌더 커뮤니티 — 가이드, 블로그, 대시보드 운영"
+    },
+    {
+      "id": "context-tree",
+      "name": "Shared Context Tree",
+      "status": "active",
+      "kind": "infrastructure",
+      "description": "Daegu Agent Crew 소스 리포 간 공유 컨텍스트 트리"
+    },
+    {
+      "id": "dabstack",
+      "name": "DabStack",
+      "status": "active",
+      "kind": "infrastructure",
+      "description": "Codex-first shared context stack for Daegu Agent Builders"
+    },
+    {
+      "id": "election2663-archive",
+      "name": "2026 대구광역시장 선거 아카이브",
+      "status": "active",
+      "kind": "archive-project",
+      "description": "2026년 6월 3일 대구광역시장 선거 관련 공개 데이터 수집·구조화 아카이브"
+    },
     {
       "id": "team-memory",
       "name": "Daegu Agent Builders Team Memory",
@@ -26,6 +54,48 @@
     }
   ],
   "repositories": [
+    {
+      "slug": "Daegu-Agent-Crew/agent_builder",
+      "project": "agent_builder",
+      "role": "에이전트 빌더 커뮤니티 메인 리포 (private)",
+      "url": ""
+    },
+    {
+      "slug": "Daegu-Agent-Crew/agent_builder_public",
+      "project": "agent_builder",
+      "role": "공개 블로그 및 대시보드 (GitHub Pages)",
+      "url": ""
+    },
+    {
+      "slug": "Daegu-Agent-Crew/context-tree",
+      "project": "context-tree",
+      "role": "공유 컨텍스트 트리 리포",
+      "url": ""
+    },
+    {
+      "slug": "Daegu-Agent-Crew/dabstack",
+      "project": "dabstack",
+      "role": "Codex-first shared context stack",
+      "url": ""
+    },
+    {
+      "slug": "Daegu-Agent-Crew/election2663-archive-public",
+      "project": "election2663-archive",
+      "role": "선거 아카이브 공개 wiki (GitHub Pages)",
+      "url": ""
+    },
+    {
+      "slug": "Daegu-Agent-Crew/election2663-archive",
+      "project": "election2663-archive",
+      "role": "선거 데이터 수집·구조화 메인 리포 (private)",
+      "url": ""
+    },
+    {
+      "slug": "Daegu-Agent-Crew/team-memory-kit",
+      "project": "team-memory",
+      "role": "team-memory 도구 및 스킬 키트",
+      "url": ""
+    },
     {
       "slug": "Daegu-Agent-Crew/team-memory",
       "project": "team-memory",
