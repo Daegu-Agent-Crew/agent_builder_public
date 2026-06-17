@@ -537,6 +537,250 @@ body {
   margin-top: 4px;
 }
 
+/* Member activity stats */
+.member-records {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.member-stat {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  margin-top: 2px;
+  line-height: 1.5;
+}
+
+.member-stat-muted {
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+
+.member-avatar-link {
+  text-decoration: none;
+}
+
+.member-name a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.member-name a:hover {
+  text-decoration: underline;
+  color: var(--accent);
+}
+
+/* =============================================
+   Activity Feed Section
+   ============================================= */
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.activity-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  transition: border-color 0.15s;
+}
+
+.activity-item:hover {
+  border-color: var(--border-card);
+}
+
+.activity-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-bg);
+  border-radius: 6px;
+}
+
+.activity-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.activity-msg {
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.activity-ref {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: var(--bg-code);
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.activity-meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 3px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+.activity-repo {
+  background: var(--accent-bg);
+  color: var(--accent);
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.activity-author {
+  white-space: nowrap;
+}
+
+.activity-time {
+  white-space: nowrap;
+}
+
+.activity-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  padding: 2px 4px;
+  transition: color 0.15s;
+}
+
+.activity-link:hover {
+  color: var(--accent);
+}
+
+.activity-updated {
+  color: var(--text-muted);
+}
+
+/* =============================================
+   Repositories Section
+   ============================================= */
+
+.repos-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 16px;
+}
+
+.repo-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.repo-card-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.repo-private-icon {
+  font-size: 0.85rem;
+}
+
+.repo-card-slug {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.repo-card-slug:hover {
+  text-decoration: underline;
+}
+
+.repo-card-badges {
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.repo-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.repo-badge-pr {
+  background: var(--blue-bg);
+  color: var(--blue);
+}
+
+.repo-badge-issue {
+  background: var(--yellow-bg);
+  color: var(--yellow);
+}
+
+.repo-badge-time {
+  background: #F3F4F6;
+  color: #6B7280;
+}
+
+.repo-commits {
+  margin-top: 8px;
+  border-top: 1px solid var(--border-light);
+  padding-top: 8px;
+}
+
+.repo-commit {
+  font-size: 0.78rem;
+  padding: 3px 0;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.commit-sha {
+  font-size: 0.72rem;
+  color: var(--accent);
+  background: var(--accent-bg);
+  padding: 1px 4px;
+  border-radius: 3px;
+  flex-shrink: 0;
+  font-family: 'Fira Code', 'SF Mono', monospace;
+}
+
+.commit-msg {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.commit-author {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
 .section-desc {
   font-size: 0.9rem;
   color: var(--text-muted);

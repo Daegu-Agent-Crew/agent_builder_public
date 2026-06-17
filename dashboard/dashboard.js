@@ -4,11 +4,13 @@
   'use strict';
 
   var DATA_PATH = 'data/dashboard.json';
+  var ACTIVITY_PATH = 'data/github-activity.json';
 
   var $ = function (sel) { return document.querySelector(sel); };
   var $$ = function (sel) { return document.querySelectorAll(sel); };
 
-  var _dashboardData = null; // cached data
+  var _dashboardData = null;
+  var _activityData = null;
 
   function escapeHtml(str) {
     var d = document.createElement('div');
@@ -19,6 +21,25 @@
   function formatDate(d) {
     if (!d) return '';
     return d.slice(0, 10);
+  }
+
+  function formatDateTime(d) {
+    if (!d) return '';
+    return d.replace('T', ' ').replace('Z', ' UTC');
+  }
+
+  function timeAgo(dateStr) {
+    if (!dateStr) return '';
+    var now = Date.now();
+    var then = new Date(dateStr).getTime();
+    var diff = Math.max(0, now - then);
+    var mins = Math.floor(diff / 60000);
+    var hours = Math.floor(diff / 3600000);
+    var days = Math.floor(diff / 86400000);
+    if (days > 0) return days + '일 전';
+    if (hours > 0) return hours + '시간 전';
+    if (mins > 0) return mins + '분 전';
+    return '방금';
   }
 
   function statusBadge(status) {
@@ -37,7 +58,12 @@
     return '<span class="decision-icon">' + (icons[status] || '📜') + '</span>';
   }
 
-  // Simple markdown→HTML (headings, bold, lists, links, code)
+  function activityIcon(type) {
+    var icons = { 'commit': '💻', 'pr': '🔀', 'issue': '❗', 'review': '👁️' };
+    return icons[type] || '📝';
+  }
+
+  // Simple markdown→HTML
   function mdToHtml(md) {
     if (!md) return '';
     var html = escapeHtml(md);
@@ -86,15 +112,105 @@
     var memberCount = (data.members || []).length;
     var decisionCount = (data.decisions || []).length;
 
-    var grid = $('#stats-grid');
-    grid.innerHTML = [
+    // Add GitHub activity stats if available
+    var activityItems = 0;
+    var openPRs = 0;
+    if (_activityData) {
+      activityItems = (_activityData.activity_feed || []).length;
+      (_activityData.repos || []).forEach(function (r) { openPRs += (r.open_prs || 0); });
+    }
+
+    var stats = [
       { value: projectCount, label: '프로젝트' },
       { value: recordCount, label: '공개 기록' },
       { value: taskCount, label: '태스크' },
       { value: decisionCount, label: '결정' },
       { value: memberCount, label: '멤버' }
-    ].map(function (s) {
+    ];
+    if (_activityData) {
+      stats.push({ value: openPRs, label: '열린 PR' });
+      stats.push({ value: activityItems, label: '활동(30일)' });
+    }
+
+    var grid = $('#stats-grid');
+    grid.innerHTML = stats.map(function (s) {
       return '<div class="stat-card"><div class="stat-value">' + s.value + '</div><div class="stat-label">' + s.label + '</div></div>';
+    }).join('');
+  }
+
+  // ── Activity Feed (new) ──
+
+  function renderActivityFeed() {
+    var container = $('#activity-list');
+    if (!_activityData || !_activityData.activity_feed || _activityData.activity_feed.length === 0) {
+      container.innerHTML = '<div class="empty-state">최근 활동이 없습니다.</div>';
+      return;
+    }
+
+    var feed = _activityData.activity_feed.slice(0, 30);
+    container.innerHTML = feed.map(function (item) {
+      var icon = activityIcon(item.type);
+      var msg = escapeHtml((item.message || '').slice(0, 100));
+      if (item.message && item.message.length > 100) msg += '…';
+
+      var repoBadge = '<span class="activity-repo">' + escapeHtml(item.repo || '') + '</span>';
+      var authorBadge = item.author ? '<span class="activity-author">👤 ' + escapeHtml(item.author) + '</span>' : '';
+      var timeBadge = '<span class="activity-time">' + timeAgo(item.date) + '</span>';
+      var link = item.url ? '<a href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener" class="activity-link">↗</a>' : '';
+
+      var typeLabel = item.type === 'pr' ? '#' + (item.number || '') : '#' + (item.sha || '');
+
+      return '<div class="activity-item">' +
+        '<span class="activity-icon">' + icon + '</span>' +
+        '<div class="activity-content">' +
+          '<div class="activity-msg">' + msg + ' <code class="activity-ref">' + typeLabel + '</code></div>' +
+          '<div class="activity-meta">' + repoBadge + authorBadge + timeBadge + '</div>' +
+        '</div>' +
+        link +
+      '</div>';
+    }).join('');
+  }
+
+  // ── Repositories section (new) ──
+
+  function renderRepositories() {
+    var container = $('#repos-list');
+    if (!_activityData || !_activityData.repos) {
+      container.innerHTML = '<div class="empty-state">리포지토리 데이터를 불러올 수 없습니다.</div>';
+      return;
+    }
+
+    var repos = _activityData.repos;
+    container.innerHTML = repos.map(function (r) {
+      var url = 'https://github.com/' + r.slug;
+      var privateIcon = r.private ? '🔒' : '🌍';
+      var prBadge = r.open_prs > 0 ? '<span class="repo-badge repo-badge-pr">🔀 ' + r.open_prs + ' PR</span>' : '';
+      var issueBadge = r.open_issues > 0 ? '<span class="repo-badge repo-badge-issue">❗ ' + r.open_issues + '</span>' : '';
+      var updated = r.pushed_at ? '<span class="repo-badge repo-badge-time">⏱ ' + timeAgo(r.pushed_at) + '</span>' : '';
+
+      var commitList = '';
+      if (r.recent_commits && r.recent_commits.length > 0) {
+        commitList = '<div class="repo-commits">' +
+          r.recent_commits.slice(0, 3).map(function (c) {
+            var cmsg = escapeHtml((c.message || '').slice(0, 80));
+            if (c.message && c.message.length > 80) cmsg += '…';
+            return '<div class="repo-commit">' +
+              '<code class="commit-sha">' + escapeHtml(c.sha) + '</code> ' +
+              '<span class="commit-msg">' + cmsg + '</span> ' +
+              '<span class="commit-author">' + escapeHtml(c.author || '') + '</span>' +
+            '</div>';
+          }).join('') +
+        '</div>';
+      }
+
+      return '<div class="repo-card">' +
+        '<div class="repo-card-header">' +
+          '<span class="repo-private-icon">' + privateIcon + '</span>' +
+          '<a href="' + url + '" target="_blank" rel="noopener" class="repo-card-slug">' + escapeHtml(r.slug) + '</a>' +
+          '<div class="repo-card-badges">' + prBadge + issueBadge + updated + '</div>' +
+        '</div>' +
+        commitList +
+      '</div>';
     }).join('');
   }
 
@@ -272,14 +388,35 @@
       });
     });
 
+    // Build stats map from activity data
+    var statsMap = {};
+    if (_activityData && _activityData.member_stats) {
+      _activityData.member_stats.forEach(function (m) {
+        statsMap[m.login] = m;
+      });
+    }
+
     container.innerHTML = members.map(function (m) {
       var initial = m.charAt(0).toUpperCase();
       var count = memberCounts[m] || 0;
+      var stats = statsMap[m];
+      var commits = stats ? stats.commits : 0;
+      var prs = stats ? stats.prs : 0;
+      var ghUrl = 'https://github.com/' + encodeURIComponent(m);
+
+      var statBadges = '';
+      if (commits > 0) statBadges += '<div class="member-stat">💻 ' + commits + ' 커밋</div>';
+      if (prs > 0) statBadges += '<div class="member-stat">🔀 ' + prs + ' PR</div>';
+      if (commits === 0 && prs === 0) statBadges = '<div class="member-stat member-stat-muted">최근 활동 없음</div>';
+
       return '<div class="member-card">' +
-        '<div class="member-avatar">' + escapeHtml(initial) + '</div>' +
-        '<div class="member-name">' + escapeHtml(m) + '</div>' +
+        '<a href="' + ghUrl + '" target="_blank" rel="noopener" class="member-avatar-link">' +
+          '<div class="member-avatar">' + escapeHtml(initial) + '</div>' +
+        '</a>' +
+        '<div class="member-name"><a href="' + ghUrl + '" target="_blank" rel="noopener">' + escapeHtml(m) + '</a></div>' +
         '<div class="member-handle">@' + escapeHtml(m) + '</div>' +
-        '<div class="member-count">📄 ' + count + ' 기록</div>' +
+        '<div class="member-records">📄 ' + count + ' 기록</div>' +
+        statBadges +
       '</div>';
     }).join('');
   }
@@ -339,7 +476,7 @@
     });
   }
 
-  // ── Project Detail Page (full page) ──
+  // ── Project Detail Page ──
 
   function renderProjectPage(projectId) {
     var data = _dashboardData;
@@ -360,10 +497,21 @@
     var projRepos = repos.filter(function (r) { return r.project === projectId; });
     var wikiContent = wiki[projectId] || '';
 
-    // Build page HTML
+    // Get activity data for this project's repos
+    var projActivity = [];
+    var projRepoSlugs = projRepos.map(function (r) { return r.slug; });
+    if (_activityData && _activityData.activity_feed) {
+      projActivity = _activityData.activity_feed.filter(function (a) {
+        return projRepoSlugs.some(function (slug) {
+          return slug.indexOf(a.repo) !== -1 || a.repo.indexOf(slug.split('/').pop()) !== -1;
+        });
+      }).slice(0, 10);
+    }
+
     var tabItems = [
       { key: 'overview', label: '개요' },
       { key: 'records', label: '기록 (' + recs.length + ')' },
+      { key: 'activity', label: '활동 (' + projActivity.length + ')' },
       { key: 'wiki', label: '위키' },
       { key: 'timeline', label: '타임라인' },
       { key: 'tasks', label: '태스크 (' + tasks.length + ')' },
@@ -413,6 +561,31 @@
       }).join('');
     }
     recordsHtml += '</div>';
+
+    // Activity panel (new)
+    var activityHtml = '<div class="detail-panel" data-panel="activity" style="display:none">';
+    if (projActivity.length === 0) {
+      activityHtml += '<div class="empty-state">최근 활동이 없습니다.</div>';
+    } else {
+      activityHtml += projActivity.map(function (item) {
+        var icon = activityIcon(item.type);
+        var msg = escapeHtml((item.message || '').slice(0, 100));
+        if (item.message && item.message.length > 100) msg += '…';
+        var link = item.url ? '<a href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener" class="activity-link">↗</a>' : '';
+        return '<div class="activity-item">' +
+          '<span class="activity-icon">' + icon + '</span>' +
+          '<div class="activity-content">' +
+            '<div class="activity-msg">' + msg + '</div>' +
+            '<div class="activity-meta">' +
+              '<span class="activity-author">👤 ' + escapeHtml(item.author || '') + '</span>' +
+              '<span class="activity-time">' + timeAgo(item.date) + '</span>' +
+            '</div>' +
+          '</div>' +
+          link +
+        '</div>';
+      }).join('');
+    }
+    activityHtml += '</div>';
 
     // Wiki panel
     var wikiHtml = '<div class="detail-panel" data-panel="wiki" style="display:none">';
@@ -464,24 +637,53 @@
     }
     tasksHtml += '</div>';
 
-    // Repos panel
+    // Repos panel — enhanced with activity data
     var reposHtml = '<div class="detail-panel" data-panel="repos" style="display:none">';
     if (projRepos.length === 0) {
       reposHtml += '<div class="empty-state">등록된 리포가 없습니다.</div>';
     } else {
       reposHtml += '<div class="repo-list">' + projRepos.map(function (r) {
         var url = r.url || ('https://github.com/Daegu-Agent-Crew/' + r.slug);
+        // Find matching activity data
+        var repoActivity = null;
+        if (_activityData && _activityData.repos) {
+          var slugNorm = r.slug;
+          _activityData.repos.forEach(function (ra) {
+            if (ra.slug === slugNorm || ra.slug.indexOf(r.slug.split('/').pop()) !== -1) repoActivity = ra;
+          });
+        }
+
+        var activityBadges = '';
+        if (repoActivity) {
+          if (repoActivity.open_prs > 0) activityBadges += '<span class="repo-badge repo-badge-pr">🔀 ' + repoActivity.open_prs + ' PR</span>';
+          if (repoActivity.open_issues > 0) activityBadges += '<span class="repo-badge repo-badge-issue">❗ ' + repoActivity.open_issues + '</span>';
+          if (repoActivity.pushed_at) activityBadges += '<span class="repo-badge repo-badge-time">⏱ ' + timeAgo(repoActivity.pushed_at) + '</span>';
+        }
+
+        var commits = '';
+        if (repoActivity && repoActivity.recent_commits && repoActivity.recent_commits.length > 0) {
+          commits = '<div class="repo-commits">' +
+            repoActivity.recent_commits.slice(0, 3).map(function (c) {
+              var cmsg = escapeHtml((c.message || '').slice(0, 80));
+              if (c.message && c.message.length > 80) cmsg += '…';
+              return '<div class="repo-commit"><code class="commit-sha">' + escapeHtml(c.sha) + '</code> <span class="commit-msg">' + cmsg + '</span> <span class="commit-author">' + escapeHtml(c.author || '') + '</span></div>';
+            }).join('') +
+          '</div>';
+        }
+
         return '<div class="repo-item">' +
           '<div class="repo-slug">' +
-            (url ? '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">' + escapeHtml(r.slug) + '</a>' : escapeHtml(r.slug)) +
+            '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">' + escapeHtml(r.slug) + '</a>' +
           '</div>' +
           '<div class="repo-role">' + escapeHtml(r.role || '') + '</div>' +
+          '<div class="repo-card-badges">' + activityBadges + '</div>' +
+          commits +
         '</div>';
       }).join('') + '</div>';
     }
     reposHtml += '</div>';
 
-    // Assemble full page
+    // Assemble
     var pageHtml =
       '<div class="detail-page">' +
         '<div class="detail-page-header">' +
@@ -500,6 +702,7 @@
         '<div class="detail-body">' +
           overviewHtml +
           recordsHtml +
+          activityHtml +
           wikiHtml +
           tlHtml +
           tasksHtml +
@@ -507,14 +710,11 @@
         '</div>' +
       '</div>';
 
-    // Replace main content
     var main = $('.dashboard-main');
     main.innerHTML = pageHtml;
 
-    // Scroll to top
     window.scrollTo(0, 0);
 
-    // Tab switching
     main.addEventListener('click', function (e) {
       var btn = e.target.closest('.detail-tab-btn');
       if (btn) {
@@ -527,66 +727,103 @@
     });
   }
 
-  // ── Dashboard page (default view) ──
+  // ── Dashboard page ──
 
   function renderDashboard() {
     var data = _dashboardData;
     if (!data) return;
 
-    // Re-render the full dashboard HTML
     var main = $('.dashboard-main');
+
+    // Build section HTML — now includes Activity Feed and Repositories
+    var sections = '';
+
+    // Overview
+    sections += '<section id="overview" class="section"><div class="section-inner">' +
+      '<div class="section-title-wrap"><h2 class="section-title">📊 팀 개요</h2><button class="help-btn" data-help="overview" aria-label="도움말">?</button></div>' +
+      '<div class="stats-grid" id="stats-grid"></div>' +
+    '</div></section>';
+
+    // Activity Feed (new)
+    sections += '<section id="activity" class="section"><div class="section-inner">' +
+      '<div class="section-title-wrap"><h2 class="section-title">🔥 최근 활동</h2></div>' +
+      '<p class="section-desc">최근 30일간의 커밋, PR 활동' +
+      (_activityData ? ' · <span class="activity-updated">' + timeAgo(_activityData.generated) + ' 업데이트</span>' : '') +
+      '</p>' +
+      '<div id="activity-list" class="activity-list"></div>' +
+    '</div></section>';
+
+    // Repositories (new)
+    sections += '<section id="repositories" class="section"><div class="section-inner">' +
+      '<div class="section-title-wrap"><h2 class="section-title">🔗 리포지토리</h2></div>' +
+      '<p class="section-desc">전체 리포지토리 현황 및 최근 커밋</p>' +
+      '<div id="repos-list" class="repos-list"></div>' +
+    '</div></section>';
+
+    // Wiki
+    sections += '<section id="wiki" class="section"><div class="section-inner">' +
+      '<div class="section-title-wrap"><h2 class="section-title">📖 위키 요약</h2><button class="help-btn" data-help="wiki" aria-label="도움말">?</button></div>' +
+      '<p class="section-desc">각 프로젝트의 현재 컨텍스트 요약</p>' +
+      '<div id="wiki-content" class="wiki-container"></div>' +
+    '</div></section>';
+
+    // Timeline
+    sections += '<section id="timeline" class="section"><div class="section-inner">' +
+      '<div class="section-title-wrap"><h2 class="section-title">🕐 타임라인</h2><button class="help-btn" data-help="timeline" aria-label="도움말">?</button></div>' +
+      '<p class="section-desc">팀 활동을 시간순으로 정리합니다</p>' +
+      '<div id="timeline-list" class="timeline"></div>' +
+      '<div id="no-timeline" class="empty-state" style="display:none">공개 기록이 없습니다.</div>' +
+    '</div></section>';
+
+    // Projects
+    sections += '<section id="projects" class="section"><div class="section-inner">' +
+      '<div class="section-title-wrap"><h2 class="section-title">🚀 프로젝트</h2><button class="help-btn" data-help="projects" aria-label="도움말">?</button></div>' +
+      '<div id="projects-list" class="card-grid"></div>' +
+    '</div></section>';
+
+    // Tasks
+    sections += '<section id="tasks" class="section"><div class="section-inner">' +
+      '<div class="section-title-wrap"><h2 class="section-title">✅ 태스크</h2><button class="help-btn" data-help="tasks" aria-label="도움말">?</button></div>' +
+      '<div id="tasks-list" class="task-list"></div>' +
+      '<div id="no-tasks" class="empty-state" style="display:none">아직 추적 중인 태스크가 없습니다.</div>' +
+    '</div></section>';
+
+    // Decisions
+    sections += '<section id="decisions" class="section"><div class="section-inner">' +
+      '<div class="section-title-wrap"><h2 class="section-title">📜 결정 로그</h2><button class="help-btn" data-help="decisions" aria-label="도움말">?</button></div>' +
+      '<p class="section-desc">팀의 결정과 그 배경을 기록합니다</p>' +
+      '<div id="decisions-list" class="decision-list"></div>' +
+      '<div id="no-decisions" class="empty-state" style="display:none">아직 기록된 결정이 없습니다.</div>' +
+    '</div></section>';
+
+    // Members
+    sections += '<section id="members" class="section"><div class="section-inner">' +
+      '<div class="section-title-wrap"><h2 class="section-title">👥 팀 멤버</h2><button class="help-btn" data-help="members" aria-label="도움말">?</button></div>' +
+      '<div id="members-list" class="member-grid"></div>' +
+    '</div></section>';
+
+    // Records
+    sections += '<section id="records" class="section"><div class="section-inner">' +
+      '<div class="section-title-wrap"><h2 class="section-title">📂 전체 기록</h2><button class="help-btn" data-help="records" aria-label="도움말">?</button></div>' +
+      '<div id="records-tabs" class="tab-bar"></div>' +
+      '<div id="records-content" class="records-content"></div>' +
+    '</div></section>';
+
     main.innerHTML =
       '<div id="loading" class="loading">불러오는 중...</div>' +
       '<div id="error" class="error" style="display:none"></div>' +
-      '<div id="content" style="display:none">' +
-        '<section id="overview" class="section"><div class="section-inner">' +
-          '<div class="section-title-wrap"><h2 class="section-title">📊 팀 개요</h2><button class="help-btn" data-help="overview" aria-label="도움말">?</button></div>' +
-          '<div class="stats-grid" id="stats-grid"></div>' +
-        '</div></section>' +
-        '<section id="wiki" class="section"><div class="section-inner">' +
-          '<div class="section-title-wrap"><h2 class="section-title">📖 위키 요약</h2><button class="help-btn" data-help="wiki" aria-label="도움말">?</button></div>' +
-          '<p class="section-desc">각 프로젝트의 현재 컨텍스트 요약</p>' +
-          '<div id="wiki-content" class="wiki-container"></div>' +
-        '</div></section>' +
-        '<section id="timeline" class="section"><div class="section-inner">' +
-          '<div class="section-title-wrap"><h2 class="section-title">🕐 타임라인</h2><button class="help-btn" data-help="timeline" aria-label="도움말">?</button></div>' +
-          '<p class="section-desc">팀 활동을 시간순으로 정리합니다</p>' +
-          '<div id="timeline-list" class="timeline"></div>' +
-          '<div id="no-timeline" class="empty-state" style="display:none">공개 기록이 없습니다.</div>' +
-        '</div></section>' +
-        '<section id="projects" class="section"><div class="section-inner">' +
-          '<div class="section-title-wrap"><h2 class="section-title">🚀 프로젝트</h2><button class="help-btn" data-help="projects" aria-label="도움말">?</button></div>' +
-          '<div id="projects-list" class="card-grid"></div>' +
-        '</div></section>' +
-        '<section id="tasks" class="section"><div class="section-inner">' +
-          '<div class="section-title-wrap"><h2 class="section-title">✅ 태스크</h2><button class="help-btn" data-help="tasks" aria-label="도움말">?</button></div>' +
-          '<div id="tasks-list" class="task-list"></div>' +
-          '<div id="no-tasks" class="empty-state" style="display:none">아직 추적 중인 태스크가 없습니다.</div>' +
-        '</div></section>' +
-        '<section id="decisions" class="section"><div class="section-inner">' +
-          '<div class="section-title-wrap"><h2 class="section-title">📜 결정 로그</h2><button class="help-btn" data-help="decisions" aria-label="도움말">?</button></div>' +
-          '<p class="section-desc">팀의 결정과 그 배경을 기록합니다</p>' +
-          '<div id="decisions-list" class="decision-list"></div>' +
-          '<div id="no-decisions" class="empty-state" style="display:none">아직 기록된 결정이 없습니다.</div>' +
-        '</div></section>' +
-        '<section id="members" class="section"><div class="section-inner">' +
-          '<div class="section-title-wrap"><h2 class="section-title">👥 팀 멤버</h2><button class="help-btn" data-help="members" aria-label="도움말">?</button></div>' +
-          '<div id="members-list" class="member-grid"></div>' +
-        '</div></section>' +
-        '<section id="records" class="section"><div class="section-inner">' +
-          '<div class="section-title-wrap"><h2 class="section-title">📂 전체 기록</h2><button class="help-btn" data-help="records" aria-label="도움말">?</button></div>' +
-          '<div id="records-tabs" class="tab-bar"></div>' +
-          '<div id="records-content" class="records-content"></div>' +
-        '</div></section>' +
-      '</div>';
+      '<div id="content" style="display:none">' + sections + '</div>';
 
     $('#loading').style.display = 'none';
     $('#content').style.display = 'block';
 
     var gen = data.generated ? data.generated.replace('T', ' ').replace('Z', ' UTC') : '';
-    $('#generated-time').textContent = gen;
+    var genEl = $('#generated-time');
+    if (genEl) genEl.textContent = gen;
 
     renderStats(data);
+    renderActivityFeed();
+    renderRepositories();
     renderWiki(data);
     renderTimeline(data);
     renderProjects(data);
@@ -598,12 +835,13 @@
 
   // ── Init ──
 
-  function init(data) {
+  function init(data, activity) {
     _dashboardData = data;
+    _activityData = activity;
     handleRoute();
   }
 
-  // ── Help Modal System ──
+  // ── Help Modal System (preserved) ──
 
   var HUMAN = '<span class="role-tag role-human">👤 사람</span>';
   var AGENT = '<span class="role-tag role-agent">🤖 에이전트</span>';
@@ -623,7 +861,6 @@
         '</ol>' +
         '<div class="tip">💡 GitHub Actions를 연동하면 <code>team-memory</code> push 시 자동 갱신도 가능합니다.</div>'
     },
-
     wiki: {
       title: '📖 위키 요약 — 업데이트 방법',
       body: '<p>각 프로젝트의 <strong>현재 컨텍스트 요약</strong>입니다. 소스 레코드에서 자동 생성됩니다.</p>' +
@@ -634,15 +871,8 @@
         '<li><code>bin/memory-ingest</code> — 레코드가 아직 없으면 먼저 추가</li>' +
         '<li><code>bin/memory-wiki --project &lt;project&gt;</code> — 위키 재생성</li>' +
         '<li><code>bin/memory-verify</code> — 인용·안전 검증</li>' +
-        '</ol>' +
-        '<h4>위키 규칙</h4>' +
-        '<ul>' +
-        '<li>직접 편집 금지 — <code>memory-wiki</code>가 레코드에서 자동 생성</li>' +
-        '<li>모든 인용은 <code>[source: context/records/...]</code> 형식</li>' +
-        '<li>레코드 충돌 시 한쪽을 없애지 말고 충돌 보존</li>' +
-        '</ul>'
+        '</ol>'
     },
-
     timeline: {
       title: '🕐 타임라인 — 레코드 추가 방법',
       body: '<p>새 레코드가 추가되면 자동으로 타임라인에 나타납니다.</p>' +
@@ -657,114 +887,52 @@
         '<li><code>bin/memory-wiki --project &lt;project&gt;</code></li>' +
         '<li><code>bin/memory-verify</code></li>' +
         '</ol>' +
-        '<h4>source_type 종류</h4>' +
-        '<ul>' +
-        '<li><code>codex-session</code> · <code>meeting-note</code> · <code>research-note</code> · <code>decision</code> · <code>messenger-manual</code> · <code>markdown</code> · <code>repo-note</code></li>' +
-        '</ul>' +
         '<div class="warn">⚠️ 민감한 레코드에 <code>visibility: private</code> 추가 → 대시보드에서 제외됩니다.</div>'
     },
-
     projects: {
       title: '🚀 프로젝트 — 등록 및 관리',
       body: '<h4>' + HUMAN + ' 프로젝트 등록 지시</h4>' +
-        '<div class="tip"><code>tm-load</code> — 기존 프로젝트 확인 후 작업 시작</div>' +
-        '<p>새 프로젝트가 필요하면 에이전트에게 지시:</p>' +
-        '<p>"새 프로젝트 my-project를 등록해줘"</p>' +
+        '<div class="tip"><code>tm-load</code></div>' +
+        '<p>새 프로젝트가 필요하면 에이전트에게 지시하세요.</p>' +
         '<h4>' + AGENT + ' 실행 워크플로</h4>' +
         '<ol>' +
-        '<li><code>context/registry/projects/my-project.yml</code> 작성</li>' +
+        '<li><code>context/registry/projects/</code>에 YAML 작성</li>' +
         '<li><code>bin/memory-verify</code>로 검증</li>' +
-        '</ol>' +
-        '<pre><code># context/registry/projects/my-project.yml\nid: my-project\nname: "내 프로젝트"\nstatus: active\nkind: "development"\ndescription: "프로젝트 설명"</code></pre>' +
-        '<h4>프로젝트 상태값</h4>' +
-        '<ul><li><code>active</code> · <code>planning</code> · <code>paused</code> · <code>completed</code></li></ul>' +
-        '<h4>리포지토리 연결</h4>' +
-        '<p>에이전트가 <code>context/registry/repositories/</code>에 YAML을 작성합니다.</p>' +
-        '<pre><code>slug: my-repo\nproject: my-project\nrole: "리포 설명"\nurl: https://github.com/org/repo</code></pre>'
+        '</ol>'
     },
-
     tasks: {
       title: '✅ 태스크 — 추적 방법',
       body: '<h4>' + HUMAN + ' 태스크 생성 지시</h4>' +
         '<div class="tip"><code>tm-ingest</code></div>' +
-        '<p>예: "API 서버 프로토타입을 태스크로 등록해줘. 담당 normalkim, 마감 7/1"</p>' +
-        '<h4>' + AGENT + ' 실행 워크플로</h4>' +
-        '<ol>' +
-        '<li><code>task_phase</code> 필드가 포함된 레코드 작성</li>' +
-        '<li><code>bin/memory-ingest</code>로 추가</li>' +
-        '<li><code>bin/memory-verify</code>로 검증</li>' +
-        '<li><code>bin/memory-dashboard</code>로 JSON 갱신</li>' +
-        '</ol>' +
         '<h4>태스크 레코드 프론트매터</h4>' +
-        '<pre><code>task_phase: development      # 필수 — 태스크로 인식됨\ntask_status: in-progress     # pending | in-progress | done | blocked\nmilestone: M1                # 선택\nassignee: normalkim          # 선택\ndue: 2026-07-01              # 선택</code></pre>' +
-        '<h4>task_status 값</h4>' +
-        '<ul>' +
-        '<li><code>pending</code> ⏳ · <code>in-progress</code> 🔄 · <code>done</code> ✅ · <code>blocked</code> 🚫</li>' +
-        '</ul>'
+        '<pre><code>task_phase: development\ntask_status: in-progress\nmilestone: M1\nassignee: normalkim\ndue: 2026-07-01</code></pre>'
     },
-
     decisions: {
       title: '📜 결정 로그 — 기록 방법',
       body: '<h4>' + HUMAN + ' 결정 기록 지시</h4>' +
         '<div class="tip"><code>tm-ingest</code></div>' +
-        '<p>예: "FastAPI 백엔드 채택을 결정 로그에 기록해줘"</p>' +
-        '<h4>' + AGENT + ' 실행 워크플로</h4>' +
-        '<ol>' +
-        '<li><code>decision_status</code> 필드가 포함된 레코드 작성</li>' +
-        '<li><code>bin/memory-ingest</code>로 추가</li>' +
-        '<li><code>bin/memory-verify</code>로 검증</li>' +
-        '</ol>' +
-        '<pre><code>decision_status: active     # 필수 — 결정으로 인식됨\n\n# 본문에는 결정 내용, 근거, 기각된 대안 포함</code></pre>' +
-        '<h4>decision_status 값</h4>' +
-        '<ul>' +
-        '<li><code>active</code> ✅ · <code>revised</code> 🔄 · <code>superseded</code> ⏭️ · <code>reverted</code> ↩️</li>' +
-        '</ul>' +
-        '<div class="tip">💡 결정 본문 전체가 대시보드에 렌더링됩니다. 배경·근거·대안까지 상세히 적으면 좋습니다.</div>'
+        '<pre><code>decision_status: active</code></pre>'
     },
-
     members: {
       title: '👥 멤버 — 등록 방법',
       body: '<h4>' + HUMAN + ' 멤버 추가 지시</h4>' +
-        '<p>에이전트에게 지시:</p>' +
-        '<p>"새 멤버 github-id를 team-memory에 추가해줘"</p>' +
-        '<div class="warn">⚠️ 멤버 추가는 <strong>반드시 사람이 승인</strong>해야 합니다. 에이전트가 임의로 추가하지 않습니다.</div>' +
+        '<div class="warn">⚠️ 멤버 추가는 <strong>반드시 사람이 승인</strong>해야 합니다.</div>' +
         '<h4>' + AGENT + ' 실행 워크플로 (승인 후)</h4>' +
         '<ol>' +
         '<li><code>.github/team-memory-members.yml</code>에 GitHub 아이디 추가</li>' +
         '<li><code>bin/memory-verify</code>로 검증</li>' +
-        '</ol>' +
-        '<h4>규칙</h4>' +
-        '<ul>' +
-        '<li>GitHub 아이디만 허용 (영문, 숫자, 하이픈)</li>' +
-        '<li>이 목록에 있는 멤버만 레코드 생성 가능</li>' +
-        '</ul>'
+        '</ol>'
     },
-
     records: {
       title: '📂 전체 기록 — 관리 방법',
       body: '<h4>기록 원칙</h4>' +
-        '<p>모든 기록은 <strong>append-only</strong> (추가 전용)입니다.</p>' +
-        '<h4>' + HUMAN + ' 작업 시작 지시</h4>' +
-        '<div class="tip"><code>tm-load</code> — 프로젝트 컨텍스트 로드 후 작업 시작</div>' +
-        '<h4>' + AGENT + ' 전체 워크플로</h4>' +
-        '<ol>' +
-        '<li><code>bin/memory-load</code> — 컨텍스트 로드</li>' +
-        '<li><code>bin/memory-ingest</code> — 레코드 추가</li>' +
-        '<li><code>bin/memory-wiki</code> — 위키 갱신</li>' +
-        '<li><code>bin/memory-verify</code> — 검증</li>' +
-        '<li><code>bin/memory-dashboard</code> — 대시보드 JSON 생성</li>' +
-        '<li><code>bin/memory-share-plan</code> — 공유 초안 작성 (승인 필요)</li>' +
-        '</ol>' +
+        '<p>모든 기록은 <strong>append-only</strong>입니다.</p>' +
         '<div class="tip">💡 <code>tm-sync</code> 스킬을 쓰면 verify + Git 상태를 한번에 확인합니다.</div>' +
         '<h4>공개/비공개 제어</h4>' +
         '<ul>' +
         '<li><code>visibility: private</code> → 대시보드에서 제외</li>' +
-        '<li>visibility 필드 없음 → 기본 공개</li>' +
-        '</ul>' +
-        '<h4>금지 사항</h4>' +
-        '<ul>' +
-        '<li>비밀, 자격증명, 개인 연락처 기록 금지</li>' +
-        '<li>외부 메신저 발송 전 <strong>반드시 사람 승인</strong></li>' +
+        '<li>visibility 필드 없음 → 기본 비공개</li>' +
+        '<li><code>visibility: public</code> → 대시보드에 표시</li>' +
         '</ul>'
     }
   };
@@ -815,16 +983,22 @@
   // ── Bootstrap ──
 
   setupHelpModals();
-
-  // Hash change routing
   window.addEventListener('hashchange', handleRoute);
 
-  fetch(DATA_PATH)
-    .then(function (res) {
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      return res.json();
+  // Fetch both data files in parallel
+  var dashPromise = fetch(DATA_PATH).then(function (res) {
+    if (!res.ok) throw new Error('dashboard.json HTTP ' + res.status);
+    return res.json();
+  });
+
+  var activityPromise = fetch(ACTIVITY_PATH)
+    .then(function (res) { return res.ok ? res.json() : null; })
+    .catch(function () { return null; });
+
+  Promise.all([dashPromise, activityPromise])
+    .then(function (results) {
+      init(results[0], results[1]);
     })
-    .then(init)
     .catch(function (err) {
       var main = $('.dashboard-main');
       main.innerHTML = '<div class="error">대시보드 데이터를 불러오지 못했습니다: ' + escapeHtml(err.message) + '</div>';
