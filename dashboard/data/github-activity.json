@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-18T15:46:33Z",
-  "since": "2026-05-19T15:46:07Z",
+  "generated": "2026-06-18T18:47:20Z",
+  "since": "2026-05-19T18:46:52Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-17T21:30:58Z",
-      "pushed_at": "2026-06-17T21:30:54Z",
+      "updated_at": "2026-06-18T15:48:51Z",
+      "pushed_at": "2026-06-18T15:48:31Z",
       "recent_commits": [
+        {
+          "sha": "3558650",
+          "message": "dashboard: update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-06-18T15:47:18Z"
+        },
         {
           "sha": "9e84463",
           "message": "feat: 대시보드 GitHub 연동 + UI 고도화",
@@ -85,12 +91,6 @@
           "message": "chore: dashboard.json 업데이트 — 멤버 3명 추가 (daeguru, Normalist-K, juntaek-lee)",
           "author": "daeguru",
           "date": "2026-06-17T20:56:07Z"
-        },
-        {
-          "sha": "987e98e",
-          "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#1)",
-          "author": "Normalist-K",
-          "date": "2026-06-17T20:44:44Z"
         }
       ],
       "recent_prs": [
@@ -359,9 +359,15 @@
       "private": true,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-12T15:33:24Z",
-      "pushed_at": "2026-06-12T15:33:21Z",
+      "updated_at": "2026-06-18T15:48:36Z",
+      "pushed_at": "2026-06-18T15:48:31Z",
       "recent_commits": [
+        {
+          "sha": "65d1779",
+          "message": "wiki: regenerate context wikis + sync records and registry",
+          "author": "daeguru",
+          "date": "2026-06-18T15:47:12Z"
+        },
         {
           "sha": "62ea1cb",
           "message": "feat: 삼체 만화 2026-06-12 작업 기록 3건 + wiki 업데이트",
@@ -385,12 +391,6 @@
           "message": "feat: 팀원 목록 업데이트 — 삼체 만화 프로젝트 참여자 등록",
           "author": "sfex11",
           "date": "2026-06-11T05:57:00Z"
-        },
-        {
-          "sha": "1e8cc52",
-          "message": "feat: 삼체 만화 연재 프로젝트 등록",
-          "author": "sfex11",
-          "date": "2026-06-11T05:55:18Z"
         }
       ],
       "recent_prs": [
@@ -473,6 +473,24 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json",
+      "sha": "3558650",
+      "date": "2026-06-18T15:47:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3558650865f0ed16a573769e9d164dc2a9eed925"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wiki: regenerate context wikis + sync records and registry",
+      "sha": "65d1779",
+      "date": "2026-06-18T15:47:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/65d17798c3b8168fcceab26d0955a93bd47d0931"
+    },
     {
       "type": "commit",
       "repo": "agent_builder_public",
@@ -575,15 +593,6 @@
       "state": "closed",
       "date": "2026-06-17T20:44:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Normalist-K",
-      "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#1)",
-      "sha": "987e98e",
-      "date": "2026-06-17T20:44:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/987e98ef1ff04fac19e2b4b8c9652582191753ea"
     },
     {
       "type": "pr",
@@ -744,15 +753,6 @@
       "sha": "c2af37e",
       "date": "2026-06-11T05:57:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c2af37ef83fbc13cfa25749707aaacf04beb4400"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "feat: 삼체 만화 연재 프로젝트 등록",
-      "sha": "1e8cc52",
-      "date": "2026-06-11T05:55:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1e8cc52eb7adaae82885053efff02b009b3d9032"
     },
     {
       "type": "commit",
@@ -942,21 +942,21 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 10,
+      "commits": 9,
       "prs": 8,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 9,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "Normalist-K",
-      "commits": 7,
+      "commits": 6,
       "prs": 4,
       "issues": 0,
       "reviews": 0
