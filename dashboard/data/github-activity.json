@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-17T21:28:04Z",
-  "since": "2026-05-18T21:27:39Z",
+  "generated": "2026-06-18T15:46:33Z",
+  "since": "2026-05-19T15:46:07Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-17T21:07:58Z",
-      "pushed_at": "2026-06-17T21:07:23Z",
+      "updated_at": "2026-06-17T21:30:58Z",
+      "pushed_at": "2026-06-17T21:30:54Z",
       "recent_commits": [
+        {
+          "sha": "9e84463",
+          "message": "feat: 대시보드 GitHub 연동 + UI 고도화",
+          "author": "daeguru",
+          "date": "2026-06-17T21:30:53Z"
+        },
         {
           "sha": "9d4f351",
           "message": "fix: remove broken WHITEPAPER.md symlink (target .agents/skills/ ignored by .gitignore)",
@@ -85,12 +91,6 @@
           "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#1)",
           "author": "Normalist-K",
           "date": "2026-06-17T20:44:44Z"
-        },
-        {
-          "sha": "c45d961",
-          "message": "Revert \"chore: dashboard.json 업데이트 — 멤버 9명, 리포 2개 동기화\"",
-          "author": "daeguru",
-          "date": "2026-06-17T20:37:14Z"
         }
       ],
       "recent_prs": [
@@ -290,7 +290,7 @@
       "slug": "Daegu-Agent-Crew/team-memory-kit",
       "name": "team-memory-kit",
       "private": false,
-      "open_issues": 0,
+      "open_issues": 1,
       "open_prs": 0,
       "updated_at": "2026-06-17T20:44:43Z",
       "pushed_at": "2026-06-17T20:44:41Z",
@@ -477,6 +477,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "feat: 대시보드 GitHub 연동 + UI 고도화",
+      "sha": "9e84463",
+      "date": "2026-06-17T21:30:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9e8446331e99648b3a3cc718c13b71f730c858a7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "fix: remove broken WHITEPAPER.md symlink (target .agents/skills/ ignored by .gitignore)",
       "sha": "9d4f351",
       "date": "2026-06-17T21:07:23Z",
@@ -613,15 +622,6 @@
       "sha": "06edf98",
       "date": "2026-06-17T20:44:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/06edf9842f4bfaac97261e21f0ad57b4566502b6"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Revert \"chore: dashboard.json 업데이트 — 멤버 9명, 리포 2개 동기화\"",
-      "sha": "c45d961",
-      "date": "2026-06-17T20:37:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c45d961164cc9a3527046caabe06fb8c380fe644"
     },
     {
       "type": "commit",
