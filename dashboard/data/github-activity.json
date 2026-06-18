@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-18T18:47:20Z",
-  "since": "2026-05-19T18:46:52Z",
+  "generated": "2026-06-18T21:46:47Z",
+  "since": "2026-05-19T21:46:20Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-18T15:48:51Z",
-      "pushed_at": "2026-06-18T15:48:31Z",
+      "updated_at": "2026-06-18T18:48:12Z",
+      "pushed_at": "2026-06-18T18:48:08Z",
       "recent_commits": [
+        {
+          "sha": "0e9a708",
+          "message": "update dashboard data: dashboard.json + github-activity.json (auto 2026-06-18)",
+          "author": "daeguru",
+          "date": "2026-06-18T18:48:08Z"
+        },
         {
           "sha": "3558650",
           "message": "dashboard: update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore: dashboard.json 업데이트 — 프로젝트 6개, 리포 9개 동기화",
           "author": "daeguru",
           "date": "2026-06-17T21:01:14Z"
-        },
-        {
-          "sha": "bcde433",
-          "message": "chore: dashboard.json 업데이트 — 멤버 3명 추가 (daeguru, Normalist-K, juntaek-lee)",
-          "author": "daeguru",
-          "date": "2026-06-17T20:56:07Z"
         }
       ],
       "recent_prs": [
@@ -359,9 +359,15 @@
       "private": true,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-18T15:48:36Z",
-      "pushed_at": "2026-06-18T15:48:31Z",
+      "updated_at": "2026-06-18T18:47:56Z",
+      "pushed_at": "2026-06-18T18:47:52Z",
       "recent_commits": [
+        {
+          "sha": "e2b2d4a",
+          "message": "update wiki: three-body-comic current-context (auto)",
+          "author": "daeguru",
+          "date": "2026-06-18T18:47:52Z"
+        },
         {
           "sha": "65d1779",
           "message": "wiki: regenerate context wikis + sync records and registry",
@@ -385,12 +391,6 @@
           "message": "feat: register three-body-comic repository",
           "author": "daeguru",
           "date": "2026-06-12T01:43:46Z"
-        },
-        {
-          "sha": "c2af37e",
-          "message": "feat: 팀원 목록 업데이트 — 삼체 만화 프로젝트 참여자 등록",
-          "author": "sfex11",
-          "date": "2026-06-11T05:57:00Z"
         }
       ],
       "recent_prs": [
@@ -477,6 +477,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "update dashboard data: dashboard.json + github-activity.json (auto 2026-06-18)",
+      "sha": "0e9a708",
+      "date": "2026-06-18T18:48:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0e9a708caf54b155114eab8b4ba6ec855e6a9e38"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "update wiki: three-body-comic current-context (auto)",
+      "sha": "e2b2d4a",
+      "date": "2026-06-18T18:47:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e2b2d4a77f0951461e9a8a9d5399d21ee1a20d97"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json",
       "sha": "3558650",
       "date": "2026-06-18T15:47:18Z",
@@ -517,15 +535,6 @@
       "sha": "c114f16",
       "date": "2026-06-17T21:01:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c114f167ed91145d2795deaedcd5bcd6906944a0"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: dashboard.json 업데이트 — 멤버 3명 추가 (daeguru, Normalist-K, juntaek-lee)",
-      "sha": "bcde433",
-      "date": "2026-06-17T20:56:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bcde433f0793757e109ed27148d2291cf286e346"
     },
     {
       "type": "pr",
@@ -747,15 +756,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "feat: 팀원 목록 업데이트 — 삼체 만화 프로젝트 참여자 등록",
-      "sha": "c2af37e",
-      "date": "2026-06-11T05:57:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c2af37ef83fbc13cfa25749707aaacf04beb4400"
-    },
-    {
-      "type": "commit",
       "repo": "election2663-archive-public",
       "author": "renover",
       "message": "feat: 선거 결과 정리 및 아카이브 마무리",
@@ -941,16 +941,16 @@
   ],
   "member_stats": [
     {
-      "login": "sfex11",
-      "commits": 9,
-      "prs": 8,
+      "login": "daeguru",
+      "commits": 10,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "daeguru",
-      "commits": 9,
-      "prs": 0,
+      "login": "sfex11",
+      "commits": 8,
+      "prs": 8,
       "issues": 0,
       "reviews": 0
     },
