@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-18T21:46:47Z",
-  "since": "2026-05-19T21:46:20Z",
+  "generated": "2026-06-19T00:45:55Z",
+  "since": "2026-05-20T00:45:30Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-18T18:48:12Z",
-      "pushed_at": "2026-06-18T18:48:08Z",
+      "updated_at": "2026-06-18T21:47:57Z",
+      "pushed_at": "2026-06-18T21:47:53Z",
       "recent_commits": [
+        {
+          "sha": "ab4be4e",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-06-18T21:47:49Z"
+        },
         {
           "sha": "0e9a708",
           "message": "update dashboard data: dashboard.json + github-activity.json (auto 2026-06-18)",
@@ -85,12 +91,6 @@
           "message": "fix: remove broken WHITEPAPER.md symlink (target .agents/skills/ ignored by .gitignore)",
           "author": "daeguru",
           "date": "2026-06-17T21:07:23Z"
-        },
-        {
-          "sha": "c114f16",
-          "message": "chore: dashboard.json 업데이트 — 프로젝트 6개, 리포 9개 동기화",
-          "author": "daeguru",
-          "date": "2026-06-17T21:01:14Z"
         }
       ],
       "recent_prs": [
@@ -477,6 +477,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json",
+      "sha": "ab4be4e",
+      "date": "2026-06-18T21:47:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ab4be4ec21d0305f4ec8988fc6ed9c121bc24be4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "update dashboard data: dashboard.json + github-activity.json (auto 2026-06-18)",
       "sha": "0e9a708",
       "date": "2026-06-18T18:48:08Z",
@@ -526,15 +535,6 @@
       "sha": "9d4f351",
       "date": "2026-06-17T21:07:23Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9d4f351e9d4f7754fb516df775a6e1f5fdbbfec7"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: dashboard.json 업데이트 — 프로젝트 6개, 리포 9개 동기화",
-      "sha": "c114f16",
-      "date": "2026-06-17T21:01:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c114f167ed91145d2795deaedcd5bcd6906944a0"
     },
     {
       "type": "pr",
