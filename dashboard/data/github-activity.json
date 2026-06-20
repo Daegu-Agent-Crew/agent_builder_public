@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-20T09:45:44Z",
-  "since": "2026-05-21T09:45:20Z",
+  "generated": "2026-06-20T12:45:06Z",
+  "since": "2026-05-21T12:44:41Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-20T06:48:26Z",
-      "pushed_at": "2026-06-20T06:48:23Z",
+      "updated_at": "2026-06-20T09:47:05Z",
+      "pushed_at": "2026-06-20T09:47:02Z",
       "recent_commits": [
+        {
+          "sha": "6b7ec95",
+          "message": "📊 dashboard update: 2026-06-20 09:46 UTC",
+          "author": "daeguru",
+          "date": "2026-06-20T09:46:58Z"
+        },
         {
           "sha": "d782fcc",
           "message": "📊 dashboard: update wiki stats & GitHub activity (2026-06-20T06:48:18Z)",
@@ -85,12 +91,6 @@
           "message": "📊 Update dashboard data (2026-06-20)",
           "author": "daeguru",
           "date": "2026-06-19T21:45:36Z"
-        },
-        {
-          "sha": "344e7e1",
-          "message": "📊 Update dashboard data & GitHub activity",
-          "author": "daeguru",
-          "date": "2026-06-19T18:46:04Z"
         }
       ],
       "recent_prs": [
@@ -475,6 +475,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 dashboard update: 2026-06-20 09:46 UTC",
+      "sha": "6b7ec95",
+      "date": "2026-06-20T09:46:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6b7ec95b9df42331b4567231a25e881371d0824b"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add GPT Image 2.0 webtoon analysis for samchee comic project",
@@ -544,15 +553,6 @@
       "sha": "76c34c3",
       "date": "2026-06-19T21:00:42Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/76c34c3ccfd37cc5d7f7ade1da1da40445358758"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 Update dashboard data & GitHub activity",
-      "sha": "344e7e1",
-      "date": "2026-06-19T18:46:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/344e7e16cebcccd7cc0390c9ff5486e3b4173e07"
     },
     {
       "type": "commit",
