@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-20T06:47:47Z",
-  "since": "2026-05-21T06:47:21Z",
+  "generated": "2026-06-20T09:45:44Z",
+  "since": "2026-05-21T09:45:20Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-20T03:48:19Z",
-      "pushed_at": "2026-06-20T03:48:15Z",
+      "updated_at": "2026-06-20T06:48:26Z",
+      "pushed_at": "2026-06-20T06:48:23Z",
       "recent_commits": [
+        {
+          "sha": "d782fcc",
+          "message": "📊 dashboard: update wiki stats & GitHub activity (2026-06-20T06:48:18Z)",
+          "author": "daeguru",
+          "date": "2026-06-20T06:48:18Z"
+        },
         {
           "sha": "0039345",
           "message": "dashboard: update data (wiki, github activity) — 2026-06-20",
@@ -85,12 +91,6 @@
           "message": "📊 Update dashboard data & GitHub activity",
           "author": "daeguru",
           "date": "2026-06-19T18:46:04Z"
-        },
-        {
-          "sha": "5301da6",
-          "message": "📊 Update dashboard data — 2026-06-19T15:47:07Z",
-          "author": "daeguru",
-          "date": "2026-06-19T15:47:07Z"
         }
       ],
       "recent_prs": [
@@ -359,9 +359,21 @@
       "private": true,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-20T04:05:35Z",
-      "pushed_at": "2026-06-20T04:05:31Z",
+      "updated_at": "2026-06-20T09:30:31Z",
+      "pushed_at": "2026-06-20T09:30:27Z",
       "recent_commits": [
+        {
+          "sha": "79efcae",
+          "message": "Add GPT Image 2.0 webtoon analysis for samchee comic project",
+          "author": "sfex11",
+          "date": "2026-06-20T09:30:27Z"
+        },
+        {
+          "sha": "cd15f24",
+          "message": "Add llm-wiki-vs-rag-realworld video summary record",
+          "author": "sfex11",
+          "date": "2026-06-20T07:33:58Z"
+        },
         {
           "sha": "890a07c",
           "message": "docs: CLE 프로젝트 컨텍스트 - Codex timeout 가이드 포함",
@@ -379,18 +391,6 @@
           "message": "Add AI business strategy video summary record",
           "author": "sfex11",
           "date": "2026-06-19T07:25:14Z"
-        },
-        {
-          "sha": "c6d88b0",
-          "message": "chore: update shebang for termux compatibility",
-          "author": "daeguru",
-          "date": "2026-06-19T06:52:31Z"
-        },
-        {
-          "sha": "e2b2d4a",
-          "message": "update wiki: three-body-comic current-context (auto)",
-          "author": "daeguru",
-          "date": "2026-06-18T18:47:52Z"
         }
       ],
       "recent_prs": [
@@ -477,6 +477,33 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
+      "message": "Add GPT Image 2.0 webtoon analysis for samchee comic project",
+      "sha": "79efcae",
+      "date": "2026-06-20T09:30:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/79efcae6bd8c417e2fa2fc743d3025ea1f34044c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add llm-wiki-vs-rag-realworld video summary record",
+      "sha": "cd15f24",
+      "date": "2026-06-20T07:33:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cd15f24615d91f0ec047d2581f397c1cccdd3e78"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 dashboard: update wiki stats & GitHub activity (2026-06-20T06:48:18Z)",
+      "sha": "d782fcc",
+      "date": "2026-06-20T06:48:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d782fcc996e9cfdfad0030ceb4f2685e1681ac2f"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
       "message": "docs: CLE 프로젝트 컨텍스트 - Codex timeout 가이드 포함",
       "sha": "890a07c",
       "date": "2026-06-20T04:05:31Z",
@@ -529,39 +556,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 Update dashboard data — 2026-06-19T15:47:07Z",
-      "sha": "5301da6",
-      "date": "2026-06-19T15:47:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5301da680a62f57eb9edb266c236dc97ae1d5fed"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add AI business strategy video summary record",
       "sha": "83b40e4",
       "date": "2026-06-19T07:25:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/83b40e47a2de2657d21e7334d872b958139a95e4"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "chore: update shebang for termux compatibility",
-      "sha": "c6d88b0",
-      "date": "2026-06-19T06:52:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c6d88b0166627532d76800f1296a87c5b50050dd"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "update wiki: three-body-comic current-context (auto)",
-      "sha": "e2b2d4a",
-      "date": "2026-06-18T18:47:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e2b2d4a77f0951461e9a8a9d5399d21ee1a20d97"
     },
     {
       "type": "pr",
@@ -942,14 +942,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 9,
+      "commits": 11,
       "prs": 8,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 9,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
