@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-20T03:47:46Z",
-  "since": "2026-05-21T03:47:20Z",
+  "generated": "2026-06-20T06:47:47Z",
+  "since": "2026-05-21T06:47:21Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-20T00:46:01Z",
-      "pushed_at": "2026-06-20T00:45:57Z",
+      "updated_at": "2026-06-20T03:48:19Z",
+      "pushed_at": "2026-06-20T03:48:15Z",
       "recent_commits": [
+        {
+          "sha": "0039345",
+          "message": "dashboard: update data (wiki, github activity) — 2026-06-20",
+          "author": "daeguru",
+          "date": "2026-06-20T03:48:11Z"
+        },
         {
           "sha": "81a14b2",
           "message": "📊 Update dashboard data (2026-06-20)",
@@ -85,12 +91,6 @@
           "message": "📊 Update dashboard data — 2026-06-19T15:47:07Z",
           "author": "daeguru",
           "date": "2026-06-19T15:47:07Z"
-        },
-        {
-          "sha": "5da4fce",
-          "message": "📊 dashboard: update data 2026-06-19",
-          "author": "daeguru",
-          "date": "2026-06-19T12:47:17Z"
         }
       ],
       "recent_prs": [
@@ -359,9 +359,15 @@
       "private": true,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-19T21:00:46Z",
-      "pushed_at": "2026-06-19T21:00:42Z",
+      "updated_at": "2026-06-20T04:05:35Z",
+      "pushed_at": "2026-06-20T04:05:31Z",
       "recent_commits": [
+        {
+          "sha": "890a07c",
+          "message": "docs: CLE 프로젝트 컨텍스트 - Codex timeout 가이드 포함",
+          "author": "sfex11",
+          "date": "2026-06-20T04:05:31Z"
+        },
         {
           "sha": "76c34c3",
           "message": "Add gajae-code architecture analysis record",
@@ -385,12 +391,6 @@
           "message": "update wiki: three-body-comic current-context (auto)",
           "author": "daeguru",
           "date": "2026-06-18T18:47:52Z"
-        },
-        {
-          "sha": "65d1779",
-          "message": "wiki: regenerate context wikis + sync records and registry",
-          "author": "daeguru",
-          "date": "2026-06-18T15:47:12Z"
         }
       ],
       "recent_prs": [
@@ -475,6 +475,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "docs: CLE 프로젝트 컨텍스트 - Codex timeout 가이드 포함",
+      "sha": "890a07c",
+      "date": "2026-06-20T04:05:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/890a07c8baea1479c74b4eaa4f189c9b0dd35e29"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update data (wiki, github activity) — 2026-06-20",
+      "sha": "0039345",
+      "date": "2026-06-20T03:48:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/00393453cf05cc2c002cb8954c3e1c62048f4a55"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "📊 Update dashboard data (2026-06-20)",
@@ -520,15 +538,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 dashboard: update data 2026-06-19",
-      "sha": "5da4fce",
-      "date": "2026-06-19T12:47:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5da4fcedabdc90ea86781edbf09fc0990e0ccb8a"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add AI business strategy video summary record",
@@ -553,15 +562,6 @@
       "sha": "e2b2d4a",
       "date": "2026-06-18T18:47:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e2b2d4a77f0951461e9a8a9d5399d21ee1a20d97"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wiki: regenerate context wikis + sync records and registry",
-      "sha": "65d1779",
-      "date": "2026-06-18T15:47:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/65d17798c3b8168fcceab26d0955a93bd47d0931"
     },
     {
       "type": "pr",
@@ -941,16 +941,16 @@
   ],
   "member_stats": [
     {
-      "login": "daeguru",
-      "commits": 10,
-      "prs": 0,
+      "login": "sfex11",
+      "commits": 9,
+      "prs": 8,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "sfex11",
-      "commits": 8,
-      "prs": 8,
+      "login": "daeguru",
+      "commits": 9,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
