@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T00:44:51Z",
+  "generated": "2026-06-20T03:47:11Z",
   "members": [
     "sfex11",
     "normalkim",
@@ -9,11 +9,168 @@
     "Normalist-K",
     "juntaek-lee"
   ],
-  "projects": [],
-  "repositories": [],
-  "records_by_project": {},
-  "timeline": [],
-  "tasks": [],
-  "decisions": [],
-  "wiki": {}
+  "projects": [
+    {
+      "id": "agent_builder",
+      "name": "대구 에이전트 빌더",
+      "status": "active",
+      "kind": "community",
+      "description": "대구 에이전트 빌더 커뮤니티 — 가이드, 블로그, 대시보드 운영"
+    },
+    {
+      "id": "context-tree",
+      "name": "Shared Context Tree",
+      "status": "active",
+      "kind": "infrastructure",
+      "description": "Daegu Agent Crew 소스 리포 간 공유 컨텍스트 트리"
+    },
+    {
+      "id": "dabstack",
+      "name": "DabStack",
+      "status": "active",
+      "kind": "infrastructure",
+      "description": "Codex-first shared context stack for Daegu Agent Builders"
+    },
+    {
+      "id": "election2663-archive",
+      "name": "2026 대구광역시장 선거 아카이브",
+      "status": "active",
+      "kind": "archive-project",
+      "description": "2026년 6월 3일 대구광역시장 선거 관련 공개 데이터 수집·구조화 아카이브"
+    },
+    {
+      "id": "team-memory",
+      "name": "Daegu Agent Builders Team Memory",
+      "status": "active",
+      "kind": "community-memory",
+      "description": "Git-native shared memory for Daegu Agent Builders agent-assisted work."
+    },
+    {
+      "id": "three-body-comic",
+      "name": "삼체 만화 연재",
+      "status": "active",
+      "kind": "creative-project",
+      "description": "유우캐 리우싱 삼체문제 원작 기반 에이전트 크리에이티브 만화 연재 프로젝트. 4가지 화풍 시도, 한국어, 비정기 연재."
+    }
+  ],
+  "repositories": [
+    {
+      "slug": "Daegu-Agent-Crew/agent_builder",
+      "project": "agent_builder",
+      "role": "에이전트 빌더 커뮤니티 메인 리포 (private)",
+      "aliases": [
+        "agent_builder"
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/agent_builder_public",
+      "project": "agent_builder",
+      "role": "공개 블로그 및 대시보드 (GitHub Pages)",
+      "aliases": [
+        "agent_builder_public"
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/context-tree",
+      "project": "context-tree",
+      "role": "공유 컨텍스트 트리 리포",
+      "aliases": [
+        "context-tree"
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/dabstack",
+      "project": "dabstack",
+      "role": "Codex-first shared context stack",
+      "aliases": [
+        "dabstack"
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/election2663-archive-public",
+      "project": "election2663-archive",
+      "role": "선거 아카이브 공개 wiki (GitHub Pages)",
+      "aliases": [
+        "election2663-archive-public"
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/election2663-archive",
+      "project": "election2663-archive",
+      "role": "선거 데이터 수집·구조화 메인 리포 (private)",
+      "aliases": [
+        "election2663-archive"
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/team-memory-kit",
+      "project": "team-memory",
+      "role": "team-memory 도구 및 스킬 키트",
+      "aliases": [
+        "team-memory-kit"
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/team-memory",
+      "project": "team-memory",
+      "role": "Canonical private team memory repository for Daegu Agent Builders.",
+      "aliases": [
+        "team-memory"
+      ]
+    },
+    {
+      "slug": "three-body-comic",
+      "project": "daegu-agent-crew",
+      "role": "삼체(三体) 만화 연재 프로젝트 — 원작 기반 에이전트 크리에이티브",
+      "aliases": [
+        "Daegu-Agent-Crew/three-body-comic"
+      ]
+    }
+  ],
+  "records_by_project": {
+    "team-memory": 1,
+    "three-body-comic": 6
+  },
+  "timeline": [
+    {
+      "project": "team-memory",
+      "file": "2026-06-02-team-intent-harness-design-korean-translation"
+    },
+    {
+      "project": "three-body-comic",
+      "file": "2026-06-11-three-body-fun-factors"
+    },
+    {
+      "project": "three-body-comic",
+      "file": "2026-06-12-prd-v2-intent-alignment-decisions"
+    },
+    {
+      "project": "three-body-comic",
+      "file": "2026-06-12-project-setup-ep001-script"
+    },
+    {
+      "project": "three-body-comic",
+      "file": "2026-06-12-renover-env-setup"
+    },
+    {
+      "project": "three-body-comic",
+      "file": "2026-06-12-strategy-doc-review"
+    },
+    {
+      "project": "three-body-comic",
+      "file": "2026-06-18-team-docs-comprehensive-guides"
+    }
+  ],
+  "wiki": {
+    "team-memory": {
+      "lines": 23,
+      "chars": 872,
+      "updated": "2026-06-20T03:47:11Z"
+    },
+    "three-body-comic": {
+      "lines": 33,
+      "chars": 2014,
+      "updated": "2026-06-20T03:47:11Z"
+    }
+  }
 }
