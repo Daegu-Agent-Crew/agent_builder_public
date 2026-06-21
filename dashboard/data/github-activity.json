@@ -1,53 +1,200 @@
 {
-  "generated": "2026-06-21T18:44:59Z",
-  "since": "2026-05-22T18:44:59Z",
+  "generated": "2026-06-21T21:44:49Z",
+  "since": "2026-05-22T21:44:49Z",
   "repos": [],
   "activity_feed": [],
   "member_stats": [
     {
-      "login": "sfex11",
+      "login": "{",
       "commits": 0,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "normalkim",
+      "login": "  \"username\": \"sfex11\",",
       "commits": 0,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "eugene",
+      "login": "  \"name\": \"sfex11\"",
       "commits": 0,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "junteken",
+      "login": "}",
       "commits": 0,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "daeguru",
+      "login": "{",
       "commits": 0,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "Normalist-K",
+      "login": "  \"username\": \"normalkim\",",
       "commits": 0,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "juntaek-lee",
+      "login": "  \"name\": \"normalkim\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"username\": \"eugene\",",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"name\": \"eugene\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"username\": \"junteken\",",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"name\": \"junteken\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"username\": \"daeguru\",",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"name\": \"daeguru\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"username\": \"Normalist-K\",",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"name\": \"Normalist-K\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"username\": \"juntaek-lee\",",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"name\": \"juntaek-lee\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
       "commits": 0,
       "prs": 0,
       "issues": 0,
