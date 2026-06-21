@@ -1,13 +1,34 @@
 {
-  "generated": "2026-06-21T15:45:26Z",
+  "generated": "2026-06-21T18:44:46Z",
   "members": [
-    "sfex11",
-    "normalkim",
-    "eugene",
-    "junteken",
-    "daeguru",
-    "Normalist-K",
-    "juntaek-lee"
+    {
+      "username": "sfex11",
+      "name": "sfex11"
+    },
+    {
+      "username": "normalkim",
+      "name": "normalkim"
+    },
+    {
+      "username": "eugene",
+      "name": "eugene"
+    },
+    {
+      "username": "junteken",
+      "name": "junteken"
+    },
+    {
+      "username": "daeguru",
+      "name": "daeguru"
+    },
+    {
+      "username": "Normalist-K",
+      "name": "Normalist-K"
+    },
+    {
+      "username": "juntaek-lee",
+      "name": "juntaek-lee"
+    }
   ],
   "projects": [],
   "repositories": [],
