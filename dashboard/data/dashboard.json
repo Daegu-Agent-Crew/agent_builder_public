@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T00:44:42Z",
+  "generated": "2026-06-23T12:46:37Z",
   "members": [
     "sfex11",
     "normalkim",
@@ -9,11 +9,126 @@
     "Normalist-K",
     "juntaek-lee"
   ],
-  "projects": [],
-  "repositories": [],
-  "records_by_project": {},
-  "timeline": [],
+  "projects": [
+    "creative-loop-engineering",
+    "team-memory",
+    "three-body-comic"
+  ],
+  "repositories": [
+    {
+      "slug": "Daegu-Agent-Crew/agent_builder",
+      "name": "agent_builder"
+    },
+    {
+      "slug": "Daegu-Agent-Crew/agent_builder_public",
+      "name": "agent_builder_public"
+    },
+    {
+      "slug": "Daegu-Agent-Crew/context-tree",
+      "name": "context-tree"
+    },
+    {
+      "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
+      "name": "creative-loop-engineering2"
+    },
+    {
+      "slug": "Daegu-Agent-Crew/dabstack",
+      "name": "dabstack"
+    },
+    {
+      "slug": "Daegu-Agent-Crew/election2663-archive",
+      "name": "election2663-archive"
+    },
+    {
+      "slug": "Daegu-Agent-Crew/election2663-archive-public",
+      "name": "election2663-archive-public"
+    },
+    {
+      "slug": "Daegu-Agent-Crew/team-memory",
+      "name": "team-memory"
+    },
+    {
+      "slug": "Daegu-Agent-Crew/team-memory-kit",
+      "name": "team-memory-kit"
+    },
+    {
+      "slug": "Daegu-Agent-Crew/three-body-comic",
+      "name": "three-body-comic"
+    }
+  ],
+  "records_by_project": {
+    "general": 5,
+    "team-memory": 1,
+    "three-body-comic": 6
+  },
+  "total_records": 12,
+  "timeline": [
+    {
+      "date": "2026-06-22",
+      "title": "CLE2 — 요구사항 관리 시스템 구축 및 개선 이력",
+      "project": "general"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Gajae-Code (gjc) — 코딩 에이전트 하네스 아키텍처 분석",
+      "project": "general"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "GPT 이미지 2.0 웹툰 자동화 시연 - 영상 요약",
+      "project": "general"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "언제까지 AI에게 매번 같은 설명을 다시 해야할까? | 현업이 알려주는 LLM Wiki (Feat. RAG와의 차이) - 영상 요약",
+      "project": "general"
+    },
+    {
+      "date": "2026-06-19",
+      "title": "AI 시대 10배 성장할 사업 변화 전략 - 영상 요약",
+      "project": "general"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "삼체 만화 팀 문서 종합 정비",
+      "project": "three-body-comic"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Intent 결정 — PRD v2 정렬",
+      "project": "three-body-comic"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "삼체 만화 프로젝트 세팅 및 EP001 대본 완성",
+      "project": "three-body-comic"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "레노버 에이전트 환경 설정 개선",
+      "project": "three-body-comic"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "삼체 만화 제작 전략 — 요약",
+      "project": "three-body-comic"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "삼체문제 재미 요소 분석 (v2)",
+      "project": "three-body-comic"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "디자인: 팀 의도 하네스",
+      "project": "team-memory"
+    }
+  ],
   "tasks": [],
   "decisions": [],
-  "wiki": {}
+  "wiki": {
+    "creative-loop-engineering": "",
+    "team-memory": "This project has 1 source record(s) in team memory. [source: context/records/projects/team-memory/2026-06-02-team-intent-harness-design-korean-translation.md]",
+    "three-body-comic": "This project has 6 source record(s) in team memory. [source: context/records/projects/three-body-comic/2026-06-11-three-body-fun-factors.md]"
+  }
 }
