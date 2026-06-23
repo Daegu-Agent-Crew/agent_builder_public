@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-23T15:47:04Z",
-  "since": "2026-05-24T15:46:35Z",
+  "generated": "2026-06-23T18:45:44Z",
+  "since": "2026-05-24T18:45:14Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-23T12:48:52Z",
-      "pushed_at": "2026-06-23T12:48:46Z",
+      "updated_at": "2026-06-23T15:47:46Z",
+      "pushed_at": "2026-06-23T15:47:34Z",
       "recent_commits": [
+        {
+          "sha": "bfc7070",
+          "message": "📊 Update dashboard data (2026-06-24)",
+          "author": "daeguru",
+          "date": "2026-06-23T15:47:26Z"
+        },
         {
           "sha": "9757753",
           "message": "chore: update dashboard data 2026-06-23",
@@ -85,12 +91,6 @@
           "message": "Update dashboard data (2026-06-22T18:46:02Z)",
           "author": "daeguru",
           "date": "2026-06-22T18:46:02Z"
-        },
-        {
-          "sha": "5f53f0b",
-          "message": "dashboard: update dashboard.json and github-activity.json (2026-06-23 00:45 KST)",
-          "author": "daeguru",
-          "date": "2026-06-22T15:47:01Z"
         }
       ],
       "recent_prs": [
@@ -236,6 +236,57 @@
       "recent_prs": []
     },
     {
+      "slug": "Daegu-Agent-Crew/election2663-archive-public",
+      "name": "election2663-archive-public",
+      "private": false,
+      "open_issues": 0,
+      "open_prs": 0,
+      "updated_at": "2026-06-17T20:44:54Z",
+      "pushed_at": "2026-06-17T20:44:48Z",
+      "recent_commits": [
+        {
+          "sha": "d1cefff",
+          "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#2)",
+          "author": "Normalist-K",
+          "date": "2026-06-17T20:44:48Z"
+        },
+        {
+          "sha": "5decdae",
+          "message": "feat: 선거 결과 정리 및 아카이브 마무리",
+          "author": "renover",
+          "date": "2026-06-11T04:38:49Z"
+        },
+        {
+          "sha": "3379d2a",
+          "message": "5/31 Day 7 보고: 사전투표 최종 결과, 블랙아웃 전 최종 여론조사 종합, wiki 동기화",
+          "author": "agent",
+          "date": "2026-05-31T01:52:02Z"
+        },
+        {
+          "sha": "d5f565c",
+          "message": "Day06 인포그래픽 이미지 개선 (프롬프트 최적화)",
+          "author": "agent",
+          "date": "2026-05-30T09:50:14Z"
+        },
+        {
+          "sha": "7063580",
+          "message": "Day06 지지율 테이블을 SVG 원그래프로 교체",
+          "author": "agent",
+          "date": "2026-05-30T04:54:35Z"
+        }
+      ],
+      "recent_prs": [
+        {
+          "number": 2,
+          "title": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
+          "author": "Normalist-K",
+          "state": "closed",
+          "updated_at": "2026-06-17T20:44:49Z",
+          "url": "https://github.com/Daegu-Agent-Crew/election2663-archive-public/pull/2"
+        }
+      ]
+    },
+    {
       "slug": "Daegu-Agent-Crew/election2663-archive",
       "name": "election2663-archive",
       "private": true,
@@ -303,53 +354,69 @@
       ]
     },
     {
-      "slug": "Daegu-Agent-Crew/election2663-archive-public",
-      "name": "election2663-archive-public",
+      "slug": "Daegu-Agent-Crew/team-memory-kit",
+      "name": "team-memory-kit",
       "private": false,
-      "open_issues": 0,
+      "open_issues": 1,
       "open_prs": 0,
-      "updated_at": "2026-06-17T20:44:54Z",
-      "pushed_at": "2026-06-17T20:44:48Z",
+      "updated_at": "2026-06-17T20:44:43Z",
+      "pushed_at": "2026-06-21T15:46:42Z",
       "recent_commits": [
         {
-          "sha": "d1cefff",
-          "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#2)",
+          "sha": "db22ae8",
+          "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#1)",
           "author": "Normalist-K",
-          "date": "2026-06-17T20:44:48Z"
+          "date": "2026-06-17T20:44:41Z"
         },
         {
-          "sha": "5decdae",
-          "message": "feat: 선거 결과 정리 및 아카이브 마무리",
-          "author": "renover",
-          "date": "2026-06-11T04:38:49Z"
+          "sha": "06edf98",
+          "message": "feat: support Claude Code alongside Codex (#5)",
+          "author": "junteken",
+          "date": "2026-06-17T20:44:39Z"
         },
         {
-          "sha": "3379d2a",
-          "message": "5/31 Day 7 보고: 사전투표 최종 결과, 블랙아웃 전 최종 여론조사 종합, wiki 동기화",
-          "author": "agent",
-          "date": "2026-05-31T01:52:02Z"
+          "sha": "c42e3ef",
+          "message": "v2026.06.10.2 feat: add team memory upgrade workflow (#4)",
+          "author": "Normalist-K",
+          "date": "2026-06-10T15:02:38Z"
         },
         {
-          "sha": "d5f565c",
-          "message": "Day06 인포그래픽 이미지 개선 (프롬프트 최적화)",
-          "author": "agent",
-          "date": "2026-05-30T09:50:14Z"
+          "sha": "0a79063",
+          "message": "docs: add team intent design notes",
+          "author": "Normalist-K",
+          "date": "2026-06-10T14:03:04Z"
         },
         {
-          "sha": "7063580",
-          "message": "Day06 지지율 테이블을 SVG 원그래프로 교체",
-          "author": "agent",
-          "date": "2026-05-30T04:54:35Z"
+          "sha": "a85f2d0",
+          "message": "feat: memory-dashboard command and tm-dashboard skill",
+          "author": "Normalist-K",
+          "date": "2026-06-10T13:58:02Z"
         }
       ],
       "recent_prs": [
         {
-          "number": 2,
+          "number": 1,
           "title": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
           "author": "Normalist-K",
           "state": "closed",
-          "updated_at": "2026-06-17T20:44:49Z",
-          "url": "https://github.com/Daegu-Agent-Crew/election2663-archive-public/pull/2"
+          "updated_at": "2026-06-17T20:44:42Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/1"
+        },
+        {
+          "number": 5,
+          "title": "feat: support Claude Code alongside Codex",
+          "author": "junteken",
+          "state": "closed",
+          "updated_at": "2026-06-17T20:44:39Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/5"
+        },
+        {
+          "number": 4,
+          "title": "v2026.06.10.2 feat: add team memory upgrade workflow",
+          "author": "Normalist-K",
+          "state": "closed",
+          "updated_at": "2026-06-10T15:04:19Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/4"
         }
       ]
     },
@@ -417,73 +484,6 @@
           "state": "closed",
           "updated_at": "2026-06-12T02:01:33Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/1"
-        }
-      ]
-    },
-    {
-      "slug": "Daegu-Agent-Crew/team-memory-kit",
-      "name": "team-memory-kit",
-      "private": false,
-      "open_issues": 1,
-      "open_prs": 0,
-      "updated_at": "2026-06-17T20:44:43Z",
-      "pushed_at": "2026-06-21T15:46:42Z",
-      "recent_commits": [
-        {
-          "sha": "db22ae8",
-          "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#1)",
-          "author": "Normalist-K",
-          "date": "2026-06-17T20:44:41Z"
-        },
-        {
-          "sha": "06edf98",
-          "message": "feat: support Claude Code alongside Codex (#5)",
-          "author": "junteken",
-          "date": "2026-06-17T20:44:39Z"
-        },
-        {
-          "sha": "c42e3ef",
-          "message": "v2026.06.10.2 feat: add team memory upgrade workflow (#4)",
-          "author": "Normalist-K",
-          "date": "2026-06-10T15:02:38Z"
-        },
-        {
-          "sha": "0a79063",
-          "message": "docs: add team intent design notes",
-          "author": "Normalist-K",
-          "date": "2026-06-10T14:03:04Z"
-        },
-        {
-          "sha": "a85f2d0",
-          "message": "feat: memory-dashboard command and tm-dashboard skill",
-          "author": "Normalist-K",
-          "date": "2026-06-10T13:58:02Z"
-        }
-      ],
-      "recent_prs": [
-        {
-          "number": 1,
-          "title": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
-          "author": "Normalist-K",
-          "state": "closed",
-          "updated_at": "2026-06-17T20:44:42Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/1"
-        },
-        {
-          "number": 5,
-          "title": "feat: support Claude Code alongside Codex",
-          "author": "junteken",
-          "state": "closed",
-          "updated_at": "2026-06-17T20:44:39Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/5"
-        },
-        {
-          "number": 4,
-          "title": "v2026.06.10.2 feat: add team memory upgrade workflow",
-          "author": "Normalist-K",
-          "state": "closed",
-          "updated_at": "2026-06-10T15:04:19Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/4"
         }
       ]
     },
@@ -560,6 +560,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "📊 Update dashboard data (2026-06-24)",
+      "sha": "bfc7070",
+      "date": "2026-06-23T15:47:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bfc70702cd4c81e24827392813e91be99819de87"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore: update dashboard data 2026-06-23",
       "sha": "9757753",
       "date": "2026-06-23T12:48:37Z",
@@ -619,15 +628,6 @@
       "sha": "80c7958",
       "date": "2026-06-22T17:25:57Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/80c79583adae25ffca78da23c41abc9c1f066e9c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (2026-06-23 00:45 KST)",
-      "sha": "5f53f0b",
-      "date": "2026-06-22T15:47:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5f53f0bedd280721d2d05975effb1a5aa5051d18"
     },
     {
       "type": "pr",
