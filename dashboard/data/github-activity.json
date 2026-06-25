@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T18:45:17Z",
-  "since": "2026-05-26T18:44:47Z",
+  "generated": "2026-06-25T21:45:28Z",
+  "since": "2026-05-26T21:44:53Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-25T15:46:04Z",
-      "pushed_at": "2026-06-25T15:45:59Z",
+      "updated_at": "2026-06-25T18:45:38Z",
+      "pushed_at": "2026-06-25T18:45:33Z",
       "recent_commits": [
+        {
+          "sha": "50b1178",
+          "message": "📊 Update dashboard data (2026-06-26)",
+          "author": "daeguru",
+          "date": "2026-06-25T18:45:32Z"
+        },
         {
           "sha": "3ad89e3",
           "message": "📊 Update dashboard data - 2026-06-25",
@@ -85,12 +91,6 @@
           "message": "📊 Update dashboard data - 2026-06-24",
           "author": "daeguru",
           "date": "2026-06-24T21:45:32Z"
-        },
-        {
-          "sha": "c1771cf",
-          "message": "🔄 Auto-update dashboard data (2026-06-25 03:44 KST)",
-          "author": "daeguru",
-          "date": "2026-06-24T18:45:42Z"
         }
       ],
       "recent_prs": [
@@ -560,6 +560,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "📊 Update dashboard data (2026-06-26)",
+      "sha": "50b1178",
+      "date": "2026-06-25T18:45:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/50b1178ba977cb15edb4cffb4ddfd18a5c72832b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "📊 Update dashboard data - 2026-06-25",
       "sha": "3ad89e3",
       "date": "2026-06-25T15:45:56Z",
@@ -647,15 +656,6 @@
       "sha": "1625b7a",
       "date": "2026-06-24T19:39:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1625b7affd9cd8fb15fe1de12f1bd2bc0f895736"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "🔄 Auto-update dashboard data (2026-06-25 03:44 KST)",
-      "sha": "c1771cf",
-      "date": "2026-06-24T18:45:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c1771cf01a4dc2e706a51616e1bd4dff45ce7b6f"
     },
     {
       "type": "commit",
@@ -1026,49 +1026,147 @@
   ],
   "member_stats": [
     {
-      "login": "sfex11",
-      "commits": 16,
-      "prs": 13,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "daeguru",
-      "commits": 6,
-      "prs": 0,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "Normalist-K",
-      "commits": 6,
-      "prs": 4,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "junteken",
-      "commits": 1,
-      "prs": 1,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "normalkim",
+      "login": "{",
       "commits": 0,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "eugene",
+      "login": "  \"name\": \"sfex11\"",
       "commits": 0,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "juntaek-lee",
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"name\": \"normalkim\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"name\": \"eugene\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"name\": \"junteken\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"name\": \"daeguru\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"name\": \"Normalist-K\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"name\": \"juntaek-lee\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
       "commits": 0,
       "prs": 0,
       "issues": 0,
