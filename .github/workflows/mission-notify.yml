@@ -1,0 +1,24 @@
+name: Mission Notify
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  notify:
+    if: |
+      contains(github.event.label.name, 'mission-submit') ||
+      contains(github.event.issue.labels.*.name, 'mission-submit') ||
+      contains(github.event.label.name, 'mission') ||
+      contains(github.event.issue.labels.*.name, 'mission')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Discord Notification
+        uses: Ilshidur/action-discord@master
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        with:
+          message: |
+            🎯 **새 미션 활동** — "{{ event.issue.title }}"
+            👤 제출자: {{ event.issue.user.login }}
+            🔗 {{ event.issue.html_url }}
