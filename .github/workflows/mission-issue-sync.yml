@@ -1,0 +1,83 @@
+name: Mission Issue Sync
+
+on:
+  issues:
+    types: [opened, closed, reopened]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  sync-mission:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate mission sync comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const action = context.payload.action;
+            const title = issue.title || '';
+            
+            // Parse AB-N pattern from title
+            const match = title.match(/\[?(AB-\d+)\]?/i);
+            const missionId = match ? match[1].toUpperCase() : null;
+            
+            if (!missionId) {
+              core.info('Not a mission issue (no AB-N pattern), skipping.');
+              return;
+            }
+            
+            const statusMap = {
+              'opened': '🔄 미션 시작됨',
+              'closed': '✅ 미션 완료',
+              'reopened': '🔄 미션 재개'
+            };
+            
+            const statusMsg = statusMap[action] || action;
+            
+            // Extract description
+            const body = issue.body || '';
+            const descMatch = body.split('\n---\n')[0] || body;
+            
+            // Build mission info message
+            const message = [
+              '🎯 **미션 대시보드 동기화**',
+              '',
+              '| 필드 | 값 |',
+              '|---|---|',
+              '| 미션 ID | ' + missionId + ' |',
+              '| 이슈 번호 | #' + issue.number + ' |',
+              '| 상태 | ' + statusMsg + ' |',
+              '| 담당자 | ' + (issue.assignee ? '@' + issue.assignee.login : '미배정') + ' |',
+              '',
+              '📋 [미션 대시보드에서 보기](https://daegu-agent-crew.github.io/agent_builder_public/tasks-dashboard/)',
+              '📋 [팀 대시보드에서 보기](https://daegu-agent-crew.github.io/agent_builder_public/dashboard/)',
+              '',
+              '> 이 코멘트는 GitHub Actions가 자동 생성했습니다.'
+            ].join('\n');
+            
+            // Only comment on first open to avoid spam
+            if (action === 'opened') {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: message
+              });
+              
+              // Add mission label
+              try {
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: ['mission']
+                });
+              } catch (e) {
+                core.info('Label add failed (may not exist): ' + e.message);
+              }
+            }
+            
+            core.info(`Mission ${missionId} ${action} - issue #${issue.number}`);
