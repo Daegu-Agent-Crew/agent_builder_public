@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-27T06:45:43Z",
-  "since": "2026-05-28T06:45:14Z",
+  "generated": "2026-06-27T09:45:20Z",
+  "since": "2026-05-28T09:44:51Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-27T03:49:00Z",
-      "pushed_at": "2026-06-27T03:48:57Z",
+      "updated_at": "2026-06-27T06:46:10Z",
+      "pushed_at": "2026-06-27T06:46:06Z",
       "recent_commits": [
+        {
+          "sha": "fcf79bb",
+          "message": "📊 dashboard: update dashboard.json & github-activity (2026-06-27)",
+          "author": "daeguru",
+          "date": "2026-06-27T06:46:03Z"
+        },
         {
           "sha": "89b7cdb",
           "message": "📊 dashboard: update dashboard.json & github-activity (2026-06-27)",
@@ -85,12 +91,6 @@
           "message": "📊 Update dashboard data (2026-06-27)",
           "author": "daeguru",
           "date": "2026-06-26T18:45:08Z"
-        },
-        {
-          "sha": "7d7d0cb",
-          "message": "📦 dashboard: update dashboard.json & github-activity.json (2026-06-27)",
-          "author": "daeguru",
-          "date": "2026-06-26T15:47:27Z"
         }
       ],
       "recent_prs": [
@@ -154,40 +154,40 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 4,
+      "open_issues": 5,
       "open_prs": 0,
-      "updated_at": "2026-06-24T21:51:57Z",
-      "pushed_at": "2026-06-24T21:51:51Z",
+      "updated_at": "2026-06-27T09:33:57Z",
+      "pushed_at": "2026-06-27T09:33:54Z",
       "recent_commits": [
+        {
+          "sha": "70c4875",
+          "message": "fix: CLE2-9 → CLE2-8 번호 정정 + TASKS_DATA에 CLE2-8 추가",
+          "author": "sfex11",
+          "date": "2026-06-27T09:33:39Z"
+        },
+        {
+          "sha": "7e5aded",
+          "message": "fix: 요구사항 새로고침 시 중복 생성 버그 수정",
+          "author": "sfex11",
+          "date": "2026-06-27T09:20:50Z"
+        },
+        {
+          "sha": "5890c75",
+          "message": "chore: auto-update CLE2-task task status (merged)",
+          "author": "github-actions[bot]",
+          "date": "2026-06-27T09:09:08Z"
+        },
+        {
+          "sha": "ee9bcd8",
+          "message": "CLE2-9: agent_builder_public 진화 — GOAL/PLAN/STATUS/TESTS 초기 생성",
+          "author": "sfex11",
+          "date": "2026-06-27T09:08:57Z"
+        },
         {
           "sha": "92610f0",
           "message": "chore: auto-update CLE2-task task status (merged)",
           "author": "github-actions[bot]",
           "date": "2026-06-24T21:51:51Z"
-        },
-        {
-          "sha": "95de04b",
-          "message": "feat: 요구사항 상세에 결과물(링크) 섹션 추가 (#19)",
-          "author": "sfex11",
-          "date": "2026-06-24T21:51:41Z"
-        },
-        {
-          "sha": "3e9abe8",
-          "message": "chore: auto-update CLE2-task task status (merged)",
-          "author": "github-actions[bot]",
-          "date": "2026-06-24T19:39:54Z"
-        },
-        {
-          "sha": "1625b7a",
-          "message": "feat: 요구사항/태스크에 GitHub 이슈·PR 번호 표시 (#18)",
-          "author": "sfex11",
-          "date": "2026-06-24T19:39:44Z"
-        },
-        {
-          "sha": "2f5fa73",
-          "message": "feat: improve localStorage PAT controls in settings",
-          "author": "sfex11",
-          "date": "2026-06-24T12:49:08Z"
         }
       ],
       "recent_prs": [
@@ -558,6 +558,51 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: CLE2-9 → CLE2-8 번호 정정 + TASKS_DATA에 CLE2-8 추가",
+      "sha": "70c4875",
+      "date": "2026-06-27T09:33:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/70c4875f41ed45f39417589a016de7376c3f7c74"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: 요구사항 새로고침 시 중복 생성 버그 수정",
+      "sha": "7e5aded",
+      "date": "2026-06-27T09:20:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/7e5aded5ee40c9465ad6a48a9b62e7896b9a93be"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "github-actions[bot]",
+      "message": "chore: auto-update CLE2-task task status (merged)",
+      "sha": "5890c75",
+      "date": "2026-06-27T09:09:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/5890c75cea6595f28bfaa2df6bd2f96786a66e16"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "CLE2-9: agent_builder_public 진화 — GOAL/PLAN/STATUS/TESTS 초기 생성",
+      "sha": "ee9bcd8",
+      "date": "2026-06-27T09:08:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/ee9bcd86400a69e55914b74b1334a9d3989807d3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 dashboard: update dashboard.json & github-activity (2026-06-27)",
+      "sha": "fcf79bb",
+      "date": "2026-06-27T06:46:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fcf79bbe2592875dfbae377942889961595b9d71"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "📊 dashboard: update dashboard.json & github-activity (2026-06-27)",
@@ -594,15 +639,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📦 dashboard: update dashboard.json & github-activity.json (2026-06-27)",
-      "sha": "7d7d0cb",
-      "date": "2026-06-26T15:47:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7d7d0cb55d3c2ee644c64f1428d2fe1c6f10f803"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "github-actions[bot]",
       "message": "chore: auto-update CLE2-task task status (merged)",
@@ -621,24 +657,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/19"
     },
     {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat: 요구사항 상세에 결과물(링크) 섹션 추가 (#19)",
-      "sha": "95de04b",
-      "date": "2026-06-24T21:51:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/95de04b9b07f532c15ed1322af0f2d994af69bc3"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "github-actions[bot]",
-      "message": "chore: auto-update CLE2-task task status (merged)",
-      "sha": "3e9abe8",
-      "date": "2026-06-24T19:39:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/3e9abe8101a0eb41f1fe6e2661b3f4c276aeeacf"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -647,24 +665,6 @@
       "state": "closed",
       "date": "2026-06-24T19:39:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/18"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat: 요구사항/태스크에 GitHub 이슈·PR 번호 표시 (#18)",
-      "sha": "1625b7a",
-      "date": "2026-06-24T19:39:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1625b7affd9cd8fb15fe1de12f1bd2bc0f895736"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat: improve localStorage PAT controls in settings",
-      "sha": "2f5fa73",
-      "date": "2026-06-24T12:49:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2f5fa733e9ddf56eb0c7f529591bb5f04631ece3"
     },
     {
       "type": "commit",
