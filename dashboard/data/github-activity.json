@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-27T18:45:15Z",
-  "since": "2026-05-28T18:44:46Z",
+  "generated": "2026-06-27T21:45:32Z",
+  "since": "2026-05-28T21:45:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-06-27T15:46:47Z",
-      "pushed_at": "2026-06-27T15:46:44Z",
+      "updated_at": "2026-06-27T18:46:05Z",
+      "pushed_at": "2026-06-27T18:46:02Z",
       "recent_commits": [
+        {
+          "sha": "766565c",
+          "message": "📊 Update dashboard data (2026-06-28 03:45 KST)",
+          "author": "daeguru",
+          "date": "2026-06-27T18:45:59Z"
+        },
         {
           "sha": "7b39083",
           "message": "chore: update dashboard & github-activity data (2026-06-28)",
@@ -85,12 +91,6 @@
           "message": "feat: CLE2-8 Phase 5 — Discord 연동 설계 (GitHub Actions workflow + 가이드) (#11)",
           "author": "sfex11",
           "date": "2026-06-27T10:46:54Z"
-        },
-        {
-          "sha": "a92e6a2",
-          "message": "feat: CLE2-8 Phase 4 — 이슈 템플릿 + README living example 개선 (#10)",
-          "author": "sfex11",
-          "date": "2026-06-27T10:46:51Z"
         }
       ],
       "recent_prs": [
@@ -560,6 +560,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "📊 Update dashboard data (2026-06-28 03:45 KST)",
+      "sha": "766565c",
+      "date": "2026-06-27T18:45:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/766565c975bf3450798189f9184e457d17cd4c80"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore: update dashboard & github-activity data (2026-06-28)",
       "sha": "7b39083",
       "date": "2026-06-27T15:46:43Z",
@@ -639,15 +648,6 @@
       "state": "closed",
       "date": "2026-06-27T10:46:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/10"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "feat: CLE2-8 Phase 4 — 이슈 템플릿 + README living example 개선 (#10)",
-      "sha": "a92e6a2",
-      "date": "2026-06-27T10:46:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a92e6a2b3ce7c5d7fd1fb125262d83916ab1162a"
     },
     {
       "type": "pr",
@@ -1027,7 +1027,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 17,
       "prs": 14,
       "issues": 0,
       "reviews": 0
@@ -1041,7 +1041,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 4,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
