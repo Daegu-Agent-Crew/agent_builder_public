@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-27T09:45:20Z",
-  "since": "2026-05-28T09:44:51Z",
+  "generated": "2026-06-27T12:45:25Z",
+  "since": "2026-05-28T12:44:57Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -57,66 +57,66 @@
       "slug": "Daegu-Agent-Crew/agent_builder_public",
       "name": "agent_builder_public",
       "private": false,
-      "open_issues": 0,
+      "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-06-27T06:46:10Z",
-      "pushed_at": "2026-06-27T06:46:06Z",
+      "updated_at": "2026-06-27T11:12:05Z",
+      "pushed_at": "2026-06-27T11:12:02Z",
       "recent_commits": [
         {
-          "sha": "fcf79bb",
-          "message": "📊 dashboard: update dashboard.json & github-activity (2026-06-27)",
+          "sha": "c1c5e73",
+          "message": "feat: 미션 대시보드 디자인 통일 + 크로스 링크 + GitHub 연동 강화",
           "author": "daeguru",
-          "date": "2026-06-27T06:46:03Z"
+          "date": "2026-06-27T11:11:43Z"
         },
         {
-          "sha": "89b7cdb",
-          "message": "📊 dashboard: update dashboard.json & github-activity (2026-06-27)",
-          "author": "daeguru",
-          "date": "2026-06-27T03:48:57Z"
+          "sha": "a783d85",
+          "message": "feat: CLE2-8 Phase 5 — Discord 연동 설계 (GitHub Actions workflow + 가이드) (#11)",
+          "author": "sfex11",
+          "date": "2026-06-27T10:46:54Z"
         },
         {
-          "sha": "2dbcd33",
-          "message": "📊 Update dashboard data (2026-06-27)",
-          "author": "daeguru",
-          "date": "2026-06-27T00:46:06Z"
+          "sha": "a92e6a2",
+          "message": "feat: CLE2-8 Phase 4 — 이슈 템플릿 + README living example 개선 (#10)",
+          "author": "sfex11",
+          "date": "2026-06-27T10:46:51Z"
         },
         {
-          "sha": "a8b4ba3",
-          "message": "📊 Update dashboard data (2026-06-27)",
-          "author": "daeguru",
-          "date": "2026-06-26T21:45:34Z"
+          "sha": "18a3db1",
+          "message": "feat: CLE2-8 Phase 3 — 커뮤니티 맞춤 SPA 대시보드 (홈/미션/제출/멤버/위키/설정) (#6)",
+          "author": "sfex11",
+          "date": "2026-06-27T10:46:49Z"
         },
         {
-          "sha": "4c34c30",
-          "message": "📊 Update dashboard data (2026-06-27)",
-          "author": "daeguru",
-          "date": "2026-06-26T18:45:08Z"
+          "sha": "c928ca7",
+          "message": "feat: CLE2-8 Phase 2 — team-memory 통합 구조 (context/ 디렉토리, CLI 연동 가이드) (#5)",
+          "author": "sfex11",
+          "date": "2026-06-27T10:46:47Z"
         }
       ],
       "recent_prs": [
         {
-          "number": 1,
-          "title": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
-          "author": "Normalist-K",
-          "state": "closed",
-          "updated_at": "2026-06-17T20:44:44Z",
-          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/1"
-        },
-        {
-          "number": 3,
-          "title": "feat: full-page project detail + three-body-comic",
+          "number": 11,
+          "title": "feat: CLE2-8 Phase 5 — Discord 연동 설계",
           "author": "sfex11",
           "state": "closed",
-          "updated_at": "2026-06-12T03:15:58Z",
-          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/3"
+          "updated_at": "2026-06-27T10:46:54Z",
+          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/11"
         },
         {
-          "number": 2,
-          "title": "feat: project detail page — click project card to see details",
+          "number": 10,
+          "title": "feat: CLE2-8 Phase 4 — 이슈 기반 운영 활성화",
           "author": "sfex11",
           "state": "closed",
-          "updated_at": "2026-06-12T02:20:01Z",
-          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/2"
+          "updated_at": "2026-06-27T10:46:52Z",
+          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/10"
+        },
+        {
+          "number": 6,
+          "title": "feat: CLE2-8 Phase 3 — 커뮤니티 맞춤 SPA 대시보드",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-06-27T10:46:50Z",
+          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/6"
         }
       ]
     },
@@ -156,9 +156,21 @@
       "private": false,
       "open_issues": 5,
       "open_prs": 0,
-      "updated_at": "2026-06-27T09:33:57Z",
-      "pushed_at": "2026-06-27T09:33:54Z",
+      "updated_at": "2026-06-27T10:47:30Z",
+      "pushed_at": "2026-06-27T10:47:23Z",
       "recent_commits": [
+        {
+          "sha": "888729c",
+          "message": "chore: auto-update CLE2-task task status (merged)",
+          "author": "github-actions[bot]",
+          "date": "2026-06-27T10:47:20Z"
+        },
+        {
+          "sha": "7c82ba5",
+          "message": "fix: CLE2-8 STATUS — Phase 1~5 구현 완료, PR 5건 승인 대기 (#21)",
+          "author": "sfex11",
+          "date": "2026-06-27T10:47:11Z"
+        },
         {
           "sha": "70c4875",
           "message": "fix: CLE2-9 → CLE2-8 번호 정정 + TASKS_DATA에 CLE2-8 추가",
@@ -176,21 +188,17 @@
           "message": "chore: auto-update CLE2-task task status (merged)",
           "author": "github-actions[bot]",
           "date": "2026-06-27T09:09:08Z"
-        },
-        {
-          "sha": "ee9bcd8",
-          "message": "CLE2-9: agent_builder_public 진화 — GOAL/PLAN/STATUS/TESTS 초기 생성",
-          "author": "sfex11",
-          "date": "2026-06-27T09:08:57Z"
-        },
-        {
-          "sha": "92610f0",
-          "message": "chore: auto-update CLE2-task task status (merged)",
-          "author": "github-actions[bot]",
-          "date": "2026-06-24T21:51:51Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 21,
+          "title": "fix: CLE2-8 STATUS — Phase 1~5 구현 완료",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-06-27T10:47:12Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/21"
+        },
         {
           "number": 19,
           "title": "feat: 요구사항 상세에 결과물(링크) 섹션 추가",
@@ -206,14 +214,6 @@
           "state": "closed",
           "updated_at": "2026-06-24T19:39:44Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/18"
-        },
-        {
-          "number": 16,
-          "title": "feat(CLE2-6): AI 에이전트 뉴스 수집 시스템 tasks 문서",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-06-22T17:25:57Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/16"
         }
       ]
     },
@@ -427,7 +427,7 @@
       "open_issues": 1,
       "open_prs": 1,
       "updated_at": "2026-06-22T14:38:25Z",
-      "pushed_at": "2026-06-27T03:48:50Z",
+      "pushed_at": "2026-06-27T09:45:33Z",
       "recent_commits": [
         {
           "sha": "af0cd9a",
@@ -558,6 +558,109 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "feat: 미션 대시보드 디자인 통일 + 크로스 링크 + GitHub 연동 강화",
+      "sha": "c1c5e73",
+      "date": "2026-06-27T11:11:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c1c5e738d77658afdd73ba1618b4fb068c4243ef"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "github-actions[bot]",
+      "message": "chore: auto-update CLE2-task task status (merged)",
+      "sha": "888729c",
+      "date": "2026-06-27T10:47:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/888729cdbacc80f29de6761592cff861a41d3699"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: CLE2-8 STATUS — Phase 1~5 구현 완료",
+      "number": 21,
+      "state": "closed",
+      "date": "2026-06-27T10:47:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/21"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: CLE2-8 STATUS — Phase 1~5 구현 완료, PR 5건 승인 대기 (#21)",
+      "sha": "7c82ba5",
+      "date": "2026-06-27T10:47:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/7c82ba5026072346b17d980b3b5a66817a6f0a1e"
+    },
+    {
+      "type": "pr",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "feat: CLE2-8 Phase 5 — Discord 연동 설계",
+      "number": 11,
+      "state": "closed",
+      "date": "2026-06-27T10:46:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/11"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "feat: CLE2-8 Phase 5 — Discord 연동 설계 (GitHub Actions workflow + 가이드) (#11)",
+      "sha": "a783d85",
+      "date": "2026-06-27T10:46:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a783d85c18bc4b68cb2ebc231613e5424b03c0dd"
+    },
+    {
+      "type": "pr",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "feat: CLE2-8 Phase 4 — 이슈 기반 운영 활성화",
+      "number": 10,
+      "state": "closed",
+      "date": "2026-06-27T10:46:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/10"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "feat: CLE2-8 Phase 4 — 이슈 템플릿 + README living example 개선 (#10)",
+      "sha": "a92e6a2",
+      "date": "2026-06-27T10:46:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a92e6a2b3ce7c5d7fd1fb125262d83916ab1162a"
+    },
+    {
+      "type": "pr",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "feat: CLE2-8 Phase 3 — 커뮤니티 맞춤 SPA 대시보드",
+      "number": 6,
+      "state": "closed",
+      "date": "2026-06-27T10:46:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "feat: CLE2-8 Phase 3 — 커뮤니티 맞춤 SPA 대시보드 (홈/미션/제출/멤버/위키/설정) (#6)",
+      "sha": "18a3db1",
+      "date": "2026-06-27T10:46:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/18a3db16f507b1f32d7a3b7d80e0b3cf58ccacde"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "feat: CLE2-8 Phase 2 — team-memory 통합 구조 (context/ 디렉토리, CLI 연동 가이드) (#5)",
+      "sha": "c928ca7",
+      "date": "2026-06-27T10:46:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c928ca746bab1e39ab546e66f761e0018a866b8e"
+    },
+    {
+      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
       "message": "fix: CLE2-9 → CLE2-8 번호 정정 + TASKS_DATA에 CLE2-8 추가",
@@ -582,69 +685,6 @@
       "sha": "5890c75",
       "date": "2026-06-27T09:09:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/5890c75cea6595f28bfaa2df6bd2f96786a66e16"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "CLE2-9: agent_builder_public 진화 — GOAL/PLAN/STATUS/TESTS 초기 생성",
-      "sha": "ee9bcd8",
-      "date": "2026-06-27T09:08:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/ee9bcd86400a69e55914b74b1334a9d3989807d3"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 dashboard: update dashboard.json & github-activity (2026-06-27)",
-      "sha": "fcf79bb",
-      "date": "2026-06-27T06:46:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fcf79bbe2592875dfbae377942889961595b9d71"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 dashboard: update dashboard.json & github-activity (2026-06-27)",
-      "sha": "89b7cdb",
-      "date": "2026-06-27T03:48:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/89b7cdb2030ce5c3c6eb7e6b53d8d8a51ec694d2"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 Update dashboard data (2026-06-27)",
-      "sha": "2dbcd33",
-      "date": "2026-06-27T00:46:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2dbcd3309f5f4d9bf8de439aa87d489751728dab"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 Update dashboard data (2026-06-27)",
-      "sha": "a8b4ba3",
-      "date": "2026-06-26T21:45:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a8b4ba3e42c1f72c2e74f5dc09fbd6e3d840bddf"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 Update dashboard data (2026-06-27)",
-      "sha": "4c34c30",
-      "date": "2026-06-26T18:45:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4c34c30e00c3d86feab223e49a06fc9b36787d78"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "github-actions[bot]",
-      "message": "chore: auto-update CLE2-task task status (merged)",
-      "sha": "92610f0",
-      "date": "2026-06-24T21:51:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/92610f08dc53bfb83a18c3aee0eca7f92aab35a4"
     },
     {
       "type": "pr",
@@ -683,16 +723,6 @@
       "sha": "d44ba97",
       "date": "2026-06-24T12:14:24Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/d44ba97a5b0e5866d20ad1f9f75cd854f912f1ee"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-6): AI 에이전트 뉴스 수집 시스템 tasks 문서",
-      "number": 16,
-      "state": "closed",
-      "date": "2026-06-22T17:25:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/16"
     },
     {
       "type": "pr",
@@ -818,16 +848,6 @@
     },
     {
       "type": "pr",
-      "repo": "agent_builder_public",
-      "author": "Normalist-K",
-      "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
-      "number": 1,
-      "state": "closed",
-      "date": "2026-06-17T20:44:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/1"
-    },
-    {
-      "type": "pr",
       "repo": "team-memory-kit",
       "author": "Normalist-K",
       "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
@@ -901,26 +921,6 @@
       "state": "closed",
       "date": "2026-06-12T05:36:29Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/3"
-    },
-    {
-      "type": "pr",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "feat: full-page project detail + three-body-comic",
-      "number": 3,
-      "state": "closed",
-      "date": "2026-06-12T03:15:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/3"
-    },
-    {
-      "type": "pr",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "feat: project detail page — click project card to see details",
-      "number": 2,
-      "state": "closed",
-      "date": "2026-06-12T02:20:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/2"
     },
     {
       "type": "pr",
@@ -1027,22 +1027,22 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
-      "prs": 13,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "daeguru",
-      "commits": 6,
-      "prs": 0,
+      "commits": 20,
+      "prs": 14,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "Normalist-K",
       "commits": 6,
-      "prs": 4,
+      "prs": 3,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "daeguru",
+      "commits": 2,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
