@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-27T12:45:25Z",
-  "since": "2026-05-28T12:44:57Z",
+  "generated": "2026-06-27T15:45:53Z",
+  "since": "2026-05-28T15:45:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-06-27T11:12:05Z",
-      "pushed_at": "2026-06-27T11:12:02Z",
+      "updated_at": "2026-06-27T12:45:49Z",
+      "pushed_at": "2026-06-27T12:45:45Z",
       "recent_commits": [
+        {
+          "sha": "542c922",
+          "message": "📊 Update dashboard data (2026-06-27)",
+          "author": "daeguru",
+          "date": "2026-06-27T12:45:40Z"
+        },
         {
           "sha": "c1c5e73",
           "message": "feat: 미션 대시보드 디자인 통일 + 크로스 링크 + GitHub 연동 강화",
@@ -85,12 +91,6 @@
           "message": "feat: CLE2-8 Phase 3 — 커뮤니티 맞춤 SPA 대시보드 (홈/미션/제출/멤버/위키/설정) (#6)",
           "author": "sfex11",
           "date": "2026-06-27T10:46:49Z"
-        },
-        {
-          "sha": "c928ca7",
-          "message": "feat: CLE2-8 Phase 2 — team-memory 통합 구조 (context/ 디렉토리, CLI 연동 가이드) (#5)",
-          "author": "sfex11",
-          "date": "2026-06-27T10:46:47Z"
         }
       ],
       "recent_prs": [
@@ -560,6 +560,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "📊 Update dashboard data (2026-06-27)",
+      "sha": "542c922",
+      "date": "2026-06-27T12:45:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/542c9220079b7b5ff13fde960f58145ad48d5969"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "feat: 미션 대시보드 디자인 통일 + 크로스 링크 + GitHub 연동 강화",
       "sha": "c1c5e73",
       "date": "2026-06-27T11:11:43Z",
@@ -649,15 +658,6 @@
       "sha": "18a3db1",
       "date": "2026-06-27T10:46:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/18a3db16f507b1f32d7a3b7d80e0b3cf58ccacde"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "feat: CLE2-8 Phase 2 — team-memory 통합 구조 (context/ 디렉토리, CLI 연동 가이드) (#5)",
-      "sha": "c928ca7",
-      "date": "2026-06-27T10:46:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c928ca746bab1e39ab546e66f761e0018a866b8e"
     },
     {
       "type": "commit",
@@ -1027,7 +1027,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 19,
       "prs": 14,
       "issues": 0,
       "reviews": 0
@@ -1041,7 +1041,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 2,
+      "commits": 3,
       "prs": 0,
       "issues": 0,
       "reviews": 0
