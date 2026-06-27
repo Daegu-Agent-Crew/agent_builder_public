@@ -10,13 +10,26 @@
 
 아이디어를 코드로 옮기고, 자동화 파이프라인을 구성하고, LLM을 팀 워크플로에 붙이는 실험을 함께 합니다. 대구·경북을 기반으로 하지만, 온라인으로 누구나 참여할 수 있습니다.
 
-## 무엇을 공유하나
+## 🧪 이 레포가 곧 Starter Kit입니다
 
-이 레포는 커뮤니티의 공개 자료 저장소입니다.
+이 레포 자체가 starter-kit을 사용하는 방식으로 운영됩니다 — **살아있는 예제**입니다.
 
-| 폴더 | 내용 |
-|------|------|
-| [`starter-kit/`](./starter-kit/) | 팀 운영 자동화 시스템 사용 가이드 |
+| 기능 | 위치 | 설명 |
+|------|------|------|
+| 📋 태스크 관리 | [`tasks/`](./tasks/) | AB-N 네이밍, GOAL/PLAN/STATUS/TESTS 4문서 관리 |
+| 🧠 team-memory | [`context/`](./context/) | records → registry → wiki 메모리 파이프라인 |
+| 📊 미션 대시보드 | [`tasks-dashboard/`](./tasks-dashboard/) | 스터디 현황, 미션 추적, 멤버 현황 SPA |
+| 📚 Starter Kit 가이드 | [`starter-kit/`](./starter-kit/) | Obsidian + Claude Code 팀 운영 시스템 |
+| 📝 이슈 템플릿 | [`.github/ISSUE_TEMPLATE/`](./.github/ISSUE_TEMPLATE/) | 미션 제출용, 개선 제안용 |
+
+### 운영 방식
+
+```
+이슈 생성 → 태스크 폴더(tasks/AB-N/) 생성 → GOAL/PLAN 작성
+→ 작업 진행 + STATUS 업데이트 → TESTS 검증 → 완료
+```
+
+이 흐름이 [CLE2](https://github.com/Daegu-Agent-Crew/creative-loop-engineering2) 요구사항 관리 시스템에서 가져온 것입니다.
 
 ## Starter Kit
 
