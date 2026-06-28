@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-27T21:45:32Z",
-  "since": "2026-05-28T21:45:02Z",
+  "generated": "2026-06-28T00:45:58Z",
+  "since": "2026-05-29T00:45:29Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-06-27T18:46:05Z",
-      "pushed_at": "2026-06-27T18:46:02Z",
+      "updated_at": "2026-06-27T21:46:00Z",
+      "pushed_at": "2026-06-27T21:45:57Z",
       "recent_commits": [
+        {
+          "sha": "861fddc",
+          "message": "📊 Update dashboard data (2026-06-28 06:45 KST)",
+          "author": "daeguru",
+          "date": "2026-06-27T21:45:53Z"
+        },
         {
           "sha": "766565c",
           "message": "📊 Update dashboard data (2026-06-28 03:45 KST)",
@@ -85,12 +91,6 @@
           "message": "feat: 미션 대시보드 디자인 통일 + 크로스 링크 + GitHub 연동 강화",
           "author": "daeguru",
           "date": "2026-06-27T11:11:43Z"
-        },
-        {
-          "sha": "a783d85",
-          "message": "feat: CLE2-8 Phase 5 — Discord 연동 설계 (GitHub Actions workflow + 가이드) (#11)",
-          "author": "sfex11",
-          "date": "2026-06-27T10:46:54Z"
         }
       ],
       "recent_prs": [
@@ -560,6 +560,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "📊 Update dashboard data (2026-06-28 06:45 KST)",
+      "sha": "861fddc",
+      "date": "2026-06-27T21:45:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/861fddc94e80d30bf90516cb5ce105a276c90e27"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "📊 Update dashboard data (2026-06-28 03:45 KST)",
       "sha": "766565c",
       "date": "2026-06-27T18:45:59Z",
@@ -629,15 +638,6 @@
       "state": "closed",
       "date": "2026-06-27T10:46:54Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/11"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "feat: CLE2-8 Phase 5 — Discord 연동 설계 (GitHub Actions workflow + 가이드) (#11)",
-      "sha": "a783d85",
-      "date": "2026-06-27T10:46:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a783d85c18bc4b68cb2ebc231613e5424b03c0dd"
     },
     {
       "type": "pr",
@@ -1027,8 +1027,15 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 16,
       "prs": 14,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "daeguru",
+      "commits": 6,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
@@ -1036,13 +1043,6 @@
       "login": "Normalist-K",
       "commits": 6,
       "prs": 3,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "daeguru",
-      "commits": 5,
-      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
