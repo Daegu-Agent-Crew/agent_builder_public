@@ -381,6 +381,11 @@
     var recsByProject = data.records_by_project || {};
     var container = $('#members-list');
 
+    // Normalize: accept both string and {username, displayName} formats
+    var memberList = members.map(function (m) {
+      return typeof m === 'string' ? { username: m, displayName: m } : m;
+    });
+
     var memberCounts = {};
     Object.values(recsByProject).forEach(function (recs) {
       recs.forEach(function (r) {
@@ -396,13 +401,15 @@
       });
     }
 
-    container.innerHTML = members.map(function (m) {
-      var initial = m.charAt(0).toUpperCase();
-      var count = memberCounts[m] || 0;
-      var stats = statsMap[m];
+    container.innerHTML = memberList.map(function (m) {
+      var login = m.username || m;
+      var display = m.displayName || login;
+      var initial = login.charAt(0).toUpperCase();
+      var count = memberCounts[login] || 0;
+      var stats = statsMap[login];
       var commits = stats ? stats.commits : 0;
       var prs = stats ? stats.prs : 0;
-      var ghUrl = 'https://github.com/' + encodeURIComponent(m);
+      var ghUrl = 'https://github.com/' + encodeURIComponent(login);
 
       var statBadges = '';
       if (commits > 0) statBadges += '<div class="member-stat">💻 ' + commits + ' 커밋</div>';
@@ -413,8 +420,8 @@
         '<a href="' + ghUrl + '" target="_blank" rel="noopener" class="member-avatar-link">' +
           '<div class="member-avatar">' + escapeHtml(initial) + '</div>' +
         '</a>' +
-        '<div class="member-name"><a href="' + ghUrl + '" target="_blank" rel="noopener">' + escapeHtml(m) + '</a></div>' +
-        '<div class="member-handle">@' + escapeHtml(m) + '</div>' +
+        '<div class="member-name"><a href="' + ghUrl + '" target="_blank" rel="noopener">' + escapeHtml(display) + '</a></div>' +
+        '<div class="member-handle">@' + escapeHtml(login) + '</div>' +
         '<div class="member-records">📄 ' + count + ' 기록</div>' +
         statBadges +
       '</div>';
