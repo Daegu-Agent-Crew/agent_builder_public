@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T21:45:27Z",
-  "since": "2026-05-29T21:44:56Z",
+  "generated": "2026-06-29T00:45:55Z",
+  "since": "2026-05-30T00:45:11Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-06-28T18:45:25Z",
-      "pushed_at": "2026-06-28T18:45:21Z",
+      "updated_at": "2026-06-28T21:46:03Z",
+      "pushed_at": "2026-06-28T21:45:59Z",
       "recent_commits": [
+        {
+          "sha": "ea80133",
+          "message": "Update dashboard data: dashboard.json + github-activity.json (2026-06-29)",
+          "author": "daeguru",
+          "date": "2026-06-28T21:45:56Z"
+        },
         {
           "sha": "5bdefb1",
           "message": "📊 Update dashboard data (wiki + GitHub activity)",
@@ -85,12 +91,6 @@
           "message": "📊 Update dashboard data (2026-06-28)",
           "author": "daeguru",
           "date": "2026-06-28T09:46:16Z"
-        },
-        {
-          "sha": "52f7200",
-          "message": "Update dashboard data: wiki regeneration + GitHub activity",
-          "author": "daeguru",
-          "date": "2026-06-28T06:45:56Z"
         }
       ],
       "recent_prs": [
@@ -560,6 +560,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "Update dashboard data: dashboard.json + github-activity.json (2026-06-29)",
+      "sha": "ea80133",
+      "date": "2026-06-28T21:45:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ea80133e7d2f955d54e655fe426eb70bb100fd7a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "📊 Update dashboard data (wiki + GitHub activity)",
       "sha": "5bdefb1",
       "date": "2026-06-28T18:45:16Z",
@@ -591,15 +600,6 @@
       "sha": "c95ba50",
       "date": "2026-06-28T09:46:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c95ba5047a3aab0fe1dbde97ead1ac3a8f90acb6"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard data: wiki regeneration + GitHub activity",
-      "sha": "52f7200",
-      "date": "2026-06-28T06:45:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/52f720082e7d64960b2632f965cfe2a67e872023"
     },
     {
       "type": "commit",
