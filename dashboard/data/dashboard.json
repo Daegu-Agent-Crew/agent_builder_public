@@ -1,13 +1,27 @@
 {
-  "generated": "2026-06-30T09:45:11Z",
+  "generated": "2026-06-30T12:45:20Z",
   "members": [
-    "sfex11",
-    "normalkim",
-    "eugene",
-    "junteken",
-    "daeguru",
-    "Normalist-K",
-    "juntaek-lee"
+    {
+      "username": "sfex11"
+    },
+    {
+      "username": "normalkim"
+    },
+    {
+      "username": "eugene"
+    },
+    {
+      "username": "junteken"
+    },
+    {
+      "username": "daeguru"
+    },
+    {
+      "username": "Normalist-K"
+    },
+    {
+      "username": "juntaek-lee"
+    }
   ],
   "projects": [
     {
