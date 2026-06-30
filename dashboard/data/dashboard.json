@@ -1,34 +1,13 @@
 {
-  "generated": "2026-06-29T21:44:45Z",
+  "generated": "2026-06-30T00:46:25Z",
   "members": [
-    {
-      "username": "sfex11",
-      "displayName": "sfex11"
-    },
-    {
-      "username": "normalkim",
-      "displayName": "normalkim"
-    },
-    {
-      "username": "eugene",
-      "displayName": "eugene"
-    },
-    {
-      "username": "junteken",
-      "displayName": "junteken"
-    },
-    {
-      "username": "daeguru",
-      "displayName": "daeguru"
-    },
-    {
-      "username": "Normalist-K",
-      "displayName": "Normalist-K"
-    },
-    {
-      "username": "juntaek-lee",
-      "displayName": "juntaek-lee"
-    }
+    "sfex11",
+    "normalkim",
+    "eugene",
+    "junteken",
+    "daeguru",
+    "Normalist-K",
+    "juntaek-lee"
   ],
   "projects": [
     {

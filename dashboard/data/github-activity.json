@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-29T21:45:32Z",
-  "since": "2026-05-30T21:45:02Z",
+  "generated": "2026-06-30T00:47:22Z",
+  "since": "2026-05-31T00:46:45Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -57,40 +57,40 @@
       "slug": "Daegu-Agent-Crew/agent_builder_public",
       "name": "agent_builder_public",
       "private": false,
-      "open_issues": 3,
+      "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-06-29T18:46:29Z",
-      "pushed_at": "2026-06-29T18:46:10Z",
+      "updated_at": "2026-06-30T00:31:00Z",
+      "pushed_at": "2026-06-30T00:30:56Z",
       "recent_commits": [
+        {
+          "sha": "ee89597",
+          "message": "fix: ghGetFile에 Contents API 인증 추가 (private 리포 접근)",
+          "author": "daeguru",
+          "date": "2026-06-30T00:30:56Z"
+        },
+        {
+          "sha": "ce0605f",
+          "message": "feat: team-memory 웹 콘솔 SPA (이슈 #12)",
+          "author": "daeguru",
+          "date": "2026-06-29T23:51:13Z"
+        },
+        {
+          "sha": "0c5dcb7",
+          "message": "fix: dashboard.js renderMembers() handles object member format",
+          "author": "daeguru",
+          "date": "2026-06-29T22:41:11Z"
+        },
+        {
+          "sha": "55f02f6",
+          "message": "📊 Update dashboard data: dashboard.json + github-activity.json",
+          "author": "daeguru",
+          "date": "2026-06-29T21:46:10Z"
+        },
         {
           "sha": "6412469",
           "message": "📊 Update dashboard data (2026-06-30)",
           "author": "daeguru",
           "date": "2026-06-29T18:46:06Z"
-        },
-        {
-          "sha": "8440d5e",
-          "message": "Update dashboard data: dashboard.json + github-activity.json (2026-06-29)",
-          "author": "daeguru",
-          "date": "2026-06-29T15:46:41Z"
-        },
-        {
-          "sha": "bbf85f2",
-          "message": "chore: update dashboard data (2026-06-29)",
-          "author": "daeguru",
-          "date": "2026-06-29T12:45:48Z"
-        },
-        {
-          "sha": "d6da9a1",
-          "message": "📅 Update dashboard data (2026-06-29)",
-          "author": "daeguru",
-          "date": "2026-06-29T00:46:18Z"
-        },
-        {
-          "sha": "ea80133",
-          "message": "Update dashboard data: dashboard.json + github-activity.json (2026-06-29)",
-          "author": "daeguru",
-          "date": "2026-06-28T21:45:56Z"
         }
       ],
       "recent_prs": [
@@ -560,46 +560,46 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "fix: ghGetFile에 Contents API 인증 추가 (private 리포 접근)",
+      "sha": "ee89597",
+      "date": "2026-06-30T00:30:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ee8959797e2992404b547dc4e53d8f25237fe939"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "feat: team-memory 웹 콘솔 SPA (이슈 #12)",
+      "sha": "ce0605f",
+      "date": "2026-06-29T23:51:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ce0605f9c4d091ea6aaf1135622bacaf6ba0ce50"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "fix: dashboard.js renderMembers() handles object member format",
+      "sha": "0c5dcb7",
+      "date": "2026-06-29T22:41:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0c5dcb7fecf3cba8b893290a0157fde65cd55287"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 Update dashboard data: dashboard.json + github-activity.json",
+      "sha": "55f02f6",
+      "date": "2026-06-29T21:46:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/55f02f684fcfa8a8214fb2f4427380406f61283d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "📊 Update dashboard data (2026-06-30)",
       "sha": "6412469",
       "date": "2026-06-29T18:46:06Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/641246976c928eb16cfc459aa8a2ddb54ea5fd07"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard data: dashboard.json + github-activity.json (2026-06-29)",
-      "sha": "8440d5e",
-      "date": "2026-06-29T15:46:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8440d5ecc0b54890dfd2e5b2a8c7698ddd22dad0"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (2026-06-29)",
-      "sha": "bbf85f2",
-      "date": "2026-06-29T12:45:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bbf85f28c9acfb4c46a7b3472d25f55215a2219c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📅 Update dashboard data (2026-06-29)",
-      "sha": "d6da9a1",
-      "date": "2026-06-29T00:46:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d6da9a1bb009e92a3cc1424dd11d8a0c41f54ba4"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard data: dashboard.json + github-activity.json (2026-06-29)",
-      "sha": "ea80133",
-      "date": "2026-06-28T21:45:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ea80133e7d2f955d54e655fe426eb70bb100fd7a"
     },
     {
       "type": "commit",
@@ -1026,49 +1026,196 @@
   ],
   "member_stats": [
     {
-      "login": "sfex11",
-      "commits": 16,
-      "prs": 14,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "daeguru",
-      "commits": 6,
-      "prs": 0,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "Normalist-K",
-      "commits": 6,
-      "prs": 3,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "junteken",
-      "commits": 1,
-      "prs": 1,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "normalkim",
+      "login": "{",
       "commits": 0,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "eugene",
+      "login": "  \"username\": \"sfex11\",",
       "commits": 0,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "juntaek-lee",
+      "login": "  \"displayName\": \"sfex11\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"username\": \"normalkim\",",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"displayName\": \"normalkim\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"username\": \"eugene\",",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"displayName\": \"eugene\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"username\": \"junteken\",",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"displayName\": \"junteken\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"username\": \"daeguru\",",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"displayName\": \"daeguru\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"username\": \"Normalist-K\",",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"displayName\": \"Normalist-K\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "{",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"username\": \"juntaek-lee\",",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "  \"displayName\": \"juntaek-lee\"",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "}",
       "commits": 0,
       "prs": 0,
       "issues": 0,
