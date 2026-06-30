@@ -86,10 +86,28 @@
   }
 
   function ghGetFile(path, cb) {
-    fetch(TM_RAW + '/' + path)
-      .then(function (r) { return r.text(); })
+    // Use Contents API with auth (needed for private repos)
+    fetch(TM_API + '/contents/' + path, {
+      headers: ghHeaders({ 'Accept': 'application/vnd.github.raw' })
+    })
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.text();
+      })
       .then(function (text) { cb(text); })
-      .catch(function () { cb(null); });
+      .catch(function () {
+        // Fallback: try base64 content
+        fetch(TM_API + '/contents/' + path, { headers: ghHeaders() })
+          .then(function (r) { return r.json(); })
+          .then(function (data) {
+            if (data && data.content) {
+              cb(decodeURIComponent(escape(atob(data.content))));
+            } else {
+              cb(null);
+            }
+          })
+          .catch(function () { cb(null); });
+      });
   }
 
   function ghCreateFile(path, content, message, cb) {
