@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-02T09:47:32Z",
-  "since": "2026-06-02T09:47:02Z",
+  "generated": "2026-07-02T12:46:33Z",
+  "since": "2026-06-02T12:46:03Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-07-02T00:46:01Z",
-      "pushed_at": "2026-07-02T00:45:55Z",
+      "updated_at": "2026-07-02T09:48:58Z",
+      "pushed_at": "2026-07-02T09:48:54Z",
       "recent_commits": [
+        {
+          "sha": "c24e99a",
+          "message": "📊 Update dashboard data: wiki + GitHub activity (2026-07-02)",
+          "author": "daeguru",
+          "date": "2026-07-02T09:48:33Z"
+        },
         {
           "sha": "96b4985",
           "message": "Update dashboard.json & github-activity (2026-07-02)",
@@ -85,12 +91,6 @@
           "message": "📊 Update dashboard data — 2026-07-02",
           "author": "daeguru",
           "date": "2026-07-01T15:46:34Z"
-        },
-        {
-          "sha": "b1d6dbf",
-          "message": "📊 Update dashboard data (2026-07-01)",
-          "author": "daeguru",
-          "date": "2026-07-01T09:46:33Z"
         }
       ],
       "recent_prs": [
@@ -560,6 +560,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "📊 Update dashboard data: wiki + GitHub activity (2026-07-02)",
+      "sha": "c24e99a",
+      "date": "2026-07-02T09:48:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c24e99af5bfca3e097804527b93766c902b281b5"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "Update dashboard.json & github-activity (2026-07-02)",
       "sha": "96b4985",
       "date": "2026-07-02T00:45:52Z",
@@ -619,15 +628,6 @@
       "sha": "789e53e",
       "date": "2026-07-01T15:46:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/789e53ee37e1da180545e9bd813c98dd1a9b951a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 Update dashboard data (2026-07-01)",
-      "sha": "b1d6dbf",
-      "date": "2026-07-01T09:46:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b1d6dbfc52689cdaa64f99ca6eb2e4a67f8766be"
     },
     {
       "type": "commit",
