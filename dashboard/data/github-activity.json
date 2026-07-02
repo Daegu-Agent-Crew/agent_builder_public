@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-01T21:45:40Z",
-  "since": "2026-06-01T21:45:10Z",
+  "generated": "2026-07-02T00:45:28Z",
+  "since": "2026-06-02T00:44:58Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-07-01T18:46:00Z",
-      "pushed_at": "2026-07-01T18:45:54Z",
+      "updated_at": "2026-07-01T21:46:14Z",
+      "pushed_at": "2026-07-01T21:46:10Z",
       "recent_commits": [
+        {
+          "sha": "ed67b42",
+          "message": "📊 Update dashboard data (2026-07-02)",
+          "author": "daeguru",
+          "date": "2026-07-01T21:46:06Z"
+        },
         {
           "sha": "6a63e80",
           "message": "📊 Update dashboard data (2026-07-02)",
@@ -85,12 +91,6 @@
           "message": "Update dashboard.json & github-activity.json (2026-07-01)",
           "author": "daeguru",
           "date": "2026-07-01T00:46:17Z"
-        },
-        {
-          "sha": "cebd26d",
-          "message": "📊 Update dashboard data (2026-07-01)",
-          "author": "daeguru",
-          "date": "2026-06-30T21:45:26Z"
         }
       ],
       "recent_prs": [
@@ -154,11 +154,23 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 5,
+      "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-06-27T10:47:30Z",
-      "pushed_at": "2026-06-27T10:47:23Z",
+      "updated_at": "2026-07-01T23:36:03Z",
+      "pushed_at": "2026-07-01T23:35:59Z",
       "recent_commits": [
+        {
+          "sha": "c19b6cb",
+          "message": "chore: auto-update CLE2-task task status (merged)",
+          "author": "github-actions[bot]",
+          "date": "2026-07-01T23:35:58Z"
+        },
+        {
+          "sha": "2ba6ea4",
+          "message": "feat(CLE2-8): 태스크 초기 설정 (#23)",
+          "author": "sfex11",
+          "date": "2026-07-01T23:35:49Z"
+        },
         {
           "sha": "888729c",
           "message": "chore: auto-update CLE2-task task status (merged)",
@@ -176,21 +188,17 @@
           "message": "fix: CLE2-9 → CLE2-8 번호 정정 + TASKS_DATA에 CLE2-8 추가",
           "author": "sfex11",
           "date": "2026-06-27T09:33:39Z"
-        },
-        {
-          "sha": "7e5aded",
-          "message": "fix: 요구사항 새로고침 시 중복 생성 버그 수정",
-          "author": "sfex11",
-          "date": "2026-06-27T09:20:50Z"
-        },
-        {
-          "sha": "5890c75",
-          "message": "chore: auto-update CLE2-task task status (merged)",
-          "author": "github-actions[bot]",
-          "date": "2026-06-27T09:09:08Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 23,
+          "title": "feat(CLE2-8): 매일 CLE2 개선 질문하기 — 태스크 초기 설정",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-01T23:35:49Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/23"
+        },
         {
           "number": 21,
           "title": "fix: CLE2-8 STATUS — Phase 1~5 구현 완료",
@@ -206,14 +214,6 @@
           "state": "closed",
           "updated_at": "2026-06-24T21:51:42Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/19"
-        },
-        {
-          "number": 18,
-          "title": "feat: 요구사항/태스크에 GitHub 이슈·PR 번호 표시",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-06-24T19:39:44Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/18"
         }
       ]
     },
@@ -558,6 +558,43 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "github-actions[bot]",
+      "message": "chore: auto-update CLE2-task task status (merged)",
+      "sha": "c19b6cb",
+      "date": "2026-07-01T23:35:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/c19b6cbb5702ed1423bb57a4b60902eb7a28b54d"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-8): 매일 CLE2 개선 질문하기 — 태스크 초기 설정",
+      "number": 23,
+      "state": "closed",
+      "date": "2026-07-01T23:35:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/23"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-8): 태스크 초기 설정 (#23)",
+      "sha": "2ba6ea4",
+      "date": "2026-07-01T23:35:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2ba6ea4d78d4b9d5365a2e6ab931d41d25138a98"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 Update dashboard data (2026-07-02)",
+      "sha": "ed67b42",
+      "date": "2026-07-01T21:46:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ed67b42b5ae79a20fcb2f7f0e116a40e76003662"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "📊 Update dashboard data (2026-07-02)",
@@ -591,15 +628,6 @@
       "sha": "c6e03fc",
       "date": "2026-07-01T00:46:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c6e03fcc6e908e647d6937303d0d01edcabc0f11"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 Update dashboard data (2026-07-01)",
-      "sha": "cebd26d",
-      "date": "2026-06-30T21:45:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cebd26d700976f572e86b6b28246e26b27595b04"
     },
     {
       "type": "commit",
@@ -669,24 +697,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/70c4875f41ed45f39417589a016de7376c3f7c74"
     },
     {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix: 요구사항 새로고침 시 중복 생성 버그 수정",
-      "sha": "7e5aded",
-      "date": "2026-06-27T09:20:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/7e5aded5ee40c9465ad6a48a9b62e7896b9a93be"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "github-actions[bot]",
-      "message": "chore: auto-update CLE2-task task status (merged)",
-      "sha": "5890c75",
-      "date": "2026-06-27T09:09:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/5890c75cea6595f28bfaa2df6bd2f96786a66e16"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -695,16 +705,6 @@
       "state": "closed",
       "date": "2026-06-24T21:51:42Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/19"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat: 요구사항/태스크에 GitHub 이슈·PR 번호 표시",
-      "number": 18,
-      "state": "closed",
-      "date": "2026-06-24T19:39:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/18"
     },
     {
       "type": "commit",
