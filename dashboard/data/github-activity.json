@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-03T00:46:09Z",
-  "since": "2026-06-03T00:45:39Z",
+  "generated": "2026-07-03T09:46:38Z",
+  "since": "2026-06-03T09:46:09Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-07-02T21:45:41Z",
-      "pushed_at": "2026-07-02T21:45:38Z",
+      "updated_at": "2026-07-03T00:46:23Z",
+      "pushed_at": "2026-07-03T00:46:20Z",
       "recent_commits": [
+        {
+          "sha": "bef146a",
+          "message": "Update dashboard data: 2026-07-03 09:46 KST",
+          "author": "daeguru",
+          "date": "2026-07-03T00:46:20Z"
+        },
         {
           "sha": "b45358c",
           "message": "Update dashboard data: 2026-07-03 06:45 KST",
@@ -85,12 +91,6 @@
           "message": "Update dashboard.json & github-activity.json - 2026-07-02",
           "author": "daeguru",
           "date": "2026-07-02T12:47:08Z"
-        },
-        {
-          "sha": "c24e99a",
-          "message": "📊 Update dashboard data: wiki + GitHub activity (2026-07-02)",
-          "author": "daeguru",
-          "date": "2026-07-02T09:48:33Z"
         }
       ],
       "recent_prs": [
@@ -558,6 +558,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard data: 2026-07-03 09:46 KST",
+      "sha": "bef146a",
+      "date": "2026-07-03T00:46:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bef146ab80059949e87ee5b85616cc18d4e22b21"
+    },
+    {
+      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "대구루",
       "message": "feat: Discord webhook notification on new CLE2 issue",
@@ -600,15 +609,6 @@
       "sha": "c43fb43",
       "date": "2026-07-02T12:47:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c43fb433b576aab131563a835fde86c815f1716b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 Update dashboard data: wiki + GitHub activity (2026-07-02)",
-      "sha": "c24e99a",
-      "date": "2026-07-02T09:48:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c24e99af5bfca3e097804527b93766c902b281b5"
     },
     {
       "type": "commit",
