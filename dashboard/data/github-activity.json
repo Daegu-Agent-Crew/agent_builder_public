@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-02T21:45:17Z",
-  "since": "2026-06-02T21:44:46Z",
+  "generated": "2026-07-03T00:46:09Z",
+  "since": "2026-06-03T00:45:39Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-07-02T18:46:34Z",
-      "pushed_at": "2026-07-02T18:45:47Z",
+      "updated_at": "2026-07-02T21:45:41Z",
+      "pushed_at": "2026-07-02T21:45:38Z",
       "recent_commits": [
+        {
+          "sha": "b45358c",
+          "message": "Update dashboard data: 2026-07-03 06:45 KST",
+          "author": "daeguru",
+          "date": "2026-07-02T21:45:37Z"
+        },
         {
           "sha": "5572f7f",
           "message": "📊 Update dashboard data — 2026-07-02T18:45:44Z",
@@ -85,12 +91,6 @@
           "message": "📊 Update dashboard data: wiki + GitHub activity (2026-07-02)",
           "author": "daeguru",
           "date": "2026-07-02T09:48:33Z"
-        },
-        {
-          "sha": "96b4985",
-          "message": "Update dashboard.json & github-activity (2026-07-02)",
-          "author": "daeguru",
-          "date": "2026-07-02T00:45:52Z"
         }
       ],
       "recent_prs": [
@@ -156,9 +156,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-07-01T23:36:03Z",
-      "pushed_at": "2026-07-01T23:35:59Z",
+      "updated_at": "2026-07-02T22:41:57Z",
+      "pushed_at": "2026-07-02T22:41:52Z",
       "recent_commits": [
+        {
+          "sha": "f3fa78f",
+          "message": "feat: Discord webhook notification on new CLE2 issue",
+          "author": "대구루",
+          "date": "2026-07-02T22:41:15Z"
+        },
         {
           "sha": "c19b6cb",
           "message": "chore: auto-update CLE2-task task status (merged)",
@@ -182,12 +188,6 @@
           "message": "fix: CLE2-8 STATUS — Phase 1~5 구현 완료, PR 5건 승인 대기 (#21)",
           "author": "sfex11",
           "date": "2026-06-27T10:47:11Z"
-        },
-        {
-          "sha": "70c4875",
-          "message": "fix: CLE2-9 → CLE2-8 번호 정정 + TASKS_DATA에 CLE2-8 추가",
-          "author": "sfex11",
-          "date": "2026-06-27T09:33:39Z"
         }
       ],
       "recent_prs": [
@@ -558,6 +558,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "대구루",
+      "message": "feat: Discord webhook notification on new CLE2 issue",
+      "sha": "f3fa78f",
+      "date": "2026-07-02T22:41:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f3fa78fa1f1dfa86d71c2b5ab14268bd668be2ec"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard data: 2026-07-03 06:45 KST",
+      "sha": "b45358c",
+      "date": "2026-07-02T21:45:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b45358c01ac706b90128ea48b236f1c9b8085920"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "📊 Update dashboard data — 2026-07-02T18:45:44Z",
@@ -591,15 +609,6 @@
       "sha": "c24e99a",
       "date": "2026-07-02T09:48:33Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c24e99af5bfca3e097804527b93766c902b281b5"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard.json & github-activity (2026-07-02)",
-      "sha": "96b4985",
-      "date": "2026-07-02T00:45:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/96b4985a8666581ae91f71554c5958f89dc78a0e"
     },
     {
       "type": "commit",
@@ -686,15 +695,6 @@
       "state": "closed",
       "date": "2026-06-27T10:46:50Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/6"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix: CLE2-9 → CLE2-8 번호 정정 + TASKS_DATA에 CLE2-8 추가",
-      "sha": "70c4875",
-      "date": "2026-06-27T09:33:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/70c4875f41ed45f39417589a016de7376c3f7c74"
     },
     {
       "type": "pr",
@@ -1027,7 +1027,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
+      "commits": 15,
       "prs": 14,
       "issues": 0,
       "reviews": 0
