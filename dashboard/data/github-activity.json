@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-04T15:46:01Z",
-  "since": "2026-06-04T15:45:33Z",
+  "generated": "2026-07-04T21:45:44Z",
+  "since": "2026-06-04T21:45:16Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-07-04T09:46:09Z",
-      "pushed_at": "2026-07-04T09:46:05Z",
+      "updated_at": "2026-07-04T15:46:28Z",
+      "pushed_at": "2026-07-04T15:46:25Z",
       "recent_commits": [
+        {
+          "sha": "03f65b9",
+          "message": "📊 dashboard data 갱신 (members + github-activity)",
+          "author": "daeguru",
+          "date": "2026-07-04T15:46:24Z"
+        },
         {
           "sha": "8249633",
           "message": "📊 dashboard data 갱신 (members + github-activity)",
@@ -85,12 +91,6 @@
           "message": "Update dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-07-03T15:58:21Z"
-        },
-        {
-          "sha": "39aad81",
-          "message": "Update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-07-03T12:48:52Z"
         }
       ],
       "recent_prs": [
@@ -426,9 +426,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-06-22T14:38:25Z",
-      "pushed_at": "2026-07-04T09:45:58Z",
+      "updated_at": "2026-07-04T18:18:24Z",
+      "pushed_at": "2026-07-04T18:18:20Z",
       "recent_commits": [
+        {
+          "sha": "4cb32d4",
+          "message": "Add Thariq - A Field Guide to Fable: Finding Your Unknowns (X post summary)",
+          "author": "sfex11",
+          "date": "2026-07-04T18:18:20Z"
+        },
         {
           "sha": "af0cd9a",
           "message": "chore: CLE2 registry 등록 및 작업 기록 추가 (#3)",
@@ -452,12 +458,6 @@
           "message": "docs: CLE 프로젝트 컨텍스트 - Codex timeout 가이드 포함",
           "author": "sfex11",
           "date": "2026-06-20T04:05:31Z"
-        },
-        {
-          "sha": "76c34c3",
-          "message": "Add gajae-code architecture analysis record",
-          "author": "sfex11",
-          "date": "2026-06-19T21:00:42Z"
         }
       ],
       "recent_prs": [
@@ -558,6 +558,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add Thariq - A Field Guide to Fable: Finding Your Unknowns (X post summary)",
+      "sha": "4cb32d4",
+      "date": "2026-07-04T18:18:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4cb32d4f6bbc243e859d498ae4256cbf4e7acb99"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 dashboard data 갱신 (members + github-activity)",
+      "sha": "03f65b9",
+      "date": "2026-07-04T15:46:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/03f65b9c660a0367ae4039ec8fcbe47f5a95abdb"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "📊 dashboard data 갱신 (members + github-activity)",
@@ -591,15 +609,6 @@
       "sha": "b45a9cc",
       "date": "2026-07-03T15:58:21Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b45a9cc12bbcea20fa91884442158d09b4e92f2c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard.json and github-activity.json",
-      "sha": "39aad81",
-      "date": "2026-07-03T12:48:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/39aad81b8ef84970a552260394bc5ae5a5cfd0ef"
     },
     {
       "type": "commit",
@@ -779,15 +788,6 @@
       "sha": "890a07c",
       "date": "2026-06-20T04:05:31Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/890a07c8baea1479c74b4eaa4f189c9b0dd35e29"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add gajae-code architecture analysis record",
-      "sha": "76c34c3",
-      "date": "2026-06-19T21:00:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/76c34c3ccfd37cc5d7f7ade1da1da40445358758"
     },
     {
       "type": "pr",
