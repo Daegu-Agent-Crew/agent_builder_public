@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-04T21:45:44Z",
-  "since": "2026-06-04T21:45:16Z",
+  "generated": "2026-07-05T03:46:02Z",
+  "since": "2026-06-05T03:45:33Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-07-04T15:46:28Z",
-      "pushed_at": "2026-07-04T15:46:25Z",
+      "updated_at": "2026-07-04T21:46:15Z",
+      "pushed_at": "2026-07-04T21:46:11Z",
       "recent_commits": [
+        {
+          "sha": "fdf85a9",
+          "message": "chore: update github-activity.json (2026-07-05 06:45 KST)",
+          "author": "daeguru",
+          "date": "2026-07-04T21:46:11Z"
+        },
         {
           "sha": "03f65b9",
           "message": "📊 dashboard data 갱신 (members + github-activity)",
@@ -85,12 +91,6 @@
           "message": "Update dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-07-03T21:45:59Z"
-        },
-        {
-          "sha": "b45a9cc",
-          "message": "Update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-07-03T15:58:21Z"
         }
       ],
       "recent_prs": [
@@ -154,10 +154,10 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 6,
-      "open_prs": 0,
+      "open_issues": 8,
+      "open_prs": 1,
       "updated_at": "2026-07-02T22:41:57Z",
-      "pushed_at": "2026-07-02T22:41:52Z",
+      "pushed_at": "2026-07-05T02:47:57Z",
       "recent_commits": [
         {
           "sha": "f3fa78f",
@@ -192,6 +192,14 @@
       ],
       "recent_prs": [
         {
+          "number": 25,
+          "title": "feat(CLE2-9): 삼체 만화 창작 시스템(CLE3) 태스크 초기 설정",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-07-05T02:47:58Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/25"
+        },
+        {
           "number": 23,
           "title": "feat(CLE2-8): 매일 CLE2 개선 질문하기 — 태스크 초기 설정",
           "author": "sfex11",
@@ -206,14 +214,6 @@
           "state": "closed",
           "updated_at": "2026-06-27T10:47:12Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/21"
-        },
-        {
-          "number": 19,
-          "title": "feat: 요구사항 상세에 결과물(링크) 섹션 추가",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-06-24T21:51:42Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/19"
         }
       ]
     },
@@ -427,7 +427,7 @@
       "open_issues": 1,
       "open_prs": 1,
       "updated_at": "2026-07-04T18:18:24Z",
-      "pushed_at": "2026-07-04T18:18:20Z",
+      "pushed_at": "2026-07-04T21:46:01Z",
       "recent_commits": [
         {
           "sha": "4cb32d4",
@@ -557,6 +557,25 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-9): 삼체 만화 창작 시스템(CLE3) 태스크 초기 설정",
+      "number": 25,
+      "state": "open",
+      "date": "2026-07-05T02:47:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/25"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update github-activity.json (2026-07-05 06:45 KST)",
+      "sha": "fdf85a9",
+      "date": "2026-07-04T21:46:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fdf85a9b5e868f1b9dbcda6cae40289d0378736d"
+    },
+    {
       "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
@@ -600,15 +619,6 @@
       "sha": "638e324",
       "date": "2026-07-03T21:45:59Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/638e3249bf7f58265d1d82b1db693db27eea610e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard.json and github-activity.json",
-      "sha": "b45a9cc",
-      "date": "2026-07-03T15:58:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b45a9cc12bbcea20fa91884442158d09b4e92f2c"
     },
     {
       "type": "commit",
@@ -704,16 +714,6 @@
       "state": "closed",
       "date": "2026-06-27T10:46:50Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/6"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat: 요구사항 상세에 결과물(링크) 섹션 추가",
-      "number": 19,
-      "state": "closed",
-      "date": "2026-06-24T21:51:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/19"
     },
     {
       "type": "commit",
