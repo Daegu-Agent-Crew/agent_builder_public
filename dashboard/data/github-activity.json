@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-06T00:45:35Z",
-  "since": "2026-06-06T00:45:06Z",
+  "generated": "2026-07-06T09:46:32Z",
+  "since": "2026-06-06T09:46:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-07-05T21:46:08Z",
-      "pushed_at": "2026-07-05T21:46:04Z",
+      "updated_at": "2026-07-06T00:45:56Z",
+      "pushed_at": "2026-07-06T00:45:52Z",
       "recent_commits": [
+        {
+          "sha": "0e67df9",
+          "message": "📊 dashboard: update GitHub activity & dashboard.json (2026-07-06T00:45:52Z)",
+          "author": "daeguru",
+          "date": "2026-07-06T00:45:52Z"
+        },
         {
           "sha": "305e068",
           "message": "Update dashboard data & github activity",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard.json + github-activity.json (2026-07-05 18:44 KST)",
           "author": "daeguru",
           "date": "2026-07-05T09:46:08Z"
-        },
-        {
-          "sha": "dc9a4ab",
-          "message": "chore: update github-activity.json (2026-07-05 12:44 KST)",
-          "author": "daeguru",
-          "date": "2026-07-05T03:46:24Z"
         }
       ],
       "recent_prs": [
@@ -156,9 +156,15 @@
       "private": false,
       "open_issues": 8,
       "open_prs": 1,
-      "updated_at": "2026-07-02T22:41:57Z",
-      "pushed_at": "2026-07-05T16:28:25Z",
+      "updated_at": "2026-07-06T06:23:17Z",
+      "pushed_at": "2026-07-06T06:23:13Z",
       "recent_commits": [
+        {
+          "sha": "b6dea9f",
+          "message": "feat: add per-task decisions tracking",
+          "author": "sfex11",
+          "date": "2026-07-06T06:21:32Z"
+        },
         {
           "sha": "f3fa78f",
           "message": "feat: Discord webhook notification on new CLE2 issue",
@@ -182,12 +188,6 @@
           "message": "chore: auto-update CLE2-task task status (merged)",
           "author": "github-actions[bot]",
           "date": "2026-06-27T10:47:20Z"
-        },
-        {
-          "sha": "7c82ba5",
-          "message": "fix: CLE2-8 STATUS — Phase 1~5 구현 완료, PR 5건 승인 대기 (#21)",
-          "author": "sfex11",
-          "date": "2026-06-27T10:47:11Z"
         }
       ],
       "recent_prs": [
@@ -558,6 +558,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat: add per-task decisions tracking",
+      "sha": "b6dea9f",
+      "date": "2026-07-06T06:21:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/b6dea9ffe9e8f314805e437d965360d39d91d322"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 dashboard: update GitHub activity & dashboard.json (2026-07-06T00:45:52Z)",
+      "sha": "0e67df9",
+      "date": "2026-07-06T00:45:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0e67df976c91bdc733f8799e05601efaa2e5cb57"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "Update dashboard data & github activity",
@@ -619,15 +637,6 @@
       "sha": "b6b8554",
       "date": "2026-07-05T09:46:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b6b85540e6c9e70f782e9ce405264219c46030a1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update github-activity.json (2026-07-05 12:44 KST)",
-      "sha": "dc9a4ab",
-      "date": "2026-07-05T03:46:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dc9a4ab3d8902d67f7f3738aa0c26e4dace6e3fc"
     },
     {
       "type": "commit",
@@ -693,15 +702,6 @@
       "state": "closed",
       "date": "2026-06-27T10:47:12Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/21"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix: CLE2-8 STATUS — Phase 1~5 구현 완료, PR 5건 승인 대기 (#21)",
-      "sha": "7c82ba5",
-      "date": "2026-06-27T10:47:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/7c82ba5026072346b17d980b3b5a66817a6f0a1e"
     },
     {
       "type": "pr",
