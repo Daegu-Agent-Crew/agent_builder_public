@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-06T09:46:32Z",
-  "since": "2026-06-06T09:46:02Z",
+  "generated": "2026-07-06T15:46:15Z",
+  "since": "2026-06-06T15:45:45Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-07-06T00:45:56Z",
-      "pushed_at": "2026-07-06T00:45:52Z",
+      "updated_at": "2026-07-06T09:47:24Z",
+      "pushed_at": "2026-07-06T09:47:20Z",
       "recent_commits": [
+        {
+          "sha": "93ba0de",
+          "message": "📊 dashboard: update GitHub activity & dashboard.json (2026-07-06T09:47:13Z)",
+          "author": "daeguru",
+          "date": "2026-07-06T09:47:13Z"
+        },
         {
           "sha": "0e67df9",
           "message": "📊 dashboard: update GitHub activity & dashboard.json (2026-07-06T00:45:52Z)",
@@ -85,12 +91,6 @@
           "message": "📊 dashboard: update activity & members (2026-07-06 00:45 KST)",
           "author": "daeguru",
           "date": "2026-07-05T15:47:21Z"
-        },
-        {
-          "sha": "b6b8554",
-          "message": "chore: update dashboard.json + github-activity.json (2026-07-05 18:44 KST)",
-          "author": "daeguru",
-          "date": "2026-07-05T09:46:08Z"
         }
       ],
       "recent_prs": [
@@ -154,40 +154,40 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 8,
+      "open_issues": 11,
       "open_prs": 1,
-      "updated_at": "2026-07-06T06:23:17Z",
-      "pushed_at": "2026-07-06T06:23:13Z",
+      "updated_at": "2026-07-06T15:41:39Z",
+      "pushed_at": "2026-07-06T15:41:21Z",
       "recent_commits": [
         {
-          "sha": "b6dea9f",
-          "message": "feat: add per-task decisions tracking",
+          "sha": "5a906e9",
+          "message": "feat: turn cle3 report into screen-first presentation",
           "author": "sfex11",
-          "date": "2026-07-06T06:21:32Z"
+          "date": "2026-07-06T15:39:11Z"
         },
         {
-          "sha": "f3fa78f",
-          "message": "feat: Discord webhook notification on new CLE2 issue",
-          "author": "대구루",
-          "date": "2026-07-02T22:41:15Z"
-        },
-        {
-          "sha": "c19b6cb",
-          "message": "chore: auto-update CLE2-task task status (merged)",
-          "author": "github-actions[bot]",
-          "date": "2026-07-01T23:35:58Z"
-        },
-        {
-          "sha": "2ba6ea4",
-          "message": "feat(CLE2-8): 태스크 초기 설정 (#23)",
+          "sha": "107bdc1",
+          "message": "docs: finalize cle3 workspace draft and presentation",
           "author": "sfex11",
-          "date": "2026-07-01T23:35:49Z"
+          "date": "2026-07-06T15:11:00Z"
         },
         {
-          "sha": "888729c",
-          "message": "chore: auto-update CLE2-task task status (merged)",
-          "author": "github-actions[bot]",
-          "date": "2026-06-27T10:47:20Z"
+          "sha": "7912fc0",
+          "message": "docs: map cle3 episode files to workspace views",
+          "author": "sfex11",
+          "date": "2026-07-06T14:31:14Z"
+        },
+        {
+          "sha": "a02bc49",
+          "message": "docs: extend cle3 qa and workspace specs",
+          "author": "sfex11",
+          "date": "2026-07-06T14:25:33Z"
+        },
+        {
+          "sha": "835d55e",
+          "message": "docs: connect cle3 lint and vision qa workflows",
+          "author": "sfex11",
+          "date": "2026-07-06T14:02:35Z"
         }
       ],
       "recent_prs": [
@@ -560,10 +560,55 @@
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
-      "message": "feat: add per-task decisions tracking",
-      "sha": "b6dea9f",
-      "date": "2026-07-06T06:21:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/b6dea9ffe9e8f314805e437d965360d39d91d322"
+      "message": "feat: turn cle3 report into screen-first presentation",
+      "sha": "5a906e9",
+      "date": "2026-07-06T15:39:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/5a906e9eac92175f7fa31d7163c129d5c49b49b9"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: finalize cle3 workspace draft and presentation",
+      "sha": "107bdc1",
+      "date": "2026-07-06T15:11:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/107bdc1d343049a4132b3d834760b2aa10c6f9b0"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: map cle3 episode files to workspace views",
+      "sha": "7912fc0",
+      "date": "2026-07-06T14:31:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/7912fc0a80b6cc0d687196feb7832e553e811ec1"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: extend cle3 qa and workspace specs",
+      "sha": "a02bc49",
+      "date": "2026-07-06T14:25:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/a02bc491440a8466a3d4b5f6b94dd71d3a9ad563"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: connect cle3 lint and vision qa workflows",
+      "sha": "835d55e",
+      "date": "2026-07-06T14:02:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/835d55e41b05352510438a9e3668607779431ad6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 dashboard: update GitHub activity & dashboard.json (2026-07-06T09:47:13Z)",
+      "sha": "93ba0de",
+      "date": "2026-07-06T09:47:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/93ba0de7bc946abb14bee3bfef9b9e0388b0012e"
     },
     {
       "type": "commit",
@@ -631,39 +676,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard.json + github-activity.json (2026-07-05 18:44 KST)",
-      "sha": "b6b8554",
-      "date": "2026-07-05T09:46:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b6b85540e6c9e70f782e9ce405264219c46030a1"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add Thariq - A Field Guide to Fable: Finding Your Unknowns (X post summary)",
       "sha": "4cb32d4",
       "date": "2026-07-04T18:18:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4cb32d4f6bbc243e859d498ae4256cbf4e7acb99"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "대구루",
-      "message": "feat: Discord webhook notification on new CLE2 issue",
-      "sha": "f3fa78f",
-      "date": "2026-07-02T22:41:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f3fa78fa1f1dfa86d71c2b5ab14268bd668be2ec"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "github-actions[bot]",
-      "message": "chore: auto-update CLE2-task task status (merged)",
-      "sha": "c19b6cb",
-      "date": "2026-07-01T23:35:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/c19b6cbb5702ed1423bb57a4b60902eb7a28b54d"
     },
     {
       "type": "pr",
@@ -674,24 +692,6 @@
       "state": "closed",
       "date": "2026-07-01T23:35:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/23"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-8): 태스크 초기 설정 (#23)",
-      "sha": "2ba6ea4",
-      "date": "2026-07-01T23:35:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2ba6ea4d78d4b9d5365a2e6ab931d41d25138a98"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "github-actions[bot]",
-      "message": "chore: auto-update CLE2-task task status (merged)",
-      "sha": "888729c",
-      "date": "2026-06-27T10:47:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/888729cdbacc80f29de6761592cff861a41d3699"
     },
     {
       "type": "pr",
@@ -1027,7 +1027,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 15,
+      "commits": 18,
       "prs": 14,
       "issues": 0,
       "reviews": 0
