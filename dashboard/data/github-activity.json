@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-05T21:45:43Z",
-  "since": "2026-06-05T21:45:14Z",
+  "generated": "2026-07-06T00:45:35Z",
+  "since": "2026-06-06T00:45:06Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-07-05T18:46:17Z",
-      "pushed_at": "2026-07-05T18:46:14Z",
+      "updated_at": "2026-07-05T21:46:08Z",
+      "pushed_at": "2026-07-05T21:46:04Z",
       "recent_commits": [
+        {
+          "sha": "305e068",
+          "message": "Update dashboard data & github activity",
+          "author": "daeguru",
+          "date": "2026-07-05T21:46:04Z"
+        },
         {
           "sha": "264b7d8",
           "message": "chore: update dashboard & github-activity data (cron)",
@@ -85,12 +91,6 @@
           "message": "chore: update github-activity.json (2026-07-05 12:44 KST)",
           "author": "daeguru",
           "date": "2026-07-05T03:46:24Z"
-        },
-        {
-          "sha": "fdf85a9",
-          "message": "chore: update github-activity.json (2026-07-05 06:45 KST)",
-          "author": "daeguru",
-          "date": "2026-07-04T21:46:11Z"
         }
       ],
       "recent_prs": [
@@ -427,7 +427,7 @@
       "open_issues": 1,
       "open_prs": 1,
       "updated_at": "2026-07-05T16:20:21Z",
-      "pushed_at": "2026-07-05T16:20:18Z",
+      "pushed_at": "2026-07-05T21:46:04Z",
       "recent_commits": [
         {
           "sha": "076f584",
@@ -560,6 +560,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "Update dashboard data & github activity",
+      "sha": "305e068",
+      "date": "2026-07-05T21:46:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/305e068a3056b133a994eab38ee3578fa51f2051"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore: update dashboard & github-activity data (cron)",
       "sha": "264b7d8",
       "date": "2026-07-05T18:46:13Z",
@@ -619,15 +628,6 @@
       "sha": "dc9a4ab",
       "date": "2026-07-05T03:46:24Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dc9a4ab3d8902d67f7f3738aa0c26e4dace6e3fc"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update github-activity.json (2026-07-05 06:45 KST)",
-      "sha": "fdf85a9",
-      "date": "2026-07-04T21:46:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fdf85a9b5e868f1b9dbcda6cae40289d0378736d"
     },
     {
       "type": "commit",
