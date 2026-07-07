@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T18:46:05Z",
-  "since": "2026-06-07T18:45:36Z",
+  "generated": "2026-07-07T21:46:00Z",
+  "since": "2026-06-07T21:45:31Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-07-07T12:47:35Z",
-      "pushed_at": "2026-07-07T12:47:07Z",
+      "updated_at": "2026-07-07T18:46:31Z",
+      "pushed_at": "2026-07-07T18:46:22Z",
       "recent_commits": [
+        {
+          "sha": "3c0c8d3",
+          "message": "📊 Update dashboard & GitHub activity data",
+          "author": "daeguru",
+          "date": "2026-07-07T18:46:22Z"
+        },
         {
           "sha": "df6fcdf",
           "message": "📊 Update dashboard & GitHub activity data",
@@ -85,12 +91,6 @@
           "message": "📊 dashboard: update GitHub activity & dashboard.json (2026-07-06T00:45:52Z)",
           "author": "daeguru",
           "date": "2026-07-06T00:45:52Z"
-        },
-        {
-          "sha": "305e068",
-          "message": "Update dashboard data & github activity",
-          "author": "daeguru",
-          "date": "2026-07-05T21:46:04Z"
         }
       ],
       "recent_prs": [
@@ -491,11 +491,17 @@
       "slug": "Daegu-Agent-Crew/three-body-comic",
       "name": "three-body-comic",
       "private": true,
-      "open_issues": 0,
-      "open_prs": 0,
-      "updated_at": "2026-06-24T12:51:54Z",
-      "pushed_at": "2026-06-24T12:51:49Z",
+      "open_issues": 1,
+      "open_prs": 1,
+      "updated_at": "2026-07-07T20:59:30Z",
+      "pushed_at": "2026-07-07T21:21:31Z",
       "recent_commits": [
+        {
+          "sha": "d891acd",
+          "message": "docs: 스토리 각색 프롬프트 v3 — 4단계 워크플로우 (#6)",
+          "author": "sfex11",
+          "date": "2026-07-07T20:59:25Z"
+        },
         {
           "sha": "92d5cf2",
           "message": "feat: add episode production templates through EP005",
@@ -519,15 +525,25 @@
           "message": "🎭 v2 캐스팅: 위키 기준 캐릭터 재매칭 + 레퍼런스 이미지 6종",
           "author": "openclaw-bot",
           "date": "2026-06-14T08:35:16Z"
-        },
-        {
-          "sha": "1aff46d",
-          "message": "🎨 캐릭터별 개별 레퍼런스 시트 6종 추가",
-          "author": "openclaw-bot",
-          "date": "2026-06-14T07:22:37Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 7,
+          "title": "[EP001] v3 프롬프트 4단계 워크플로우 재작성",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-07-07T21:21:47Z",
+          "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/7"
+        },
+        {
+          "number": 6,
+          "title": "docs: 스토리 각색 프롬프트 v3 — 4단계 워크플로우",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-07T20:59:25Z",
+          "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/6"
+        },
         {
           "number": 5,
           "title": "[Docs] 팀 종합 가이드, 이미지 생성 가이드, 제작 체크리스트, 스킬 맵, 실험 관측 가이드",
@@ -535,27 +551,49 @@
           "state": "closed",
           "updated_at": "2026-06-17T20:45:29Z",
           "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/5"
-        },
-        {
-          "number": 4,
-          "title": "feat: 화풍 스타일 비교 GitHub Pages",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-06-12T05:48:43Z",
-          "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/4"
-        },
-        {
-          "number": 3,
-          "title": "feat: 대본/콘티 템플릿 + team-memory 연동 보강",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-06-12T05:36:29Z",
-          "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/3"
         }
       ]
     }
   ],
   "activity_feed": [
+    {
+      "type": "pr",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "[EP001] v3 프롬프트 4단계 워크플로우 재작성",
+      "number": 7,
+      "state": "open",
+      "date": "2026-07-07T21:21:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/7"
+    },
+    {
+      "type": "pr",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "docs: 스토리 각색 프롬프트 v3 — 4단계 워크플로우",
+      "number": 6,
+      "state": "closed",
+      "date": "2026-07-07T20:59:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/6"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "docs: 스토리 각색 프롬프트 v3 — 4단계 워크플로우 (#6)",
+      "sha": "d891acd",
+      "date": "2026-07-07T20:59:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/d891acdb35c3f62e5bc3d677ea1a21308d870432"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 Update dashboard & GitHub activity data",
+      "sha": "3c0c8d3",
+      "date": "2026-07-07T18:46:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3c0c8d3fff2052044bba8365673c465c8006ba3c"
+    },
     {
       "type": "commit",
       "repo": "agent_builder_public",
@@ -636,15 +674,6 @@
       "sha": "0e67df9",
       "date": "2026-07-06T00:45:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0e67df976c91bdc733f8799e05601efaa2e5cb57"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard data & github activity",
-      "sha": "305e068",
-      "date": "2026-07-05T21:46:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/305e068a3056b133a994eab38ee3578fa51f2051"
     },
     {
       "type": "pr",
@@ -894,35 +923,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/5135993492f52f2a9b5f17b31df2f0b1faaab6e8"
     },
     {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "openclaw-bot",
-      "message": "🎨 캐릭터별 개별 레퍼런스 시트 6종 추가",
-      "sha": "1aff46d",
-      "date": "2026-06-14T07:22:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/1aff46dd974f733ed098a96e130026151943687d"
-    },
-    {
-      "type": "pr",
-      "repo": "three-body-comic",
-      "author": "sfex11",
-      "message": "feat: 화풍 스타일 비교 GitHub Pages",
-      "number": 4,
-      "state": "closed",
-      "date": "2026-06-12T05:48:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/4"
-    },
-    {
-      "type": "pr",
-      "repo": "three-body-comic",
-      "author": "sfex11",
-      "message": "feat: 대본/콘티 템플릿 + team-memory 연동 보강",
-      "number": 3,
-      "state": "closed",
-      "date": "2026-06-12T05:36:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/3"
-    },
-    {
       "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
@@ -1027,7 +1027,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 18,
       "prs": 14,
       "issues": 0,
       "reviews": 0
