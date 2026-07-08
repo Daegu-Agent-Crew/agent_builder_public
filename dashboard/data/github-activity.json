@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T21:46:00Z",
-  "since": "2026-06-07T21:45:31Z",
+  "generated": "2026-07-08T12:45:55Z",
+  "since": "2026-06-08T12:45:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-07-07T18:46:31Z",
-      "pushed_at": "2026-07-07T18:46:22Z",
+      "updated_at": "2026-07-07T21:46:21Z",
+      "pushed_at": "2026-07-07T21:46:17Z",
       "recent_commits": [
+        {
+          "sha": "09ce67b",
+          "message": "Update dashboard.json & github-activity.json — 2026-07-07T21:46:17Z",
+          "author": "daeguru",
+          "date": "2026-07-07T21:46:17Z"
+        },
         {
           "sha": "3c0c8d3",
           "message": "📊 Update dashboard & GitHub activity data",
@@ -85,12 +91,6 @@
           "message": "📊 dashboard: update GitHub activity & dashboard.json (2026-07-06T09:47:13Z)",
           "author": "daeguru",
           "date": "2026-07-06T09:47:13Z"
-        },
-        {
-          "sha": "0e67df9",
-          "message": "📊 dashboard: update GitHub activity & dashboard.json (2026-07-06T00:45:52Z)",
-          "author": "daeguru",
-          "date": "2026-07-06T00:45:52Z"
         }
       ],
       "recent_prs": [
@@ -156,9 +156,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 1,
-      "updated_at": "2026-07-06T23:14:03Z",
-      "pushed_at": "2026-07-06T23:13:59Z",
+      "updated_at": "2026-07-08T05:59:50Z",
+      "pushed_at": "2026-07-08T05:59:45Z",
       "recent_commits": [
+        {
+          "sha": "6bfc753",
+          "message": "docs: refresh cle3 top-level status",
+          "author": "sfex11",
+          "date": "2026-07-08T05:58:53Z"
+        },
         {
           "sha": "5631a40",
           "message": "chore: auto-update CLE2-task task status (merged)",
@@ -182,12 +188,6 @@
           "message": "docs: sync cle2 task data with cle3 progress",
           "author": "sfex11",
           "date": "2026-07-06T22:47:49Z"
-        },
-        {
-          "sha": "5a906e9",
-          "message": "feat: turn cle3 report into screen-first presentation",
-          "author": "sfex11",
-          "date": "2026-07-06T15:39:11Z"
         }
       ],
       "recent_prs": [
@@ -491,11 +491,17 @@
       "slug": "Daegu-Agent-Crew/three-body-comic",
       "name": "three-body-comic",
       "private": true,
-      "open_issues": 1,
-      "open_prs": 1,
-      "updated_at": "2026-07-07T20:59:30Z",
-      "pushed_at": "2026-07-07T21:21:31Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "updated_at": "2026-07-07T22:39:02Z",
+      "pushed_at": "2026-07-07T22:38:57Z",
       "recent_commits": [
+        {
+          "sha": "11126a9",
+          "message": "ep/001: v3 프롬프트 4단계 워크플로우로 EP001 재작성 (#7)",
+          "author": "sfex11",
+          "date": "2026-07-07T22:38:57Z"
+        },
         {
           "sha": "d891acd",
           "message": "docs: 스토리 각색 프롬프트 v3 — 4단계 워크플로우 (#6)",
@@ -519,12 +525,6 @@
           "message": "[Docs] 팀 종합 가이드, 이미지 생성 가이드, 제작 체크리스트, 스킬 맵, 실험 관측 가이드 (#5)",
           "author": "sfex11",
           "date": "2026-06-17T20:45:28Z"
-        },
-        {
-          "sha": "5135993",
-          "message": "🎭 v2 캐스팅: 위키 기준 캐릭터 재매칭 + 레퍼런스 이미지 6종",
-          "author": "openclaw-bot",
-          "date": "2026-06-14T08:35:16Z"
         }
       ],
       "recent_prs": [
@@ -532,8 +532,8 @@
           "number": 7,
           "title": "[EP001] v3 프롬프트 4단계 워크플로우 재작성",
           "author": "sfex11",
-          "state": "open",
-          "updated_at": "2026-07-07T21:21:47Z",
+          "state": "closed",
+          "updated_at": "2026-07-07T22:38:58Z",
           "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/7"
         },
         {
@@ -557,14 +557,41 @@
   ],
   "activity_feed": [
     {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: refresh cle3 top-level status",
+      "sha": "6bfc753",
+      "date": "2026-07-08T05:58:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/6bfc753c4067a0ed557914c7a6d9766eefb950c3"
+    },
+    {
       "type": "pr",
       "repo": "three-body-comic",
       "author": "sfex11",
       "message": "[EP001] v3 프롬프트 4단계 워크플로우 재작성",
       "number": 7,
-      "state": "open",
-      "date": "2026-07-07T21:21:47Z",
+      "state": "closed",
+      "date": "2026-07-07T22:38:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/7"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "ep/001: v3 프롬프트 4단계 워크플로우로 EP001 재작성 (#7)",
+      "sha": "11126a9",
+      "date": "2026-07-07T22:38:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/11126a902090a249ca47b85c0ce4abf16df071e9"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard.json & github-activity.json — 2026-07-07T21:46:17Z",
+      "sha": "09ce67b",
+      "date": "2026-07-07T21:46:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/09ce67b52a01cc23487c020f0f27bae7c5a781f7"
     },
     {
       "type": "pr",
@@ -650,30 +677,12 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat: turn cle3 report into screen-first presentation",
-      "sha": "5a906e9",
-      "date": "2026-07-06T15:39:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/5a906e9eac92175f7fa31d7163c129d5c49b49b9"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "📊 dashboard: update GitHub activity & dashboard.json (2026-07-06T09:47:13Z)",
       "sha": "93ba0de",
       "date": "2026-07-06T09:47:13Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/93ba0de7bc946abb14bee3bfef9b9e0388b0012e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 dashboard: update GitHub activity & dashboard.json (2026-07-06T00:45:52Z)",
-      "sha": "0e67df9",
-      "date": "2026-07-06T00:45:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0e67df976c91bdc733f8799e05601efaa2e5cb57"
     },
     {
       "type": "pr",
@@ -914,15 +923,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/06edf9842f4bfaac97261e21f0ad57b4566502b6"
     },
     {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "openclaw-bot",
-      "message": "🎭 v2 캐스팅: 위키 기준 캐릭터 재매칭 + 레퍼런스 이미지 6종",
-      "sha": "5135993",
-      "date": "2026-06-14T08:35:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/5135993492f52f2a9b5f17b31df2f0b1faaab6e8"
-    },
-    {
       "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
@@ -1027,7 +1027,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 19,
       "prs": 14,
       "issues": 0,
       "reviews": 0
