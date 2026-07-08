@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-08T18:46:12Z",
-  "since": "2026-06-08T18:45:42Z",
+  "generated": "2026-07-08T21:46:37Z",
+  "since": "2026-06-08T21:46:07Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 0,
+      "open_issues": 1,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-07-08T15:54:40Z",
-      "pushed_at": "2026-07-08T15:54:33Z",
+      "updated_at": "2026-07-08T18:47:49Z",
+      "pushed_at": "2026-07-08T18:46:35Z",
       "recent_commits": [
+        {
+          "sha": "7b60446",
+          "message": "Update dashboard.json and github-activity.json (2026-07-09 03:46 KST)",
+          "author": "daeguru",
+          "date": "2026-07-08T18:46:32Z"
+        },
         {
           "sha": "52195e1",
           "message": "Update dashboard.json and github-activity.json (2026-07-09 00:54 KST)",
@@ -85,12 +91,6 @@
           "message": "📊 Update dashboard & GitHub activity data",
           "author": "daeguru",
           "date": "2026-07-07T18:46:22Z"
-        },
-        {
-          "sha": "df6fcdf",
-          "message": "📊 Update dashboard & GitHub activity data",
-          "author": "daeguru",
-          "date": "2026-07-07T12:47:03Z"
         }
       ],
       "recent_prs": [
@@ -357,10 +357,10 @@
       "slug": "Daegu-Agent-Crew/team-memory-kit",
       "name": "team-memory-kit",
       "private": false,
-      "open_issues": 2,
-      "open_prs": 0,
+      "open_issues": 3,
+      "open_prs": 1,
       "updated_at": "2026-06-17T20:44:43Z",
-      "pushed_at": "2026-06-21T15:46:42Z",
+      "pushed_at": "2026-07-08T19:36:54Z",
       "recent_commits": [
         {
           "sha": "db22ae8",
@@ -395,6 +395,14 @@
       ],
       "recent_prs": [
         {
+          "number": 8,
+          "title": "feat: 구현 전 패턴 (블라인드 스팟 / 브레인스토밍 / 인터뷰) 추가",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-07-08T19:37:25Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/8"
+        },
+        {
           "number": 1,
           "title": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
           "author": "Normalist-K",
@@ -409,14 +417,6 @@
           "state": "closed",
           "updated_at": "2026-06-17T20:44:39Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/5"
-        },
-        {
-          "number": 4,
-          "title": "v2026.06.10.2 feat: add team memory upgrade workflow",
-          "author": "Normalist-K",
-          "state": "closed",
-          "updated_at": "2026-06-10T15:04:19Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/4"
         }
       ]
     },
@@ -557,6 +557,25 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "team-memory-kit",
+      "author": "sfex11",
+      "message": "feat: 구현 전 패턴 (블라인드 스팟 / 브레인스토밍 / 인터뷰) 추가",
+      "number": 8,
+      "state": "open",
+      "date": "2026-07-08T19:37:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/8"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard.json and github-activity.json (2026-07-09 03:46 KST)",
+      "sha": "7b60446",
+      "date": "2026-07-08T18:46:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7b60446659415c92c1b22576958586cce1065f6d"
+    },
+    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -638,15 +657,6 @@
       "sha": "3c0c8d3",
       "date": "2026-07-07T18:46:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3c0c8d3fff2052044bba8365673c465c8006ba3c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 Update dashboard & GitHub activity data",
-      "sha": "df6fcdf",
-      "date": "2026-07-07T12:47:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/df6fcdf05fcdfe383f42573d752b800b81207e08"
     },
     {
       "type": "commit",
@@ -942,16 +952,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/election2663-archive-public/commit/5decdae491357d58785299aa1405a73cf78249e4"
     },
     {
-      "type": "pr",
-      "repo": "team-memory-kit",
-      "author": "Normalist-K",
-      "message": "v2026.06.10.2 feat: add team memory upgrade workflow",
-      "number": 4,
-      "state": "closed",
-      "date": "2026-06-10T15:04:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/4"
-    },
-    {
       "type": "commit",
       "repo": "team-memory-kit",
       "author": "Normalist-K",
@@ -1028,7 +1028,7 @@
     {
       "login": "sfex11",
       "commits": 19,
-      "prs": 14,
+      "prs": 15,
       "issues": 0,
       "reviews": 0
     },
@@ -1042,7 +1042,7 @@
     {
       "login": "Normalist-K",
       "commits": 6,
-      "prs": 3,
+      "prs": 2,
       "issues": 0,
       "reviews": 0
     },
