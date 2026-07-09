@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-09T12:46:07Z",
-  "since": "2026-06-09T12:45:38Z",
+  "generated": "2026-07-09T18:46:28Z",
+  "since": "2026-06-09T18:45:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 5,
+      "open_issues": 7,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 5,
       "open_prs": 0,
-      "updated_at": "2026-07-08T21:47:18Z",
-      "pushed_at": "2026-07-08T21:47:13Z",
+      "updated_at": "2026-07-09T12:47:01Z",
+      "pushed_at": "2026-07-09T12:46:56Z",
       "recent_commits": [
+        {
+          "sha": "a6e1009",
+          "message": "Update dashboard.json and github-activity.json (2026-07-09 21:46 KST)",
+          "author": "daeguru",
+          "date": "2026-07-09T12:46:49Z"
+        },
         {
           "sha": "71c7a6c",
           "message": "Update dashboard.json and github-activity.json (2026-07-09 06:46 KST)",
@@ -85,12 +91,6 @@
           "message": "Update dashboard.json and github-activity.json (2026-07-08 21:46 KST)",
           "author": "daeguru",
           "date": "2026-07-08T12:46:16Z"
-        },
-        {
-          "sha": "09ce67b",
-          "message": "Update dashboard.json & github-activity.json — 2026-07-07T21:46:17Z",
-          "author": "daeguru",
-          "date": "2026-07-07T21:46:17Z"
         }
       ],
       "recent_prs": [
@@ -427,7 +427,7 @@
       "open_issues": 1,
       "open_prs": 1,
       "updated_at": "2026-07-05T16:20:21Z",
-      "pushed_at": "2026-07-05T21:46:04Z",
+      "pushed_at": "2026-07-09T12:46:35Z",
       "recent_commits": [
         {
           "sha": "076f584",
@@ -560,6 +560,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "Update dashboard.json and github-activity.json (2026-07-09 21:46 KST)",
+      "sha": "a6e1009",
+      "date": "2026-07-09T12:46:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a6e1009751ec1d31a8d3c30b14b969742c34a11e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "Update dashboard.json and github-activity.json (2026-07-09 06:46 KST)",
       "sha": "71c7a6c",
       "date": "2026-07-08T21:47:13Z",
@@ -629,15 +638,6 @@
       "sha": "11126a9",
       "date": "2026-07-07T22:38:57Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/11126a902090a249ca47b85c0ce4abf16df071e9"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard.json & github-activity.json — 2026-07-07T21:46:17Z",
-      "sha": "09ce67b",
-      "date": "2026-07-07T21:46:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/09ce67b52a01cc23487c020f0f27bae7c5a781f7"
     },
     {
       "type": "pr",
