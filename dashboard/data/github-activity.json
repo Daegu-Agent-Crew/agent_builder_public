@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-12T00:47:32Z",
-  "since": "2026-06-12T00:47:03Z",
+  "generated": "2026-07-12T06:45:47Z",
+  "since": "2026-06-12T06:45:18Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 27,
+      "open_issues": 30,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 8,
       "open_prs": 0,
-      "updated_at": "2026-07-11T18:46:47Z",
-      "pushed_at": "2026-07-11T18:46:44Z",
+      "updated_at": "2026-07-12T00:48:15Z",
+      "pushed_at": "2026-07-12T00:48:11Z",
       "recent_commits": [
+        {
+          "sha": "a7d2add",
+          "message": "chore: update dashboard data (github activity + dashboard.json + wiki)",
+          "author": "daeguru",
+          "date": "2026-07-12T00:48:12Z"
+        },
         {
           "sha": "bf10bd2",
           "message": "chore: update github-activity.json",
@@ -85,12 +91,6 @@
           "message": "update dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-07-11T00:46:18Z"
-        },
-        {
-          "sha": "2c62681",
-          "message": "📊 dashboard: update dashboard.json & github-activity.json (2026-07-11 06:44 KST)",
-          "author": "daeguru",
-          "date": "2026-07-10T21:46:00Z"
         }
       ],
       "recent_prs": [
@@ -426,9 +426,27 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-05T16:20:21Z",
-      "pushed_at": "2026-07-11T18:46:44Z",
+      "updated_at": "2026-07-12T05:09:23Z",
+      "pushed_at": "2026-07-12T05:09:16Z",
       "recent_commits": [
+        {
+          "sha": "fb1440a",
+          "message": "Add EP40 DeepSeek/고석현 video summary + transcript + discourse pattern analysis",
+          "author": "대구루",
+          "date": "2026-07-12T05:09:17Z"
+        },
+        {
+          "sha": "6cb5881",
+          "message": "docs: add discourse-pattern-extractor journey presentation",
+          "author": "대구루",
+          "date": "2026-07-12T02:26:42Z"
+        },
+        {
+          "sha": "b777340",
+          "message": "feat: add discourse-pattern-extractor skill (#4)",
+          "author": "sfex11",
+          "date": "2026-07-12T02:12:54Z"
+        },
         {
           "sha": "076f584",
           "message": "Update Claude Design brand system video summary record",
@@ -440,27 +458,17 @@
           "message": "Add Claude Design brand system video summary record",
           "author": "sfex11",
           "date": "2026-07-05T16:19:46Z"
-        },
-        {
-          "sha": "4cb32d4",
-          "message": "Add Thariq - A Field Guide to Fable: Finding Your Unknowns (X post summary)",
-          "author": "sfex11",
-          "date": "2026-07-04T18:18:20Z"
-        },
-        {
-          "sha": "af0cd9a",
-          "message": "chore: CLE2 registry 등록 및 작업 기록 추가 (#3)",
-          "author": "sfex11",
-          "date": "2026-06-22T14:35:18Z"
-        },
-        {
-          "sha": "79efcae",
-          "message": "Add GPT Image 2.0 webtoon analysis for samchee comic project",
-          "author": "sfex11",
-          "date": "2026-06-20T09:30:27Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 4,
+          "title": "feat: add discourse-pattern-extractor skill",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-12T02:12:54Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/4"
+        },
         {
           "number": 3,
           "title": "chore: CLE2 registry 등록 및 작업 기록 추가",
@@ -476,14 +484,6 @@
           "state": "open",
           "updated_at": "2026-06-22T10:20:45Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/2"
-        },
-        {
-          "number": 1,
-          "title": "feat: register three-body-comic repository",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-06-12T02:01:33Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/1"
         }
       ]
     },
@@ -558,6 +558,52 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루",
+      "message": "Add EP40 DeepSeek/고석현 video summary + transcript + discourse pattern analysis",
+      "sha": "fb1440a",
+      "date": "2026-07-12T05:09:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fb1440aab1cd0007e0ee854cdf2aa8700de51211"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루",
+      "message": "docs: add discourse-pattern-extractor journey presentation",
+      "sha": "6cb5881",
+      "date": "2026-07-12T02:26:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6cb5881d2973d9968d4a03ab2a05b2000218c93a"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "feat: add discourse-pattern-extractor skill",
+      "number": 4,
+      "state": "closed",
+      "date": "2026-07-12T02:12:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/4"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "feat: add discourse-pattern-extractor skill (#4)",
+      "sha": "b777340",
+      "date": "2026-07-12T02:12:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b77734004981550956f46cbbf0679ab88ca9c0da"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (github activity + dashboard.json + wiki)",
+      "sha": "a7d2add",
+      "date": "2026-07-12T00:48:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a7d2add73779dd3504a02d230a0487864758dfe9"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update github-activity.json",
@@ -591,15 +637,6 @@
       "sha": "b24c1ce",
       "date": "2026-07-11T00:46:18Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b24c1ce205b2050626b7d54c406a0277f57baca0"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 dashboard: update dashboard.json & github-activity.json (2026-07-11 06:44 KST)",
-      "sha": "2c62681",
-      "date": "2026-07-10T21:46:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2c62681e407640df4021a06d5dc21d547f75179c"
     },
     {
       "type": "pr",
@@ -723,15 +760,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fc5be237bbbab6e02236d0fb3a4a779426f47d06"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add Thariq - A Field Guide to Fable: Finding Your Unknowns (X post summary)",
-      "sha": "4cb32d4",
-      "date": "2026-07-04T18:18:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4cb32d4f6bbc243e859d498ae4256cbf4e7acb99"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -810,15 +838,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/3"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "chore: CLE2 registry 등록 및 작업 기록 추가 (#3)",
-      "sha": "af0cd9a",
-      "date": "2026-06-22T14:35:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/af0cd9aa6e14973037055f01962657e51e299c85"
-    },
-    {
       "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
@@ -827,15 +846,6 @@
       "state": "open",
       "date": "2026-06-22T10:20:45Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/2"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add GPT Image 2.0 webtoon analysis for samchee comic project",
-      "sha": "79efcae",
-      "date": "2026-06-20T09:30:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/79efcae6bd8c417e2fa2fc743d3025ea1f34044c"
     },
     {
       "type": "pr",
@@ -933,16 +943,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/06edf9842f4bfaac97261e21f0ad57b4566502b6"
     },
     {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "feat: register three-body-comic repository",
-      "number": 1,
-      "state": "closed",
-      "date": "2026-06-12T02:01:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/1"
-    },
-    {
       "type": "commit",
       "repo": "election2663-archive-public",
       "author": "renover",
@@ -1027,7 +1027,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 17,
       "prs": 15,
       "issues": 0,
       "reviews": 0
