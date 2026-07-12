@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-12T06:45:47Z",
-  "since": "2026-06-12T06:45:18Z",
+  "generated": "2026-07-12T12:46:39Z",
+  "since": "2026-06-12T12:46:10Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 30,
+      "open_issues": 31,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 8,
       "open_prs": 0,
-      "updated_at": "2026-07-12T00:48:15Z",
-      "pushed_at": "2026-07-12T00:48:11Z",
+      "updated_at": "2026-07-12T06:46:17Z",
+      "pushed_at": "2026-07-12T06:46:13Z",
       "recent_commits": [
+        {
+          "sha": "458fbd3",
+          "message": "📊 Update dashboard & GitHub activity data",
+          "author": "daeguru",
+          "date": "2026-07-12T06:46:07Z"
+        },
         {
           "sha": "a7d2add",
           "message": "chore: update dashboard data (github activity + dashboard.json + wiki)",
@@ -85,12 +91,6 @@
           "message": "update dashboard.json + github-activity.json (cron 2026-07-11)",
           "author": "daeguru",
           "date": "2026-07-11T06:46:09Z"
-        },
-        {
-          "sha": "b24c1ce",
-          "message": "update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-07-11T00:46:18Z"
         }
       ],
       "recent_prs": [
@@ -558,6 +558,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 Update dashboard & GitHub activity data",
+      "sha": "458fbd3",
+      "date": "2026-07-12T06:46:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/458fbd381b4f8c6c9c2be77e97c74a5c2ce23c03"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "대구루",
       "message": "Add EP40 DeepSeek/고석현 video summary + transcript + discourse pattern analysis",
@@ -628,15 +637,6 @@
       "sha": "8ffe25a",
       "date": "2026-07-11T06:46:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8ffe25a9b049af6799b48003f41ae379290fd6d9"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "update dashboard.json and github-activity.json",
-      "sha": "b24c1ce",
-      "date": "2026-07-11T00:46:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b24c1ce205b2050626b7d54c406a0277f57baca0"
     },
     {
       "type": "pr",
