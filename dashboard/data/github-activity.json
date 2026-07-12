@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-12T12:46:39Z",
-  "since": "2026-06-12T12:46:10Z",
+  "generated": "2026-07-12T18:45:38Z",
+  "since": "2026-06-12T18:45:09Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 31,
+      "open_issues": 35,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 8,
       "open_prs": 0,
-      "updated_at": "2026-07-12T06:46:17Z",
-      "pushed_at": "2026-07-12T06:46:13Z",
+      "updated_at": "2026-07-12T12:47:18Z",
+      "pushed_at": "2026-07-12T12:47:04Z",
       "recent_commits": [
+        {
+          "sha": "1207945",
+          "message": "chore: update dashboard data (cron)",
+          "author": "daeguru",
+          "date": "2026-07-12T12:47:04Z"
+        },
         {
           "sha": "458fbd3",
           "message": "📊 Update dashboard & GitHub activity data",
@@ -85,12 +91,6 @@
           "message": "update dashboard + github-activity (cron 2026-07-11 21:51)",
           "author": "daeguru",
           "date": "2026-07-11T12:51:48Z"
-        },
-        {
-          "sha": "8ffe25a",
-          "message": "update dashboard.json + github-activity.json (cron 2026-07-11)",
-          "author": "daeguru",
-          "date": "2026-07-11T06:46:09Z"
         }
       ],
       "recent_prs": [
@@ -426,9 +426,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-12T05:09:23Z",
-      "pushed_at": "2026-07-12T05:09:16Z",
+      "updated_at": "2026-07-12T15:03:27Z",
+      "pushed_at": "2026-07-12T15:03:23Z",
       "recent_commits": [
+        {
+          "sha": "f8e5422",
+          "message": "Add EP103 최승준 discourse pattern analysis",
+          "author": "대구루",
+          "date": "2026-07-12T15:03:24Z"
+        },
         {
           "sha": "fb1440a",
           "message": "Add EP40 DeepSeek/고석현 video summary + transcript + discourse pattern analysis",
@@ -452,12 +458,6 @@
           "message": "Update Claude Design brand system video summary record",
           "author": "sfex11",
           "date": "2026-07-05T16:20:18Z"
-        },
-        {
-          "sha": "fc5be23",
-          "message": "Add Claude Design brand system video summary record",
-          "author": "sfex11",
-          "date": "2026-07-05T16:19:46Z"
         }
       ],
       "recent_prs": [
@@ -558,6 +558,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루",
+      "message": "Add EP103 최승준 discourse pattern analysis",
+      "sha": "f8e5422",
+      "date": "2026-07-12T15:03:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f8e5422feea73bffbdd6533312bf49d2d11d25cc"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (cron)",
+      "sha": "1207945",
+      "date": "2026-07-12T12:47:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1207945951ef44f20392d54b77dea15c8db28512"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "📊 Update dashboard & GitHub activity data",
@@ -628,15 +646,6 @@
       "sha": "25ca903",
       "date": "2026-07-11T12:51:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/25ca9035749213c0fd32c9a9e0427210e82bb4eb"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "update dashboard.json + github-activity.json (cron 2026-07-11)",
-      "sha": "8ffe25a",
-      "date": "2026-07-11T06:46:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8ffe25a9b049af6799b48003f41ae379290fd6d9"
     },
     {
       "type": "pr",
@@ -749,15 +758,6 @@
       "sha": "076f584",
       "date": "2026-07-05T16:20:18Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/076f584d2b98444f941b5e97966aa5903eac929e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add Claude Design brand system video summary record",
-      "sha": "fc5be23",
-      "date": "2026-07-05T16:19:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fc5be237bbbab6e02236d0fb3a4a779426f47d06"
     },
     {
       "type": "pr",
@@ -1027,7 +1027,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 16,
       "prs": 15,
       "issues": 0,
       "reviews": 0
