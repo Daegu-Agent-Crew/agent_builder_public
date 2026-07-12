@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-12T18:45:38Z",
-  "since": "2026-06-12T18:45:09Z",
+  "generated": "2026-07-12T21:45:46Z",
+  "since": "2026-06-12T21:45:17Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 35,
+      "open_issues": 37,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 8,
       "open_prs": 0,
-      "updated_at": "2026-07-12T12:47:18Z",
-      "pushed_at": "2026-07-12T12:47:04Z",
+      "updated_at": "2026-07-12T18:46:00Z",
+      "pushed_at": "2026-07-12T18:45:54Z",
       "recent_commits": [
+        {
+          "sha": "0d36f89",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-07-12T18:45:51Z"
+        },
         {
           "sha": "1207945",
           "message": "chore: update dashboard data (cron)",
@@ -85,12 +91,6 @@
           "message": "chore: update github-activity.json",
           "author": "daeguru",
           "date": "2026-07-11T18:46:44Z"
-        },
-        {
-          "sha": "25ca903",
-          "message": "update dashboard + github-activity (cron 2026-07-11 21:51)",
-          "author": "daeguru",
-          "date": "2026-07-11T12:51:48Z"
         }
       ],
       "recent_prs": [
@@ -558,6 +558,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json",
+      "sha": "0d36f89",
+      "date": "2026-07-12T18:45:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0d36f893bdc685a477b15faaf829ddc52d342387"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "대구루",
       "message": "Add EP103 최승준 discourse pattern analysis",
@@ -637,15 +646,6 @@
       "sha": "bf10bd2",
       "date": "2026-07-11T18:46:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bf10bd2c124466f830cca42e6f3c7614209aaae3"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "update dashboard + github-activity (cron 2026-07-11 21:51)",
-      "sha": "25ca903",
-      "date": "2026-07-11T12:51:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/25ca9035749213c0fd32c9a9e0427210e82bb4eb"
     },
     {
       "type": "pr",
