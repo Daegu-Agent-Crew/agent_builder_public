@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-15T09:46:55Z",
-  "since": "2026-06-15T09:46:23Z",
+  "generated": "2026-07-15T12:46:58Z",
+  "since": "2026-06-15T12:46:30Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 57,
+      "open_issues": 59,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 8,
       "open_prs": 0,
-      "updated_at": "2026-07-14T21:46:20Z",
-      "pushed_at": "2026-07-14T21:46:16Z",
+      "updated_at": "2026-07-15T09:48:06Z",
+      "pushed_at": "2026-07-15T09:47:53Z",
       "recent_commits": [
+        {
+          "sha": "4cdd806",
+          "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
+          "author": "daeguru",
+          "date": "2026-07-15T09:47:53Z"
+        },
         {
           "sha": "22ef4fd",
           "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard and github-activity data",
           "author": "daeguru",
           "date": "2026-07-13T18:46:45Z"
-        },
-        {
-          "sha": "256c6e3",
-          "message": "chore: update dashboard and github-activity data",
-          "author": "daeguru",
-          "date": "2026-07-13T12:47:12Z"
         }
       ],
       "recent_prs": [
@@ -426,9 +426,21 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-12T15:03:27Z",
-      "pushed_at": "2026-07-14T21:46:16Z",
+      "updated_at": "2026-07-15T12:35:50Z",
+      "pushed_at": "2026-07-15T12:35:25Z",
       "recent_commits": [
+        {
+          "sha": "cf9cb60",
+          "message": "Add participant analysis for physical AI panel discussion",
+          "author": "sfex11",
+          "date": "2026-07-15T12:35:25Z"
+        },
+        {
+          "sha": "356faae",
+          "message": "Add physical-ai-rfm-future video summary record",
+          "author": "sfex11",
+          "date": "2026-07-15T12:31:57Z"
+        },
         {
           "sha": "f8e5422",
           "message": "Add EP103 최승준 discourse pattern analysis",
@@ -446,18 +458,6 @@
           "message": "docs: add discourse-pattern-extractor journey presentation",
           "author": "대구루",
           "date": "2026-07-12T02:26:42Z"
-        },
-        {
-          "sha": "b777340",
-          "message": "feat: add discourse-pattern-extractor skill (#4)",
-          "author": "sfex11",
-          "date": "2026-07-12T02:12:54Z"
-        },
-        {
-          "sha": "076f584",
-          "message": "Update Claude Design brand system video summary record",
-          "author": "sfex11",
-          "date": "2026-07-05T16:20:18Z"
         }
       ],
       "recent_prs": [
@@ -557,6 +557,33 @@
   ],
   "activity_feed": [
     {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add participant analysis for physical AI panel discussion",
+      "sha": "cf9cb60",
+      "date": "2026-07-15T12:35:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cf9cb60453322547ff427671bcbc6f6cffbc4b69"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add physical-ai-rfm-future video summary record",
+      "sha": "356faae",
+      "date": "2026-07-15T12:31:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/356faaec2b46db36c358e2b8f1124a4a22959245"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
+      "sha": "4cdd806",
+      "date": "2026-07-15T09:47:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4cdd80628b5198e478151e98c4dca7df1beb8351"
+    },
+    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -633,15 +660,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard and github-activity data",
-      "sha": "256c6e3",
-      "date": "2026-07-13T12:47:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/256c6e3880d61faf8fd5c8d1653b31dca80502cb"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "대구루",
       "message": "Add EP103 최승준 discourse pattern analysis",
@@ -676,15 +694,6 @@
       "state": "closed",
       "date": "2026-07-12T02:12:54Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/4"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "feat: add discourse-pattern-extractor skill (#4)",
-      "sha": "b777340",
-      "date": "2026-07-12T02:12:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b77734004981550956f46cbbf0679ab88ca9c0da"
     },
     {
       "type": "pr",
@@ -769,15 +778,6 @@
       "sha": "2f28254",
       "date": "2026-07-06T23:06:36Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2f282541ce7d3e58aeb969b5e4df2c416f7d066c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Update Claude Design brand system video summary record",
-      "sha": "076f584",
-      "date": "2026-07-05T16:20:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/076f584d2b98444f941b5e97966aa5903eac929e"
     },
     {
       "type": "pr",
