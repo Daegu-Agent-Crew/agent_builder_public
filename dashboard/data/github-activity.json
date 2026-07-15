@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-14T21:45:58Z",
-  "since": "2026-06-14T21:45:30Z",
+  "generated": "2026-07-15T09:46:55Z",
+  "since": "2026-06-15T09:46:23Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 54,
+      "open_issues": 57,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 8,
       "open_prs": 0,
-      "updated_at": "2026-07-14T12:47:34Z",
-      "pushed_at": "2026-07-14T12:47:25Z",
+      "updated_at": "2026-07-14T21:46:20Z",
+      "pushed_at": "2026-07-14T21:46:16Z",
       "recent_commits": [
+        {
+          "sha": "22ef4fd",
+          "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
+          "author": "daeguru",
+          "date": "2026-07-14T21:46:16Z"
+        },
         {
           "sha": "4e446fb",
           "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard and github-activity data",
           "author": "daeguru",
           "date": "2026-07-13T12:47:12Z"
-        },
-        {
-          "sha": "4c384f4",
-          "message": "chore: update dashboard data (cron)",
-          "author": "daeguru",
-          "date": "2026-07-13T00:46:58Z"
         }
       ],
       "recent_prs": [
@@ -154,11 +154,17 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 11,
-      "open_prs": 2,
-      "updated_at": "2026-07-08T05:59:50Z",
-      "pushed_at": "2026-07-14T02:57:46Z",
+      "open_issues": 9,
+      "open_prs": 1,
+      "updated_at": "2026-07-14T23:37:17Z",
+      "pushed_at": "2026-07-14T23:41:00Z",
       "recent_commits": [
+        {
+          "sha": "6e3acae",
+          "message": "feat: add AI collaboration discovery protocol (#30)",
+          "author": "sfex11",
+          "date": "2026-07-14T23:37:13Z"
+        },
         {
           "sha": "6bfc753",
           "message": "docs: refresh cle3 top-level status",
@@ -182,38 +188,32 @@
           "message": "docs: sync panel qa progress in cle2 tasks",
           "author": "sfex11",
           "date": "2026-07-06T23:06:36Z"
-        },
-        {
-          "sha": "f6e84c2",
-          "message": "docs: sync cle2 task data with cle3 progress",
-          "author": "sfex11",
-          "date": "2026-07-06T22:47:49Z"
         }
       ],
       "recent_prs": [
         {
-          "number": 30,
-          "title": "feat: add AI collaboration discovery protocol",
-          "author": "sfex11",
-          "state": "open",
-          "updated_at": "2026-07-14T02:58:17Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/30"
-        },
-        {
-          "number": 25,
-          "title": "feat(CLE2-9): 삼체 만화 창작 시스템(CLE3) 태스크 초기 설정",
-          "author": "sfex11",
-          "state": "open",
-          "updated_at": "2026-07-05T16:28:27Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/25"
-        },
-        {
-          "number": 23,
-          "title": "feat(CLE2-8): 매일 CLE2 개선 질문하기 — 태스크 초기 설정",
+          "number": 11,
+          "title": "fix: task-autoupdate 트리거 push로 변경",
           "author": "sfex11",
           "state": "closed",
-          "updated_at": "2026-07-01T23:35:49Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/23"
+          "updated_at": "2026-07-14T23:41:01Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/11"
+        },
+        {
+          "number": 21,
+          "title": "fix: CLE2-8 STATUS — Phase 1~5 구현 완료",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-14T23:41:00Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/21"
+        },
+        {
+          "number": 12,
+          "title": "fix: CLE2-4 task 상태 done으로 업데이트",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-14T23:40:59Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/12"
         }
       ]
     },
@@ -427,7 +427,7 @@
       "open_issues": 1,
       "open_prs": 1,
       "updated_at": "2026-07-12T15:03:27Z",
-      "pushed_at": "2026-07-14T12:47:05Z",
+      "pushed_at": "2026-07-14T21:46:16Z",
       "recent_commits": [
         {
           "sha": "f8e5422",
@@ -557,6 +557,54 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: task-autoupdate 트리거 push로 변경",
+      "number": 11,
+      "state": "closed",
+      "date": "2026-07-14T23:41:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/11"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: CLE2-8 STATUS — Phase 1~5 구현 완료",
+      "number": 21,
+      "state": "closed",
+      "date": "2026-07-14T23:41:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/21"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: CLE2-4 task 상태 done으로 업데이트",
+      "number": 12,
+      "state": "closed",
+      "date": "2026-07-14T23:40:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/12"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat: add AI collaboration discovery protocol (#30)",
+      "sha": "6e3acae",
+      "date": "2026-07-14T23:37:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/6e3acae0dfcb8b672a21c5164188a59d0f507a6a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
+      "sha": "22ef4fd",
+      "date": "2026-07-14T21:46:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/22ef4fd257ed3dfbe2d95bef02774b7e5beb071f"
+    },
+    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -564,16 +612,6 @@
       "sha": "4e446fb",
       "date": "2026-07-14T12:47:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4e446fbab9a9b8da1e86741b88edffa82220230e"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat: add AI collaboration discovery protocol",
-      "number": 30,
-      "state": "open",
-      "date": "2026-07-14T02:58:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/30"
     },
     {
       "type": "commit",
@@ -601,15 +639,6 @@
       "sha": "256c6e3",
       "date": "2026-07-13T12:47:12Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/256c6e3880d61faf8fd5c8d1653b31dca80502cb"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (cron)",
-      "sha": "4c384f4",
-      "date": "2026-07-13T00:46:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4c384f47d5067ceca25d855123b08f4615256d1e"
     },
     {
       "type": "commit",
@@ -743,41 +772,12 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: sync cle2 task data with cle3 progress",
-      "sha": "f6e84c2",
-      "date": "2026-07-06T22:47:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f6e84c2998174ed16fc262a36bbdb814a62a0e64"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-9): 삼체 만화 창작 시스템(CLE3) 태스크 초기 설정",
-      "number": 25,
-      "state": "open",
-      "date": "2026-07-05T16:28:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/25"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Update Claude Design brand system video summary record",
       "sha": "076f584",
       "date": "2026-07-05T16:20:18Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/076f584d2b98444f941b5e97966aa5903eac929e"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-8): 매일 CLE2 개선 질문하기 — 태스크 초기 설정",
-      "number": 23,
-      "state": "closed",
-      "date": "2026-07-01T23:35:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/23"
     },
     {
       "type": "pr",
