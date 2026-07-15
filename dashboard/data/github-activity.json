@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-15T12:46:58Z",
-  "since": "2026-06-15T12:46:30Z",
+  "generated": "2026-07-15T18:45:45Z",
+  "since": "2026-06-15T18:45:16Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 59,
+      "open_issues": 62,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 8,
       "open_prs": 0,
-      "updated_at": "2026-07-15T09:48:06Z",
-      "pushed_at": "2026-07-15T09:47:53Z",
+      "updated_at": "2026-07-15T12:47:55Z",
+      "pushed_at": "2026-07-15T12:47:33Z",
       "recent_commits": [
+        {
+          "sha": "f1b3531",
+          "message": "chore: update dashboard.json + github-activity.json (2026-07-15T12:47:33Z)",
+          "author": "daeguru",
+          "date": "2026-07-15T12:47:33Z"
+        },
         {
           "sha": "4cdd806",
           "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard and github-activity data",
           "author": "daeguru",
           "date": "2026-07-14T00:46:31Z"
-        },
-        {
-          "sha": "b5297ec",
-          "message": "chore: update dashboard and github-activity data",
-          "author": "daeguru",
-          "date": "2026-07-13T18:46:45Z"
         }
       ],
       "recent_prs": [
@@ -426,9 +426,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-15T12:35:50Z",
-      "pushed_at": "2026-07-15T12:35:25Z",
+      "updated_at": "2026-07-15T13:19:56Z",
+      "pushed_at": "2026-07-15T13:18:38Z",
       "recent_commits": [
+        {
+          "sha": "c25e067",
+          "message": "Add discourse pattern analysis (discourse-pattern-extractor skill)",
+          "author": "sfex11",
+          "date": "2026-07-15T13:18:38Z"
+        },
         {
           "sha": "cf9cb60",
           "message": "Add participant analysis for physical AI panel discussion",
@@ -452,12 +458,6 @@
           "message": "Add EP40 DeepSeek/고석현 video summary + transcript + discourse pattern analysis",
           "author": "대구루",
           "date": "2026-07-12T05:09:17Z"
-        },
-        {
-          "sha": "6cb5881",
-          "message": "docs: add discourse-pattern-extractor journey presentation",
-          "author": "대구루",
-          "date": "2026-07-12T02:26:42Z"
         }
       ],
       "recent_prs": [
@@ -560,6 +560,24 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
+      "message": "Add discourse pattern analysis (discourse-pattern-extractor skill)",
+      "sha": "c25e067",
+      "date": "2026-07-15T13:18:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c25e067165f5d4c92c32298bd17f777de1061cc1"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard.json + github-activity.json (2026-07-15T12:47:33Z)",
+      "sha": "f1b3531",
+      "date": "2026-07-15T12:47:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f1b353127b87a405b460fe5915d283cdd458fb77"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
       "message": "Add participant analysis for physical AI panel discussion",
       "sha": "cf9cb60",
       "date": "2026-07-15T12:35:25Z",
@@ -651,15 +669,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard and github-activity data",
-      "sha": "b5297ec",
-      "date": "2026-07-13T18:46:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b5297ecdae622bda39a175b5a318006500f2f273"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "대구루",
       "message": "Add EP103 최승준 discourse pattern analysis",
@@ -675,15 +684,6 @@
       "sha": "fb1440a",
       "date": "2026-07-12T05:09:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fb1440aab1cd0007e0ee854cdf2aa8700de51211"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루",
-      "message": "docs: add discourse-pattern-extractor journey presentation",
-      "sha": "6cb5881",
-      "date": "2026-07-12T02:26:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6cb5881d2973d9968d4a03ab2a05b2000218c93a"
     },
     {
       "type": "pr",
@@ -1027,7 +1027,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
+      "commits": 17,
       "prs": 15,
       "issues": 0,
       "reviews": 0
