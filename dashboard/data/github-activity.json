@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-16T00:45:53Z",
-  "since": "2026-06-16T00:45:25Z",
+  "generated": "2026-07-16T09:46:06Z",
+  "since": "2026-06-16T09:45:36Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 64,
+      "open_issues": 67,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 8,
       "open_prs": 0,
-      "updated_at": "2026-07-15T18:46:22Z",
-      "pushed_at": "2026-07-15T18:46:08Z",
+      "updated_at": "2026-07-16T00:46:20Z",
+      "pushed_at": "2026-07-16T00:46:17Z",
       "recent_commits": [
+        {
+          "sha": "ba25e09",
+          "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
+          "author": "daeguru",
+          "date": "2026-07-16T00:46:17Z"
+        },
         {
           "sha": "82e2d65",
           "message": "dashboard: wiki 재생성 + dashboard.json 갱신 (cron 자동)",
@@ -85,12 +91,6 @@
           "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
           "author": "daeguru",
           "date": "2026-07-14T21:46:16Z"
-        },
-        {
-          "sha": "4e446fb",
-          "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
-          "author": "daeguru",
-          "date": "2026-07-14T12:47:25Z"
         }
       ],
       "recent_prs": [
@@ -154,11 +154,23 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 10,
-      "open_prs": 1,
-      "updated_at": "2026-07-15T22:23:36Z",
-      "pushed_at": "2026-07-15T22:23:33Z",
+      "open_issues": 9,
+      "open_prs": 0,
+      "updated_at": "2026-07-16T01:14:16Z",
+      "pushed_at": "2026-07-16T01:14:13Z",
       "recent_commits": [
+        {
+          "sha": "7f439f2",
+          "message": "chore: auto-update CLE2-8 task status (merged)",
+          "author": "github-actions[bot]",
+          "date": "2026-07-16T01:14:12Z"
+        },
+        {
+          "sha": "2d0d0fe",
+          "message": "fix: CLE2 urgent fixes — task-autoupdate 5 bugs + CLE2-8 ID conflict (#31)",
+          "author": "sfex11",
+          "date": "2026-07-16T01:14:02Z"
+        },
         {
           "sha": "5f45d88",
           "message": "chore: auto-update CLE2-task task status (merged)",
@@ -176,21 +188,17 @@
           "message": "chore: auto-update CLE2-task task status (merged)",
           "author": "github-actions[bot]",
           "date": "2026-07-15T21:43:45Z"
-        },
-        {
-          "sha": "f9c9e41",
-          "message": "feat(CLE2-14): Solana 기반 3개 DApp 개발 태스크 초기 설정 (#33)",
-          "author": "sfex11",
-          "date": "2026-07-15T21:43:36Z"
-        },
-        {
-          "sha": "6e3acae",
-          "message": "feat: add AI collaboration discovery protocol (#30)",
-          "author": "sfex11",
-          "date": "2026-07-14T23:37:13Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 31,
+          "title": "fix: CLE2 긴급 수정 — task-autoupdate 5건 버그 + CLE2-8 ID 충돌 해결",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-16T01:14:05Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/31"
+        },
         {
           "number": 34,
           "title": "update(CLE2-14): Phase 1-3 완료 — 3개 DApp 초기 구현 머지",
@@ -206,14 +214,6 @@
           "state": "closed",
           "updated_at": "2026-07-15T21:43:38Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/33"
-        },
-        {
-          "number": 11,
-          "title": "fix: task-autoupdate 트리거 push로 변경",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-07-14T23:41:01Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/11"
         }
       ]
     },
@@ -426,9 +426,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-15T13:19:56Z",
-      "pushed_at": "2026-07-15T13:18:38Z",
+      "updated_at": "2026-07-16T05:33:43Z",
+      "pushed_at": "2026-07-16T05:33:38Z",
       "recent_commits": [
+        {
+          "sha": "0c2dcc0",
+          "message": "Add ICML Ralfathon glossary: terms, concepts, workflows (2026-07-16) (#5)",
+          "author": "sfex11",
+          "date": "2026-07-16T05:33:38Z"
+        },
         {
           "sha": "c25e067",
           "message": "Add discourse pattern analysis (discourse-pattern-extractor skill)",
@@ -452,15 +458,17 @@
           "message": "Add EP103 최승준 discourse pattern analysis",
           "author": "대구루",
           "date": "2026-07-12T15:03:24Z"
-        },
-        {
-          "sha": "fb1440a",
-          "message": "Add EP40 DeepSeek/고석현 video summary + transcript + discourse pattern analysis",
-          "author": "대구루",
-          "date": "2026-07-12T05:09:17Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 5,
+          "title": "ICML 랄프톤 용어·개념·워크플로우 정리",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-16T05:33:39Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/5"
+        },
         {
           "number": 4,
           "title": "feat: add discourse-pattern-extractor skill",
@@ -476,14 +484,6 @@
           "state": "closed",
           "updated_at": "2026-06-22T14:35:18Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/3"
-        },
-        {
-          "number": 2,
-          "title": "docs: Team-Memory 방향 — 일일 업무 우선순위 추론 시스템",
-          "author": "sfex11",
-          "state": "open",
-          "updated_at": "2026-06-22T10:20:45Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/2"
         }
       ]
     },
@@ -557,6 +557,62 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "ICML 랄프톤 용어·개념·워크플로우 정리",
+      "number": 5,
+      "state": "closed",
+      "date": "2026-07-16T05:33:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/5"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add ICML Ralfathon glossary: terms, concepts, workflows (2026-07-16) (#5)",
+      "sha": "0c2dcc0",
+      "date": "2026-07-16T05:33:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0c2dcc0e7ea55a1b9a08db33d9ac49d39d179d01"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "github-actions[bot]",
+      "message": "chore: auto-update CLE2-8 task status (merged)",
+      "sha": "7f439f2",
+      "date": "2026-07-16T01:14:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/7f439f28cd320e5a26f5d694cc5476459af8e832"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: CLE2 긴급 수정 — task-autoupdate 5건 버그 + CLE2-8 ID 충돌 해결",
+      "number": 31,
+      "state": "closed",
+      "date": "2026-07-16T01:14:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/31"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: CLE2 urgent fixes — task-autoupdate 5 bugs + CLE2-8 ID conflict (#31)",
+      "sha": "2d0d0fe",
+      "date": "2026-07-16T01:14:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2d0d0feeb02586ac9a2762f6dae9a553d63472ca"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
+      "sha": "ba25e09",
+      "date": "2026-07-16T00:46:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ba25e09419e8ea840b8c4a5cbd56362be86523ca"
+    },
+    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "github-actions[bot]",
@@ -602,15 +658,6 @@
       "state": "closed",
       "date": "2026-07-15T21:43:38Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/33"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-14): Solana 기반 3개 DApp 개발 태스크 초기 설정 (#33)",
-      "sha": "f9c9e41",
-      "date": "2026-07-15T21:43:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f9c9e41f786ace8526010d96fd2f63b37414e4e3"
     },
     {
       "type": "commit",
@@ -667,25 +714,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4cdd80628b5198e478151e98c4dca7df1beb8351"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix: task-autoupdate 트리거 push로 변경",
-      "number": 11,
-      "state": "closed",
-      "date": "2026-07-14T23:41:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/11"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat: add AI collaboration discovery protocol (#30)",
-      "sha": "6e3acae",
-      "date": "2026-07-14T23:37:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/6e3acae0dfcb8b672a21c5164188a59d0f507a6a"
-    },
-    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -696,30 +724,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
-      "sha": "4e446fb",
-      "date": "2026-07-14T12:47:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4e446fbab9a9b8da1e86741b88edffa82220230e"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "대구루",
       "message": "Add EP103 최승준 discourse pattern analysis",
       "sha": "f8e5422",
       "date": "2026-07-12T15:03:24Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f8e5422feea73bffbdd6533312bf49d2d11d25cc"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루",
-      "message": "Add EP40 DeepSeek/고석현 video summary + transcript + discourse pattern analysis",
-      "sha": "fb1440a",
-      "date": "2026-07-12T05:09:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fb1440aab1cd0007e0ee854cdf2aa8700de51211"
     },
     {
       "type": "pr",
@@ -836,16 +846,6 @@
       "state": "closed",
       "date": "2026-06-22T14:35:18Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/3"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs: Team-Memory 방향 — 일일 업무 우선순위 추론 시스템",
-      "number": 2,
-      "state": "open",
-      "date": "2026-06-22T10:20:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/2"
     },
     {
       "type": "pr",
