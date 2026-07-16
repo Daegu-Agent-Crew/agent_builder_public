@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-15T18:45:45Z",
-  "since": "2026-06-15T18:45:16Z",
+  "generated": "2026-07-16T00:45:53Z",
+  "since": "2026-06-16T00:45:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 62,
+      "open_issues": 64,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 8,
       "open_prs": 0,
-      "updated_at": "2026-07-15T12:47:55Z",
-      "pushed_at": "2026-07-15T12:47:33Z",
+      "updated_at": "2026-07-15T18:46:22Z",
+      "pushed_at": "2026-07-15T18:46:08Z",
       "recent_commits": [
+        {
+          "sha": "82e2d65",
+          "message": "dashboard: wiki 재생성 + dashboard.json 갱신 (cron 자동)",
+          "author": "daeguru",
+          "date": "2026-07-15T18:46:08Z"
+        },
         {
           "sha": "f1b3531",
           "message": "chore: update dashboard.json + github-activity.json (2026-07-15T12:47:33Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
           "author": "daeguru",
           "date": "2026-07-14T12:47:25Z"
-        },
-        {
-          "sha": "662efba",
-          "message": "chore: update dashboard and github-activity data",
-          "author": "daeguru",
-          "date": "2026-07-14T00:46:31Z"
         }
       ],
       "recent_prs": [
@@ -154,43 +154,59 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 9,
+      "open_issues": 10,
       "open_prs": 1,
-      "updated_at": "2026-07-14T23:37:17Z",
-      "pushed_at": "2026-07-14T23:41:00Z",
+      "updated_at": "2026-07-15T22:23:36Z",
+      "pushed_at": "2026-07-15T22:23:33Z",
       "recent_commits": [
+        {
+          "sha": "5f45d88",
+          "message": "chore: auto-update CLE2-task task status (merged)",
+          "author": "github-actions[bot]",
+          "date": "2026-07-15T22:23:32Z"
+        },
+        {
+          "sha": "383d89c",
+          "message": "update(CLE2-14): Phase 1-3 완료 (#34)",
+          "author": "sfex11",
+          "date": "2026-07-15T22:23:23Z"
+        },
+        {
+          "sha": "4df22b8",
+          "message": "chore: auto-update CLE2-task task status (merged)",
+          "author": "github-actions[bot]",
+          "date": "2026-07-15T21:43:45Z"
+        },
+        {
+          "sha": "f9c9e41",
+          "message": "feat(CLE2-14): Solana 기반 3개 DApp 개발 태스크 초기 설정 (#33)",
+          "author": "sfex11",
+          "date": "2026-07-15T21:43:36Z"
+        },
         {
           "sha": "6e3acae",
           "message": "feat: add AI collaboration discovery protocol (#30)",
           "author": "sfex11",
           "date": "2026-07-14T23:37:13Z"
-        },
-        {
-          "sha": "6bfc753",
-          "message": "docs: refresh cle3 top-level status",
-          "author": "sfex11",
-          "date": "2026-07-08T05:58:53Z"
-        },
-        {
-          "sha": "5631a40",
-          "message": "chore: auto-update CLE2-task task status (merged)",
-          "author": "github-actions[bot]",
-          "date": "2026-07-06T23:13:58Z"
-        },
-        {
-          "sha": "deb15eb",
-          "message": "docs: mark cle2-10 11 12 minimum complete",
-          "author": "sfex11",
-          "date": "2026-07-06T23:13:47Z"
-        },
-        {
-          "sha": "2f28254",
-          "message": "docs: sync panel qa progress in cle2 tasks",
-          "author": "sfex11",
-          "date": "2026-07-06T23:06:36Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 34,
+          "title": "update(CLE2-14): Phase 1-3 완료 — 3개 DApp 초기 구현 머지",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-15T22:23:26Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/34"
+        },
+        {
+          "number": 33,
+          "title": "feat(CLE2-14): Solana 기반 3개 DApp 개발 태스크 초기 설정",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-15T21:43:38Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/33"
+        },
         {
           "number": 11,
           "title": "fix: task-autoupdate 트리거 push로 변경",
@@ -198,22 +214,6 @@
           "state": "closed",
           "updated_at": "2026-07-14T23:41:01Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/11"
-        },
-        {
-          "number": 21,
-          "title": "fix: CLE2-8 STATUS — Phase 1~5 구현 완료",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-07-14T23:41:00Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/21"
-        },
-        {
-          "number": 12,
-          "title": "fix: CLE2-4 task 상태 done으로 업데이트",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-07-14T23:40:59Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/12"
         }
       ]
     },
@@ -558,6 +558,71 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "github-actions[bot]",
+      "message": "chore: auto-update CLE2-task task status (merged)",
+      "sha": "5f45d88",
+      "date": "2026-07-15T22:23:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/5f45d881983926ade91031984cd817a847efbdf8"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "update(CLE2-14): Phase 1-3 완료 — 3개 DApp 초기 구현 머지",
+      "number": 34,
+      "state": "closed",
+      "date": "2026-07-15T22:23:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/34"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "update(CLE2-14): Phase 1-3 완료 (#34)",
+      "sha": "383d89c",
+      "date": "2026-07-15T22:23:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/383d89cfd003102dc8fb3877b40dc31b8c7f50c1"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "github-actions[bot]",
+      "message": "chore: auto-update CLE2-task task status (merged)",
+      "sha": "4df22b8",
+      "date": "2026-07-15T21:43:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/4df22b8f08a30f2dea8c40f7847e6dcaa44d1f49"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-14): Solana 기반 3개 DApp 개발 태스크 초기 설정",
+      "number": 33,
+      "state": "closed",
+      "date": "2026-07-15T21:43:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/33"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-14): Solana 기반 3개 DApp 개발 태스크 초기 설정 (#33)",
+      "sha": "f9c9e41",
+      "date": "2026-07-15T21:43:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f9c9e41f786ace8526010d96fd2f63b37414e4e3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: wiki 재생성 + dashboard.json 갱신 (cron 자동)",
+      "sha": "82e2d65",
+      "date": "2026-07-15T18:46:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/82e2d65a8e884b05d404467047aee05d24aa14b0"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add discourse pattern analysis (discourse-pattern-extractor skill)",
@@ -612,26 +677,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/11"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix: CLE2-8 STATUS — Phase 1~5 구현 완료",
-      "number": 21,
-      "state": "closed",
-      "date": "2026-07-14T23:41:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/21"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix: CLE2-4 task 상태 done으로 업데이트",
-      "number": 12,
-      "state": "closed",
-      "date": "2026-07-14T23:40:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/12"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -657,15 +702,6 @@
       "sha": "4e446fb",
       "date": "2026-07-14T12:47:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4e446fbab9a9b8da1e86741b88edffa82220230e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard and github-activity data",
-      "sha": "662efba",
-      "date": "2026-07-14T00:46:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/662efbad7596165aa4769d04b73959c44e4a9687"
     },
     {
       "type": "commit",
@@ -706,15 +742,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/8"
     },
     {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: refresh cle3 top-level status",
-      "sha": "6bfc753",
-      "date": "2026-07-08T05:58:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/6bfc753c4067a0ed557914c7a6d9766eefb950c3"
-    },
-    {
       "type": "pr",
       "repo": "three-body-comic",
       "author": "sfex11",
@@ -751,33 +778,6 @@
       "sha": "d891acd",
       "date": "2026-07-07T20:59:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/d891acdb35c3f62e5bc3d677ea1a21308d870432"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "github-actions[bot]",
-      "message": "chore: auto-update CLE2-task task status (merged)",
-      "sha": "5631a40",
-      "date": "2026-07-06T23:13:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/5631a40238a826d6db7dde47f4e9210e663d7024"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: mark cle2-10 11 12 minimum complete",
-      "sha": "deb15eb",
-      "date": "2026-07-06T23:13:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/deb15ebc5737fc404eb6fb2d9c89b20af991216c"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: sync panel qa progress in cle2 tasks",
-      "sha": "2f28254",
-      "date": "2026-07-06T23:06:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2f282541ce7d3e58aeb969b5e4df2c416f7d066c"
     },
     {
       "type": "pr",
@@ -1027,7 +1027,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 16,
       "prs": 15,
       "issues": 0,
       "reviews": 0
