@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-16T09:46:06Z",
-  "since": "2026-06-16T09:45:36Z",
+  "generated": "2026-07-16T15:46:09Z",
+  "since": "2026-06-16T15:45:39Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 67,
+      "open_issues": 70,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 8,
       "open_prs": 0,
-      "updated_at": "2026-07-16T00:46:20Z",
-      "pushed_at": "2026-07-16T00:46:17Z",
+      "updated_at": "2026-07-16T09:46:57Z",
+      "pushed_at": "2026-07-16T09:46:52Z",
       "recent_commits": [
+        {
+          "sha": "e062b29",
+          "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
+          "author": "daeguru",
+          "date": "2026-07-16T09:46:52Z"
+        },
         {
           "sha": "ba25e09",
           "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
@@ -85,12 +91,6 @@
           "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
           "author": "daeguru",
           "date": "2026-07-15T09:47:53Z"
-        },
-        {
-          "sha": "22ef4fd",
-          "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
-          "author": "daeguru",
-          "date": "2026-07-14T21:46:16Z"
         }
       ],
       "recent_prs": [
@@ -427,7 +427,7 @@
       "open_issues": 1,
       "open_prs": 1,
       "updated_at": "2026-07-16T05:33:43Z",
-      "pushed_at": "2026-07-16T05:33:38Z",
+      "pushed_at": "2026-07-16T09:46:33Z",
       "recent_commits": [
         {
           "sha": "0c2dcc0",
@@ -556,6 +556,15 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
+      "sha": "e062b29",
+      "date": "2026-07-16T09:46:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e062b290378764a2671edce6bfe350c8ccbde680"
+    },
     {
       "type": "pr",
       "repo": "team-memory",
@@ -712,15 +721,6 @@
       "sha": "4cdd806",
       "date": "2026-07-15T09:47:53Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4cdd80628b5198e478151e98c4dca7df1beb8351"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
-      "sha": "22ef4fd",
-      "date": "2026-07-14T21:46:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/22ef4fd257ed3dfbe2d95bef02774b7e5beb071f"
     },
     {
       "type": "commit",
