@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-17T09:46:29Z",
-  "since": "2026-06-17T09:45:59Z",
+  "generated": "2026-07-17T15:45:55Z",
+  "since": "2026-06-17T15:45:26Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 76,
+      "open_issues": 79,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 9,
       "open_prs": 0,
-      "updated_at": "2026-07-17T03:55:43Z",
-      "pushed_at": "2026-07-17T03:55:39Z",
+      "updated_at": "2026-07-17T09:47:12Z",
+      "pushed_at": "2026-07-17T09:47:07Z",
       "recent_commits": [
+        {
+          "sha": "38be7db",
+          "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
+          "author": "daeguru",
+          "date": "2026-07-17T09:47:02Z"
+        },
         {
           "sha": "2de112e",
           "message": "chore: update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
           "author": "daeguru",
           "date": "2026-07-16T15:46:41Z"
-        },
-        {
-          "sha": "e062b29",
-          "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
-          "author": "daeguru",
-          "date": "2026-07-16T09:46:52Z"
         }
       ],
       "recent_prs": [
@@ -558,6 +558,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
+      "sha": "38be7db",
+      "date": "2026-07-17T09:47:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/38be7db038a599424982ce0a2881c305d84c472a"
+    },
+    {
+      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
       "message": "feat: add recurring coaching dashboard",
@@ -666,15 +675,6 @@
       "sha": "f49e064",
       "date": "2026-07-16T15:46:41Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f49e064751e64888ab61ada5e0f7e6178de6a995"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
-      "sha": "e062b29",
-      "date": "2026-07-16T09:46:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e062b290378764a2671edce6bfe350c8ccbde680"
     },
     {
       "type": "pr",
