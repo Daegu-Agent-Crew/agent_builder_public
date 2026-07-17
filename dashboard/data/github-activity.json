@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-17T00:45:38Z",
-  "since": "2026-06-17T00:45:10Z",
+  "generated": "2026-07-17T03:53:53Z",
+  "since": "2026-06-17T03:53:24Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 73,
+      "open_issues": 74,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 9,
       "open_prs": 0,
-      "updated_at": "2026-07-16T18:47:12Z",
-      "pushed_at": "2026-07-16T18:46:58Z",
+      "updated_at": "2026-07-17T00:45:57Z",
+      "pushed_at": "2026-07-17T00:45:53Z",
       "recent_commits": [
+        {
+          "sha": "b0ae98f",
+          "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
+          "author": "daeguru",
+          "date": "2026-07-17T00:45:53Z"
+        },
         {
           "sha": "f341718",
           "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
@@ -85,12 +91,6 @@
           "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
           "author": "daeguru",
           "date": "2026-07-16T00:46:17Z"
-        },
-        {
-          "sha": "82e2d65",
-          "message": "dashboard: wiki 재생성 + dashboard.json 갱신 (cron 자동)",
-          "author": "daeguru",
-          "date": "2026-07-15T18:46:08Z"
         }
       ],
       "recent_prs": [
@@ -156,64 +156,64 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-17T00:13:18Z",
-      "pushed_at": "2026-07-17T00:13:14Z",
+      "updated_at": "2026-07-17T01:44:00Z",
+      "pushed_at": "2026-07-17T01:43:56Z",
       "recent_commits": [
         {
-          "sha": "fd2e967",
+          "sha": "6ceab95",
           "message": "chore: auto-update CLE2-15 task status (merged)",
           "author": "github-actions[bot]",
-          "date": "2026-07-17T00:13:13Z"
+          "date": "2026-07-17T01:43:56Z"
         },
         {
-          "sha": "6d62a5f",
-          "message": "docs(CLE2-15): PLAN.md 작성 - 아키텍처 및 실행계획 (#38)",
+          "sha": "8538140",
+          "message": "feat(CLE2-15): Phase 2 — 설문 웹앱 고도화 (#41)",
           "author": "sfex11",
-          "date": "2026-07-17T00:13:05Z"
+          "date": "2026-07-17T01:43:48Z"
         },
         {
-          "sha": "2fd146f",
+          "sha": "273d7ae",
           "message": "chore: auto-update CLE2-15 task status (merged)",
           "author": "github-actions[bot]",
-          "date": "2026-07-16T23:46:27Z"
+          "date": "2026-07-17T01:27:18Z"
         },
         {
-          "sha": "c71192d",
-          "message": "feat(CLE2-15): AI 에이전트 역공학 설문 + 개선 처방 웹앱 태스크 초기 설정 (#37)",
+          "sha": "c22f3c9",
+          "message": "fix(CLE2-15): STATUS 정정 — Phase 1 완료 (#40)",
           "author": "sfex11",
-          "date": "2026-07-16T23:46:19Z"
+          "date": "2026-07-17T01:27:08Z"
         },
         {
-          "sha": "35c854b",
-          "message": "fix: task-autoupdate 버그 4건 수정 + STATUS.md 중복 정리 (#35)",
+          "sha": "e0b575e",
+          "message": "fix: publish reverse survey at configured Pages root",
           "author": "sfex11",
-          "date": "2026-07-16T23:25:53Z"
+          "date": "2026-07-17T01:21:03Z"
         }
       ],
       "recent_prs": [
         {
-          "number": 38,
-          "title": "docs(CLE2-15): PLAN.md 작성 - 아키텍처 및 실행계획",
+          "number": 41,
+          "title": "feat(CLE2-15): Phase 2 — 설문 웹앱 고도화",
           "author": "sfex11",
           "state": "closed",
-          "updated_at": "2026-07-17T00:13:07Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/38"
+          "updated_at": "2026-07-17T01:43:50Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/41"
         },
         {
-          "number": 37,
-          "title": "feat(CLE2-15): AI 에이전트 역공학 설문 + 개선 처방 웹앱",
+          "number": 40,
+          "title": "fix(CLE2-15): STATUS 정정 — Phase 1 완료, Phase 2-4 남음",
           "author": "sfex11",
           "state": "closed",
-          "updated_at": "2026-07-16T23:46:21Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/37"
+          "updated_at": "2026-07-17T01:27:10Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/40"
         },
         {
-          "number": 35,
-          "title": "fix: task-autoupdate 버그 4건 수정 + STATUS.md 중복 정리",
+          "number": 39,
+          "title": "feat(CLE2-15): Phase 1 — 설문 웹앱 UI + Workers API",
           "author": "sfex11",
           "state": "closed",
-          "updated_at": "2026-07-16T23:25:54Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/35"
+          "updated_at": "2026-07-17T00:46:31Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/39"
         }
       ]
     },
@@ -561,75 +561,84 @@
       "repo": "creative-loop-engineering2",
       "author": "github-actions[bot]",
       "message": "chore: auto-update CLE2-15 task status (merged)",
-      "sha": "fd2e967",
-      "date": "2026-07-17T00:13:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/fd2e967139e52ced689576b95885b162f6698c7a"
+      "sha": "6ceab95",
+      "date": "2026-07-17T01:43:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/6ceab950054c851aae3d7e0cfe8e8677ac7fccc6"
     },
     {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
-      "message": "docs(CLE2-15): PLAN.md 작성 - 아키텍처 및 실행계획",
-      "number": 38,
+      "message": "feat(CLE2-15): Phase 2 — 설문 웹앱 고도화",
+      "number": 41,
       "state": "closed",
-      "date": "2026-07-17T00:13:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/38"
+      "date": "2026-07-17T01:43:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/41"
     },
     {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
-      "message": "docs(CLE2-15): PLAN.md 작성 - 아키텍처 및 실행계획 (#38)",
-      "sha": "6d62a5f",
-      "date": "2026-07-17T00:13:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/6d62a5f2282c84be93d0d6e4906afbd14b58609c"
+      "message": "feat(CLE2-15): Phase 2 — 설문 웹앱 고도화 (#41)",
+      "sha": "8538140",
+      "date": "2026-07-17T01:43:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/853814037f9db9d0677c7c1ab1e700abc66b8ca8"
     },
     {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "github-actions[bot]",
       "message": "chore: auto-update CLE2-15 task status (merged)",
-      "sha": "2fd146f",
-      "date": "2026-07-16T23:46:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2fd146f6ab802ca6ce750bbd61732aced8187c75"
+      "sha": "273d7ae",
+      "date": "2026-07-17T01:27:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/273d7aed77a9b7339e8176d8ecb8aba10fd61ba1"
     },
     {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
-      "message": "feat(CLE2-15): AI 에이전트 역공학 설문 + 개선 처방 웹앱",
-      "number": 37,
+      "message": "fix(CLE2-15): STATUS 정정 — Phase 1 완료, Phase 2-4 남음",
+      "number": 40,
       "state": "closed",
-      "date": "2026-07-16T23:46:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/37"
+      "date": "2026-07-17T01:27:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/40"
     },
     {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
-      "message": "feat(CLE2-15): AI 에이전트 역공학 설문 + 개선 처방 웹앱 태스크 초기 설정 (#37)",
-      "sha": "c71192d",
-      "date": "2026-07-16T23:46:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/c71192d6b7585e3926fb1ea0a524f4214907257e"
+      "message": "fix(CLE2-15): STATUS 정정 — Phase 1 완료 (#40)",
+      "sha": "c22f3c9",
+      "date": "2026-07-17T01:27:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/c22f3c9f32a37f571de6527debb40ff46382dd3e"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: publish reverse survey at configured Pages root",
+      "sha": "e0b575e",
+      "date": "2026-07-17T01:21:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e0b575e8add514a67f6f29aa1490913d4edbbddd"
     },
     {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
-      "message": "fix: task-autoupdate 버그 4건 수정 + STATUS.md 중복 정리",
-      "number": 35,
+      "message": "feat(CLE2-15): Phase 1 — 설문 웹앱 UI + Workers API",
+      "number": 39,
       "state": "closed",
-      "date": "2026-07-16T23:25:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/35"
+      "date": "2026-07-17T00:46:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/39"
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix: task-autoupdate 버그 4건 수정 + STATUS.md 중복 정리 (#35)",
-      "sha": "35c854b",
-      "date": "2026-07-16T23:25:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/35c854b30b08ae532e2f37fdf2e0959f02226798"
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json + github-activity 갱신 (cron 자동)",
+      "sha": "b0ae98f",
+      "date": "2026-07-17T00:45:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b0ae98fa5edf1766fd5f902523fa74a033618750"
     },
     {
       "type": "commit",
@@ -685,15 +694,6 @@
       "sha": "ba25e09",
       "date": "2026-07-16T00:46:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ba25e09419e8ea840b8c4a5cbd56362be86523ca"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: wiki 재생성 + dashboard.json 갱신 (cron 자동)",
-      "sha": "82e2d65",
-      "date": "2026-07-15T18:46:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/82e2d65a8e884b05d404467047aee05d24aa14b0"
     },
     {
       "type": "commit",
