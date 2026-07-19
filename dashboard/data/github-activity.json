@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-19T03:46:37Z",
-  "since": "2026-06-19T03:46:09Z",
+  "generated": "2026-07-19T09:45:56Z",
+  "since": "2026-06-19T09:45:28Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 97,
+      "open_issues": 100,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 9,
       "open_prs": 0,
-      "updated_at": "2026-07-18T21:46:08Z",
-      "pushed_at": "2026-07-18T21:46:05Z",
+      "updated_at": "2026-07-19T03:47:09Z",
+      "pushed_at": "2026-07-19T03:47:05Z",
       "recent_commits": [
+        {
+          "sha": "eef551f",
+          "message": "📊 dashboard: update activity data (2026-07-19 12:46 KST)",
+          "author": "daeguru",
+          "date": "2026-07-19T03:47:05Z"
+        },
         {
           "sha": "c59faeb",
           "message": "chore: update dashboard and github-activity data 2026-07-18T21:45:00Z",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard and github-activity data 2026-07-18T09:46:13Z",
           "author": "daeguru",
           "date": "2026-07-18T09:46:13Z"
-        },
-        {
-          "sha": "49807d9",
-          "message": "chore: update dashboard.json (members fixed) and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-07-18T06:45:57Z"
         }
       ],
       "recent_prs": [
@@ -156,9 +156,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-17T08:23:56Z",
-      "pushed_at": "2026-07-17T08:23:21Z",
+      "updated_at": "2026-07-19T06:56:23Z",
+      "pushed_at": "2026-07-19T06:56:10Z",
       "recent_commits": [
+        {
+          "sha": "e0c8b4e",
+          "message": "feat: add survey admin dashboard",
+          "author": "sfex11",
+          "date": "2026-07-19T06:56:08Z"
+        },
         {
           "sha": "b552779",
           "message": "feat: add recurring coaching dashboard",
@@ -182,12 +188,6 @@
           "message": "chore: auto-update CLE2-15 task status (merged)",
           "author": "github-actions[bot]",
           "date": "2026-07-17T01:27:18Z"
-        },
-        {
-          "sha": "c22f3c9",
-          "message": "fix(CLE2-15): STATUS 정정 — Phase 1 완료 (#40)",
-          "author": "sfex11",
-          "date": "2026-07-17T01:27:08Z"
         }
       ],
       "recent_prs": [
@@ -558,6 +558,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat: add survey admin dashboard",
+      "sha": "e0c8b4e",
+      "date": "2026-07-19T06:56:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e0c8b4ed042aa380414c2a19fd45620181f87b6c"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 dashboard: update activity data (2026-07-19 12:46 KST)",
+      "sha": "eef551f",
+      "date": "2026-07-19T03:47:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/eef551fb153dad2024439ce8b16af2b1cd5d2a54"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update dashboard and github-activity data 2026-07-18T21:45:00Z",
@@ -591,15 +609,6 @@
       "sha": "defac69",
       "date": "2026-07-18T09:46:13Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/defac691d8260df2646a484f438b03352e6fee1c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard.json (members fixed) and github-activity.json",
-      "sha": "49807d9",
-      "date": "2026-07-18T06:45:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/49807d9b98900d44f45dd438b7d00120277290da"
     },
     {
       "type": "commit",
@@ -656,15 +665,6 @@
       "state": "closed",
       "date": "2026-07-17T01:27:10Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/40"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix(CLE2-15): STATUS 정정 — Phase 1 완료 (#40)",
-      "sha": "c22f3c9",
-      "date": "2026-07-17T01:27:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/c22f3c9f32a37f571de6527debb40ff46382dd3e"
     },
     {
       "type": "pr",
