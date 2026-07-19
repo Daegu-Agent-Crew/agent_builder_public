@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-19T09:45:56Z",
-  "since": "2026-06-19T09:45:28Z",
+  "generated": "2026-07-19T12:46:40Z",
+  "since": "2026-06-19T12:46:11Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 100,
+      "open_issues": 101,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 9,
       "open_prs": 0,
-      "updated_at": "2026-07-19T03:47:09Z",
-      "pushed_at": "2026-07-19T03:47:05Z",
+      "updated_at": "2026-07-19T09:46:43Z",
+      "pushed_at": "2026-07-19T09:46:39Z",
       "recent_commits": [
+        {
+          "sha": "20a569c",
+          "message": "chore(dashboard): update dashboard.json (members fix) and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-07-19T09:46:33Z"
+        },
         {
           "sha": "eef551f",
           "message": "📊 dashboard: update activity data (2026-07-19 12:46 KST)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard and github-activity data 2026-07-18T12:46:18Z",
           "author": "daeguru",
           "date": "2026-07-18T12:46:18Z"
-        },
-        {
-          "sha": "defac69",
-          "message": "chore: update dashboard and github-activity data 2026-07-18T09:46:13Z",
-          "author": "daeguru",
-          "date": "2026-07-18T09:46:13Z"
         }
       ],
       "recent_prs": [
@@ -558,6 +558,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json (members fix) and github-activity.json",
+      "sha": "20a569c",
+      "date": "2026-07-19T09:46:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/20a569cfe5e121a462aab6697080547c08a38551"
+    },
+    {
+      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
       "message": "feat: add survey admin dashboard",
@@ -600,15 +609,6 @@
       "sha": "8c2f0e9",
       "date": "2026-07-18T12:46:18Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8c2f0e994deb9809e5ef7923485f2690002be947"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard and github-activity data 2026-07-18T09:46:13Z",
-      "sha": "defac69",
-      "date": "2026-07-18T09:46:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/defac691d8260df2646a484f438b03352e6fee1c"
     },
     {
       "type": "commit",
