@@ -120,6 +120,12 @@
       "project": "daegu-agent-crew",
       "role": "삼체(三体) 만화 연재 프로젝트 — 원작 기반 에이전트 크리에이티브",
       "url": ""
+    },
+    {
+      "slug": "Daegu-Agent-Crew/ai-agent-news",
+      "project": "ai-agent-news",
+      "role": "AI 에이전트 뉴스 수집 시스템 — LLM Wiki 구조, 번역·심층 분석",
+      "url": ""
     }
   ],
   "records_by_project": {
