@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-20T00:45:53Z",
-  "since": "2026-06-20T00:45:23Z",
+  "generated": "2026-07-20T03:46:16Z",
+  "since": "2026-06-20T03:45:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 107,
+      "open_issues": 92,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-19T18:46:10Z",
-      "pushed_at": "2026-07-19T18:46:06Z",
+      "updated_at": "2026-07-20T00:46:17Z",
+      "pushed_at": "2026-07-20T01:31:35Z",
       "recent_commits": [
+        {
+          "sha": "767ef93",
+          "message": "chore: update dashboard data (github-activity, dashboard.json)",
+          "author": "daeguru",
+          "date": "2026-07-20T00:46:13Z"
+        },
         {
           "sha": "05e6bc8",
           "message": "Update dashboard.json (members fixed) and github-activity.json",
@@ -85,15 +91,25 @@
           "message": "📊 dashboard: update activity data (2026-07-19 12:46 KST)",
           "author": "daeguru",
           "date": "2026-07-19T03:47:05Z"
-        },
-        {
-          "sha": "c59faeb",
-          "message": "chore: update dashboard and github-activity data 2026-07-18T21:45:00Z",
-          "author": "daeguru",
-          "date": "2026-07-18T21:46:05Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 2,
+          "title": "feat: project detail page — click project card to see details",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-20T01:31:36Z",
+          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/2"
+        },
+        {
+          "number": 3,
+          "title": "feat: full-page project detail + three-body-comic",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-20T01:31:34Z",
+          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/3"
+        },
         {
           "number": 11,
           "title": "feat: CLE2-8 Phase 5 — Discord 연동 설계",
@@ -101,22 +117,6 @@
           "state": "closed",
           "updated_at": "2026-06-27T10:46:54Z",
           "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/11"
-        },
-        {
-          "number": 10,
-          "title": "feat: CLE2-8 Phase 4 — 이슈 기반 운영 활성화",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-06-27T10:46:52Z",
-          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/10"
-        },
-        {
-          "number": 6,
-          "title": "feat: CLE2-8 Phase 3 — 커뮤니티 맞춤 SPA 대시보드",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-06-27T10:46:50Z",
-          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/6"
         }
       ]
     },
@@ -424,11 +424,17 @@
       "slug": "Daegu-Agent-Crew/team-memory",
       "name": "team-memory",
       "private": true,
-      "open_issues": 1,
-      "open_prs": 1,
-      "updated_at": "2026-07-16T05:33:43Z",
-      "pushed_at": "2026-07-18T21:45:56Z",
+      "open_issues": 0,
+      "open_prs": 0,
+      "updated_at": "2026-07-20T01:32:08Z",
+      "pushed_at": "2026-07-20T01:32:06Z",
       "recent_commits": [
+        {
+          "sha": "a41aa15",
+          "message": "Merge pull request #2 from Daegu-Agent-Crew/wiki/team-priority-direction",
+          "author": "sfex11",
+          "date": "2026-07-20T01:32:03Z"
+        },
         {
           "sha": "0c2dcc0",
           "message": "Add ICML Ralfathon glossary: terms, concepts, workflows (2026-07-16) (#5)",
@@ -452,15 +458,25 @@
           "message": "Add physical-ai-rfm-future video summary record",
           "author": "sfex11",
           "date": "2026-07-15T12:31:57Z"
-        },
-        {
-          "sha": "f8e5422",
-          "message": "Add EP103 최승준 discourse pattern analysis",
-          "author": "대구루",
-          "date": "2026-07-12T15:03:24Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 2,
+          "title": "docs: Team-Memory 방향 — 일일 업무 우선순위 추론 시스템",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-20T01:32:06Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "feat: register three-body-comic repository",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-20T01:31:37Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/1"
+        },
         {
           "number": 5,
           "title": "ICML 랄프톤 용어·개념·워크플로우 정리",
@@ -468,22 +484,6 @@
           "state": "closed",
           "updated_at": "2026-07-16T05:33:39Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/5"
-        },
-        {
-          "number": 4,
-          "title": "feat: add discourse-pattern-extractor skill",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-07-12T02:12:54Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/4"
-        },
-        {
-          "number": 3,
-          "title": "chore: CLE2 registry 등록 및 작업 기록 추가",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-06-22T14:35:18Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/3"
         }
       ]
     },
@@ -557,6 +557,64 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "docs: Team-Memory 방향 — 일일 업무 우선순위 추론 시스템",
+      "number": 2,
+      "state": "closed",
+      "date": "2026-07-20T01:32:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/2"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Merge pull request #2 from Daegu-Agent-Crew/wiki/team-priority-direction",
+      "sha": "a41aa15",
+      "date": "2026-07-20T01:32:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a41aa154601ce4235fdee87857d67ebc6f77172e"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "feat: register three-body-comic repository",
+      "number": 1,
+      "state": "closed",
+      "date": "2026-07-20T01:31:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/1"
+    },
+    {
+      "type": "pr",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "feat: project detail page — click project card to see details",
+      "number": 2,
+      "state": "closed",
+      "date": "2026-07-20T01:31:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/2"
+    },
+    {
+      "type": "pr",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "feat: full-page project detail + three-body-comic",
+      "number": 3,
+      "state": "closed",
+      "date": "2026-07-20T01:31:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (github-activity, dashboard.json)",
+      "sha": "767ef93",
+      "date": "2026-07-20T00:46:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/767ef93ebeecd5810400c637851e94b8213a151d"
+    },
+    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -600,15 +658,6 @@
       "sha": "eef551f",
       "date": "2026-07-19T03:47:05Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/eef551fb153dad2024439ce8b16af2b1cd5d2a54"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard and github-activity data 2026-07-18T21:45:00Z",
-      "sha": "c59faeb",
-      "date": "2026-07-18T21:46:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c59faeb899a2ea108d3850184610e320e8c8c6df"
     },
     {
       "type": "commit",
@@ -723,25 +772,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/356faaec2b46db36c358e2b8f1124a4a22959245"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루",
-      "message": "Add EP103 최승준 discourse pattern analysis",
-      "sha": "f8e5422",
-      "date": "2026-07-12T15:03:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f8e5422feea73bffbdd6533312bf49d2d11d25cc"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "feat: add discourse-pattern-extractor skill",
-      "number": 4,
-      "state": "closed",
-      "date": "2026-07-12T02:12:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/4"
-    },
-    {
       "type": "pr",
       "repo": "team-memory-kit",
       "author": "sfex11",
@@ -800,26 +830,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/11"
     },
     {
-      "type": "pr",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "feat: CLE2-8 Phase 4 — 이슈 기반 운영 활성화",
-      "number": 10,
-      "state": "closed",
-      "date": "2026-06-27T10:46:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/10"
-    },
-    {
-      "type": "pr",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "feat: CLE2-8 Phase 3 — 커뮤니티 맞춤 SPA 대시보드",
-      "number": 6,
-      "state": "closed",
-      "date": "2026-06-27T10:46:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/6"
-    },
-    {
       "type": "commit",
       "repo": "three-body-comic",
       "author": "sfex11",
@@ -836,16 +846,6 @@
       "sha": "d44ba97",
       "date": "2026-06-24T12:14:24Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/d44ba97a5b0e5866d20ad1f9f75cd854f912f1ee"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "chore: CLE2 registry 등록 및 작업 기록 추가",
-      "number": 3,
-      "state": "closed",
-      "date": "2026-06-22T14:35:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/3"
     },
     {
       "type": "pr",
@@ -1027,7 +1027,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 18,
       "prs": 15,
       "issues": 0,
       "reviews": 0
