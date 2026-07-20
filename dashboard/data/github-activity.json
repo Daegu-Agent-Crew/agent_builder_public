@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-20T09:46:22Z",
-  "since": "2026-06-20T09:45:52Z",
+  "generated": "2026-07-20T12:47:20Z",
+  "since": "2026-06-20T12:46:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 96,
+      "open_issues": 98,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-20T06:47:14Z",
-      "pushed_at": "2026-07-20T06:46:56Z",
+      "updated_at": "2026-07-20T11:35:57Z",
+      "pushed_at": "2026-07-20T11:34:49Z",
       "recent_commits": [
+        {
+          "sha": "7e3e021",
+          "message": "fix(dashboard): add ai-agent-news to repositories list",
+          "author": "Laika",
+          "date": "2026-07-20T11:34:41Z"
+        },
+        {
+          "sha": "eabf123",
+          "message": "chore: update dashboard data (github activity + members fix)",
+          "author": "daeguru",
+          "date": "2026-07-20T09:46:38Z"
+        },
         {
           "sha": "8fc2a1a",
           "message": "dashboard: update wiki, github-activity (2026-07-20 15:46 KST)",
@@ -79,18 +91,6 @@
           "message": "chore: update dashboard data (github-activity, dashboard.json)",
           "author": "daeguru",
           "date": "2026-07-20T00:46:13Z"
-        },
-        {
-          "sha": "05e6bc8",
-          "message": "Update dashboard.json (members fixed) and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-07-19T18:46:04Z"
-        },
-        {
-          "sha": "41884a0",
-          "message": "Update github-activity.json",
-          "author": "daeguru",
-          "date": "2026-07-19T12:46:55Z"
         }
       ],
       "recent_prs": [
@@ -156,9 +156,27 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-19T06:56:23Z",
-      "pushed_at": "2026-07-19T06:56:10Z",
+      "updated_at": "2026-07-20T12:44:35Z",
+      "pushed_at": "2026-07-20T12:43:12Z",
       "recent_commits": [
+        {
+          "sha": "42afa8b",
+          "message": "fix: keep CLE2 completion evidence-based (#44)",
+          "author": "sfex11",
+          "date": "2026-07-20T12:43:10Z"
+        },
+        {
+          "sha": "eca5422",
+          "message": "chore: auto-update task task status (merged)",
+          "author": "github-actions[bot]",
+          "date": "2026-07-20T11:34:59Z"
+        },
+        {
+          "sha": "f514389",
+          "message": "docs: register CreatorFlow development plan (#43)",
+          "author": "sfex11",
+          "date": "2026-07-20T11:34:52Z"
+        },
         {
           "sha": "e0c8b4e",
           "message": "feat: add survey admin dashboard",
@@ -170,27 +188,25 @@
           "message": "feat: add recurring coaching dashboard",
           "author": "sfex11",
           "date": "2026-07-17T08:23:19Z"
-        },
-        {
-          "sha": "6ceab95",
-          "message": "chore: auto-update CLE2-15 task status (merged)",
-          "author": "github-actions[bot]",
-          "date": "2026-07-17T01:43:56Z"
-        },
-        {
-          "sha": "8538140",
-          "message": "feat(CLE2-15): Phase 2 — 설문 웹앱 고도화 (#41)",
-          "author": "sfex11",
-          "date": "2026-07-17T01:43:48Z"
-        },
-        {
-          "sha": "273d7ae",
-          "message": "chore: auto-update CLE2-15 task status (merged)",
-          "author": "github-actions[bot]",
-          "date": "2026-07-17T01:27:18Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 44,
+          "title": "fix: keep CLE2 completion evidence-based",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-20T12:43:13Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/44"
+        },
+        {
+          "number": 43,
+          "title": "docs: register CreatorFlow development plan",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-20T11:34:54Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/43"
+        },
         {
           "number": 41,
           "title": "feat(CLE2-15): Phase 2 — 설문 웹앱 고도화",
@@ -198,22 +214,6 @@
           "state": "closed",
           "updated_at": "2026-07-17T01:43:50Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/41"
-        },
-        {
-          "number": 40,
-          "title": "fix(CLE2-15): STATUS 정정 — Phase 1 완료, Phase 2-4 남음",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-07-17T01:27:10Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/40"
-        },
-        {
-          "number": 39,
-          "title": "feat(CLE2-15): Phase 1 — 설문 웹앱 UI + Workers API",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-07-17T00:46:31Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/39"
         }
       ]
     },
@@ -426,9 +426,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-20T01:32:08Z",
-      "pushed_at": "2026-07-20T05:50:57Z",
+      "updated_at": "2026-07-20T11:34:05Z",
+      "pushed_at": "2026-07-20T11:34:01Z",
       "recent_commits": [
+        {
+          "sha": "9f280c5",
+          "message": "feat: register ai-agent-news in repository registry",
+          "author": "Laika",
+          "date": "2026-07-20T11:33:53Z"
+        },
         {
           "sha": "a41aa15",
           "message": "Merge pull request #2 from Daegu-Agent-Crew/wiki/team-priority-direction",
@@ -452,12 +458,6 @@
           "message": "Add participant analysis for physical AI panel discussion",
           "author": "sfex11",
           "date": "2026-07-15T12:35:25Z"
-        },
-        {
-          "sha": "356faae",
-          "message": "Add physical-ai-rfm-future video summary record",
-          "author": "sfex11",
-          "date": "2026-07-15T12:31:57Z"
         }
       ],
       "recent_prs": [
@@ -553,9 +553,125 @@
           "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/5"
         }
       ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/ai-agent-news",
+      "name": "ai-agent-news",
+      "private": false,
+      "open_issues": 0,
+      "open_prs": 0,
+      "updated_at": "2026-07-20T05:15:30Z",
+      "pushed_at": "2026-07-20T05:15:19Z",
+      "recent_commits": [
+        {
+          "sha": "f70d66b",
+          "message": "📚 2026-07-20: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-07-20T05:14:42Z"
+        },
+        {
+          "sha": "be3d37f",
+          "message": "📰 2026-07-20: 뉴스 수집 (3건)",
+          "author": "Renover",
+          "date": "2026-07-19T23:11:41Z"
+        },
+        {
+          "sha": "e275061",
+          "message": "🔍 2026-07-19: 위키 린트 점검",
+          "author": "Renover",
+          "date": "2026-07-19T14:04:54Z"
+        },
+        {
+          "sha": "cf05f62",
+          "message": "📚 2026-07-19: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-07-19T05:06:07Z"
+        },
+        {
+          "sha": "d77130b",
+          "message": "📚 2026-07-18: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-07-18T05:04:21Z"
+        }
+      ],
+      "recent_prs": []
     }
   ],
   "activity_feed": [
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: keep CLE2 completion evidence-based",
+      "number": 44,
+      "state": "closed",
+      "date": "2026-07-20T12:43:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/44"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: keep CLE2 completion evidence-based (#44)",
+      "sha": "42afa8b",
+      "date": "2026-07-20T12:43:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/42afa8bef92e8c3f89f493b088ae592069c832d9"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "github-actions[bot]",
+      "message": "chore: auto-update task task status (merged)",
+      "sha": "eca5422",
+      "date": "2026-07-20T11:34:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/eca5422bc8725653bb74efc1ed96a1a4d6612ca1"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: register CreatorFlow development plan",
+      "number": 43,
+      "state": "closed",
+      "date": "2026-07-20T11:34:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/43"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: register CreatorFlow development plan (#43)",
+      "sha": "f514389",
+      "date": "2026-07-20T11:34:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f5143894afb2adedf1c0f8a0dacd0cb9ec49ca33"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "fix(dashboard): add ai-agent-news to repositories list",
+      "sha": "7e3e021",
+      "date": "2026-07-20T11:34:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7e3e0214d63fa852117257d76343a1cf080fc8d1"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feat: register ai-agent-news in repository registry",
+      "sha": "9f280c5",
+      "date": "2026-07-20T11:33:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9f280c5802415f10fb5a9506b4f681e66b7d304a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (github activity + members fix)",
+      "sha": "eabf123",
+      "date": "2026-07-20T09:46:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/eabf123325cdd8fcf73919d34ccedfd078a7e636"
+    },
     {
       "type": "commit",
       "repo": "agent_builder_public",
@@ -574,6 +690,15 @@
       "state": "open",
       "date": "2026-07-20T05:51:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/6"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-07-20: 위키 갱신 (2개)",
+      "sha": "f70d66b",
+      "date": "2026-07-20T05:14:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f70d66b1a8e8ba1ded1693db3483e25b68bcfd44"
     },
     {
       "type": "commit",
@@ -644,21 +769,21 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard.json (members fixed) and github-activity.json",
-      "sha": "05e6bc8",
-      "date": "2026-07-19T18:46:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/05e6bc8ff8ea0723bb7ee6bd439b91f0f2cd9947"
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-07-20: 뉴스 수집 (3건)",
+      "sha": "be3d37f",
+      "date": "2026-07-19T23:11:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/be3d37f31bcd001c125fa5acb8f2dbc2c71b325b"
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update github-activity.json",
-      "sha": "41884a0",
-      "date": "2026-07-19T12:46:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/41884a0ebd5df0ed50420d81d3bf67491c1ab3f0"
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🔍 2026-07-19: 위키 린트 점검",
+      "sha": "e275061",
+      "date": "2026-07-19T14:04:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e275061a01a2a8b46d6f9082feb359dd736b2574"
     },
     {
       "type": "commit",
@@ -671,21 +796,30 @@
     },
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-07-19: 위키 갱신 (2개)",
+      "sha": "cf05f62",
+      "date": "2026-07-19T05:06:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/cf05f62d16871c4296c76e9c00b9c2b51f0b333b"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-07-18: 위키 갱신 (2개)",
+      "sha": "d77130b",
+      "date": "2026-07-18T05:04:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d77130b7490eeaed4067ea30a718216fe1c52c21"
+    },
+    {
+      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
       "message": "feat: add recurring coaching dashboard",
       "sha": "b552779",
       "date": "2026-07-17T08:23:19Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/b55277992a807717e08df34da57ef8986b7a01ef"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "github-actions[bot]",
-      "message": "chore: auto-update CLE2-15 task status (merged)",
-      "sha": "6ceab95",
-      "date": "2026-07-17T01:43:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/6ceab950054c851aae3d7e0cfe8e8677ac7fccc6"
     },
     {
       "type": "pr",
@@ -696,44 +830,6 @@
       "state": "closed",
       "date": "2026-07-17T01:43:50Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/41"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-15): Phase 2 — 설문 웹앱 고도화 (#41)",
-      "sha": "8538140",
-      "date": "2026-07-17T01:43:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/853814037f9db9d0677c7c1ab1e700abc66b8ca8"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "github-actions[bot]",
-      "message": "chore: auto-update CLE2-15 task status (merged)",
-      "sha": "273d7ae",
-      "date": "2026-07-17T01:27:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/273d7aed77a9b7339e8176d8ecb8aba10fd61ba1"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix(CLE2-15): STATUS 정정 — Phase 1 완료, Phase 2-4 남음",
-      "number": 40,
-      "state": "closed",
-      "date": "2026-07-17T01:27:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/40"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-15): Phase 1 — 설문 웹앱 UI + Workers API",
-      "number": 39,
-      "state": "closed",
-      "date": "2026-07-17T00:46:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/39"
     },
     {
       "type": "commit",
@@ -761,15 +857,6 @@
       "sha": "cf9cb60",
       "date": "2026-07-15T12:35:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cf9cb60453322547ff427671bcbc6f6cffbc4b69"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add physical-ai-rfm-future video summary record",
-      "sha": "356faae",
-      "date": "2026-07-15T12:31:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/356faaec2b46db36c358e2b8f1124a4a22959245"
     },
     {
       "type": "pr",
@@ -977,51 +1064,6 @@
       "sha": "a85f2d0",
       "date": "2026-06-10T13:58:02Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/a85f2d0e94a849d01f608a61b24683e27869fbce"
-    },
-    {
-      "type": "commit",
-      "repo": "context-tree",
-      "author": "normalist-k-s-assistant",
-      "message": "Register source repos: team-memory-kit, election2663-archive-public, agent_builder_public",
-      "sha": "8714463",
-      "date": "2026-06-09T08:44:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/context-tree/commit/8714463c551959b8526533cd5b6e3055f88f26c6"
-    },
-    {
-      "type": "commit",
-      "repo": "context-tree",
-      "author": "normalist-k-s-assistant",
-      "message": "Publish tree URL in AGENTS.md identity block",
-      "sha": "d194d55",
-      "date": "2026-06-09T08:42:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/context-tree/commit/d194d558f2bb10005bf64c7da9d3f49207bbd1e4"
-    },
-    {
-      "type": "commit",
-      "repo": "context-tree",
-      "author": "normalist-k-s-assistant",
-      "message": "Bootstrap context-tree (shared, first-tree v0.4.0-alpha.1)",
-      "sha": "0597c52",
-      "date": "2026-06-09T08:41:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/context-tree/commit/0597c52e09f42430044ca13a37b113b87e1df719"
-    },
-    {
-      "type": "commit",
-      "repo": "election2663-archive-public",
-      "author": "agent",
-      "message": "5/31 Day 7 보고: 사전투표 최종 결과, 블랙아웃 전 최종 여론조사 종합, wiki 동기화",
-      "sha": "3379d2a",
-      "date": "2026-05-31T01:52:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/election2663-archive-public/commit/3379d2a1be64c7ad3206713a159fde48027f3ee0"
-    },
-    {
-      "type": "commit",
-      "repo": "election2663-archive",
-      "author": "agent",
-      "message": "5/31 D-3 수집: 사전투표 최종 결과, 블랙아웃 전 최종 여론조사, 막판 판세 분석",
-      "sha": "1fdea1d",
-      "date": "2026-05-31T01:51:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/election2663-archive/commit/1fdea1d42966119b5303fec3a9049fa9ca511630"
     }
   ],
   "member_stats": [
@@ -1033,16 +1075,16 @@
       "reviews": 0
     },
     {
-      "login": "daeguru",
+      "login": "Normalist-K",
       "commits": 6,
-      "prs": 0,
+      "prs": 2,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "Normalist-K",
-      "commits": 6,
-      "prs": 2,
+      "login": "daeguru",
+      "commits": 5,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
