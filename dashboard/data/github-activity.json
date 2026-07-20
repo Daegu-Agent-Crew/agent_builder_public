@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-20T12:47:20Z",
-  "since": "2026-06-20T12:46:47Z",
+  "generated": "2026-07-20T15:47:47Z",
+  "since": "2026-06-20T15:47:10Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 98,
+      "open_issues": 99,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-20T11:35:57Z",
-      "pushed_at": "2026-07-20T11:34:49Z",
+      "updated_at": "2026-07-20T12:48:58Z",
+      "pushed_at": "2026-07-20T12:48:15Z",
       "recent_commits": [
+        {
+          "sha": "cb30bcc",
+          "message": "chore: update dashboard data (github-activity, members fix)",
+          "author": "daeguru",
+          "date": "2026-07-20T12:48:14Z"
+        },
         {
           "sha": "7e3e021",
           "message": "fix(dashboard): add ai-agent-news to repositories list",
@@ -85,12 +91,6 @@
           "message": "📊 dashboard: update wiki + github activity 2026-07-20T03:46",
           "author": "daeguru",
           "date": "2026-07-20T03:46:54Z"
-        },
-        {
-          "sha": "767ef93",
-          "message": "chore: update dashboard data (github-activity, dashboard.json)",
-          "author": "daeguru",
-          "date": "2026-07-20T00:46:13Z"
         }
       ],
       "recent_prs": [
@@ -119,6 +119,48 @@
           "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/11"
         }
       ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/ai-agent-news",
+      "name": "ai-agent-news",
+      "private": false,
+      "open_issues": 0,
+      "open_prs": 0,
+      "updated_at": "2026-07-20T05:15:30Z",
+      "pushed_at": "2026-07-20T05:15:19Z",
+      "recent_commits": [
+        {
+          "sha": "f70d66b",
+          "message": "📚 2026-07-20: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-07-20T05:14:42Z"
+        },
+        {
+          "sha": "be3d37f",
+          "message": "📰 2026-07-20: 뉴스 수집 (3건)",
+          "author": "Renover",
+          "date": "2026-07-19T23:11:41Z"
+        },
+        {
+          "sha": "e275061",
+          "message": "🔍 2026-07-19: 위키 린트 점검",
+          "author": "Renover",
+          "date": "2026-07-19T14:04:54Z"
+        },
+        {
+          "sha": "cf05f62",
+          "message": "📚 2026-07-19: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-07-19T05:06:07Z"
+        },
+        {
+          "sha": "d77130b",
+          "message": "📚 2026-07-18: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-07-18T05:04:21Z"
+        }
+      ],
+      "recent_prs": []
     },
     {
       "slug": "Daegu-Agent-Crew/context-tree",
@@ -156,9 +198,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-20T12:44:35Z",
-      "pushed_at": "2026-07-20T12:43:12Z",
+      "updated_at": "2026-07-20T14:11:23Z",
+      "pushed_at": "2026-07-20T14:10:03Z",
       "recent_commits": [
+        {
+          "sha": "3916d23",
+          "message": "docs: advance CreatorFlow to phase 4 (#45)",
+          "author": "sfex11",
+          "date": "2026-07-20T14:10:01Z"
+        },
         {
           "sha": "42afa8b",
           "message": "fix: keep CLE2 completion evidence-based (#44)",
@@ -182,15 +230,17 @@
           "message": "feat: add survey admin dashboard",
           "author": "sfex11",
           "date": "2026-07-19T06:56:08Z"
-        },
-        {
-          "sha": "b552779",
-          "message": "feat: add recurring coaching dashboard",
-          "author": "sfex11",
-          "date": "2026-07-17T08:23:19Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 45,
+          "title": "docs: advance CreatorFlow to phase 4",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-20T14:10:03Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/45"
+        },
         {
           "number": 44,
           "title": "fix: keep CLE2 completion evidence-based",
@@ -206,14 +256,6 @@
           "state": "closed",
           "updated_at": "2026-07-20T11:34:54Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/43"
-        },
-        {
-          "number": 41,
-          "title": "feat(CLE2-15): Phase 2 — 설문 웹앱 고도화",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-07-17T01:43:50Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/41"
         }
       ]
     },
@@ -553,51 +595,37 @@
           "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/5"
         }
       ]
-    },
-    {
-      "slug": "Daegu-Agent-Crew/ai-agent-news",
-      "name": "ai-agent-news",
-      "private": false,
-      "open_issues": 0,
-      "open_prs": 0,
-      "updated_at": "2026-07-20T05:15:30Z",
-      "pushed_at": "2026-07-20T05:15:19Z",
-      "recent_commits": [
-        {
-          "sha": "f70d66b",
-          "message": "📚 2026-07-20: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-07-20T05:14:42Z"
-        },
-        {
-          "sha": "be3d37f",
-          "message": "📰 2026-07-20: 뉴스 수집 (3건)",
-          "author": "Renover",
-          "date": "2026-07-19T23:11:41Z"
-        },
-        {
-          "sha": "e275061",
-          "message": "🔍 2026-07-19: 위키 린트 점검",
-          "author": "Renover",
-          "date": "2026-07-19T14:04:54Z"
-        },
-        {
-          "sha": "cf05f62",
-          "message": "📚 2026-07-19: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-07-19T05:06:07Z"
-        },
-        {
-          "sha": "d77130b",
-          "message": "📚 2026-07-18: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-07-18T05:04:21Z"
-        }
-      ],
-      "recent_prs": []
     }
   ],
   "activity_feed": [
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: advance CreatorFlow to phase 4",
+      "number": 45,
+      "state": "closed",
+      "date": "2026-07-20T14:10:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/45"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: advance CreatorFlow to phase 4 (#45)",
+      "sha": "3916d23",
+      "date": "2026-07-20T14:10:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/3916d23a12ca24517f169cc9a93d5ae0f4ae1179"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (github-activity, members fix)",
+      "sha": "cb30bcc",
+      "date": "2026-07-20T12:48:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cb30bcc732e939eea14fd2bbf28e7f031a6faf8c"
+    },
     {
       "type": "pr",
       "repo": "creative-loop-engineering2",
@@ -760,15 +788,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (github-activity, dashboard.json)",
-      "sha": "767ef93",
-      "date": "2026-07-20T00:46:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/767ef93ebeecd5810400c637851e94b8213a151d"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-07-20: 뉴스 수집 (3건)",
@@ -811,25 +830,6 @@
       "sha": "d77130b",
       "date": "2026-07-18T05:04:21Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d77130b7490eeaed4067ea30a718216fe1c52c21"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat: add recurring coaching dashboard",
-      "sha": "b552779",
-      "date": "2026-07-17T08:23:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/b55277992a807717e08df34da57ef8986b7a01ef"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-15): Phase 2 — 설문 웹앱 고도화",
-      "number": 41,
-      "state": "closed",
-      "date": "2026-07-17T01:43:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/41"
     },
     {
       "type": "commit",
