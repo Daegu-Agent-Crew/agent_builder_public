@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-20T03:46:16Z",
-  "since": "2026-06-20T03:45:47Z",
+  "generated": "2026-07-20T06:46:28Z",
+  "since": "2026-06-20T06:45:59Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 92,
+      "open_issues": 93,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-20T00:46:17Z",
-      "pushed_at": "2026-07-20T01:31:35Z",
+      "updated_at": "2026-07-20T03:47:07Z",
+      "pushed_at": "2026-07-20T03:46:58Z",
       "recent_commits": [
+        {
+          "sha": "7997a95",
+          "message": "📊 dashboard: update wiki + github activity 2026-07-20T03:46",
+          "author": "daeguru",
+          "date": "2026-07-20T03:46:54Z"
+        },
         {
           "sha": "767ef93",
           "message": "chore: update dashboard data (github-activity, dashboard.json)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json (members fix) and github-activity.json",
           "author": "daeguru",
           "date": "2026-07-19T09:46:33Z"
-        },
-        {
-          "sha": "eef551f",
-          "message": "📊 dashboard: update activity data (2026-07-19 12:46 KST)",
-          "author": "daeguru",
-          "date": "2026-07-19T03:47:05Z"
         }
       ],
       "recent_prs": [
@@ -424,10 +424,10 @@
       "slug": "Daegu-Agent-Crew/team-memory",
       "name": "team-memory",
       "private": true,
-      "open_issues": 0,
-      "open_prs": 0,
+      "open_issues": 1,
+      "open_prs": 1,
       "updated_at": "2026-07-20T01:32:08Z",
-      "pushed_at": "2026-07-20T01:32:06Z",
+      "pushed_at": "2026-07-20T05:50:57Z",
       "recent_commits": [
         {
           "sha": "a41aa15",
@@ -462,6 +462,14 @@
       ],
       "recent_prs": [
         {
+          "number": 6,
+          "title": "Peter Steinberger 담론 패턴 분석 (YouTube CRmkxkzrFUA)",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-07-20T05:51:11Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/6"
+        },
+        {
           "number": 2,
           "title": "docs: Team-Memory 방향 — 일일 업무 우선순위 추론 시스템",
           "author": "sfex11",
@@ -476,14 +484,6 @@
           "state": "closed",
           "updated_at": "2026-07-20T01:31:37Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/1"
-        },
-        {
-          "number": 5,
-          "title": "ICML 랄프톤 용어·개념·워크플로우 정리",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-07-16T05:33:39Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/5"
         }
       ]
     },
@@ -556,6 +556,25 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Peter Steinberger 담론 패턴 분석 (YouTube CRmkxkzrFUA)",
+      "number": 6,
+      "state": "open",
+      "date": "2026-07-20T05:51:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 dashboard: update wiki + github activity 2026-07-20T03:46",
+      "sha": "7997a95",
+      "date": "2026-07-20T03:46:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7997a95c61b9bab51f57da01941fe48b5c526ec2"
+    },
     {
       "type": "pr",
       "repo": "team-memory",
@@ -652,15 +671,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 dashboard: update activity data (2026-07-19 12:46 KST)",
-      "sha": "eef551f",
-      "date": "2026-07-19T03:47:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/eef551fb153dad2024439ce8b16af2b1cd5d2a54"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
       "message": "feat: add recurring coaching dashboard",
@@ -724,16 +734,6 @@
       "state": "closed",
       "date": "2026-07-17T00:46:31Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/39"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "ICML 랄프톤 용어·개념·워크플로우 정리",
-      "number": 5,
-      "state": "closed",
-      "date": "2026-07-16T05:33:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/5"
     },
     {
       "type": "commit",
