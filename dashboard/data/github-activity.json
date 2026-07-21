@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-21T12:48:17Z",
-  "since": "2026-06-21T12:47:43Z",
+  "generated": "2026-07-21T18:47:30Z",
+  "since": "2026-06-21T18:46:58Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 107,
+      "open_issues": 109,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-20T21:47:15Z",
-      "pushed_at": "2026-07-20T21:47:10Z",
+      "updated_at": "2026-07-21T12:51:51Z",
+      "pushed_at": "2026-07-21T12:48:54Z",
       "recent_commits": [
+        {
+          "sha": "92a36fc",
+          "message": "chore: update dashboard.json and github-activity.json (auto)",
+          "author": "daeguru",
+          "date": "2026-07-21T12:48:54Z"
+        },
         {
           "sha": "1f62eb1",
           "message": "chore: update dashboard.json and github-activity.json (auto)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data (github-activity, members fix)",
           "author": "daeguru",
           "date": "2026-07-20T12:48:14Z"
-        },
-        {
-          "sha": "7e3e021",
-          "message": "fix(dashboard): add ai-agent-news to repositories list",
-          "author": "Laika",
-          "date": "2026-07-20T11:34:41Z"
         }
       ],
       "recent_prs": [
@@ -196,10 +196,10 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 10,
-      "open_prs": 0,
+      "open_issues": 12,
+      "open_prs": 1,
       "updated_at": "2026-07-20T14:11:23Z",
-      "pushed_at": "2026-07-20T14:10:03Z",
+      "pushed_at": "2026-07-21T16:24:03Z",
       "recent_commits": [
         {
           "sha": "3916d23",
@@ -234,6 +234,14 @@
       ],
       "recent_prs": [
         {
+          "number": 47,
+          "title": "docs: register CLE2-17 CreatorFlow2 goal",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-07-21T16:24:04Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/47"
+        },
+        {
           "number": 45,
           "title": "docs: advance CreatorFlow to phase 4",
           "author": "sfex11",
@@ -248,14 +256,6 @@
           "state": "closed",
           "updated_at": "2026-07-20T12:43:13Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/44"
-        },
-        {
-          "number": 43,
-          "title": "docs: register CreatorFlow development plan",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-07-20T11:34:54Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/43"
         }
       ]
     },
@@ -599,6 +599,25 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: register CLE2-17 CreatorFlow2 goal",
+      "number": 47,
+      "state": "open",
+      "date": "2026-07-21T16:24:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/47"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard.json and github-activity.json (auto)",
+      "sha": "92a36fc",
+      "date": "2026-07-21T12:48:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/92a36fc60205cd40633ac722ef5c6490a80e9554"
+    },
+    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -682,16 +701,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/eca5422bc8725653bb74efc1ed96a1a4d6612ca1"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: register CreatorFlow development plan",
-      "number": 43,
-      "state": "closed",
-      "date": "2026-07-20T11:34:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/43"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -699,15 +708,6 @@
       "sha": "f514389",
       "date": "2026-07-20T11:34:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f5143894afb2adedf1c0f8a0dacd0cb9ec49ca33"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "fix(dashboard): add ai-agent-news to repositories list",
-      "sha": "7e3e021",
-      "date": "2026-07-20T11:34:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7e3e0214d63fa852117257d76343a1cf080fc8d1"
     },
     {
       "type": "commit",
@@ -1075,16 +1075,16 @@
       "reviews": 0
     },
     {
-      "login": "Normalist-K",
+      "login": "daeguru",
       "commits": 6,
-      "prs": 2,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "daeguru",
-      "commits": 5,
-      "prs": 0,
+      "login": "Normalist-K",
+      "commits": 6,
+      "prs": 2,
       "issues": 0,
       "reviews": 0
     },
