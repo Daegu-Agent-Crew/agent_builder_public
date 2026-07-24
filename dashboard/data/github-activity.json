@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-24T09:47:08Z",
-  "since": "2026-06-24T09:46:35Z",
+  "generated": "2026-07-24T15:46:55Z",
+  "since": "2026-06-24T15:46:06Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 132,
+      "open_issues": 133,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-24T03:58:39Z",
-      "pushed_at": "2026-07-24T03:58:32Z",
+      "updated_at": "2026-07-24T09:48:27Z",
+      "pushed_at": "2026-07-24T09:47:33Z",
       "recent_commits": [
+        {
+          "sha": "ed404a7",
+          "message": "Update dashboard data: github-activity + dashboard.json (auto, 2026-07-24 18:44 KST)",
+          "author": "daeguru",
+          "date": "2026-07-24T09:47:33Z"
+        },
         {
           "sha": "f49f9eb",
           "message": "chore: update dashboard data and github activity",
@@ -85,12 +91,6 @@
           "message": "📊 Update dashboard data (2026-07-24 01:05 KST)",
           "author": "daeguru",
           "date": "2026-07-23T16:10:08Z"
-        },
-        {
-          "sha": "799a688",
-          "message": "📊 Update dashboard data (2026-07-23 18:44 KST)",
-          "author": "daeguru",
-          "date": "2026-07-23T09:47:50Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-23T23:07:29Z",
-      "pushed_at": "2026-07-23T23:07:19Z",
+      "updated_at": "2026-07-24T09:49:12Z",
+      "pushed_at": "2026-07-24T09:47:25Z",
       "recent_commits": [
+        {
+          "sha": "18d4941",
+          "message": "Update wiki + dashboard.json (auto, 2026-07-24 18:44 KST)",
+          "author": "daeguru",
+          "date": "2026-07-24T09:47:25Z"
+        },
         {
           "sha": "469f892",
           "message": "Add: 중관학파 시간론 → AI Agent 철학 (용수 中론 자막 분석)",
@@ -494,12 +500,6 @@
           "message": "Add ICML Ralfathon glossary: terms, concepts, workflows (2026-07-16) (#5)",
           "author": "sfex11",
           "date": "2026-07-16T05:33:38Z"
-        },
-        {
-          "sha": "c25e067",
-          "message": "Add discourse pattern analysis (discourse-pattern-extractor skill)",
-          "author": "sfex11",
-          "date": "2026-07-15T13:18:38Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard data: github-activity + dashboard.json (auto, 2026-07-24 18:44 KST)",
+      "sha": "ed404a7",
+      "date": "2026-07-24T09:47:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ed404a7cc0900c4db3ccb43f8af3a610d2b1cdd6"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "Update wiki + dashboard.json (auto, 2026-07-24 18:44 KST)",
+      "sha": "18d4941",
+      "date": "2026-07-24T09:47:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/18d494101996d20a0cc9809397d5bbab9aa55c7d"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-07-24: 위키 갱신 (1개) - industry 6차",
@@ -651,15 +669,6 @@
       "sha": "288dcd7",
       "date": "2026-07-23T16:10:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/288dcd72914155df435f37fbee4151471c52c4d8"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 Update dashboard data (2026-07-23 18:44 KST)",
-      "sha": "799a688",
-      "date": "2026-07-23T09:47:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/799a688d66d0103359f5cdfe7c9ddf17cea6719c"
     },
     {
       "type": "commit",
@@ -848,15 +857,6 @@
       "sha": "0c2dcc0",
       "date": "2026-07-16T05:33:38Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0c2dcc0e7ea55a1b9a08db33d9ac49d39d179d01"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add discourse pattern analysis (discourse-pattern-extractor skill)",
-      "sha": "c25e067",
-      "date": "2026-07-15T13:18:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c25e067165f5d4c92c32298bd17f777de1061cc1"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 17,
       "prs": 15,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
