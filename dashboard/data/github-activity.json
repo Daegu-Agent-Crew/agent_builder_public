@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-24T00:52:20Z",
-  "since": "2026-06-24T00:51:50Z",
+  "generated": "2026-07-24T03:58:05Z",
+  "since": "2026-06-24T03:57:35Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-23T21:46:43Z",
-      "pushed_at": "2026-07-23T21:46:39Z",
+      "updated_at": "2026-07-24T00:53:04Z",
+      "pushed_at": "2026-07-24T00:53:00Z",
       "recent_commits": [
+        {
+          "sha": "6ed0b0b",
+          "message": "chore: update dashboard data and github activity",
+          "author": "daeguru",
+          "date": "2026-07-24T00:52:54Z"
+        },
         {
           "sha": "1eb87b0",
           "message": "chore: update dashboard data and github activity",
@@ -85,12 +91,6 @@
           "message": "chore: update github-activity data",
           "author": "daeguru",
           "date": "2026-07-22T21:46:42Z"
-        },
-        {
-          "sha": "37b8508",
-          "message": "chore: update dashboard and github-activity data",
-          "author": "daeguru",
-          "date": "2026-07-22T15:48:04Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data and github activity",
+      "sha": "6ed0b0b",
+      "date": "2026-07-24T00:52:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6ed0b0b02991d528f487829e24d70fd954d3d464"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add: 중관학파 시간론 → AI Agent 철학 (용수 中론 자막 분석)",
@@ -660,15 +669,6 @@
       "sha": "ef118ef",
       "date": "2026-07-22T21:46:42Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ef118effdd6320a723262bea3d92ba1b4bb5f72b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard and github-activity data",
-      "sha": "37b8508",
-      "date": "2026-07-22T15:48:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/37b850861b7f77c0f626588ccdb091cd08e60930"
     },
     {
       "type": "pr",
