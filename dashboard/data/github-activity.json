@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-25T15:47:40Z",
-  "since": "2026-06-25T15:47:09Z",
+  "generated": "2026-07-25T21:52:33Z",
+  "since": "2026-06-25T21:52:00Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 137,
+      "open_issues": 138,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-25T09:46:39Z",
-      "pushed_at": "2026-07-25T09:46:35Z",
+      "updated_at": "2026-07-25T21:50:25Z",
+      "pushed_at": "2026-07-25T21:50:22Z",
       "recent_commits": [
+        {
+          "sha": "ef8c62c",
+          "message": "Add essay: 중관학파 시간론 → AI Agent 시대 철학",
+          "author": "대구루",
+          "date": "2026-07-25T21:50:22Z"
+        },
+        {
+          "sha": "f8bac7e",
+          "message": "chore: update dashboard.json + github-activity.json (auto, 2026-07-26 00:47 KST)",
+          "author": "daeguru",
+          "date": "2026-07-25T15:48:15Z"
+        },
         {
           "sha": "134ec89",
           "message": "chore: update dashboard.json (members fixed) and github-activity.json",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-07-25T00:48:27Z"
-        },
-        {
-          "sha": "ddbaffb",
-          "message": "chore: update dashboard data (members fix + github activity) 2026-07-25 03:47 KST",
-          "author": "daeguru",
-          "date": "2026-07-24T18:47:02Z"
-        },
-        {
-          "sha": "f30509b",
-          "message": "chore: update dashboard data (members fix + github activity)",
-          "author": "daeguru",
-          "date": "2026-07-24T15:47:25Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-24T09:49:12Z",
-      "pushed_at": "2026-07-24T09:47:25Z",
+      "updated_at": "2026-07-25T15:48:22Z",
+      "pushed_at": "2026-07-25T15:48:05Z",
       "recent_commits": [
+        {
+          "sha": "19386b4",
+          "message": "Update wiki + dashboard.json (auto, 2026-07-26 00:47 KST)",
+          "author": "daeguru",
+          "date": "2026-07-25T15:48:05Z"
+        },
         {
           "sha": "18d4941",
           "message": "Update wiki + dashboard.json (auto, 2026-07-24 18:44 KST)",
@@ -494,12 +500,6 @@
           "message": "Merge pull request #2 from Daegu-Agent-Crew/wiki/team-priority-direction",
           "author": "sfex11",
           "date": "2026-07-20T01:32:03Z"
-        },
-        {
-          "sha": "0c2dcc0",
-          "message": "Add ICML Ralfathon glossary: terms, concepts, workflows (2026-07-16) (#5)",
-          "author": "sfex11",
-          "date": "2026-07-16T05:33:38Z"
         }
       ],
       "recent_prs": [
@@ -601,6 +601,33 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "대구루",
+      "message": "Add essay: 중관학파 시간론 → AI Agent 시대 철학",
+      "sha": "ef8c62c",
+      "date": "2026-07-25T21:50:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ef8c62ccb94fdbd894036db2fa733b5892cdd887"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard.json + github-activity.json (auto, 2026-07-26 00:47 KST)",
+      "sha": "f8bac7e",
+      "date": "2026-07-25T15:48:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f8bac7e5b1af9a860b6be2a583f07005ded463de"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "Update wiki + dashboard.json (auto, 2026-07-26 00:47 KST)",
+      "sha": "19386b4",
+      "date": "2026-07-25T15:48:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/19386b46351f21cde513bfff6c26332790ac00b2"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update dashboard.json (members fixed) and github-activity.json",
       "sha": "134ec89",
@@ -624,24 +651,6 @@
       "sha": "543903b",
       "date": "2026-07-25T00:48:27Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/543903b1b6d82c99d9533915a253f8eda3115b5a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (members fix + github activity) 2026-07-25 03:47 KST",
-      "sha": "ddbaffb",
-      "date": "2026-07-24T18:47:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ddbaffb87769fc28fd28e1c9727611ec53cbd0b5"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (members fix + github activity)",
-      "sha": "f30509b",
-      "date": "2026-07-24T15:47:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f30509bc6a5491dd59b314495edd48d31a8c3bbf"
     },
     {
       "type": "commit",
@@ -848,15 +857,6 @@
       "sha": "e0c8b4e",
       "date": "2026-07-19T06:56:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e0c8b4ed042aa380414c2a19fd45620181f87b6c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add ICML Ralfathon glossary: terms, concepts, workflows (2026-07-16) (#5)",
-      "sha": "0c2dcc0",
-      "date": "2026-07-16T05:33:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0c2dcc0e7ea55a1b9a08db33d9ac49d39d179d01"
     },
     {
       "type": "pr",
@@ -1069,7 +1069,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 16,
       "prs": 15,
       "issues": 0,
       "reviews": 0
