@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-25T21:52:33Z",
-  "since": "2026-06-25T21:52:00Z",
+  "generated": "2026-07-26T00:47:53Z",
+  "since": "2026-06-26T00:47:22Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 138,
+      "open_issues": 139,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-25T21:50:25Z",
-      "pushed_at": "2026-07-25T21:50:22Z",
+      "updated_at": "2026-07-26T00:44:07Z",
+      "pushed_at": "2026-07-26T00:44:04Z",
       "recent_commits": [
+        {
+          "sha": "7b4e107",
+          "message": "fix: shebang → #!/usr/bin/env bash (CI/GitHub Actions 호환)",
+          "author": "sfex11",
+          "date": "2026-07-26T00:44:03Z"
+        },
+        {
+          "sha": "2996c0b",
+          "message": "chore: update dashboard.json + github-activity.json (auto, 2026-07-26 06:49 KST)",
+          "author": "daeguru",
+          "date": "2026-07-25T21:53:06Z"
+        },
         {
           "sha": "ef8c62c",
           "message": "Add essay: 중관학파 시간론 → AI Agent 시대 철학",
@@ -79,18 +91,6 @@
           "message": "chore: update dashboard.json (members fixed) and github-activity.json",
           "author": "daeguru",
           "date": "2026-07-25T09:46:35Z"
-        },
-        {
-          "sha": "9bbabbc",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-07-25T06:47:05Z"
-        },
-        {
-          "sha": "543903b",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-07-25T00:48:27Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,27 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-25T15:48:22Z",
-      "pushed_at": "2026-07-25T15:48:05Z",
+      "updated_at": "2026-07-26T00:43:55Z",
+      "pushed_at": "2026-07-26T00:43:51Z",
       "recent_commits": [
+        {
+          "sha": "a8db230",
+          "message": "fix: shebang → #!/usr/bin/env bash (CI 통과용)",
+          "author": "sfex11",
+          "date": "2026-07-26T00:43:51Z"
+        },
+        {
+          "sha": "66a7b4c",
+          "message": "fix: shebang → #!/usr/bin/env bash (CI 통과용)",
+          "author": "sfex11",
+          "date": "2026-07-26T00:43:37Z"
+        },
+        {
+          "sha": "28b82f6",
+          "message": "Update wiki + dashboard.json (auto, 2026-07-26 06:49 KST)",
+          "author": "daeguru",
+          "date": "2026-07-25T21:52:52Z"
+        },
         {
           "sha": "19386b4",
           "message": "Update wiki + dashboard.json (auto, 2026-07-26 00:47 KST)",
@@ -482,24 +500,6 @@
           "message": "Update wiki + dashboard.json (auto, 2026-07-24 18:44 KST)",
           "author": "daeguru",
           "date": "2026-07-24T09:47:25Z"
-        },
-        {
-          "sha": "469f892",
-          "message": "Add: 중관학파 시간론 → AI Agent 철학 (용수 中론 자막 분석)",
-          "author": "sfex11",
-          "date": "2026-07-23T23:07:18Z"
-        },
-        {
-          "sha": "9f280c5",
-          "message": "feat: register ai-agent-news in repository registry",
-          "author": "Laika",
-          "date": "2026-07-20T11:33:53Z"
-        },
-        {
-          "sha": "a41aa15",
-          "message": "Merge pull request #2 from Daegu-Agent-Crew/wiki/team-priority-direction",
-          "author": "sfex11",
-          "date": "2026-07-20T01:32:03Z"
         }
       ],
       "recent_prs": [
@@ -601,6 +601,51 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "fix: shebang → #!/usr/bin/env bash (CI/GitHub Actions 호환)",
+      "sha": "7b4e107",
+      "date": "2026-07-26T00:44:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7b4e10729cd2f30473d43dd7ac13935b15ae5cf9"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "fix: shebang → #!/usr/bin/env bash (CI 통과용)",
+      "sha": "a8db230",
+      "date": "2026-07-26T00:43:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a8db23078ceab7d6ead1f1b415a889568cbe1b6c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "fix: shebang → #!/usr/bin/env bash (CI 통과용)",
+      "sha": "66a7b4c",
+      "date": "2026-07-26T00:43:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/66a7b4cc112fb343775b9374f2468d73dcbc32a5"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard.json + github-activity.json (auto, 2026-07-26 06:49 KST)",
+      "sha": "2996c0b",
+      "date": "2026-07-25T21:53:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2996c0b24766469e749b878a30471896ab69f67e"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "Update wiki + dashboard.json (auto, 2026-07-26 06:49 KST)",
+      "sha": "28b82f6",
+      "date": "2026-07-25T21:52:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/28b82f6d0af6382c78f1fac85f353bed49e69c5f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "대구루",
       "message": "Add essay: 중관학파 시간론 → AI Agent 시대 철학",
       "sha": "ef8c62c",
@@ -636,24 +681,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json",
-      "sha": "9bbabbc",
-      "date": "2026-07-25T06:47:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9bbabbcf50ae72a899aa2a620d91cfb0bafc64e6"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json",
-      "sha": "543903b",
-      "date": "2026-07-25T00:48:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/543903b1b6d82c99d9533915a253f8eda3115b5a"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "Update wiki + dashboard.json (auto, 2026-07-24 18:44 KST)",
@@ -669,15 +696,6 @@
       "sha": "5a617da",
       "date": "2026-07-24T05:04:27Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5a617daba690f81a75bb5d2b107c61d26069555c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add: 중관학파 시간론 → AI Agent 철학 (용수 中론 자막 분석)",
-      "sha": "469f892",
-      "date": "2026-07-23T23:07:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/469f8928a738d3929a9dc372978a5dd5e2fa0cbc"
     },
     {
       "type": "commit",
@@ -764,15 +782,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f5143894afb2adedf1c0f8a0dacd0cb9ec49ca33"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "feat: register ai-agent-news in repository registry",
-      "sha": "9f280c5",
-      "date": "2026-07-20T11:33:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9f280c5802415f10fb5a9506b4f681e66b7d304a"
-    },
-    {
       "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
@@ -800,15 +809,6 @@
       "state": "closed",
       "date": "2026-07-20T01:32:06Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/2"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Merge pull request #2 from Daegu-Agent-Crew/wiki/team-priority-direction",
-      "sha": "a41aa15",
-      "date": "2026-07-20T01:32:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a41aa154601ce4235fdee87857d67ebc6f77172e"
     },
     {
       "type": "pr",
@@ -1069,7 +1069,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
+      "commits": 17,
       "prs": 15,
       "issues": 0,
       "reviews": 0
