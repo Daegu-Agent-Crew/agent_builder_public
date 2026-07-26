@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-26T18:46:43Z",
-  "since": "2026-06-26T18:46:11Z",
+  "generated": "2026-07-26T21:47:26Z",
+  "since": "2026-06-26T21:46:56Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-26T12:46:43Z",
-      "pushed_at": "2026-07-26T12:46:33Z",
+      "updated_at": "2026-07-26T18:47:47Z",
+      "pushed_at": "2026-07-26T18:47:42Z",
       "recent_commits": [
+        {
+          "sha": "44b10e6",
+          "message": "Update dashboard data: github-activity + dashboard.json (2026-07-26T18:47Z)",
+          "author": "daeguru",
+          "date": "2026-07-26T18:47:40Z"
+        },
         {
           "sha": "b081175",
           "message": "Update dashboard data: github-activity + dashboard.json (2026-07-26T12:44Z)",
@@ -85,12 +91,6 @@
           "message": "Update dashboard data: github-activity + member list fix",
           "author": "daeguru",
           "date": "2026-07-26T03:47:48Z"
-        },
-        {
-          "sha": "cfa1ebb",
-          "message": "docs: update dashboard data and github activity (2026-07-26 09:49 KST)",
-          "author": "daeguru",
-          "date": "2026-07-26T00:52:11Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-26T18:41:17Z",
-      "pushed_at": "2026-07-26T18:41:10Z",
+      "updated_at": "2026-07-26T18:54:16Z",
+      "pushed_at": "2026-07-26T18:54:04Z",
       "recent_commits": [
+        {
+          "sha": "7102f2e",
+          "message": "feat: 표현 패턴(E) 카테고리 + discourse-pattern-extractor v2.1 (#9)",
+          "author": "sfex11",
+          "date": "2026-07-26T18:54:04Z"
+        },
         {
           "sha": "632f9d1",
           "message": "feat: thinking-method 피드백 — 노정석 분석 + 신규 패턴 4개 (#8)",
@@ -494,15 +500,17 @@
           "message": "fix: shebang → #!/usr/bin/env bash (CI 통과용)",
           "author": "sfex11",
           "date": "2026-07-26T00:43:51Z"
-        },
-        {
-          "sha": "66a7b4c",
-          "message": "fix: shebang → #!/usr/bin/env bash (CI 통과용)",
-          "author": "sfex11",
-          "date": "2026-07-26T00:43:37Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 9,
+          "title": "feat: 표현 패턴(E) 카테고리 추가 + discourse-pattern-extractor v2.1",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-26T18:54:04Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/9"
+        },
         {
           "number": 8,
           "title": "feat: thinking-method 피드백 — 노정석 분석 + 신규 패턴 4개",
@@ -518,14 +526,6 @@
           "state": "closed",
           "updated_at": "2026-07-26T09:15:36Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/7"
-        },
-        {
-          "number": 6,
-          "title": "Peter Steinberger 담론 패턴 분석 (YouTube CRmkxkzrFUA)",
-          "author": "sfex11",
-          "state": "open",
-          "updated_at": "2026-07-20T05:51:11Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/6"
         }
       ]
     },
@@ -598,6 +598,34 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "feat: 표현 패턴(E) 카테고리 추가 + discourse-pattern-extractor v2.1",
+      "number": 9,
+      "state": "closed",
+      "date": "2026-07-26T18:54:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/9"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "feat: 표현 패턴(E) 카테고리 + discourse-pattern-extractor v2.1 (#9)",
+      "sha": "7102f2e",
+      "date": "2026-07-26T18:54:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7102f2e32668acc8741cfc4330a4fbc1df1ef498"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard data: github-activity + dashboard.json (2026-07-26T18:47Z)",
+      "sha": "44b10e6",
+      "date": "2026-07-26T18:47:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/44b10e68154186b090f31b5f1b8abf9871ed2276"
+    },
     {
       "type": "pr",
       "repo": "team-memory",
@@ -683,30 +711,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "docs: update dashboard data and github activity (2026-07-26 09:49 KST)",
-      "sha": "cfa1ebb",
-      "date": "2026-07-26T00:52:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cfa1ebb11490014dd78e4bb6c4013e08e2a46f4d"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "fix: shebang → #!/usr/bin/env bash (CI 통과용)",
       "sha": "a8db230",
       "date": "2026-07-26T00:43:51Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a8db23078ceab7d6ead1f1b415a889568cbe1b6c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "fix: shebang → #!/usr/bin/env bash (CI 통과용)",
-      "sha": "66a7b4c",
-      "date": "2026-07-26T00:43:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/66a7b4cc112fb343775b9374f2468d73dcbc32a5"
     },
     {
       "type": "commit",
@@ -800,16 +810,6 @@
       "sha": "f514389",
       "date": "2026-07-20T11:34:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f5143894afb2adedf1c0f8a0dacd0cb9ec49ca33"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Peter Steinberger 담론 패턴 분석 (YouTube CRmkxkzrFUA)",
-      "number": 6,
-      "state": "open",
-      "date": "2026-07-20T05:51:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/6"
     },
     {
       "type": "commit",
