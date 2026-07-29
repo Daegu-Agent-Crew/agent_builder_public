@@ -1,13 +1,1097 @@
 {
-  "generated": "2026-07-28T18:45:53Z",
-  "since": "2026-06-28T18:45:53Z",
-  "repos": [],
-  "activity_feed": [],
+  "generated": "2026-07-29T00:45:56Z",
+  "since": "2026-06-29T00:45:24Z",
+  "repos": [
+    {
+      "slug": "Daegu-Agent-Crew/agent_builder",
+      "name": "agent_builder",
+      "private": true,
+      "open_issues": 152,
+      "open_prs": 0,
+      "updated_at": "2026-05-19T02:12:40Z",
+      "pushed_at": "2026-05-19T02:13:02Z",
+      "recent_commits": [
+        {
+          "sha": "815ed75",
+          "message": "docs: Week_03 회의록 추가 - DAB 커뮤니티 방향 논의 (#1)",
+          "author": "sfex11",
+          "date": "2026-05-19T02:12:35Z"
+        },
+        {
+          "sha": "f2ba289",
+          "message": "docs: architecture.md 루트 이동, 규칙 문서 및 이미지 추가",
+          "author": "sfex11",
+          "date": "2026-05-04T09:47:12Z"
+        },
+        {
+          "sha": "03ec47f",
+          "message": "docs: Week_02 회의록에 대구 시장 선거 크롤링 스킬 내용 추가",
+          "author": "sfex11",
+          "date": "2026-05-04T09:35:50Z"
+        },
+        {
+          "sha": "cd00e9c",
+          "message": "docs: Week_02 회의록 내용 보완",
+          "author": "sfex11",
+          "date": "2026-05-04T07:06:47Z"
+        },
+        {
+          "sha": "5e1f20a",
+          "message": "docs: 멤버목록 업데이트 및 초기 문서 추가",
+          "author": "sfex11",
+          "date": "2026-05-04T06:24:14Z"
+        }
+      ],
+      "recent_prs": [
+        {
+          "number": 1,
+          "title": "docs: Week_03 회의록 추가 - DAB 커뮤니티 방향 논의",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-05-19T02:13:03Z",
+          "url": "https://github.com/Daegu-Agent-Crew/agent_builder/pull/1"
+        }
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/agent_builder_public",
+      "name": "agent_builder_public",
+      "private": false,
+      "open_issues": 10,
+      "open_prs": 0,
+      "updated_at": "2026-07-28T18:46:54Z",
+      "pushed_at": "2026-07-28T18:46:32Z",
+      "recent_commits": [
+        {
+          "sha": "ef92e72",
+          "message": "Update dashboard data and GitHub activity (2026-07-29 03:45 KST)",
+          "author": "daeguru",
+          "date": "2026-07-28T18:46:32Z"
+        },
+        {
+          "sha": "6765f65",
+          "message": "Update dashboard.json and github-activity.json (auto cron)",
+          "author": "daeguru",
+          "date": "2026-07-28T12:48:12Z"
+        },
+        {
+          "sha": "dd16b10",
+          "message": "Update dashboard.json and github-activity.json (auto cron)",
+          "author": "daeguru",
+          "date": "2026-07-28T09:47:30Z"
+        },
+        {
+          "sha": "b88e95c",
+          "message": "Update dashboard.json and github-activity.json (2026-07-28 15:44 KST)",
+          "author": "daeguru",
+          "date": "2026-07-28T06:47:03Z"
+        },
+        {
+          "sha": "6d72bba",
+          "message": "Update dashboard and GitHub activity data (2026-07-28 12:55 KST)",
+          "author": "daeguru",
+          "date": "2026-07-28T03:58:04Z"
+        }
+      ],
+      "recent_prs": [
+        {
+          "number": 2,
+          "title": "feat: project detail page — click project card to see details",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-20T01:31:36Z",
+          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/2"
+        },
+        {
+          "number": 3,
+          "title": "feat: full-page project detail + three-body-comic",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-20T01:31:34Z",
+          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/3"
+        },
+        {
+          "number": 11,
+          "title": "feat: CLE2-8 Phase 5 — Discord 연동 설계",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-06-27T10:46:54Z",
+          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/11"
+        }
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/ai-agent-news",
+      "name": "ai-agent-news",
+      "private": false,
+      "open_issues": 0,
+      "open_prs": 0,
+      "updated_at": "2026-07-28T23:07:42Z",
+      "pushed_at": "2026-07-28T23:07:38Z",
+      "recent_commits": [
+        {
+          "sha": "5c00a62",
+          "message": "📰 2026-07-29: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-07-28T23:07:16Z"
+        },
+        {
+          "sha": "70358a6",
+          "message": "📰 2026-07-29: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-07-28T22:48:00Z"
+        },
+        {
+          "sha": "cd22b31",
+          "message": "📰 2026-07-29: 뉴스 수집 (3건)",
+          "author": "Renover",
+          "date": "2026-07-28T22:24:04Z"
+        },
+        {
+          "sha": "812daeb",
+          "message": "📚 2026-07-27: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-07-27T05:06:28Z"
+        },
+        {
+          "sha": "5717394",
+          "message": "📰 2026-07-27: 뉴스 수집 (3건)",
+          "author": "Renover",
+          "date": "2026-07-26T23:07:33Z"
+        }
+      ],
+      "recent_prs": []
+    },
+    {
+      "slug": "Daegu-Agent-Crew/context-tree",
+      "name": "context-tree",
+      "private": false,
+      "open_issues": 0,
+      "open_prs": 0,
+      "updated_at": "2026-06-09T08:45:01Z",
+      "pushed_at": "2026-06-09T08:44:57Z",
+      "recent_commits": [
+        {
+          "sha": "8714463",
+          "message": "Register source repos: team-memory-kit, election2663-archive-public, agent_builder_public",
+          "author": "normalist-k-s-assistant",
+          "date": "2026-06-09T08:44:55Z"
+        },
+        {
+          "sha": "d194d55",
+          "message": "Publish tree URL in AGENTS.md identity block",
+          "author": "normalist-k-s-assistant",
+          "date": "2026-06-09T08:42:25Z"
+        },
+        {
+          "sha": "0597c52",
+          "message": "Bootstrap context-tree (shared, first-tree v0.4.0-alpha.1)",
+          "author": "normalist-k-s-assistant",
+          "date": "2026-06-09T08:41:11Z"
+        }
+      ],
+      "recent_prs": []
+    },
+    {
+      "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
+      "name": "creative-loop-engineering2",
+      "private": false,
+      "open_issues": 13,
+      "open_prs": 1,
+      "updated_at": "2026-07-28T14:52:37Z",
+      "pushed_at": "2026-07-28T14:49:07Z",
+      "recent_commits": [
+        {
+          "sha": "2e45c42",
+          "message": "docs(CLE2-18): PLAN.md, TESTS.md 작성 (#50)",
+          "author": "sfex11",
+          "date": "2026-07-28T14:49:05Z"
+        },
+        {
+          "sha": "65fff39",
+          "message": "feat(CLE2-18): CreatorFlow2 원자적 결제 에스크로 컨트랙트 태스크 초기 설정 (#49)",
+          "author": "sfex11",
+          "date": "2026-07-28T14:46:27Z"
+        },
+        {
+          "sha": "3916d23",
+          "message": "docs: advance CreatorFlow to phase 4 (#45)",
+          "author": "sfex11",
+          "date": "2026-07-20T14:10:01Z"
+        },
+        {
+          "sha": "42afa8b",
+          "message": "fix: keep CLE2 completion evidence-based (#44)",
+          "author": "sfex11",
+          "date": "2026-07-20T12:43:10Z"
+        },
+        {
+          "sha": "eca5422",
+          "message": "chore: auto-update task task status (merged)",
+          "author": "github-actions[bot]",
+          "date": "2026-07-20T11:34:59Z"
+        }
+      ],
+      "recent_prs": [
+        {
+          "number": 50,
+          "title": "docs(CLE2-18): PLAN.md, TESTS.md 작성",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-28T14:49:08Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/50"
+        },
+        {
+          "number": 49,
+          "title": "feat(CLE2-18): CreatorFlow2 원자적 결제 에스크로 컨트랙트 태스크 초기 설정",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-28T14:46:30Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/49"
+        },
+        {
+          "number": 47,
+          "title": "docs: register CLE2-17 CreatorFlow2 goal",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-07-22T02:01:39Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/47"
+        }
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/dabstack",
+      "name": "dabstack",
+      "private": true,
+      "open_issues": 0,
+      "open_prs": 0,
+      "updated_at": "2026-05-28T07:55:39Z",
+      "pushed_at": "2026-05-28T07:55:35Z",
+      "recent_commits": [
+        {
+          "sha": "9a650b5",
+          "message": "docs: add dabstack bootstrap plan",
+          "author": "Normalist-K",
+          "date": "2026-05-28T07:55:24Z"
+        }
+      ],
+      "recent_prs": []
+    },
+    {
+      "slug": "Daegu-Agent-Crew/election2663-archive-public",
+      "name": "election2663-archive-public",
+      "private": false,
+      "open_issues": 0,
+      "open_prs": 0,
+      "updated_at": "2026-06-17T20:44:54Z",
+      "pushed_at": "2026-06-17T20:44:48Z",
+      "recent_commits": [
+        {
+          "sha": "d1cefff",
+          "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#2)",
+          "author": "Normalist-K",
+          "date": "2026-06-17T20:44:48Z"
+        },
+        {
+          "sha": "5decdae",
+          "message": "feat: 선거 결과 정리 및 아카이브 마무리",
+          "author": "renover",
+          "date": "2026-06-11T04:38:49Z"
+        },
+        {
+          "sha": "3379d2a",
+          "message": "5/31 Day 7 보고: 사전투표 최종 결과, 블랙아웃 전 최종 여론조사 종합, wiki 동기화",
+          "author": "agent",
+          "date": "2026-05-31T01:52:02Z"
+        },
+        {
+          "sha": "d5f565c",
+          "message": "Day06 인포그래픽 이미지 개선 (프롬프트 최적화)",
+          "author": "agent",
+          "date": "2026-05-30T09:50:14Z"
+        },
+        {
+          "sha": "7063580",
+          "message": "Day06 지지율 테이블을 SVG 원그래프로 교체",
+          "author": "agent",
+          "date": "2026-05-30T04:54:35Z"
+        }
+      ],
+      "recent_prs": [
+        {
+          "number": 2,
+          "title": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
+          "author": "Normalist-K",
+          "state": "closed",
+          "updated_at": "2026-06-17T20:44:49Z",
+          "url": "https://github.com/Daegu-Agent-Crew/election2663-archive-public/pull/2"
+        }
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/election2663-archive",
+      "name": "election2663-archive",
+      "private": true,
+      "open_issues": 0,
+      "open_prs": 0,
+      "updated_at": "2026-06-17T20:44:51Z",
+      "pushed_at": "2026-06-17T20:44:46Z",
+      "recent_commits": [
+        {
+          "sha": "ecfbc33",
+          "message": "Add council analysis skill and expand wiki schema (#2)",
+          "author": "epilo9er",
+          "date": "2026-06-17T20:44:46Z"
+        },
+        {
+          "sha": "1fdea1d",
+          "message": "5/31 D-3 수집: 사전투표 최종 결과, 블랙아웃 전 최종 여론조사, 막판 판세 분석",
+          "author": "agent",
+          "date": "2026-05-31T01:51:00Z"
+        },
+        {
+          "sha": "77e0b30",
+          "message": "5/30 D-4 수집: 여론조사 4건, 2차 토론회, 사전투표 현황",
+          "author": "agent",
+          "date": "2026-05-30T01:18:02Z"
+        },
+        {
+          "sha": "0efa182",
+          "message": "공약 비교 페이지, 후보자 등록 현황 업데이트, 여론조사 추이 페이지 추가",
+          "author": "daeguru",
+          "date": "2026-05-27T01:02:35Z"
+        },
+        {
+          "sha": "089c003",
+          "message": "팩트체크용 출처 5건, 클레임 5건 등록 (TBC 토론회)",
+          "author": "agent",
+          "date": "2026-05-26T14:41:40Z"
+        }
+      ],
+      "recent_prs": [
+        {
+          "number": 2,
+          "title": "Add council analysis framework for Daegu city council data",
+          "author": "epilo9er",
+          "state": "closed",
+          "updated_at": "2026-06-17T20:44:46Z",
+          "url": "https://github.com/Daegu-Agent-Crew/election2663-archive/pull/2"
+        },
+        {
+          "number": 3,
+          "title": "5/14 후보 등록, 여론조사 3건, 5/19 공약 발표 수집",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-05-20T06:34:48Z",
+          "url": "https://github.com/Daegu-Agent-Crew/election2663-archive/pull/3"
+        },
+        {
+          "number": 1,
+          "title": "Add assembly-bill-collector skill for legislative data",
+          "author": "epilo9er",
+          "state": "closed",
+          "updated_at": "2026-05-13T06:31:38Z",
+          "url": "https://github.com/Daegu-Agent-Crew/election2663-archive/pull/1"
+        }
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/team-memory-kit",
+      "name": "team-memory-kit",
+      "private": false,
+      "open_issues": 3,
+      "open_prs": 1,
+      "updated_at": "2026-06-17T20:44:43Z",
+      "pushed_at": "2026-07-08T19:36:54Z",
+      "recent_commits": [
+        {
+          "sha": "db22ae8",
+          "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#1)",
+          "author": "Normalist-K",
+          "date": "2026-06-17T20:44:41Z"
+        },
+        {
+          "sha": "06edf98",
+          "message": "feat: support Claude Code alongside Codex (#5)",
+          "author": "junteken",
+          "date": "2026-06-17T20:44:39Z"
+        },
+        {
+          "sha": "c42e3ef",
+          "message": "v2026.06.10.2 feat: add team memory upgrade workflow (#4)",
+          "author": "Normalist-K",
+          "date": "2026-06-10T15:02:38Z"
+        },
+        {
+          "sha": "0a79063",
+          "message": "docs: add team intent design notes",
+          "author": "Normalist-K",
+          "date": "2026-06-10T14:03:04Z"
+        },
+        {
+          "sha": "a85f2d0",
+          "message": "feat: memory-dashboard command and tm-dashboard skill",
+          "author": "Normalist-K",
+          "date": "2026-06-10T13:58:02Z"
+        }
+      ],
+      "recent_prs": [
+        {
+          "number": 8,
+          "title": "feat: 구현 전 패턴 (블라인드 스팟 / 브레인스토밍 / 인터뷰) 추가",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-07-08T19:37:25Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/8"
+        },
+        {
+          "number": 1,
+          "title": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
+          "author": "Normalist-K",
+          "state": "closed",
+          "updated_at": "2026-06-17T20:44:42Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/1"
+        },
+        {
+          "number": 5,
+          "title": "feat: support Claude Code alongside Codex",
+          "author": "junteken",
+          "state": "closed",
+          "updated_at": "2026-06-17T20:44:39Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/5"
+        }
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/team-memory",
+      "name": "team-memory",
+      "private": true,
+      "open_issues": 1,
+      "open_prs": 1,
+      "updated_at": "2026-07-28T03:36:38Z",
+      "pushed_at": "2026-07-28T03:36:34Z",
+      "recent_commits": [
+        {
+          "sha": "177ea43",
+          "message": "Add Google Cloud x Solana Agentic Hackathon video summary record",
+          "author": "sfex11",
+          "date": "2026-07-28T03:36:34Z"
+        },
+        {
+          "sha": "df904a7",
+          "message": "chore: regenerate wiki for three-body-comic",
+          "author": "daeguru",
+          "date": "2026-07-28T00:46:38Z"
+        },
+        {
+          "sha": "f4f4c81",
+          "message": "fix: resolve 6 CI data integrity issues (#12)",
+          "author": "sfex11",
+          "date": "2026-07-27T23:29:12Z"
+        },
+        {
+          "sha": "7b5bc82",
+          "message": "fix: replace Termux shebang with portable /usr/bin/env bash (#11)",
+          "author": "sfex11",
+          "date": "2026-07-27T23:22:37Z"
+        },
+        {
+          "sha": "e19c1de",
+          "message": "relax: remove tm- prefix requirement for skill directories and names (#10)",
+          "author": "sfex11",
+          "date": "2026-07-27T18:55:12Z"
+        }
+      ],
+      "recent_prs": [
+        {
+          "number": 12,
+          "title": "fix: CI 데이터 무결성 6개 이슈 해결",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-27T23:29:17Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/12"
+        },
+        {
+          "number": 11,
+          "title": "fix: Termux shebang → portable (CI 45일간 사망 원인)",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-27T23:22:42Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/11"
+        },
+        {
+          "number": 10,
+          "title": "relax: 스킬 이름 tm- prefix 강제 제거",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-27T18:55:16Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/10"
+        }
+      ]
+    },
+    {
+      "slug": "Daegu-Agent-Crew/three-body-comic",
+      "name": "three-body-comic",
+      "private": true,
+      "open_issues": 0,
+      "open_prs": 0,
+      "updated_at": "2026-07-28T22:12:44Z",
+      "pushed_at": "2026-07-28T21:54:25Z",
+      "recent_commits": [
+        {
+          "sha": "8ebe0b3",
+          "message": "ep/002: v3 대본 — 카운트다운 (4단계 워크플로우 전체 적용, +1180줄) (#10)",
+          "author": "sfex11",
+          "date": "2026-07-28T21:54:24Z"
+        },
+        {
+          "sha": "b9f555b",
+          "message": "ep/001: v3 백필 — 재미 요소·미스터리 아키텍처·실험 변수·매력 지수 반영 (+130줄) (#9)",
+          "author": "sfex11",
+          "date": "2026-07-28T21:48:31Z"
+        },
+        {
+          "sha": "15db3f4",
+          "message": "docs: STORY-PROMPT-V3 — 재미 요소·미스터리 아키텍처·실험 변수·매력 지수 반영 (+95줄) (#8)",
+          "author": "sfex11",
+          "date": "2026-07-28T21:33:09Z"
+        },
+        {
+          "sha": "11126a9",
+          "message": "ep/001: v3 프롬프트 4단계 워크플로우로 EP001 재작성 (#7)",
+          "author": "sfex11",
+          "date": "2026-07-07T22:38:57Z"
+        },
+        {
+          "sha": "d891acd",
+          "message": "docs: 스토리 각색 프롬프트 v3 — 4단계 워크플로우 (#6)",
+          "author": "sfex11",
+          "date": "2026-07-07T20:59:25Z"
+        }
+      ],
+      "recent_prs": [
+        {
+          "number": 10,
+          "title": "ep/002: v3 대본 — 카운트다운 (4단계 워크플로우 + 재미 이론 전체 적용)",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-28T21:54:25Z",
+          "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/10"
+        },
+        {
+          "number": 9,
+          "title": "ep/001: v3 백필 — 재미 이론 5개 영역 EP001 산출물에 적용",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-28T21:48:31Z",
+          "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/9"
+        },
+        {
+          "number": 8,
+          "title": "docs: STORY-PROMPT-V3 재미 이론 5개 영역 보강",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-07-28T21:33:09Z",
+          "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/8"
+        }
+      ]
+    }
+  ],
+  "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-07-29: 뉴스 수집 (5건)",
+      "sha": "5c00a62",
+      "date": "2026-07-28T23:07:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5c00a62cfe366ffb716a06a489d476369d6db618"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-07-29: 뉴스 수집 (5건)",
+      "sha": "70358a6",
+      "date": "2026-07-28T22:48:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/70358a676754a8d22acacd6f5e438259dc06b3dc"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-07-29: 뉴스 수집 (3건)",
+      "sha": "cd22b31",
+      "date": "2026-07-28T22:24:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/cd22b3137049b5d1147ab3b5fbb3159e3bdd4aca"
+    },
+    {
+      "type": "pr",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "ep/002: v3 대본 — 카운트다운 (4단계 워크플로우 + 재미 이론 전체 적용)",
+      "number": 10,
+      "state": "closed",
+      "date": "2026-07-28T21:54:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/10"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "ep/002: v3 대본 — 카운트다운 (4단계 워크플로우 전체 적용, +1180줄) (#10)",
+      "sha": "8ebe0b3",
+      "date": "2026-07-28T21:54:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/8ebe0b345ba5b8247afd62aea13c3206919ce817"
+    },
+    {
+      "type": "pr",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "ep/001: v3 백필 — 재미 이론 5개 영역 EP001 산출물에 적용",
+      "number": 9,
+      "state": "closed",
+      "date": "2026-07-28T21:48:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/9"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "ep/001: v3 백필 — 재미 요소·미스터리 아키텍처·실험 변수·매력 지수 반영 (+130줄) (#9)",
+      "sha": "b9f555b",
+      "date": "2026-07-28T21:48:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/b9f555bcbd248514880f5cdcb39cebcbb428de00"
+    },
+    {
+      "type": "pr",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "docs: STORY-PROMPT-V3 재미 이론 5개 영역 보강",
+      "number": 8,
+      "state": "closed",
+      "date": "2026-07-28T21:33:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/8"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "docs: STORY-PROMPT-V3 — 재미 요소·미스터리 아키텍처·실험 변수·매력 지수 반영 (+95줄) (#8)",
+      "sha": "15db3f4",
+      "date": "2026-07-28T21:33:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/15db3f4d1ddb21280aedf5503ab7250f0f718394"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard data and GitHub activity (2026-07-29 03:45 KST)",
+      "sha": "ef92e72",
+      "date": "2026-07-28T18:46:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ef92e72f8a5452012f02932970bdcc5ea600e11e"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-18): PLAN.md, TESTS.md 작성",
+      "number": 50,
+      "state": "closed",
+      "date": "2026-07-28T14:49:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/50"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-18): PLAN.md, TESTS.md 작성 (#50)",
+      "sha": "2e45c42",
+      "date": "2026-07-28T14:49:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2e45c4233f088b9af2e28cfdf25713612d512f42"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-18): CreatorFlow2 원자적 결제 에스크로 컨트랙트 태스크 초기 설정",
+      "number": 49,
+      "state": "closed",
+      "date": "2026-07-28T14:46:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/49"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-18): CreatorFlow2 원자적 결제 에스크로 컨트랙트 태스크 초기 설정 (#49)",
+      "sha": "65fff39",
+      "date": "2026-07-28T14:46:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/65fff39a6b61a7e19c88a17d10b9e49a5a024cdd"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard.json and github-activity.json (auto cron)",
+      "sha": "6765f65",
+      "date": "2026-07-28T12:48:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6765f65e98f237ce5b85017a4d654473d27109f1"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard.json and github-activity.json (auto cron)",
+      "sha": "dd16b10",
+      "date": "2026-07-28T09:47:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dd16b1002e302a28af5402eaee1df4cf379ad44a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard.json and github-activity.json (2026-07-28 15:44 KST)",
+      "sha": "b88e95c",
+      "date": "2026-07-28T06:47:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b88e95cff23b44e88719cab5b1d1e2acd8d9ea8a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard and GitHub activity data (2026-07-28 12:55 KST)",
+      "sha": "6d72bba",
+      "date": "2026-07-28T03:58:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6d72bba4802670fc05f7e1dbe7f4ae3f1dced8c3"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add Google Cloud x Solana Agentic Hackathon video summary record",
+      "sha": "177ea43",
+      "date": "2026-07-28T03:36:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/177ea4362cea36d65fa50a122866ab3b200075a3"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "chore: regenerate wiki for three-body-comic",
+      "sha": "df904a7",
+      "date": "2026-07-28T00:46:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/df904a706b0290b59d7eb7c9fd494a79f0dea95d"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "fix: CI 데이터 무결성 6개 이슈 해결",
+      "number": 12,
+      "state": "closed",
+      "date": "2026-07-27T23:29:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/12"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "fix: resolve 6 CI data integrity issues (#12)",
+      "sha": "f4f4c81",
+      "date": "2026-07-27T23:29:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f4f4c81b515b69407a9e6fefc0423e8b6ed46545"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "fix: Termux shebang → portable (CI 45일간 사망 원인)",
+      "number": 11,
+      "state": "closed",
+      "date": "2026-07-27T23:22:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/11"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "fix: replace Termux shebang with portable /usr/bin/env bash (#11)",
+      "sha": "7b5bc82",
+      "date": "2026-07-27T23:22:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7b5bc82ad3837cef3981df9f0d8153f13ee9e485"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "relax: 스킬 이름 tm- prefix 강제 제거",
+      "number": 10,
+      "state": "closed",
+      "date": "2026-07-27T18:55:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/10"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "relax: remove tm- prefix requirement for skill directories and names (#10)",
+      "sha": "e19c1de",
+      "date": "2026-07-27T18:55:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e19c1de1b97de29cdf1481e80cf615fbebb6ac8b"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-07-27: 위키 갱신 (2개)",
+      "sha": "812daeb",
+      "date": "2026-07-27T05:06:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/812daebd1e05e43f86bf0d5221e8faab5ea57b32"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-07-27: 뉴스 수집 (3건)",
+      "sha": "5717394",
+      "date": "2026-07-26T23:07:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5717394963c20e170a5239122c3907aa2099e519"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: register CLE2-17 CreatorFlow2 goal",
+      "number": 47,
+      "state": "open",
+      "date": "2026-07-22T02:01:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/47"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: advance CreatorFlow to phase 4 (#45)",
+      "sha": "3916d23",
+      "date": "2026-07-20T14:10:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/3916d23a12ca24517f169cc9a93d5ae0f4ae1179"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix: keep CLE2 completion evidence-based (#44)",
+      "sha": "42afa8b",
+      "date": "2026-07-20T12:43:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/42afa8bef92e8c3f89f493b088ae592069c832d9"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "github-actions[bot]",
+      "message": "chore: auto-update task task status (merged)",
+      "sha": "eca5422",
+      "date": "2026-07-20T11:34:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/eca5422bc8725653bb74efc1ed96a1a4d6612ca1"
+    },
+    {
+      "type": "pr",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "feat: project detail page — click project card to see details",
+      "number": 2,
+      "state": "closed",
+      "date": "2026-07-20T01:31:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/2"
+    },
+    {
+      "type": "pr",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "feat: full-page project detail + three-body-comic",
+      "number": 3,
+      "state": "closed",
+      "date": "2026-07-20T01:31:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/3"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory-kit",
+      "author": "sfex11",
+      "message": "feat: 구현 전 패턴 (블라인드 스팟 / 브레인스토밍 / 인터뷰) 추가",
+      "number": 8,
+      "state": "open",
+      "date": "2026-07-08T19:37:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/8"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "ep/001: v3 프롬프트 4단계 워크플로우로 EP001 재작성 (#7)",
+      "sha": "11126a9",
+      "date": "2026-07-07T22:38:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/11126a902090a249ca47b85c0ce4abf16df071e9"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "docs: 스토리 각색 프롬프트 v3 — 4단계 워크플로우 (#6)",
+      "sha": "d891acd",
+      "date": "2026-07-07T20:59:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/d891acdb35c3f62e5bc3d677ea1a21308d870432"
+    },
+    {
+      "type": "pr",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "feat: CLE2-8 Phase 5 — Discord 연동 설계",
+      "number": 11,
+      "state": "closed",
+      "date": "2026-06-27T10:46:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/11"
+    },
+    {
+      "type": "pr",
+      "repo": "election2663-archive-public",
+      "author": "Normalist-K",
+      "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
+      "number": 2,
+      "state": "closed",
+      "date": "2026-06-17T20:44:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/election2663-archive-public/pull/2"
+    },
+    {
+      "type": "commit",
+      "repo": "election2663-archive-public",
+      "author": "Normalist-K",
+      "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#2)",
+      "sha": "d1cefff",
+      "date": "2026-06-17T20:44:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/election2663-archive-public/commit/d1ceffff65e2f4c506c40b9b827fbcfb44bb6fc9"
+    },
+    {
+      "type": "pr",
+      "repo": "election2663-archive",
+      "author": "epilo9er",
+      "message": "Add council analysis framework for Daegu city council data",
+      "number": 2,
+      "state": "closed",
+      "date": "2026-06-17T20:44:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/election2663-archive/pull/2"
+    },
+    {
+      "type": "commit",
+      "repo": "election2663-archive",
+      "author": "epilo9er",
+      "message": "Add council analysis skill and expand wiki schema (#2)",
+      "sha": "ecfbc33",
+      "date": "2026-06-17T20:44:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/election2663-archive/commit/ecfbc33ece817ecc1488c616fc9d8995a91a29d2"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory-kit",
+      "author": "Normalist-K",
+      "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
+      "number": 1,
+      "state": "closed",
+      "date": "2026-06-17T20:44:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/1"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory-kit",
+      "author": "Normalist-K",
+      "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#1)",
+      "sha": "db22ae8",
+      "date": "2026-06-17T20:44:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/db22ae82acc0281400cfe61353ebaee9f4d822eb"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory-kit",
+      "author": "junteken",
+      "message": "feat: support Claude Code alongside Codex",
+      "number": 5,
+      "state": "closed",
+      "date": "2026-06-17T20:44:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/5"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory-kit",
+      "author": "junteken",
+      "message": "feat: support Claude Code alongside Codex (#5)",
+      "sha": "06edf98",
+      "date": "2026-06-17T20:44:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/06edf9842f4bfaac97261e21f0ad57b4566502b6"
+    },
+    {
+      "type": "commit",
+      "repo": "election2663-archive-public",
+      "author": "renover",
+      "message": "feat: 선거 결과 정리 및 아카이브 마무리",
+      "sha": "5decdae",
+      "date": "2026-06-11T04:38:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/election2663-archive-public/commit/5decdae491357d58785299aa1405a73cf78249e4"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory-kit",
+      "author": "Normalist-K",
+      "message": "v2026.06.10.2 feat: add team memory upgrade workflow (#4)",
+      "sha": "c42e3ef",
+      "date": "2026-06-10T15:02:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/c42e3efd89b779177df74e0498b27099631166d2"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory-kit",
+      "author": "Normalist-K",
+      "message": "docs: add team intent design notes",
+      "sha": "0a79063",
+      "date": "2026-06-10T14:03:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/0a79063dbe3117c12756f9374ff44437032bad02"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory-kit",
+      "author": "Normalist-K",
+      "message": "feat: memory-dashboard command and tm-dashboard skill",
+      "sha": "a85f2d0",
+      "date": "2026-06-10T13:58:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/a85f2d0e94a849d01f608a61b24683e27869fbce"
+    }
+  ],
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 0,
+      "commits": 18,
+      "prs": 15,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "daeguru",
+      "commits": 7,
       "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "Normalist-K",
+      "commits": 6,
+      "prs": 2,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "junteken",
+      "commits": 1,
+      "prs": 1,
       "issues": 0,
       "reviews": 0
     },
@@ -20,27 +1104,6 @@
     },
     {
       "login": "eugene",
-      "commits": 0,
-      "prs": 0,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "junteken",
-      "commits": 0,
-      "prs": 0,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "daeguru",
-      "commits": 0,
-      "prs": 0,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "Normalist-K",
       "commits": 0,
       "prs": 0,
       "issues": 0,
