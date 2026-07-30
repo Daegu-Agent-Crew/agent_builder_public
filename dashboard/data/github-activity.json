@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-30T12:46:22Z",
-  "since": "2026-06-30T12:45:50Z",
+  "generated": "2026-07-30T18:46:19Z",
+  "since": "2026-06-30T18:45:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 158,
+      "open_issues": 159,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-30T06:48:23Z",
-      "pushed_at": "2026-07-30T06:48:18Z",
+      "updated_at": "2026-07-30T12:48:35Z",
+      "pushed_at": "2026-07-30T12:46:49Z",
       "recent_commits": [
+        {
+          "sha": "47188ef",
+          "message": "chore: update dashboard.json + github-activity.json (2026-07-30 21:44 KST)",
+          "author": "daeguru",
+          "date": "2026-07-30T12:46:48Z"
+        },
         {
           "sha": "494c622",
           "message": "chore: update dashboard data + github activity + wiki (2026-07-30 15:44)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard.json and github-activity.json (2026-07-29T12:45:53Z)",
           "author": "daeguru",
           "date": "2026-07-29T12:45:53Z"
-        },
-        {
-          "sha": "7088f5a",
-          "message": "Update dashboard.json and github-activity.json (2026-07-29 18:44 KST)",
-          "author": "daeguru",
-          "date": "2026-07-29T09:47:15Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,27 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-30T06:49:40Z",
-      "pushed_at": "2026-07-30T06:48:08Z",
+      "updated_at": "2026-07-30T17:28:36Z",
+      "pushed_at": "2026-07-30T17:26:49Z",
       "recent_commits": [
+        {
+          "sha": "9f60e32",
+          "message": "Add Elon Musk thinking-method case snapshot",
+          "author": "sfex11",
+          "date": "2026-07-30T17:26:49Z"
+        },
+        {
+          "sha": "fb4d18a",
+          "message": "Add Elon Musk analysis: 3 new candidates (C-10, C-11, R-09) + frequency updates",
+          "author": "sfex11",
+          "date": "2026-07-30T17:26:40Z"
+        },
+        {
+          "sha": "00f59c2",
+          "message": "Add Elon Musk Economist interview video summary record",
+          "author": "sfex11",
+          "date": "2026-07-30T17:23:55Z"
+        },
         {
           "sha": "e34e60b",
           "message": "chore: regenerate wiki + fix shebangs for Termux",
@@ -482,24 +500,6 @@
           "message": "fix: restore missing bin/memory-dashboard script",
           "author": "daeguru",
           "date": "2026-07-30T00:47:29Z"
-        },
-        {
-          "sha": "4898a7f",
-          "message": "Add Archive section + change retirement rule to frequency-ranking-based",
-          "author": "sfex11",
-          "date": "2026-07-29T23:23:38Z"
-        },
-        {
-          "sha": "edc1aac",
-          "message": "Restructure as LLM Wiki Knowledge Base (front matter + index table + independent sections)",
-          "author": "sfex11",
-          "date": "2026-07-29T23:18:28Z"
-        },
-        {
-          "sha": "10b022e",
-          "message": "Update thinking-method patterns index (C-09, V-07 new candidates)",
-          "author": "sfex11",
-          "date": "2026-07-29T22:44:22Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add Elon Musk thinking-method case snapshot",
+      "sha": "9f60e32",
+      "date": "2026-07-30T17:26:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9f60e32bebf4481378f1cc6c90ac07f7fdc91afd"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add Elon Musk analysis: 3 new candidates (C-10, C-11, R-09) + frequency updates",
+      "sha": "fb4d18a",
+      "date": "2026-07-30T17:26:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fb4d18a2e1fa16e649db1021fad0a996c847f1c5"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add Elon Musk Economist interview video summary record",
+      "sha": "00f59c2",
+      "date": "2026-07-30T17:23:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/00f59c20ade2c44f2ced04b329edc32a7ffa6e5b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard.json + github-activity.json (2026-07-30 21:44 KST)",
+      "sha": "47188ef",
+      "date": "2026-07-30T12:46:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/47188efe97d15cd597cfb9417e90ad6cb0614b6b"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update dashboard data + github activity + wiki (2026-07-30 15:44)",
@@ -645,39 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add Archive section + change retirement rule to frequency-ranking-based",
-      "sha": "4898a7f",
-      "date": "2026-07-29T23:23:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4898a7f89f0ba3ea3f3c3d12297718454d02d151"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Restructure as LLM Wiki Knowledge Base (front matter + index table + independent sections)",
-      "sha": "edc1aac",
-      "date": "2026-07-29T23:18:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/edc1aaca24250d4d5a1d64b8f2a9bbb7c2943ea0"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-07-30: 뉴스 수집 (5건)",
       "sha": "a6caeca",
       "date": "2026-07-29T23:06:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a6caeca7959ea972d5a07c4e5b0449a172631966"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Update thinking-method patterns index (C-09, V-07 new candidates)",
-      "sha": "10b022e",
-      "date": "2026-07-29T22:44:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/10b022eadc2e657c8dedd77bfd7361ca97b89944"
     },
     {
       "type": "commit",
@@ -696,15 +705,6 @@
       "sha": "428bcd9",
       "date": "2026-07-29T12:45:53Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/428bcd980223c6ce7aee9d421cabb45fb2a33ee3"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard.json and github-activity.json (2026-07-29 18:44 KST)",
-      "sha": "7088f5a",
-      "date": "2026-07-29T09:47:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7088f5a5fdb49b608fb48b33e7e269860a3ad8a3"
     },
     {
       "type": "commit",
