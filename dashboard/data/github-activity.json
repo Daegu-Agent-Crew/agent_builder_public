@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-30T06:47:42Z",
-  "since": "2026-06-30T06:47:09Z",
+  "generated": "2026-07-30T12:46:22Z",
+  "since": "2026-06-30T12:45:50Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 157,
+      "open_issues": 158,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-30T00:47:47Z",
-      "pushed_at": "2026-07-30T00:47:43Z",
+      "updated_at": "2026-07-30T06:48:23Z",
+      "pushed_at": "2026-07-30T06:48:18Z",
       "recent_commits": [
+        {
+          "sha": "494c622",
+          "message": "chore: update dashboard data + github activity + wiki (2026-07-30 15:44)",
+          "author": "daeguru",
+          "date": "2026-07-30T06:48:17Z"
+        },
         {
           "sha": "2703bd8",
           "message": "chore: update dashboard data and github activity (2026-07-30 09:45 KST)",
@@ -85,12 +91,6 @@
           "message": "Update dashboard.json and github-activity.json (2026-07-29 18:44 KST)",
           "author": "daeguru",
           "date": "2026-07-29T09:47:15Z"
-        },
-        {
-          "sha": "3382981",
-          "message": "📊 dashboard: update activity data (2026-07-29 12:44 KST)",
-          "author": "daeguru",
-          "date": "2026-07-29T03:47:59Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-30T00:47:37Z",
-      "pushed_at": "2026-07-30T00:47:33Z",
+      "updated_at": "2026-07-30T06:49:40Z",
+      "pushed_at": "2026-07-30T06:48:08Z",
       "recent_commits": [
+        {
+          "sha": "e34e60b",
+          "message": "chore: regenerate wiki + fix shebangs for Termux",
+          "author": "daeguru",
+          "date": "2026-07-30T06:48:00Z"
+        },
         {
           "sha": "832abe9",
           "message": "fix: restore missing bin/memory-dashboard script",
@@ -492,12 +498,6 @@
         {
           "sha": "10b022e",
           "message": "Update thinking-method patterns index (C-09, V-07 new candidates)",
-          "author": "sfex11",
-          "date": "2026-07-29T22:44:22Z"
-        },
-        {
-          "sha": "6438958",
-          "message": "Update Boris Cherny thinking-method case (2nd analysis - YC interview)",
           "author": "sfex11",
           "date": "2026-07-29T22:44:22Z"
         }
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data + github activity + wiki (2026-07-30 15:44)",
+      "sha": "494c622",
+      "date": "2026-07-30T06:48:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/494c622d50ca5f6abb060bf5616447ee6d8ee345"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "chore: regenerate wiki + fix shebangs for Termux",
+      "sha": "e34e60b",
+      "date": "2026-07-30T06:48:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e34e60b4eadeb2858a03ad0bf4f95c6fdaf65012"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-07-30: 위키 갱신 (2개)",
@@ -656,15 +674,6 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
-      "message": "Update Boris Cherny thinking-method case (2nd analysis - YC interview)",
-      "sha": "6438958",
-      "date": "2026-07-29T22:44:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/643895821b766f7ba2c8639a5a49fcf45c27bca5"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
       "message": "Update thinking-method patterns index (C-09, V-07 new candidates)",
       "sha": "10b022e",
       "date": "2026-07-29T22:44:22Z",
@@ -705,15 +714,6 @@
       "sha": "72f614e",
       "date": "2026-07-29T05:09:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/72f614e935651e22fca56cfeceb5b84ca4f5871c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 dashboard: update activity data (2026-07-29 12:44 KST)",
-      "sha": "3382981",
-      "date": "2026-07-29T03:47:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3382981f31957f9c1a16d55cf99658c47c3348c6"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 17,
       "prs": 15,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 8,
       "prs": 0,
       "issues": 0,
       "reviews": 0
