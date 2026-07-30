@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-30T18:46:19Z",
-  "since": "2026-06-30T18:45:47Z",
+  "generated": "2026-07-30T21:46:07Z",
+  "since": "2026-06-30T21:45:35Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-30T12:48:35Z",
-      "pushed_at": "2026-07-30T12:46:49Z",
+      "updated_at": "2026-07-30T18:50:09Z",
+      "pushed_at": "2026-07-30T18:46:53Z",
       "recent_commits": [
+        {
+          "sha": "0b38955",
+          "message": "chore: update dashboard + github activity (2026-07-30T18:46:46Z)",
+          "author": "daeguru",
+          "date": "2026-07-30T18:46:46Z"
+        },
         {
           "sha": "47188ef",
           "message": "chore: update dashboard.json + github-activity.json (2026-07-30 21:44 KST)",
@@ -85,12 +91,6 @@
           "message": "📊 Update dashboard data (2026-07-30 03:47 KST)",
           "author": "daeguru",
           "date": "2026-07-29T18:47:10Z"
-        },
-        {
-          "sha": "428bcd9",
-          "message": "chore: update dashboard.json and github-activity.json (2026-07-29T12:45:53Z)",
-          "author": "daeguru",
-          "date": "2026-07-29T12:45:53Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard + github activity (2026-07-30T18:46:46Z)",
+      "sha": "0b38955",
+      "date": "2026-07-30T18:46:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0b38955ee8369995629db96904d777f3c4a0efdf"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add Elon Musk thinking-method case snapshot",
@@ -696,15 +705,6 @@
       "sha": "2ecb39e",
       "date": "2026-07-29T18:47:10Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2ecb39e72bec2d0b15a79c21a4e8f387af51edc1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard.json and github-activity.json (2026-07-29T12:45:53Z)",
-      "sha": "428bcd9",
-      "date": "2026-07-29T12:45:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/428bcd980223c6ce7aee9d421cabb45fb2a33ee3"
     },
     {
       "type": "commit",
