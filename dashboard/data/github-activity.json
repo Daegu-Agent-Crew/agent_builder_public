@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-30T00:46:58Z",
-  "since": "2026-06-30T00:46:27Z",
+  "generated": "2026-07-30T06:47:42Z",
+  "since": "2026-06-30T06:47:09Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 156,
+      "open_issues": 157,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-29T18:47:17Z",
-      "pushed_at": "2026-07-29T18:47:11Z",
+      "updated_at": "2026-07-30T00:47:47Z",
+      "pushed_at": "2026-07-30T00:47:43Z",
       "recent_commits": [
+        {
+          "sha": "2703bd8",
+          "message": "chore: update dashboard data and github activity (2026-07-30 09:45 KST)",
+          "author": "daeguru",
+          "date": "2026-07-30T00:47:39Z"
+        },
         {
           "sha": "2ecb39e",
           "message": "📊 Update dashboard data (2026-07-30 03:47 KST)",
@@ -85,12 +91,6 @@
           "message": "📊 dashboard: update activity data (2026-07-29 12:44 KST)",
           "author": "daeguru",
           "date": "2026-07-29T03:47:59Z"
-        },
-        {
-          "sha": "9d54b20",
-          "message": "Update dashboard data and GitHub activity - 2026-07-29 09:46 KST",
-          "author": "daeguru",
-          "date": "2026-07-29T00:46:16Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-07-29T23:06:38Z",
-      "pushed_at": "2026-07-29T23:06:17Z",
+      "updated_at": "2026-07-30T05:07:29Z",
+      "pushed_at": "2026-07-30T05:06:33Z",
       "recent_commits": [
+        {
+          "sha": "cdd1306",
+          "message": "📚 2026-07-30: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-07-30T05:05:44Z"
+        },
         {
           "sha": "a6caeca",
           "message": "📰 2026-07-30: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-07-29: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-07-28T22:48:00Z"
-        },
-        {
-          "sha": "cd22b31",
-          "message": "📰 2026-07-29: 뉴스 수집 (3건)",
-          "author": "Renover",
-          "date": "2026-07-28T22:24:04Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-29T23:23:41Z",
-      "pushed_at": "2026-07-29T23:23:38Z",
+      "updated_at": "2026-07-30T00:47:37Z",
+      "pushed_at": "2026-07-30T00:47:33Z",
       "recent_commits": [
+        {
+          "sha": "832abe9",
+          "message": "fix: restore missing bin/memory-dashboard script",
+          "author": "daeguru",
+          "date": "2026-07-30T00:47:29Z"
+        },
         {
           "sha": "4898a7f",
           "message": "Add Archive section + change retirement rule to frequency-ranking-based",
@@ -494,12 +500,6 @@
           "message": "Update Boris Cherny thinking-method case (2nd analysis - YC interview)",
           "author": "sfex11",
           "date": "2026-07-29T22:44:22Z"
-        },
-        {
-          "sha": "5582568",
-          "message": "Add Boris Cherny YC interview video summary record",
-          "author": "sfex11",
-          "date": "2026-07-29T22:28:50Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-07-30: 위키 갱신 (2개)",
+      "sha": "cdd1306",
+      "date": "2026-07-30T05:05:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/cdd1306b2c14df2aaaa61985a380f63795d09ceb"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data and github activity (2026-07-30 09:45 KST)",
+      "sha": "2703bd8",
+      "date": "2026-07-30T00:47:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2703bd8dc9f36f109c9300d8ad95a5a911c6fcce"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "fix: restore missing bin/memory-dashboard script",
+      "sha": "832abe9",
+      "date": "2026-07-30T00:47:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/832abe9b1ecd317f171e8ea83b657d258b04a085"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add Archive section + change retirement rule to frequency-ranking-based",
@@ -642,15 +669,6 @@
       "sha": "10b022e",
       "date": "2026-07-29T22:44:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/10b022eadc2e657c8dedd77bfd7361ca97b89944"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add Boris Cherny YC interview video summary record",
-      "sha": "5582568",
-      "date": "2026-07-29T22:28:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5582568be2bb8141a7b5b3f5befbd00622c951b2"
     },
     {
       "type": "commit",
@@ -699,15 +717,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard data and GitHub activity - 2026-07-29 09:46 KST",
-      "sha": "9d54b20",
-      "date": "2026-07-29T00:46:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9d54b2097bc04d722ac3bb992df29213dc805bcc"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-07-29: 뉴스 수집 (5건)",
@@ -723,15 +732,6 @@
       "sha": "70358a6",
       "date": "2026-07-28T22:48:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/70358a676754a8d22acacd6f5e438259dc06b3dc"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-07-29: 뉴스 수집 (3건)",
-      "sha": "cd22b31",
-      "date": "2026-07-28T22:24:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/cd22b3137049b5d1147ab3b5fbb3159e3bdd4aca"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 18,
       "prs": 15,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
