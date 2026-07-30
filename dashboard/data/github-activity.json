@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-29T18:46:56Z",
-  "since": "2026-06-29T18:46:30Z",
+  "generated": "2026-07-30T00:46:58Z",
+  "since": "2026-06-30T00:46:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 155,
+      "open_issues": 156,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-29T12:46:26Z",
-      "pushed_at": "2026-07-29T12:45:53Z",
+      "updated_at": "2026-07-29T18:47:17Z",
+      "pushed_at": "2026-07-29T18:47:11Z",
       "recent_commits": [
+        {
+          "sha": "2ecb39e",
+          "message": "📊 Update dashboard data (2026-07-30 03:47 KST)",
+          "author": "daeguru",
+          "date": "2026-07-29T18:47:10Z"
+        },
         {
           "sha": "428bcd9",
           "message": "chore: update dashboard.json and github-activity.json (2026-07-29T12:45:53Z)",
@@ -85,12 +91,6 @@
           "message": "Update dashboard data and GitHub activity - 2026-07-29 09:46 KST",
           "author": "daeguru",
           "date": "2026-07-29T00:46:16Z"
-        },
-        {
-          "sha": "ef92e72",
-          "message": "Update dashboard data and GitHub activity (2026-07-29 03:45 KST)",
-          "author": "daeguru",
-          "date": "2026-07-28T18:46:32Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-07-29T05:10:00Z",
-      "pushed_at": "2026-07-29T05:09:41Z",
+      "updated_at": "2026-07-29T23:06:38Z",
+      "pushed_at": "2026-07-29T23:06:17Z",
       "recent_commits": [
+        {
+          "sha": "a6caeca",
+          "message": "📰 2026-07-30: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-07-29T23:06:08Z"
+        },
         {
           "sha": "72f614e",
           "message": "📚 2026-07-29: 위키 갱신 (2개) - models 10차, industry 8차",
@@ -152,12 +158,6 @@
           "message": "📰 2026-07-29: 뉴스 수집 (3건)",
           "author": "Renover",
           "date": "2026-07-28T22:24:04Z"
-        },
-        {
-          "sha": "812daeb",
-          "message": "📚 2026-07-27: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-07-27T05:06:28Z"
         }
       ],
       "recent_prs": []
@@ -468,38 +468,38 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-28T03:36:38Z",
-      "pushed_at": "2026-07-28T03:36:34Z",
+      "updated_at": "2026-07-29T23:23:41Z",
+      "pushed_at": "2026-07-29T23:23:38Z",
       "recent_commits": [
         {
-          "sha": "177ea43",
-          "message": "Add Google Cloud x Solana Agentic Hackathon video summary record",
+          "sha": "4898a7f",
+          "message": "Add Archive section + change retirement rule to frequency-ranking-based",
           "author": "sfex11",
-          "date": "2026-07-28T03:36:34Z"
+          "date": "2026-07-29T23:23:38Z"
         },
         {
-          "sha": "df904a7",
-          "message": "chore: regenerate wiki for three-body-comic",
-          "author": "daeguru",
-          "date": "2026-07-28T00:46:38Z"
+          "sha": "edc1aac",
+          "message": "Restructure as LLM Wiki Knowledge Base (front matter + index table + independent sections)",
+          "author": "sfex11",
+          "date": "2026-07-29T23:18:28Z"
         },
         {
-          "sha": "f4f4c81",
-          "message": "fix: resolve 6 CI data integrity issues (#12)",
+          "sha": "10b022e",
+          "message": "Update thinking-method patterns index (C-09, V-07 new candidates)",
           "author": "sfex11",
-          "date": "2026-07-27T23:29:12Z"
+          "date": "2026-07-29T22:44:22Z"
         },
         {
-          "sha": "7b5bc82",
-          "message": "fix: replace Termux shebang with portable /usr/bin/env bash (#11)",
+          "sha": "6438958",
+          "message": "Update Boris Cherny thinking-method case (2nd analysis - YC interview)",
           "author": "sfex11",
-          "date": "2026-07-27T23:22:37Z"
+          "date": "2026-07-29T22:44:22Z"
         },
         {
-          "sha": "e19c1de",
-          "message": "relax: remove tm- prefix requirement for skill directories and names (#10)",
+          "sha": "5582568",
+          "message": "Add Boris Cherny YC interview video summary record",
           "author": "sfex11",
-          "date": "2026-07-27T18:55:12Z"
+          "date": "2026-07-29T22:28:50Z"
         }
       ],
       "recent_prs": [
@@ -598,6 +598,69 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add Archive section + change retirement rule to frequency-ranking-based",
+      "sha": "4898a7f",
+      "date": "2026-07-29T23:23:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4898a7f89f0ba3ea3f3c3d12297718454d02d151"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Restructure as LLM Wiki Knowledge Base (front matter + index table + independent sections)",
+      "sha": "edc1aac",
+      "date": "2026-07-29T23:18:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/edc1aaca24250d4d5a1d64b8f2a9bbb7c2943ea0"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-07-30: 뉴스 수집 (5건)",
+      "sha": "a6caeca",
+      "date": "2026-07-29T23:06:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a6caeca7959ea972d5a07c4e5b0449a172631966"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Update Boris Cherny thinking-method case (2nd analysis - YC interview)",
+      "sha": "6438958",
+      "date": "2026-07-29T22:44:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/643895821b766f7ba2c8639a5a49fcf45c27bca5"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Update thinking-method patterns index (C-09, V-07 new candidates)",
+      "sha": "10b022e",
+      "date": "2026-07-29T22:44:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/10b022eadc2e657c8dedd77bfd7361ca97b89944"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add Boris Cherny YC interview video summary record",
+      "sha": "5582568",
+      "date": "2026-07-29T22:28:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5582568be2bb8141a7b5b3f5befbd00622c951b2"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 Update dashboard data (2026-07-30 03:47 KST)",
+      "sha": "2ecb39e",
+      "date": "2026-07-29T18:47:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2ecb39e72bec2d0b15a79c21a4e8f387af51edc1"
+    },
     {
       "type": "commit",
       "repo": "agent_builder_public",
@@ -728,15 +791,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/15db3f4d1ddb21280aedf5503ab7250f0f718394"
     },
     {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard data and GitHub activity (2026-07-29 03:45 KST)",
-      "sha": "ef92e72",
-      "date": "2026-07-28T18:46:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ef92e72f8a5452012f02932970bdcc5ea600e11e"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -775,24 +829,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/65fff39a6b61a7e19c88a17d10b9e49a5a024cdd"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add Google Cloud x Solana Agentic Hackathon video summary record",
-      "sha": "177ea43",
-      "date": "2026-07-28T03:36:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/177ea4362cea36d65fa50a122866ab3b200075a3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "chore: regenerate wiki for three-body-comic",
-      "sha": "df904a7",
-      "date": "2026-07-28T00:46:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/df904a706b0290b59d7eb7c9fd494a79f0dea95d"
-    },
-    {
       "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
@@ -801,15 +837,6 @@
       "state": "closed",
       "date": "2026-07-27T23:29:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/12"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "fix: resolve 6 CI data integrity issues (#12)",
-      "sha": "f4f4c81",
-      "date": "2026-07-27T23:29:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f4f4c81b515b69407a9e6fefc0423e8b6ed46545"
     },
     {
       "type": "pr",
@@ -822,15 +849,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/11"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "fix: replace Termux shebang with portable /usr/bin/env bash (#11)",
-      "sha": "7b5bc82",
-      "date": "2026-07-27T23:22:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7b5bc82ad3837cef3981df9f0d8153f13ee9e485"
-    },
-    {
       "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
@@ -839,24 +857,6 @@
       "state": "closed",
       "date": "2026-07-27T18:55:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/10"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "relax: remove tm- prefix requirement for skill directories and names (#10)",
-      "sha": "e19c1de",
-      "date": "2026-07-27T18:55:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e19c1de1b97de29cdf1481e80cf615fbebb6ac8b"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-07-27: 위키 갱신 (2개)",
-      "sha": "812daeb",
-      "date": "2026-07-27T05:06:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/812daebd1e05e43f86bf0d5221e8faab5ea57b32"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 19,
       "prs": 15,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
