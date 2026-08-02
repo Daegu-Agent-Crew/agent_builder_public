@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-31T03:46:47Z",
-  "since": "2026-07-01T03:46:16Z",
+  "generated": "2026-08-02T03:46:27Z",
+  "since": "2026-07-03T03:45:55Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 160,
+      "open_issues": 169,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-07-31T00:46:31Z",
-      "pushed_at": "2026-07-31T00:46:27Z",
+      "updated_at": "2026-07-31T03:47:25Z",
+      "pushed_at": "2026-07-31T03:47:07Z",
       "recent_commits": [
+        {
+          "sha": "326494b",
+          "message": "chore: update dashboard data (dashboard.json + github-activity.json)",
+          "author": "daeguru",
+          "date": "2026-07-31T03:47:06Z"
+        },
         {
           "sha": "b9d10b9",
           "message": "Update dashboard and GitHub activity data",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard.json + github-activity.json (2026-07-30 21:44 KST)",
           "author": "daeguru",
           "date": "2026-07-30T12:46:48Z"
-        },
-        {
-          "sha": "494c622",
-          "message": "chore: update dashboard data + github activity + wiki (2026-07-30 15:44)",
-          "author": "daeguru",
-          "date": "2026-07-30T06:48:17Z"
         }
       ],
       "recent_prs": [
@@ -126,38 +126,38 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-07-30T23:03:50Z",
-      "pushed_at": "2026-07-30T23:03:47Z",
+      "updated_at": "2026-08-01T23:04:10Z",
+      "pushed_at": "2026-08-01T23:04:07Z",
       "recent_commits": [
+        {
+          "sha": "b9c5148",
+          "message": "📰 2026-08-02: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-08-01T23:04:04Z"
+        },
+        {
+          "sha": "620f79e",
+          "message": "📚 2026-08-01: 위키 갱신 (industry 9차, tools 10차)",
+          "author": "Renover",
+          "date": "2026-08-01T05:06:21Z"
+        },
+        {
+          "sha": "8fe171e",
+          "message": "📰 2026-08-01: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-07-31T23:07:52Z"
+        },
+        {
+          "sha": "041c9c8",
+          "message": "📚 2026-07-31: 위키 갱신 (2개) — research 3차, models 11차",
+          "author": "Renover",
+          "date": "2026-07-31T05:05:38Z"
+        },
         {
           "sha": "4bbd94c",
           "message": "📰 2026-07-31: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-07-30T23:03:44Z"
-        },
-        {
-          "sha": "cdd1306",
-          "message": "📚 2026-07-30: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-07-30T05:05:44Z"
-        },
-        {
-          "sha": "a6caeca",
-          "message": "📰 2026-07-30: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-07-29T23:06:08Z"
-        },
-        {
-          "sha": "72f614e",
-          "message": "📚 2026-07-29: 위키 갱신 (2개) - models 10차, industry 8차",
-          "author": "Renover",
-          "date": "2026-07-29T05:09:14Z"
-        },
-        {
-          "sha": "5c00a62",
-          "message": "📰 2026-07-29: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-07-28T23:07:16Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-31T00:46:31Z",
-      "pushed_at": "2026-07-31T00:46:27Z",
+      "updated_at": "2026-07-31T03:47:33Z",
+      "pushed_at": "2026-07-31T03:47:19Z",
       "recent_commits": [
+        {
+          "sha": "56eab6d",
+          "message": "chore: update dashboard.json (members fix, 7 members)",
+          "author": "daeguru",
+          "date": "2026-07-31T03:47:17Z"
+        },
         {
           "sha": "161f0b6",
           "message": "Add Elon Musk thinking-method case snapshot",
@@ -494,12 +500,6 @@
           "message": "Add Elon Musk Economist interview video summary record",
           "author": "sfex11",
           "date": "2026-07-30T17:23:55Z"
-        },
-        {
-          "sha": "e34e60b",
-          "message": "chore: regenerate wiki + fix shebangs for Termux",
-          "author": "daeguru",
-          "date": "2026-07-30T06:48:00Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,60 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-02: 뉴스 수집 (5건)",
+      "sha": "b9c5148",
+      "date": "2026-08-01T23:04:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b9c5148aa41f117952b3e819832c1dd836152bdf"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-08-01: 위키 갱신 (industry 9차, tools 10차)",
+      "sha": "620f79e",
+      "date": "2026-08-01T05:06:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/620f79e21577f20b836cd6c8bd44677e36a97852"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-01: 뉴스 수집 (5건)",
+      "sha": "8fe171e",
+      "date": "2026-07-31T23:07:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/8fe171e783ca565b85a3243a1dac316332ce55a7"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-07-31: 위키 갱신 (2개) — research 3차, models 11차",
+      "sha": "041c9c8",
+      "date": "2026-07-31T05:05:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/041c9c8c8a7615143d4851d5e881655665c96aae"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "chore: update dashboard.json (members fix, 7 members)",
+      "sha": "56eab6d",
+      "date": "2026-07-31T03:47:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/56eab6d266065df095841248ac3e4679bed89be0"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (dashboard.json + github-activity.json)",
+      "sha": "326494b",
+      "date": "2026-07-31T03:47:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/326494b2c733cc1dfb98c03c89944c4cd067b238"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "Add Elon Musk thinking-method case snapshot",
@@ -678,60 +732,6 @@
       "sha": "47188ef",
       "date": "2026-07-30T12:46:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/47188efe97d15cd597cfb9417e90ad6cb0614b6b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data + github activity + wiki (2026-07-30 15:44)",
-      "sha": "494c622",
-      "date": "2026-07-30T06:48:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/494c622d50ca5f6abb060bf5616447ee6d8ee345"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "chore: regenerate wiki + fix shebangs for Termux",
-      "sha": "e34e60b",
-      "date": "2026-07-30T06:48:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e34e60b4eadeb2858a03ad0bf4f95c6fdaf65012"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-07-30: 위키 갱신 (2개)",
-      "sha": "cdd1306",
-      "date": "2026-07-30T05:05:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/cdd1306b2c14df2aaaa61985a380f63795d09ceb"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-07-30: 뉴스 수집 (5건)",
-      "sha": "a6caeca",
-      "date": "2026-07-29T23:06:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a6caeca7959ea972d5a07c4e5b0449a172631966"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-07-29: 위키 갱신 (2개) - models 10차, industry 8차",
-      "sha": "72f614e",
-      "date": "2026-07-29T05:09:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/72f614e935651e22fca56cfeceb5b84ca4f5871c"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-07-29: 뉴스 수집 (5건)",
-      "sha": "5c00a62",
-      "date": "2026-07-28T23:07:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5c00a62cfe366ffb716a06a489d476369d6db618"
     },
     {
       "type": "pr",
