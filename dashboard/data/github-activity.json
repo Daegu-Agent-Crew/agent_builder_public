@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-02T06:46:20Z",
-  "since": "2026-07-03T06:45:47Z",
+  "generated": "2026-08-02T12:46:13Z",
+  "since": "2026-07-03T12:45:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 170,
+      "open_issues": 171,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-02T03:47:00Z",
-      "pushed_at": "2026-08-02T03:46:56Z",
+      "updated_at": "2026-08-02T06:46:55Z",
+      "pushed_at": "2026-08-02T06:46:48Z",
       "recent_commits": [
+        {
+          "sha": "d26b073",
+          "message": "Update github-activity.json — auto fetch 2026-08-02T06:46:47Z",
+          "author": "daeguru",
+          "date": "2026-08-02T06:46:47Z"
+        },
         {
           "sha": "dfe5b8e",
           "message": "chore: update dashboard data (dashboard.json + github-activity.json)",
@@ -85,12 +91,6 @@
           "message": "Update dashboard.json and github-activity.json (2026-07-31 06:44 KST)",
           "author": "daeguru",
           "date": "2026-07-30T21:46:41Z"
-        },
-        {
-          "sha": "0b38955",
-          "message": "chore: update dashboard + github activity (2026-07-30T18:46:46Z)",
-          "author": "daeguru",
-          "date": "2026-07-30T18:46:46Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-07-31T03:47:33Z",
-      "pushed_at": "2026-07-31T03:47:19Z",
+      "updated_at": "2026-08-02T06:46:53Z",
+      "pushed_at": "2026-08-02T06:46:48Z",
       "recent_commits": [
+        {
+          "sha": "9815ba9",
+          "message": "Update dashboard.json — members filtered to 7, wiki regenerated",
+          "author": "daeguru",
+          "date": "2026-08-02T06:46:47Z"
+        },
         {
           "sha": "56eab6d",
           "message": "chore: update dashboard.json (members fix, 7 members)",
@@ -494,12 +500,6 @@
           "message": "Add Elon Musk analysis: 3 new candidates (C-10, C-11, R-09) + frequency updates",
           "author": "sfex11",
           "date": "2026-07-30T17:26:40Z"
-        },
-        {
-          "sha": "00f59c2",
-          "message": "Add Elon Musk Economist interview video summary record",
-          "author": "sfex11",
-          "date": "2026-07-30T17:23:55Z"
         }
       ],
       "recent_prs": [
@@ -598,6 +598,24 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "Update dashboard.json — members filtered to 7, wiki regenerated",
+      "sha": "9815ba9",
+      "date": "2026-08-02T06:46:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9815ba9cf73b0cc0a7a5298ed6c62a90694a943f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update github-activity.json — auto fetch 2026-08-02T06:46:47Z",
+      "sha": "d26b073",
+      "date": "2026-08-02T06:46:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d26b073f38790cec76ffd37f5a94fd9f1471fb77"
+    },
     {
       "type": "commit",
       "repo": "ai-agent-news",
@@ -699,15 +717,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard + github activity (2026-07-30T18:46:46Z)",
-      "sha": "0b38955",
-      "date": "2026-07-30T18:46:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0b38955ee8369995629db96904d777f3c4a0efdf"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add Elon Musk thinking-method case snapshot",
@@ -723,15 +732,6 @@
       "sha": "fb4d18a",
       "date": "2026-07-30T17:26:40Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fb4d18a2e1fa16e649db1021fad0a996c847f1c5"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add Elon Musk Economist interview video summary record",
-      "sha": "00f59c2",
-      "date": "2026-07-30T17:23:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/00f59c20ade2c44f2ced04b329edc32a7ffa6e5b"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 16,
       "prs": 15,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 8,
+      "commits": 9,
       "prs": 0,
       "issues": 0,
       "reviews": 0
