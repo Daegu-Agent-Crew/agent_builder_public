@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-02T21:46:40Z",
-  "since": "2026-07-03T21:46:07Z",
+  "generated": "2026-08-03T03:46:09Z",
+  "since": "2026-07-04T03:45:37Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 172,
+      "open_issues": 173,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-02T18:46:22Z",
-      "pushed_at": "2026-08-02T18:46:13Z",
+      "updated_at": "2026-08-02T21:47:51Z",
+      "pushed_at": "2026-08-02T21:47:13Z",
       "recent_commits": [
+        {
+          "sha": "85fdb5d",
+          "message": "docs: update dashboard.json (members fixed to 7) and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-08-02T21:47:09Z"
+        },
         {
           "sha": "dfdca31",
           "message": "data: update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data (dashboard.json + github-activity.json)",
           "author": "daeguru",
           "date": "2026-08-02T03:46:54Z"
-        },
-        {
-          "sha": "326494b",
-          "message": "chore: update dashboard data (dashboard.json + github-activity.json)",
-          "author": "daeguru",
-          "date": "2026-07-31T03:47:06Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-08-02T14:09:37Z",
-      "pushed_at": "2026-08-02T14:09:22Z",
+      "updated_at": "2026-08-02T23:07:07Z",
+      "pushed_at": "2026-08-02T23:06:57Z",
       "recent_commits": [
+        {
+          "sha": "1a2ed19",
+          "message": "📰 2026-08-03: 뉴스 수집 (4건)",
+          "author": "Renover",
+          "date": "2026-08-02T23:06:56Z"
+        },
         {
           "sha": "658969c",
           "message": "🔍 2026-08-02: 위키 린트 점검",
@@ -152,12 +158,6 @@
           "message": "📚 2026-08-01: 위키 갱신 (industry 9차, tools 10차)",
           "author": "Renover",
           "date": "2026-08-01T05:06:21Z"
-        },
-        {
-          "sha": "8fe171e",
-          "message": "📰 2026-08-01: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-07-31T23:07:52Z"
         }
       ],
       "recent_prs": []
@@ -197,10 +197,22 @@
       "name": "creative-loop-engineering2",
       "private": false,
       "open_issues": 13,
-      "open_prs": 1,
-      "updated_at": "2026-08-02T15:20:17Z",
-      "pushed_at": "2026-08-02T15:20:10Z",
+      "open_prs": 0,
+      "updated_at": "2026-08-03T02:34:55Z",
+      "pushed_at": "2026-08-03T02:37:10Z",
       "recent_commits": [
+        {
+          "sha": "15da9d0",
+          "message": "docs: register and sync CLE2-17 CreatorFlow2 (#47)",
+          "author": "sfex11",
+          "date": "2026-08-03T02:34:48Z"
+        },
+        {
+          "sha": "82d1b82",
+          "message": "docs: register CLE5 self-growing creative system plan (#52)",
+          "author": "sfex11",
+          "date": "2026-08-03T02:28:06Z"
+        },
         {
           "sha": "a814435",
           "message": "feat(CLE2-9): CLE4 감각 기반 창작 에이전트 시스템 요구사항 등록",
@@ -218,21 +230,25 @@
           "message": "feat(CLE2-18): CreatorFlow2 원자적 결제 에스크로 컨트랙트 태스크 초기 설정 (#49)",
           "author": "sfex11",
           "date": "2026-07-28T14:46:27Z"
-        },
-        {
-          "sha": "3916d23",
-          "message": "docs: advance CreatorFlow to phase 4 (#45)",
-          "author": "sfex11",
-          "date": "2026-07-20T14:10:01Z"
-        },
-        {
-          "sha": "42afa8b",
-          "message": "fix: keep CLE2 completion evidence-based (#44)",
-          "author": "sfex11",
-          "date": "2026-07-20T12:43:10Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 47,
+          "title": "docs: register and sync CLE2-17 CreatorFlow2",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-08-03T02:34:51Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/47"
+        },
+        {
+          "number": 52,
+          "title": "docs: register CLE5 self-growing creative system plan",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-08-03T02:28:09Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/52"
+        },
         {
           "number": 50,
           "title": "docs(CLE2-18): PLAN.md, TESTS.md 작성",
@@ -240,22 +256,6 @@
           "state": "closed",
           "updated_at": "2026-07-28T14:49:08Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/50"
-        },
-        {
-          "number": 49,
-          "title": "feat(CLE2-18): CreatorFlow2 원자적 결제 에스크로 컨트랙트 태스크 초기 설정",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-07-28T14:46:30Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/49"
-        },
-        {
-          "number": 47,
-          "title": "docs: register CLE2-17 CreatorFlow2 goal",
-          "author": "sfex11",
-          "state": "open",
-          "updated_at": "2026-07-22T02:01:39Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/47"
         }
       ]
     },
@@ -599,6 +599,62 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: register and sync CLE2-17 CreatorFlow2",
+      "number": 47,
+      "state": "closed",
+      "date": "2026-08-03T02:34:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/47"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: register and sync CLE2-17 CreatorFlow2 (#47)",
+      "sha": "15da9d0",
+      "date": "2026-08-03T02:34:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/15da9d0a03bfd937a0fd456ea5d9847a964d143a"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: register CLE5 self-growing creative system plan",
+      "number": 52,
+      "state": "closed",
+      "date": "2026-08-03T02:28:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/52"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: register CLE5 self-growing creative system plan (#52)",
+      "sha": "82d1b82",
+      "date": "2026-08-03T02:28:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/82d1b82646a63be4dd1717730c1c8ddd170a00e1"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-03: 뉴스 수집 (4건)",
+      "sha": "1a2ed19",
+      "date": "2026-08-02T23:06:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/1a2ed19f27e3b3b5aa300464c9c3a2abf17b7db1"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "docs: update dashboard.json (members fixed to 7) and github-activity.json",
+      "sha": "85fdb5d",
+      "date": "2026-08-02T21:47:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/85fdb5d348543b18623c110021ee5d90d300eb1d"
+    },
+    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -699,30 +755,12 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-08-01: 뉴스 수집 (5건)",
-      "sha": "8fe171e",
-      "date": "2026-07-31T23:07:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/8fe171e783ca565b85a3243a1dac316332ce55a7"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "chore: update dashboard.json (members fix, 7 members)",
       "sha": "56eab6d",
       "date": "2026-07-31T03:47:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/56eab6d266065df095841248ac3e4679bed89be0"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (dashboard.json + github-activity.json)",
-      "sha": "326494b",
-      "date": "2026-07-31T03:47:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/326494b2c733cc1dfb98c03c89944c4cd067b238"
     },
     {
       "type": "commit",
@@ -819,16 +857,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2e45c4233f088b9af2e28cfdf25713612d512f42"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-18): CreatorFlow2 원자적 결제 에스크로 컨트랙트 태스크 초기 설정",
-      "number": 49,
-      "state": "closed",
-      "date": "2026-07-28T14:46:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/49"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -866,34 +894,6 @@
       "state": "closed",
       "date": "2026-07-27T18:55:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/10"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: register CLE2-17 CreatorFlow2 goal",
-      "number": 47,
-      "state": "open",
-      "date": "2026-07-22T02:01:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/47"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: advance CreatorFlow to phase 4 (#45)",
-      "sha": "3916d23",
-      "date": "2026-07-20T14:10:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/3916d23a12ca24517f169cc9a93d5ae0f4ae1179"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix: keep CLE2 completion evidence-based (#44)",
-      "sha": "42afa8b",
-      "date": "2026-07-20T12:43:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/42afa8bef92e8c3f89f493b088ae592069c832d9"
     },
     {
       "type": "pr",
