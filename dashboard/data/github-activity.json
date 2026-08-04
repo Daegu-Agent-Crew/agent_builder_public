@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-03T18:46:01Z",
-  "since": "2026-07-04T18:45:25Z",
+  "generated": "2026-08-04T00:46:03Z",
+  "since": "2026-07-05T00:45:31Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 176,
+      "open_issues": 177,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,38 +59,38 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-03T12:48:22Z",
-      "pushed_at": "2026-08-03T12:47:19Z",
+      "updated_at": "2026-08-04T00:00:17Z",
+      "pushed_at": "2026-08-04T00:00:06Z",
       "recent_commits": [
         {
-          "sha": "2f4c54c",
-          "message": "chore: update dashboard data (2026-08-03 21:44 KST)",
-          "author": "daeguru",
-          "date": "2026-08-03T12:47:06Z"
+          "sha": "5e6a612",
+          "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
+          "author": "sfex11",
+          "date": "2026-08-04T00:00:06Z"
         },
         {
-          "sha": "be8df99",
-          "message": "chore: update dashboard data (2026-08-03 18:44 KST)",
-          "author": "daeguru",
-          "date": "2026-08-03T09:45:48Z"
+          "sha": "6a3e202",
+          "message": "CLE5 EP002 image: p6-1_family_warmth.jpg",
+          "author": "sfex11",
+          "date": "2026-08-04T00:00:04Z"
         },
         {
-          "sha": "356da06",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-08-03T03:46:31Z"
+          "sha": "76538ac",
+          "message": "CLE5 EP002 image: p4-3_horror_face.jpg",
+          "author": "sfex11",
+          "date": "2026-08-04T00:00:02Z"
         },
         {
-          "sha": "85fdb5d",
-          "message": "docs: update dashboard.json (members fixed to 7) and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-08-02T21:47:09Z"
+          "sha": "5c3e937",
+          "message": "CLE5 EP002 image: p4-2_film_countdown.jpg",
+          "author": "sfex11",
+          "date": "2026-08-04T00:00:00Z"
         },
         {
-          "sha": "dfdca31",
-          "message": "data: update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-08-02T18:46:06Z"
+          "sha": "94d915e",
+          "message": "CLE5 EP002 image: p2-3_first_flash.jpg",
+          "author": "sfex11",
+          "date": "2026-08-03T23:59:58Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-08-03T05:10:39Z",
-      "pushed_at": "2026-08-03T05:10:03Z",
+      "updated_at": "2026-08-03T23:08:08Z",
+      "pushed_at": "2026-08-03T23:07:48Z",
       "recent_commits": [
+        {
+          "sha": "4945ca5",
+          "message": "📰 2026-08-04: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-08-03T23:07:47Z"
+        },
         {
           "sha": "ef50966",
           "message": "📚 2026-08-03: 위키 갱신 (industry 10차, tools 11차)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-08-02: 위키 갱신 (2개) - framework 11차, models 12차",
           "author": "Renover",
           "date": "2026-08-02T05:09:17Z"
-        },
-        {
-          "sha": "b9c5148",
-          "message": "📰 2026-08-02: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-08-01T23:04:04Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-08-02T12:46:43Z",
-      "pushed_at": "2026-08-02T12:46:35Z",
+      "updated_at": "2026-08-03T18:49:37Z",
+      "pushed_at": "2026-08-03T18:46:30Z",
       "recent_commits": [
+        {
+          "sha": "36f8141",
+          "message": "docs: update dashboard.json (members fixed to 7)",
+          "author": "daeguru",
+          "date": "2026-08-03T18:46:28Z"
+        },
         {
           "sha": "3d3d324",
           "message": "docs: update dashboard.json (members fixed to 7)",
@@ -494,12 +500,6 @@
           "message": "Add Elon Musk thinking-method case snapshot",
           "author": "daeguru",
           "date": "2026-07-31T00:46:20Z"
-        },
-        {
-          "sha": "9f60e32",
-          "message": "Add Elon Musk thinking-method case snapshot",
-          "author": "sfex11",
-          "date": "2026-07-30T17:26:49Z"
         }
       ],
       "recent_prs": [
@@ -535,38 +535,38 @@
       "private": true,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-07-28T22:12:44Z",
-      "pushed_at": "2026-07-28T21:54:25Z",
+      "updated_at": "2026-08-03T23:58:36Z",
+      "pushed_at": "2026-08-03T23:58:34Z",
       "recent_commits": [
         {
-          "sha": "8ebe0b3",
-          "message": "ep/002: v3 대본 — 카운트다운 (4단계 워크플로우 전체 적용, +1180줄) (#10)",
+          "sha": "763c453",
+          "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
           "author": "sfex11",
-          "date": "2026-07-28T21:54:24Z"
+          "date": "2026-08-03T23:58:34Z"
         },
         {
-          "sha": "b9f555b",
-          "message": "ep/001: v3 백필 — 재미 요소·미스터리 아키텍처·실험 변수·매력 지수 반영 (+130줄) (#9)",
+          "sha": "45d36a8",
+          "message": "CLE5 EP002 image: p6-1_family_warmth.jpg",
           "author": "sfex11",
-          "date": "2026-07-28T21:48:31Z"
+          "date": "2026-08-03T23:58:32Z"
         },
         {
-          "sha": "15db3f4",
-          "message": "docs: STORY-PROMPT-V3 — 재미 요소·미스터리 아키텍처·실험 변수·매력 지수 반영 (+95줄) (#8)",
+          "sha": "662f87b",
+          "message": "CLE5 EP002 image: p4-3_horror_face.jpg",
           "author": "sfex11",
-          "date": "2026-07-28T21:33:09Z"
+          "date": "2026-08-03T23:58:31Z"
         },
         {
-          "sha": "11126a9",
-          "message": "ep/001: v3 프롬프트 4단계 워크플로우로 EP001 재작성 (#7)",
+          "sha": "8bf7bf5",
+          "message": "CLE5 EP002 image: p4-2_film_countdown.jpg",
           "author": "sfex11",
-          "date": "2026-07-07T22:38:57Z"
+          "date": "2026-08-03T23:58:29Z"
         },
         {
-          "sha": "d891acd",
-          "message": "docs: 스토리 각색 프롬프트 v3 — 4단계 워크플로우 (#6)",
+          "sha": "ed3d162",
+          "message": "CLE5 EP002 image: p2-3_first_flash.jpg",
           "author": "sfex11",
-          "date": "2026-07-07T20:59:25Z"
+          "date": "2026-08-03T23:58:27Z"
         }
       ],
       "recent_prs": [
@@ -601,20 +601,110 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (2026-08-03 21:44 KST)",
-      "sha": "2f4c54c",
-      "date": "2026-08-03T12:47:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2f4c54cadb0fafaf1a6e481b7cbacada27ee3b07"
+      "author": "sfex11",
+      "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
+      "sha": "5e6a612",
+      "date": "2026-08-04T00:00:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5e6a612e0cd17ba7a5bc58d9a74c6836317f37c9"
     },
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "CLE5 EP002 image: p6-1_family_warmth.jpg",
+      "sha": "6a3e202",
+      "date": "2026-08-04T00:00:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6a3e202888aa443f6f34e7214cb37986a4fba487"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "CLE5 EP002 image: p4-3_horror_face.jpg",
+      "sha": "76538ac",
+      "date": "2026-08-04T00:00:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/76538aced6890be1ecfeaf92ae98ec4e1ecb1ae7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "CLE5 EP002 image: p4-2_film_countdown.jpg",
+      "sha": "5c3e937",
+      "date": "2026-08-04T00:00:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5c3e93735c889fa7ffa0d3ef73bb0902d9aeedbb"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "CLE5 EP002 image: p2-3_first_flash.jpg",
+      "sha": "94d915e",
+      "date": "2026-08-03T23:59:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/94d915e8e7c7639204b20b06cc3d5054a81940db"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
+      "sha": "763c453",
+      "date": "2026-08-03T23:58:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/763c4531213a8b7036581da903c6183aa2777c7e"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "CLE5 EP002 image: p6-1_family_warmth.jpg",
+      "sha": "45d36a8",
+      "date": "2026-08-03T23:58:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/45d36a82b6111a93b47ca2cf3f0178d7a39a5951"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "CLE5 EP002 image: p4-3_horror_face.jpg",
+      "sha": "662f87b",
+      "date": "2026-08-03T23:58:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/662f87b2e7f8d16a4f9428a683b425c54e4bc67d"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "CLE5 EP002 image: p4-2_film_countdown.jpg",
+      "sha": "8bf7bf5",
+      "date": "2026-08-03T23:58:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/8bf7bf520820a4795f700145c7b4afc51cde6612"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "sfex11",
+      "message": "CLE5 EP002 image: p2-3_first_flash.jpg",
+      "sha": "ed3d162",
+      "date": "2026-08-03T23:58:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/ed3d1629473603b4f2c83c67784ebb57fe130b20"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-04: 뉴스 수집 (5건)",
+      "sha": "4945ca5",
+      "date": "2026-08-03T23:07:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/4945ca5d1cedc821615b57c48320401d56374545"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "daeguru",
-      "message": "chore: update dashboard data (2026-08-03 18:44 KST)",
-      "sha": "be8df99",
-      "date": "2026-08-03T09:45:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/be8df998a5128d3913f6d85c198f2838e2d2228d"
+      "message": "docs: update dashboard.json (members fixed to 7)",
+      "sha": "36f8141",
+      "date": "2026-08-03T18:46:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/36f814119b28e696f9f1f0304a24049c94553fbb"
     },
     {
       "type": "pr",
@@ -643,15 +733,6 @@
       "sha": "ef50966",
       "date": "2026-08-03T05:09:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ef50966dffe3347a09dc750c7c36c45804a0f995"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json",
-      "sha": "356da06",
-      "date": "2026-08-03T03:46:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/356da060a3d9141b53e5e39133c4a983ca776a1d"
     },
     {
       "type": "pr",
@@ -702,24 +783,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "docs: update dashboard.json (members fixed to 7) and github-activity.json",
-      "sha": "85fdb5d",
-      "date": "2026-08-02T21:47:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/85fdb5d348543b18623c110021ee5d90d300eb1d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "data: update dashboard.json and github-activity.json",
-      "sha": "dfdca31",
-      "date": "2026-08-02T18:46:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dfdca31dcbb04bc04ea7d6a52bb7b486bd9e7279"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
       "message": "feat(CLE2-9): CLE4 감각 기반 창작 에이전트 시스템 요구사항 등록",
@@ -765,15 +828,6 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-08-02: 뉴스 수집 (5건)",
-      "sha": "b9c5148",
-      "date": "2026-08-01T23:04:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b9c5148aa41f117952b3e819832c1dd836152bdf"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "chore: update dashboard.json (members fix, 7 members)",
@@ -791,15 +845,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/161f0b69dfff053a670418d52a7d518112cb0c63"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add Elon Musk thinking-method case snapshot",
-      "sha": "9f60e32",
-      "date": "2026-07-30T17:26:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9f60e32bebf4481378f1cc6c90ac07f7fdc91afd"
-    },
-    {
       "type": "pr",
       "repo": "three-body-comic",
       "author": "sfex11",
@@ -808,15 +853,6 @@
       "state": "closed",
       "date": "2026-07-28T21:54:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/10"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "sfex11",
-      "message": "ep/002: v3 대본 — 카운트다운 (4단계 워크플로우 전체 적용, +1180줄) (#10)",
-      "sha": "8ebe0b3",
-      "date": "2026-07-28T21:54:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/8ebe0b345ba5b8247afd62aea13c3206919ce817"
     },
     {
       "type": "pr",
@@ -829,15 +865,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/9"
     },
     {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "sfex11",
-      "message": "ep/001: v3 백필 — 재미 요소·미스터리 아키텍처·실험 변수·매력 지수 반영 (+130줄) (#9)",
-      "sha": "b9f555b",
-      "date": "2026-07-28T21:48:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/b9f555bcbd248514880f5cdcb39cebcbb428de00"
-    },
-    {
       "type": "pr",
       "repo": "three-body-comic",
       "author": "sfex11",
@@ -846,15 +873,6 @@
       "state": "closed",
       "date": "2026-07-28T21:33:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/pull/8"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "sfex11",
-      "message": "docs: STORY-PROMPT-V3 — 재미 요소·미스터리 아키텍처·실험 변수·매력 지수 반영 (+95줄) (#8)",
-      "sha": "15db3f4",
-      "date": "2026-07-28T21:33:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/15db3f4d1ddb21280aedf5503ab7250f0f718394"
     },
     {
       "type": "commit",
@@ -924,24 +942,6 @@
       "state": "open",
       "date": "2026-07-08T19:37:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/8"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "sfex11",
-      "message": "ep/001: v3 프롬프트 4단계 워크플로우로 EP001 재작성 (#7)",
-      "sha": "11126a9",
-      "date": "2026-07-07T22:38:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/11126a902090a249ca47b85c0ce4abf16df071e9"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "sfex11",
-      "message": "docs: 스토리 각색 프롬프트 v3 — 4단계 워크플로우 (#6)",
-      "sha": "d891acd",
-      "date": "2026-07-07T20:59:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/d891acdb35c3f62e5bc3d677ea1a21308d870432"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
+      "commits": 20,
       "prs": 15,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 10,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
