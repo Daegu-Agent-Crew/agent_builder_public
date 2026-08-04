@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-04T12:46:38Z",
-  "since": "2026-07-05T12:46:03Z",
+  "generated": "2026-08-04T18:45:53Z",
+  "since": "2026-07-05T18:45:19Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 179,
+      "open_issues": 180,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-04T06:48:26Z",
-      "pushed_at": "2026-08-04T06:47:36Z",
+      "updated_at": "2026-08-04T12:48:49Z",
+      "pushed_at": "2026-08-04T12:47:19Z",
       "recent_commits": [
+        {
+          "sha": "812da87",
+          "message": "📊 Update dashboard data (2026-08-04 21:44 KST)",
+          "author": "daeguru",
+          "date": "2026-08-04T12:47:17Z"
+        },
         {
           "sha": "8f72520",
           "message": "📊 Update dashboard data (2026-08-04 15:44 KST)",
@@ -85,12 +91,6 @@
           "message": "CLE5 EP002 image: p6-1_family_warmth.jpg",
           "author": "sfex11",
           "date": "2026-08-04T00:00:04Z"
-        },
-        {
-          "sha": "76538ac",
-          "message": "CLE5 EP002 image: p4-3_horror_face.jpg",
-          "author": "sfex11",
-          "date": "2026-08-04T00:00:02Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "📊 Update dashboard data (2026-08-04 21:44 KST)",
+      "sha": "812da87",
+      "date": "2026-08-04T12:47:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/812da87102ca209f198e8bbb5ff2c2271160647d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "📊 Update dashboard data (2026-08-04 15:44 KST)",
       "sha": "8f72520",
       "date": "2026-08-04T06:47:35Z",
@@ -633,15 +642,6 @@
       "sha": "6a3e202",
       "date": "2026-08-04T00:00:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6a3e202888aa443f6f34e7214cb37986a4fba487"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "CLE5 EP002 image: p4-3_horror_face.jpg",
-      "sha": "76538ac",
-      "date": "2026-08-04T00:00:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/76538aced6890be1ecfeaf92ae98ec4e1ecb1ae7"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 17,
       "prs": 15,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 8,
+      "commits": 9,
       "prs": 0,
       "issues": 0,
       "reviews": 0
