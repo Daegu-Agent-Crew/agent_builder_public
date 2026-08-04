@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-04T00:46:03Z",
-  "since": "2026-07-05T00:45:31Z",
+  "generated": "2026-08-04T06:46:51Z",
+  "since": "2026-07-05T06:46:18Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 177,
+      "open_issues": 178,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-04T00:00:17Z",
-      "pushed_at": "2026-08-04T00:00:06Z",
+      "updated_at": "2026-08-04T00:46:26Z",
+      "pushed_at": "2026-08-04T00:46:20Z",
       "recent_commits": [
+        {
+          "sha": "5e57619",
+          "message": "📊 Update dashboard data (2026-08-04 09:44 KST)",
+          "author": "daeguru",
+          "date": "2026-08-04T00:46:18Z"
+        },
         {
           "sha": "5e6a612",
           "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
@@ -85,12 +91,6 @@
           "message": "CLE5 EP002 image: p4-2_film_countdown.jpg",
           "author": "sfex11",
           "date": "2026-08-04T00:00:00Z"
-        },
-        {
-          "sha": "94d915e",
-          "message": "CLE5 EP002 image: p2-3_first_flash.jpg",
-          "author": "sfex11",
-          "date": "2026-08-03T23:59:58Z"
         }
       ],
       "recent_prs": [
@@ -601,6 +601,15 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "📊 Update dashboard data (2026-08-04 09:44 KST)",
+      "sha": "5e57619",
+      "date": "2026-08-04T00:46:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5e57619a5df14e82634541a156e6f120604ee084"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "sfex11",
       "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
       "sha": "5e6a612",
@@ -633,15 +642,6 @@
       "sha": "5c3e937",
       "date": "2026-08-04T00:00:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5c3e93735c889fa7ffa0d3ef73bb0902d9aeedbb"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "CLE5 EP002 image: p2-3_first_flash.jpg",
-      "sha": "94d915e",
-      "date": "2026-08-03T23:59:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/94d915e8e7c7639204b20b06cc3d5054a81940db"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 19,
       "prs": 15,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
