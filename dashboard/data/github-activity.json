@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-04T18:45:53Z",
-  "since": "2026-07-05T18:45:19Z",
+  "generated": "2026-08-04T21:46:07Z",
+  "since": "2026-07-05T21:45:34Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-04T12:48:49Z",
-      "pushed_at": "2026-08-04T12:47:19Z",
+      "updated_at": "2026-08-04T18:48:29Z",
+      "pushed_at": "2026-08-04T18:46:27Z",
       "recent_commits": [
+        {
+          "sha": "6800e55",
+          "message": "chore: update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-08-04T18:46:25Z"
+        },
         {
           "sha": "812da87",
           "message": "📊 Update dashboard data (2026-08-04 21:44 KST)",
@@ -85,12 +91,6 @@
           "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
           "author": "sfex11",
           "date": "2026-08-04T00:00:06Z"
-        },
-        {
-          "sha": "6a3e202",
-          "message": "CLE5 EP002 image: p6-1_family_warmth.jpg",
-          "author": "sfex11",
-          "date": "2026-08-04T00:00:04Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-08-03T18:49:37Z",
-      "pushed_at": "2026-08-03T18:46:30Z",
+      "updated_at": "2026-08-04T18:48:38Z",
+      "pushed_at": "2026-08-04T18:46:12Z",
       "recent_commits": [
+        {
+          "sha": "245a8ee",
+          "message": "chore: update dashboard.json (members fixed to 7)",
+          "author": "daeguru",
+          "date": "2026-08-04T18:46:11Z"
+        },
         {
           "sha": "36f8141",
           "message": "docs: update dashboard.json (members fixed to 7)",
@@ -494,12 +500,6 @@
           "message": "chore: update dashboard.json (members fix, 7 members)",
           "author": "daeguru",
           "date": "2026-07-31T03:47:17Z"
-        },
-        {
-          "sha": "161f0b6",
-          "message": "Add Elon Musk thinking-method case snapshot",
-          "author": "daeguru",
-          "date": "2026-07-31T00:46:20Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore: update dashboard.json and github-activity.json",
+      "sha": "6800e55",
+      "date": "2026-08-04T18:46:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6800e55b3e0c126a7870941b96fcd0c153bfca9c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "chore: update dashboard.json (members fixed to 7)",
+      "sha": "245a8ee",
+      "date": "2026-08-04T18:46:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/245a8ee851b7135ae9efb841a27823efe2a763a7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "📊 Update dashboard data (2026-08-04 21:44 KST)",
       "sha": "812da87",
       "date": "2026-08-04T12:47:17Z",
@@ -633,15 +651,6 @@
       "sha": "5e6a612",
       "date": "2026-08-04T00:00:06Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5e6a612e0cd17ba7a5bc58d9a74c6836317f37c9"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "CLE5 EP002 image: p6-1_family_warmth.jpg",
-      "sha": "6a3e202",
-      "date": "2026-08-04T00:00:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6a3e202888aa443f6f34e7214cb37986a4fba487"
     },
     {
       "type": "commit",
@@ -834,15 +843,6 @@
       "sha": "56eab6d",
       "date": "2026-07-31T03:47:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/56eab6d266065df095841248ac3e4679bed89be0"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "Add Elon Musk thinking-method case snapshot",
-      "sha": "161f0b6",
-      "date": "2026-07-31T00:46:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/161f0b69dfff053a670418d52a7d518112cb0c63"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 16,
       "prs": 15,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 9,
+      "commits": 10,
       "prs": 0,
       "issues": 0,
       "reviews": 0
