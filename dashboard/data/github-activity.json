@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-04T21:46:07Z",
-  "since": "2026-07-05T21:45:34Z",
+  "generated": "2026-08-05T00:46:19Z",
+  "since": "2026-07-06T00:45:45Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 180,
+      "open_issues": 181,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-04T18:48:29Z",
-      "pushed_at": "2026-08-04T18:46:27Z",
+      "updated_at": "2026-08-04T21:46:43Z",
+      "pushed_at": "2026-08-04T21:46:38Z",
       "recent_commits": [
+        {
+          "sha": "847bd72",
+          "message": "chore(dashboard): update dashboard.json & github-activity.json",
+          "author": "daeguru",
+          "date": "2026-08-04T21:46:30Z"
+        },
         {
           "sha": "6800e55",
           "message": "chore: update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "📊 Update dashboard data (2026-08-04 09:44 KST)",
           "author": "daeguru",
           "date": "2026-08-04T00:46:18Z"
-        },
-        {
-          "sha": "5e6a612",
-          "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
-          "author": "sfex11",
-          "date": "2026-08-04T00:00:06Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-08-03T23:08:08Z",
-      "pushed_at": "2026-08-03T23:07:48Z",
+      "updated_at": "2026-08-04T23:06:38Z",
+      "pushed_at": "2026-08-04T23:06:34Z",
       "recent_commits": [
+        {
+          "sha": "7222ac3",
+          "message": "📰 2026-08-05: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-08-04T23:06:30Z"
+        },
         {
           "sha": "4945ca5",
           "message": "📰 2026-08-04: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "🔍 2026-08-02: 위키 린트 점검",
           "author": "Renover",
           "date": "2026-08-02T14:09:22Z"
-        },
-        {
-          "sha": "4247cd1",
-          "message": "📚 2026-08-02: 위키 갱신 (2개) - framework 11차, models 12차",
-          "author": "Renover",
-          "date": "2026-08-02T05:09:17Z"
         }
       ],
       "recent_prs": []
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-05: 뉴스 수집 (5건)",
+      "sha": "7222ac3",
+      "date": "2026-08-04T23:06:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/7222ac39ea9cabf409bb24423b7844542a56bd10"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json & github-activity.json",
+      "sha": "847bd72",
+      "date": "2026-08-04T21:46:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/847bd726d1deb4869a62d758f0e95501e4d1246f"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update dashboard.json and github-activity.json",
@@ -642,15 +660,6 @@
       "sha": "5e57619",
       "date": "2026-08-04T00:46:18Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5e57619a5df14e82634541a156e6f120604ee084"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
-      "sha": "5e6a612",
-      "date": "2026-08-04T00:00:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5e6a612e0cd17ba7a5bc58d9a74c6836317f37c9"
     },
     {
       "type": "commit",
@@ -825,15 +834,6 @@
       "sha": "9815ba9",
       "date": "2026-08-02T06:46:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9815ba9cf73b0cc0a7a5298ed6c62a90694a943f"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-08-02: 위키 갱신 (2개) - framework 11차, models 12차",
-      "sha": "4247cd1",
-      "date": "2026-08-02T05:09:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/4247cd10ed13da779eb9c410e4b02fcb31392e03"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
+      "commits": 15,
       "prs": 15,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 10,
+      "commits": 11,
       "prs": 0,
       "issues": 0,
       "reviews": 0
