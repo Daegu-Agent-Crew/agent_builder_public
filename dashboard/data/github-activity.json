@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-07T06:48:30Z",
-  "since": "2026-07-08T06:47:57Z",
+  "generated": "2026-08-07T12:46:27Z",
+  "since": "2026-07-08T12:45:54Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 187,
+      "open_issues": 188,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-07T00:47:50Z",
-      "pushed_at": "2026-08-07T00:47:40Z",
+      "updated_at": "2026-08-07T06:49:33Z",
+      "pushed_at": "2026-08-07T06:48:55Z",
       "recent_commits": [
+        {
+          "sha": "e2963d9",
+          "message": "chore: update dashboard data (github activity + members) 2026-08-07",
+          "author": "daeguru",
+          "date": "2026-08-07T06:48:52Z"
+        },
         {
           "sha": "daf0a22",
           "message": "chore: update dashboard data and GitHub activity (2026-08-07 09:44 KST)",
@@ -85,12 +91,6 @@
           "message": "📊 dashboard: update activity data 2026-08-06 18:48 KST",
           "author": "daeguru",
           "date": "2026-08-06T09:48:02Z"
-        },
-        {
-          "sha": "ea5162b",
-          "message": "chore: update dashboard.json & github-activity (members fixed to 7)",
-          "author": "daeguru",
-          "date": "2026-08-06T03:46:53Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (github activity + members) 2026-08-07",
+      "sha": "e2963d9",
+      "date": "2026-08-07T06:48:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e2963d984118a7c0856c67715a6c4a9205012900"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-08-07: 위키 갱신 (2개) — models 13차, industry 13차",
@@ -669,15 +678,6 @@
       "sha": "cb94d1a",
       "date": "2026-08-06T05:06:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/cb94d1a6be4ff6bc9ef138522b5b02ff4b252aa7"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard.json & github-activity (members fixed to 7)",
-      "sha": "ea5162b",
-      "date": "2026-08-06T03:46:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ea5162be14b88faafce9c46766d85add7aeeaf8a"
     },
     {
       "type": "commit",
