@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-09T00:46:25Z",
-  "since": "2026-07-10T00:45:53Z",
+  "generated": "2026-08-09T03:46:38Z",
+  "since": "2026-07-10T03:46:07Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-08T21:46:51Z",
-      "pushed_at": "2026-08-08T21:46:47Z",
+      "updated_at": "2026-08-09T00:47:17Z",
+      "pushed_at": "2026-08-09T00:47:13Z",
       "recent_commits": [
+        {
+          "sha": "3b64f60",
+          "message": "dashboard: update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-08-09T00:47:12Z"
+        },
         {
           "sha": "657fa43",
           "message": "dashboard: update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json & github-activity.json 2026-08-08T12:47:04Z",
           "author": "daeguru",
           "date": "2026-08-08T12:47:04Z"
-        },
-        {
-          "sha": "f9b5dd3",
-          "message": "chore: update dashboard.json & github-activity (2026-08-08 18:45 KST)",
-          "author": "daeguru",
-          "date": "2026-08-08T09:45:59Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-08-07T00:47:46Z",
-      "pushed_at": "2026-08-07T00:47:25Z",
+      "updated_at": "2026-08-09T01:56:25Z",
+      "pushed_at": "2026-08-09T01:56:22Z",
       "recent_commits": [
+        {
+          "sha": "e331dd4",
+          "message": "Add EP 108 silicon photonics discourse analysis (노정석/박준우/김태환)",
+          "author": "sfex11",
+          "date": "2026-08-09T01:56:21Z"
+        },
         {
           "sha": "aa31247",
           "message": "chore: update dashboard.json (members fixed to 7)",
@@ -494,12 +500,6 @@
           "message": "docs: update dashboard.json (members fixed to 7)",
           "author": "daeguru",
           "date": "2026-08-03T18:46:28Z"
-        },
-        {
-          "sha": "3d3d324",
-          "message": "docs: update dashboard.json (members fixed to 7)",
-          "author": "daeguru",
-          "date": "2026-08-02T12:46:33Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add EP 108 silicon photonics discourse analysis (노정석/박준우/김태환)",
+      "sha": "e331dd4",
+      "date": "2026-08-09T01:56:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e331dd423b97be1915ecda770722246b5755ba29"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json",
+      "sha": "3b64f60",
+      "date": "2026-08-09T00:47:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3b64f60bee5f732ac9a925fd150f515eeb878329"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-08-09: 뉴스 수집 (2건)",
@@ -642,15 +660,6 @@
       "sha": "15f225b",
       "date": "2026-08-08T12:47:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/15f225b0865ad6291cec9c50c3ac8a3e128ea686"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard.json & github-activity (2026-08-08 18:45 KST)",
-      "sha": "f9b5dd3",
-      "date": "2026-08-08T09:45:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f9b5dd3957e16caaf4607931a26eb8b42e881d7b"
     },
     {
       "type": "commit",
@@ -834,15 +843,6 @@
       "sha": "a814435",
       "date": "2026-08-02T15:19:29Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/a814435788134671f913e331786b14b8381f10cf"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "docs: update dashboard.json (members fixed to 7)",
-      "sha": "3d3d324",
-      "date": "2026-08-02T12:46:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3d3d324bb25839f079965d9c8c7fcdf394fe1231"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 15,
+      "commits": 16,
       "prs": 15,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 11,
+      "commits": 10,
       "prs": 0,
       "issues": 0,
       "reviews": 0
