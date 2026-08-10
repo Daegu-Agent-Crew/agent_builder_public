@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-10T00:46:48Z",
-  "since": "2026-07-11T00:46:15Z",
+  "generated": "2026-08-10T06:46:12Z",
+  "since": "2026-07-11T06:45:39Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 198,
+      "open_issues": 199,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-09T18:47:37Z",
-      "pushed_at": "2026-08-09T18:47:04Z",
+      "updated_at": "2026-08-10T00:47:29Z",
+      "pushed_at": "2026-08-10T00:47:22Z",
       "recent_commits": [
+        {
+          "sha": "f294c94",
+          "message": "Update dashboard.json and github-activity.json 2026-08-10 09:47 KST",
+          "author": "daeguru",
+          "date": "2026-08-10T00:47:20Z"
+        },
         {
           "sha": "1829dd1",
           "message": "Update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-08-09T03:47:09Z"
-        },
-        {
-          "sha": "3b64f60",
-          "message": "dashboard: update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-08-09T00:47:12Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 1,
       "open_prs": 1,
-      "updated_at": "2026-08-09T09:46:32Z",
-      "pushed_at": "2026-08-09T09:46:24Z",
+      "updated_at": "2026-08-10T00:47:20Z",
+      "pushed_at": "2026-08-10T00:47:16Z",
       "recent_commits": [
+        {
+          "sha": "ce2402a",
+          "message": "Wiki regeneration 2026-08-10 09:47 KST",
+          "author": "daeguru",
+          "date": "2026-08-10T00:47:10Z"
+        },
         {
           "sha": "02af99f",
           "message": "Update dashboard.json (members fix) + wiki regeneration",
@@ -494,12 +500,6 @@
           "message": "chore: update dashboard.json & wiki (members fixed to 7)",
           "author": "daeguru",
           "date": "2026-08-05T00:46:39Z"
-        },
-        {
-          "sha": "245a8ee",
-          "message": "chore: update dashboard.json (members fixed to 7)",
-          "author": "daeguru",
-          "date": "2026-08-04T18:46:11Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "Update dashboard.json and github-activity.json 2026-08-10 09:47 KST",
+      "sha": "f294c94",
+      "date": "2026-08-10T00:47:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f294c94cf7e022a73cdd1a359e4ccd91da3ff5e4"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "Wiki regeneration 2026-08-10 09:47 KST",
+      "sha": "ce2402a",
+      "date": "2026-08-10T00:47:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ce2402ab49700b92028583e2d5e1c47349d795af"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "Update dashboard.json and github-activity.json",
       "sha": "1829dd1",
       "date": "2026-08-09T18:47:00Z",
@@ -672,15 +690,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json",
-      "sha": "3b64f60",
-      "date": "2026-08-09T00:47:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3b64f60bee5f732ac9a925fd150f515eeb878329"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-08-09: 뉴스 수집 (2건)",
@@ -723,15 +732,6 @@
       "sha": "2337cc3",
       "date": "2026-08-05T00:46:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2337cc38b206d33c6ad06ebc827abad9cb538a12"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "chore: update dashboard.json (members fixed to 7)",
-      "sha": "245a8ee",
-      "date": "2026-08-04T18:46:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/245a8ee851b7135ae9efb841a27823efe2a763a7"
     },
     {
       "type": "commit",
