@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-11T15:46:13Z",
-  "since": "2026-07-12T15:45:40Z",
+  "generated": "2026-08-11T18:46:32Z",
+  "since": "2026-07-12T18:45:58Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 204,
+      "open_issues": 205,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-11T14:26:52Z",
-      "pushed_at": "2026-08-11T14:22:20Z",
+      "updated_at": "2026-08-11T15:47:26Z",
+      "pushed_at": "2026-08-11T15:46:56Z",
       "recent_commits": [
+        {
+          "sha": "b0a3b85",
+          "message": "📊 dashboard: update github-activity & dashboard.json (2026-08-12 00:44 KST)",
+          "author": "daeguru",
+          "date": "2026-08-11T15:46:49Z"
+        },
         {
           "sha": "9098cf9",
           "message": "fix: mobile hamburger menu for all dashboards + README dashboard links",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard & github activity data",
           "author": "daeguru",
           "date": "2026-08-11T12:47:22Z"
-        },
-        {
-          "sha": "1187cc2",
-          "message": "chore: update dashboard and github activity data",
-          "author": "daeguru",
-          "date": "2026-08-11T09:46:56Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "📊 dashboard: update github-activity & dashboard.json (2026-08-12 00:44 KST)",
+      "sha": "b0a3b85",
+      "date": "2026-08-11T15:46:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b0a3b85345108937c87a09302201d34688ea45aa"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "fix: mobile hamburger menu for all dashboards + README dashboard links",
       "sha": "9098cf9",
       "date": "2026-08-11T14:22:13Z",
@@ -651,15 +660,6 @@
       "sha": "cabf0d3",
       "date": "2026-08-11T12:47:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cabf0d39914d6fd9f8c5d34a9b4e0b71e2f03379"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard and github activity data",
-      "sha": "1187cc2",
-      "date": "2026-08-11T09:46:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1187cc2d5524361338d93cb56222ad8bb9c19529"
     },
     {
       "type": "commit",
