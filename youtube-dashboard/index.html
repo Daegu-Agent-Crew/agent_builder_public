@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="유튜브 영상 요약 아카이브 대시보드 — 처리된 영상, 채널, 핵심 메시지">
+  <title>영상 요약 대시보드 — Daegu Agent Crew</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../dashboard/" class="logo">📺 영상 요약</a>
+      <nav class="desktop-nav">
+        <a href="#overview">개요</a>
+        <a href="#videos">영상 목록</a>
+        <a href="../patterns-dashboard/">🧩 패턴 분석 →</a>
+        <a href="../dashboard/" style="font-size:.8rem;font-weight:600;padding:4px 12px;border-radius:20px;background:var(--accent-bg);color:var(--accent);">팀 대시보드 →</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="dashboard-main">
+    <div id="loading" class="loading">불러오는 중...</div>
+    <div id="error" class="error" style="display:none"></div>
+    <div id="content" style="display:none">
+
+      <section id="overview" class="section">
+        <h2 class="section-title">개요</h2>
+        <div class="stat-grid" id="statGrid"></div>
+        <div class="chart-row" id="monthChart"></div>
+      </section>
+
+      <section id="videos" class="section">
+        <h2 class="section-title">영상 목록</h2>
+        <div class="filter-bar" id="filterBar">
+          <button class="filter-btn active" data-type="all">전체</button>
+          <button class="filter-btn" data-type="영상 요약">📋 요약</button>
+          <button class="filter-btn" data-type="담화 패턴 분석">🧠 패턴 분석</button>
+          <button class="filter-btn" data-type="사고 패턴 분석">💭 사고 분석</button>
+        </div>
+        <div class="video-grid" id="videoGrid"></div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Daegu Agent Crew · 영상 요약 대시보드 · <span id="genTime"></span></p>
+  </footer>
+
+<script>
+(function() {
+  'use strict';
+  let DATA = null;
+
+  async function loadData() {
+    const res = await fetch('data.json');
+    DATA = await res.json();
+    render();
+  }
+
+  function render() {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('content').style.display = 'block';
+    document.getElementById('genTime').textContent = `생성 ${DATA.meta.generatedAt}`;
+
+    renderStats();
+    renderMonthChart();
+    renderVideos('all');
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderVideos(btn.dataset.type);
+      });
+    });
+  }
+
+  function renderStats() {
+    const m = DATA.meta;
+    const items = [
+      { label: '처리된 영상', value: m.totalVideos, icon: '🎬', color: 'var(--accent)' },
+      { label: '채널 수', value: m.totalChannels, icon: '📡', color: '#10b981' },
+      { label: '패턴 분석', value: (m.byType['담화 패턴 분석']||0) + (m.byType['사고 패턴 분석']||0), icon: '🧠', color: '#f59e0b' },
+      { label: '영상 요약', value: m.byType['영상 요약']||0, icon: '📋', color: '#ef4444' }
+    ];
+    document.getElementById('statGrid').innerHTML = items.map(s => `
+      <div class="stat-card">
+        <span class="stat-icon">${s.icon}</span>
+        <span class="stat-value" style="color:${s.color}">${s.value}</span>
+        <span class="stat-label">${s.label}</span>
+      </div>
+    `).join('');
+  }
+
+  function renderMonthChart() {
+    const monthly = DATA.meta.byMonth || {};
+    const months = Object.entries(monthly).sort();
+    if (!months.length) return;
+
+    const maxCount = Math.max(...months.map(m => m[1]));
+    const html = `
+      <h3 class="chart-title">월별 처리 현황</h3>
+      <div class="bar-chart">
+        ${months.map(([month, count]) => `
+          <div class="bar-item">
+            <div class="bar-wrap">
+              <div class="bar-fill" style="height:${count/maxCount*100}%;background:var(--accent)"></div>
+            </div>
+            <span class="bar-label">${month.slice(5)}</span>
+            <span class="bar-count">${count}</span>
+          </div>
+        `).join('')}
+      </div>
+    `;
+    document.getElementById('monthChart').innerHTML = html;
+  }
+
+  function renderVideos(typeFilter) {
+    let videos = DATA.videos;
+    if (typeFilter !== 'all') {
+      videos = videos.filter(v => v.type === typeFilter);
+    }
+
+    document.getElementById('videoGrid').innerHTML = videos.map(v => {
+      const thumb = v.thumbnail
+        ? `<img src="${v.thumbnail}" alt="${v.title}" loading="lazy" class="video-thumb">`
+        : `<div class="video-thumb-placeholder">🎬</div>`;
+      const channel = v.channel ? `<span class="video-channel">${v.channel}</span>` : '';
+      const speaker = v.speaker ? `<span class="video-speaker">👤 ${v.speaker}</span>` : '';
+      const coreMsg = v.coreMessage
+        ? `<p class="video-core">${v.coreMessage.substring(0, 150)}${v.coreMessage.length > 150 ? '…' : ''}</p>`
+        : '';
+      const sections = v.sections && v.sections.length
+        ? `<div class="video-sections">${v.sections.slice(0, 4).map(s => `<span class="section-tag">${s}</span>`).join('')}</div>`
+        : '';
+
+      return `
+        <div class="video-card">
+          <a href="${v.videoUrl}" target="_blank" rel="noopener" class="video-thumb-link">${thumb}</a>
+          <div class="video-body">
+            <div class="video-meta-row">
+              <span class="video-type">${v.type}</span>
+              <span class="video-date">${v.date}</span>
+            </div>
+            <h3 class="video-title">${v.title}</h3>
+            <div class="video-info">${channel}${speaker}</div>
+            ${coreMsg}
+            ${sections}
+            <div class="video-links">
+              <a href="${v.source}" target="_blank" rel="noopener" class="source-link">📄 분석 보기</a>
+              <a href="${v.videoUrl}" target="_blank" rel="noopener" class="source-link">▶️ 영상</a>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('') || '<p class="empty">해당 유형의 영상이 없습니다.</p>';
+  }
+
+  loadData().catch(err => {
+    document.getElementById('loading').style.display = 'none';
+    const e = document.getElementById('error');
+    e.style.display = 'block';
+    e.textContent = '데이터 로드 실패: ' + err.message;
+  });
+})();
+</script>
+</body>
+</html>

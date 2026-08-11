@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "version": 1,
+    "generatedAt": "2026-08-11",
+    "totalVideos": 14,
+    "totalChannels": 11,
+    "byType": {
+      "영상 요약": 8,
+      "기타": 2,
+      "담화 패턴 분석": 3,
+      "참가자 분석": 1
+    },
+    "byChannel": {
+      "미상": 4,
+      "Y Combinator": 1,
+      "Google Cloud X Solana Hackathon (공식)": 1,
+      "네이버 D2F 강남 (스토리브 구독)": 1,
+      "(추정) AI/로봇 컨퍼런스 세션": 1,
+      "AI 프론티어 (노정석, 최승준, 박종현)": 1,
+      "AI 프론티어": 1,
+      "에르이고": 1,
+      "소스놀이터": 1,
+      "전현준의 현업 에이전트": 1,
+      "천영록": 1
+    },
+    "byMonth": {
+      "2026-07": 11,
+      "2026-06": 3
+    }
+  },
+  "videos": [
+    {
+      "filename": "2026-07-31-elon-musk-economist-interview.md",
+      "title": "일론 머스크: \"인간 이제 5년 남았다\" — The Economist 인터뷰",
+      "videoUrl": "https://youtu.be/M0N-Hxgqi7I",
+      "channel": "",
+      "speaker": "",
+      "date": "2026-07-31",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "**AI가 약 5년 내 인류 지능 총합을 초과할 것이며, 10년 내에는 모든 직업을 더 잘 수행하게 될 것이다.** 이는 \"무한한 풍요의 시대\"를 가져오지만, 동시에 인류가 통제권을 잃는 특이점(Singularity)이기도 하다. 머스크는 \"멈출 수 없다면, 여정을 즐기라\"는 철학을 선택했다.",
+      "sections": [
+        "주요 내용",
+        "Daegu Agent Crew 인사이트",
+        "관련 링크"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-07-31-elon-musk-economist-interview.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/M0N-Hxgqi7I/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-07-30-boris-cherny-claude-code-prompt-yc.md",
+      "title": "Boris Cherny: We Cut 80% of Claude Code's Prompt —",
+      "videoUrl": "https://youtu.be/qyPCVqFUyDo",
+      "channel": "Y Combinator",
+      "speaker": "Boris Cherny (Anthropic, Claude Code 창시자)",
+      "date": "2026-07-30",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "모델이 충분히 똑똑해졌을 때, 가장 좋은 전략은 \"덜어내기\"다. 시스템 프롬프트, 도구, 코드를 삭제하고 모델이 스스로 할 수 있게 두면, 모델은 예상보다 훨씬 더 많은 일을 해낸다. \"product overhang\" — 모델의 잠재 능력을 제품이 가로막고 있는 상황 — 을 인식하고 해제(unhobble)하는 것이 차세대 제품 설계의 핵심이다.",
+      "sections": [
+        "주요 내용",
+        "Daegu Agent Crew에 대한 인사이트"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-07-30-boris-cherny-claude-code-prompt-yc.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/qyPCVqFUyDo/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-07-28-google-solana-agentic-hackathon.md",
+      "title": "Google Cloud X Solana AI Agentic Hackathon: Kickoff & Tech Session",
+      "videoUrl": "https://youtu.be/-DLXn0DtzHg",
+      "channel": "Google Cloud X Solana Hackathon (공식)",
+      "speaker": "",
+      "date": "2026-07-28",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "스테이블코인 제도화와 AI 에이전트가 결제를 직접 수행하는 시대가 맞물려 에이전트 커머스 시장이 열리고 있다. Google Cloud × Solana 해커톤은 이 최전선에서 실제로 동작하는 Solana 기반 에이전트 결제 프로덕트를 만드는 기회다.",
+      "sections": [
+        "주요 내용",
+        "우리 팀(Daegu Agent Crew)에 반영할 인사이트"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-07-28-google-solana-agentic-hackathon.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/-DLXn0DtzHg/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-07-24-madhyamaka-ai-agent-philosophy.md",
+      "title": "중관학파 시간론 → AI Agent 시대 철학",
+      "videoUrl": "https://youtu.be/JVRFwNY7XvE",
+      "channel": "",
+      "speaker": "",
+      "date": "2026-07-24",
+      "summarizer": "",
+      "type": "기타",
+      "coreMessage": "",
+      "sections": [
+        "영상 핵심 요약",
+        "AI Agent 시대에 적용할 수 있는 5원칙",
+        "한 줄 요약",
+        "원본 영상"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-07-24-madhyamaka-ai-agent-philosophy.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/JVRFwNY7XvE/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-07-16-icml-ralfathon-glossary.md",
+      "title": "ICML 2025 랄프톤(Ralfathon) 현장 인터뷰 — 용어·개념·워크플로우 정리",
+      "videoUrl": "https://youtu.be/l0ljwkQbYqw",
+      "channel": "네이버 D2F 강남 (스토리브 구독)",
+      "speaker": "",
+      "date": "2026-07-16",
+      "summarizer": "",
+      "type": "기타",
+      "coreMessage": "",
+      "sections": [
+        "행사 개요",
+        "1. 핵심 용어 & 개념",
+        "2. 워크플로우 정리",
+        "3. 등장 인물 & 소속",
+        "4. 핵심 인사이트",
+        "5. 관련 링크"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-07-16-icml-ralfathon-glossary.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/l0ljwkQbYqw/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-07-15-physical-ai-discourse-pattern-analysis.md",
+      "title": "피지컬 AI 토론 — 담화 패턴 구조 분석 (discourse-pattern-extractor)",
+      "videoUrl": "https://youtu.be/69k4XtQKuvM",
+      "channel": "",
+      "speaker": "",
+      "date": "2026-07-15",
+      "summarizer": "",
+      "type": "담화 패턴 분석",
+      "coreMessage": "",
+      "sections": [
+        "1. 사회자 (모더레이터)",
+        "2. 박종훈 (뉴로메카 대표)",
+        "3. 천홍석 (트위니 대표)",
+        "4. 김호정 (에이로봇 리더)",
+        "참여자 수준 비교 평가"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-07-15-physical-ai-discourse-pattern-analysis.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/69k4XtQKuvM/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-07-15-physical-ai-participant-analysis.md",
+      "title": "피지컬 AI 토론 — 참여자별 발언",
+      "videoUrl": "https://youtu.be/69k4XtQKuvM",
+      "channel": "",
+      "speaker": "",
+      "date": "2026-07-15",
+      "summarizer": "",
+      "type": "참가자 분석",
+      "coreMessage": "",
+      "sections": [
+        "1. 사회자 (모더레이터)",
+        "2. 박종훈 (뉴로메카 대표/창업자)",
+        "3. 천홍석 (트위니 대표)",
+        "4. 김호정 (에이로봇 리더)",
+        "참여자 간 견해 비교",
+        "종합 평가"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-07-15-physical-ai-participant-analysis.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/69k4XtQKuvM/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-07-15-physical-ai-rfm-future.md",
+      "title": "엔비디아 젠슨황도 뛰어든 피지컬 AI와 RFM의 미래 —",
+      "videoUrl": "https://youtu.be/69k4XtQKuvM",
+      "channel": "(추정) AI/로봇 컨퍼런스 세션",
+      "speaker": "",
+      "date": "2026-07-15",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "피지컬 AI는 로봇 산업의 패러다임을 자동화에서 자율화로 전환시키고 있으며, 한국은 제조업 기반과 데이터 확보 능력을 바탕으로 글로벌 로봇 생태계에서 독자적 생존 전략을 모색해야 한다.",
+      "sections": [
+        "주요 내용",
+        "우리 팀(Daegu Agent Crew)에 반영할 인사이트"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-07-15-physical-ai-rfm-future.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/69k4XtQKuvM/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-07-13-ep103-choi-seungjun-analysis.md",
+      "title": "EP 103. 이해가 병목이 될 때 - 최승준 사고",
+      "videoUrl": "https://youtu.be/PYpRfmwo92E",
+      "channel": "AI 프론티어 (노정석, 최승준, 박종현)",
+      "speaker": "최승준",
+      "date": "2026-07-13",
+      "summarizer": "",
+      "type": "담화 패턴 분석",
+      "coreMessage": "",
+      "sections": [
+        "최승준의 사고 패턴",
+        "종합: 최승준이 중시하는 것",
+        "한 문장"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-07-13-ep103-choi-seungjun-analysis.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/PYpRfmwo92E/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-07-12-deepseek-go-suk-hyun-analysis.md",
+      "title": "EP 40. DeepSeek의 진실 파헤치기 + AI로 돈버는 사업기획 이야기 (고석현 대표)",
+      "videoUrl": "https://youtu.be/JjoGi_sAa5M",
+      "channel": "AI 프론티어",
+      "speaker": "고석현 (사이오닉 대표)",
+      "date": "2026-07-12",
+      "summarizer": "",
+      "type": "담화 패턴 분석",
+      "coreMessage": "",
+      "sections": [
+        "핵심 내용",
+        "고석현 대표 사고 패턴 분석 (discourse-pattern-extractor)"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-07-12-deepseek-go-suk-hyun-analysis.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/JjoGi_sAa5M/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-07-06-claude-design-brand-system.md",
+      "title": "하나의 브랜드, 디자인 시스템으로 앱부터 피칭덱, 랜딩 페이지, 카드 뉴스까지 전부! 만들어봅니다",
+      "videoUrl": "https://youtu.be/gpfk4Lk9J94",
+      "channel": "에르이고",
+      "speaker": "",
+      "date": "2026-07-06",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "Claude Design을 활용해 하나의 브랜드 가이드라인을 뿌리로 삼아, 디자인 시스템 → 앱 프로토타입 → 랜딩 페이지 → 피칭덱 → 카드뉴스까지 일관된 톤앤매너로 제작하는 전체 워크플로우를 보여주는 튜토리얼.",
+      "sections": [
+        "주요 내용",
+        "인사이트 (대구 에이전트 크루 적용)"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-07-06-claude-design-brand-system.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/gpfk4Lk9J94/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-06-20-gpt-image2-webtoon-analysis.md",
+      "title": "GPT 이미지 2.0 웹툰 자동화 시연",
+      "videoUrl": "https://youtu.be/cOKrWxr5Er8",
+      "channel": "소스놀이터",
+      "speaker": "",
+      "date": "2026-06-20",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "GPT 이미지 2.0은 한국어 텍스트 렌더링이 완벽하여 웹툰 제작 자동화가 가능해졌다. Codex CLI를 활용하면 등장인물 일관성 유지, 스토리 생성, 이미지 생성, 웹툰 뷰어 제작까지 전 과정을 자동화할 수 있다.",
+      "sections": [
+        "주요 내용",
+        "삼체 연재 만화 프로젝트에 반영할 사항"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-06-20-gpt-image2-webtoon-analysis.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/cOKrWxr5Er8/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-06-20-llm-wiki-vs-rag-realworld.md",
+      "title": "언제까지 AI에게 매번 같은 설명을 다시 해야할까? | 현업이 알려주는 LLM Wiki (Feat. RAG와의 차이)",
+      "videoUrl": "https://youtu.be/4XBofMHVyyc",
+      "channel": "전현준의 현업 에이전트",
+      "speaker": "",
+      "date": "2026-06-20",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "LLM Wiki는 RAG와 달리 쿼리 타임(검색 시점)이 아닌 라이트 타임(작성 시점)에 문서를 컴파일·연결하여 지식 그래프를 구성하는 방식이다. 마크다운 + Git + Obsidian으로 팀 지식 저장소를 운영하다가, 문서 폭발 증가 문제를 겪고 OpenWebSearch(오픈바이킹) 기반 RAG 시스템을 추가 도입하여 해결한 실전 사례.",
+      "sections": [
+        "주요 내용",
+        "우리 팀(Daegu Agent Crew)에 반영할 인사이트"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-06-20-llm-wiki-vs-rag-realworld.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/4XBofMHVyyc/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-06-19-ai-business-strategy.md",
+      "title": "AI 시대 10배 성장할 사업 변화 전략",
+      "videoUrl": "https://youtu.be/5jG9qLe8G8M",
+      "channel": "천영록",
+      "speaker": "",
+      "date": "2026-06-19",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "AI 도입을 '기존 업무 자동화'가 아니라 **'고객 가치 창출'** 관점에서 접근해야 한다.\n> \"세상에 제일 쓸데없는 일은 불필요한 일을 효율적으로 하는 것\" — 피터 드러커",
+      "sections": [
+        "주요 내용",
+        "전략 프레임워크 요약",
+        "우리 팀(Daegu Agent Crew)에 반영할 인사이트"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-06-19-ai-business-strategy.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/5jG9qLe8G8M/mqdefault.jpg"
+    }
+  ]
+}
