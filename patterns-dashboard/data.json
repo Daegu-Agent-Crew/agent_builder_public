@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "version": 1,
+    "generatedAt": "2026-08-11",
+    "totalPatterns": 29,
+    "totalFrequency": 86,
+    "totalAnalyses": 6,
+    "totalSpeakers": 7,
+    "byCategory": {
+      "cognitive": 11,
+      "rhetorical": 9,
+      "value": 6,
+      "expressive": 3
+    }
+  },
+  "categories": [
+    {
+      "id": "cognitive",
+      "name": "인지 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "icon": "🧠"
+    },
+    {
+      "id": "rhetorical",
+      "name": "수사 패턴",
+      "prefix": "R",
+      "color": "#10b981",
+      "icon": "🎭"
+    },
+    {
+      "id": "value",
+      "name": "가치 패턴",
+      "prefix": "V",
+      "color": "#f59e0b",
+      "icon": "⚖️"
+    },
+    {
+      "id": "expressive",
+      "name": "표현 패턴",
+      "prefix": "E",
+      "color": "#ef4444",
+      "icon": "✨"
+    }
+  ],
+  "patterns": [
+    {
+      "code": "C-01",
+      "name": "역사적 맥락화",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 5,
+      "description": "현재 사안을 과거 전환기의 연장선에 위치지어 의미를 부여. \"처음이다\"가 아니라 \"N년 주기의 같은 패턴\"으로 프레이밍.",
+      "isNew": false
+    },
+    {
+      "code": "C-02",
+      "name": "층위 분해",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 3,
+      "description": "복잡한 문제를 상보적 두 층(내부/외부, 모델/시스템, 능력/피드백)으로 나누고, 층 간 상호작용으로 전체를 이해.",
+      "isNew": false
+    },
+    {
+      "code": "C-03",
+      "name": "본질 인과 환원",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 4,
+      "description": "여러 원인이 제안될 때, 가장 근본적인 하나로 환원하여 우선순위를 정리.",
+      "isNew": false
+    },
+    {
+      "code": "C-04",
+      "name": "자기 적용 정직성",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 5,
+      "description": "자신의 방법론을 자신에게 동일하게 적용하고, 괴리를 숨기지 않음.",
+      "isNew": false
+    },
+    {
+      "code": "C-05",
+      "name": "인과 사슬 끝까지 추적",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 3,
+      "description": "표면 현상에서 시작해 아래로 파고들어, 최종 물리적 병목에 도달할 때까지 인과 사슬을 따라감. 환원(C-03)이 아니라 추적.",
+      "isNew": false
+    },
+    {
+      "code": "C-06",
+      "name": "양극 구도 프레이밍",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 5,
+      "description": "시스템을 두 힘의 대립과 이동으로 설명. 단일 요소 분석이 아니라 힘의 균형/이동이 분석 단위.",
+      "isNew": false
+    },
+    {
+      "code": "C-07",
+      "name": "유추적 정당화",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 2,
+      "description": "이미 사회적으로 수용된 대상에 유추하여 새 현상의 의미를 입증 또는 해독. 직관적 설득력이 높음.",
+      "isNew": true
+    },
+    {
+      "code": "C-08",
+      "name": "전환점 압축 명제",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 1,
+      "description": "복잡한 논증을 짧은 일상어로 결산. 학술어가 아닌 생활어(시시하다, 게임이 안 되죠)로 청자의 체화를 유도.",
+      "isNew": true
+    },
+    {
+      "code": "C-09",
+      "name": "삭제 기반 발견",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 1,
+      "description": "추가가 아니라 삭제로 출발. 전부 지워보고 작동하는지 확인한 뒤, 필요한 것만 되돌림. 전통 공학의 \"추가 설계\"와 정반대.",
+      "isNew": true
+    },
+    {
+      "code": "C-10",
+      "name": "극단 시나리오 단정",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 1,
+      "description": "양극을 분석하지 않고 한 극단을 '가장 유력'으로 단정. C-06(양극 구도)의 변형이나, 양극 사이의 긴장을 분석하는 것이 아니라 한 쪽을 예측으로 확정.",
+      "isNew": true
+    },
+    {
+      "code": "C-11",
+      "name": "불가항력 프레이밍",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 1,
+      "description": "기술 발전을 불가역적 자연법칙으로 프레이밍. 저항=비합리적, 수용=합리적 이항 구조. V-04(기술낙관적 한계 인식)의 극단적 형태.",
+      "isNew": true
+    },
+    {
+      "code": "R-01",
+      "name": "일화 → 원칙 추출",
+      "category": "rhetorical",
+      "categoryName": "R 패턴",
+      "prefix": "R",
+      "color": "#10b981",
+      "frequency": 7,
+      "description": "구체적 사건을 먼저 말한 뒤, 그 안에서 일반 원칙을 끄집어냄. 추상부터 시작하지 않음.",
+      "isNew": false
+    },
+    {
+      "code": "R-02",
+      "name": "프레임 재설정",
+      "category": "rhetorical",
+      "categoryName": "R 패턴",
+      "prefix": "R",
+      "color": "#10b981",
+      "frequency": 6,
+      "description": "질문의 숨은 전제가 틀리면 부정하지 않고, 더 정확한 프레임을 제시하여 방향을 수정.",
+      "isNew": false
+    },
+    {
+      "code": "R-03",
+      "name": "프레임워크→사례 짝짓기",
+      "category": "rhetorical",
+      "categoryName": "R 패턴",
+      "prefix": "R",
+      "color": "#10b981",
+      "frequency": 3,
+      "description": "번호가 매겨진 프레임워크를 제시한 뒤, 곧바로 구체적 사례로 검증.",
+      "isNew": false
+    },
+    {
+      "code": "R-04",
+      "name": "이름 붙이기",
+      "category": "rhetorical",
+      "categoryName": "R 패턴",
+      "prefix": "R",
+      "color": "#10b981",
+      "frequency": 4,
+      "description": "반복되는 인지 행위에 이름을 붙여 재사용 가능하게 만듦.",
+      "isNew": false
+    },
+    {
+      "code": "R-05",
+      "name": "질문으로 사고 지형 열기",
+      "category": "rhetorical",
+      "categoryName": "R 패턴",
+      "prefix": "R",
+      "color": "#10b981",
+      "frequency": 3,
+      "description": "답이 아니라 \"어떤 차원에서 생각해야 하는가\"를 묻는 질문을 던져, 공동 사고의 프레임을 설정. 질문 자체가 분석 도구.",
+      "isNew": false
+    },
+    {
+      "code": "R-06",
+      "name": "실물 증거 제시",
+      "category": "rhetorical",
+      "categoryName": "R 패턴",
+      "prefix": "R",
+      "color": "#10b981",
+      "frequency": 2,
+      "description": "논리적 반박 대신 물리적 증거를 직접 제시하여 추상적 논쟁을 경험적 사실로 전환.",
+      "isNew": true
+    },
+    {
+      "code": "R-07",
+      "name": "보편적 부정 후 조건부 긍정",
+      "category": "rhetorical",
+      "categoryName": "R 패턴",
+      "prefix": "R",
+      "color": "#10b981",
+      "frequency": 2,
+      "description": "상대의 주장을 전면 부정한 뒤, 자기 프레임 안에서 제한적으로 인정.",
+      "isNew": true
+    },
+    {
+      "code": "R-08",
+      "name": "자기 실천 제시",
+      "category": "rhetorical",
+      "categoryName": "R 패턴",
+      "prefix": "R",
+      "color": "#10b981",
+      "frequency": 1,
+      "description": "'이렇게 하라'는 권고가 아닌 '나는 이렇게 한다'는 자기 체험 공개로 설득. C-04(자기 적용 정직성)의 실천적 발현.",
+      "isNew": true
+    },
+    {
+      "code": "R-09",
+      "name": "반박 무효화 선언",
+      "category": "rhetorical",
+      "categoryName": "R 패턴",
+      "prefix": "R",
+      "color": "#10b981",
+      "frequency": 1,
+      "description": "논리 반박이 아니라 \"nonsense/false/틀렸다\" 선언으로 논의 종료. CZ의 R-02(프레임 재설정)와 달리 재설정이 아니라 부정으로 종결.",
+      "isNew": true
+    },
+    {
+      "code": "V-01",
+      "name": "안전/신뢰 = 인에이블러",
+      "category": "value",
+      "categoryName": "V 패턴",
+      "prefix": "V",
+      "color": "#f59e0b",
+      "frequency": 4,
+      "description": "안전이나 신뢰를 비용·제약이 아니라, 더 많은 것을 가능하게 하는 조건으로 프레이밍.",
+      "isNew": false
+    },
+    {
+      "code": "V-02",
+      "name": "장기 게임 우선",
+      "category": "value",
+      "categoryName": "V 패턴",
+      "prefix": "V",
+      "color": "#f59e0b",
+      "frequency": 3,
+      "description": "단기 최적화와 장기 축적이 충돌할 때, 항상 장기를 선택.",
+      "isNew": false
+    },
+    {
+      "code": "V-03",
+      "name": "심리 중심주의",
+      "category": "value",
+      "categoryName": "V 패턴",
+      "prefix": "V",
+      "color": "#f59e0b",
+      "frequency": 3,
+      "description": "모든 결정을 최종 수용자의 인지 과정을 통해 평가.",
+      "isNew": false
+    },
+    {
+      "code": "V-04",
+      "name": "기술낙관적 한계 인식",
+      "category": "value",
+      "categoryName": "V 패턴",
+      "prefix": "V",
+      "color": "#f59e0b",
+      "frequency": 3,
+      "description": "물리적/공학적 한계를 정확히 인식하되, 결국 인간이나 기술이 그 한계를 돌파할 것이라는 입장. 한계 인식과 돌파 확신의 공존.",
+      "isNew": false
+    },
+    {
+      "code": "V-05",
+      "name": "실용적 보편주의",
+      "category": "value",
+      "categoryName": "V 패턴",
+      "prefix": "V",
+      "color": "#f59e0b",
+      "frequency": 2,
+      "description": "이념적 정의보다 실제 사용자 경험을 우선. \"무엇인가\"보다 \"무엇을 하느냐\"가 가치를 결정.",
+      "isNew": true
+    },
+    {
+      "code": "V-06",
+      "name": "관계적 존재론",
+      "category": "value",
+      "categoryName": "V 패턴",
+      "prefix": "V",
+      "color": "#f59e0b",
+      "frequency": 1,
+      "description": "대상의 본질보다 관계의 질이 가치를 결정. 존재론적 실용주의의 확장 — \"무엇\"이 아니라 \"어떤 관계\"가 핵심.",
+      "isNew": true
+    },
+    {
+      "code": "E-01",
+      "name": "자기 성찬 즉시 완료",
+      "category": "expressive",
+      "categoryName": "E 패턴",
+      "prefix": "E",
+      "color": "#ef4444",
+      "frequency": 3,
+      "description": "발화가 \"생각하는 과정\"이 아니라 \"이미 검토된 결론의 압축 해제\". 말하기 전에 이미 자기 검토를 끝냄.",
+      "isNew": false
+    },
+    {
+      "code": "E-02",
+      "name": "청자 이해도 보정 압축",
+      "category": "expressive",
+      "categoryName": "E 패턴",
+      "prefix": "E",
+      "color": "#ef4444",
+      "frequency": 4,
+      "description": "상대의 지식 수준을 고려해 적절한 추상화 단계에서 끊음. 기술 디테일을 청자가 이해할 수 있는 구체적 이미지로 번역.",
+      "isNew": false
+    },
+    {
+      "code": "E-03",
+      "name": "고밀도 압축 발화",
+      "category": "expressive",
+      "categoryName": "E 패턴",
+      "prefix": "E",
+      "color": "#ef4444",
+      "frequency": 3,
+      "description": "한 문장에 정보·판단·전제·뉘앙스가 동시에 들어감. 군더더기 없음.",
+      "isNew": false
+    }
+  ],
+  "speakers": [
+    {
+      "name": "노정석",
+      "strengths": "C-01, C-05, C-06, E-01, E-03",
+      "weaknesses": "— (현재까지 약점 미관찰)"
+    },
+    {
+      "name": "보리스 체르니",
+      "strengths": "C-01, C-02, C-04, E-02",
+      "weaknesses": "—"
+    },
+    {
+      "name": "제이 알토",
+      "strengths": "R-01, R-03, R-04, V-02, V-03",
+      "weaknesses": "C-04 (자기 적용 결여)"
+    },
+    {
+      "name": "CZ",
+      "strengths": "C-02, C-06, C-07, R-01, R-02, R-05, R-06, V-04, V-05, E-02, E-03",
+      "weaknesses": "C-07 약점(유추의 한계), R-02 남용(정도→종류 회피)"
+    },
+    {
+      "name": "Peter Schiff",
+      "strengths": "C-01, C-03, C-05, C-06, R-01~R-04, R-07, V-01~V-03, E-01, E-03",
+      "weaknesses": "전략적 경직(★☆☆☆☆ 유연성)"
+    },
+    {
+      "name": "고미숙",
+      "strengths": "C-01, C-02, C-03, C-04, C-05, C-06, C-07, C-08, R-01~R-08, V-01~V-06, E-01, E-02, E-03",
+      "weaknesses": "근원 환원 후 구체적 제도 설계로의 다리 약함; 실천이 개인 수준에 머묾"
+    },
+    {
+      "name": "일론 머스크",
+      "strengths": "C-03, C-04(선택적), C-06, C-10(후보), C-11(후보), R-01, R-02, R-09(후보)",
+      "weaknesses": "C-04 약점(행위 결과 부정); E-02 약함(청자 반박 무시); C-05 부재(사슬 추적 안 함)"
+    }
+  ],
+  "analyses": [
+    {
+      "id": "ep108-photonics",
+      "date": "2026-08-09",
+      "title": "EP108 실리콘 포토닉스 — 노정석·박준우·김태환",
+      "source": "",
+      "speaker": "노정석·박준우·김태환",
+      "type": "담화 패턴",
+      "file": "2026-08-09-ep108-silicon-photonics-discourse-analysis.md",
+      "scores": {
+        "노정석": 4.2,
+        "박준우": 4.2,
+        "김태환": 4.8
+      },
+      "exists": true
+    },
+    {
+      "id": "elon-musk-economist",
+      "date": "2026-07-31",
+      "title": "일론 머스크 — The Economist 인터뷰",
+      "source": "https://youtu.be/M0N-Hxgqi7I",
+      "speaker": "일론 머스크",
+      "type": "담화 패턴",
+      "file": "2026-07-31-elon-musk-economist-interview.md",
+      "exists": true
+    },
+    {
+      "id": "boris-cherny-yc",
+      "date": "2026-07-30",
+      "title": "Boris Cherny — Claude Code 프롬프트 80% 삭제",
+      "source": "https://youtu.be/qyPCVqFUyDo",
+      "speaker": "보리스 체르니",
+      "type": "담화 패턴",
+      "file": "2026-07-30-boris-cherny-claude-code-prompt-yc.md",
+      "exists": true
+    },
+    {
+      "id": "physical-ai-debate",
+      "date": "2026-07-15",
+      "title": "피지컬 AI 토론 — 박종훈·천홍석·김호정",
+      "source": "https://youtu.be/69k4XtQKuvM",
+      "speaker": "다자 (사회자·박종훈·천홍석·김호정)",
+      "type": "담화 패턴",
+      "file": "2026-07-15-physical-ai-discourse-pattern-analysis.md",
+      "exists": true
+    },
+    {
+      "id": "ep103-choi-seungjun",
+      "date": "2026-07-13",
+      "title": "EP103 최승준 — 사고 패턴 분석",
+      "source": "https://youtu.be/PYpRfmwo92E",
+      "speaker": "최승준",
+      "type": "사고 패턴",
+      "file": "2026-07-13-ep103-choi-seungjun-analysis.md",
+      "exists": true
+    },
+    {
+      "id": "deepseek-sukhyun",
+      "date": "2026-07-12",
+      "title": "석현 대표 — DeepSeek 진실 + AI 사업기획",
+      "source": "https://youtu.be/JjoGi_sAa5M",
+      "speaker": "고석현",
+      "type": "영상 요약",
+      "file": "2026-07-12-deepseek-go-suk-hyun-analysis.md",
+      "exists": true
+    }
+  ]
+}
