@@ -13,12 +13,14 @@
   <header class="site-header">
     <div class="header-inner">
       <a href="../dashboard/" class="logo">📋 패턴 분석</a>
-      <nav class="desktop-nav">
+      <button class="menu-toggle" id="menuToggle" aria-label="메뉴">☰</button>
+      <nav class="desktop-nav" id="mainNav">
         <a href="#overview">개요</a>
         <a href="#catalog">패턴 카탈로그</a>
         <a href="#timeline">분석 히스토리</a>
         <a href="#speakers">화자 지형</a>
-        <a href="../dashboard/" style="font-size:.8rem;font-weight:600;padding:4px 12px;border-radius:20px;background:var(--accent-bg);color:var(--accent);">팀 대시보드 →</a>
+        <a href="../youtube-dashboard/" class="nav-badge red">📺 영상 요약 →</a>
+        <a href="../dashboard/" class="nav-badge blue">📋 팀 대시보드 →</a>
       </nav>
     </div>
   </header>
@@ -192,6 +194,22 @@
     e.style.display = 'block';
     e.textContent = '데이터 로드 실패: ' + err.message;
   });
+
+  // Mobile menu toggle
+  var btn = document.getElementById('menuToggle');
+  var nav = document.getElementById('mainNav');
+  if(btn && nav) {
+    btn.addEventListener('click', function() {
+      nav.classList.toggle('open');
+      btn.textContent = nav.classList.contains('open') ? '✕' : '☰';
+    });
+    nav.addEventListener('click', function(e) {
+      if(e.target.tagName === 'A') {
+        nav.classList.remove('open');
+        btn.textContent = '☰';
+      }
+    });
+  }
 
 })();
 </script>

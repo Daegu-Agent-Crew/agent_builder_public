@@ -15,7 +15,8 @@
       <a href="https://daegu-agent-crew.github.io/agent_builder_public/" class="logo">
         📋 팀 대시보드
       </a>
-      <nav class="desktop-nav">
+      <button class="menu-toggle" id="menuToggle" aria-label="메뉴">☰</button>
+      <nav class="desktop-nav" id="mainNav">
         <a href="#overview">개요</a>
         <a href="#activity">활동</a>
         <a href="#repositories">리포</a>
@@ -26,9 +27,9 @@
         <a href="#decisions">결정 로그</a>
         <a href="#members">멤버</a>
         <a href="#records">기록</a>
-        <a href="../youtube-dashboard/" style="display:inline-flex;align-items:center;gap:4px;font-size:0.8rem;font-weight:600;padding:4px 12px;border-radius:20px;background:#fef2f2;color:#991b1b;">📺 영상 요약 →</a>
-        <a href="../patterns-dashboard/" style="display:inline-flex;align-items:center;gap:4px;font-size:0.8rem;font-weight:600;padding:4px 12px;border-radius:20px;background:#f0fdf4;color:#166534;">🧩 패턴 분석 →</a>
-        <a href="../tasks-dashboard/" style="display:inline-flex;align-items:center;gap:4px;font-size:0.8rem;font-weight:600;padding:4px 12px;border-radius:20px;background:var(--accent-bg);color:var(--accent);">🎯 미션 대시보드 →</a>
+        <a href="../youtube-dashboard/" class="nav-badge red">📺 영상 요약 →</a>
+        <a href="../patterns-dashboard/" class="nav-badge green">🧩 패턴 분석 →</a>
+        <a href="../tasks-dashboard/" class="nav-badge blue">🎯 미션 대시보드 →</a>
       </nav>
     </div>
   </header>
@@ -140,5 +141,24 @@
   </footer>
 
   <script src="dashboard.js"></script>
+  <script>
+    // Mobile menu toggle
+    (function(){
+      var btn = document.getElementById('menuToggle');
+      var nav = document.getElementById('mainNav');
+      if(btn && nav) {
+        btn.addEventListener('click', function() {
+          nav.classList.toggle('open');
+          btn.textContent = nav.classList.contains('open') ? '✕' : '☰';
+        });
+        nav.addEventListener('click', function(e) {
+          if(e.target.tagName === 'A') {
+            nav.classList.remove('open');
+            btn.textContent = '☰';
+          }
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

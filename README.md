@@ -18,6 +18,9 @@
 |------|------|------|
 | 📋 태스크 관리 | [`tasks/`](./tasks/) | AB-N 네이밍, GOAL/PLAN/STATUS/TESTS 4문서 관리 |
 | 🧠 team-memory | [`context/`](./context/) | records → registry → wiki 메모리 파이프라인 |
+| 📋 팀 대시보드 | [dashboard/](./dashboard/) | 프로젝트, 태스크, 결정 로그, 팀 현황 — [바로가기](https://daegu-agent-crew.github.io/agent_builder_public/dashboard/) |
+| 📺 영상 요약 | [youtube-dashboard/](./youtube-dashboard/) | 유튜브 영상 요약 아카이브 — [바로가기](https://daegu-agent-crew.github.io/agent_builder_public/youtube-dashboard/) |
+| 🧩 패턴 분석 | [patterns-dashboard/](./patterns-dashboard/) | 담화·사고 패턴 카탈로그, 화자 지형 — [바로가기](https://daegu-agent-crew.github.io/agent_builder_public/patterns-dashboard/) |
 | 📊 미션 대시보드 | [`tasks-dashboard/`](./tasks-dashboard/) | 스터디 현황, 미션 추적, 멤버 현황 SPA |
 | 📚 Starter Kit 가이드 | [`starter-kit/`](./starter-kit/) | Obsidian + Claude Code 팀 운영 시스템 |
 | 📝 이슈 템플릿 | [`.github/ISSUE_TEMPLATE/`](./.github/ISSUE_TEMPLATE/) | 미션 제출용, 개선 제안용 |
