@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-12T12:47:05Z",
-  "since": "2026-07-13T12:46:32Z",
+  "generated": "2026-08-12T18:46:11Z",
+  "since": "2026-07-13T18:45:37Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 208,
+      "open_issues": 209,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-12T09:47:34Z",
-      "pushed_at": "2026-08-12T09:47:27Z",
+      "updated_at": "2026-08-12T17:33:11Z",
+      "pushed_at": "2026-08-12T17:32:05Z",
       "recent_commits": [
+        {
+          "sha": "1103696",
+          "message": "fix(dashboard): restore dashboard.json data + add empty-data guard",
+          "author": "daeguru",
+          "date": "2026-08-12T17:31:57Z"
+        },
+        {
+          "sha": "b88714d",
+          "message": "chore: update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-08-12T12:47:26Z"
+        },
         {
           "sha": "9e10eac",
           "message": "chore: update dashboard.json and github-activity.json",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json [auto]",
           "author": "daeguru",
           "date": "2026-08-12T00:46:16Z"
-        },
-        {
-          "sha": "b0d6766",
-          "message": "chore(dashboard): update dashboard.json & github-activity.json 2026-08-11T18:47:00Z",
-          "author": "daeguru",
-          "date": "2026-08-11T18:47:00Z"
-        },
-        {
-          "sha": "b0a3b85",
-          "message": "📊 dashboard: update github-activity & dashboard.json (2026-08-12 00:44 KST)",
-          "author": "daeguru",
-          "date": "2026-08-11T15:46:49Z"
         }
       ],
       "recent_prs": [
@@ -401,9 +401,15 @@
       "private": false,
       "open_issues": 3,
       "open_prs": 1,
-      "updated_at": "2026-06-17T20:44:43Z",
-      "pushed_at": "2026-07-08T19:36:54Z",
+      "updated_at": "2026-08-12T18:35:32Z",
+      "pushed_at": "2026-08-12T18:35:22Z",
       "recent_commits": [
+        {
+          "sha": "8186416",
+          "message": "fix: add empty-data guard to memory-dashboard (#9)",
+          "author": "sfex11",
+          "date": "2026-08-12T18:35:22Z"
+        },
         {
           "sha": "db22ae8",
           "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#1)",
@@ -427,15 +433,17 @@
           "message": "docs: add team intent design notes",
           "author": "Normalist-K",
           "date": "2026-06-10T14:03:04Z"
-        },
-        {
-          "sha": "a85f2d0",
-          "message": "feat: memory-dashboard command and tm-dashboard skill",
-          "author": "Normalist-K",
-          "date": "2026-06-10T13:58:02Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 9,
+          "title": "fix: add empty-data guard to memory-dashboard",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-08-12T18:35:23Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/9"
+        },
         {
           "number": 8,
           "title": "feat: 구현 전 패턴 (블라인드 스팟 / 브레인스토밍 / 인터뷰) 추가",
@@ -451,14 +459,6 @@
           "state": "closed",
           "updated_at": "2026-06-17T20:44:42Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/1"
-        },
-        {
-          "number": 5,
-          "title": "feat: support Claude Code alongside Codex",
-          "author": "junteken",
-          "state": "closed",
-          "updated_at": "2026-06-17T20:44:39Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/5"
         }
       ]
     },
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-12T09:47:45Z",
-      "pushed_at": "2026-08-12T09:47:16Z",
+      "updated_at": "2026-08-12T18:35:25Z",
+      "pushed_at": "2026-08-12T18:35:20Z",
       "recent_commits": [
+        {
+          "sha": "b2f5813",
+          "message": "fix: add empty-data guard to memory-dashboard (#14)",
+          "author": "sfex11",
+          "date": "2026-08-12T18:35:20Z"
+        },
         {
           "sha": "0dbaa5d",
           "message": "chore: update dashboard.json (members fix)",
@@ -494,15 +500,17 @@
           "message": "📋 update wiki (2026-08-11T00:45Z)",
           "author": "daeguru",
           "date": "2026-08-11T00:46:25Z"
-        },
-        {
-          "sha": "2fa97c9",
-          "message": "📋 update dashboard.json (members fixed, 2026-08-10T15:47:22Z)",
-          "author": "daeguru",
-          "date": "2026-08-10T15:47:22Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 14,
+          "title": "fix: add empty-data guard to memory-dashboard",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-08-12T18:35:20Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/14"
+        },
         {
           "number": 13,
           "title": "feat: 문제해결 전략 패턴 P-01~P-08 추가 (리만 제타 사례)",
@@ -518,14 +526,6 @@
           "state": "closed",
           "updated_at": "2026-07-27T23:29:17Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/12"
-        },
-        {
-          "number": 11,
-          "title": "fix: Termux shebang → portable (CI 45일간 사망 원인)",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-07-27T23:22:42Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/11"
         }
       ]
     },
@@ -599,6 +599,62 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "team-memory-kit",
+      "author": "sfex11",
+      "message": "fix: add empty-data guard to memory-dashboard",
+      "number": 9,
+      "state": "closed",
+      "date": "2026-08-12T18:35:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/9"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory-kit",
+      "author": "sfex11",
+      "message": "fix: add empty-data guard to memory-dashboard (#9)",
+      "sha": "8186416",
+      "date": "2026-08-12T18:35:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/8186416c20d575ac511c2e76ca2612eb1bed23b3"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "fix: add empty-data guard to memory-dashboard",
+      "number": 14,
+      "state": "closed",
+      "date": "2026-08-12T18:35:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/14"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "fix: add empty-data guard to memory-dashboard (#14)",
+      "sha": "b2f5813",
+      "date": "2026-08-12T18:35:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b2f58136eb144b8ef7784c0c14d12998cd9794ae"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "fix(dashboard): restore dashboard.json data + add empty-data guard",
+      "sha": "1103696",
+      "date": "2026-08-12T17:31:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1103696cabeaf025960d9e097946b037f43ee659"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard.json and github-activity.json",
+      "sha": "b88714d",
+      "date": "2026-08-12T12:47:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b88714d819a5fa9c766ef17e36fd4ad0b7722667"
+    },
+    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -651,24 +707,6 @@
       "sha": "7b02c01",
       "date": "2026-08-11T23:14:07Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/7b02c01371073d53bc60792783b9b5d02ff25025"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json & github-activity.json 2026-08-11T18:47:00Z",
-      "sha": "b0d6766",
-      "date": "2026-08-11T18:47:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b0d67665c8e3ce6a99dcfac744318407f7e22b2a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 dashboard: update github-activity & dashboard.json (2026-08-12 00:44 KST)",
-      "sha": "b0a3b85",
-      "date": "2026-08-11T15:46:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b0a3b85345108937c87a09302201d34688ea45aa"
     },
     {
       "type": "commit",
@@ -733,15 +771,6 @@
       "sha": "9b16fbb",
       "date": "2026-08-10T23:04:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/9b16fbb1c863f373ec5e5412688f9cbe409b2fcc"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "📋 update dashboard.json (members fixed, 2026-08-10T15:47:22Z)",
-      "sha": "2fa97c9",
-      "date": "2026-08-10T15:47:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2fa97c9be9ef7cdee91ca6eaeb7e92c73a62efae"
     },
     {
       "type": "commit",
@@ -905,16 +934,6 @@
     },
     {
       "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "fix: Termux shebang → portable (CI 45일간 사망 원인)",
-      "number": 11,
-      "state": "closed",
-      "date": "2026-07-27T23:22:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/11"
-    },
-    {
-      "type": "pr",
       "repo": "agent_builder_public",
       "author": "sfex11",
       "message": "feat: project detail page — click project card to see details",
@@ -1011,16 +1030,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/db22ae82acc0281400cfe61353ebaee9f4d822eb"
     },
     {
-      "type": "pr",
-      "repo": "team-memory-kit",
-      "author": "junteken",
-      "message": "feat: support Claude Code alongside Codex",
-      "number": 5,
-      "state": "closed",
-      "date": "2026-06-17T20:44:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/5"
-    },
-    {
       "type": "commit",
       "repo": "team-memory-kit",
       "author": "junteken",
@@ -1055,43 +1064,62 @@
       "sha": "0a79063",
       "date": "2026-06-10T14:03:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/0a79063dbe3117c12756f9374ff44437032bad02"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory-kit",
-      "author": "Normalist-K",
-      "message": "feat: memory-dashboard command and tm-dashboard skill",
-      "sha": "a85f2d0",
-      "date": "2026-06-10T13:58:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/a85f2d0e94a849d01f608a61b24683e27869fbce"
     }
   ],
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 15,
-      "prs": 15,
+      "commits": 17,
+      "prs": 16,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 11,
+      "commits": 10,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "Normalist-K",
-      "commits": 6,
+      "commits": 5,
       "prs": 2,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "junteken",
+      "login": "renover",
       "commits": 1,
-      "prs": 1,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "segeul",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "Epilo9er",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "juntaek-lee",
+      "commits": 0,
+      "prs": 0,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "GAKA-Art",
+      "commits": 0,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
@@ -1103,14 +1131,7 @@
       "reviews": 0
     },
     {
-      "login": "eugene",
-      "commits": 0,
-      "prs": 0,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "juntaek-lee",
+      "login": "jjjjjjjjj",
       "commits": 0,
       "prs": 0,
       "issues": 0,
