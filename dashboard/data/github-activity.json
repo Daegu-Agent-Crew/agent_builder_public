@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-12T09:46:50Z",
-  "since": "2026-07-13T09:46:18Z",
+  "generated": "2026-08-12T12:47:05Z",
+  "since": "2026-07-13T12:46:32Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 207,
+      "open_issues": 208,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-12T06:48:26Z",
-      "pushed_at": "2026-08-12T06:48:22Z",
+      "updated_at": "2026-08-12T09:47:34Z",
+      "pushed_at": "2026-08-12T09:47:27Z",
       "recent_commits": [
+        {
+          "sha": "9e10eac",
+          "message": "chore: update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-08-12T09:47:26Z"
+        },
         {
           "sha": "6943d93",
           "message": "chore: update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "📊 dashboard: update github-activity & dashboard.json (2026-08-12 00:44 KST)",
           "author": "daeguru",
           "date": "2026-08-11T15:46:49Z"
-        },
-        {
-          "sha": "9098cf9",
-          "message": "fix: mobile hamburger menu for all dashboards + README dashboard links",
-          "author": "daeguru",
-          "date": "2026-08-11T14:22:13Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-11T14:01:27Z",
-      "pushed_at": "2026-08-11T13:59:25Z",
+      "updated_at": "2026-08-12T09:47:45Z",
+      "pushed_at": "2026-08-12T09:47:16Z",
       "recent_commits": [
+        {
+          "sha": "0dbaa5d",
+          "message": "chore: update dashboard.json (members fix)",
+          "author": "daeguru",
+          "date": "2026-08-12T09:47:15Z"
+        },
         {
           "sha": "bb665b9",
           "message": "feat: add dashboard data regeneration step to both skills",
@@ -494,12 +500,6 @@
           "message": "📋 update dashboard.json (members fixed, 2026-08-10T15:47:22Z)",
           "author": "daeguru",
           "date": "2026-08-10T15:47:22Z"
-        },
-        {
-          "sha": "df4a3b8",
-          "message": "update dashboard.json (members fixed, 2026-08-10 15:46 KST)",
-          "author": "daeguru",
-          "date": "2026-08-10T06:46:40Z"
         }
       ],
       "recent_prs": [
@@ -603,6 +603,24 @@
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update dashboard.json and github-activity.json",
+      "sha": "9e10eac",
+      "date": "2026-08-12T09:47:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9e10eacf34869930ee0de0b57a82a51046323849"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "chore: update dashboard.json (members fix)",
+      "sha": "0dbaa5d",
+      "date": "2026-08-12T09:47:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0dbaa5df9d58af7d682eab4f001a97a1c332a330"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard.json and github-activity.json",
       "sha": "6943d93",
       "date": "2026-08-12T06:48:21Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6943d931e87ddbf378be6949f98213359f9958ea"
@@ -651,15 +669,6 @@
       "sha": "b0a3b85",
       "date": "2026-08-11T15:46:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b0a3b85345108937c87a09302201d34688ea45aa"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "fix: mobile hamburger menu for all dashboards + README dashboard links",
-      "sha": "9098cf9",
-      "date": "2026-08-11T14:22:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9098cf91f3b78586b8feee45650e5cd355100e24"
     },
     {
       "type": "commit",
@@ -733,15 +742,6 @@
       "sha": "2fa97c9",
       "date": "2026-08-10T15:47:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2fa97c9be9ef7cdee91ca6eaeb7e92c73a62efae"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "update dashboard.json (members fixed, 2026-08-10 15:46 KST)",
-      "sha": "df4a3b8",
-      "date": "2026-08-10T06:46:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/df4a3b84944e7a8f4bc651e1f83ffebe124d5543"
     },
     {
       "type": "commit",
