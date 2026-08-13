@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-13T03:46:13Z",
-  "since": "2026-07-14T03:45:40Z",
+  "generated": "2026-08-13T06:47:01Z",
+  "since": "2026-07-14T06:46:29Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 210,
+      "open_issues": 211,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-13T00:46:27Z",
-      "pushed_at": "2026-08-13T00:46:24Z",
+      "updated_at": "2026-08-13T03:46:33Z",
+      "pushed_at": "2026-08-13T03:46:29Z",
       "recent_commits": [
+        {
+          "sha": "ca7af4e",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-08-13T03:46:28Z",
+          "author": "daeguru",
+          "date": "2026-08-13T03:46:28Z"
+        },
         {
           "sha": "1af17fd",
           "message": "📊 dashboard: update dashboard.json & github-activity.json (2026-08-13 09:44 KST)",
@@ -85,12 +91,6 @@
           "message": "fix(dashboard): restore dashboard.json data + add empty-data guard",
           "author": "daeguru",
           "date": "2026-08-12T17:31:57Z"
-        },
-        {
-          "sha": "b88714d",
-          "message": "chore: update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-08-12T12:47:26Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-08-12T23:05:12Z",
-      "pushed_at": "2026-08-12T23:05:05Z",
+      "updated_at": "2026-08-13T05:45:38Z",
+      "pushed_at": "2026-08-13T05:45:24Z",
       "recent_commits": [
+        {
+          "sha": "c5e283f",
+          "message": "📚 2026-08-13: 위키 갱신 (2개) - research 6차(리만 가설), tools 15차(Shepherd)",
+          "author": "Renover",
+          "date": "2026-08-13T05:45:09Z"
+        },
         {
           "sha": "7ea9734",
           "message": "📰 2026-08-13: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-08-11: 위키 갱신 (2개) - models 15차, industry 15차",
           "author": "Renover",
           "date": "2026-08-11T05:09:43Z"
-        },
-        {
-          "sha": "82b5095",
-          "message": "Wiki 15차 동시 갱신: frameworks 13차 + models 15차 + industry 15차",
-          "author": "Laika",
-          "date": "2026-08-10T23:54:24Z"
         }
       ],
       "recent_prs": []
@@ -599,6 +599,24 @@
   ],
   "activity_feed": [
     {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-08-13: 위키 갱신 (2개) - research 6차(리만 가설), tools 15차(Shepherd)",
+      "sha": "c5e283f",
+      "date": "2026-08-13T05:45:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c5e283fa8fc35a657d61333d2c271d164d7f87cd"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-08-13T03:46:28Z",
+      "sha": "ca7af4e",
+      "date": "2026-08-13T03:46:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ca7af4e08fb9a048b41a0cd8f7354f7eb71d147e"
+    },
+    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -702,15 +720,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard.json and github-activity.json",
-      "sha": "b88714d",
-      "date": "2026-08-12T12:47:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b88714d819a5fa9c766ef17e36fd4ad0b7722667"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "chore: update dashboard.json (members fix)",
@@ -781,15 +790,6 @@
       "sha": "6ba9522",
       "date": "2026-08-11T00:46:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6ba9522c61a1d35a1e2c52bed5a3803c5782b21f"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Laika",
-      "message": "Wiki 15차 동시 갱신: frameworks 13차 + models 15차 + industry 15차",
-      "sha": "82b5095",
-      "date": "2026-08-10T23:54:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/82b509571f1055faf4063730db9c739ee8f71dd9"
     },
     {
       "type": "commit",
