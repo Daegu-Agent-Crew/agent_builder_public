@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-13T18:45:55Z",
-  "since": "2026-07-14T18:45:20Z",
+  "generated": "2026-08-13T21:45:55Z",
+  "since": "2026-07-14T21:45:19Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-13T12:46:45Z",
-      "pushed_at": "2026-08-13T12:46:20Z",
+      "updated_at": "2026-08-13T18:46:17Z",
+      "pushed_at": "2026-08-13T18:46:13Z",
       "recent_commits": [
+        {
+          "sha": "dc9f734",
+          "message": "Update github-activity.json (2026-08-13T18:46:11Z)",
+          "author": "daeguru",
+          "date": "2026-08-13T18:46:11Z"
+        },
         {
           "sha": "c9664df",
           "message": "Update github-activity.json (2026-08-13 12:46 UTC)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-08-13T03:46:28Z",
           "author": "daeguru",
           "date": "2026-08-13T03:46:28Z"
-        },
-        {
-          "sha": "1af17fd",
-          "message": "📊 dashboard: update dashboard.json & github-activity.json (2026-08-13 09:44 KST)",
-          "author": "daeguru",
-          "date": "2026-08-13T00:46:16Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-13T12:47:29Z",
-      "pushed_at": "2026-08-13T12:46:37Z",
+      "updated_at": "2026-08-13T18:46:19Z",
+      "pushed_at": "2026-08-13T18:46:12Z",
       "recent_commits": [
+        {
+          "sha": "7db8dee",
+          "message": "Update dashboard.json (2026-08-13T18:46:11Z)",
+          "author": "daeguru",
+          "date": "2026-08-13T18:46:11Z"
+        },
         {
           "sha": "20cad76",
           "message": "Update dashboard.json (2026-08-13 12:46 UTC)",
@@ -494,12 +500,6 @@
           "message": "feat: add dashboard data regeneration step to both skills",
           "author": "daeguru",
           "date": "2026-08-11T13:59:23Z"
-        },
-        {
-          "sha": "cabf0d3",
-          "message": "chore: regenerate wiki & dashboard (members fix)",
-          "author": "daeguru",
-          "date": "2026-08-11T12:47:09Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
+      "message": "Update dashboard.json (2026-08-13T18:46:11Z)",
+      "sha": "7db8dee",
+      "date": "2026-08-13T18:46:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7db8dee73515b11f15a7fdca1ab13de0eb0ffccf"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update github-activity.json (2026-08-13T18:46:11Z)",
+      "sha": "dc9f734",
+      "date": "2026-08-13T18:46:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dc9f73499f289a3c9df568985d80dc4a37744050"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
       "message": "Update dashboard.json (2026-08-13 12:46 UTC)",
       "sha": "20cad76",
       "date": "2026-08-13T12:46:35Z",
@@ -670,15 +688,6 @@
       "sha": "defeddd",
       "date": "2026-08-13T02:07:31Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/defeddd8589711f2912a2d90ac92104a72aca258"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "📊 dashboard: update dashboard.json & github-activity.json (2026-08-13 09:44 KST)",
-      "sha": "1af17fd",
-      "date": "2026-08-13T00:46:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1af17fd9682eaf9a01d7c0cee6c30e94561f0d43"
     },
     {
       "type": "commit",
@@ -762,15 +771,6 @@
       "sha": "bb665b9",
       "date": "2026-08-11T13:59:23Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bb665b9b5380c25decc291bcf3bbcf28db155e86"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "chore: regenerate wiki & dashboard (members fix)",
-      "sha": "cabf0d3",
-      "date": "2026-08-11T12:47:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cabf0d39914d6fd9f8c5d34a9b4e0b71e2f03379"
     },
     {
       "type": "commit",
