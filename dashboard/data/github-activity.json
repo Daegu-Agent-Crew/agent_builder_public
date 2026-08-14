@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-13T21:45:55Z",
-  "since": "2026-07-14T21:45:19Z",
+  "generated": "2026-08-14T08:14:00Z",
+  "since": "2026-07-15T08:13:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 213,
+      "open_issues": 215,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-13T18:46:17Z",
-      "pushed_at": "2026-08-13T18:46:13Z",
+      "updated_at": "2026-08-13T21:46:28Z",
+      "pushed_at": "2026-08-13T21:46:24Z",
       "recent_commits": [
+        {
+          "sha": "20e9b04",
+          "message": "Update dashboard.json and github-activity.json (2026-08-13T21:44:00Z)",
+          "author": "daeguru",
+          "date": "2026-08-13T21:46:22Z"
+        },
         {
           "sha": "dc9f734",
           "message": "Update github-activity.json (2026-08-13T18:46:11Z)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard.json and github-activity.json 2026-08-13T06:47:29Z",
           "author": "daeguru",
           "date": "2026-08-13T06:47:29Z"
-        },
-        {
-          "sha": "ca7af4e",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-08-13T03:46:28Z",
-          "author": "daeguru",
-          "date": "2026-08-13T03:46:28Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,21 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-08-13T05:45:38Z",
-      "pushed_at": "2026-08-13T05:45:24Z",
+      "updated_at": "2026-08-14T05:08:43Z",
+      "pushed_at": "2026-08-14T05:08:37Z",
       "recent_commits": [
+        {
+          "sha": "6dbd3b5",
+          "message": "📚 2026-08-14: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-08-14T05:08:21Z"
+        },
+        {
+          "sha": "6b67f36",
+          "message": "📰 2026-08-14: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-08-13T23:07:06Z"
+        },
         {
           "sha": "c5e283f",
           "message": "📚 2026-08-13: 위키 갱신 (2개) - research 6차(리만 가설), tools 15차(Shepherd)",
@@ -146,18 +158,6 @@
           "message": "📚 2026-08-12: 위키 갱신 (2개) + 충돌 해결",
           "author": "Renover",
           "date": "2026-08-12T05:10:37Z"
-        },
-        {
-          "sha": "7b02c01",
-          "message": "📰 2026-08-12: 뉴스 수집 (4건)",
-          "author": "Renover",
-          "date": "2026-08-11T23:14:07Z"
-        },
-        {
-          "sha": "bc85950",
-          "message": "📚 2026-08-11: 위키 갱신 (2개) - models 15차, industry 15차",
-          "author": "Renover",
-          "date": "2026-08-11T05:09:43Z"
         }
       ],
       "recent_prs": []
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-08-14: 위키 갱신 (2개)",
+      "sha": "6dbd3b5",
+      "date": "2026-08-14T05:08:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/6dbd3b599bcb27b78638bda2e84b011fb7761475"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-14: 뉴스 수집 (5건)",
+      "sha": "6b67f36",
+      "date": "2026-08-13T23:07:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/6b67f363b359b2b9f9df3de30bff44b958cf112b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard.json and github-activity.json (2026-08-13T21:44:00Z)",
+      "sha": "20e9b04",
+      "date": "2026-08-13T21:46:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/20e9b047b1099bc8c31227f2c41cb419483c6fac"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "Update dashboard.json (2026-08-13T18:46:11Z)",
@@ -660,15 +687,6 @@
       "sha": "c5e283f",
       "date": "2026-08-13T05:45:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c5e283fa8fc35a657d61333d2c271d164d7f87cd"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-08-13T03:46:28Z",
-      "sha": "ca7af4e",
-      "date": "2026-08-13T03:46:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ca7af4e08fb9a048b41a0cd8f7354f7eb71d147e"
     },
     {
       "type": "pr",
@@ -756,30 +774,12 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-08-12: 뉴스 수집 (4건)",
-      "sha": "7b02c01",
-      "date": "2026-08-11T23:14:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/7b02c01371073d53bc60792783b9b5d02ff25025"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "feat: add dashboard data regeneration step to both skills",
       "sha": "bb665b9",
       "date": "2026-08-11T13:59:23Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bb665b9b5380c25decc291bcf3bbcf28db155e86"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-08-11: 위키 갱신 (2개) - models 15차, industry 15차",
-      "sha": "bc85950",
-      "date": "2026-08-11T05:09:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/bc85950f8c995e063a36c20d415969621ca7ce16"
     },
     {
       "type": "pr",
