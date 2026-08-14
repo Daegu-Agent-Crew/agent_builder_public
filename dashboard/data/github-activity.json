@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-14T08:14:00Z",
-  "since": "2026-07-15T08:13:27Z",
+  "generated": "2026-08-14T14:14:17Z",
+  "since": "2026-07-15T14:13:43Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 215,
+      "open_issues": 216,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-13T21:46:28Z",
-      "pushed_at": "2026-08-13T21:46:24Z",
+      "updated_at": "2026-08-14T08:15:21Z",
+      "pushed_at": "2026-08-14T08:14:39Z",
       "recent_commits": [
+        {
+          "sha": "e55ca9a",
+          "message": "chore: update dashboard data and github activity",
+          "author": "daeguru",
+          "date": "2026-08-14T08:14:31Z"
+        },
         {
           "sha": "20e9b04",
           "message": "Update dashboard.json and github-activity.json (2026-08-13T21:44:00Z)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard.json and github-activity.json 2026-08-13T09:47:09Z",
           "author": "daeguru",
           "date": "2026-08-13T09:47:09Z"
-        },
-        {
-          "sha": "78c6187",
-          "message": "chore: update dashboard.json and github-activity.json 2026-08-13T06:47:29Z",
-          "author": "daeguru",
-          "date": "2026-08-13T06:47:29Z"
         }
       ],
       "recent_prs": [
@@ -198,9 +198,21 @@
       "private": false,
       "open_issues": 14,
       "open_prs": 0,
-      "updated_at": "2026-08-13T02:07:35Z",
-      "pushed_at": "2026-08-13T02:07:33Z",
+      "updated_at": "2026-08-14T09:18:58Z",
+      "pushed_at": "2026-08-14T09:18:56Z",
       "recent_commits": [
+        {
+          "sha": "f349975",
+          "message": "docs(CLE2-20): record convergence loop implementation (#57)",
+          "author": "sfex11",
+          "date": "2026-08-14T09:18:53Z"
+        },
+        {
+          "sha": "89583ee",
+          "message": "docs(CLE2-20): CLE3 실제 자산 기준 재기준화 + DISCOVERY/DECISIONS 추가 (#56)",
+          "author": "sfex11",
+          "date": "2026-08-14T08:42:57Z"
+        },
         {
           "sha": "defeddd",
           "message": "feat(CLE2-20): 태스크 초기 설정 — CLE3 수렴 루프 시스템 도입 (#55)",
@@ -218,21 +230,25 @@
           "message": "docs: register and sync CLE2-17 CreatorFlow2 (#47)",
           "author": "sfex11",
           "date": "2026-08-03T02:34:48Z"
-        },
-        {
-          "sha": "82d1b82",
-          "message": "docs: register CLE5 self-growing creative system plan (#52)",
-          "author": "sfex11",
-          "date": "2026-08-03T02:28:06Z"
-        },
-        {
-          "sha": "a814435",
-          "message": "feat(CLE2-9): CLE4 감각 기반 창작 에이전트 시스템 요구사항 등록",
-          "author": "sfex11",
-          "date": "2026-08-02T15:19:29Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 57,
+          "title": "docs(CLE2-20): record convergence loop implementation",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-08-14T09:18:56Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/57"
+        },
+        {
+          "number": 56,
+          "title": "docs(CLE2-20): 실제 자산 기준 재기준화 + DISCOVERY/DECISIONS 추가",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-08-14T08:42:59Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/56"
+        },
         {
           "number": 55,
           "title": "feat(CLE2-20): CLE3 수렴 루프 시스템 도입 — 태스크 초기 설정",
@@ -240,22 +256,6 @@
           "state": "closed",
           "updated_at": "2026-08-13T02:07:33Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/55"
-        },
-        {
-          "number": 53,
-          "title": "docs: add CLE5 development plan presentation",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-08-03T05:35:34Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/53"
-        },
-        {
-          "number": 47,
-          "title": "docs: register and sync CLE2-17 CreatorFlow2",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-08-03T02:34:51Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/47"
         }
       ]
     },
@@ -599,6 +599,53 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-20): record convergence loop implementation",
+      "number": 57,
+      "state": "closed",
+      "date": "2026-08-14T09:18:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/57"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-20): record convergence loop implementation (#57)",
+      "sha": "f349975",
+      "date": "2026-08-14T09:18:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f349975d3191d91e592524cbb25b0a9942078cf9"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-20): 실제 자산 기준 재기준화 + DISCOVERY/DECISIONS 추가",
+      "number": 56,
+      "state": "closed",
+      "date": "2026-08-14T08:42:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/56"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-20): CLE3 실제 자산 기준 재기준화 + DISCOVERY/DECISIONS 추가 (#56)",
+      "sha": "89583ee",
+      "date": "2026-08-14T08:42:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/89583ee851143b67ab45840ae93a36643a459bc6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data and github activity",
+      "sha": "e55ca9a",
+      "date": "2026-08-14T08:14:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e55ca9a2d45ef8d68b54632058a489088642050d"
+    },
+    {
       "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
@@ -669,15 +716,6 @@
       "sha": "1e6e1da",
       "date": "2026-08-13T09:47:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1e6e1da1ba40ca5f4a52e7d660379d19ef16cb11"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard.json and github-activity.json 2026-08-13T06:47:29Z",
-      "sha": "78c6187",
-      "date": "2026-08-13T06:47:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/78c6187b519d561c1b482f802a75aea9c4156d32"
     },
     {
       "type": "commit",
@@ -837,16 +875,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/ed3d1629473603b4f2c83c67784ebb57fe130b20"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: add CLE5 development plan presentation",
-      "number": 53,
-      "state": "closed",
-      "date": "2026-08-03T05:35:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/53"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -856,16 +884,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/7394cfd07c7d68fc118545ba6e22ed8bd71ed176"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: register and sync CLE2-17 CreatorFlow2",
-      "number": 47,
-      "state": "closed",
-      "date": "2026-08-03T02:34:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/47"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -873,24 +891,6 @@
       "sha": "15da9d0",
       "date": "2026-08-03T02:34:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/15da9d0a03bfd937a0fd456ea5d9847a964d143a"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: register CLE5 self-growing creative system plan (#52)",
-      "sha": "82d1b82",
-      "date": "2026-08-03T02:28:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/82d1b82646a63be4dd1717730c1c8ddd170a00e1"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-9): CLE4 감각 기반 창작 에이전트 시스템 요구사항 등록",
-      "sha": "a814435",
-      "date": "2026-08-02T15:19:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/a814435788134671f913e331786b14b8381f10cf"
     },
     {
       "type": "pr",
