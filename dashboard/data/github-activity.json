@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-16T06:06:54Z",
-  "since": "2026-07-17T06:06:08Z",
+  "generated": "2026-08-16T08:13:05Z",
+  "since": "2026-07-17T08:12:33Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-16T03:09:04Z",
-      "pushed_at": "2026-08-16T03:08:53Z",
+      "updated_at": "2026-08-16T06:07:01Z",
+      "pushed_at": "2026-08-16T06:06:57Z",
       "recent_commits": [
+        {
+          "sha": "59ef473",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-16T06:06:54Z)",
+          "author": "daeguru",
+          "date": "2026-08-16T06:06:54Z"
+        },
         {
           "sha": "4ddefe5",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-16T03:08:50Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-16T00:36Z)",
           "author": "daeguru",
           "date": "2026-08-16T00:36:44Z"
-        },
-        {
-          "sha": "6609328",
-          "message": "chore(dashboard): update dashboard data and github activity (2026-08-14)",
-          "author": "daeguru",
-          "date": "2026-08-14T14:15:14Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-16T06:06:54Z)",
+      "sha": "59ef473",
+      "date": "2026-08-16T06:06:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/59ef473b37f4a068965f367df84eb7129598e1e3"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-08-16: 위키 갱신 (2개)",
@@ -735,15 +744,6 @@
       "sha": "1ae641f",
       "date": "2026-08-15T09:57:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1ae641f781a48a3d70dcbd85e0bf828771a0617e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard data and github activity (2026-08-14)",
-      "sha": "6609328",
-      "date": "2026-08-14T14:15:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/660932872a6dea1115182b368ab17755c4194f33"
     },
     {
       "type": "commit",
