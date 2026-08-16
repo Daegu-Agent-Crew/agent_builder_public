@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-16T09:06:53Z",
-  "since": "2026-07-17T09:06:09Z",
+  "generated": "2026-08-16T12:07:36Z",
+  "since": "2026-07-17T12:06:32Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 223,
+      "open_issues": 224,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-16T08:13:41Z",
-      "pushed_at": "2026-08-16T08:13:38Z",
+      "updated_at": "2026-08-16T09:08:01Z",
+      "pushed_at": "2026-08-16T09:06:57Z",
       "recent_commits": [
+        {
+          "sha": "03ceae9",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-16T09:06:53Z)",
+          "author": "daeguru",
+          "date": "2026-08-16T09:06:54Z"
+        },
         {
           "sha": "81b9b85",
           "message": "chore(dashboard): refresh dashboard data (2026-08-16T08:13:05Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-16T00:40:19Z)",
           "author": "daeguru",
           "date": "2026-08-16T00:40:19Z"
-        },
-        {
-          "sha": "c880dd2",
-          "message": "fix(dashboard): curl 폴백 문자열을 명령으로 실행하던 버그 수정",
-          "author": "daeguru",
-          "date": "2026-08-16T00:39:19Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-16T09:06:53Z)",
+      "sha": "03ceae9",
+      "date": "2026-08-16T09:06:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/03ceae92c498d60392c108c1cecdc3c0652d2eff"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): refresh dashboard data (2026-08-16T08:13:05Z)",
       "sha": "81b9b85",
       "date": "2026-08-16T08:13:36Z",
@@ -716,15 +725,6 @@
       "sha": "6f35bc5",
       "date": "2026-08-16T00:40:19Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6f35bc545efba7386b9b505f054b13e4dfce5edd"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "fix(dashboard): curl 폴백 문자열을 명령으로 실행하던 버그 수정",
-      "sha": "c880dd2",
-      "date": "2026-08-16T00:39:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c880dd2d9c59d46d8c2112d9bf4adcec87aba3fa"
     },
     {
       "type": "pr",
