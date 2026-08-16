@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-16T00:40:19Z",
-  "since": "2026-07-17T00:39:35Z",
+  "generated": "2026-08-16T03:08:50Z",
+  "since": "2026-07-17T03:08:04Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-08-16T00:39:25Z",
-      "pushed_at": "2026-08-16T00:39:21Z",
+      "updated_at": "2026-08-16T00:40:27Z",
+      "pushed_at": "2026-08-16T00:40:22Z",
       "recent_commits": [
+        {
+          "sha": "6f35bc5",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-16T00:40:19Z)",
+          "author": "daeguru",
+          "date": "2026-08-16T00:40:19Z"
+        },
         {
           "sha": "c880dd2",
           "message": "fix(dashboard): curl 폴백 문자열을 명령으로 실행하던 버그 수정",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data and github activity",
           "author": "daeguru",
           "date": "2026-08-14T08:14:31Z"
-        },
-        {
-          "sha": "20e9b04",
-          "message": "Update dashboard.json and github-activity.json (2026-08-13T21:44:00Z)",
-          "author": "daeguru",
-          "date": "2026-08-13T21:46:22Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,21 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-08-14T05:08:43Z",
-      "pushed_at": "2026-08-14T05:08:37Z",
+      "updated_at": "2026-08-16T00:53:22Z",
+      "pushed_at": "2026-08-16T00:53:11Z",
       "recent_commits": [
+        {
+          "sha": "e38a881",
+          "message": "📚 2026-08-16: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-08-16T00:53:09Z"
+        },
+        {
+          "sha": "9bda253",
+          "message": "📰 2026-08-16: 뉴스 수집 (2건)",
+          "author": "Renover",
+          "date": "2026-08-16T00:49:13Z"
+        },
         {
           "sha": "6dbd3b5",
           "message": "📚 2026-08-14: 위키 갱신 (2개)",
@@ -146,18 +158,6 @@
           "message": "📚 2026-08-13: 위키 갱신 (2개) - research 6차(리만 가설), tools 15차(Shepherd)",
           "author": "Renover",
           "date": "2026-08-13T05:45:09Z"
-        },
-        {
-          "sha": "7ea9734",
-          "message": "📰 2026-08-13: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-08-12T23:05:03Z"
-        },
-        {
-          "sha": "33826d9",
-          "message": "📚 2026-08-12: 위키 갱신 (2개) + 충돌 해결",
-          "author": "Renover",
-          "date": "2026-08-12T05:10:37Z"
         }
       ],
       "recent_prs": []
@@ -196,43 +196,59 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 14,
+      "open_issues": 15,
       "open_prs": 0,
-      "updated_at": "2026-08-15T09:58:07Z",
-      "pushed_at": "2026-08-15T09:57:59Z",
+      "updated_at": "2026-08-16T02:26:39Z",
+      "pushed_at": "2026-08-16T02:26:36Z",
       "recent_commits": [
+        {
+          "sha": "67e7ea1",
+          "message": "Merge pull request #64 from Daegu-Agent-Crew/codex/cle2-22-pilot-review",
+          "author": "sfex11",
+          "date": "2026-08-16T02:26:35Z"
+        },
+        {
+          "sha": "250129f",
+          "message": "docs: move CLE2-22 to human review",
+          "author": "sfex11",
+          "date": "2026-08-16T02:21:54Z"
+        },
+        {
+          "sha": "846a218",
+          "message": "Merge pull request #63 from Daegu-Agent-Crew/codex/cle2-22-three-body-pilot",
+          "author": "sfex11",
+          "date": "2026-08-16T01:59:58Z"
+        },
+        {
+          "sha": "d98457c",
+          "message": "docs: register CLE2-22 three body pilot",
+          "author": "sfex11",
+          "date": "2026-08-16T01:51:49Z"
+        },
         {
           "sha": "1ae641f",
           "message": "Merge pull request #61 from Daegu-Agent-Crew/codex/cle2-21-complete",
           "author": "sfex11",
           "date": "2026-08-15T09:57:58Z"
-        },
-        {
-          "sha": "a9e92c6",
-          "message": "docs: complete CLE2-21 deployment status",
-          "author": "sfex11",
-          "date": "2026-08-15T09:55:52Z"
-        },
-        {
-          "sha": "789d62a",
-          "message": "Merge pull request #60 from Daegu-Agent-Crew/codex/cle2-21-standalone-comic",
-          "author": "sfex11",
-          "date": "2026-08-15T09:43:43Z"
-        },
-        {
-          "sha": "eca6f4f",
-          "message": "docs: register CLE2-21 standalone CLE5 comic system",
-          "author": "sfex11",
-          "date": "2026-08-15T09:40:06Z"
-        },
-        {
-          "sha": "936319b",
-          "message": "Merge pull request #58 from Daegu-Agent-Crew/codex/cle2-20-convergence-ui",
-          "author": "sfex11",
-          "date": "2026-08-15T03:48:36Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 64,
+          "title": "docs: move CLE2-22 to human review",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-08-16T02:26:37Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/64"
+        },
+        {
+          "number": 63,
+          "title": "docs: register CLE2-22 three body pilot",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-08-16T02:00:00Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/63"
+        },
         {
           "number": 61,
           "title": "docs: complete CLE2-21 deployment status",
@@ -240,22 +256,6 @@
           "state": "closed",
           "updated_at": "2026-08-15T09:58:00Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/61"
-        },
-        {
-          "number": 60,
-          "title": "docs: register CLE2-21 standalone CLE5 comic system",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-08-15T09:43:45Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/60"
-        },
-        {
-          "number": 58,
-          "title": "docs: update CLE2-20 convergence pilot status",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-08-15T03:48:39Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/58"
         }
       ]
     },
@@ -599,6 +599,89 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: move CLE2-22 to human review",
+      "number": 64,
+      "state": "closed",
+      "date": "2026-08-16T02:26:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/64"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "Merge pull request #64 from Daegu-Agent-Crew/codex/cle2-22-pilot-review",
+      "sha": "67e7ea1",
+      "date": "2026-08-16T02:26:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/67e7ea1938e68bc436b2daf85df7757aab8d3860"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: move CLE2-22 to human review",
+      "sha": "250129f",
+      "date": "2026-08-16T02:21:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/250129fe10a4d08ec53f77b3ea64e48b6abe45ef"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: register CLE2-22 three body pilot",
+      "number": 63,
+      "state": "closed",
+      "date": "2026-08-16T02:00:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/63"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "Merge pull request #63 from Daegu-Agent-Crew/codex/cle2-22-three-body-pilot",
+      "sha": "846a218",
+      "date": "2026-08-16T01:59:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/846a218c8e10ed5bddc80dabc1c59708ce76f97f"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: register CLE2-22 three body pilot",
+      "sha": "d98457c",
+      "date": "2026-08-16T01:51:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d98457c7631ddc2ec1114977c8878dcda2a94d6e"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-08-16: 위키 갱신 (2개)",
+      "sha": "e38a881",
+      "date": "2026-08-16T00:53:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e38a881b4455b4473afe6effec1478d7a6aefbf2"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-16: 뉴스 수집 (2건)",
+      "sha": "9bda253",
+      "date": "2026-08-16T00:49:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/9bda25376db61b8cfa22a6ce6ba998fecb0b39f5"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-16T00:40:19Z)",
+      "sha": "6f35bc5",
+      "date": "2026-08-16T00:40:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6f35bc545efba7386b9b505f054b13e4dfce5edd"
+    },
+    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -634,62 +717,6 @@
       "sha": "1ae641f",
       "date": "2026-08-15T09:57:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1ae641f781a48a3d70dcbd85e0bf828771a0617e"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: complete CLE2-21 deployment status",
-      "sha": "a9e92c6",
-      "date": "2026-08-15T09:55:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/a9e92c6c48522899d870562f5e3f240e8a3ddd94"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: register CLE2-21 standalone CLE5 comic system",
-      "number": 60,
-      "state": "closed",
-      "date": "2026-08-15T09:43:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/60"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "Merge pull request #60 from Daegu-Agent-Crew/codex/cle2-21-standalone-comic",
-      "sha": "789d62a",
-      "date": "2026-08-15T09:43:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/789d62a1abd5b22066fcc20f80f3053814d829de"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: register CLE2-21 standalone CLE5 comic system",
-      "sha": "eca6f4f",
-      "date": "2026-08-15T09:40:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/eca6f4f1cd8c469dc1cf42466e8d16f04974c8dd"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: update CLE2-20 convergence pilot status",
-      "number": 58,
-      "state": "closed",
-      "date": "2026-08-15T03:48:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/58"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "Merge pull request #58 from Daegu-Agent-Crew/codex/cle2-20-convergence-ui",
-      "sha": "936319b",
-      "date": "2026-08-15T03:48:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/936319bf02d8d1c24ed822c347d259d3f4325df9"
     },
     {
       "type": "commit",
@@ -729,15 +756,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard.json and github-activity.json (2026-08-13T21:44:00Z)",
-      "sha": "20e9b04",
-      "date": "2026-08-13T21:46:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/20e9b047b1099bc8c31227f2c41cb419483c6fac"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "Update dashboard.json (2026-08-13T18:46:11Z)",
@@ -762,15 +780,6 @@
       "sha": "c5e283f",
       "date": "2026-08-13T05:45:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c5e283fa8fc35a657d61333d2c271d164d7f87cd"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-08-13: 뉴스 수집 (5건)",
-      "sha": "7ea9734",
-      "date": "2026-08-12T23:05:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/7ea9734c12a37e31c94c79a2713472c0df227e58"
     },
     {
       "type": "pr",
@@ -818,15 +827,6 @@
       "sha": "0dbaa5d",
       "date": "2026-08-12T09:47:15Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0dbaa5df9d58af7d682eab4f001a97a1c332a330"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-08-12: 위키 갱신 (2개) + 충돌 해결",
-      "sha": "33826d9",
-      "date": "2026-08-12T05:10:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/33826d9a1eda447a75a7b3745c620a9637e82969"
     },
     {
       "type": "commit",
