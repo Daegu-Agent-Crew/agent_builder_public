@@ -87,23 +87,23 @@ for slug in $REPO_SLUGS; do
   REPO_NAME="${FULL_SLUG#*/}"
   echo "  → $FULL_SLUG" >&2
 
-  # Repo info
-  REPO_INFO=$(curl -sS -H "$AUTH_HEADER" "$API/repos/$FULL_SLUG" 2>/dev/null || '{}')
+  # Repo info (fallback 버그 수정: '{}'/'[]'을 명령이 아닌 값으로. --retry로 네트워크 플레이크 대응)
+  REPO_INFO=$(curl -sS --retry 3 --retry-delay 2 -H "$AUTH_HEADER" "$API/repos/$FULL_SLUG" 2>/dev/null || echo '{}')
   OPEN_ISSUES=$(printf '%s' "$REPO_INFO" | jq -r '.open_issues_count // 0')
   UPDATED_AT=$(printf '%s' "$REPO_INFO" | jq -r '.updated_at // ""')
   PUSHED_AT=$(printf '%s' "$REPO_INFO" | jq -r '.pushed_at // ""')
   IS_PRIVATE=$(printf '%s' "$REPO_INFO" | jq -r '.private // false')
 
   # Recent commits (5)
-  COMMITS=$(curl -sS -H "$AUTH_HEADER" "$API/repos/$FULL_SLUG/commits?per_page=5" 2>/dev/null || '[]')
+  COMMITS=$(curl -sS --retry 3 --retry-delay 2 -H "$AUTH_HEADER" "$API/repos/$FULL_SLUG/commits?per_page=5" 2>/dev/null || echo '[]')
   COMMIT_COUNT_RECENT=$(printf '%s' "$COMMITS" | jq 'length')
 
   # Open PRs
-  PRS=$(curl -sS -H "$AUTH_HEADER" "$API/repos/$FULL_SLUG/pulls?state=open&per_page=30" 2>/dev/null || '[]')
+  PRS=$(curl -sS --retry 3 --retry-delay 2 -H "$AUTH_HEADER" "$API/repos/$FULL_SLUG/pulls?state=open&per_page=30" 2>/dev/null || echo '[]')
   OPEN_PR_COUNT=$(printf '%s' "$PRS" | jq 'length')
 
   # Recent PRs (3 most recent, regardless of state)
-  RECENT_PRS=$(curl -sS -H "$AUTH_HEADER" "$API/repos/$FULL_SLUG/pulls?state=all&sort=updated&direction=desc&per_page=3" 2>/dev/null || '[]')
+  RECENT_PRS=$(curl -sS --retry 3 --retry-delay 2 -H "$AUTH_HEADER" "$API/repos/$FULL_SLUG/pulls?state=all&sort=updated&direction=desc&per_page=3" 2>/dev/null || echo '[]')
 
   # Build repo entry
   REPO_ENTRY=$(jq -n \
