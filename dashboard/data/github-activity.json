@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-17T18:46:01Z",
-  "since": "2026-07-18T18:45:19Z",
+  "generated": "2026-08-17T21:05:46Z",
+  "since": "2026-07-18T21:04:59Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-17T18:11:43Z",
-      "pushed_at": "2026-08-17T18:08:18Z",
+      "updated_at": "2026-08-17T18:46:56Z",
+      "pushed_at": "2026-08-17T18:46:15Z",
       "recent_commits": [
+        {
+          "sha": "632fb83",
+          "message": "dashboard 데이터 갱신 (자동)",
+          "author": "daeguru",
+          "date": "2026-08-17T18:46:14Z"
+        },
         {
           "sha": "50f9f5d",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-17T18:08:14Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-17T09:07:14Z)",
           "author": "daeguru",
           "date": "2026-08-17T09:07:14Z"
-        },
-        {
-          "sha": "176b78c",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-17T06:06:34Z)",
-          "author": "daeguru",
-          "date": "2026-08-17T06:06:34Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-17T17:01:34Z",
-      "pushed_at": "2026-08-17T17:00:14Z",
+      "updated_at": "2026-08-17T18:46:59Z",
+      "pushed_at": "2026-08-17T18:46:13Z",
       "recent_commits": [
+        {
+          "sha": "b7bdd6e",
+          "message": "dashboard/wiki 갱신 (자동)",
+          "author": "daeguru",
+          "date": "2026-08-17T18:46:12Z"
+        },
         {
           "sha": "7288203",
           "message": "lesson: dueAt must align with observation cycle (#103)",
@@ -494,12 +500,6 @@
           "message": "lesson: DAC-lessons-2026-08 생성 — #100회차 교훈 (실행 흔적 원칙)",
           "author": "sfex11",
           "date": "2026-08-16T22:56:40Z"
-        },
-        {
-          "sha": "7db8dee",
-          "message": "Update dashboard.json (2026-08-13T18:46:11Z)",
-          "author": "daeguru",
-          "date": "2026-08-13T18:46:11Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "dashboard 데이터 갱신 (자동)",
+      "sha": "632fb83",
+      "date": "2026-08-17T18:46:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/632fb832d9775d0ed411b70a185e1d4dce47beb7"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "dashboard/wiki 갱신 (자동)",
+      "sha": "b7bdd6e",
+      "date": "2026-08-17T18:46:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b7bdd6e732e7a26279cffbb9b92daee7095209b3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-17T18:08:14Z)",
       "sha": "50f9f5d",
       "date": "2026-08-17T18:08:14Z",
@@ -642,15 +660,6 @@
       "sha": "42a9bc5",
       "date": "2026-08-17T09:07:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/42a9bc5e3e5b443cf7b0f3ab0238241b1d4ae50a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-17T06:06:34Z)",
-      "sha": "176b78c",
-      "date": "2026-08-17T06:06:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/176b78cc7ed123824a5a31ddbeaae28a367c50f3"
     },
     {
       "type": "commit",
@@ -798,15 +807,6 @@
       "sha": "1ae641f",
       "date": "2026-08-15T09:57:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1ae641f781a48a3d70dcbd85e0bf828771a0617e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "Update dashboard.json (2026-08-13T18:46:11Z)",
-      "sha": "7db8dee",
-      "date": "2026-08-13T18:46:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7db8dee73515b11f15a7fdca1ab13de0eb0ffccf"
     },
     {
       "type": "pr",
