@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-17T00:07:27Z",
-  "since": "2026-07-18T00:06:42Z",
+  "generated": "2026-08-17T06:06:34Z",
+  "since": "2026-07-18T06:05:48Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-16T23:13:55Z",
-      "pushed_at": "2026-08-16T23:13:48Z",
+      "updated_at": "2026-08-17T00:07:34Z",
+      "pushed_at": "2026-08-17T00:07:30Z",
       "recent_commits": [
+        {
+          "sha": "e29824b",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-17T00:07:27Z)",
+          "author": "daeguru",
+          "date": "2026-08-17T00:07:28Z"
+        },
         {
           "sha": "bfa13a9",
           "message": "chore(dashboard): regenerate dashboard.json and github-activity.json 2026-08-17 08:13",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard + github activity data",
           "author": "daeguru",
           "date": "2026-08-16T20:13:38Z"
-        },
-        {
-          "sha": "8a1def4",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-16T18:06:24Z)",
-          "author": "daeguru",
-          "date": "2026-08-16T18:06:24Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-08-16T23:05:46Z",
-      "pushed_at": "2026-08-16T23:05:35Z",
+      "updated_at": "2026-08-17T05:11:18Z",
+      "pushed_at": "2026-08-17T05:11:01Z",
       "recent_commits": [
+        {
+          "sha": "2cdf8dd",
+          "message": "📚 2026-08-17: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-08-17T05:10:59Z"
+        },
         {
           "sha": "3e61364",
           "message": "📰 2026-08-17: 뉴스 수집 (4건)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-08-16: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-08-16T00:53:09Z"
-        },
-        {
-          "sha": "9bda253",
-          "message": "📰 2026-08-16: 뉴스 수집 (2건)",
-          "author": "Renover",
-          "date": "2026-08-16T00:49:13Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-16T23:39:52Z",
-      "pushed_at": "2026-08-16T23:39:35Z",
+      "updated_at": "2026-08-17T05:52:27Z",
+      "pushed_at": "2026-08-17T05:51:49Z",
       "recent_commits": [
+        {
+          "sha": "edc4674",
+          "message": "lesson: 102회차 — 자동화 침묵의 원인 계층 확인 (DAC Studio Report #102)",
+          "author": "sfex11",
+          "date": "2026-08-17T05:51:49Z"
+        },
         {
           "sha": "0084347",
           "message": "lesson: #101회차 교훈 — 무볐동도 흔적으로 확증하라",
@@ -494,12 +500,6 @@
           "message": "Update dashboard.json (2026-08-13 12:46 UTC)",
           "author": "daeguru",
           "date": "2026-08-13T12:46:35Z"
-        },
-        {
-          "sha": "b2f5813",
-          "message": "fix: add empty-data guard to memory-dashboard (#14)",
-          "author": "sfex11",
-          "date": "2026-08-12T18:35:20Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,33 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
+      "message": "lesson: 102회차 — 자동화 침묵의 원인 계층 확인 (DAC Studio Report #102)",
+      "sha": "edc4674",
+      "date": "2026-08-17T05:51:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/edc4674b03ecdb8ffd92a6e5a6a3659a2b6595f9"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-08-17: 위키 갱신 (2개)",
+      "sha": "2cdf8dd",
+      "date": "2026-08-17T05:10:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2cdf8dd9704b7bc813062e91bfa20ed85170ceb2"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-17T00:07:27Z)",
+      "sha": "e29824b",
+      "date": "2026-08-17T00:07:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e29824bd390c34a704df54a8f1fc21a2e824d223"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
       "message": "lesson: #101회차 교훈 — 무볐동도 흔적으로 확증하라",
       "sha": "0084347",
       "date": "2026-08-16T23:39:35Z",
@@ -660,15 +687,6 @@
       "sha": "ae24985",
       "date": "2026-08-16T20:13:38Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ae249856fcaf9d66e1d5d1c13a171c52fda44df9"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-16T18:06:24Z)",
-      "sha": "8a1def4",
-      "date": "2026-08-16T18:06:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8a1def4ab9d052e0b13937a6134428cffe5855d7"
     },
     {
       "type": "commit",
@@ -754,15 +772,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e38a881b4455b4473afe6effec1478d7a6aefbf2"
     },
     {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-08-16: 뉴스 수집 (2건)",
-      "sha": "9bda253",
-      "date": "2026-08-16T00:49:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/9bda25376db61b8cfa22a6ce6ba998fecb0b39f5"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -827,15 +836,6 @@
       "state": "closed",
       "date": "2026-08-12T18:35:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/14"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "fix: add empty-data guard to memory-dashboard (#14)",
-      "sha": "b2f5813",
-      "date": "2026-08-12T18:35:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b2f58136eb144b8ef7784c0c14d12998cd9794ae"
     },
     {
       "type": "pr",
