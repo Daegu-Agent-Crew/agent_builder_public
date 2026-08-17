@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-17T09:46:11Z",
-  "since": "2026-07-18T09:45:39Z",
+  "generated": "2026-08-17T12:08:41Z",
+  "since": "2026-07-18T12:07:54Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 227,
+      "open_issues": 228,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-17T09:09:47Z",
-      "pushed_at": "2026-08-17T09:07:17Z",
+      "updated_at": "2026-08-17T09:48:17Z",
+      "pushed_at": "2026-08-17T09:46:36Z",
       "recent_commits": [
+        {
+          "sha": "2387711",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-08-17 18:44 KST)",
+          "author": "daeguru",
+          "date": "2026-08-17T09:46:34Z"
+        },
         {
           "sha": "42a9bc5",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-17T09:07:14Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): regenerate dashboard.json and github-activity.json 2026-08-17 08:13",
           "author": "daeguru",
           "date": "2026-08-16T23:13:46Z"
-        },
-        {
-          "sha": "42def4b",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-16T21:07:50Z)",
-          "author": "daeguru",
-          "date": "2026-08-16T21:07:51Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-08-17 18:44 KST)",
+      "sha": "2387711",
+      "date": "2026-08-17T09:46:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/23877116be77295face84ab005fbbc541632df4a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-17T09:07:14Z)",
       "sha": "42a9bc5",
       "date": "2026-08-17T09:07:14Z",
@@ -678,15 +687,6 @@
       "sha": "a5823e0",
       "date": "2026-08-16T22:56:40Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a5823e0c8f523e5ecca0b268c466fd8b6c6b0e89"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-16T21:07:50Z)",
-      "sha": "42def4b",
-      "date": "2026-08-16T21:07:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/42def4bd478596066d3439f82959139bc857ec8b"
     },
     {
       "type": "commit",
