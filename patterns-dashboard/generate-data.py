@@ -159,6 +159,18 @@ def parse_analyses():
             }
         },
         {
+            "id": "notion-engineer-microworlds",
+            "date": "2026-08-19",
+            "title": "Notion 엔지니어 — 진짜 병목은 리뷰가 아니다",
+            "source": "https://youtu.be/81EIe6h7mnw",
+            "speaker": "Notion 엔지니어",
+            "type": "담화 패턴",
+            "file": "2026-08-19-notion-engineer-discourse-analysis.md",
+            "scores": {
+                "Notion 엔지니어": 4.3
+            }
+        },
+        {
             "id": "ep103-choi-seungjun",
             "date": "2026-07-13",
             "title": "EP103 최승준 — 사고 패턴 분석",

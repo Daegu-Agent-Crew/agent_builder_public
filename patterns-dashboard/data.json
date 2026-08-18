@@ -2,14 +2,14 @@
   "meta": {
     "version": 1,
     "generatedAt": "2026-08-11",
-    "totalPatterns": 29,
-    "totalFrequency": 86,
-    "totalAnalyses": 6,
-    "totalSpeakers": 7,
+    "totalPatterns": 37,
+    "totalFrequency": 134,
+    "totalAnalyses": 7,
+    "totalSpeakers": 10,
     "byCategory": {
-      "cognitive": 11,
+      "cognitive": 15,
       "rhetorical": 9,
-      "value": 6,
+      "value": 10,
       "expressive": 3
     }
   },
@@ -51,7 +51,7 @@
       "categoryName": "C 패턴",
       "prefix": "C",
       "color": "#3b82f6",
-      "frequency": 5,
+      "frequency": 7,
       "description": "현재 사안을 과거 전환기의 연장선에 위치지어 의미를 부여. \"처음이다\"가 아니라 \"N년 주기의 같은 패턴\"으로 프레이밍.",
       "isNew": false
     },
@@ -62,7 +62,7 @@
       "categoryName": "C 패턴",
       "prefix": "C",
       "color": "#3b82f6",
-      "frequency": 3,
+      "frequency": 7,
       "description": "복잡한 문제를 상보적 두 층(내부/외부, 모델/시스템, 능력/피드백)으로 나누고, 층 간 상호작용으로 전체를 이해.",
       "isNew": false
     },
@@ -84,7 +84,7 @@
       "categoryName": "C 패턴",
       "prefix": "C",
       "color": "#3b82f6",
-      "frequency": 5,
+      "frequency": 7,
       "description": "자신의 방법론을 자신에게 동일하게 적용하고, 괴리를 숨기지 않음.",
       "isNew": false
     },
@@ -95,7 +95,7 @@
       "categoryName": "C 패턴",
       "prefix": "C",
       "color": "#3b82f6",
-      "frequency": 3,
+      "frequency": 4,
       "description": "표면 현상에서 시작해 아래로 파고들어, 최종 물리적 병목에 도달할 때까지 인과 사슬을 따라감. 환원(C-03)이 아니라 추적.",
       "isNew": false
     },
@@ -106,7 +106,7 @@
       "categoryName": "C 패턴",
       "prefix": "C",
       "color": "#3b82f6",
-      "frequency": 5,
+      "frequency": 6,
       "description": "시스템을 두 힘의 대립과 이동으로 설명. 단일 요소 분석이 아니라 힘의 균형/이동이 분석 단위.",
       "isNew": false
     },
@@ -117,7 +117,7 @@
       "categoryName": "C 패턴",
       "prefix": "C",
       "color": "#3b82f6",
-      "frequency": 2,
+      "frequency": 3,
       "description": "이미 사회적으로 수용된 대상에 유추하여 새 현상의 의미를 입증 또는 해독. 직관적 설득력이 높음.",
       "isNew": true
     },
@@ -128,7 +128,7 @@
       "categoryName": "C 패턴",
       "prefix": "C",
       "color": "#3b82f6",
-      "frequency": 1,
+      "frequency": 2,
       "description": "복잡한 논증을 짧은 일상어로 결산. 학술어가 아닌 생활어(시시하다, 게임이 안 되죠)로 청자의 체화를 유도.",
       "isNew": true
     },
@@ -166,13 +166,57 @@
       "isNew": true
     },
     {
+      "code": "C-12",
+      "name": "메타 방법론 추상화",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 2,
+      "description": "다양한 사례에서 공통 방법론을 추출하여 \"모든 문제 해결\"의 일반 원리로 승화. 개별 사례의 분석을 넘어, 분석 방식 자체를 대상으로 삼는 이중 추상화.",
+      "isNew": true
+    },
+    {
+      "code": "C-13",
+      "name": "도메인 간 브리지",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 2,
+      "description": "서로 다른 도메인의 구조적 유사성을 식별하고, 한 도메인의 해법을 다른 도메인으로 실행 가능하게 이식. C-07(유추적 정당화)와 다른 점: 유추는 설득 도구, 브리지는 실행 가능한 방법론 이식.",
+      "isNew": true
+    },
+    {
+      "code": "C-14",
+      "name": "실패의 시스템 전환",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 1,
+      "description": "개인의 실패 경험을 성격이나 실수가 아니라, 재발을 방지하는 시스템 설계 문제로 전환. 의지가 아니라 구조로 대응.",
+      "isNew": true
+    },
+    {
+      "code": "C-15",
+      "name": "교육적 재정의",
+      "category": "cognitive",
+      "categoryName": "C 패턴",
+      "prefix": "C",
+      "color": "#3b82f6",
+      "frequency": 1,
+      "description": "실무 문제(리뷰, 마이그레이션, 디버깅)를 학습/교수 문제로 재정의하여 해법을 설계. 문제의 밑바닥에 학습 문제가 있다는 신념.",
+      "isNew": true
+    },
+    {
       "code": "R-01",
       "name": "일화 → 원칙 추출",
       "category": "rhetorical",
       "categoryName": "R 패턴",
       "prefix": "R",
       "color": "#10b981",
-      "frequency": 7,
+      "frequency": 8,
       "description": "구체적 사건을 먼저 말한 뒤, 그 안에서 일반 원칙을 끄집어냄. 추상부터 시작하지 않음.",
       "isNew": false
     },
@@ -183,7 +227,7 @@
       "categoryName": "R 패턴",
       "prefix": "R",
       "color": "#10b981",
-      "frequency": 6,
+      "frequency": 8,
       "description": "질문의 숨은 전제가 틀리면 부정하지 않고, 더 정확한 프레임을 제시하여 방향을 수정.",
       "isNew": false
     },
@@ -194,7 +238,7 @@
       "categoryName": "R 패턴",
       "prefix": "R",
       "color": "#10b981",
-      "frequency": 3,
+      "frequency": 4,
       "description": "번호가 매겨진 프레임워크를 제시한 뒤, 곧바로 구체적 사례로 검증.",
       "isNew": false
     },
@@ -205,7 +249,7 @@
       "categoryName": "R 패턴",
       "prefix": "R",
       "color": "#10b981",
-      "frequency": 4,
+      "frequency": 6,
       "description": "반복되는 인지 행위에 이름을 붙여 재사용 가능하게 만듦.",
       "isNew": false
     },
@@ -216,7 +260,7 @@
       "categoryName": "R 패턴",
       "prefix": "R",
       "color": "#10b981",
-      "frequency": 3,
+      "frequency": 5,
       "description": "답이 아니라 \"어떤 차원에서 생각해야 하는가\"를 묻는 질문을 던져, 공동 사고의 프레임을 설정. 질문 자체가 분석 도구.",
       "isNew": false
     },
@@ -227,7 +271,7 @@
       "categoryName": "R 패턴",
       "prefix": "R",
       "color": "#10b981",
-      "frequency": 2,
+      "frequency": 4,
       "description": "논리적 반박 대신 물리적 증거를 직접 제시하여 추상적 논쟁을 경험적 사실로 전환.",
       "isNew": true
     },
@@ -249,7 +293,7 @@
       "categoryName": "R 패턴",
       "prefix": "R",
       "color": "#10b981",
-      "frequency": 1,
+      "frequency": 3,
       "description": "'이렇게 하라'는 권고가 아닌 '나는 이렇게 한다'는 자기 체험 공개로 설득. C-04(자기 적용 정직성)의 실천적 발현.",
       "isNew": true
     },
@@ -304,7 +348,7 @@
       "categoryName": "V 패턴",
       "prefix": "V",
       "color": "#f59e0b",
-      "frequency": 3,
+      "frequency": 6,
       "description": "물리적/공학적 한계를 정확히 인식하되, 결국 인간이나 기술이 그 한계를 돌파할 것이라는 입장. 한계 인식과 돌파 확신의 공존.",
       "isNew": false
     },
@@ -315,7 +359,7 @@
       "categoryName": "V 패턴",
       "prefix": "V",
       "color": "#f59e0b",
-      "frequency": 2,
+      "frequency": 3,
       "description": "이념적 정의보다 실제 사용자 경험을 우선. \"무엇인가\"보다 \"무엇을 하느냐\"가 가치를 결정.",
       "isNew": true
     },
@@ -331,13 +375,57 @@
       "isNew": true
     },
     {
+      "code": "V-07",
+      "name": "도구 중심 인식론",
+      "category": "value",
+      "categoryName": "V 패턴",
+      "prefix": "V",
+      "color": "#f59e0b",
+      "frequency": 3,
+      "description": "AI를 \"도구\"로 규정하되, 인간의 역할(taste/intention/아이디어)과 AI의 역할(search/실행/검증)을 명확히 분리하는 가치 구조. V-04의 확장이나, 낙관/비관 축이 아니라 역할 분배 축.",
+      "isNew": true
+    },
+    {
+      "code": "V-08",
+      "name": "현장 밀착 인식론",
+      "category": "value",
+      "categoryName": "V 패턴",
+      "prefix": "V",
+      "color": "#f59e0b",
+      "frequency": 1,
+      "description": "이론/시뮬레이션이 아닌 fab/현장 경험을 인식의 출발점으로 삼는다. \"책이 아니라 손\"에서 지식이 나온다는 입장.",
+      "isNew": true
+    },
+    {
+      "code": "V-09",
+      "name": "협업적 인식론",
+      "category": "value",
+      "categoryName": "V 패턴",
+      "prefix": "V",
+      "color": "#f59e0b",
+      "frequency": 1,
+      "description": "혼자 다 아는 것보다 전문가와 협업하여 빠르게 주고받는 것이 더 효율적이라는 입장. C-04의 협업 버전 — 자기 부족 인정 → 협업 의존 → 시너지.",
+      "isNew": true
+    },
+    {
+      "code": "V-10",
+      "name": "창의적 참여 우선",
+      "category": "value",
+      "categoryName": "V 패턴",
+      "prefix": "V",
+      "color": "#f59e0b",
+      "frequency": 1,
+      "description": "이해의 목적을 정확성 보장이 아니라, 다음 아이디어를 낼 수 있는 창의적 주체성 유지에 둔다. 이해는 참여의 조건이지 검증의 수단이 아니다.",
+      "isNew": true
+    },
+    {
       "code": "E-01",
       "name": "자기 성찬 즉시 완료",
       "category": "expressive",
       "categoryName": "E 패턴",
       "prefix": "E",
       "color": "#ef4444",
-      "frequency": 3,
+      "frequency": 5,
       "description": "발화가 \"생각하는 과정\"이 아니라 \"이미 검토된 결론의 압축 해제\". 말하기 전에 이미 자기 검토를 끝냄.",
       "isNew": false
     },
@@ -348,7 +436,7 @@
       "categoryName": "E 패턴",
       "prefix": "E",
       "color": "#ef4444",
-      "frequency": 4,
+      "frequency": 7,
       "description": "상대의 지식 수준을 고려해 적절한 추상화 단계에서 끊음. 기술 디테일을 청자가 이해할 수 있는 구체적 이미지로 번역.",
       "isNew": false
     },
@@ -359,7 +447,7 @@
       "categoryName": "E 패턴",
       "prefix": "E",
       "color": "#ef4444",
-      "frequency": 3,
+      "frequency": 6,
       "description": "한 문장에 정보·판단·전제·뉘앙스가 동시에 들어감. 군더더기 없음.",
       "isNew": false
     }
@@ -367,12 +455,12 @@
   "speakers": [
     {
       "name": "노정석",
-      "strengths": "C-01, C-05, C-06, E-01, E-03",
-      "weaknesses": "— (현재까지 약점 미관찰)"
+      "strengths": "C-01, C-02, C-04, C-05, C-06, C-12, R-01, R-02, R-04, R-05, V-04, V-07, E-01, E-02, E-03",
+      "weaknesses": "자체 인지 깊이 관찰 기회 적음 (host 역할) — EP108"
     },
     {
       "name": "보리스 체르니",
-      "strengths": "C-01, C-02, C-04, E-02",
+      "strengths": "C-01, C-02, C-04, C-09, E-02",
       "weaknesses": "—"
     },
     {
@@ -397,11 +485,39 @@
     },
     {
       "name": "일론 머스크",
-      "strengths": "C-03, C-04(선택적), C-06, C-10(후보), C-11(후보), R-01, R-02, R-09(후보)",
-      "weaknesses": "C-04 약점(행위 결과 부정); E-02 약함(청자 반박 무시); C-05 부재(사슬 추적 안 함)"
+      "strengths": "C-03, C-04(선택적), C-06, C-10, C-11, R-01, R-02, R-09",
+      "weaknesses": "C-04 약점(행위 결과 부정); E-02 약함(청자 반박 무시); C-05 부재"
+    },
+    {
+      "name": "박준우",
+      "strengths": "C-02, C-05, C-13, R-02, R-03, R-06, V-04, V-08, E-02, E-03",
+      "weaknesses": "전달력이 기술 깊이를 따라가지 못할 때 有; 자기 도메인 관성 — EP108"
+    },
+    {
+      "name": "김태환",
+      "strengths": "C-02, C-07, C-08, C-13, R-01, R-04, R-05, R-08, V-05, V-09, E-01, E-02, E-03",
+      "weaknesses": "단일 도메인 깊이 (자체 인정); 협업 의존도 — EP108"
+    },
+    {
+      "name": "Notion 엔지니어",
+      "strengths": "C-01, C-02, C-04, C-06, C-12, C-13, C-14, C-15, R-01, R-02, R-04, R-05, R-06, R-08, V-04, V-07, V-10, E-01, E-02, E-03",
+      "weaknesses": "외부 검증 사례 부족(자기 스킬·자기 경험 중심); 낙관 결론의 귀납 기반 좁음; 단일 화자 강연 — 상호 반박 검증 없음"
     }
   ],
   "analyses": [
+    {
+      "id": "notion-engineer-microworlds",
+      "date": "2026-08-19",
+      "title": "Notion 엔지니어 — 진짜 병목은 리뷰가 아니다",
+      "source": "https://youtu.be/81EIe6h7mnw",
+      "speaker": "Notion 엔지니어",
+      "type": "담화 패턴",
+      "file": "2026-08-19-notion-engineer-discourse-analysis.md",
+      "scores": {
+        "Notion 엔지니어": 4.3
+      },
+      "exists": true
+    },
     {
       "id": "ep108-photonics",
       "date": "2026-08-09",
