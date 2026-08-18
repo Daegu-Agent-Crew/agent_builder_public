@@ -2,15 +2,16 @@
   "meta": {
     "version": 1,
     "generatedAt": "2026-08-11",
-    "totalVideos": 14,
-    "totalChannels": 11,
+    "totalVideos": 15,
+    "totalChannels": 12,
     "byType": {
-      "영상 요약": 8,
+      "영상 요약": 9,
       "기타": 2,
       "담화 패턴 분석": 3,
       "참가자 분석": 1
     },
     "byChannel": {
+      "AgentOS": 1,
       "미상": 4,
       "Y Combinator": 1,
       "Google Cloud X Solana Hackathon (공식)": 1,
@@ -24,11 +25,31 @@
       "천영록": 1
     },
     "byMonth": {
+      "2026-08": 1,
       "2026-07": 11,
       "2026-06": 3
     }
   },
   "videos": [
+    {
+      "filename": "2026-08-19-notion-engineer-microworlds.md",
+      "title": "에이전트가 올린 5만 5천 줄 PR — Notion 엔지니어가 말한 \"진짜 병목은 리뷰가 아니다\" —",
+      "videoUrl": "https://youtu.be/81EIe6h7mnw",
+      "channel": "AgentOS",
+      "speaker": "Notion 재직 엔지니어 (영상 제목 기준, 자막상 이름 미표기 — 도입부에 한국어 진행 멘트 포함)",
+      "date": "2026-08-19",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "에이전트 시대에 사람의 역할은 '정확성 검증'에서는 줄어들지만, '이해'에서는 줄어들지 않는다. 이유는 정확성이 아니라 **참여(understanding to participate)**다. 이해는 다음 아이디어의 원천이고, AI를 설명 도구·마이크로월드 생성기로 쓰면 예전보다 더 깊이 이해할 수 있다. 병목은 리뷰(검증)가 아니라 이해다.",
+      "sections": [
+        "주요 내용",
+        "Daegu Agent Crew에 대한 인사이트",
+        "원문 발췌 (핵심 문장)"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-08-19-notion-engineer-microworlds.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/81EIe6h7mnw/mqdefault.jpg"
+    },
     {
       "filename": "2026-07-31-elon-musk-economist-interview.md",
       "title": "일론 머스크: \"인간 이제 5년 남았다\" — The Economist 인터뷰",
