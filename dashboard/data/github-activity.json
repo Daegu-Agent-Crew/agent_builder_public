@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-18T12:08:24Z",
-  "since": "2026-07-19T12:07:21Z",
+  "generated": "2026-08-18T12:45:50Z",
+  "since": "2026-07-19T12:45:16Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-18T09:13:21Z",
-      "pushed_at": "2026-08-18T09:09:12Z",
+      "updated_at": "2026-08-18T12:09:17Z",
+      "pushed_at": "2026-08-18T12:08:27Z",
       "recent_commits": [
+        {
+          "sha": "efedbb2",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-18T12:08:24Z)",
+          "author": "daeguru",
+          "date": "2026-08-18T12:08:25Z"
+        },
         {
           "sha": "2dabc2c",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-18T09:09:08Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github activity",
           "author": "daeguru",
           "date": "2026-08-18T03:53:16Z"
-        },
-        {
-          "sha": "146351b",
-          "message": "chore: update github-activity data",
-          "author": "daeguru",
-          "date": "2026-08-18T00:45:52Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-18T12:08:24Z)",
+      "sha": "efedbb2",
+      "date": "2026-08-18T12:08:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/efedbb28087d957150ddaba6a272971041e0f2d3"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #106: structurize human approvals in gates (106)",
@@ -660,15 +669,6 @@
       "sha": "a3dee1c",
       "date": "2026-08-18T03:53:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a3dee1cb9975f36dd838fab2898b6f784d99eb0a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update github-activity data",
-      "sha": "146351b",
-      "date": "2026-08-18T00:45:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/146351b7f48132fbffd0d280ff5258a444ebab30"
     },
     {
       "type": "commit",
