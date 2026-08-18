@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-18T15:45:41Z",
-  "since": "2026-07-19T15:45:06Z",
+  "generated": "2026-08-18T18:07:23Z",
+  "since": "2026-07-19T18:06:35Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 232,
+      "open_issues": 233,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,27 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-18T15:16:47Z",
-      "pushed_at": "2026-08-18T15:06:58Z",
+      "updated_at": "2026-08-18T17:48:35Z",
+      "pushed_at": "2026-08-18T17:47:45Z",
       "recent_commits": [
+        {
+          "sha": "03763e1",
+          "message": "chore: update patterns dashboard data",
+          "author": "daeguru",
+          "date": "2026-08-18T17:47:43Z"
+        },
+        {
+          "sha": "9eec6af",
+          "message": "chore: update youtube dashboard data",
+          "author": "daeguru",
+          "date": "2026-08-18T17:19:55Z"
+        },
+        {
+          "sha": "dd5ca8d",
+          "message": "dashboard: regenerate dashboard.json + github activity (auto)",
+          "author": "daeguru",
+          "date": "2026-08-18T15:45:50Z"
+        },
         {
           "sha": "b16daf9",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-18T15:06:54Z)",
@@ -73,24 +91,6 @@
           "message": "chore: update dashboard data (github activity) 2026-08-18_21:46",
           "author": "daeguru",
           "date": "2026-08-18T12:46:02Z"
-        },
-        {
-          "sha": "efedbb2",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-18T12:08:24Z)",
-          "author": "daeguru",
-          "date": "2026-08-18T12:08:25Z"
-        },
-        {
-          "sha": "2dabc2c",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-18T09:09:08Z)",
-          "author": "daeguru",
-          "date": "2026-08-18T09:09:08Z"
-        },
-        {
-          "sha": "eefc92a",
-          "message": "dashboard: update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-08-18T06:54:51Z"
         }
       ],
       "recent_prs": [
@@ -399,10 +399,10 @@
       "slug": "Daegu-Agent-Crew/team-memory-kit",
       "name": "team-memory-kit",
       "private": false,
-      "open_issues": 3,
-      "open_prs": 1,
+      "open_issues": 4,
+      "open_prs": 2,
       "updated_at": "2026-08-12T18:35:32Z",
-      "pushed_at": "2026-08-12T18:35:22Z",
+      "pushed_at": "2026-08-18T17:28:09Z",
       "recent_commits": [
         {
           "sha": "8186416",
@@ -437,6 +437,14 @@
       ],
       "recent_prs": [
         {
+          "number": 10,
+          "title": "docs: PR 템플릿에 이해 확인 질문 추가",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-08-18T17:28:22Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/10"
+        },
+        {
           "number": 9,
           "title": "fix: add empty-data guard to memory-dashboard",
           "author": "sfex11",
@@ -451,14 +459,6 @@
           "state": "open",
           "updated_at": "2026-07-08T19:37:25Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/8"
-        },
-        {
-          "number": 1,
-          "title": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
-          "author": "ynginkim",
-          "state": "closed",
-          "updated_at": "2026-06-17T20:44:42Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/1"
         }
       ]
     },
@@ -468,9 +468,27 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-18T11:02:27Z",
-      "pushed_at": "2026-08-18T11:01:12Z",
+      "updated_at": "2026-08-18T17:48:21Z",
+      "pushed_at": "2026-08-18T17:47:32Z",
       "recent_commits": [
+        {
+          "sha": "539100f",
+          "message": "discourse: Notion engineer pattern analysis + index merge",
+          "author": "daeguru",
+          "date": "2026-08-18T17:47:31Z"
+        },
+        {
+          "sha": "be835bd",
+          "message": "Add Notion engineer microworlds video summary record",
+          "author": "sfex11",
+          "date": "2026-08-18T17:19:31Z"
+        },
+        {
+          "sha": "705256f",
+          "message": "lesson #107: match prediction window to subject native cadence (107)",
+          "author": "sfex11",
+          "date": "2026-08-18T17:03:09Z"
+        },
         {
           "sha": "104be27",
           "message": "lesson #106: structurize human approvals in gates (106)",
@@ -482,24 +500,6 @@
           "message": "lesson #105: deadlineless queues silently starve (105)",
           "author": "sfex11",
           "date": "2026-08-18T05:04:28Z"
-        },
-        {
-          "sha": "d2979c2",
-          "message": "restore lessons #101/#102 lost in #103 bad PUT (404 body mistaken as content) + lesson #104",
-          "author": "sfex11",
-          "date": "2026-08-17T23:02:36Z"
-        },
-        {
-          "sha": "bee6d02",
-          "message": "lesson: distinguish silence types — death vs deep work (104)",
-          "author": "sfex11",
-          "date": "2026-08-17T23:01:14Z"
-        },
-        {
-          "sha": "b7bdd6e",
-          "message": "dashboard/wiki 갱신 (자동)",
-          "author": "daeguru",
-          "date": "2026-08-17T18:46:12Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,70 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore: update patterns dashboard data",
+      "sha": "03763e1",
+      "date": "2026-08-18T17:47:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/03763e1132ff62a02e544f625f1bcc92d32ff4db"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "discourse: Notion engineer pattern analysis + index merge",
+      "sha": "539100f",
+      "date": "2026-08-18T17:47:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/539100f67b23425d4e6bd3be28641685ec47bd49"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory-kit",
+      "author": "sfex11",
+      "message": "docs: PR 템플릿에 이해 확인 질문 추가",
+      "number": 10,
+      "state": "open",
+      "date": "2026-08-18T17:28:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/10"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update youtube dashboard data",
+      "sha": "9eec6af",
+      "date": "2026-08-18T17:19:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9eec6af0c881b815a563725ca93a37f726b2e532"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add Notion engineer microworlds video summary record",
+      "sha": "be835bd",
+      "date": "2026-08-18T17:19:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/be835bde718f038063559b1458af0072e9024e93"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #107: match prediction window to subject native cadence (107)",
+      "sha": "705256f",
+      "date": "2026-08-18T17:03:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/705256fb497fd5b5ddc87228f525e8eaacc20ef9"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json + github activity (auto)",
+      "sha": "dd5ca8d",
+      "date": "2026-08-18T15:45:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dd5ca8d5245a82ba568021afa91ba1c88f930fe0"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-18T15:06:54Z)",
       "sha": "b16daf9",
       "date": "2026-08-18T15:06:54Z",
@@ -618,39 +682,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-18T12:08:24Z)",
-      "sha": "efedbb2",
-      "date": "2026-08-18T12:08:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/efedbb28087d957150ddaba6a272971041e0f2d3"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #106: structurize human approvals in gates (106)",
       "sha": "104be27",
       "date": "2026-08-18T11:01:12Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/104be2701e995b050cb5da751cee5424b42cc148"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-18T09:09:08Z)",
-      "sha": "2dabc2c",
-      "date": "2026-08-18T09:09:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2dabc2cccee7da3d81b622abadae29a0d05f38dc"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json",
-      "sha": "eefc92a",
-      "date": "2026-08-18T06:54:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/eefc92a18d4852374e380260c929404c181867b3"
     },
     {
       "type": "commit",
@@ -678,33 +715,6 @@
       "sha": "70f0aa4",
       "date": "2026-08-17T23:05:36Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/70f0aa48aef678caa289e69e5d61409065739ba3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "restore lessons #101/#102 lost in #103 bad PUT (404 body mistaken as content) + lesson #104",
-      "sha": "d2979c2",
-      "date": "2026-08-17T23:02:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d2979c28e4bb90d0db79d62f791e13acd9c9c00c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson: distinguish silence types — death vs deep work (104)",
-      "sha": "bee6d02",
-      "date": "2026-08-17T23:01:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bee6d02b878fba39f22eb5429cc663de8fea1a76"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "dashboard/wiki 갱신 (자동)",
-      "sha": "b7bdd6e",
-      "date": "2026-08-17T18:46:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b7bdd6e732e7a26279cffbb9b92daee7095209b3"
     },
     {
       "type": "commit",
@@ -1011,16 +1021,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/election2663-archive/commit/ecfbc33ece817ecc1488c616fc9d8995a91a29d2"
     },
     {
-      "type": "pr",
-      "repo": "team-memory-kit",
-      "author": "ynginkim",
-      "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
-      "number": 1,
-      "state": "closed",
-      "date": "2026-06-17T20:44:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/1"
-    },
-    {
       "type": "commit",
       "repo": "team-memory-kit",
       "author": "ynginkim",
@@ -1070,7 +1070,7 @@
     {
       "login": "sfex11",
       "commits": 20,
-      "prs": 16,
+      "prs": 17,
       "issues": 0,
       "reviews": 0
     },
