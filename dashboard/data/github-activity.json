@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-18T03:52:54Z",
-  "since": "2026-07-19T03:52:21Z",
+  "generated": "2026-08-18T06:07:13Z",
+  "since": "2026-07-19T06:06:30Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 230,
+      "open_issues": 231,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-18T00:46:10Z",
-      "pushed_at": "2026-08-18T00:45:53Z",
+      "updated_at": "2026-08-18T03:53:22Z",
+      "pushed_at": "2026-08-18T03:53:17Z",
       "recent_commits": [
+        {
+          "sha": "a3dee1c",
+          "message": "chore(dashboard): update dashboard.json and github activity",
+          "author": "daeguru",
+          "date": "2026-08-18T03:53:16Z"
+        },
         {
           "sha": "146351b",
           "message": "chore: update github-activity data",
@@ -85,12 +91,6 @@
           "message": "dashboard 데이터 갱신 (자동)",
           "author": "daeguru",
           "date": "2026-08-17T18:46:14Z"
-        },
-        {
-          "sha": "50f9f5d",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-17T18:08:14Z)",
-          "author": "daeguru",
-          "date": "2026-08-17T18:08:14Z"
         }
       ],
       "recent_prs": [
@@ -124,11 +124,17 @@
       "slug": "Daegu-Agent-Crew/ai-agent-news",
       "name": "ai-agent-news",
       "private": false,
-      "open_issues": 0,
+      "open_issues": 1,
       "open_prs": 0,
-      "updated_at": "2026-08-17T23:06:01Z",
-      "pushed_at": "2026-08-17T23:05:40Z",
+      "updated_at": "2026-08-18T05:10:26Z",
+      "pushed_at": "2026-08-18T05:09:48Z",
       "recent_commits": [
+        {
+          "sha": "3a407aa",
+          "message": "📚 2026-08-18: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-08-18T05:09:45Z"
+        },
         {
           "sha": "70f0aa4",
           "message": "📰 2026-08-18: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "🔍 2026-08-16: 위키 린트 점검 — 깨진 외부 링크 3건(7곳) 수정",
           "author": "Renover",
           "date": "2026-08-16T14:09:02Z"
-        },
-        {
-          "sha": "37d55ae",
-          "message": "📚 2026-08-16: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-08-16T05:07:05Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-17T23:02:57Z",
-      "pushed_at": "2026-08-17T23:02:36Z",
+      "updated_at": "2026-08-18T05:05:45Z",
+      "pushed_at": "2026-08-18T05:04:29Z",
       "recent_commits": [
+        {
+          "sha": "7c89119",
+          "message": "lesson #105: deadlineless queues silently starve (105)",
+          "author": "sfex11",
+          "date": "2026-08-18T05:04:28Z"
+        },
         {
           "sha": "d2979c2",
           "message": "restore lessons #101/#102 lost in #103 bad PUT (404 body mistaken as content) + lesson #104",
@@ -494,12 +500,6 @@
           "message": "lesson: dueAt must align with observation cycle (#103)",
           "author": "sfex11",
           "date": "2026-08-17T17:00:13Z"
-        },
-        {
-          "sha": "edc4674",
-          "message": "lesson: 102회차 — 자동화 침묵의 원인 계층 확인 (DAC Studio Report #102)",
-          "author": "sfex11",
-          "date": "2026-08-17T05:51:49Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-08-18: 위키 갱신 (2개)",
+      "sha": "3a407aa",
+      "date": "2026-08-18T05:09:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3a407aa73f0c1c0ddab94fd16d04970d12a0030d"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #105: deadlineless queues silently starve (105)",
+      "sha": "7c89119",
+      "date": "2026-08-18T05:04:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7c891195434bca5dbc8b608b9da509638ebc115a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github activity",
+      "sha": "a3dee1c",
+      "date": "2026-08-18T03:53:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a3dee1cb9975f36dd838fab2898b6f784d99eb0a"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update github-activity data",
@@ -672,30 +699,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-17T18:08:14Z)",
-      "sha": "50f9f5d",
-      "date": "2026-08-17T18:08:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/50f9f5d9723ae347264fa598a7b628dccddc9b87"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson: dueAt must align with observation cycle (#103)",
       "sha": "7288203",
       "date": "2026-08-17T17:00:13Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7288203d6719e1de1c2fd54d3d50989bb524b140"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson: 102회차 — 자동화 침묵의 원인 계층 확인 (DAC Studio Report #102)",
-      "sha": "edc4674",
-      "date": "2026-08-17T05:51:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/edc4674b03ecdb8ffd92a6e5a6a3659a2b6595f9"
     },
     {
       "type": "commit",
@@ -723,15 +732,6 @@
       "sha": "f155239",
       "date": "2026-08-16T14:09:02Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f1552393c2c379a82851b1159e235ea900f89f26"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-08-16: 위키 갱신 (2개)",
-      "sha": "37d55ae",
-      "date": "2026-08-16T05:07:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/37d55ae63256353c27b49a57f88ba6108fdd0aec"
     },
     {
       "type": "pr",
