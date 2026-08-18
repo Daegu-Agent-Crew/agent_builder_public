@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-18T09:09:08Z",
-  "since": "2026-07-19T09:08:21Z",
+  "generated": "2026-08-18T12:08:24Z",
+  "since": "2026-07-19T12:07:21Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 231,
+      "open_issues": 232,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-18T06:55:30Z",
-      "pushed_at": "2026-08-18T06:54:53Z",
+      "updated_at": "2026-08-18T09:13:21Z",
+      "pushed_at": "2026-08-18T09:09:12Z",
       "recent_commits": [
+        {
+          "sha": "2dabc2c",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-18T09:09:08Z)",
+          "author": "daeguru",
+          "date": "2026-08-18T09:09:08Z"
+        },
         {
           "sha": "eefc92a",
           "message": "dashboard: update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore: update github-activity data",
           "author": "daeguru",
           "date": "2026-08-18T00:45:52Z"
-        },
-        {
-          "sha": "fa8f9c6",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-18T00:07:09Z)",
-          "author": "daeguru",
-          "date": "2026-08-18T00:07:10Z"
         }
       ],
       "recent_prs": [
@@ -271,7 +271,7 @@
         {
           "sha": "9a650b5",
           "message": "docs: add dabstack bootstrap plan",
-          "author": "Normalist-K",
+          "author": "ynginkim",
           "date": "2026-05-28T07:55:24Z"
         }
       ],
@@ -289,7 +289,7 @@
         {
           "sha": "d1cefff",
           "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#2)",
-          "author": "Normalist-K",
+          "author": "ynginkim",
           "date": "2026-06-17T20:44:48Z"
         },
         {
@@ -321,7 +321,7 @@
         {
           "number": 2,
           "title": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
-          "author": "Normalist-K",
+          "author": "ynginkim",
           "state": "closed",
           "updated_at": "2026-06-17T20:44:49Z",
           "url": "https://github.com/Daegu-Agent-Crew/election2663-archive-public/pull/2"
@@ -413,7 +413,7 @@
         {
           "sha": "db22ae8",
           "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#1)",
-          "author": "Normalist-K",
+          "author": "ynginkim",
           "date": "2026-06-17T20:44:41Z"
         },
         {
@@ -425,13 +425,13 @@
         {
           "sha": "c42e3ef",
           "message": "v2026.06.10.2 feat: add team memory upgrade workflow (#4)",
-          "author": "Normalist-K",
+          "author": "ynginkim",
           "date": "2026-06-10T15:02:38Z"
         },
         {
           "sha": "0a79063",
           "message": "docs: add team intent design notes",
-          "author": "Normalist-K",
+          "author": "ynginkim",
           "date": "2026-06-10T14:03:04Z"
         }
       ],
@@ -455,7 +455,7 @@
         {
           "number": 1,
           "title": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
-          "author": "Normalist-K",
+          "author": "ynginkim",
           "state": "closed",
           "updated_at": "2026-06-17T20:44:42Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/1"
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-18T05:05:45Z",
-      "pushed_at": "2026-08-18T05:04:29Z",
+      "updated_at": "2026-08-18T11:02:27Z",
+      "pushed_at": "2026-08-18T11:01:12Z",
       "recent_commits": [
+        {
+          "sha": "104be27",
+          "message": "lesson #106: structurize human approvals in gates (106)",
+          "author": "sfex11",
+          "date": "2026-08-18T11:01:12Z"
+        },
         {
           "sha": "7c89119",
           "message": "lesson #105: deadlineless queues silently starve (105)",
@@ -494,12 +500,6 @@
           "message": "dashboard/wiki 갱신 (자동)",
           "author": "daeguru",
           "date": "2026-08-17T18:46:12Z"
-        },
-        {
-          "sha": "7288203",
-          "message": "lesson: dueAt must align with observation cycle (#103)",
-          "author": "sfex11",
-          "date": "2026-08-17T17:00:13Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #106: structurize human approvals in gates (106)",
+      "sha": "104be27",
+      "date": "2026-08-18T11:01:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/104be2701e995b050cb5da751cee5424b42cc148"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-18T09:09:08Z)",
+      "sha": "2dabc2c",
+      "date": "2026-08-18T09:09:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2dabc2cccee7da3d81b622abadae29a0d05f38dc"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json",
@@ -654,15 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-18T00:07:09Z)",
-      "sha": "fa8f9c6",
-      "date": "2026-08-18T00:07:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fa8f9c6c0f3ff98a7b5b6be09791383a2bf19c42"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-08-18: 뉴스 수집 (5건)",
@@ -696,15 +705,6 @@
       "sha": "b7bdd6e",
       "date": "2026-08-17T18:46:12Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b7bdd6e732e7a26279cffbb9b92daee7095209b3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson: dueAt must align with observation cycle (#103)",
-      "sha": "7288203",
-      "date": "2026-08-17T17:00:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7288203d6719e1de1c2fd54d3d50989bb524b140"
     },
     {
       "type": "commit",
@@ -975,7 +975,7 @@
     {
       "type": "pr",
       "repo": "election2663-archive-public",
-      "author": "Normalist-K",
+      "author": "ynginkim",
       "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
       "number": 2,
       "state": "closed",
@@ -985,7 +985,7 @@
     {
       "type": "commit",
       "repo": "election2663-archive-public",
-      "author": "Normalist-K",
+      "author": "ynginkim",
       "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#2)",
       "sha": "d1cefff",
       "date": "2026-06-17T20:44:48Z",
@@ -1013,7 +1013,7 @@
     {
       "type": "pr",
       "repo": "team-memory-kit",
-      "author": "Normalist-K",
+      "author": "ynginkim",
       "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
       "number": 1,
       "state": "closed",
@@ -1023,7 +1023,7 @@
     {
       "type": "commit",
       "repo": "team-memory-kit",
-      "author": "Normalist-K",
+      "author": "ynginkim",
       "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree) (#1)",
       "sha": "db22ae8",
       "date": "2026-06-17T20:44:41Z",
@@ -1050,7 +1050,7 @@
     {
       "type": "commit",
       "repo": "team-memory-kit",
-      "author": "Normalist-K",
+      "author": "ynginkim",
       "message": "v2026.06.10.2 feat: add team memory upgrade workflow (#4)",
       "sha": "c42e3ef",
       "date": "2026-06-10T15:02:38Z",
@@ -1059,7 +1059,7 @@
     {
       "type": "commit",
       "repo": "team-memory-kit",
-      "author": "Normalist-K",
+      "author": "ynginkim",
       "message": "docs: add team intent design notes",
       "sha": "0a79063",
       "date": "2026-06-10T14:03:04Z",
@@ -1082,15 +1082,15 @@
       "reviews": 0
     },
     {
-      "login": "Normalist-K",
-      "commits": 5,
-      "prs": 2,
+      "login": "renover",
+      "commits": 1,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "renover",
-      "commits": 1,
+      "login": "Normalist-K",
+      "commits": 0,
       "prs": 0,
       "issues": 0,
       "reviews": 0
