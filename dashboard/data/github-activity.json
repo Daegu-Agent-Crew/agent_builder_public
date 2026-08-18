@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-17T21:05:46Z",
-  "since": "2026-07-18T21:04:59Z",
+  "generated": "2026-08-18T00:07:09Z",
+  "since": "2026-07-19T00:06:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 229,
+      "open_issues": 230,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-17T18:46:56Z",
-      "pushed_at": "2026-08-17T18:46:15Z",
+      "updated_at": "2026-08-17T21:06:02Z",
+      "pushed_at": "2026-08-17T21:05:50Z",
       "recent_commits": [
+        {
+          "sha": "ffce8b9",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-17T21:05:46Z)",
+          "author": "daeguru",
+          "date": "2026-08-17T21:05:46Z"
+        },
         {
           "sha": "632fb83",
           "message": "dashboard 데이터 갱신 (자동)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (2026-08-17 18:44 KST)",
           "author": "daeguru",
           "date": "2026-08-17T09:46:34Z"
-        },
-        {
-          "sha": "42a9bc5",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-17T09:07:14Z)",
-          "author": "daeguru",
-          "date": "2026-08-17T09:07:14Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-08-17T05:11:18Z",
-      "pushed_at": "2026-08-17T05:11:01Z",
+      "updated_at": "2026-08-17T23:06:01Z",
+      "pushed_at": "2026-08-17T23:05:40Z",
       "recent_commits": [
+        {
+          "sha": "70f0aa4",
+          "message": "📰 2026-08-18: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-08-17T23:05:36Z"
+        },
         {
           "sha": "2cdf8dd",
           "message": "📚 2026-08-17: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-08-16: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-08-16T05:07:05Z"
-        },
-        {
-          "sha": "e38a881",
-          "message": "📚 2026-08-16: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-08-16T00:53:09Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,21 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-17T18:46:59Z",
-      "pushed_at": "2026-08-17T18:46:13Z",
+      "updated_at": "2026-08-17T23:02:57Z",
+      "pushed_at": "2026-08-17T23:02:36Z",
       "recent_commits": [
+        {
+          "sha": "d2979c2",
+          "message": "restore lessons #101/#102 lost in #103 bad PUT (404 body mistaken as content) + lesson #104",
+          "author": "sfex11",
+          "date": "2026-08-17T23:02:36Z"
+        },
+        {
+          "sha": "bee6d02",
+          "message": "lesson: distinguish silence types — death vs deep work (104)",
+          "author": "sfex11",
+          "date": "2026-08-17T23:01:14Z"
+        },
         {
           "sha": "b7bdd6e",
           "message": "dashboard/wiki 갱신 (자동)",
@@ -488,18 +500,6 @@
           "message": "lesson: 102회차 — 자동화 침묵의 원인 계층 확인 (DAC Studio Report #102)",
           "author": "sfex11",
           "date": "2026-08-17T05:51:49Z"
-        },
-        {
-          "sha": "0084347",
-          "message": "lesson: #101회차 교훈 — 무볐동도 흔적으로 확증하라",
-          "author": "sfex11",
-          "date": "2026-08-16T23:39:35Z"
-        },
-        {
-          "sha": "a5823e0",
-          "message": "lesson: DAC-lessons-2026-08 생성 — #100회차 교훈 (실행 흔적 원칙)",
-          "author": "sfex11",
-          "date": "2026-08-16T22:56:40Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-18: 뉴스 수집 (5건)",
+      "sha": "70f0aa4",
+      "date": "2026-08-17T23:05:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/70f0aa48aef678caa289e69e5d61409065739ba3"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "restore lessons #101/#102 lost in #103 bad PUT (404 body mistaken as content) + lesson #104",
+      "sha": "d2979c2",
+      "date": "2026-08-17T23:02:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d2979c28e4bb90d0db79d62f791e13acd9c9c00c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson: distinguish silence types — death vs deep work (104)",
+      "sha": "bee6d02",
+      "date": "2026-08-17T23:01:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bee6d02b878fba39f22eb5429cc663de8fea1a76"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-17T21:05:46Z)",
+      "sha": "ffce8b9",
+      "date": "2026-08-17T21:05:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ffce8b9ff0e2afdcc6a81c29b3a206e7e9b4194d"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard 데이터 갱신 (자동)",
@@ -654,15 +690,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-17T09:07:14Z)",
-      "sha": "42a9bc5",
-      "date": "2026-08-17T09:07:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/42a9bc5e3e5b443cf7b0f3ab0238241b1d4ae50a"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson: 102회차 — 자동화 침묵의 원인 계층 확인 (DAC Studio Report #102)",
@@ -681,30 +708,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson: #101회차 교훈 — 무볐동도 흔적으로 확증하라",
-      "sha": "0084347",
-      "date": "2026-08-16T23:39:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0084347f1e0a821c98892fadcfed518951442974"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-08-17: 뉴스 수집 (4건)",
       "sha": "3e61364",
       "date": "2026-08-16T23:05:32Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3e61364522540928fa51dada2bd5beb1029b648e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson: DAC-lessons-2026-08 생성 — #100회차 교훈 (실행 흔적 원칙)",
-      "sha": "a5823e0",
-      "date": "2026-08-16T22:56:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a5823e0c8f523e5ecca0b268c466fd8b6c6b0e89"
     },
     {
       "type": "commit",
@@ -779,15 +788,6 @@
       "sha": "d98457c",
       "date": "2026-08-16T01:51:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d98457c7631ddc2ec1114977c8878dcda2a94d6e"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-08-16: 위키 갱신 (2개)",
-      "sha": "e38a881",
-      "date": "2026-08-16T00:53:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e38a881b4455b4473afe6effec1478d7a6aefbf2"
     },
     {
       "type": "pr",
