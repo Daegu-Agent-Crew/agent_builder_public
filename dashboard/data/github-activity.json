@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-19T00:45:33Z",
-  "since": "2026-07-20T00:45:00Z",
+  "generated": "2026-08-19T03:09:14Z",
+  "since": "2026-07-20T03:08:28Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-19T00:06:19Z",
-      "pushed_at": "2026-08-19T00:05:59Z",
+      "updated_at": "2026-08-19T00:57:58Z",
+      "pushed_at": "2026-08-19T00:57:54Z",
       "recent_commits": [
+        {
+          "sha": "0c92d69",
+          "message": "chore: update youtube dashboard data",
+          "author": "daeguru",
+          "date": "2026-08-19T00:57:53Z"
+        },
+        {
+          "sha": "6c6b62a",
+          "message": "Update dashboard data (auto)",
+          "author": "Daeguru Agent",
+          "date": "2026-08-19T00:45:43Z"
+        },
         {
           "sha": "89ae632",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-19T00:05:56Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-18T21:07:26Z)",
           "author": "daeguru",
           "date": "2026-08-18T21:07:26Z"
-        },
-        {
-          "sha": "6d080f3",
-          "message": "Update dashboard data and github activity",
-          "author": "daeguru",
-          "date": "2026-08-18T18:45:55Z"
-        },
-        {
-          "sha": "e633bfc",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-18T18:07:23Z)",
-          "author": "daeguru",
-          "date": "2026-08-18T18:07:23Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-18T23:06:45Z",
-      "pushed_at": "2026-08-18T23:06:29Z",
+      "updated_at": "2026-08-19T00:57:42Z",
+      "pushed_at": "2026-08-19T00:57:25Z",
       "recent_commits": [
+        {
+          "sha": "ae247c3",
+          "message": "Add Demis Hassabis Cambridge AI lecture video summary record",
+          "author": "sfex11",
+          "date": "2026-08-19T00:57:25Z"
+        },
         {
           "sha": "cce4cf9",
           "message": "lesson #108: preserve raw human answers, not just the parsed choice (108)",
@@ -494,12 +500,6 @@
           "message": "Add Notion engineer microworlds video summary record",
           "author": "sfex11",
           "date": "2026-08-18T17:19:31Z"
-        },
-        {
-          "sha": "705256f",
-          "message": "lesson #107: match prediction window to subject native cadence (107)",
-          "author": "sfex11",
-          "date": "2026-08-18T17:03:09Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,33 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore: update youtube dashboard data",
+      "sha": "0c92d69",
+      "date": "2026-08-19T00:57:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0c92d69f00b710f79de65b0996d27bf11c72f4e1"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add Demis Hassabis Cambridge AI lecture video summary record",
+      "sha": "ae247c3",
+      "date": "2026-08-19T00:57:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ae247c3038447308bff8c307c09b19833ba1ab9f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Daeguru Agent",
+      "message": "Update dashboard data (auto)",
+      "sha": "6c6b62a",
+      "date": "2026-08-19T00:45:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6c6b62a906bbb8ce232ee7192bc421cb406711ee"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-19T00:05:56Z)",
       "sha": "89ae632",
       "date": "2026-08-19T00:05:57Z",
@@ -654,24 +681,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard data and github activity",
-      "sha": "6d080f3",
-      "date": "2026-08-18T18:45:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6d080f35aedcd7bdc14f861314bf018f621cd89b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-18T18:07:23Z)",
-      "sha": "e633bfc",
-      "date": "2026-08-18T18:07:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e633bfc3b220d06ba7e25edb540cdd8cbc2c5d0c"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "discourse: Notion engineer pattern analysis + index merge",
@@ -697,15 +706,6 @@
       "sha": "be835bd",
       "date": "2026-08-18T17:19:31Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/be835bde718f038063559b1458af0072e9024e93"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #107: match prediction window to subject native cadence (107)",
-      "sha": "705256f",
-      "date": "2026-08-18T17:03:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/705256fb497fd5b5ddc87228f525e8eaacc20ef9"
     },
     {
       "type": "commit",
@@ -1076,7 +1076,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 8,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
