@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-19T18:06:04Z",
-  "since": "2026-07-20T18:05:16Z",
+  "generated": "2026-08-19T18:45:40Z",
+  "since": "2026-07-20T18:45:07Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-19T15:50:54Z",
-      "pushed_at": "2026-08-19T15:45:50Z",
+      "updated_at": "2026-08-19T18:11:15Z",
+      "pushed_at": "2026-08-19T18:06:07Z",
       "recent_commits": [
+        {
+          "sha": "f7824ef",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-19T18:06:04Z)",
+          "author": "daeguru",
+          "date": "2026-08-19T18:06:04Z"
+        },
         {
           "sha": "559cdee",
           "message": "chore: update dashboard data (auto)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-19T12:07:49Z)",
           "author": "daeguru",
           "date": "2026-08-19T12:07:49Z"
-        },
-        {
-          "sha": "839eb18",
-          "message": "dac report #109: attach EP001 bible to EP002 publish pipeline diagram",
-          "author": "sfex11",
-          "date": "2026-08-19T11:02:26Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-19T18:06:04Z)",
+      "sha": "f7824ef",
+      "date": "2026-08-19T18:06:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f7824ef9d119cb8c90bf21d618e551106dd0a0e0"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #110 — 관측 마감은 가설 창의 끝에 (DAC 리포트 110회차)",
@@ -651,15 +660,6 @@
       "sha": "3a281ba",
       "date": "2026-08-19T11:05:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3a281ba2432a979aaf6d7385dd6e9bd715dd797f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac report #109: attach EP001 bible to EP002 publish pipeline diagram",
-      "sha": "839eb18",
-      "date": "2026-08-19T11:02:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/839eb18eec5b37a90b8135b4c9928f5f919087c9"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
