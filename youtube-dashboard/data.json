@@ -2,16 +2,16 @@
   "meta": {
     "version": 1,
     "generatedAt": "2026-08-11",
-    "totalVideos": 15,
+    "totalVideos": 16,
     "totalChannels": 12,
     "byType": {
+      "담화 패턴 분석": 4,
       "영상 요약": 9,
       "기타": 2,
-      "담화 패턴 분석": 3,
       "참가자 분석": 1
     },
     "byChannel": {
-      "AgentOS": 1,
+      "AgentOS": 2,
       "미상": 4,
       "Y Combinator": 1,
       "Google Cloud X Solana Hackathon (공식)": 1,
@@ -25,12 +25,32 @@
       "천영록": 1
     },
     "byMonth": {
-      "2026-08": 1,
+      "2026-08": 2,
       "2026-07": 11,
       "2026-06": 3
     }
   },
   "videos": [
+    {
+      "filename": "2026-08-19-notion-engineer-discourse-analysis.md",
+      "title": "Notion 엔지니어 담화 패턴 분석 — \"진짜 병목은 리뷰가 아니다\"",
+      "videoUrl": "https://youtu.be/81EIe6h7mnw",
+      "channel": "AgentOS",
+      "speaker": "Notion 재직 엔지니어 (단일 화자 강연)",
+      "date": "2026-08-19",
+      "summarizer": "",
+      "type": "담화 패턴 분석",
+      "coreMessage": "",
+      "sections": [
+        "종합 평가",
+        "식별 패턴 (기존 14종 + 신규 3종)",
+        "한 문장",
+        "카탈로그 운영 메모"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-08-19-notion-engineer-discourse-analysis.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/81EIe6h7mnw/mqdefault.jpg"
+    },
     {
       "filename": "2026-08-19-notion-engineer-microworlds.md",
       "title": "에이전트가 올린 5만 5천 줄 PR — Notion 엔지니어가 말한 \"진짜 병목은 리뷰가 아니다\" —",
