@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-19T09:09:07Z",
-  "since": "2026-07-20T09:07:49Z",
+  "generated": "2026-08-19T12:07:49Z",
+  "since": "2026-07-20T12:06:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 234,
+      "open_issues": 235,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-19T06:46:04Z",
-      "pushed_at": "2026-08-19T06:46:00Z",
+      "updated_at": "2026-08-19T11:04:38Z",
+      "pushed_at": "2026-08-19T11:02:27Z",
       "recent_commits": [
+        {
+          "sha": "839eb18",
+          "message": "dac report #109: attach EP001 bible to EP002 publish pipeline diagram",
+          "author": "sfex11",
+          "date": "2026-08-19T11:02:26Z"
+        },
+        {
+          "sha": "0102dde",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-19T09:09:07Z)",
+          "author": "daeguru",
+          "date": "2026-08-19T09:09:07Z"
+        },
         {
           "sha": "b4c9cd0",
           "message": "dashboard: regenerate dashboard.json & github-activity (2026-08-19 15:44 KST)",
@@ -79,18 +91,6 @@
           "message": "dac report #108: attach studio evolution loop diagram (predict/collect/improve)",
           "author": "sfex11",
           "date": "2026-08-19T05:06:05Z"
-        },
-        {
-          "sha": "62394a3",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-19T03:09:14Z)",
-          "author": "daeguru",
-          "date": "2026-08-19T03:09:15Z"
-        },
-        {
-          "sha": "0c92d69",
-          "message": "chore: update youtube dashboard data",
-          "author": "daeguru",
-          "date": "2026-08-19T00:57:53Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-19T03:21:32Z",
-      "pushed_at": "2026-08-19T03:21:11Z",
+      "updated_at": "2026-08-19T11:07:37Z",
+      "pushed_at": "2026-08-19T11:05:47Z",
       "recent_commits": [
+        {
+          "sha": "3a281ba",
+          "message": "lesson #109: start long generations in background, harvest next cycle",
+          "author": "sfex11",
+          "date": "2026-08-19T11:05:47Z"
+        },
         {
           "sha": "b978b6f",
           "message": "Add Demis Hassabis discourse pattern analysis (discourse-pattern-extractor + thinking-method)",
@@ -494,12 +500,6 @@
           "message": "dashboard: regenerate 2026-08-19",
           "author": "daeguru",
           "date": "2026-08-18T21:45:48Z"
-        },
-        {
-          "sha": "539100f",
-          "message": "discourse: Notion engineer pattern analysis + index merge",
-          "author": "daeguru",
-          "date": "2026-08-18T17:47:31Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #109: start long generations in background, harvest next cycle",
+      "sha": "3a281ba",
+      "date": "2026-08-19T11:05:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3a281ba2432a979aaf6d7385dd6e9bd715dd797f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac report #109: attach EP001 bible to EP002 publish pipeline diagram",
+      "sha": "839eb18",
+      "date": "2026-08-19T11:02:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/839eb18eec5b37a90b8135b4c9928f5f919087c9"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-19T09:09:07Z)",
+      "sha": "0102dde",
+      "date": "2026-08-19T09:09:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0102dde12484e8dea5661f168acbc580bc2b6f7c"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: regenerate dashboard.json & github-activity (2026-08-19 15:44 KST)",
@@ -645,24 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-19T03:09:14Z)",
-      "sha": "62394a3",
-      "date": "2026-08-19T03:09:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/62394a39675e4a9c6543638ad2769d8337455adb"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update youtube dashboard data",
-      "sha": "0c92d69",
-      "date": "2026-08-19T00:57:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0c92d69f00b710f79de65b0996d27bf11c72f4e1"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add Demis Hassabis Cambridge AI lecture video summary record",
@@ -696,15 +705,6 @@
       "sha": "5e7caa2",
       "date": "2026-08-18T21:45:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5e7caa29ffb715e61f64989bf94e17725f22d9cc"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "discourse: Notion engineer pattern analysis + index merge",
-      "sha": "539100f",
-      "date": "2026-08-18T17:47:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/539100f67b23425d4e6bd3be28641685ec47bd49"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 22,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
