@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-18T21:45:25Z",
-  "since": "2026-07-19T21:44:51Z",
+  "generated": "2026-08-19T00:05:56Z",
+  "since": "2026-07-20T00:05:05Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-18T21:11:57Z",
-      "pushed_at": "2026-08-18T21:07:29Z",
+      "updated_at": "2026-08-18T21:47:14Z",
+      "pushed_at": "2026-08-18T21:45:52Z",
       "recent_commits": [
+        {
+          "sha": "8ae286e",
+          "message": "dashboard: update data 2026-08-19",
+          "author": "daeguru",
+          "date": "2026-08-18T21:45:51Z"
+        },
         {
           "sha": "35d6a32",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-18T21:07:26Z)",
@@ -85,12 +91,6 @@
           "message": "chore: update patterns dashboard data",
           "author": "daeguru",
           "date": "2026-08-18T17:47:43Z"
-        },
-        {
-          "sha": "9eec6af",
-          "message": "chore: update youtube dashboard data",
-          "author": "daeguru",
-          "date": "2026-08-18T17:19:55Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 1,
       "open_prs": 0,
-      "updated_at": "2026-08-18T05:10:26Z",
-      "pushed_at": "2026-08-18T05:09:48Z",
+      "updated_at": "2026-08-18T23:14:59Z",
+      "pushed_at": "2026-08-18T23:13:18Z",
       "recent_commits": [
+        {
+          "sha": "4f5cc68",
+          "message": "📰 2026-08-19: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-08-18T23:13:15Z"
+        },
         {
           "sha": "3a407aa",
           "message": "📚 2026-08-18: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-08-17: 뉴스 수집 (4건)",
           "author": "Renover",
           "date": "2026-08-16T23:05:32Z"
-        },
-        {
-          "sha": "f155239",
-          "message": "🔍 2026-08-16: 위키 린트 점검 — 깨진 외부 링크 3건(7곳) 수정",
-          "author": "Renover",
-          "date": "2026-08-16T14:09:02Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,21 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-18T17:48:21Z",
-      "pushed_at": "2026-08-18T17:47:32Z",
+      "updated_at": "2026-08-18T23:06:45Z",
+      "pushed_at": "2026-08-18T23:06:29Z",
       "recent_commits": [
+        {
+          "sha": "cce4cf9",
+          "message": "lesson #108: preserve raw human answers, not just the parsed choice (108)",
+          "author": "sfex11",
+          "date": "2026-08-18T23:06:29Z"
+        },
+        {
+          "sha": "5e7caa2",
+          "message": "dashboard: regenerate 2026-08-19",
+          "author": "daeguru",
+          "date": "2026-08-18T21:45:48Z"
+        },
         {
           "sha": "539100f",
           "message": "discourse: Notion engineer pattern analysis + index merge",
@@ -488,18 +500,6 @@
           "message": "lesson #107: match prediction window to subject native cadence (107)",
           "author": "sfex11",
           "date": "2026-08-18T17:03:09Z"
-        },
-        {
-          "sha": "104be27",
-          "message": "lesson #106: structurize human approvals in gates (106)",
-          "author": "sfex11",
-          "date": "2026-08-18T11:01:12Z"
-        },
-        {
-          "sha": "7c89119",
-          "message": "lesson #105: deadlineless queues silently starve (105)",
-          "author": "sfex11",
-          "date": "2026-08-18T05:04:28Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-19: 뉴스 수집 (5건)",
+      "sha": "4f5cc68",
+      "date": "2026-08-18T23:13:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/4f5cc68491b5d819a3f0cf0fa700c108387b6dde"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #108: preserve raw human answers, not just the parsed choice (108)",
+      "sha": "cce4cf9",
+      "date": "2026-08-18T23:06:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cce4cf9edb1ee93c0b039070948149531938000e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update data 2026-08-19",
+      "sha": "8ae286e",
+      "date": "2026-08-18T21:45:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8ae286e3e744f08376e99fe02b8c7dc7bf49db89"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "dashboard: regenerate 2026-08-19",
+      "sha": "5e7caa2",
+      "date": "2026-08-18T21:45:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5e7caa29ffb715e61f64989bf94e17725f22d9cc"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-18T21:07:26Z)",
@@ -655,15 +691,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update youtube dashboard data",
-      "sha": "9eec6af",
-      "date": "2026-08-18T17:19:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9eec6af0c881b815a563725ca93a37f726b2e532"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add Notion engineer microworlds video summary record",
@@ -682,30 +709,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #106: structurize human approvals in gates (106)",
-      "sha": "104be27",
-      "date": "2026-08-18T11:01:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/104be2701e995b050cb5da751cee5424b42cc148"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-08-18: 위키 갱신 (2개)",
       "sha": "3a407aa",
       "date": "2026-08-18T05:09:45Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3a407aa73f0c1c0ddab94fd16d04970d12a0030d"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #105: deadlineless queues silently starve (105)",
-      "sha": "7c89119",
-      "date": "2026-08-18T05:04:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7c891195434bca5dbc8b608b9da509638ebc115a"
     },
     {
       "type": "commit",
@@ -733,15 +742,6 @@
       "sha": "3e61364",
       "date": "2026-08-16T23:05:32Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3e61364522540928fa51dada2bd5beb1029b648e"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔍 2026-08-16: 위키 린트 점검 — 깨진 외부 링크 3건(7곳) 수정",
-      "sha": "f155239",
-      "date": "2026-08-16T14:09:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f1552393c2c379a82851b1159e235ea900f89f26"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 19,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 8,
       "prs": 0,
       "issues": 0,
       "reviews": 0
