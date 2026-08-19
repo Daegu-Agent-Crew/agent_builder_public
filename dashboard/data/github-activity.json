@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-19T03:09:14Z",
-  "since": "2026-07-20T03:08:28Z",
+  "generated": "2026-08-19T06:06:13Z",
+  "since": "2026-07-20T06:05:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 233,
+      "open_issues": 234,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-19T00:57:58Z",
-      "pushed_at": "2026-08-19T00:57:54Z",
+      "updated_at": "2026-08-19T05:06:57Z",
+      "pushed_at": "2026-08-19T05:06:06Z",
       "recent_commits": [
+        {
+          "sha": "08bc4fa",
+          "message": "dac report #108: attach studio evolution loop diagram (predict/collect/improve)",
+          "author": "sfex11",
+          "date": "2026-08-19T05:06:05Z"
+        },
+        {
+          "sha": "62394a3",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-19T03:09:14Z)",
+          "author": "daeguru",
+          "date": "2026-08-19T03:09:15Z"
+        },
         {
           "sha": "0c92d69",
           "message": "chore: update youtube dashboard data",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-19T00:05:56Z)",
           "author": "daeguru",
           "date": "2026-08-19T00:05:57Z"
-        },
-        {
-          "sha": "8ae286e",
-          "message": "dashboard: update data 2026-08-19",
-          "author": "daeguru",
-          "date": "2026-08-18T21:45:51Z"
-        },
-        {
-          "sha": "35d6a32",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-18T21:07:26Z)",
-          "author": "daeguru",
-          "date": "2026-08-18T21:07:26Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 1,
       "open_prs": 0,
-      "updated_at": "2026-08-18T23:14:59Z",
-      "pushed_at": "2026-08-18T23:13:18Z",
+      "updated_at": "2026-08-19T05:11:29Z",
+      "pushed_at": "2026-08-19T05:11:19Z",
       "recent_commits": [
+        {
+          "sha": "aeee354",
+          "message": "📚 2026-08-19: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-08-19T05:11:15Z"
+        },
         {
           "sha": "4f5cc68",
           "message": "📰 2026-08-19: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-08-17: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-08-17T05:10:59Z"
-        },
-        {
-          "sha": "3e61364",
-          "message": "📰 2026-08-17: 뉴스 수집 (4건)",
-          "author": "Renover",
-          "date": "2026-08-16T23:05:32Z"
         }
       ],
       "recent_prs": []
@@ -174,19 +174,19 @@
         {
           "sha": "8714463",
           "message": "Register source repos: team-memory-kit, election2663-archive-public, agent_builder_public",
-          "author": "normalist-k-s-assistant",
+          "author": "fluentt-dev",
           "date": "2026-06-09T08:44:55Z"
         },
         {
           "sha": "d194d55",
           "message": "Publish tree URL in AGENTS.md identity block",
-          "author": "normalist-k-s-assistant",
+          "author": "fluentt-dev",
           "date": "2026-06-09T08:42:25Z"
         },
         {
           "sha": "0597c52",
           "message": "Bootstrap context-tree (shared, first-tree v0.4.0-alpha.1)",
-          "author": "normalist-k-s-assistant",
+          "author": "fluentt-dev",
           "date": "2026-06-09T08:41:11Z"
         }
       ],
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-19T00:57:42Z",
-      "pushed_at": "2026-08-19T00:57:25Z",
+      "updated_at": "2026-08-19T03:21:32Z",
+      "pushed_at": "2026-08-19T03:21:11Z",
       "recent_commits": [
+        {
+          "sha": "b978b6f",
+          "message": "Add Demis Hassabis discourse pattern analysis (discourse-pattern-extractor + thinking-method)",
+          "author": "sfex11",
+          "date": "2026-08-19T03:21:10Z"
+        },
         {
           "sha": "ae247c3",
           "message": "Add Demis Hassabis Cambridge AI lecture video summary record",
@@ -494,12 +500,6 @@
           "message": "discourse: Notion engineer pattern analysis + index merge",
           "author": "daeguru",
           "date": "2026-08-18T17:47:31Z"
-        },
-        {
-          "sha": "be835bd",
-          "message": "Add Notion engineer microworlds video summary record",
-          "author": "sfex11",
-          "date": "2026-08-18T17:19:31Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-08-19: 위키 갱신 (2개)",
+      "sha": "aeee354",
+      "date": "2026-08-19T05:11:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/aeee3548eee5de5e6c22c9ef7cf29650ef74ecf6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac report #108: attach studio evolution loop diagram (predict/collect/improve)",
+      "sha": "08bc4fa",
+      "date": "2026-08-19T05:06:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/08bc4fa88d7e4cf4df0bf9b47431f7401be02935"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add Demis Hassabis discourse pattern analysis (discourse-pattern-extractor + thinking-method)",
+      "sha": "b978b6f",
+      "date": "2026-08-19T03:21:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b978b6fd852ffc01cbe2afcf59328efcd1363268"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-19T03:09:14Z)",
+      "sha": "62394a3",
+      "date": "2026-08-19T03:09:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/62394a39675e4a9c6543638ad2769d8337455adb"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update youtube dashboard data",
@@ -654,30 +690,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update data 2026-08-19",
-      "sha": "8ae286e",
-      "date": "2026-08-18T21:45:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8ae286e3e744f08376e99fe02b8c7dc7bf49db89"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "dashboard: regenerate 2026-08-19",
       "sha": "5e7caa2",
       "date": "2026-08-18T21:45:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5e7caa29ffb715e61f64989bf94e17725f22d9cc"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-18T21:07:26Z)",
-      "sha": "35d6a32",
-      "date": "2026-08-18T21:07:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/35d6a320c0cfd6fc9b59c06ae1c2326b8247cd9a"
     },
     {
       "type": "commit",
@@ -697,15 +715,6 @@
       "state": "open",
       "date": "2026-08-18T17:28:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/10"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add Notion engineer microworlds video summary record",
-      "sha": "be835bd",
-      "date": "2026-08-18T17:19:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/be835bde718f038063559b1458af0072e9024e93"
     },
     {
       "type": "commit",
@@ -733,15 +742,6 @@
       "sha": "2cdf8dd",
       "date": "2026-08-17T05:10:59Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2cdf8dd9704b7bc813062e91bfa20ed85170ceb2"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-08-17: 뉴스 수집 (4건)",
-      "sha": "3e61364",
-      "date": "2026-08-16T23:05:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3e61364522540928fa51dada2bd5beb1029b648e"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 20,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
