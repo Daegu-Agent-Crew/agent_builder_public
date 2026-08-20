@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20T06:08:02Z",
-  "since": "2026-07-21T06:07:00Z",
+  "generated": "2026-08-20T06:45:47Z",
+  "since": "2026-07-21T06:45:15Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-20T03:46:31Z",
-      "pushed_at": "2026-08-20T03:45:54Z",
+      "updated_at": "2026-08-20T06:09:30Z",
+      "pushed_at": "2026-08-20T06:08:05Z",
       "recent_commits": [
+        {
+          "sha": "98a0616",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-20T06:08:02Z)",
+          "author": "daeguru",
+          "date": "2026-08-20T06:08:02Z"
+        },
         {
           "sha": "bf2ab2b",
           "message": "dashboard: update dashboard.json & github activity",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-20T00:06:34Z)",
           "author": "daeguru",
           "date": "2026-08-20T00:06:35Z"
-        },
-        {
-          "sha": "2c29fc9",
-          "message": "DAC 리포트 111회차 다이어그램 — 인프라 PR 자동 머지 vs 창작 승인 게이트 2줄 구조",
-          "author": "sfex11",
-          "date": "2026-08-19T23:11:31Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-20T06:08:02Z)",
+      "sha": "98a0616",
+      "date": "2026-08-20T06:08:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/98a0616f504ff4b5e48adb81a622824fa81b7811"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-08-20: 위키 갱신 (2개)",
@@ -660,15 +669,6 @@
       "sha": "36a8f03",
       "date": "2026-08-19T23:11:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/36a8f03759c7fcd6f05c7c2cbf9ec94605325edd"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "DAC 리포트 111회차 다이어그램 — 인프라 PR 자동 머지 vs 창작 승인 게이트 2줄 구조",
-      "sha": "2c29fc9",
-      "date": "2026-08-19T23:11:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2c29fc9fd1ea95fe9fa043729133548fca35afc8"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
