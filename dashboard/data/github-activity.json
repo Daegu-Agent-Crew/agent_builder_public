@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-19T21:05:39Z",
-  "since": "2026-07-20T21:04:55Z",
+  "generated": "2026-08-20T00:06:34Z",
+  "since": "2026-07-21T00:05:48Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 236,
+      "open_issues": 237,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-19T18:51:33Z",
-      "pushed_at": "2026-08-19T18:45:49Z",
+      "updated_at": "2026-08-19T23:11:38Z",
+      "pushed_at": "2026-08-19T23:11:31Z",
       "recent_commits": [
+        {
+          "sha": "2c29fc9",
+          "message": "DAC 리포트 111회차 다이어그램 — 인프라 PR 자동 머지 vs 창작 승인 게이트 2줄 구조",
+          "author": "sfex11",
+          "date": "2026-08-19T23:11:31Z"
+        },
+        {
+          "sha": "2f8873e",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-19T21:05:39Z)",
+          "author": "daeguru",
+          "date": "2026-08-19T21:05:40Z"
+        },
         {
           "sha": "01df06d",
           "message": "dashboard: update dashboard.json + github-activity",
@@ -79,18 +91,6 @@
           "message": "chore: update dashboard data (auto)",
           "author": "daeguru",
           "date": "2026-08-19T15:45:48Z"
-        },
-        {
-          "sha": "8a3b12a",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-19T15:06:05Z)",
-          "author": "daeguru",
-          "date": "2026-08-19T15:06:05Z"
-        },
-        {
-          "sha": "8bbed23",
-          "message": "chore: update dashboard data (github activity)",
-          "author": "daeguru",
-          "date": "2026-08-19T12:47:35Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 1,
       "open_prs": 0,
-      "updated_at": "2026-08-19T05:11:29Z",
-      "pushed_at": "2026-08-19T05:11:19Z",
+      "updated_at": "2026-08-19T23:14:39Z",
+      "pushed_at": "2026-08-19T23:13:21Z",
       "recent_commits": [
+        {
+          "sha": "36a8f03",
+          "message": "📰 2026-08-20: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-08-19T23:11:52Z"
+        },
         {
           "sha": "aeee354",
           "message": "📚 2026-08-19: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-08-18: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-08-17T23:05:36Z"
-        },
-        {
-          "sha": "2cdf8dd",
-          "message": "📚 2026-08-17: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-08-17T05:10:59Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-19T17:08:38Z",
-      "pushed_at": "2026-08-19T17:03:52Z",
+      "updated_at": "2026-08-19T23:05:37Z",
+      "pushed_at": "2026-08-19T23:05:16Z",
       "recent_commits": [
+        {
+          "sha": "0dab2d3",
+          "message": "교훈 #111 — 사람 게이트 취향은 영역별 이중 구조 (DAC 리포트 111회차)",
+          "author": "sfex11",
+          "date": "2026-08-19T23:05:15Z"
+        },
         {
           "sha": "fada723",
           "message": "교훈 #110 — 관측 마감은 가설 창의 끝에 (DAC 리포트 110회차)",
@@ -494,12 +500,6 @@
           "message": "Add Demis Hassabis Cambridge AI lecture video summary record",
           "author": "sfex11",
           "date": "2026-08-19T00:57:25Z"
-        },
-        {
-          "sha": "cce4cf9",
-          "message": "lesson #108: preserve raw human answers, not just the parsed choice (108)",
-          "author": "sfex11",
-          "date": "2026-08-18T23:06:29Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-20: 뉴스 수집 (5건)",
+      "sha": "36a8f03",
+      "date": "2026-08-19T23:11:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/36a8f03759c7fcd6f05c7c2cbf9ec94605325edd"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "DAC 리포트 111회차 다이어그램 — 인프라 PR 자동 머지 vs 창작 승인 게이트 2줄 구조",
+      "sha": "2c29fc9",
+      "date": "2026-08-19T23:11:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2c29fc9fd1ea95fe9fa043729133548fca35afc8"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #111 — 사람 게이트 취향은 영역별 이중 구조 (DAC 리포트 111회차)",
+      "sha": "0dab2d3",
+      "date": "2026-08-19T23:05:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0dab2d3e32a3c20bb908a5b02df8f3405d943444"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-19T21:05:39Z)",
+      "sha": "2f8873e",
+      "date": "2026-08-19T21:05:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2f8873e41e9006b219da501caec71d02d686532f"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json + github-activity",
@@ -633,24 +669,6 @@
       "sha": "559cdee",
       "date": "2026-08-19T15:45:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/559cdee7636c390f01574a94cc0da9c79c04f780"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-19T15:06:05Z)",
-      "sha": "8a3b12a",
-      "date": "2026-08-19T15:06:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8a3b12a18db188e8850ecd2e448702e09748340e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (github activity)",
-      "sha": "8bbed23",
-      "date": "2026-08-19T12:47:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8bbed23d9272a015f75cc52235f4287cbd5e6d03"
     },
     {
       "type": "commit",
@@ -698,15 +716,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/4f5cc68491b5d819a3f0cf0fa700c108387b6dde"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #108: preserve raw human answers, not just the parsed choice (108)",
-      "sha": "cce4cf9",
-      "date": "2026-08-18T23:06:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cce4cf9edb1ee93c0b039070948149531938000e"
-    },
-    {
       "type": "pr",
       "repo": "team-memory-kit",
       "author": "sfex11",
@@ -733,15 +742,6 @@
       "sha": "70f0aa4",
       "date": "2026-08-17T23:05:36Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/70f0aa48aef678caa289e69e5d61409065739ba3"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-08-17: 위키 갱신 (2개)",
-      "sha": "2cdf8dd",
-      "date": "2026-08-17T05:10:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2cdf8dd9704b7bc813062e91bfa20ed85170ceb2"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 22,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
