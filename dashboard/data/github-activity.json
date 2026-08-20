@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20T00:06:34Z",
-  "since": "2026-07-21T00:05:48Z",
+  "generated": "2026-08-20T00:46:27Z",
+  "since": "2026-07-21T00:45:55Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-19T23:11:38Z",
-      "pushed_at": "2026-08-19T23:11:31Z",
+      "updated_at": "2026-08-20T00:08:48Z",
+      "pushed_at": "2026-08-20T00:06:38Z",
       "recent_commits": [
+        {
+          "sha": "7dcf679",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-20T00:06:34Z)",
+          "author": "daeguru",
+          "date": "2026-08-20T00:06:35Z"
+        },
         {
           "sha": "2c29fc9",
           "message": "DAC 리포트 111회차 다이어그램 — 인프라 PR 자동 머지 vs 창작 승인 게이트 2줄 구조",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-19T18:06:04Z)",
           "author": "daeguru",
           "date": "2026-08-19T18:06:04Z"
-        },
-        {
-          "sha": "559cdee",
-          "message": "chore: update dashboard data (auto)",
-          "author": "daeguru",
-          "date": "2026-08-19T15:45:48Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-20T00:06:34Z)",
+      "sha": "7dcf679",
+      "date": "2026-08-20T00:06:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7dcf6797e22e7644550a78c2b870f53f00a151be"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-08-20: 뉴스 수집 (5건)",
@@ -660,15 +669,6 @@
       "sha": "fada723",
       "date": "2026-08-19T17:03:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fada723321b259e9d3f26dc3ceb52c6dd38804f3"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (auto)",
-      "sha": "559cdee",
-      "date": "2026-08-19T15:45:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/559cdee7636c390f01574a94cc0da9c79c04f780"
     },
     {
       "type": "commit",
