@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-20T09:45:44Z",
-  "since": "2026-07-21T09:45:12Z",
+  "generated": "2026-08-20T12:07:42Z",
+  "since": "2026-07-21T12:06:56Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 238,
+      "open_issues": 239,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-20T09:08:29Z",
-      "pushed_at": "2026-08-20T09:06:17Z",
+      "updated_at": "2026-08-20T09:48:39Z",
+      "pushed_at": "2026-08-20T09:45:59Z",
       "recent_commits": [
+        {
+          "sha": "7fe2175",
+          "message": "dashboard 데이터 갱신 (자동)",
+          "author": "daeguru",
+          "date": "2026-08-20T09:45:57Z"
+        },
         {
           "sha": "4a2d48c",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-20T09:06:14Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json & github activity",
           "author": "daeguru",
           "date": "2026-08-20T03:45:53Z"
-        },
-        {
-          "sha": "e7263ce",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-20T03:06:32Z)",
-          "author": "daeguru",
-          "date": "2026-08-20T03:06:33Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-20T06:47:24Z",
-      "pushed_at": "2026-08-20T06:45:50Z",
+      "updated_at": "2026-08-20T11:05:49Z",
+      "pushed_at": "2026-08-20T11:04:47Z",
       "recent_commits": [
+        {
+          "sha": "05f8d7c",
+          "message": "교훈 #113: 지시는 수신자의 각성 주기에 맞아야 전달된다 (각성 게이트)",
+          "author": "sfex11",
+          "date": "2026-08-20T11:04:47Z"
+        },
         {
           "sha": "6e71d48",
           "message": "wiki 갱신 (자동, dashboard-github-activity)",
@@ -494,12 +500,6 @@
           "message": "교훈 #110 — 관측 마감은 가설 창의 끝에 (DAC 리포트 110회차)",
           "author": "sfex11",
           "date": "2026-08-19T17:03:52Z"
-        },
-        {
-          "sha": "3a281ba",
-          "message": "lesson #109: start long generations in background, harvest next cycle",
-          "author": "sfex11",
-          "date": "2026-08-19T11:05:47Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #113: 지시는 수신자의 각성 주기에 맞아야 전달된다 (각성 게이트)",
+      "sha": "05f8d7c",
+      "date": "2026-08-20T11:04:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/05f8d7c16d0f6eeef37278b5603603d24d54f1b6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 갱신 (자동)",
+      "sha": "7fe2175",
+      "date": "2026-08-20T09:45:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7fe21751f7e370d69b46ce55a0bc310c2f2fa8cf"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-20T09:06:14Z)",
@@ -663,15 +681,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-20T03:06:32Z)",
-      "sha": "e7263ce",
-      "date": "2026-08-20T03:06:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e7263ce32f9807335a0310aebf23fdbe0c0a4472"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-08-20: 뉴스 수집 (5건)",
@@ -696,15 +705,6 @@
       "sha": "fada723",
       "date": "2026-08-19T17:03:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fada723321b259e9d3f26dc3ceb52c6dd38804f3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #109: start long generations in background, harvest next cycle",
-      "sha": "3a281ba",
-      "date": "2026-08-19T11:05:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3a281ba2432a979aaf6d7385dd6e9bd715dd797f"
     },
     {
       "type": "commit",
