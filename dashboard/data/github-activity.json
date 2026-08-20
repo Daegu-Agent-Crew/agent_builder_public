@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20T06:45:47Z",
-  "since": "2026-07-21T06:45:15Z",
+  "generated": "2026-08-20T09:06:14Z",
+  "since": "2026-07-21T09:04:59Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-20T06:09:30Z",
-      "pushed_at": "2026-08-20T06:08:05Z",
+      "updated_at": "2026-08-20T06:46:22Z",
+      "pushed_at": "2026-08-20T06:45:52Z",
       "recent_commits": [
+        {
+          "sha": "5e35d27",
+          "message": "dashboard 데이터 갱신 (자동, dashboard-github-activity)",
+          "author": "daeguru",
+          "date": "2026-08-20T06:45:50Z"
+        },
         {
           "sha": "98a0616",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-20T06:08:02Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard + github activity (2026-08-20 09:46 KST)",
           "author": "daeguru",
           "date": "2026-08-20T00:46:44Z"
-        },
-        {
-          "sha": "7dcf679",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-20T00:06:34Z)",
-          "author": "daeguru",
-          "date": "2026-08-20T00:06:35Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-20T05:13:23Z",
-      "pushed_at": "2026-08-20T05:12:22Z",
+      "updated_at": "2026-08-20T06:47:24Z",
+      "pushed_at": "2026-08-20T06:45:50Z",
       "recent_commits": [
+        {
+          "sha": "6e71d48",
+          "message": "wiki 갱신 (자동, dashboard-github-activity)",
+          "author": "daeguru",
+          "date": "2026-08-20T06:45:47Z"
+        },
         {
           "sha": "d2e0bab",
           "message": "교훈 #112: 창작 배치 리듬 가설 창→실측→갱신 루프 (EP002 24.1h 적중)",
@@ -494,12 +500,6 @@
           "message": "lesson #109: start long generations in background, harvest next cycle",
           "author": "sfex11",
           "date": "2026-08-19T11:05:47Z"
-        },
-        {
-          "sha": "b978b6f",
-          "message": "Add Demis Hassabis discourse pattern analysis (discourse-pattern-extractor + thinking-method)",
-          "author": "sfex11",
-          "date": "2026-08-19T03:21:10Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "dashboard 데이터 갱신 (자동, dashboard-github-activity)",
+      "sha": "5e35d27",
+      "date": "2026-08-20T06:45:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5e35d27026ec1912df280fc0b3da067f9fd3ee90"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wiki 갱신 (자동, dashboard-github-activity)",
+      "sha": "6e71d48",
+      "date": "2026-08-20T06:45:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6e71d482757faaf7d511468a6d4d94160a925aca"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-20T06:08:02Z)",
       "sha": "98a0616",
       "date": "2026-08-20T06:08:02Z",
@@ -654,15 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-20T00:06:34Z)",
-      "sha": "7dcf679",
-      "date": "2026-08-20T00:06:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7dcf6797e22e7644550a78c2b870f53f00a151be"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-08-20: 뉴스 수집 (5건)",
@@ -705,15 +714,6 @@
       "sha": "aeee354",
       "date": "2026-08-19T05:11:15Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/aeee3548eee5de5e6c22c9ef7cf29650ef74ecf6"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add Demis Hassabis discourse pattern analysis (discourse-pattern-extractor + thinking-method)",
-      "sha": "b978b6f",
-      "date": "2026-08-19T03:21:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b978b6fd852ffc01cbe2afcf59328efcd1363268"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 20,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
