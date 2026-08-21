@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-21T06:06:02Z",
-  "since": "2026-07-22T06:05:15Z",
+  "generated": "2026-08-21T06:45:25Z",
+  "since": "2026-07-22T06:44:52Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-21T03:46:33Z",
-      "pushed_at": "2026-08-21T03:46:19Z",
+      "updated_at": "2026-08-21T06:06:55Z",
+      "pushed_at": "2026-08-21T06:06:05Z",
       "recent_commits": [
+        {
+          "sha": "156df97",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-21T06:06:02Z)",
+          "author": "daeguru",
+          "date": "2026-08-21T06:06:02Z"
+        },
         {
           "sha": "92052e9",
           "message": "dashboard: regenerate dashboard.json & github activity (auto)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-21T00:05:39Z)",
           "author": "daeguru",
           "date": "2026-08-21T00:05:40Z"
-        },
-        {
-          "sha": "9f3b483",
-          "message": "upload dac-115-diagram.png (DAC report #115 - each-state-to-awakening loop)",
-          "author": "sfex11",
-          "date": "2026-08-20T23:03:52Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-21T06:06:02Z)",
+      "sha": "156df97",
+      "date": "2026-08-21T06:06:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/156df97b4aca74348573dc6e9faf2d9c005adb05"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #116 append — 예측 마감 시각은 대상 패턴과 겹치지 않게 (DAC 116회차)",
@@ -660,15 +669,6 @@
       "sha": "8c2956e",
       "date": "2026-08-20T23:04:54Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8c2956e663ae03e88dcef3a378cbe921cfeb3b01"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "upload dac-115-diagram.png (DAC report #115 - each-state-to-awakening loop)",
-      "sha": "9f3b483",
-      "date": "2026-08-20T23:03:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9f3b483d592cc553e15a7606de54170bc7ee3c75"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 20,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
