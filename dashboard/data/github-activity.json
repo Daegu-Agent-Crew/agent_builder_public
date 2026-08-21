@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-21T18:08:43Z",
-  "since": "2026-07-22T18:07:58Z",
+  "generated": "2026-08-21T18:45:16Z",
+  "since": "2026-07-22T18:44:41Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-21T17:09:58Z",
-      "pushed_at": "2026-08-21T17:09:54Z",
+      "updated_at": "2026-08-21T18:11:51Z",
+      "pushed_at": "2026-08-21T18:08:46Z",
       "recent_commits": [
+        {
+          "sha": "4f3c78d",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-21T18:08:43Z)",
+          "author": "daeguru",
+          "date": "2026-08-21T18:08:43Z"
+        },
         {
           "sha": "e3fac2e",
           "message": "add dac-118-diagram: EP002 completion roadmap timeline (34/57, 1 batch/day, ~8d to finish)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update github-activity & dashboard.json (2026-08-21 21:44 KST)",
           "author": "daeguru",
           "date": "2026-08-21T12:46:00Z"
-        },
-        {
-          "sha": "5749e9a",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-21T12:07:39Z)",
-          "author": "daeguru",
-          "date": "2026-08-21T12:07:40Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-21T18:08:43Z)",
+      "sha": "4f3c78d",
+      "date": "2026-08-21T18:08:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4f3c78df0bbd082f849c4ba06fd88c0b1fd0ad71"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #118: 마감 2단계 설계로 지각/결번 자동 구분 (DAC 스튜디오 리포터)",
@@ -651,15 +660,6 @@
       "sha": "9b154c7",
       "date": "2026-08-21T12:46:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9b154c7b2531aac5fb8c576695c53b9c0c70a3a1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-21T12:07:39Z)",
-      "sha": "5749e9a",
-      "date": "2026-08-21T12:07:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5749e9adf2a3045b75fe3eab7135c9987b68d0da"
     },
     {
       "type": "commit",
