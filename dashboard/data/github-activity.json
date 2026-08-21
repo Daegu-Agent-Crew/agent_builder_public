@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-21T12:07:39Z",
-  "since": "2026-07-22T12:06:54Z",
+  "generated": "2026-08-21T12:45:45Z",
+  "since": "2026-07-22T12:45:11Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-21T09:48:42Z",
-      "pushed_at": "2026-08-21T09:45:34Z",
+      "updated_at": "2026-08-21T12:11:51Z",
+      "pushed_at": "2026-08-21T12:07:42Z",
       "recent_commits": [
+        {
+          "sha": "5749e9a",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-21T12:07:39Z)",
+          "author": "daeguru",
+          "date": "2026-08-21T12:07:40Z"
+        },
         {
           "sha": "bc74a98",
           "message": "Update dashboard data (auto)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-21T06:06:02Z)",
           "author": "daeguru",
           "date": "2026-08-21T06:06:02Z"
-        },
-        {
-          "sha": "92052e9",
-          "message": "dashboard: regenerate dashboard.json & github activity (auto)",
-          "author": "daeguru",
-          "date": "2026-08-21T03:46:17Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-21T12:07:39Z)",
+      "sha": "5749e9a",
+      "date": "2026-08-21T12:07:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5749e9adf2a3045b75fe3eab7135c9987b68d0da"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #117: 마감 전 판정 금지 — 지각/결번 오탐 방지 (DAC 스튜디오 117회차)",
@@ -669,15 +678,6 @@
       "sha": "f888f41",
       "date": "2026-08-21T05:05:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f888f413d3716b8805c78d3ac9bff65964e427af"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: regenerate dashboard.json & github activity (auto)",
-      "sha": "92052e9",
-      "date": "2026-08-21T03:46:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/92052e9842b13dea3d3f42a3bc6b3049e98d2f51"
     },
     {
       "type": "commit",
