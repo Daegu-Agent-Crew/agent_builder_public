@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-21T00:45:29Z",
-  "since": "2026-07-22T00:44:58Z",
+  "generated": "2026-08-21T03:05:54Z",
+  "since": "2026-07-22T03:05:10Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-21T00:06:06Z",
-      "pushed_at": "2026-08-21T00:05:42Z",
+      "updated_at": "2026-08-21T00:46:14Z",
+      "pushed_at": "2026-08-21T00:45:40Z",
       "recent_commits": [
+        {
+          "sha": "9655a52",
+          "message": "chore: update dashboard data (2026-08-21)",
+          "author": "daeguru",
+          "date": "2026-08-21T00:45:39Z"
+        },
         {
           "sha": "a5774cb",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-21T00:05:39Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-20T21:06:12Z)",
           "author": "daeguru",
           "date": "2026-08-20T21:06:12Z"
-        },
-        {
-          "sha": "40e5099",
-          "message": "dashboard 데이터 갱신 (dashboard-github-activity cron)",
-          "author": "daeguru",
-          "date": "2026-08-20T18:45:31Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-20T23:05:10Z",
-      "pushed_at": "2026-08-20T23:04:54Z",
+      "updated_at": "2026-08-21T00:45:57Z",
+      "pushed_at": "2026-08-21T00:45:34Z",
       "recent_commits": [
+        {
+          "sha": "d090325",
+          "message": "chore: regenerate wiki and dashboard (2026-08-21)",
+          "author": "daeguru",
+          "date": "2026-08-21T00:45:32Z"
+        },
         {
           "sha": "8c2956e",
           "message": "교훈 #115 append — 살아있는 에이전트도 이슈 채널 안 읽음 (DAC 115회차)",
@@ -494,12 +500,6 @@
           "message": "wiki 갱신 (자동, dashboard-github-activity)",
           "author": "daeguru",
           "date": "2026-08-20T06:45:47Z"
-        },
-        {
-          "sha": "d2e0bab",
-          "message": "교훈 #112: 창작 배치 리듬 가설 창→실측→갱신 루프 (EP002 24.1h 적중)",
-          "author": "sfex11",
-          "date": "2026-08-20T05:12:22Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore: update dashboard data (2026-08-21)",
+      "sha": "9655a52",
+      "date": "2026-08-21T00:45:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9655a52298dff0cf08b587749a8d57d5b5475d98"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "chore: regenerate wiki and dashboard (2026-08-21)",
+      "sha": "d090325",
+      "date": "2026-08-21T00:45:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d0903254b8ab9797b92f40994e72a5d6dc3bf0c9"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-21T00:05:39Z)",
       "sha": "a5774cb",
       "date": "2026-08-21T00:05:40Z",
@@ -645,15 +663,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard 데이터 갱신 (dashboard-github-activity cron)",
-      "sha": "40e5099",
-      "date": "2026-08-20T18:45:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/40e50994742abeaf3dabd552729ad8e89283a815"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #114: 백그라운드 작업 발사 확인 (ignition check)",
@@ -687,15 +696,6 @@
       "sha": "c362025",
       "date": "2026-08-20T05:14:03Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c36202528b59b917ceccc80aff6f58f213da1773"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #112: 창작 배치 리듬 가설 창→실측→갱신 루프 (EP002 24.1h 적중)",
-      "sha": "d2e0bab",
-      "date": "2026-08-20T05:12:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d2e0bab66a25ce32551bc3aab66e0d5e1914ab13"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 20,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
