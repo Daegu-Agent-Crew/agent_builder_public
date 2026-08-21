@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-21T15:46:12Z",
-  "since": "2026-07-22T15:45:38Z",
+  "generated": "2026-08-21T18:08:43Z",
+  "since": "2026-07-22T18:07:58Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 243,
+      "open_issues": 244,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-21T15:08:03Z",
-      "pushed_at": "2026-08-21T15:06:47Z",
+      "updated_at": "2026-08-21T17:09:58Z",
+      "pushed_at": "2026-08-21T17:09:54Z",
       "recent_commits": [
+        {
+          "sha": "e3fac2e",
+          "message": "add dac-118-diagram: EP002 completion roadmap timeline (34/57, 1 batch/day, ~8d to finish)",
+          "author": "sfex11",
+          "date": "2026-08-21T17:09:53Z"
+        },
+        {
+          "sha": "44e61a4",
+          "message": "dashboard: update dashboard.json & github activity data",
+          "author": "daeguru",
+          "date": "2026-08-21T15:46:21Z"
+        },
         {
           "sha": "764ccc3",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-21T15:06:45Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-21T12:07:39Z)",
           "author": "daeguru",
           "date": "2026-08-21T12:07:40Z"
-        },
-        {
-          "sha": "bc74a98",
-          "message": "Update dashboard data (auto)",
-          "author": "daeguru",
-          "date": "2026-08-21T09:45:32Z"
-        },
-        {
-          "sha": "53e7dd4",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-21T09:07:40Z)",
-          "author": "daeguru",
-          "date": "2026-08-21T09:07:40Z"
         }
       ],
       "recent_prs": [
@@ -124,7 +124,7 @@
       "slug": "Daegu-Agent-Crew/ai-agent-news",
       "name": "ai-agent-news",
       "private": false,
-      "open_issues": 1,
+      "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-08-20T05:15:00Z",
       "pushed_at": "2026-08-20T05:14:04Z",
@@ -468,9 +468,21 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-21T11:08:32Z",
-      "pushed_at": "2026-08-21T11:08:20Z",
+      "updated_at": "2026-08-21T17:12:37Z",
+      "pushed_at": "2026-08-21T17:12:32Z",
       "recent_commits": [
+        {
+          "sha": "9f580c5",
+          "message": "교훈 #118: 마감 2단계 설계로 지각/결번 자동 구분 (DAC 스튜디오 리포터)",
+          "author": "sfex11",
+          "date": "2026-08-21T17:12:32Z"
+        },
+        {
+          "sha": "a7184fa",
+          "message": "dashboard: regenerate tmp/dashboard.json",
+          "author": "daeguru",
+          "date": "2026-08-21T15:46:23Z"
+        },
         {
           "sha": "91b14c0",
           "message": "lesson #117: 마감 전 판정 금지 — 지각/결번 오탐 방지 (DAC 스튜디오 117회차)",
@@ -488,18 +500,6 @@
           "message": "dashboard: regenerate dashboard.json & wiki (2026-08-21 15:45 KST)",
           "author": "daeguru",
           "date": "2026-08-21T06:45:32Z"
-        },
-        {
-          "sha": "f888f41",
-          "message": "교훈 #116 append — 예측 마감 시각은 대상 패턴과 겹치지 않게 (DAC 116회차)",
-          "author": "sfex11",
-          "date": "2026-08-21T05:05:48Z"
-        },
-        {
-          "sha": "d090325",
-          "message": "chore: regenerate wiki and dashboard (2026-08-21)",
-          "author": "daeguru",
-          "date": "2026-08-21T00:45:32Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #118: 마감 2단계 설계로 지각/결번 자동 구분 (DAC 스튜디오 리포터)",
+      "sha": "9f580c5",
+      "date": "2026-08-21T17:12:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9f580c5c40f7368771dfc08815fb2b619cff0ecf"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "add dac-118-diagram: EP002 completion roadmap timeline (34/57, 1 batch/day, ~8d to finish)",
+      "sha": "e3fac2e",
+      "date": "2026-08-21T17:09:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e3fac2e240920191c9a22c3de84f16affb0e11d6"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "dashboard: regenerate tmp/dashboard.json",
+      "sha": "a7184fa",
+      "date": "2026-08-21T15:46:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a7184fa40b131a43ac54954a834db0b9f1103595"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json & github activity data",
+      "sha": "44e61a4",
+      "date": "2026-08-21T15:46:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/44e61a485c761deb43958044c7451198ed879216"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-21T15:06:45Z)",
@@ -645,48 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard data (auto)",
-      "sha": "bc74a98",
-      "date": "2026-08-21T09:45:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bc74a989696a8cc2c60889d06255a64a8dbc5520"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-21T09:07:40Z)",
-      "sha": "53e7dd4",
-      "date": "2026-08-21T09:07:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/53e7dd405d3d34474025c62331905cde370a24e9"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "dashboard: regenerate dashboard.json & wiki (2026-08-21 15:45 KST)",
       "sha": "f4e499c",
       "date": "2026-08-21T06:45:32Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f4e499ce756fbd469eddb7ccc131d588d5037798"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #116 append — 예측 마감 시각은 대상 패턴과 겹치지 않게 (DAC 116회차)",
-      "sha": "f888f41",
-      "date": "2026-08-21T05:05:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f888f413d3716b8805c78d3ac9bff65964e427af"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "chore: regenerate wiki and dashboard (2026-08-21)",
-      "sha": "d090325",
-      "date": "2026-08-21T00:45:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d0903254b8ab9797b92f40994e72a5d6dc3bf0c9"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 19,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 9,
+      "commits": 8,
       "prs": 0,
       "issues": 0,
       "reviews": 0
