@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-21T03:46:03Z",
-  "since": "2026-07-22T03:45:32Z",
+  "generated": "2026-08-21T06:06:02Z",
+  "since": "2026-07-22T06:05:15Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 241,
+      "open_issues": 242,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-21T03:06:31Z",
-      "pushed_at": "2026-08-21T03:05:56Z",
+      "updated_at": "2026-08-21T03:46:33Z",
+      "pushed_at": "2026-08-21T03:46:19Z",
       "recent_commits": [
+        {
+          "sha": "92052e9",
+          "message": "dashboard: regenerate dashboard.json & github activity (auto)",
+          "author": "daeguru",
+          "date": "2026-08-21T03:46:17Z"
+        },
         {
           "sha": "2125e11",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-21T03:05:54Z)",
@@ -85,12 +91,6 @@
           "message": "upload dac-115-diagram.png (DAC report #115 - each-state-to-awakening loop)",
           "author": "sfex11",
           "date": "2026-08-20T23:03:52Z"
-        },
-        {
-          "sha": "49b52ec",
-          "message": "dashboard: update dashboard.json & github-activity.json",
-          "author": "daeguru",
-          "date": "2026-08-20T21:45:34Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-21T00:45:57Z",
-      "pushed_at": "2026-08-21T00:45:34Z",
+      "updated_at": "2026-08-21T05:06:29Z",
+      "pushed_at": "2026-08-21T05:05:48Z",
       "recent_commits": [
+        {
+          "sha": "f888f41",
+          "message": "교훈 #116 append — 예측 마감 시각은 대상 패턴과 겹치지 않게 (DAC 116회차)",
+          "author": "sfex11",
+          "date": "2026-08-21T05:05:48Z"
+        },
         {
           "sha": "d090325",
           "message": "chore: regenerate wiki and dashboard (2026-08-21)",
@@ -494,12 +500,6 @@
           "message": "교훈 #113: 지시는 수신자의 각성 주기에 맞아야 전달된다 (각성 게이트)",
           "author": "sfex11",
           "date": "2026-08-20T11:04:47Z"
-        },
-        {
-          "sha": "6e71d48",
-          "message": "wiki 갱신 (자동, dashboard-github-activity)",
-          "author": "daeguru",
-          "date": "2026-08-20T06:45:47Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #116 append — 예측 마감 시각은 대상 패턴과 겹치지 않게 (DAC 116회차)",
+      "sha": "f888f41",
+      "date": "2026-08-21T05:05:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f888f413d3716b8805c78d3ac9bff65964e427af"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json & github activity (auto)",
+      "sha": "92052e9",
+      "date": "2026-08-21T03:46:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/92052e9842b13dea3d3f42a3bc6b3049e98d2f51"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-21T03:05:54Z)",
@@ -654,15 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json & github-activity.json",
-      "sha": "49b52ec",
-      "date": "2026-08-20T21:45:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/49b52ecf7ff3f5abc2e2d87d1919ab83dfb9fd8b"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #114: 백그라운드 작업 발사 확인 (ignition check)",
@@ -678,15 +687,6 @@
       "sha": "05f8d7c",
       "date": "2026-08-20T11:04:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/05f8d7c16d0f6eeef37278b5603603d24d54f1b6"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wiki 갱신 (자동, dashboard-github-activity)",
-      "sha": "6e71d48",
-      "date": "2026-08-20T06:45:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6e71d482757faaf7d511468a6d4d94160a925aca"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
