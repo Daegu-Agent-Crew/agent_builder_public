@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-22T00:05:58Z",
-  "since": "2026-07-23T00:04:59Z",
+  "generated": "2026-08-22T00:45:28Z",
+  "since": "2026-07-23T00:44:55Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-21T21:47:48Z",
-      "pushed_at": "2026-08-21T21:45:31Z",
+      "updated_at": "2026-08-22T00:06:05Z",
+      "pushed_at": "2026-08-22T00:06:00Z",
       "recent_commits": [
+        {
+          "sha": "250fcf4",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-22T00:05:58Z)",
+          "author": "daeguru",
+          "date": "2026-08-22T00:05:58Z"
+        },
         {
           "sha": "7b302e6",
           "message": "chore: update dashboard data (github activity)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-21T18:08:43Z)",
           "author": "daeguru",
           "date": "2026-08-21T18:08:43Z"
-        },
-        {
-          "sha": "e3fac2e",
-          "message": "add dac-118-diagram: EP002 completion roadmap timeline (34/57, 1 batch/day, ~8d to finish)",
-          "author": "sfex11",
-          "date": "2026-08-21T17:09:53Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-22T00:05:58Z)",
+      "sha": "250fcf4",
+      "date": "2026-08-22T00:05:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/250fcf452f8f8e2d471af9436d1824f69fc8016e"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #119: 계기판 녹색 ≠ 라인 생존 — 라인별 마지막 활동 시각 확인 (DAC 스튜디오 리포터)",
@@ -651,15 +660,6 @@
       "sha": "9f580c5",
       "date": "2026-08-21T17:12:32Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9f580c5c40f7368771dfc08815fb2b619cff0ecf"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "add dac-118-diagram: EP002 completion roadmap timeline (34/57, 1 batch/day, ~8d to finish)",
-      "sha": "e3fac2e",
-      "date": "2026-08-21T17:09:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e3fac2e240920191c9a22c3de84f16affb0e11d6"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 19,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 8,
       "prs": 0,
       "issues": 0,
       "reviews": 0
