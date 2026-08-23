@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-23T03:08:28Z",
-  "since": "2026-07-24T03:07:30Z",
+  "generated": "2026-08-23T06:07:12Z",
+  "since": "2026-07-24T06:06:12Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 249,
+      "open_issues": 250,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-23T00:46:04Z",
-      "pushed_at": "2026-08-23T00:45:59Z",
+      "updated_at": "2026-08-23T05:09:14Z",
+      "pushed_at": "2026-08-23T05:09:11Z",
       "recent_commits": [
+        {
+          "sha": "5b94d62",
+          "message": "dac report #124 diagram: line judgment flow (liveness gate -> rhythm window / line stop -> wake switch)",
+          "author": "sfex11",
+          "date": "2026-08-23T05:09:10Z"
+        },
+        {
+          "sha": "af8bfab",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-23T03:08:28Z)",
+          "author": "daeguru",
+          "date": "2026-08-23T03:08:28Z"
+        },
         {
           "sha": "4d8f844",
           "message": "dashboard 데이터 갱신 (자동)",
@@ -79,18 +91,6 @@
           "message": "dac report #123 diagram: line-watch dashboard concept (shared gauge vs 4 line lamps)",
           "author": "sfex11",
           "date": "2026-08-22T22:59:22Z"
-        },
-        {
-          "sha": "fb159df",
-          "message": "dashboard: update github-activity.json and dashboard.json (2026-08-23 06:45 KST)",
-          "author": "daeguru",
-          "date": "2026-08-22T21:45:49Z"
-        },
-        {
-          "sha": "e93e142",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-22T21:07:24Z)",
-          "author": "daeguru",
-          "date": "2026-08-22T21:07:24Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-23T00:45:35Z",
-      "pushed_at": "2026-08-23T00:45:29Z",
+      "updated_at": "2026-08-23T05:02:21Z",
+      "pushed_at": "2026-08-23T05:02:10Z",
       "recent_commits": [
+        {
+          "sha": "0d97340",
+          "message": "lesson #124: rhythm prediction requires a liveness gate first (124회차)",
+          "author": "sfex11",
+          "date": "2026-08-23T05:02:09Z"
+        },
         {
           "sha": "14817da",
           "message": "wiki/dashboard 갱신 (자동)",
@@ -494,12 +500,6 @@
           "message": "교훈 #122: 부분 지열과 전체 침묵은 다른 계층의 고장 (122회차)",
           "author": "sfex11",
           "date": "2026-08-22T17:17:11Z"
-        },
-        {
-          "sha": "b79a7af",
-          "message": "교훈 #121: 경과 수치 기계 감산 (DAC 스튜디오 121회차)",
-          "author": "sfex11",
-          "date": "2026-08-22T11:15:04Z"
         }
       ],
       "recent_prs": [
@@ -601,6 +601,33 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac report #124 diagram: line judgment flow (liveness gate -> rhythm window / line stop -> wake switch)",
+      "sha": "5b94d62",
+      "date": "2026-08-23T05:09:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5b94d62a78e612bad63c1498d9d2fff18a8cfa79"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #124: rhythm prediction requires a liveness gate first (124회차)",
+      "sha": "0d97340",
+      "date": "2026-08-23T05:02:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0d97340dab334f473b2388b41c9f021bf317e7ae"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-23T03:08:28Z)",
+      "sha": "af8bfab",
+      "date": "2026-08-23T03:08:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/af8bfab33f7ccc1622e9dc3c5f694fcf06a12db7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard 데이터 갱신 (자동)",
       "sha": "4d8f844",
@@ -645,15 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update github-activity.json and dashboard.json (2026-08-23 06:45 KST)",
-      "sha": "fb159df",
-      "date": "2026-08-22T21:45:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fb159df58ddf71c3a39adc4998179ecee53286db"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "dashboard: regenerate dashboard.json and wiki (2026-08-23 06:45 KST)",
@@ -663,30 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-22T21:07:24Z)",
-      "sha": "e93e142",
-      "date": "2026-08-22T21:07:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e93e14205801648512b8cde0599e799af7296128"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #122: 부분 지열과 전체 침묵은 다른 계층의 고장 (122회차)",
       "sha": "260775e",
       "date": "2026-08-22T17:17:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/260775e86487a66a1272306e8cd8728b0fa277cc"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #121: 경과 수치 기계 감산 (DAC 스튜디오 121회차)",
-      "sha": "b79a7af",
-      "date": "2026-08-22T11:15:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b79a7af898ed76aa63155ac26a304aa63efb69c5"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
