@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-23T09:45:23Z",
-  "since": "2026-07-24T09:44:50Z",
+  "generated": "2026-08-23T12:07:25Z",
+  "since": "2026-07-24T12:06:36Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 250,
+      "open_issues": 251,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-23T09:08:34Z",
-      "pushed_at": "2026-08-23T09:08:07Z",
+      "updated_at": "2026-08-23T09:47:43Z",
+      "pushed_at": "2026-08-23T09:45:31Z",
       "recent_commits": [
+        {
+          "sha": "05189bf",
+          "message": "Update dashboard data and github activity",
+          "author": "daeguru",
+          "date": "2026-08-23T09:45:30Z"
+        },
         {
           "sha": "6adc02d",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-23T09:08:04Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-23T06:07:12Z)",
           "author": "daeguru",
           "date": "2026-08-23T06:07:12Z"
-        },
-        {
-          "sha": "5b94d62",
-          "message": "dac report #124 diagram: line judgment flow (liveness gate -> rhythm window / line stop -> wake switch)",
-          "author": "sfex11",
-          "date": "2026-08-23T05:09:10Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-23T05:02:21Z",
-      "pushed_at": "2026-08-23T05:02:10Z",
+      "updated_at": "2026-08-23T11:03:51Z",
+      "pushed_at": "2026-08-23T11:03:23Z",
       "recent_commits": [
+        {
+          "sha": "6d58edf",
+          "message": "교훈 #125: 정지 판정은 시간창 진술이다 — 휴면/사망 분리 (125회차)",
+          "author": "sfex11",
+          "date": "2026-08-23T11:03:23Z"
+        },
         {
           "sha": "0d97340",
           "message": "lesson #124: rhythm prediction requires a liveness gate first (124회차)",
@@ -494,12 +500,6 @@
           "message": "dashboard: regenerate dashboard.json and wiki (2026-08-23 06:45 KST)",
           "author": "daeguru",
           "date": "2026-08-22T21:45:42Z"
-        },
-        {
-          "sha": "260775e",
-          "message": "교훈 #122: 부분 지열과 전체 침묵은 다른 계층의 고장 (122회차)",
-          "author": "sfex11",
-          "date": "2026-08-22T17:17:11Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #125: 정지 판정은 시간창 진술이다 — 휴면/사망 분리 (125회차)",
+      "sha": "6d58edf",
+      "date": "2026-08-23T11:03:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6d58edf9349b76b04703c174c9a8681afd8044cb"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update dashboard data and github activity",
+      "sha": "05189bf",
+      "date": "2026-08-23T09:45:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/05189bf3f26672e5671dfd336bfa6b9be7af680b"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-23T09:08:04Z)",
@@ -636,15 +654,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac report #124 diagram: line judgment flow (liveness gate -> rhythm window / line stop -> wake switch)",
-      "sha": "5b94d62",
-      "date": "2026-08-23T05:09:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5b94d62a78e612bad63c1498d9d2fff18a8cfa79"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #124: rhythm prediction requires a liveness gate first (124회차)",
@@ -678,15 +687,6 @@
       "sha": "6fa118f",
       "date": "2026-08-22T21:45:42Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6fa118f07195e94c17bdfaebcbeb3b718939fb2f"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #122: 부분 지열과 전체 침묵은 다른 계층의 고장 (122회차)",
-      "sha": "260775e",
-      "date": "2026-08-22T17:17:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/260775e86487a66a1272306e8cd8728b0fa277cc"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 19,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 8,
       "prs": 0,
       "issues": 0,
       "reviews": 0
