@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-23T09:08:04Z",
-  "since": "2026-07-24T09:07:22Z",
+  "generated": "2026-08-23T09:45:23Z",
+  "since": "2026-07-24T09:44:50Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-23T06:46:05Z",
-      "pushed_at": "2026-08-23T06:45:48Z",
+      "updated_at": "2026-08-23T09:08:34Z",
+      "pushed_at": "2026-08-23T09:08:07Z",
       "recent_commits": [
+        {
+          "sha": "6adc02d",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-23T09:08:04Z)",
+          "author": "daeguru",
+          "date": "2026-08-23T09:08:04Z"
+        },
         {
           "sha": "1d605d6",
           "message": "dashboard: update data (auto)",
@@ -85,12 +91,6 @@
           "message": "dac report #124 diagram: line judgment flow (liveness gate -> rhythm window / line stop -> wake switch)",
           "author": "sfex11",
           "date": "2026-08-23T05:09:10Z"
-        },
-        {
-          "sha": "af8bfab",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-23T03:08:28Z)",
-          "author": "daeguru",
-          "date": "2026-08-23T03:08:28Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-23T09:08:04Z)",
+      "sha": "6adc02d",
+      "date": "2026-08-23T09:08:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6adc02d7643c8198432707122f1cb76ca346368a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "dashboard: update data (auto)",
       "sha": "1d605d6",
       "date": "2026-08-23T06:45:46Z",
@@ -642,15 +651,6 @@
       "sha": "0d97340",
       "date": "2026-08-23T05:02:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0d97340dab334f473b2388b41c9f021bf317e7ae"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-23T03:08:28Z)",
-      "sha": "af8bfab",
-      "date": "2026-08-23T03:08:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/af8bfab33f7ccc1622e9dc3c5f694fcf06a12db7"
     },
     {
       "type": "commit",
