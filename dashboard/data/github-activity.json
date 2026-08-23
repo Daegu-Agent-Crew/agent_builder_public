@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-23T06:07:12Z",
-  "since": "2026-07-24T06:06:12Z",
+  "generated": "2026-08-23T06:10:00Z",
+  "since": "2026-07-24T06:09:14Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-23T05:09:14Z",
-      "pushed_at": "2026-08-23T05:09:11Z",
+      "updated_at": "2026-08-23T06:07:47Z",
+      "pushed_at": "2026-08-23T06:07:14Z",
       "recent_commits": [
+        {
+          "sha": "22c3fd2",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-23T06:07:12Z)",
+          "author": "daeguru",
+          "date": "2026-08-23T06:07:12Z"
+        },
         {
           "sha": "5b94d62",
           "message": "dac report #124 diagram: line judgment flow (liveness gate -> rhythm window / line stop -> wake switch)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-23T00:07:31Z)",
           "author": "daeguru",
           "date": "2026-08-23T00:07:31Z"
-        },
-        {
-          "sha": "86043dc",
-          "message": "dac report #123 diagram: line-watch dashboard concept (shared gauge vs 4 line lamps)",
-          "author": "sfex11",
-          "date": "2026-08-22T22:59:22Z"
         }
       ],
       "recent_prs": [
@@ -601,6 +601,15 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-23T06:07:12Z)",
+      "sha": "22c3fd2",
+      "date": "2026-08-23T06:07:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/22c3fd2105797b454cd1bd0534684f4b2eba8f97"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "sfex11",
       "message": "dac report #124 diagram: line judgment flow (liveness gate -> rhythm window / line stop -> wake switch)",
       "sha": "5b94d62",
@@ -660,15 +669,6 @@
       "sha": "ad943dd",
       "date": "2026-08-22T23:01:01Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ad943ddfa6eb4a69d7f14002135791fd49518211"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac report #123 diagram: line-watch dashboard concept (shared gauge vs 4 line lamps)",
-      "sha": "86043dc",
-      "date": "2026-08-22T22:59:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/86043dc96cfa8751282841d7e5868f43f9e2d543"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 20,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
