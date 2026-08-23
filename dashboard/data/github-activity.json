@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-23T12:45:31Z",
-  "since": "2026-07-24T12:44:56Z",
+  "generated": "2026-08-23T15:06:54Z",
+  "since": "2026-07-24T15:06:10Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-23T12:08:32Z",
-      "pushed_at": "2026-08-23T12:07:28Z",
+      "updated_at": "2026-08-23T12:46:09Z",
+      "pushed_at": "2026-08-23T12:45:52Z",
       "recent_commits": [
+        {
+          "sha": "6f3224b",
+          "message": "chore: update dashboard data",
+          "author": "daeguru",
+          "date": "2026-08-23T12:45:50Z"
+        },
         {
           "sha": "157864a",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-23T12:07:25Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update data (auto)",
           "author": "daeguru",
           "date": "2026-08-23T06:45:46Z"
-        },
-        {
-          "sha": "9da2b5f",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-23T06:10:00Z)",
-          "author": "daeguru",
-          "date": "2026-08-23T06:10:00Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-23T11:03:51Z",
-      "pushed_at": "2026-08-23T11:03:23Z",
+      "updated_at": "2026-08-23T12:47:04Z",
+      "pushed_at": "2026-08-23T12:45:49Z",
       "recent_commits": [
+        {
+          "sha": "66184cd",
+          "message": "chore: update tmp/dashboard.json",
+          "author": "daeguru",
+          "date": "2026-08-23T12:45:48Z"
+        },
         {
           "sha": "6d58edf",
           "message": "교훈 #125: 정지 판정은 시간창 진술이다 — 휴면/사망 분리 (125회차)",
@@ -494,12 +500,6 @@
           "message": "lesson #123: early scoring allowed only in irreversible (hit) direction",
           "author": "sfex11",
           "date": "2026-08-22T23:01:01Z"
-        },
-        {
-          "sha": "6fa118f",
-          "message": "dashboard: regenerate dashboard.json and wiki (2026-08-23 06:45 KST)",
-          "author": "daeguru",
-          "date": "2026-08-22T21:45:42Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore: update dashboard data",
+      "sha": "6f3224b",
+      "date": "2026-08-23T12:45:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6f3224b0e9b424fd444d20f579ac53aad405deff"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "chore: update tmp/dashboard.json",
+      "sha": "66184cd",
+      "date": "2026-08-23T12:45:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/66184cdb2918d260acfd1fab30fcc34a07c40d4b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-23T12:07:25Z)",
       "sha": "157864a",
       "date": "2026-08-23T12:07:25Z",
@@ -645,15 +663,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-23T06:10:00Z)",
-      "sha": "9da2b5f",
-      "date": "2026-08-23T06:10:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9da2b5f2f091075483854df3670d903de2268ccf"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #124: rhythm prediction requires a liveness gate first (124회차)",
@@ -678,15 +687,6 @@
       "sha": "ad943dd",
       "date": "2026-08-22T23:01:01Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ad943ddfa6eb4a69d7f14002135791fd49518211"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "dashboard: regenerate dashboard.json and wiki (2026-08-23 06:45 KST)",
-      "sha": "6fa118f",
-      "date": "2026-08-22T21:45:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6fa118f07195e94c17bdfaebcbeb3b718939fb2f"
     },
     {
       "type": "commit",
