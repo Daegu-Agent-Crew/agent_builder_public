@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-23T06:45:37Z",
-  "since": "2026-07-24T06:45:05Z",
+  "generated": "2026-08-23T09:08:04Z",
+  "since": "2026-07-24T09:07:22Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-23T06:10:09Z",
-      "pushed_at": "2026-08-23T06:10:03Z",
+      "updated_at": "2026-08-23T06:46:05Z",
+      "pushed_at": "2026-08-23T06:45:48Z",
       "recent_commits": [
+        {
+          "sha": "1d605d6",
+          "message": "dashboard: update data (auto)",
+          "author": "daeguru",
+          "date": "2026-08-23T06:45:46Z"
+        },
         {
           "sha": "9da2b5f",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-23T06:10:00Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-23T03:08:28Z)",
           "author": "daeguru",
           "date": "2026-08-23T03:08:28Z"
-        },
-        {
-          "sha": "4d8f844",
-          "message": "dashboard 데이터 갱신 (자동)",
-          "author": "daeguru",
-          "date": "2026-08-23T00:45:58Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "dashboard: update data (auto)",
+      "sha": "1d605d6",
+      "date": "2026-08-23T06:45:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1d605d6d976000e41b6a4b02586bc2de79fc4ea3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-23T06:10:00Z)",
       "sha": "9da2b5f",
       "date": "2026-08-23T06:10:00Z",
@@ -642,15 +651,6 @@
       "sha": "af8bfab",
       "date": "2026-08-23T03:08:28Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/af8bfab33f7ccc1622e9dc3c5f694fcf06a12db7"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard 데이터 갱신 (자동)",
-      "sha": "4d8f844",
-      "date": "2026-08-23T00:45:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4d8f844aa60921d26a0d5b377365625cc32da7f5"
     },
     {
       "type": "commit",
