@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-23T15:45:29Z",
-  "since": "2026-07-24T15:44:55Z",
+  "generated": "2026-08-23T18:07:30Z",
+  "since": "2026-07-24T18:06:46Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 251,
+      "open_issues": 252,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-23T15:07:19Z",
-      "pushed_at": "2026-08-23T15:06:57Z",
+      "updated_at": "2026-08-23T15:47:09Z",
+      "pushed_at": "2026-08-23T15:45:43Z",
       "recent_commits": [
+        {
+          "sha": "21cec58",
+          "message": "chore: github-activity 갱신",
+          "author": "daeguru",
+          "date": "2026-08-23T15:45:42Z"
+        },
         {
           "sha": "1d04a54",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-23T15:06:54Z)",
@@ -85,12 +91,6 @@
           "message": "Update dashboard data and github activity",
           "author": "daeguru",
           "date": "2026-08-23T09:45:30Z"
-        },
-        {
-          "sha": "6adc02d",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-23T09:08:04Z)",
-          "author": "daeguru",
-          "date": "2026-08-23T09:08:04Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,21 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-23T12:47:04Z",
-      "pushed_at": "2026-08-23T12:45:49Z",
+      "updated_at": "2026-08-23T17:03:06Z",
+      "pushed_at": "2026-08-23T17:02:17Z",
       "recent_commits": [
+        {
+          "sha": "05a3839",
+          "message": "교훈 #126: 게이트 있는 라인만 생존 — 계기판 3중 게이트 vs 뉴스 무게이트 실측 (126회차)",
+          "author": "sfex11",
+          "date": "2026-08-23T17:02:17Z"
+        },
+        {
+          "sha": "f7f0ce1",
+          "message": "chore: dashboard.json 갱신",
+          "author": "daeguru",
+          "date": "2026-08-23T15:45:40Z"
+        },
         {
           "sha": "66184cd",
           "message": "chore: update tmp/dashboard.json",
@@ -488,18 +500,6 @@
           "message": "lesson #124: rhythm prediction requires a liveness gate first (124회차)",
           "author": "sfex11",
           "date": "2026-08-23T05:02:09Z"
-        },
-        {
-          "sha": "14817da",
-          "message": "wiki/dashboard 갱신 (자동)",
-          "author": "daeguru",
-          "date": "2026-08-23T00:45:28Z"
-        },
-        {
-          "sha": "ad943dd",
-          "message": "lesson #123: early scoring allowed only in irreversible (hit) direction",
-          "author": "sfex11",
-          "date": "2026-08-22T23:01:01Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #126: 게이트 있는 라인만 생존 — 계기판 3중 게이트 vs 뉴스 무게이트 실측 (126회차)",
+      "sha": "05a3839",
+      "date": "2026-08-23T17:02:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/05a38399d720801e10c88019af1d0cea80059859"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: github-activity 갱신",
+      "sha": "21cec58",
+      "date": "2026-08-23T15:45:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/21cec5869d0e452962b6afeb5a3836cb5fe46b14"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "chore: dashboard.json 갱신",
+      "sha": "f7f0ce1",
+      "date": "2026-08-23T15:45:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f7f0ce13af0d83f1cc34d7f863dc894c6e94aa1e"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-23T15:06:54Z)",
@@ -654,39 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-23T09:08:04Z)",
-      "sha": "6adc02d",
-      "date": "2026-08-23T09:08:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6adc02d7643c8198432707122f1cb76ca346368a"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #124: rhythm prediction requires a liveness gate first (124회차)",
       "sha": "0d97340",
       "date": "2026-08-23T05:02:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0d97340dab334f473b2388b41c9f021bf317e7ae"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wiki/dashboard 갱신 (자동)",
-      "sha": "14817da",
-      "date": "2026-08-23T00:45:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/14817dab415616c39062a9a175919d996a8b7016"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #123: early scoring allowed only in irreversible (hit) direction",
-      "sha": "ad943dd",
-      "date": "2026-08-22T23:01:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ad943ddfa6eb4a69d7f14002135791fd49518211"
     },
     {
       "type": "commit",
