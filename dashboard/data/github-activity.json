@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-24T03:46:02Z",
-  "since": "2026-07-25T03:45:30Z",
+  "generated": "2026-08-24T06:06:04Z",
+  "since": "2026-07-25T06:05:14Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 253,
+      "open_issues": 254,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-24T03:06:43Z",
-      "pushed_at": "2026-08-24T03:06:33Z",
+      "updated_at": "2026-08-24T05:07:48Z",
+      "pushed_at": "2026-08-24T05:07:16Z",
       "recent_commits": [
+        {
+          "sha": "918038d",
+          "message": "add dac-128 diagram (라인 기상 패턴 타임라인)",
+          "author": "sfex11",
+          "date": "2026-08-24T05:07:15Z"
+        },
+        {
+          "sha": "86b7429",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-24T03:45:30Z)",
+          "author": "daeguru",
+          "date": "2026-08-24T03:46:51Z"
+        },
         {
           "sha": "f8b8dd9",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-24T03:06:31Z)",
@@ -79,18 +91,6 @@
           "message": "dashboard: update data 2026-08-24",
           "author": "daguru-agent",
           "date": "2026-08-23T21:45:30Z"
-        },
-        {
-          "sha": "8805b28",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-23T21:08:34Z)",
-          "author": "daeguru",
-          "date": "2026-08-23T21:08:35Z"
-        },
-        {
-          "sha": "7434cdf",
-          "message": "dashboard: 데이터 갱신",
-          "author": "daeguru",
-          "date": "2026-08-23T18:45:42Z"
         }
       ],
       "recent_prs": [
@@ -196,7 +196,7 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 17,
+      "open_issues": 18,
       "open_prs": 1,
       "updated_at": "2026-08-16T02:26:39Z",
       "pushed_at": "2026-08-24T01:56:36Z",
@@ -468,9 +468,21 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-23T23:04:13Z",
-      "pushed_at": "2026-08-23T23:04:03Z",
+      "updated_at": "2026-08-24T05:09:52Z",
+      "pushed_at": "2026-08-24T05:09:48Z",
       "recent_commits": [
+        {
+          "sha": "9b5adf4",
+          "message": "lesson #128: 트리거 기상 109초 vs 자율 기상 87h",
+          "author": "sfex11",
+          "date": "2026-08-24T05:09:48Z"
+        },
+        {
+          "sha": "13d78ac",
+          "message": "chore(dashboard): refresh dashboard.json and wiki",
+          "author": "daeguru",
+          "date": "2026-08-24T03:46:48Z"
+        },
         {
           "sha": "1c8d6c0",
           "message": "교훈 #127: 자율 회복은 일어난다 단 시간 무보증 — 뉴스 87h 부활 실측 (127회차)",
@@ -488,18 +500,6 @@
           "message": "wiki: team-memory, three-body-comic 재생성",
           "author": "daeguru",
           "date": "2026-08-23T18:45:31Z"
-        },
-        {
-          "sha": "05a3839",
-          "message": "교훈 #126: 게이트 있는 라인만 생존 — 계기판 3중 게이트 vs 뉴스 무게이트 실측 (126회차)",
-          "author": "sfex11",
-          "date": "2026-08-23T17:02:17Z"
-        },
-        {
-          "sha": "f7f0ce1",
-          "message": "chore: dashboard.json 갱신",
-          "author": "daeguru",
-          "date": "2026-08-23T15:45:40Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #128: 트리거 기상 109초 vs 자율 기상 87h",
+      "sha": "9b5adf4",
+      "date": "2026-08-24T05:09:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9b5adf4d4cd4ba94dcaa8bf3a21f012fa1bb8ec3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "add dac-128 diagram (라인 기상 패턴 타임라인)",
+      "sha": "918038d",
+      "date": "2026-08-24T05:07:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/918038d6a73630544a92ca8398eef72b9309e478"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-24T03:45:30Z)",
+      "sha": "86b7429",
+      "date": "2026-08-24T03:46:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/86b7429b305a6f3fd9063bdd799eb4e609cf69c4"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json and wiki",
+      "sha": "13d78ac",
+      "date": "2026-08-24T03:46:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/13d78ac14cc9747506694e0dfb2dcc48304dfbea"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-24T03:06:31Z)",
@@ -664,15 +700,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-23T21:08:34Z)",
-      "sha": "8805b28",
-      "date": "2026-08-23T21:08:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8805b28eefcc2c52fa751d33d4795e7ef02c4195"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-08-24: 뉴스 수집 (5건)",
@@ -691,39 +718,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: 데이터 갱신",
-      "sha": "7434cdf",
-      "date": "2026-08-23T18:45:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7434cdfcac917d62e4bd080fd6afe58716ec9bfb"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "wiki: team-memory, three-body-comic 재생성",
       "sha": "f65c77f",
       "date": "2026-08-23T18:45:31Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f65c77f11a5870a1b7ff226bb846bb442ff4c982"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #126: 게이트 있는 라인만 생존 — 계기판 3중 게이트 vs 뉴스 무게이트 실측 (126회차)",
-      "sha": "05a3839",
-      "date": "2026-08-23T17:02:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/05a38399d720801e10c88019af1d0cea80059859"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "chore: dashboard.json 갱신",
-      "sha": "f7f0ce1",
-      "date": "2026-08-23T15:45:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f7f0ce13af0d83f1cc34d7f863dc894c6e94aa1e"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 19,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 8,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
