@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-24T06:06:04Z",
-  "since": "2026-07-25T06:05:14Z",
+  "generated": "2026-08-24T06:45:41Z",
+  "since": "2026-07-25T06:45:07Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-24T05:07:48Z",
-      "pushed_at": "2026-08-24T05:07:16Z",
+      "updated_at": "2026-08-24T06:08:04Z",
+      "pushed_at": "2026-08-24T06:06:12Z",
       "recent_commits": [
+        {
+          "sha": "860d475",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-24T06:06:04Z)",
+          "author": "daeguru",
+          "date": "2026-08-24T06:06:09Z"
+        },
         {
           "sha": "918038d",
           "message": "add dac-128 diagram (라인 기상 패턴 타임라인)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-24T00:05:45Z)",
           "author": "daeguru",
           "date": "2026-08-24T00:05:45Z"
-        },
-        {
-          "sha": "234a1d4",
-          "message": "dashboard: update data 2026-08-24",
-          "author": "daguru-agent",
-          "date": "2026-08-23T21:45:30Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-24T06:06:04Z)",
+      "sha": "860d475",
+      "date": "2026-08-24T06:06:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/860d47550f548c358d591fa07df1236724cae9ea"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #128: 트리거 기상 109초 vs 자율 기상 87h",
@@ -670,15 +679,6 @@
       "sha": "1c8d6c0",
       "date": "2026-08-23T23:04:03Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1c8d6c08ae67eb4529ec899d85ea1e73e282bedd"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daguru-agent",
-      "message": "dashboard: update data 2026-08-24",
-      "sha": "234a1d4",
-      "date": "2026-08-23T21:45:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/234a1d4f23a6bdc05e8094097e38cab373639bd9"
     },
     {
       "type": "commit",
@@ -1076,7 +1076,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 8,
       "prs": 0,
       "issues": 0,
       "reviews": 0
