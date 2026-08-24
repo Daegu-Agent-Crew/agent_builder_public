@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-24T00:05:45Z",
-  "since": "2026-07-25T00:04:59Z",
+  "generated": "2026-08-24T03:06:31Z",
+  "since": "2026-07-25T03:05:20Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-23T21:45:59Z",
-      "pushed_at": "2026-08-23T21:45:50Z",
+      "updated_at": "2026-08-24T00:05:59Z",
+      "pushed_at": "2026-08-24T00:05:48Z",
       "recent_commits": [
+        {
+          "sha": "5c3da35",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-24T00:05:45Z)",
+          "author": "daeguru",
+          "date": "2026-08-24T00:05:45Z"
+        },
         {
           "sha": "234a1d4",
           "message": "dashboard: update data 2026-08-24",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-23T18:07:30Z)",
           "author": "daeguru",
           "date": "2026-08-23T18:07:31Z"
-        },
-        {
-          "sha": "21cec58",
-          "message": "chore: github-activity 갱신",
-          "author": "daeguru",
-          "date": "2026-08-23T15:45:42Z"
         }
       ],
       "recent_prs": [
@@ -196,10 +196,10 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 15,
-      "open_prs": 0,
+      "open_issues": 17,
+      "open_prs": 1,
       "updated_at": "2026-08-16T02:26:39Z",
-      "pushed_at": "2026-08-16T02:26:36Z",
+      "pushed_at": "2026-08-24T01:56:36Z",
       "recent_commits": [
         {
           "sha": "67e7ea1",
@@ -234,6 +234,14 @@
       ],
       "recent_prs": [
         {
+          "number": 66,
+          "title": "feat(CLE2-23): 자체 호스팅 SNS AI 직원 시스템 태스크 초기 설정",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-08-24T01:56:49Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/66"
+        },
+        {
           "number": 64,
           "title": "docs: move CLE2-22 to human review",
           "author": "sfex11",
@@ -248,14 +256,6 @@
           "state": "closed",
           "updated_at": "2026-08-16T02:00:00Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/63"
-        },
-        {
-          "number": 61,
-          "title": "docs: complete CLE2-21 deployment status",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-08-15T09:58:00Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/61"
         }
       ]
     },
@@ -599,6 +599,25 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-23): 자체 호스팅 SNS AI 직원 시스템 태스크 초기 설정",
+      "number": 66,
+      "state": "open",
+      "date": "2026-08-24T01:56:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/66"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-24T00:05:45Z)",
+      "sha": "5c3da35",
+      "date": "2026-08-24T00:05:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5c3da355e08333c6e3891d0a78d04cd934b42f24"
+    },
+    {
       "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
@@ -699,15 +718,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: github-activity 갱신",
-      "sha": "21cec58",
-      "date": "2026-08-23T15:45:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/21cec5869d0e452962b6afeb5a3836cb5fe46b14"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "chore: dashboard.json 갱신",
@@ -798,16 +808,6 @@
       "sha": "d98457c",
       "date": "2026-08-16T01:51:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d98457c7631ddc2ec1114977c8878dcda2a94d6e"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: complete CLE2-21 deployment status",
-      "number": 61,
-      "state": "closed",
-      "date": "2026-08-15T09:58:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/61"
     },
     {
       "type": "commit",
