@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-24T18:07:38Z",
-  "since": "2026-07-25T18:06:48Z",
+  "generated": "2026-08-24T18:45:39Z",
+  "since": "2026-07-25T18:45:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-24T15:51:07Z",
-      "pushed_at": "2026-08-24T15:45:54Z",
+      "updated_at": "2026-08-24T18:12:44Z",
+      "pushed_at": "2026-08-24T18:07:41Z",
       "recent_commits": [
+        {
+          "sha": "cdda3d8",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-24T18:07:38Z)",
+          "author": "daeguru",
+          "date": "2026-08-24T18:07:38Z"
+        },
         {
           "sha": "5d85a36",
           "message": "dashboard 데이터 갱신 (자동)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-24T12:06:41Z)",
           "author": "daeguru",
           "date": "2026-08-24T12:06:41Z"
-        },
-        {
-          "sha": "a970d0d",
-          "message": "dashboard: update github-activity.json",
-          "author": "daeguru",
-          "date": "2026-08-24T09:45:51Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-24T18:07:38Z)",
+      "sha": "cdda3d8",
+      "date": "2026-08-24T18:07:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cdda3d833e13d409c426fea0b7bcb93a13f27614"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #130: 부활 첫 산출을 리듬으로 외삽 금지 — 원샷 버스트 (DAC 130회차)",
@@ -669,15 +678,6 @@
       "sha": "c15db4a",
       "date": "2026-08-24T11:07:01Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c15db4af7bdc44497a1b48327db3de0ea9e59c2a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update github-activity.json",
-      "sha": "a970d0d",
-      "date": "2026-08-24T09:45:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a970d0db1d7e9f6430c245ca8b738935fea53c28"
     },
     {
       "type": "commit",
