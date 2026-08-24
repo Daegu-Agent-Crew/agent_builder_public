@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-24T12:46:33Z",
-  "since": "2026-07-25T12:46:00Z",
+  "generated": "2026-08-24T15:06:03Z",
+  "since": "2026-07-25T15:05:17Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-24T12:08:32Z",
-      "pushed_at": "2026-08-24T12:06:44Z",
+      "updated_at": "2026-08-24T12:48:48Z",
+      "pushed_at": "2026-08-24T12:46:41Z",
       "recent_commits": [
+        {
+          "sha": "5a64fb3",
+          "message": "chore: update dashboard data",
+          "author": "daeguru",
+          "date": "2026-08-24T12:46:39Z"
+        },
         {
           "sha": "06372f3",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-24T12:06:41Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update github activity data",
           "author": "daeguru",
           "date": "2026-08-24T06:45:47Z"
-        },
-        {
-          "sha": "860d475",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-24T06:06:04Z)",
-          "author": "daeguru",
-          "date": "2026-08-24T06:06:09Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-24T11:07:19Z",
-      "pushed_at": "2026-08-24T11:07:01Z",
+      "updated_at": "2026-08-24T12:48:26Z",
+      "pushed_at": "2026-08-24T12:46:38Z",
       "recent_commits": [
+        {
+          "sha": "0d12025",
+          "message": "chore: regenerate wiki + dashboard",
+          "author": "daeguru",
+          "date": "2026-08-24T12:46:37Z"
+        },
         {
           "sha": "c15db4a",
           "message": "lesson #129: 무응답 두 종류 — 채널 불일치와 우선순위 (DAC 129회차)",
@@ -494,12 +500,6 @@
           "message": "chore(dashboard): refresh dashboard.json and wiki",
           "author": "daeguru",
           "date": "2026-08-24T03:46:48Z"
-        },
-        {
-          "sha": "1c8d6c0",
-          "message": "교훈 #127: 자율 회복은 일어난다 단 시간 무보증 — 뉴스 87h 부활 실측 (127회차)",
-          "author": "sfex11",
-          "date": "2026-08-23T23:04:03Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore: update dashboard data",
+      "sha": "5a64fb3",
+      "date": "2026-08-24T12:46:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5a64fb330f50f17b6fc98ecfcd99a702cc4596c1"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "chore: regenerate wiki + dashboard",
+      "sha": "0d12025",
+      "date": "2026-08-24T12:46:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0d12025bd794f71892373e97b0f368cb3b93aa2d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-24T12:06:41Z)",
       "sha": "06372f3",
       "date": "2026-08-24T12:06:41Z",
@@ -654,15 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-24T06:06:04Z)",
-      "sha": "860d475",
-      "date": "2026-08-24T06:06:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/860d47550f548c358d591fa07df1236724cae9ea"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #128: 트리거 기상 109초 vs 자율 기상 87h",
@@ -688,15 +697,6 @@
       "state": "open",
       "date": "2026-08-24T01:56:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/66"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #127: 자율 회복은 일어난다 단 시간 무보증 — 뉴스 87h 부활 실측 (127회차)",
-      "sha": "1c8d6c0",
-      "date": "2026-08-23T23:04:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1c8d6c08ae67eb4529ec899d85ea1e73e282bedd"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 18,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 8,
+      "commits": 9,
       "prs": 0,
       "issues": 0,
       "reviews": 0
