@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-24T15:45:38Z",
-  "since": "2026-07-25T15:45:04Z",
+  "generated": "2026-08-24T18:07:38Z",
+  "since": "2026-07-25T18:06:48Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 255,
+      "open_issues": 256,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-24T15:20:46Z",
-      "pushed_at": "2026-08-24T15:06:06Z",
+      "updated_at": "2026-08-24T15:51:07Z",
+      "pushed_at": "2026-08-24T15:45:54Z",
       "recent_commits": [
+        {
+          "sha": "5d85a36",
+          "message": "dashboard 데이터 갱신 (자동)",
+          "author": "daeguru",
+          "date": "2026-08-24T15:45:52Z"
+        },
         {
           "sha": "ecb7f9a",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-24T15:06:03Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update github-activity.json",
           "author": "daeguru",
           "date": "2026-08-24T09:45:51Z"
-        },
-        {
-          "sha": "a79d167",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-24T09:07:01Z)",
-          "author": "daeguru",
-          "date": "2026-08-24T09:07:01Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,21 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-24T12:48:26Z",
-      "pushed_at": "2026-08-24T12:46:38Z",
+      "updated_at": "2026-08-24T17:09:34Z",
+      "pushed_at": "2026-08-24T17:07:07Z",
       "recent_commits": [
+        {
+          "sha": "a636807",
+          "message": "lesson #130: 부활 첫 산출을 리듬으로 외삽 금지 — 원샷 버스트 (DAC 130회차)",
+          "author": "sfex11",
+          "date": "2026-08-24T17:07:07Z"
+        },
+        {
+          "sha": "d52f2dc",
+          "message": "wiki 갱신 (자동)",
+          "author": "daeguru",
+          "date": "2026-08-24T15:45:45Z"
+        },
         {
           "sha": "0d12025",
           "message": "chore: regenerate wiki + dashboard",
@@ -488,18 +500,6 @@
           "message": "dashboard: regenerate dashboard.json and wiki",
           "author": "daeguru",
           "date": "2026-08-24T09:45:48Z"
-        },
-        {
-          "sha": "9b5adf4",
-          "message": "lesson #128: 트리거 기상 109초 vs 자율 기상 87h",
-          "author": "sfex11",
-          "date": "2026-08-24T05:09:48Z"
-        },
-        {
-          "sha": "13d78ac",
-          "message": "chore(dashboard): refresh dashboard.json and wiki",
-          "author": "daeguru",
-          "date": "2026-08-24T03:46:48Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #130: 부활 첫 산출을 리듬으로 외삽 금지 — 원샷 버스트 (DAC 130회차)",
+      "sha": "a636807",
+      "date": "2026-08-24T17:07:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a636807f127409eb0fa832e541a2c8941855e468"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 갱신 (자동)",
+      "sha": "5d85a36",
+      "date": "2026-08-24T15:45:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5d85a367f4bcf08e59eba603ee7a397115d77c0f"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wiki 갱신 (자동)",
+      "sha": "d52f2dc",
+      "date": "2026-08-24T15:45:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d52f2dc701e3f4b8815ab9678bf9c73f0d979713"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-24T15:06:03Z)",
@@ -660,33 +687,6 @@
       "sha": "2ee2a0e",
       "date": "2026-08-24T09:45:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2ee2a0e5df80dca72e4b7d2860bc83329134d65a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-24T09:07:01Z)",
-      "sha": "a79d167",
-      "date": "2026-08-24T09:07:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a79d1675ef1172c3d0cbb625ce9fa85902512af3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #128: 트리거 기상 109초 vs 자율 기상 87h",
-      "sha": "9b5adf4",
-      "date": "2026-08-24T05:09:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9b5adf4d4cd4ba94dcaa8bf3a21f012fa1bb8ec3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json and wiki",
-      "sha": "13d78ac",
-      "date": "2026-08-24T03:46:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/13d78ac14cc9747506694e0dfb2dcc48304dfbea"
     },
     {
       "type": "pr",
