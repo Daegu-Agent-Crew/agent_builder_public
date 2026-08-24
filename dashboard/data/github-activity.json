@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-24T09:45:42Z",
-  "since": "2026-07-25T09:45:08Z",
+  "generated": "2026-08-24T12:06:41Z",
+  "since": "2026-07-25T12:05:45Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 254,
+      "open_issues": 255,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-24T09:07:48Z",
-      "pushed_at": "2026-08-24T09:07:04Z",
+      "updated_at": "2026-08-24T09:47:41Z",
+      "pushed_at": "2026-08-24T09:45:53Z",
       "recent_commits": [
+        {
+          "sha": "a970d0d",
+          "message": "dashboard: update github-activity.json",
+          "author": "daeguru",
+          "date": "2026-08-24T09:45:51Z"
+        },
         {
           "sha": "a79d167",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-24T09:07:01Z)",
@@ -85,12 +91,6 @@
           "message": "add dac-128 diagram (라인 기상 패턴 타임라인)",
           "author": "sfex11",
           "date": "2026-08-24T05:07:15Z"
-        },
-        {
-          "sha": "86b7429",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-24T03:45:30Z)",
-          "author": "daeguru",
-          "date": "2026-08-24T03:46:51Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,21 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-24T05:09:52Z",
-      "pushed_at": "2026-08-24T05:09:48Z",
+      "updated_at": "2026-08-24T11:07:19Z",
+      "pushed_at": "2026-08-24T11:07:01Z",
       "recent_commits": [
+        {
+          "sha": "c15db4a",
+          "message": "lesson #129: 무응답 두 종류 — 채널 불일치와 우선순위 (DAC 129회차)",
+          "author": "sfex11",
+          "date": "2026-08-24T11:07:01Z"
+        },
+        {
+          "sha": "2ee2a0e",
+          "message": "dashboard: regenerate dashboard.json and wiki",
+          "author": "daeguru",
+          "date": "2026-08-24T09:45:48Z"
+        },
         {
           "sha": "9b5adf4",
           "message": "lesson #128: 트리거 기상 109초 vs 자율 기상 87h",
@@ -488,18 +500,6 @@
           "message": "교훈 #127: 자율 회복은 일어난다 단 시간 무보증 — 뉴스 87h 부활 실측 (127회차)",
           "author": "sfex11",
           "date": "2026-08-23T23:04:03Z"
-        },
-        {
-          "sha": "2ef8f69",
-          "message": "chore: tmp 로그 제외(.gitignore)",
-          "author": "daeguru",
-          "date": "2026-08-23T18:45:44Z"
-        },
-        {
-          "sha": "f65c77f",
-          "message": "wiki: team-memory, three-body-comic 재생성",
-          "author": "daeguru",
-          "date": "2026-08-23T18:45:31Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #129: 무응답 두 종류 — 채널 불일치와 우선순위 (DAC 129회차)",
+      "sha": "c15db4a",
+      "date": "2026-08-24T11:07:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c15db4af7bdc44497a1b48327db3de0ea9e59c2a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update github-activity.json",
+      "sha": "a970d0d",
+      "date": "2026-08-24T09:45:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a970d0db1d7e9f6430c245ca8b738935fea53c28"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json and wiki",
+      "sha": "2ee2a0e",
+      "date": "2026-08-24T09:45:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2ee2a0e5df80dca72e4b7d2860bc83329134d65a"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-24T09:07:01Z)",
@@ -642,15 +669,6 @@
       "sha": "918038d",
       "date": "2026-08-24T05:07:15Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/918038d6a73630544a92ca8398eef72b9309e478"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-24T03:45:30Z)",
-      "sha": "86b7429",
-      "date": "2026-08-24T03:46:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/86b7429b305a6f3fd9063bdd799eb4e609cf69c4"
     },
     {
       "type": "commit",
@@ -706,24 +724,6 @@
       "sha": "fa1c36f",
       "date": "2026-08-23T21:04:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/fa1c36f75d6238cfc5d96179e9432c90940586d4"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "chore: tmp 로그 제외(.gitignore)",
-      "sha": "2ef8f69",
-      "date": "2026-08-23T18:45:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2ef8f6937923c6937dba6221a8ecc35fbf9e1436"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wiki: team-memory, three-body-comic 재생성",
-      "sha": "f65c77f",
-      "date": "2026-08-23T18:45:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f65c77f11a5870a1b7ff226bb846bb442ff4c982"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 20,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 8,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
