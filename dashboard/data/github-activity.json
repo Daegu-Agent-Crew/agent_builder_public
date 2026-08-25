@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T00:07:29Z",
-  "since": "2026-07-26T00:06:36Z",
+  "generated": "2026-08-25T00:45:21Z",
+  "since": "2026-07-26T00:44:49Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-24T23:09:01Z",
-      "pushed_at": "2026-08-24T23:08:46Z",
+      "updated_at": "2026-08-25T00:07:43Z",
+      "pushed_at": "2026-08-25T00:07:32Z",
       "recent_commits": [
+        {
+          "sha": "946c46f",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-25T00:07:29Z)",
+          "author": "daeguru",
+          "date": "2026-08-25T00:07:29Z"
+        },
         {
           "sha": "8eb719e",
           "message": "add dac-131-diagram.png (원샷 버스트 패턴 타임라인, DAC 131회차)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data (wiki, dashboard.json, github activity)",
           "author": "daeguru",
           "date": "2026-08-24T18:45:47Z"
-        },
-        {
-          "sha": "cdda3d8",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-24T18:07:38Z)",
-          "author": "daeguru",
-          "date": "2026-08-24T18:07:38Z"
         }
       ],
       "recent_prs": [
@@ -196,11 +196,23 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 19,
-      "open_prs": 1,
-      "updated_at": "2026-08-16T02:26:39Z",
-      "pushed_at": "2026-08-24T01:56:36Z",
+      "open_issues": 18,
+      "open_prs": 0,
+      "updated_at": "2026-08-25T00:14:01Z",
+      "pushed_at": "2026-08-25T00:13:53Z",
       "recent_commits": [
+        {
+          "sha": "ee66cb0",
+          "message": "Merge pull request #66 from Daegu-Agent-Crew/cle2-23-setup",
+          "author": "sfex11",
+          "date": "2026-08-25T00:13:51Z"
+        },
+        {
+          "sha": "9e90a58",
+          "message": "feat(CLE2-23): 태스크 초기 설정",
+          "author": "대구루",
+          "date": "2026-08-24T01:56:34Z"
+        },
         {
           "sha": "67e7ea1",
           "message": "Merge pull request #64 from Daegu-Agent-Crew/codex/cle2-22-pilot-review",
@@ -218,18 +230,6 @@
           "message": "Merge pull request #63 from Daegu-Agent-Crew/codex/cle2-22-three-body-pilot",
           "author": "sfex11",
           "date": "2026-08-16T01:59:58Z"
-        },
-        {
-          "sha": "d98457c",
-          "message": "docs: register CLE2-22 three body pilot",
-          "author": "sfex11",
-          "date": "2026-08-16T01:51:49Z"
-        },
-        {
-          "sha": "1ae641f",
-          "message": "Merge pull request #61 from Daegu-Agent-Crew/codex/cle2-21-complete",
-          "author": "sfex11",
-          "date": "2026-08-15T09:57:58Z"
         }
       ],
       "recent_prs": [
@@ -237,8 +237,8 @@
           "number": 66,
           "title": "feat(CLE2-23): 자체 호스팅 SNS AI 직원 시스템 태스크 초기 설정",
           "author": "sfex11",
-          "state": "open",
-          "updated_at": "2026-08-24T01:56:49Z",
+          "state": "closed",
+          "updated_at": "2026-08-25T00:13:54Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/66"
         },
         {
@@ -599,6 +599,34 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-23): 자체 호스팅 SNS AI 직원 시스템 태스크 초기 설정",
+      "number": 66,
+      "state": "closed",
+      "date": "2026-08-25T00:13:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/66"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "Merge pull request #66 from Daegu-Agent-Crew/cle2-23-setup",
+      "sha": "ee66cb0",
+      "date": "2026-08-25T00:13:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/ee66cb06929dfa2d68c50307b8874e88d5a546ec"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-25T00:07:29Z)",
+      "sha": "946c46f",
+      "date": "2026-08-25T00:07:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/946c46f07197c7bd61f94713bc1d693427dc70cc"
+    },
+    {
       "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
@@ -645,15 +673,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-24T18:07:38Z)",
-      "sha": "cdda3d8",
-      "date": "2026-08-24T18:07:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cdda3d833e13d409c426fea0b7bcb93a13f27614"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #130: 부활 첫 산출을 리듬으로 외삽 금지 — 원샷 버스트 (DAC 130회차)",
@@ -689,14 +708,13 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c15db4af7bdc44497a1b48327db3de0ea9e59c2a"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-23): 자체 호스팅 SNS AI 직원 시스템 태스크 초기 설정",
-      "number": 66,
-      "state": "open",
-      "date": "2026-08-24T01:56:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/66"
+      "author": "대구루",
+      "message": "feat(CLE2-23): 태스크 초기 설정",
+      "sha": "9e90a58",
+      "date": "2026-08-24T01:56:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/9e90a58b0a0b43ef64521a1f73954a69b26f8dbb"
     },
     {
       "type": "commit",
@@ -799,24 +817,6 @@
       "sha": "846a218",
       "date": "2026-08-16T01:59:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/846a218c8e10ed5bddc80dabc1c59708ce76f97f"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: register CLE2-22 three body pilot",
-      "sha": "d98457c",
-      "date": "2026-08-16T01:51:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d98457c7631ddc2ec1114977c8878dcda2a94d6e"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "Merge pull request #61 from Daegu-Agent-Crew/codex/cle2-21-complete",
-      "sha": "1ae641f",
-      "date": "2026-08-15T09:57:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1ae641f781a48a3d70dcbd85e0bf828771a0617e"
     },
     {
       "type": "pr",
@@ -1069,7 +1069,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 19,
       "prs": 17,
       "issues": 0,
       "reviews": 0
