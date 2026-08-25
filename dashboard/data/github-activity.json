@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T18:45:42Z",
-  "since": "2026-07-26T18:45:06Z",
+  "generated": "2026-08-25T21:07:14Z",
+  "since": "2026-07-26T21:06:23Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-25T18:13:32Z",
-      "pushed_at": "2026-08-25T18:05:37Z",
+      "updated_at": "2026-08-25T18:53:07Z",
+      "pushed_at": "2026-08-25T18:45:57Z",
       "recent_commits": [
+        {
+          "sha": "bf60221",
+          "message": "dashboard: update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-08-25T18:45:52Z"
+        },
         {
           "sha": "a65497a",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-25T18:05:33Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-25T12:06:58Z)",
           "author": "daeguru",
           "date": "2026-08-25T12:06:58Z"
-        },
-        {
-          "sha": "2dfe2d2",
-          "message": "dac-133-diagram: two hearts timeline (issue->109s wake->output->sleep->human merge)",
-          "author": "sfex11",
-          "date": "2026-08-25T11:11:19Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json",
+      "sha": "bf60221",
+      "date": "2026-08-25T18:45:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bf602211d8aa16748b9e8515fc14cff6904cb6ae"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-25T18:05:33Z)",
       "sha": "a65497a",
       "date": "2026-08-25T18:05:34Z",
@@ -651,15 +660,6 @@
       "sha": "daf2896",
       "date": "2026-08-25T11:13:07Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/daf289611e0cc7f88490b2f2c54b15a43f8e767e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-133-diagram: two hearts timeline (issue->109s wake->output->sleep->human merge)",
-      "sha": "2dfe2d2",
-      "date": "2026-08-25T11:11:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2dfe2d24ade06926a69ceb6ace910a47c3457368"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 19,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
