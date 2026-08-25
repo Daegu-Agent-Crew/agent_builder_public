@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-25T03:45:28Z",
-  "since": "2026-07-26T03:44:53Z",
+  "generated": "2026-08-25T06:07:05Z",
+  "since": "2026-07-26T06:06:20Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 257,
+      "open_issues": 258,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-25T03:10:15Z",
-      "pushed_at": "2026-08-25T03:09:53Z",
+      "updated_at": "2026-08-25T03:45:44Z",
+      "pushed_at": "2026-08-25T03:45:33Z",
       "recent_commits": [
+        {
+          "sha": "853fa12",
+          "message": "Update github-activity data",
+          "author": "daeguru",
+          "date": "2026-08-25T03:45:32Z"
+        },
         {
           "sha": "4881f24",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-25T03:09:50Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-25T00:07:29Z)",
           "author": "daeguru",
           "date": "2026-08-25T00:07:29Z"
-        },
-        {
-          "sha": "8eb719e",
-          "message": "add dac-131-diagram.png (원샷 버스트 패턴 타임라인, DAC 131회차)",
-          "author": "sfex11",
-          "date": "2026-08-24T23:08:46Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-24T23:15:19Z",
-      "pushed_at": "2026-08-24T23:12:48Z",
+      "updated_at": "2026-08-25T05:12:55Z",
+      "pushed_at": "2026-08-25T05:12:39Z",
       "recent_commits": [
+        {
+          "sha": "0032de8",
+          "message": "교훈 #132: 각성 채널은 좁다 — 도달 실측 지도부터 (스튜디오 리포트 #132)",
+          "author": "sfex11",
+          "date": "2026-08-25T05:12:39Z"
+        },
         {
           "sha": "dd3647e",
           "message": "lesson #131: 트리거 기상도 원샷 — 각성 시 할 일 카드 (DAC 131회차)",
@@ -494,12 +500,6 @@
           "message": "chore: regenerate wiki + dashboard",
           "author": "daeguru",
           "date": "2026-08-24T12:46:37Z"
-        },
-        {
-          "sha": "c15db4a",
-          "message": "lesson #129: 무응답 두 종류 — 채널 불일치와 우선순위 (DAC 129회차)",
-          "author": "sfex11",
-          "date": "2026-08-24T11:07:01Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #132: 각성 채널은 좁다 — 도달 실측 지도부터 (스튜디오 리포트 #132)",
+      "sha": "0032de8",
+      "date": "2026-08-25T05:12:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0032de8f17fb3800352d64e5cf117c798056a94a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "Update github-activity data",
+      "sha": "853fa12",
+      "date": "2026-08-25T03:45:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/853fa12e70a255ce1e1eb2fe8ba4271d3ef495cc"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-25T03:09:50Z)",
@@ -664,15 +682,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "add dac-131-diagram.png (원샷 버스트 패턴 타임라인, DAC 131회차)",
-      "sha": "8eb719e",
-      "date": "2026-08-24T23:08:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8eb719e51282a64a4a34d932bda26cb1b133f08d"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #130: 부활 첫 산출을 리듬으로 외삽 금지 — 원샷 버스트 (DAC 130회차)",
@@ -697,15 +706,6 @@
       "sha": "0d12025",
       "date": "2026-08-24T12:46:37Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0d12025bd794f71892373e97b0f368cb3b93aa2d"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #129: 무응답 두 종류 — 채널 불일치와 우선순위 (DAC 129회차)",
-      "sha": "c15db4a",
-      "date": "2026-08-24T11:07:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c15db4af7bdc44497a1b48327db3de0ea9e59c2a"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 18,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 8,
       "prs": 0,
       "issues": 0,
       "reviews": 0
