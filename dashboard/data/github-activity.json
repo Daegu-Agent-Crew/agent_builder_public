@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T18:05:33Z",
-  "since": "2026-07-26T18:04:56Z",
+  "generated": "2026-08-25T18:45:42Z",
+  "since": "2026-07-26T18:45:06Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-25T15:18:55Z",
-      "pushed_at": "2026-08-25T15:06:31Z",
+      "updated_at": "2026-08-25T18:13:32Z",
+      "pushed_at": "2026-08-25T18:05:37Z",
       "recent_commits": [
+        {
+          "sha": "a65497a",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-25T18:05:33Z)",
+          "author": "daeguru",
+          "date": "2026-08-25T18:05:34Z"
+        },
         {
           "sha": "acf33b3",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-25T15:06:26Z)",
@@ -85,12 +91,6 @@
           "message": "dac-133-diagram: two hearts timeline (issue->109s wake->output->sleep->human merge)",
           "author": "sfex11",
           "date": "2026-08-25T11:11:19Z"
-        },
-        {
-          "sha": "8e0bc84",
-          "message": "dashboard: update github activity 2026-08-25",
-          "author": "daeguru",
-          "date": "2026-08-25T09:46:02Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-25T18:05:33Z)",
+      "sha": "a65497a",
+      "date": "2026-08-25T18:05:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a65497afea6118bedf04cc4ba84b396610517d6b"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #134: 계정 상속 repo의 author 3중 주체 — 식별자 분류 후 판별 (DAC 스튜디오 리포트 134회차)",
@@ -651,15 +660,6 @@
       "sha": "2dfe2d2",
       "date": "2026-08-25T11:11:19Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2dfe2d24ade06926a69ceb6ace910a47c3457368"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update github activity 2026-08-25",
-      "sha": "8e0bc84",
-      "date": "2026-08-25T09:46:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8e0bc841a8860c44f95aed6b552102ff369573f4"
     },
     {
       "type": "commit",
