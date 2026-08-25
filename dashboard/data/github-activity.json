@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T06:47:29Z",
-  "since": "2026-07-26T06:46:51Z",
+  "generated": "2026-08-25T09:09:29Z",
+  "since": "2026-07-26T09:08:31Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-25T06:08:02Z",
-      "pushed_at": "2026-08-25T06:07:08Z",
+      "updated_at": "2026-08-25T06:49:56Z",
+      "pushed_at": "2026-08-25T06:47:47Z",
       "recent_commits": [
+        {
+          "sha": "e072c72",
+          "message": "dashboard: refresh github-activity 2026-08-25",
+          "author": "daeguru",
+          "date": "2026-08-25T06:47:46Z"
+        },
         {
           "sha": "442d836",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-25T06:07:05Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-25T03:08:00Z)",
           "author": "daeguru",
           "date": "2026-08-25T03:08:00Z"
-        },
-        {
-          "sha": "fed6714",
-          "message": "chore: update github-activity data",
-          "author": "daeguru",
-          "date": "2026-08-25T00:45:35Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-25T05:12:55Z",
-      "pushed_at": "2026-08-25T05:12:39Z",
+      "updated_at": "2026-08-25T06:48:54Z",
+      "pushed_at": "2026-08-25T06:47:40Z",
       "recent_commits": [
+        {
+          "sha": "ab10809",
+          "message": "dashboard: regenerate 2026-08-25",
+          "author": "daeguru",
+          "date": "2026-08-25T06:47:39Z"
+        },
         {
           "sha": "0032de8",
           "message": "교훈 #132: 각성 채널은 좁다 — 도달 실측 지도부터 (스튜디오 리포트 #132)",
@@ -494,12 +500,6 @@
           "message": "wiki 갱신 (자동)",
           "author": "daeguru",
           "date": "2026-08-24T15:45:45Z"
-        },
-        {
-          "sha": "0d12025",
-          "message": "chore: regenerate wiki + dashboard",
-          "author": "daeguru",
-          "date": "2026-08-24T12:46:37Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "dashboard: refresh github-activity 2026-08-25",
+      "sha": "e072c72",
+      "date": "2026-08-25T06:47:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e072c7255b14b2069d869ae021602220d0879932"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "dashboard: regenerate 2026-08-25",
+      "sha": "ab10809",
+      "date": "2026-08-25T06:47:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ab108092c4396c5268fb6e83f1a0dd47c472f589"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-25T06:07:05Z)",
       "sha": "442d836",
       "date": "2026-08-25T06:07:05Z",
@@ -642,15 +660,6 @@
       "sha": "62f399b",
       "date": "2026-08-25T03:08:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/62f399b3bce2dbd88eff42e69a57a5b2e9a3a39f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update github-activity data",
-      "sha": "fed6714",
-      "date": "2026-08-25T00:45:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fed6714c44c2935c82efc01c3ef9825e6a5bc194"
     },
     {
       "type": "pr",
@@ -697,15 +706,6 @@
       "sha": "d52f2dc",
       "date": "2026-08-24T15:45:45Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d52f2dc701e3f4b8815ab9678bf9c73f0d979713"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "chore: regenerate wiki + dashboard",
-      "sha": "0d12025",
-      "date": "2026-08-24T12:46:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0d12025bd794f71892373e97b0f368cb3b93aa2d"
     },
     {
       "type": "commit",
