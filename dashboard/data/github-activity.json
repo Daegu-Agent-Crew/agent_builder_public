@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26T09:06:32Z",
-  "since": "2026-07-27T09:05:02Z",
+  "generated": "2026-08-26T09:47:03Z",
+  "since": "2026-07-27T09:46:16Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-26T06:50:15Z",
-      "pushed_at": "2026-08-26T06:46:03Z",
+      "updated_at": "2026-08-26T09:10:58Z",
+      "pushed_at": "2026-08-26T09:06:36Z",
       "recent_commits": [
+        {
+          "sha": "5e2e923",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-26T09:06:32Z)",
+          "author": "daeguru",
+          "date": "2026-08-26T09:06:33Z"
+        },
         {
           "sha": "1a45e1c",
           "message": "chore(dashboard): regenerate dashboard.json & github-activity.json",
@@ -85,12 +91,6 @@
           "message": "dashboard data update 2026-08-26 12:45",
           "author": "daeguru",
           "date": "2026-08-26T03:45:57Z"
-        },
-        {
-          "sha": "19614b6",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-26T03:06:19Z)",
-          "author": "daeguru",
-          "date": "2026-08-26T03:06:19Z"
         }
       ],
       "recent_prs": [
@@ -470,7 +470,38 @@
       "open_prs": 2,
       "updated_at": "2026-08-26T05:05:32Z",
       "pushed_at": "2026-08-26T05:05:12Z",
-      "recent_commits": [],
+      "recent_commits": [
+        {
+          "sha": "418493b",
+          "message": "교훈 #136: 산출물 자체 서명이 식별자 모호성을 예방한다 (28a863459 대구루 사례)",
+          "author": "sfex11",
+          "date": "2026-08-26T05:05:12Z"
+        },
+        {
+          "sha": "28a8634",
+          "message": "Add graph-engineering video summary record (AI Jason)",
+          "author": "sfex11",
+          "date": "2026-08-26T00:54:48Z"
+        },
+        {
+          "sha": "2442f98",
+          "message": "교훈 #135: 지속성의 최소 단위는 예약된 시간표",
+          "author": "sfex11",
+          "date": "2026-08-25T23:03:36Z"
+        },
+        {
+          "sha": "fa390e3",
+          "message": "교훈 #134: 계정 상속 repo의 author 3중 주체 — 식별자 분류 후 판별 (DAC 스튜디오 리포트 134회차)",
+          "author": "sfex11",
+          "date": "2026-08-25T17:12:42Z"
+        },
+        {
+          "sha": "daf2896",
+          "message": "lesson #133: pushed_at is a signal, author is the reality (DAC 133)",
+          "author": "sfex11",
+          "date": "2026-08-25T11:13:07Z"
+        }
+      ],
       "recent_prs": [
         {
           "number": 14,
@@ -571,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-26T09:06:32Z)",
+      "sha": "5e2e923",
+      "date": "2026-08-26T09:06:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5e2e923b0f4f44f0aa3f2b19639eeb4d620a794e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): regenerate dashboard.json & github-activity.json",
       "sha": "1a45e1c",
       "date": "2026-08-26T06:46:01Z",
@@ -605,6 +645,15 @@
     },
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #136: 산출물 자체 서명이 식별자 모호성을 예방한다 (28a863459 대구루 사례)",
+      "sha": "418493b",
+      "date": "2026-08-26T05:05:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/418493b7ede263071f7104b6987449a148255409"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard data update 2026-08-26 12:45",
@@ -614,12 +663,39 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-26T03:06:19Z)",
-      "sha": "19614b6",
-      "date": "2026-08-26T03:06:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/19614b668bd3407894ad97c8d5dd1b717fa56692"
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add graph-engineering video summary record (AI Jason)",
+      "sha": "28a8634",
+      "date": "2026-08-26T00:54:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/28a863459e65764e261fac42bea05d9fdc960de6"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #135: 지속성의 최소 단위는 예약된 시간표",
+      "sha": "2442f98",
+      "date": "2026-08-25T23:03:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2442f98767421b72d646cccaa30d6f5331e3554e"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #134: 계정 상속 repo의 author 3중 주체 — 식별자 분류 후 판별 (DAC 스튜디오 리포트 134회차)",
+      "sha": "fa390e3",
+      "date": "2026-08-25T17:12:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fa390e372fd25db28716719e2c0abc64888d2465"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #133: pushed_at is a signal, author is the reality (DAC 133)",
+      "sha": "daf2896",
+      "date": "2026-08-25T11:13:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/daf289611e0cc7f88490b2f2c54b15a43f8e767e"
     },
     {
       "type": "pr",
@@ -988,57 +1064,12 @@
       "sha": "0a79063",
       "date": "2026-06-10T14:03:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/0a79063dbe3117c12756f9374ff44437032bad02"
-    },
-    {
-      "type": "commit",
-      "repo": "context-tree",
-      "author": "fluentt-dev",
-      "message": "Register source repos: team-memory-kit, election2663-archive-public, agent_builder_public",
-      "sha": "8714463",
-      "date": "2026-06-09T08:44:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/context-tree/commit/8714463c551959b8526533cd5b6e3055f88f26c6"
-    },
-    {
-      "type": "commit",
-      "repo": "context-tree",
-      "author": "fluentt-dev",
-      "message": "Publish tree URL in AGENTS.md identity block",
-      "sha": "d194d55",
-      "date": "2026-06-09T08:42:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/context-tree/commit/d194d558f2bb10005bf64c7da9d3f49207bbd1e4"
-    },
-    {
-      "type": "commit",
-      "repo": "context-tree",
-      "author": "fluentt-dev",
-      "message": "Bootstrap context-tree (shared, first-tree v0.4.0-alpha.1)",
-      "sha": "0597c52",
-      "date": "2026-06-09T08:41:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/context-tree/commit/0597c52e09f42430044ca13a37b113b87e1df719"
-    },
-    {
-      "type": "commit",
-      "repo": "election2663-archive-public",
-      "author": "agent",
-      "message": "5/31 Day 7 보고: 사전투표 최종 결과, 블랙아웃 전 최종 여론조사 종합, wiki 동기화",
-      "sha": "3379d2a",
-      "date": "2026-05-31T01:52:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/election2663-archive-public/commit/3379d2a1be64c7ad3206713a159fde48027f3ee0"
-    },
-    {
-      "type": "commit",
-      "repo": "election2663-archive",
-      "author": "agent",
-      "message": "5/31 D-3 수집: 사전투표 최종 결과, 블랙아웃 전 최종 여론조사, 막판 판세 분석",
-      "sha": "1fdea1d",
-      "date": "2026-05-31T01:51:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/election2663-archive/commit/1fdea1d42966119b5303fec3a9049fa9ca511630"
     }
   ],
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
