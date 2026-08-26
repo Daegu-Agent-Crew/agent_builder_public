@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26T06:06:52Z",
-  "since": "2026-07-27T06:05:50Z",
+  "generated": "2026-08-26T06:45:49Z",
+  "since": "2026-07-27T06:45:13Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-26T05:15:28Z",
-      "pushed_at": "2026-08-26T05:14:50Z",
+      "updated_at": "2026-08-26T06:07:35Z",
+      "pushed_at": "2026-08-26T06:06:56Z",
       "recent_commits": [
+        {
+          "sha": "559bbbc",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-26T06:06:52Z)",
+          "author": "daeguru",
+          "date": "2026-08-26T06:06:52Z"
+        },
         {
           "sha": "a3dcaa6",
           "message": "add dac-136-diagram (제어 그래프형 할 일 카드 — 원샷 vs 반복)",
@@ -85,12 +91,6 @@
           "message": "chore: update youtube dashboard data",
           "author": "daeguru",
           "date": "2026-08-26T00:54:57Z"
-        },
-        {
-          "sha": "2ee7caf",
-          "message": "dashboard.json 및 github-activity.json 갱신",
-          "author": "daeguru",
-          "date": "2026-08-26T00:45:40Z"
         }
       ],
       "recent_prs": [
@@ -601,6 +601,15 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-26T06:06:52Z)",
+      "sha": "559bbbc",
+      "date": "2026-08-26T06:06:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/559bbbcec326c16bdb26f468af28ebfa552d2ec4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "sfex11",
       "message": "add dac-136-diagram (제어 그래프형 할 일 카드 — 원샷 vs 반복)",
       "sha": "a3dcaa6",
@@ -660,15 +669,6 @@
       "sha": "28a8634",
       "date": "2026-08-26T00:54:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/28a863459e65764e261fac42bea05d9fdc960de6"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard.json 및 github-activity.json 갱신",
-      "sha": "2ee7caf",
-      "date": "2026-08-26T00:45:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2ee7caf8dd2c9ff3fbf47be55160fd2f0f377f0d"
     },
     {
       "type": "commit",
