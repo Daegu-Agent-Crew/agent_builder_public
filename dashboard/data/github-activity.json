@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26T12:08:18Z",
-  "since": "2026-07-27T12:07:14Z",
+  "generated": "2026-08-26T12:46:06Z",
+  "since": "2026-07-27T12:45:26Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-26T09:50:21Z",
-      "pushed_at": "2026-08-26T09:47:16Z",
+      "updated_at": "2026-08-26T12:11:33Z",
+      "pushed_at": "2026-08-26T12:08:21Z",
       "recent_commits": [
+        {
+          "sha": "c675a2b",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-26T12:08:18Z)",
+          "author": "daeguru",
+          "date": "2026-08-26T12:08:19Z"
+        },
         {
           "sha": "e31a359",
           "message": "chore(dashboard): regenerate dashboard.json & github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-26T06:06:52Z)",
           "author": "daeguru",
           "date": "2026-08-26T06:06:52Z"
-        },
-        {
-          "sha": "a3dcaa6",
-          "message": "add dac-136-diagram (제어 그래프형 할 일 카드 — 원샷 vs 반복)",
-          "author": "sfex11",
-          "date": "2026-08-26T05:14:49Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-26T12:08:18Z)",
+      "sha": "c675a2b",
+      "date": "2026-08-26T12:08:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c675a2b1f06bd8b9c565779142614ba6f9ad289e"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #137: 대기열 파일이 원샷을 깬다 (뉴스 라인 3차 산출 실증)",
@@ -642,15 +651,6 @@
       "sha": "559bbbc",
       "date": "2026-08-26T06:06:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/559bbbcec326c16bdb26f468af28ebfa552d2ec4"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "add dac-136-diagram (제어 그래프형 할 일 카드 — 원샷 vs 반복)",
-      "sha": "a3dcaa6",
-      "date": "2026-08-26T05:14:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a3dcaa68814533323804d4163d6afd2ada1a882b"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 20,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
