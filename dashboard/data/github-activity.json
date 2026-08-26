@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-26T03:45:48Z",
-  "since": "2026-07-27T03:45:14Z",
+  "generated": "2026-08-26T06:06:52Z",
+  "since": "2026-07-27T06:05:50Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 261,
+      "open_issues": 262,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-26T03:06:46Z",
-      "pushed_at": "2026-08-26T03:06:22Z",
+      "updated_at": "2026-08-26T05:15:28Z",
+      "pushed_at": "2026-08-26T05:14:50Z",
       "recent_commits": [
+        {
+          "sha": "a3dcaa6",
+          "message": "add dac-136-diagram (제어 그래프형 할 일 카드 — 원샷 vs 반복)",
+          "author": "sfex11",
+          "date": "2026-08-26T05:14:49Z"
+        },
+        {
+          "sha": "4bf3784",
+          "message": "dashboard data update 2026-08-26 12:45",
+          "author": "daeguru",
+          "date": "2026-08-26T03:45:57Z"
+        },
         {
           "sha": "19614b6",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-26T03:06:19Z)",
@@ -79,18 +91,6 @@
           "message": "dashboard.json 및 github-activity.json 갱신",
           "author": "daeguru",
           "date": "2026-08-26T00:45:40Z"
-        },
-        {
-          "sha": "5e25a9b",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-26T00:05:48Z)",
-          "author": "daeguru",
-          "date": "2026-08-26T00:05:48Z"
-        },
-        {
-          "sha": "2fae0e6",
-          "message": "add dac-135-diagram (이름 뒤의 세 손 — 식별자 3중 주체)",
-          "author": "sfex11",
-          "date": "2026-08-25T23:03:32Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,21 @@
       "private": false,
       "open_issues": 2,
       "open_prs": 0,
-      "updated_at": "2026-08-23T21:19:21Z",
-      "pushed_at": "2026-08-23T21:18:53Z",
+      "updated_at": "2026-08-26T05:10:37Z",
+      "pushed_at": "2026-08-26T05:10:08Z",
       "recent_commits": [
+        {
+          "sha": "3a4df2b",
+          "message": "📚 2026-08-26: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-08-26T05:09:23Z"
+        },
+        {
+          "sha": "b018195",
+          "message": "📰 2026-08-24: AI 뉴스 수집 (4건)",
+          "author": "Renover",
+          "date": "2026-08-24T23:15:00Z"
+        },
         {
           "sha": "e5c1755",
           "message": "🔍 2026-08-24: 위키 린트 점검 — 깨진 내부 앵커 9패턴(17곳) 수정",
@@ -146,18 +158,6 @@
           "message": "📰 2026-08-24: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-08-23T21:04:47Z"
-        },
-        {
-          "sha": "c362025",
-          "message": "📚 2026-08-20: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-08-20T05:14:03Z"
-        },
-        {
-          "sha": "36a8f03",
-          "message": "📰 2026-08-20: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-08-19T23:11:52Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-26T00:55:01Z",
-      "pushed_at": "2026-08-26T00:54:48Z",
+      "updated_at": "2026-08-26T05:05:32Z",
+      "pushed_at": "2026-08-26T05:05:12Z",
       "recent_commits": [
+        {
+          "sha": "418493b",
+          "message": "교훈 #136: 산출물 자체 서명이 식별자 모호성을 예방한다 (28a863459 대구루 사례)",
+          "author": "sfex11",
+          "date": "2026-08-26T05:05:12Z"
+        },
         {
           "sha": "28a8634",
           "message": "Add graph-engineering video summary record (AI Jason)",
@@ -494,12 +500,6 @@
           "message": "lesson #133: pushed_at is a signal, author is the reality (DAC 133)",
           "author": "sfex11",
           "date": "2026-08-25T11:13:07Z"
-        },
-        {
-          "sha": "ab10809",
-          "message": "dashboard: regenerate 2026-08-25",
-          "author": "daeguru",
-          "date": "2026-08-25T06:47:39Z"
         }
       ],
       "recent_prs": [
@@ -601,6 +601,42 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "add dac-136-diagram (제어 그래프형 할 일 카드 — 원샷 vs 반복)",
+      "sha": "a3dcaa6",
+      "date": "2026-08-26T05:14:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a3dcaa68814533323804d4163d6afd2ada1a882b"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-08-26: 위키 갱신 (2개)",
+      "sha": "3a4df2b",
+      "date": "2026-08-26T05:09:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3a4df2b6a9ef0a1098556130be1dec193a725bbc"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #136: 산출물 자체 서명이 식별자 모호성을 예방한다 (28a863459 대구루 사례)",
+      "sha": "418493b",
+      "date": "2026-08-26T05:05:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/418493b7ede263071f7104b6987449a148255409"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard data update 2026-08-26 12:45",
+      "sha": "4bf3784",
+      "date": "2026-08-26T03:45:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4bf378461a3f517999675b8351761f88cf467529"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-26T03:06:19Z)",
       "sha": "19614b6",
@@ -636,30 +672,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-26T00:05:48Z)",
-      "sha": "5e25a9b",
-      "date": "2026-08-26T00:05:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5e25a9b6b172d0412edb469bf04de29a2f3681ab"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #135: 지속성의 최소 단위는 예약된 시간표",
       "sha": "2442f98",
       "date": "2026-08-25T23:03:36Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2442f98767421b72d646cccaa30d6f5331e3554e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "add dac-135-diagram (이름 뒤의 세 손 — 식별자 3중 주체)",
-      "sha": "2fae0e6",
-      "date": "2026-08-25T23:03:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2fae0e60f2298b272b9860f981549ec6a91597d7"
     },
     {
       "type": "commit",
@@ -680,15 +698,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/daf289611e0cc7f88490b2f2c54b15a43f8e767e"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "dashboard: regenerate 2026-08-25",
-      "sha": "ab10809",
-      "date": "2026-08-25T06:47:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ab108092c4396c5268fb6e83f1a0dd47c472f589"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -706,6 +715,15 @@
       "sha": "ee66cb0",
       "date": "2026-08-25T00:13:51Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/ee66cb06929dfa2d68c50307b8874e88d5a546ec"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-24: AI 뉴스 수집 (4건)",
+      "sha": "b018195",
+      "date": "2026-08-24T23:15:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b01819539ddfd899aff82a4cec2d3b9a2063e5c6"
     },
     {
       "type": "commit",
@@ -742,24 +760,6 @@
       "sha": "fa1c36f",
       "date": "2026-08-23T21:04:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/fa1c36f75d6238cfc5d96179e9432c90940586d4"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-08-20: 위키 갱신 (2개)",
-      "sha": "c362025",
-      "date": "2026-08-20T05:14:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c36202528b59b917ceccc80aff6f58f213da1773"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-08-20: 뉴스 수집 (5건)",
-      "sha": "36a8f03",
-      "date": "2026-08-19T23:11:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/36a8f03759c7fcd6f05c7c2cbf9ec94605325edd"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
