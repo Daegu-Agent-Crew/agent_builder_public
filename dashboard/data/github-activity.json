@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26T00:45:33Z",
-  "since": "2026-07-27T00:45:00Z",
+  "generated": "2026-08-26T03:06:19Z",
+  "since": "2026-07-27T03:05:33Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-26T00:06:22Z",
-      "pushed_at": "2026-08-26T00:05:50Z",
+      "updated_at": "2026-08-26T00:55:11Z",
+      "pushed_at": "2026-08-26T00:54:59Z",
       "recent_commits": [
+        {
+          "sha": "75226ef",
+          "message": "chore: update youtube dashboard data",
+          "author": "daeguru",
+          "date": "2026-08-26T00:54:57Z"
+        },
+        {
+          "sha": "2ee7caf",
+          "message": "dashboard.json 및 github-activity.json 갱신",
+          "author": "daeguru",
+          "date": "2026-08-26T00:45:40Z"
+        },
         {
           "sha": "5e25a9b",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-26T00:05:48Z)",
@@ -79,18 +91,6 @@
           "message": "chore: update github-activity data",
           "author": "daeguru",
           "date": "2026-08-25T21:45:30Z"
-        },
-        {
-          "sha": "cbc81c8",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-25T21:07:14Z)",
-          "author": "daeguru",
-          "date": "2026-08-25T21:07:14Z"
-        },
-        {
-          "sha": "bf60221",
-          "message": "dashboard: update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-08-25T18:45:52Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-25T23:05:38Z",
-      "pushed_at": "2026-08-25T23:03:36Z",
+      "updated_at": "2026-08-26T00:55:01Z",
+      "pushed_at": "2026-08-26T00:54:48Z",
       "recent_commits": [
+        {
+          "sha": "28a8634",
+          "message": "Add graph-engineering video summary record (AI Jason)",
+          "author": "sfex11",
+          "date": "2026-08-26T00:54:48Z"
+        },
         {
           "sha": "2442f98",
           "message": "교훈 #135: 지속성의 최소 단위는 예약된 시간표",
@@ -494,12 +500,6 @@
           "message": "dashboard: regenerate 2026-08-25",
           "author": "daeguru",
           "date": "2026-08-25T06:47:39Z"
-        },
-        {
-          "sha": "0032de8",
-          "message": "교훈 #132: 각성 채널은 좁다 — 도달 실측 지도부터 (스튜디오 리포트 #132)",
-          "author": "sfex11",
-          "date": "2026-08-25T05:12:39Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,33 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore: update youtube dashboard data",
+      "sha": "75226ef",
+      "date": "2026-08-26T00:54:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/75226ef77ae5d2c5219901cf40312449e26fb56b"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add graph-engineering video summary record (AI Jason)",
+      "sha": "28a8634",
+      "date": "2026-08-26T00:54:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/28a863459e65764e261fac42bea05d9fdc960de6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard.json 및 github-activity.json 갱신",
+      "sha": "2ee7caf",
+      "date": "2026-08-26T00:45:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2ee7caf8dd2c9ff3fbf47be55160fd2f0f377f0d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-26T00:05:48Z)",
       "sha": "5e25a9b",
       "date": "2026-08-26T00:05:48Z",
@@ -636,24 +663,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-25T21:07:14Z)",
-      "sha": "cbc81c8",
-      "date": "2026-08-25T21:07:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cbc81c8f779b6eb1457ce090000b6d8be97ab03e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json",
-      "sha": "bf60221",
-      "date": "2026-08-25T18:45:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bf602211d8aa16748b9e8515fc14cff6904cb6ae"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #134: 계정 상속 repo의 author 3중 주체 — 식별자 분류 후 판별 (DAC 스튜디오 리포트 134회차)",
@@ -678,15 +687,6 @@
       "sha": "ab10809",
       "date": "2026-08-25T06:47:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ab108092c4396c5268fb6e83f1a0dd47c472f589"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #132: 각성 채널은 좁다 — 도달 실측 지도부터 (스튜디오 리포트 #132)",
-      "sha": "0032de8",
-      "date": "2026-08-25T05:12:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0032de8f17fb3800352d64e5cf117c798056a94a"
     },
     {
       "type": "pr",
