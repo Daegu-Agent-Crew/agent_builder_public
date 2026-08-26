@@ -2,15 +2,16 @@
   "meta": {
     "version": 1,
     "generatedAt": "2026-08-11",
-    "totalVideos": 18,
-    "totalChannels": 13,
+    "totalVideos": 19,
+    "totalChannels": 14,
     "byType": {
-      "영상 요약": 10,
+      "영상 요약": 11,
       "담화 패턴 분석": 5,
       "기타": 2,
       "참가자 분석": 1
     },
     "byChannel": {
+      "AI Jason": 1,
       "Tech Bridge": 1,
       "미상": 5,
       "AgentOS": 2,
@@ -26,12 +27,30 @@
       "천영록": 1
     },
     "byMonth": {
-      "2026-08": 4,
+      "2026-08": 5,
       "2026-07": 11,
       "2026-06": 3
     }
   },
   "videos": [
+    {
+      "filename": "2026-08-26-graph-engineering-control-graph.md",
+      "title": "\"I don't prompt agents anymore...\"",
+      "videoUrl": "https://youtu.be/_9OT25ZvrWs",
+      "channel": "AI Jason",
+      "speaker": "",
+      "date": "2026-08-26",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "\"Graph Engineering\"이라는 유행어는 사실 **세 가지 전혀 다른 개념**(제어 그래프, 지식 그래프, 루프의 그래프)이 뒤섞인 것이다. 그중 실용 가치가 큰 것은 **제어 그래프(control graph)** — 반복 작업의 SOP를 노드·엣지·상태 구조로 정의해 에이전트의 신뢰성을 확보하는 것 — 이며, 이는 코드(LLangGraph·dynamic workflow) 없이도 **텍스트 SOP(스킬)만으로** 구현할 수 있다.",
+      "sections": [
+        "주요 내용",
+        "우리 팀(Daegu Agent Crew)에 반영할 인사이트"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-08-26-graph-engineering-control-graph.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/_9OT25ZvrWs/mqdefault.jpg"
+    },
     {
       "filename": "2026-08-19-demis-hassabis-cambridge-ai-lecture.md",
       "title": "[한영자막] 꼭 봐야할 데미스 하사비스의 60분 AI 강연",
