@@ -2,17 +2,18 @@
   "meta": {
     "version": 1,
     "generatedAt": "2026-08-11",
-    "totalVideos": 16,
-    "totalChannels": 12,
+    "totalVideos": 18,
+    "totalChannels": 13,
     "byType": {
-      "담화 패턴 분석": 4,
-      "영상 요약": 9,
+      "영상 요약": 10,
+      "담화 패턴 분석": 5,
       "기타": 2,
       "참가자 분석": 1
     },
     "byChannel": {
+      "Tech Bridge": 1,
+      "미상": 5,
       "AgentOS": 2,
-      "미상": 4,
       "Y Combinator": 1,
       "Google Cloud X Solana Hackathon (공식)": 1,
       "네이버 D2F 강남 (스토리브 구독)": 1,
@@ -25,12 +26,55 @@
       "천영록": 1
     },
     "byMonth": {
-      "2026-08": 2,
+      "2026-08": 4,
       "2026-07": 11,
       "2026-06": 3
     }
   },
   "videos": [
+    {
+      "filename": "2026-08-19-demis-hassabis-cambridge-ai-lecture.md",
+      "title": "[한영자막] 꼭 봐야할 데미스 하사비스의 60분 AI 강연",
+      "videoUrl": "https://youtu.be/naFkUqXw_Uw",
+      "channel": "Tech Bridge",
+      "speaker": "",
+      "date": "2026-08-19",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "\"1단계, 지능을 해결하라. 2단계, 그것으로 모든 것을 해결하라.\" — AI는 게임의 훈련장을 거쳐 AlphaFold로 과학 발견을 가속하는 도구가 됐으며, 딥러닝+강화학습 기반 학습 시스템이 전통 전문가 시스템을 대체해 \"디지털 속도로 하는 과학(digital biology)\" 시대를 열고 있다.",
+      "sections": [
+        "주요 내용",
+        "우리 팀(Daegu Agent Crew)에 반영할 인사이트",
+        "원문 링크"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-08-19-demis-hassabis-cambridge-ai-lecture.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/naFkUqXw_Uw/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-08-19-demis-hassabis-discourse-analysis.md",
+      "title": "데미스 허사비스",
+      "videoUrl": "https://youtu.be/naFkUqXw_Uw",
+      "channel": "",
+      "speaker": "",
+      "date": "2026-08-19",
+      "summarizer": "",
+      "type": "담화 패턴 분석",
+      "coreMessage": "",
+      "sections": [
+        "패턴 1: 역사적 맥락화 (기존: C-01)",
+        "패턴 2: 유추적 정당화 (기존: C-07)",
+        "패턴 3: 메타 방법론 추상화 (기존: C-12)",
+        "패턴 4: 도메인 간 브리지 (기존: C-13)",
+        "패턴 5: 루트 노드 문제 선택 (신규 후보: C-16)",
+        "패턴 6: 정량 임계값 진행 판정 (신규 후보: C-17)",
+        "패턴 7: 외부 판정 위임 (신규 후보: R-10)",
+        "패턴 8: 추측/확증 구분 인식론 (신규 후보: V-11)"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-08-19-demis-hassabis-discourse-analysis.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/naFkUqXw_Uw/mqdefault.jpg"
+    },
     {
       "filename": "2026-08-19-notion-engineer-discourse-analysis.md",
       "title": "Notion 엔지니어 담화 패턴 분석 — \"진짜 병목은 리뷰가 아니다\"",
