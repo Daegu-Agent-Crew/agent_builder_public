@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-26T09:47:03Z",
-  "since": "2026-07-27T09:46:16Z",
+  "generated": "2026-08-26T12:08:18Z",
+  "since": "2026-07-27T12:07:14Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 262,
+      "open_issues": 263,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-26T09:10:58Z",
-      "pushed_at": "2026-08-26T09:06:36Z",
+      "updated_at": "2026-08-26T09:50:21Z",
+      "pushed_at": "2026-08-26T09:47:16Z",
       "recent_commits": [
+        {
+          "sha": "e31a359",
+          "message": "chore(dashboard): regenerate dashboard.json & github-activity.json",
+          "author": "daeguru",
+          "date": "2026-08-26T09:47:14Z"
+        },
         {
           "sha": "5e2e923",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-26T09:06:32Z)",
@@ -85,12 +91,6 @@
           "message": "add dac-136-diagram (제어 그래프형 할 일 카드 — 원샷 vs 반복)",
           "author": "sfex11",
           "date": "2026-08-26T05:14:49Z"
-        },
-        {
-          "sha": "4bf3784",
-          "message": "dashboard data update 2026-08-26 12:45",
-          "author": "daeguru",
-          "date": "2026-08-26T03:45:57Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-26T05:05:32Z",
-      "pushed_at": "2026-08-26T05:05:12Z",
+      "updated_at": "2026-08-26T11:07:22Z",
+      "pushed_at": "2026-08-26T11:06:48Z",
       "recent_commits": [
+        {
+          "sha": "c733df4",
+          "message": "교훈 #137: 대기열 파일이 원샷을 깬다 (뉴스 라인 3차 산출 실증)",
+          "author": "sfex11",
+          "date": "2026-08-26T11:06:48Z"
+        },
         {
           "sha": "418493b",
           "message": "교훈 #136: 산출물 자체 서명이 식별자 모호성을 예방한다 (28a863459 대구루 사례)",
@@ -494,12 +500,6 @@
           "message": "교훈 #134: 계정 상속 repo의 author 3중 주체 — 식별자 분류 후 판별 (DAC 스튜디오 리포트 134회차)",
           "author": "sfex11",
           "date": "2026-08-25T17:12:42Z"
-        },
-        {
-          "sha": "daf2896",
-          "message": "lesson #133: pushed_at is a signal, author is the reality (DAC 133)",
-          "author": "sfex11",
-          "date": "2026-08-25T11:13:07Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #137: 대기열 파일이 원샷을 깬다 (뉴스 라인 3차 산출 실증)",
+      "sha": "c733df4",
+      "date": "2026-08-26T11:06:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c733df49f206b5b38abdf3471121197960a3ff40"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): regenerate dashboard.json & github-activity.json",
+      "sha": "e31a359",
+      "date": "2026-08-26T09:47:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e31a3590ea720bcdac94d8d59e8f7c1919ed2c57"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-26T09:06:32Z)",
@@ -654,15 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard data update 2026-08-26 12:45",
-      "sha": "4bf3784",
-      "date": "2026-08-26T03:45:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4bf378461a3f517999675b8351761f88cf467529"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add graph-engineering video summary record (AI Jason)",
@@ -687,15 +696,6 @@
       "sha": "fa390e3",
       "date": "2026-08-25T17:12:42Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fa390e372fd25db28716719e2c0abc64888d2465"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #133: pushed_at is a signal, author is the reality (DAC 133)",
-      "sha": "daf2896",
-      "date": "2026-08-25T11:13:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/daf289611e0cc7f88490b2f2c54b15a43f8e767e"
     },
     {
       "type": "pr",
