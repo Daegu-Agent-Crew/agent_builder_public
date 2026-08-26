@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26T03:06:19Z",
-  "since": "2026-07-27T03:05:33Z",
+  "generated": "2026-08-26T03:45:48Z",
+  "since": "2026-07-27T03:45:14Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-26T00:55:11Z",
-      "pushed_at": "2026-08-26T00:54:59Z",
+      "updated_at": "2026-08-26T03:06:46Z",
+      "pushed_at": "2026-08-26T03:06:22Z",
       "recent_commits": [
+        {
+          "sha": "19614b6",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-26T03:06:19Z)",
+          "author": "daeguru",
+          "date": "2026-08-26T03:06:19Z"
+        },
         {
           "sha": "75226ef",
           "message": "chore: update youtube dashboard data",
@@ -85,12 +91,6 @@
           "message": "add dac-135-diagram (이름 뒤의 세 손 — 식별자 3중 주체)",
           "author": "sfex11",
           "date": "2026-08-25T23:03:32Z"
-        },
-        {
-          "sha": "fe96d8e",
-          "message": "chore: update github-activity data",
-          "author": "daeguru",
-          "date": "2026-08-25T21:45:30Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-26T03:06:19Z)",
+      "sha": "19614b6",
+      "date": "2026-08-26T03:06:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/19614b668bd3407894ad97c8d5dd1b717fa56692"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore: update youtube dashboard data",
       "sha": "75226ef",
       "date": "2026-08-26T00:54:57Z",
@@ -651,15 +660,6 @@
       "sha": "2fae0e6",
       "date": "2026-08-25T23:03:32Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2fae0e60f2298b272b9860f981549ec6a91597d7"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update github-activity data",
-      "sha": "fe96d8e",
-      "date": "2026-08-25T21:45:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fe96d8e70d5f561211a54abbbb7ced5b06f5545a"
     },
     {
       "type": "commit",
