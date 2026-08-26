@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-26T15:45:39Z",
-  "since": "2026-07-27T15:45:07Z",
+  "generated": "2026-08-26T18:05:34Z",
+  "since": "2026-07-27T18:04:55Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 263,
+      "open_issues": 264,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-26T15:26:49Z",
-      "pushed_at": "2026-08-26T15:06:28Z",
+      "updated_at": "2026-08-26T15:54:56Z",
+      "pushed_at": "2026-08-26T15:45:54Z",
       "recent_commits": [
+        {
+          "sha": "f5b2fb2",
+          "message": "dashboard: update data",
+          "author": "daeguru",
+          "date": "2026-08-26T15:45:52Z"
+        },
         {
           "sha": "8598854",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-26T15:06:25Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): regenerate dashboard.json & github-activity.json",
           "author": "daeguru",
           "date": "2026-08-26T09:47:14Z"
-        },
-        {
-          "sha": "5e2e923",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-26T09:06:32Z)",
-          "author": "daeguru",
-          "date": "2026-08-26T09:06:33Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,21 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-26T11:07:22Z",
-      "pushed_at": "2026-08-26T11:06:48Z",
+      "updated_at": "2026-08-26T17:09:16Z",
+      "pushed_at": "2026-08-26T17:07:00Z",
       "recent_commits": [
+        {
+          "sha": "8c82978",
+          "message": "교훈 #138: verify 제외 조건 명시로 자기참조 오염 사전 차단 (P136-2 void → P133-3 정상 판정)",
+          "author": "sfex11",
+          "date": "2026-08-26T17:07:00Z"
+        },
+        {
+          "sha": "64e775c",
+          "message": "dashboard: regenerate data",
+          "author": "daeguru",
+          "date": "2026-08-26T15:45:50Z"
+        },
         {
           "sha": "c733df4",
           "message": "교훈 #137: 대기열 파일이 원샷을 깬다 (뉴스 라인 3차 산출 실증)",
@@ -488,18 +500,6 @@
           "message": "Add graph-engineering video summary record (AI Jason)",
           "author": "sfex11",
           "date": "2026-08-26T00:54:48Z"
-        },
-        {
-          "sha": "2442f98",
-          "message": "교훈 #135: 지속성의 최소 단위는 예약된 시간표",
-          "author": "sfex11",
-          "date": "2026-08-25T23:03:36Z"
-        },
-        {
-          "sha": "fa390e3",
-          "message": "교훈 #134: 계정 상속 repo의 author 3중 주체 — 식별자 분류 후 판별 (DAC 스튜디오 리포트 134회차)",
-          "author": "sfex11",
-          "date": "2026-08-25T17:12:42Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #138: verify 제외 조건 명시로 자기참조 오염 사전 차단 (P136-2 void → P133-3 정상 판정)",
+      "sha": "8c82978",
+      "date": "2026-08-26T17:07:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8c829788f4a8e0e34daedd71237d87595e6dc322"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update data",
+      "sha": "f5b2fb2",
+      "date": "2026-08-26T15:45:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f5b2fb26b8e1f193b2308b9a9228c29867659286"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "dashboard: regenerate data",
+      "sha": "64e775c",
+      "date": "2026-08-26T15:45:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/64e775c68952bb21f8c381fc0203a8425894f35d"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-26T15:06:25Z)",
@@ -645,15 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-26T09:06:32Z)",
-      "sha": "5e2e923",
-      "date": "2026-08-26T09:06:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5e2e923b0f4f44f0aa3f2b19639eeb4d620a794e"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-08-26: 위키 갱신 (2개)",
@@ -678,24 +696,6 @@
       "sha": "28a8634",
       "date": "2026-08-26T00:54:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/28a863459e65764e261fac42bea05d9fdc960de6"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #135: 지속성의 최소 단위는 예약된 시간표",
-      "sha": "2442f98",
-      "date": "2026-08-25T23:03:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2442f98767421b72d646cccaa30d6f5331e3554e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #134: 계정 상속 repo의 author 3중 주체 — 식별자 분류 후 판별 (DAC 스튜디오 리포트 134회차)",
-      "sha": "fa390e3",
-      "date": "2026-08-25T17:12:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fa390e372fd25db28716719e2c0abc64888d2465"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 19,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
