@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-25T21:45:26Z",
-  "since": "2026-07-26T21:44:52Z",
+  "generated": "2026-08-26T00:05:48Z",
+  "since": "2026-07-27T00:05:03Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 260,
+      "open_issues": 261,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-25T21:08:11Z",
-      "pushed_at": "2026-08-25T21:07:17Z",
+      "updated_at": "2026-08-25T23:03:54Z",
+      "pushed_at": "2026-08-25T23:03:33Z",
       "recent_commits": [
+        {
+          "sha": "2fae0e6",
+          "message": "add dac-135-diagram (이름 뒤의 세 손 — 식별자 3중 주체)",
+          "author": "sfex11",
+          "date": "2026-08-25T23:03:32Z"
+        },
+        {
+          "sha": "fe96d8e",
+          "message": "chore: update github-activity data",
+          "author": "daeguru",
+          "date": "2026-08-25T21:45:30Z"
+        },
         {
           "sha": "cbc81c8",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-25T21:07:14Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-25T18:05:33Z)",
           "author": "daeguru",
           "date": "2026-08-25T18:05:34Z"
-        },
-        {
-          "sha": "acf33b3",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-25T15:06:26Z)",
-          "author": "daeguru",
-          "date": "2026-08-25T15:06:26Z"
-        },
-        {
-          "sha": "288e293",
-          "message": "dashboard: update data (cron)",
-          "author": "daeguru",
-          "date": "2026-08-25T12:45:59Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-25T17:19:52Z",
-      "pushed_at": "2026-08-25T17:12:42Z",
+      "updated_at": "2026-08-25T23:05:38Z",
+      "pushed_at": "2026-08-25T23:03:36Z",
       "recent_commits": [
+        {
+          "sha": "2442f98",
+          "message": "교훈 #135: 지속성의 최소 단위는 예약된 시간표",
+          "author": "sfex11",
+          "date": "2026-08-25T23:03:36Z"
+        },
         {
           "sha": "fa390e3",
           "message": "교훈 #134: 계정 상속 repo의 author 3중 주체 — 식별자 분류 후 판별 (DAC 스튜디오 리포트 134회차)",
@@ -494,12 +500,6 @@
           "message": "교훈 #132: 각성 채널은 좁다 — 도달 실측 지도부터 (스튜디오 리포트 #132)",
           "author": "sfex11",
           "date": "2026-08-25T05:12:39Z"
-        },
-        {
-          "sha": "dd3647e",
-          "message": "lesson #131: 트리거 기상도 원샷 — 각성 시 할 일 카드 (DAC 131회차)",
-          "author": "sfex11",
-          "date": "2026-08-24T23:12:48Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #135: 지속성의 최소 단위는 예약된 시간표",
+      "sha": "2442f98",
+      "date": "2026-08-25T23:03:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2442f98767421b72d646cccaa30d6f5331e3554e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "add dac-135-diagram (이름 뒤의 세 손 — 식별자 3중 주체)",
+      "sha": "2fae0e6",
+      "date": "2026-08-25T23:03:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2fae0e60f2298b272b9860f981549ec6a91597d7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update github-activity data",
+      "sha": "fe96d8e",
+      "date": "2026-08-25T21:45:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fe96d8e70d5f561211a54abbbb7ced5b06f5545a"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-25T21:07:14Z)",
@@ -633,24 +660,6 @@
       "sha": "fa390e3",
       "date": "2026-08-25T17:12:42Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fa390e372fd25db28716719e2c0abc64888d2465"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-25T15:06:26Z)",
-      "sha": "acf33b3",
-      "date": "2026-08-25T15:06:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/acf33b3715a5f25afc926d61621aa84706295460"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update data (cron)",
-      "sha": "288e293",
-      "date": "2026-08-25T12:45:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/288e293c0ffc052e9f9db66d7cf694a13a3f62e7"
     },
     {
       "type": "commit",
@@ -697,15 +706,6 @@
       "sha": "ee66cb0",
       "date": "2026-08-25T00:13:51Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/ee66cb06929dfa2d68c50307b8874e88d5a546ec"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #131: 트리거 기상도 원샷 — 각성 시 할 일 카드 (DAC 131회차)",
-      "sha": "dd3647e",
-      "date": "2026-08-24T23:12:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/dd3647e66a09d9c3b1354fa7ed261cda60d14d1e"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 20,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
