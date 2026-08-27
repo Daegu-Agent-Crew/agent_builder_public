@@ -2,16 +2,16 @@
   "meta": {
     "version": 1,
     "generatedAt": "2026-08-11",
-    "totalVideos": 20,
+    "totalVideos": 21,
     "totalChannels": 14,
     "byType": {
-      "영상 요약": 12,
+      "영상 요약": 13,
       "담화 패턴 분석": 5,
       "기타": 2,
       "참가자 분석": 1
     },
     "byChannel": {
-      "AI Jason": 2,
+      "AI Jason": 3,
       "Tech Bridge": 1,
       "미상": 5,
       "AgentOS": 2,
@@ -27,7 +27,7 @@
       "천영록": 1
     },
     "byMonth": {
-      "2026-08": 6,
+      "2026-08": 7,
       "2026-07": 11,
       "2026-06": 3
     }
@@ -54,6 +54,25 @@
         "우리 팀(Daegu Agent Crew)에 반영할 인사이트"
       ],
       "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-08-27-graph-engineer-control-graph.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/_9OT25ZvrWs/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-08-27-graph-engineering-agents.md",
+      "title": "[I don't prompt agents anymore...]",
+      "videoUrl": "https://youtu.be/_9OT25ZvrWs",
+      "channel": "AI Jason",
+      "speaker": "",
+      "date": "2026-08-27",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "\"그래프 엔지니어링\"이라는 유행어가 세 가지 전혀 다른 개념(컨트롤 그래프 / 지식 그래프 / 루프 그래프)을 뒤섞고 있다. 그중 실용적 핵심은 **컨트롤 그래프** — 사람이 에이전트에게 직접 프롬프트하는 대신, 루프와 오케스트레이터가 대신 지시하는 시대에 SOP를 그래프(노드·엣지·상태)로 구조화해 신뢰성을 확보하는 것이다.",
+      "sections": [
+        "주요 내용",
+        "우리 팀(Daegu Agent Crew)에 반영할 인사이트",
+        "ELI5"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-08-27-graph-engineering-agents.md",
       "exists": true,
       "thumbnail": "https://img.youtube.com/vi/_9OT25ZvrWs/mqdefault.jpg"
     },
