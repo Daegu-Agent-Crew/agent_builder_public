@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-27T03:08:11Z",
-  "since": "2026-07-28T03:07:28Z",
+  "generated": "2026-08-27T03:46:48Z",
+  "since": "2026-07-28T03:46:15Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-27T01:16:02Z",
-      "pushed_at": "2026-08-27T01:15:53Z",
+      "updated_at": "2026-08-27T03:18:19Z",
+      "pushed_at": "2026-08-27T03:17:07Z",
       "recent_commits": [
+        {
+          "sha": "4af4326",
+          "message": "chore: update youtube dashboard data",
+          "author": "daeguru",
+          "date": "2026-08-27T03:16:55Z"
+        },
+        {
+          "sha": "48660fd",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-27T03:08:11Z)",
+          "author": "daeguru",
+          "date": "2026-08-27T03:08:11Z"
+        },
         {
           "sha": "0f3a7b4",
           "message": "chore: update youtube dashboard data",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-27T00:06:39Z)",
           "author": "daeguru",
           "date": "2026-08-27T00:06:40Z"
-        },
-        {
-          "sha": "45ed434",
-          "message": "dac-139 diagram: 결정 웹페이지 = 5개 열쇠 현판",
-          "author": "sfex11",
-          "date": "2026-08-26T23:06:23Z"
-        },
-        {
-          "sha": "3c69ae9",
-          "message": "chore: update youtube dashboard data",
-          "author": "daeguru",
-          "date": "2026-08-26T22:06:33Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-27T01:16:09Z",
-      "pushed_at": "2026-08-27T01:15:45Z",
+      "updated_at": "2026-08-27T03:16:28Z",
+      "pushed_at": "2026-08-27T03:15:53Z",
       "recent_commits": [
+        {
+          "sha": "c37bc6d",
+          "message": "Add ralphthon-cognitive-debt-harness video summary record",
+          "author": "sfex11",
+          "date": "2026-08-27T03:15:53Z"
+        },
         {
           "sha": "43483b8",
           "message": "Add graph-engineering-agents video summary record (AI Jason)",
@@ -494,12 +500,6 @@
           "message": "Add graph-engineer-control-graph video summary record",
           "author": "sfex11",
           "date": "2026-08-26T22:06:25Z"
-        },
-        {
-          "sha": "8c82978",
-          "message": "교훈 #138: verify 제외 조건 명시로 자기참조 오염 사전 차단 (P136-2 void → P133-3 정상 판정)",
-          "author": "sfex11",
-          "date": "2026-08-26T17:07:00Z"
         }
       ],
       "recent_prs": [
@@ -603,6 +603,33 @@
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update youtube dashboard data",
+      "sha": "4af4326",
+      "date": "2026-08-27T03:16:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4af4326f95568ceddb708c15b584a537278b88f8"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add ralphthon-cognitive-debt-harness video summary record",
+      "sha": "c37bc6d",
+      "date": "2026-08-27T03:15:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c37bc6d01e4ec1144974d86377c06ea86b79405a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-27T03:08:11Z)",
+      "sha": "48660fd",
+      "date": "2026-08-27T03:08:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/48660fd31b4ad5c3983799bec94f9f0d78179422"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update youtube dashboard data",
       "sha": "0f3a7b4",
       "date": "2026-08-27T01:15:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0f3a7b4a8510c82e91c36df8182f1a421db195d2"
@@ -654,39 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-139 diagram: 결정 웹페이지 = 5개 열쇠 현판",
-      "sha": "45ed434",
-      "date": "2026-08-26T23:06:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/45ed4345c1c5cb5bee9b2a905f14fd84ec71edd7"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update youtube dashboard data",
-      "sha": "3c69ae9",
-      "date": "2026-08-26T22:06:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3c69ae976732ba0b15bdd9bc4b218a14beb03bb5"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add graph-engineer-control-graph video summary record",
       "sha": "3652cdc",
       "date": "2026-08-26T22:06:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3652cdcc397c413bcc31a4c1992f31b03b09a28b"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #138: verify 제외 조건 명시로 자기참조 오염 사전 차단 (P136-2 void → P133-3 정상 판정)",
-      "sha": "8c82978",
-      "date": "2026-08-26T17:07:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8c829788f4a8e0e34daedd71237d87595e6dc322"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 19,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
