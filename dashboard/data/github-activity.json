@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-27T18:10:19Z",
-  "since": "2026-07-28T18:09:15Z",
+  "generated": "2026-08-27T18:45:27Z",
+  "since": "2026-07-28T18:44:53Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-27T17:25:38Z",
-      "pushed_at": "2026-08-27T17:07:34Z",
+      "updated_at": "2026-08-27T18:22:40Z",
+      "pushed_at": "2026-08-27T18:10:21Z",
       "recent_commits": [
+        {
+          "sha": "b2cdff8",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-27T18:10:19Z)",
+          "author": "daeguru",
+          "date": "2026-08-27T18:10:19Z"
+        },
         {
           "sha": "7f1ef3b",
           "message": "dac-142-diagram upload (뉴스 리듬 압축 타임라인)",
@@ -85,12 +91,6 @@
           "message": "dashboard: regenerate dashboard.json and github-activity (2026-08-27 21:44 KST)",
           "author": "daeguru",
           "date": "2026-08-27T12:46:13Z"
-        },
-        {
-          "sha": "f46667e",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-27T12:07:58Z)",
-          "author": "daeguru",
-          "date": "2026-08-27T12:07:58Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-27T18:10:19Z)",
+      "sha": "b2cdff8",
+      "date": "2026-08-27T18:10:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b2cdff8262acc35d2900fdb98b7ddcc4174d57b7"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #142: 지속의 증거는 시간표다 (DAC 스튜디오 리포트 142회차)",
@@ -642,15 +651,6 @@
       "sha": "5a3a3d3",
       "date": "2026-08-27T12:46:13Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5a3a3d37f90fe8ec59ab2009a1fbdb3b9cf1e025"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-27T12:07:58Z)",
-      "sha": "f46667e",
-      "date": "2026-08-27T12:07:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f46667e6f88ad66c1deac8776e5f92336200432c"
     },
     {
       "type": "commit",
