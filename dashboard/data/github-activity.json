@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-27T03:46:48Z",
-  "since": "2026-07-28T03:46:15Z",
+  "generated": "2026-08-27T06:06:39Z",
+  "since": "2026-07-28T06:05:51Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 265,
+      "open_issues": 266,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-27T03:18:19Z",
-      "pushed_at": "2026-08-27T03:17:07Z",
+      "updated_at": "2026-08-27T03:48:35Z",
+      "pushed_at": "2026-08-27T03:48:16Z",
       "recent_commits": [
+        {
+          "sha": "fe46a14",
+          "message": "chore: update dashboard data (2026-08-27)",
+          "author": "daeguru",
+          "date": "2026-08-27T03:48:15Z"
+        },
         {
           "sha": "4af4326",
           "message": "chore: update youtube dashboard data",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data (2026-08-27)",
           "author": "daeguru",
           "date": "2026-08-27T00:45:32Z"
-        },
-        {
-          "sha": "8078cd2",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-27T00:06:39Z)",
-          "author": "daeguru",
-          "date": "2026-08-27T00:06:40Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,21 @@
       "private": false,
       "open_issues": 2,
       "open_prs": 0,
-      "updated_at": "2026-08-26T05:10:37Z",
-      "pushed_at": "2026-08-26T05:10:08Z",
+      "updated_at": "2026-08-27T05:19:32Z",
+      "pushed_at": "2026-08-27T05:19:03Z",
       "recent_commits": [
+        {
+          "sha": "a2ae3f1",
+          "message": "📚 2026-08-27: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-08-27T05:18:16Z"
+        },
+        {
+          "sha": "27ae937",
+          "message": "📰 2026-08-26: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-08-26T23:30:40Z"
+        },
         {
           "sha": "3a4df2b",
           "message": "📚 2026-08-26: 위키 갱신 (2개)",
@@ -146,18 +158,6 @@
           "message": "🔍 2026-08-24: 위키 린트 점검 — 깨진 내부 앵커 9패턴(17곳) 수정",
           "author": "Renover",
           "date": "2026-08-23T21:18:32Z"
-        },
-        {
-          "sha": "b253c44",
-          "message": "📚 2026-08-24: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-08-23T21:10:46Z"
-        },
-        {
-          "sha": "fa1c36f",
-          "message": "📰 2026-08-24: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-08-23T21:04:47Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-27T03:16:28Z",
-      "pushed_at": "2026-08-27T03:15:53Z",
+      "updated_at": "2026-08-27T05:08:35Z",
+      "pushed_at": "2026-08-27T05:07:45Z",
       "recent_commits": [
+        {
+          "sha": "3627782",
+          "message": "교훈 #140: 사람의 깨어남도 원샷 — 읽을 페이지가 먼저, 깨어남이 나중",
+          "author": "sfex11",
+          "date": "2026-08-27T05:07:45Z"
+        },
         {
           "sha": "c37bc6d",
           "message": "Add ralphthon-cognitive-debt-harness video summary record",
@@ -494,12 +500,6 @@
           "message": "교훈 #139: 404는 경로 오류일 수 있다 — 결론 전에 커밋 파일 목록으로 경로 확인",
           "author": "sfex11",
           "date": "2026-08-26T23:06:25Z"
-        },
-        {
-          "sha": "3652cdc",
-          "message": "Add graph-engineer-control-graph video summary record",
-          "author": "sfex11",
-          "date": "2026-08-26T22:06:25Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-08-27: 위키 갱신 (2개)",
+      "sha": "a2ae3f1",
+      "date": "2026-08-27T05:18:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a2ae3f12ca1fdd4a0153a9cd465dae526b363f9a"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #140: 사람의 깨어남도 원샷 — 읽을 페이지가 먼저, 깨어남이 나중",
+      "sha": "3627782",
+      "date": "2026-08-27T05:07:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/362778231a20f8bafc67fc2a0ac949f33b2afab9"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (2026-08-27)",
+      "sha": "fe46a14",
+      "date": "2026-08-27T03:48:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fe46a143cf805918189d0e51ecbe1cfeebd70dc6"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update youtube dashboard data",
@@ -663,12 +690,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-27T00:06:39Z)",
-      "sha": "8078cd2",
-      "date": "2026-08-27T00:06:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8078cd2b4935216afdc85546fd8885de9256425e"
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-26: 뉴스 수집 (5건)",
+      "sha": "27ae937",
+      "date": "2026-08-26T23:30:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/27ae937458e7cc29289b329347fc5a6d12f6536d"
     },
     {
       "type": "commit",
@@ -678,15 +705,6 @@
       "sha": "242f211",
       "date": "2026-08-26T23:06:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/242f211e883b054532e88a1e67117878b037917a"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add graph-engineer-control-graph video summary record",
-      "sha": "3652cdc",
-      "date": "2026-08-26T22:06:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3652cdcc397c413bcc31a4c1992f31b03b09a28b"
     },
     {
       "type": "commit",
@@ -742,24 +760,6 @@
       "sha": "e5c1755",
       "date": "2026-08-23T21:18:32Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e5c175513eb842a1576731a34c5cc0b25a4e9d0e"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-08-24: 위키 갱신 (2개)",
-      "sha": "b253c44",
-      "date": "2026-08-23T21:10:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b253c44ccc5c0ca47c0176f7317b695b231900f9"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-08-24: 뉴스 수집 (5건)",
-      "sha": "fa1c36f",
-      "date": "2026-08-23T21:04:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/fa1c36f75d6238cfc5d96179e9432c90940586d4"
     },
     {
       "type": "pr",
