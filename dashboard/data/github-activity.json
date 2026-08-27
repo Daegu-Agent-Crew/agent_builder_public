@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-27T00:45:28Z",
-  "since": "2026-07-28T00:44:58Z",
+  "generated": "2026-08-27T03:08:11Z",
+  "since": "2026-07-28T03:07:28Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-27T00:06:46Z",
-      "pushed_at": "2026-08-27T00:06:43Z",
+      "updated_at": "2026-08-27T01:16:02Z",
+      "pushed_at": "2026-08-27T01:15:53Z",
       "recent_commits": [
+        {
+          "sha": "0f3a7b4",
+          "message": "chore: update youtube dashboard data",
+          "author": "daeguru",
+          "date": "2026-08-27T01:15:52Z"
+        },
+        {
+          "sha": "53e49d6",
+          "message": "chore: update dashboard data (2026-08-27)",
+          "author": "daeguru",
+          "date": "2026-08-27T00:45:32Z"
+        },
         {
           "sha": "8078cd2",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-27T00:06:39Z)",
@@ -79,18 +91,6 @@
           "message": "chore: update youtube dashboard data",
           "author": "daeguru",
           "date": "2026-08-26T22:06:33Z"
-        },
-        {
-          "sha": "3f4c33d",
-          "message": "dashboard: update dashboard.json and github-activity.json (auto)",
-          "author": "daeguru",
-          "date": "2026-08-26T21:45:46Z"
-        },
-        {
-          "sha": "05e60ad",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-26T21:07:41Z)",
-          "author": "daeguru",
-          "date": "2026-08-26T21:07:41Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,21 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-26T23:19:47Z",
-      "pushed_at": "2026-08-26T23:06:26Z",
+      "updated_at": "2026-08-27T01:16:09Z",
+      "pushed_at": "2026-08-27T01:15:45Z",
       "recent_commits": [
+        {
+          "sha": "43483b8",
+          "message": "Add graph-engineering-agents video summary record (AI Jason)",
+          "author": "sfex11",
+          "date": "2026-08-27T01:15:45Z"
+        },
+        {
+          "sha": "ad7b3be",
+          "message": "chore: regenerate wiki (2026-08-27)",
+          "author": "daeguru",
+          "date": "2026-08-27T00:45:34Z"
+        },
         {
           "sha": "242f211",
           "message": "교훈 #139: 404는 경로 오류일 수 있다 — 결론 전에 커밋 파일 목록으로 경로 확인",
@@ -488,18 +500,6 @@
           "message": "교훈 #138: verify 제외 조건 명시로 자기참조 오염 사전 차단 (P136-2 void → P133-3 정상 판정)",
           "author": "sfex11",
           "date": "2026-08-26T17:07:00Z"
-        },
-        {
-          "sha": "64e775c",
-          "message": "dashboard: regenerate data",
-          "author": "daeguru",
-          "date": "2026-08-26T15:45:50Z"
-        },
-        {
-          "sha": "c733df4",
-          "message": "교훈 #137: 대기열 파일이 원샷을 깬다 (뉴스 라인 3차 산출 실증)",
-          "author": "sfex11",
-          "date": "2026-08-26T11:06:48Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,42 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore: update youtube dashboard data",
+      "sha": "0f3a7b4",
+      "date": "2026-08-27T01:15:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0f3a7b4a8510c82e91c36df8182f1a421db195d2"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add graph-engineering-agents video summary record (AI Jason)",
+      "sha": "43483b8",
+      "date": "2026-08-27T01:15:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/43483b825c5ebced5784bf7f2f1f4d3d14b00d08"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "chore: regenerate wiki (2026-08-27)",
+      "sha": "ad7b3be",
+      "date": "2026-08-27T00:45:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ad7b3bed3c0ee4945da2d8d7984aa737af5817fe"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (2026-08-27)",
+      "sha": "53e49d6",
+      "date": "2026-08-27T00:45:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/53e49d6a0f1fe1badc979c95f3056cdc24929388"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-27T00:06:39Z)",
       "sha": "8078cd2",
       "date": "2026-08-27T00:06:40Z",
@@ -645,48 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (auto)",
-      "sha": "3f4c33d",
-      "date": "2026-08-26T21:45:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3f4c33d2fe8a6056083cb9d8d12dca5135c14318"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-26T21:07:41Z)",
-      "sha": "05e60ad",
-      "date": "2026-08-26T21:07:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/05e60ad0169adf55e0992bbacd81e53ea13f2052"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #138: verify 제외 조건 명시로 자기참조 오염 사전 차단 (P136-2 void → P133-3 정상 판정)",
       "sha": "8c82978",
       "date": "2026-08-26T17:07:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8c829788f4a8e0e34daedd71237d87595e6dc322"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "dashboard: regenerate data",
-      "sha": "64e775c",
-      "date": "2026-08-26T15:45:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/64e775c68952bb21f8c381fc0203a8425894f35d"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #137: 대기열 파일이 원샷을 깬다 (뉴스 라인 3차 산출 실증)",
-      "sha": "c733df4",
-      "date": "2026-08-26T11:06:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c733df49f206b5b38abdf3471121197960a3ff40"
     },
     {
       "type": "commit",
