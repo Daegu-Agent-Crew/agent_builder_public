@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-27T21:45:24Z",
-  "since": "2026-07-28T21:44:47Z",
+  "generated": "2026-08-28T00:05:37Z",
+  "since": "2026-07-29T00:04:55Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 268,
+      "open_issues": 269,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-27T21:13:58Z",
-      "pushed_at": "2026-08-27T21:06:02Z",
+      "updated_at": "2026-08-27T21:45:58Z",
+      "pushed_at": "2026-08-27T21:45:32Z",
       "recent_commits": [
+        {
+          "sha": "999a881",
+          "message": "dashboard: update data (auto)",
+          "author": "daeguru",
+          "date": "2026-08-27T21:45:30Z"
+        },
         {
           "sha": "5c2f594",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-27T21:05:59Z)",
@@ -85,12 +91,6 @@
           "message": "dac-142-diagram upload (뉴스 리듬 압축 타임라인)",
           "author": "sfex11",
           "date": "2026-08-27T17:07:33Z"
-        },
-        {
-          "sha": "1fb36bf",
-          "message": "dashboard: 갱신 (dashboard.json, github-activity.json)",
-          "author": "daeguru",
-          "date": "2026-08-27T15:46:19Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-27T17:16:53Z",
-      "pushed_at": "2026-08-27T17:08:46Z",
+      "updated_at": "2026-08-27T23:08:11Z",
+      "pushed_at": "2026-08-27T23:08:08Z",
       "recent_commits": [
+        {
+          "sha": "2678ecd",
+          "message": "교훈 #143: '아무 일 없었다'는 보고 전에 커밋 목록을 다시 조회한다 (DAC 스튜디오 리포트 143회차)",
+          "author": "sfex11",
+          "date": "2026-08-27T23:08:07Z"
+        },
         {
           "sha": "0e44c06",
           "message": "교훈 #142: 지속의 증거는 시간표다 (DAC 스튜디오 리포트 142회차)",
@@ -494,12 +500,6 @@
           "message": "교훈 #140: 사람의 깨어남도 원샷 — 읽을 페이지가 먼저, 깨어남이 나중",
           "author": "sfex11",
           "date": "2026-08-27T05:07:45Z"
-        },
-        {
-          "sha": "c37bc6d",
-          "message": "Add ralphthon-cognitive-debt-harness video summary record",
-          "author": "sfex11",
-          "date": "2026-08-27T03:15:53Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #143: '아무 일 없었다'는 보고 전에 커밋 목록을 다시 조회한다 (DAC 스튜디오 리포트 143회차)",
+      "sha": "2678ecd",
+      "date": "2026-08-27T23:08:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2678ecd98c326a5d2186630d685a9659973c15f9"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update data (auto)",
+      "sha": "999a881",
+      "date": "2026-08-27T21:45:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/999a88160a2299bc4ae4f8dc8c38518c9c57bad6"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-27T21:05:59Z)",
@@ -645,15 +663,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: 갱신 (dashboard.json, github-activity.json)",
-      "sha": "1fb36bf",
-      "date": "2026-08-27T15:46:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1fb36bfb2b4b02a719405d5a93e723775294c6d5"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #141: 같은 사건에 두 장 걸지 않는다 — 기준선 겹침 검사",
@@ -687,15 +696,6 @@
       "sha": "3627782",
       "date": "2026-08-27T05:07:45Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/362778231a20f8bafc67fc2a0ac949f33b2afab9"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add ralphthon-cognitive-debt-harness video summary record",
-      "sha": "c37bc6d",
-      "date": "2026-08-27T03:15:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c37bc6d01e4ec1144974d86377c06ea86b79405a"
     },
     {
       "type": "commit",
