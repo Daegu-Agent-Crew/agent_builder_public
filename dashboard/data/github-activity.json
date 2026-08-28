@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-28T18:09:15Z",
-  "since": "2026-07-29T18:08:03Z",
+  "generated": "2026-08-28T18:45:40Z",
+  "since": "2026-07-29T18:45:08Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-28T15:49:18Z",
-      "pushed_at": "2026-08-28T15:46:10Z",
+      "updated_at": "2026-08-28T18:11:09Z",
+      "pushed_at": "2026-08-28T18:09:18Z",
       "recent_commits": [
+        {
+          "sha": "30d52ac",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-28T18:09:15Z)",
+          "author": "daeguru",
+          "date": "2026-08-28T18:09:15Z"
+        },
         {
           "sha": "9b02245",
           "message": "dashboard: update data 2026-08-29 00:46",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-28T12:07:34Z)",
           "author": "daeguru",
           "date": "2026-08-28T12:07:34Z"
-        },
-        {
-          "sha": "cbd079e",
-          "message": "dac-145-diagram: 밀린 몫 상환 타임라인 (스튜디오 리포트 145회차)",
-          "author": "sfex11",
-          "date": "2026-08-28T11:15:00Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-28T18:09:15Z)",
+      "sha": "30d52ac",
+      "date": "2026-08-28T18:09:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/30d52ac51a9b0724edf1caee54aeddb285bfdbd1"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #146: 패턴의 주인이 사람 세션이면 세션과 함께 끝난다 (DAC 스튜디오 리포트 146회차)",
@@ -642,15 +651,6 @@
       "sha": "6d1174d",
       "date": "2026-08-28T12:07:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6d1174d28cdcac0957307297312cdcc82319f896"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-145-diagram: 밀린 몫 상환 타임라인 (스튜디오 리포트 145회차)",
-      "sha": "cbd079e",
-      "date": "2026-08-28T11:15:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cbd079e218b6ee4cd1c0b261f22082b1acd1f1b5"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 20,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
