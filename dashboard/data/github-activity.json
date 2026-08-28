@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-28T03:45:58Z",
-  "since": "2026-07-29T03:45:26Z",
+  "generated": "2026-08-28T06:07:41Z",
+  "since": "2026-07-29T06:06:36Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 269,
+      "open_issues": 270,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-28T03:06:48Z",
-      "pushed_at": "2026-08-28T03:06:40Z",
+      "updated_at": "2026-08-28T03:47:12Z",
+      "pushed_at": "2026-08-28T03:46:18Z",
       "recent_commits": [
+        {
+          "sha": "c2ba3b5",
+          "message": "chore: update dashboard data (github activity)",
+          "author": "daeguru",
+          "date": "2026-08-28T03:46:16Z"
+        },
         {
           "sha": "21d03e2",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-28T03:06:37Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-28T00:05:37Z)",
           "author": "daeguru",
           "date": "2026-08-28T00:05:37Z"
-        },
-        {
-          "sha": "999a881",
-          "message": "dashboard: update data (auto)",
-          "author": "daeguru",
-          "date": "2026-08-27T21:45:30Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,21 @@
       "private": false,
       "open_issues": 2,
       "open_prs": 0,
-      "updated_at": "2026-08-27T05:19:32Z",
-      "pushed_at": "2026-08-27T05:19:03Z",
+      "updated_at": "2026-08-28T05:11:50Z",
+      "pushed_at": "2026-08-28T05:11:24Z",
       "recent_commits": [
+        {
+          "sha": "e9a7241",
+          "message": "📚 2026-08-28: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-08-28T05:11:04Z"
+        },
+        {
+          "sha": "f56998e",
+          "message": "📰 2026-08-27: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-08-27T23:25:27Z"
+        },
         {
           "sha": "a2ae3f1",
           "message": "📚 2026-08-27: 위키 갱신 (2개)",
@@ -146,18 +158,6 @@
           "message": "📚 2026-08-26: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-08-26T05:09:23Z"
-        },
-        {
-          "sha": "b018195",
-          "message": "📰 2026-08-24: AI 뉴스 수집 (4건)",
-          "author": "Renover",
-          "date": "2026-08-24T23:15:00Z"
-        },
-        {
-          "sha": "e5c1755",
-          "message": "🔍 2026-08-24: 위키 린트 점검 — 깨진 내부 앵커 9패턴(17곳) 수정",
-          "author": "Renover",
-          "date": "2026-08-23T21:18:32Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-27T23:08:11Z",
-      "pushed_at": "2026-08-27T23:08:08Z",
+      "updated_at": "2026-08-28T05:09:57Z",
+      "pushed_at": "2026-08-28T05:07:33Z",
       "recent_commits": [
+        {
+          "sha": "8ba3caf",
+          "message": "교훈 #144: 같은 서명을 쓰는 자동화 산출은 verify에서 미리 제외한다 (DAC 스튜디오 리포트 144회차)",
+          "author": "sfex11",
+          "date": "2026-08-28T05:07:32Z"
+        },
         {
           "sha": "2678ecd",
           "message": "교훈 #143: '아무 일 없었다'는 보고 전에 커밋 목록을 다시 조회한다 (DAC 스튜디오 리포트 143회차)",
@@ -494,12 +500,6 @@
           "message": "wiki: regenerate ()",
           "author": "daeguru",
           "date": "2026-08-27T09:45:57Z"
-        },
-        {
-          "sha": "3627782",
-          "message": "교훈 #140: 사람의 깨어남도 원샷 — 읽을 페이지가 먼저, 깨어남이 나중",
-          "author": "sfex11",
-          "date": "2026-08-27T05:07:45Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-08-28: 위키 갱신 (2개)",
+      "sha": "e9a7241",
+      "date": "2026-08-28T05:11:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e9a7241f7854a1d24862e7894f089ee676839d4c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #144: 같은 서명을 쓰는 자동화 산출은 verify에서 미리 제외한다 (DAC 스튜디오 리포트 144회차)",
+      "sha": "8ba3caf",
+      "date": "2026-08-28T05:07:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8ba3caf316e51ddd3a27015b5af7d5dbd657fd08"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (github activity)",
+      "sha": "c2ba3b5",
+      "date": "2026-08-28T03:46:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c2ba3b54ea37ecd23f9ff632c48990e7d8424e3d"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-28T03:06:37Z)",
@@ -636,21 +663,21 @@
     },
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-08-27: 뉴스 수집 (5건)",
+      "sha": "f56998e",
+      "date": "2026-08-27T23:25:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f56998e4f120171d1954df23c3a4ede641ed6bad"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #143: '아무 일 없었다'는 보고 전에 커밋 목록을 다시 조회한다 (DAC 스튜디오 리포트 143회차)",
       "sha": "2678ecd",
       "date": "2026-08-27T23:08:07Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2678ecd98c326a5d2186630d685a9659973c15f9"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update data (auto)",
-      "sha": "999a881",
-      "date": "2026-08-27T21:45:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/999a88160a2299bc4ae4f8dc8c38518c9c57bad6"
     },
     {
       "type": "commit",
@@ -687,15 +714,6 @@
       "sha": "a2ae3f1",
       "date": "2026-08-27T05:18:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a2ae3f12ca1fdd4a0153a9cd465dae526b363f9a"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #140: 사람의 깨어남도 원샷 — 읽을 페이지가 먼저, 깨어남이 나중",
-      "sha": "3627782",
-      "date": "2026-08-27T05:07:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/362778231a20f8bafc67fc2a0ac949f33b2afab9"
     },
     {
       "type": "commit",
@@ -736,30 +754,12 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-08-24: AI 뉴스 수집 (4건)",
-      "sha": "b018195",
-      "date": "2026-08-24T23:15:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b01819539ddfd899aff82a4cec2d3b9a2063e5c6"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "대구루",
       "message": "feat(CLE2-23): 태스크 초기 설정",
       "sha": "9e90a58",
       "date": "2026-08-24T01:56:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/9e90a58b0a0b43ef64521a1f73954a69b26f8dbb"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔍 2026-08-24: 위키 린트 점검 — 깨진 내부 앵커 9패턴(17곳) 수정",
-      "sha": "e5c1755",
-      "date": "2026-08-23T21:18:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e5c175513eb842a1576731a34c5cc0b25a4e9d0e"
     },
     {
       "type": "pr",
