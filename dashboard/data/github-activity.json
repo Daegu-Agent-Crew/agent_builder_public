@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-28T09:45:36Z",
-  "since": "2026-07-29T09:45:02Z",
+  "generated": "2026-08-28T12:07:34Z",
+  "since": "2026-07-29T12:06:22Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 270,
+      "open_issues": 271,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-28T09:09:02Z",
-      "pushed_at": "2026-08-28T09:07:13Z",
+      "updated_at": "2026-08-28T11:15:55Z",
+      "pushed_at": "2026-08-28T11:15:00Z",
       "recent_commits": [
+        {
+          "sha": "cbd079e",
+          "message": "dac-145-diagram: 밀린 몫 상환 타임라인 (스튜디오 리포트 145회차)",
+          "author": "sfex11",
+          "date": "2026-08-28T11:15:00Z"
+        },
+        {
+          "sha": "9dba7b8",
+          "message": "dashboard 데이터 갱신 (자동)",
+          "author": "daeguru",
+          "date": "2026-08-28T09:45:42Z"
+        },
         {
           "sha": "8cd367a",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-28T09:07:10Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-28T06:07:41Z)",
           "author": "daeguru",
           "date": "2026-08-28T06:07:41Z"
-        },
-        {
-          "sha": "c2ba3b5",
-          "message": "chore: update dashboard data (github activity)",
-          "author": "daeguru",
-          "date": "2026-08-28T03:46:16Z"
-        },
-        {
-          "sha": "21d03e2",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-28T03:06:37Z)",
-          "author": "daeguru",
-          "date": "2026-08-28T03:06:37Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-28T05:09:57Z",
-      "pushed_at": "2026-08-28T05:07:33Z",
+      "updated_at": "2026-08-28T11:08:07Z",
+      "pushed_at": "2026-08-28T11:06:34Z",
       "recent_commits": [
+        {
+          "sha": "c2d2a30",
+          "message": "교훈 #145: 숙제 파일에는 밀린 몫도 적어둔다 (DAC 스튜디오 리포트 145회차)",
+          "author": "sfex11",
+          "date": "2026-08-28T11:06:33Z"
+        },
         {
           "sha": "8ba3caf",
           "message": "교훈 #144: 같은 서명을 쓰는 자동화 산출은 verify에서 미리 제외한다 (DAC 스튜디오 리포트 144회차)",
@@ -494,12 +500,6 @@
           "message": "교훈 #141: 같은 사건에 두 장 걸지 않는다 — 기준선 겹침 검사",
           "author": "sfex11",
           "date": "2026-08-27T11:06:36Z"
-        },
-        {
-          "sha": "8407f5a",
-          "message": "wiki: regenerate ()",
-          "author": "daeguru",
-          "date": "2026-08-27T09:45:57Z"
         }
       ],
       "recent_prs": [
@@ -601,6 +601,33 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac-145-diagram: 밀린 몫 상환 타임라인 (스튜디오 리포트 145회차)",
+      "sha": "cbd079e",
+      "date": "2026-08-28T11:15:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cbd079e218b6ee4cd1c0b261f22082b1acd1f1b5"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #145: 숙제 파일에는 밀린 몫도 적어둔다 (DAC 스튜디오 리포트 145회차)",
+      "sha": "c2d2a30",
+      "date": "2026-08-28T11:06:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c2d2a303b48e42a2f5324034929fede519abe76d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 갱신 (자동)",
+      "sha": "9dba7b8",
+      "date": "2026-08-28T09:45:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9dba7b875c483b825442a1899353563ab91e679e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-28T09:07:10Z)",
       "sha": "8cd367a",
@@ -645,24 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (github activity)",
-      "sha": "c2ba3b5",
-      "date": "2026-08-28T03:46:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c2ba3b54ea37ecd23f9ff632c48990e7d8424e3d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-28T03:06:37Z)",
-      "sha": "21d03e2",
-      "date": "2026-08-28T03:06:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/21d03e2b8591ff1b16e4c20ecd6f06cadc08010f"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-08-27: 뉴스 수집 (5건)",
@@ -696,15 +705,6 @@
       "sha": "7dae1de",
       "date": "2026-08-27T11:06:36Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7dae1de00cc790862789269fa13725562e80413d"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wiki: regenerate ()",
-      "sha": "8407f5a",
-      "date": "2026-08-27T09:45:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8407f5ad12185135050d223aa328f1f0aaf78b84"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
