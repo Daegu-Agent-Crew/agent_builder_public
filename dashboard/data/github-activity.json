@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-28T18:45:40Z",
-  "since": "2026-07-29T18:45:08Z",
+  "generated": "2026-08-28T21:06:19Z",
+  "since": "2026-07-29T21:05:30Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-28T18:11:09Z",
-      "pushed_at": "2026-08-28T18:09:18Z",
+      "updated_at": "2026-08-28T18:48:27Z",
+      "pushed_at": "2026-08-28T18:45:52Z",
       "recent_commits": [
+        {
+          "sha": "325ff55",
+          "message": "chore: update dashboard data and github activity",
+          "author": "daeguru",
+          "date": "2026-08-28T18:45:50Z"
+        },
         {
           "sha": "30d52ac",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-28T18:09:15Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github activity",
           "author": "daeguru",
           "date": "2026-08-28T12:45:33Z"
-        },
-        {
-          "sha": "6d1174d",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-28T12:07:34Z)",
-          "author": "daeguru",
-          "date": "2026-08-28T12:07:34Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 2,
-      "updated_at": "2026-08-28T17:05:59Z",
-      "pushed_at": "2026-08-28T17:03:16Z",
+      "updated_at": "2026-08-28T18:54:31Z",
+      "pushed_at": "2026-08-28T18:45:49Z",
       "recent_commits": [
+        {
+          "sha": "754bd96",
+          "message": "chore: update wiki and dashboard",
+          "author": "daeguru",
+          "date": "2026-08-28T18:45:47Z"
+        },
         {
           "sha": "c365c12",
           "message": "교훈 #146: 패턴의 주인이 사람 세션이면 세션과 함께 끝난다 (DAC 스튜디오 리포트 146회차)",
@@ -494,12 +500,6 @@
           "message": "교훈 #143: '아무 일 없었다'는 보고 전에 커밋 목록을 다시 조회한다 (DAC 스튜디오 리포트 143회차)",
           "author": "sfex11",
           "date": "2026-08-27T23:08:07Z"
-        },
-        {
-          "sha": "0e44c06",
-          "message": "교훈 #142: 지속의 증거는 시간표다 (DAC 스튜디오 리포트 142회차)",
-          "author": "sfex11",
-          "date": "2026-08-27T17:08:45Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore: update dashboard data and github activity",
+      "sha": "325ff55",
+      "date": "2026-08-28T18:45:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/325ff5509f13d5be5d0fc982ab99773ab28a2c60"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "chore: update wiki and dashboard",
+      "sha": "754bd96",
+      "date": "2026-08-28T18:45:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/754bd96b56388c409bee787955177936239bc179"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-28T18:09:15Z)",
       "sha": "30d52ac",
       "date": "2026-08-28T18:09:15Z",
@@ -642,15 +660,6 @@
       "sha": "efa5077",
       "date": "2026-08-28T12:45:33Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/efa5077da354644bf4fc0473c2f45bfa2752debc"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-28T12:07:34Z)",
-      "sha": "6d1174d",
-      "date": "2026-08-28T12:07:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6d1174d28cdcac0957307297312cdcc82319f896"
     },
     {
       "type": "commit",
@@ -696,15 +705,6 @@
       "sha": "2678ecd",
       "date": "2026-08-27T23:08:07Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2678ecd98c326a5d2186630d685a9659973c15f9"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #142: 지속의 증거는 시간표다 (DAC 스튜디오 리포트 142회차)",
-      "sha": "0e44c06",
-      "date": "2026-08-27T17:08:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0e44c06492fbfce6180b560a8aebd41e32498e88"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 19,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
