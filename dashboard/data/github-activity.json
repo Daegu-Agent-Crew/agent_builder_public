@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-29T17:13:34Z",
-  "since": "2026-07-30T17:13:02Z",
+  "generated": "2026-08-29T18:07:32Z",
+  "since": "2026-07-30T18:06:38Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-29T15:09:20Z",
-      "pushed_at": "2026-08-29T15:07:07Z",
+      "updated_at": "2026-08-29T17:18:12Z",
+      "pushed_at": "2026-08-29T17:14:00Z",
       "recent_commits": [
+        {
+          "sha": "f9780e6",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-08-30 02:13 KST",
+          "author": "daeguru",
+          "date": "2026-08-29T17:13:58Z"
+        },
         {
           "sha": "b69fc0e",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-29T15:07:04Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-29T12:09:44Z)",
           "author": "daeguru",
           "date": "2026-08-29T12:09:45Z"
-        },
-        {
-          "sha": "d02c305",
-          "message": "dac-149 diagram: agents-board structure",
-          "author": "sfex11",
-          "date": "2026-08-29T11:13:30Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-08-30 02:13 KST",
+      "sha": "f9780e6",
+      "date": "2026-08-29T17:13:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f9780e6176b981e387e018f430de3ddda5aaadbf"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #150: pushed_at owner may be a branch, not main (DAC 스튜디오 리포트 150회차)",
@@ -670,15 +679,6 @@
       "sha": "07a202d",
       "date": "2026-08-29T11:15:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/07a202d37ac784f7d09ca47bfcf623ab372657ca"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-149 diagram: agents-board structure",
-      "sha": "d02c305",
-      "date": "2026-08-29T11:13:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d02c3055cd7f3e9858c58e7042fd70cbee494506"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
