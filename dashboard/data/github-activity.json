@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-29T21:06:54Z",
-  "since": "2026-07-30T21:06:08Z",
+  "generated": "2026-08-29T23:13:49Z",
+  "since": "2026-07-30T23:13:17Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 276,
+      "open_issues": 277,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-29T18:07:38Z",
-      "pushed_at": "2026-08-29T18:07:35Z",
+      "updated_at": "2026-08-29T21:07:09Z",
+      "pushed_at": "2026-08-29T21:06:57Z",
       "recent_commits": [
+        {
+          "sha": "547c871",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-29T21:06:54Z)",
+          "author": "daeguru",
+          "date": "2026-08-29T21:06:54Z"
+        },
         {
           "sha": "ec9b3a7",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-29T18:07:32Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-08-29 23:14 KST)",
           "author": "daeguru",
           "date": "2026-08-29T14:14:32Z"
-        },
-        {
-          "sha": "b0410c8",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-29T12:27:01Z)",
-          "author": "daeguru",
-          "date": "2026-08-29T12:27:01Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 3,
       "open_prs": 3,
-      "updated_at": "2026-08-29T17:10:56Z",
-      "pushed_at": "2026-08-29T17:10:39Z",
+      "updated_at": "2026-08-29T23:08:52Z",
+      "pushed_at": "2026-08-29T23:08:49Z",
       "recent_commits": [
+        {
+          "sha": "b197f64",
+          "message": "lesson #151: actor identity via style, timezone notation, channel (DAC 스튜디오 리포트 151회차)",
+          "author": "sfex11",
+          "date": "2026-08-29T23:08:49Z"
+        },
         {
           "sha": "cb7a0d0",
           "message": "lesson #150: pushed_at owner may be a branch, not main (DAC 스튜디오 리포트 150회차)",
@@ -494,12 +500,6 @@
           "message": "chore(agents-board): 협업 사이클 1회 완주 마감 (CLE2-24) (#18)",
           "author": "sfex11",
           "date": "2026-08-29T00:05:19Z"
-        },
-        {
-          "sha": "15dfa4d",
-          "message": "fix(agents-board): 정합성 조사 발견 4건 하드닝 (CLE2-24) (#17)",
-          "author": "sfex11",
-          "date": "2026-08-29T00:02:46Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #151: actor identity via style, timezone notation, channel (DAC 스튜디오 리포트 151회차)",
+      "sha": "b197f64",
+      "date": "2026-08-29T23:08:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b197f643654ead4c3e0d3aa9f7dcec47708fed5f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-29T21:06:54Z)",
+      "sha": "547c871",
+      "date": "2026-08-29T21:06:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/547c8719ad484d531824218966603c6651fdb591"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-29T18:07:32Z)",
@@ -661,15 +679,6 @@
       "sha": "069277f",
       "date": "2026-08-29T14:14:32Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/069277f4a2bcf3ca4b8ab14b86ac14cae2c81edd"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-29T12:27:01Z)",
-      "sha": "b0410c8",
-      "date": "2026-08-29T12:27:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b0410c831c062cc304d7906fe61b08423eb8bdc5"
     },
     {
       "type": "commit",
@@ -774,15 +783,6 @@
       "state": "closed",
       "date": "2026-08-29T00:02:46Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/17"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "fix(agents-board): 정합성 조사 발견 4건 하드닝 (CLE2-24) (#17)",
-      "sha": "15dfa4d",
-      "date": "2026-08-29T00:02:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/15dfa4de2993394d4a15dbabdc9fcd2ebac275a8"
     },
     {
       "type": "commit",
