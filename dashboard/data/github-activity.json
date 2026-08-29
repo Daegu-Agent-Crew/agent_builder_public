@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-29T15:07:04Z",
-  "since": "2026-07-30T15:06:09Z",
+  "generated": "2026-08-29T17:13:34Z",
+  "since": "2026-07-30T17:13:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 275,
+      "open_issues": 276,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-29T14:15:01Z",
-      "pushed_at": "2026-08-29T14:14:34Z",
+      "updated_at": "2026-08-29T15:09:20Z",
+      "pushed_at": "2026-08-29T15:07:07Z",
       "recent_commits": [
+        {
+          "sha": "b69fc0e",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-29T15:07:04Z)",
+          "author": "daeguru",
+          "date": "2026-08-29T15:07:04Z"
+        },
         {
           "sha": "069277f",
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-08-29 23:14 KST)",
@@ -85,12 +91,6 @@
           "message": "dac-149 diagram: agents-board structure",
           "author": "sfex11",
           "date": "2026-08-29T11:13:30Z"
-        },
-        {
-          "sha": "d9896c3",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-29T09:05:52Z)",
-          "author": "daeguru",
-          "date": "2026-08-29T09:05:52Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 3,
       "open_prs": 3,
-      "updated_at": "2026-08-29T11:16:32Z",
-      "pushed_at": "2026-08-29T11:15:17Z",
+      "updated_at": "2026-08-29T17:10:56Z",
+      "pushed_at": "2026-08-29T17:10:39Z",
       "recent_commits": [
+        {
+          "sha": "cb7a0d0",
+          "message": "lesson #150: pushed_at owner may be a branch, not main (DAC 스튜디오 리포트 150회차)",
+          "author": "sfex11",
+          "date": "2026-08-29T17:10:39Z"
+        },
         {
           "sha": "07a202d",
           "message": "lesson #149: commit message is a claim, file list is evidence (DAC 스튜디오 리포트 149회차)",
@@ -494,12 +500,6 @@
           "message": "fix(agents-board): 정합성 조사 발견 4건 하드닝 (CLE2-24) (#17)",
           "author": "sfex11",
           "date": "2026-08-29T00:02:46Z"
-        },
-        {
-          "sha": "0ca9de4",
-          "message": "docs(agents-board): tm-board 스킬 + AGENTS.md 온보딩 (CLE2-24) (#16)",
-          "author": "sfex11",
-          "date": "2026-08-28T23:58:31Z"
         }
       ],
       "recent_prs": [
@@ -599,6 +599,24 @@
   ],
   "activity_feed": [
     {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #150: pushed_at owner may be a branch, not main (DAC 스튜디오 리포트 150회차)",
+      "sha": "cb7a0d0",
+      "date": "2026-08-29T17:10:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cb7a0d0efe32c7696ae1916e271dba024fa6d7b1"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-29T15:07:04Z)",
+      "sha": "b69fc0e",
+      "date": "2026-08-29T15:07:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b69fc0e5e02f7ff6147097bdfd385fd62895e667"
+    },
+    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -661,15 +679,6 @@
       "sha": "d02c305",
       "date": "2026-08-29T11:13:30Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d02c3055cd7f3e9858c58e7042fd70cbee494506"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-29T09:05:52Z)",
-      "sha": "d9896c3",
-      "date": "2026-08-29T09:05:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d9896c3d072218e5bd11a87feea3eb563766a5e6"
     },
     {
       "type": "commit",
@@ -774,15 +783,6 @@
       "sha": "15dfa4d",
       "date": "2026-08-29T00:02:46Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/15dfa4de2993394d4a15dbabdc9fcd2ebac275a8"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs(agents-board): tm-board 스킬 + AGENTS.md 온보딩 (CLE2-24) (#16)",
-      "sha": "0ca9de4",
-      "date": "2026-08-28T23:58:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0ca9de4c3c69b488d91100aa79b6a39f1281d5cf"
     },
     {
       "type": "commit",
