@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-29T00:08:40Z",
-  "since": "2026-07-30T00:07:34Z",
+  "generated": "2026-08-29T03:07:37Z",
+  "since": "2026-07-30T03:06:48Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-28T21:51:43Z",
-      "pushed_at": "2026-08-28T21:45:31Z",
+      "updated_at": "2026-08-29T00:09:16Z",
+      "pushed_at": "2026-08-29T00:08:49Z",
       "recent_commits": [
+        {
+          "sha": "f80af7c",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-29T00:08:40Z)",
+          "author": "daeguru",
+          "date": "2026-08-29T00:08:45Z"
+        },
         {
           "sha": "c6def85",
           "message": "dashboard 데이터 갱신 (자동)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-28T18:09:15Z)",
           "author": "daeguru",
           "date": "2026-08-28T18:09:15Z"
-        },
-        {
-          "sha": "9b02245",
-          "message": "dashboard: update data 2026-08-29 00:46",
-          "author": "daeguru",
-          "date": "2026-08-28T15:46:08Z"
         }
       ],
       "recent_prs": [
@@ -196,11 +196,17 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 19,
+      "open_issues": 20,
       "open_prs": 0,
-      "updated_at": "2026-08-29T00:05:49Z",
-      "pushed_at": "2026-08-29T00:05:45Z",
+      "updated_at": "2026-08-29T00:28:14Z",
+      "pushed_at": "2026-08-29T00:28:00Z",
       "recent_commits": [
+        {
+          "sha": "402b2a1",
+          "message": "feat(CLE2-25): 태스크 초기 설정 + 결정사항 확정 (#73)",
+          "author": "sfex11",
+          "date": "2026-08-29T00:27:57Z"
+        },
         {
           "sha": "6ff8904",
           "message": "docs(CLE2-24): 태스크 완료 — 검증 통과, 협업 사이클 1회 완주 (#71)",
@@ -224,15 +230,17 @@
           "message": "feat(CLE2-23): 태스크 초기 설정",
           "author": "대구루",
           "date": "2026-08-24T01:56:34Z"
-        },
-        {
-          "sha": "67e7ea1",
-          "message": "Merge pull request #64 from Daegu-Agent-Crew/codex/cle2-22-pilot-review",
-          "author": "sfex11",
-          "date": "2026-08-16T02:26:35Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 73,
+          "title": "feat(CLE2-25): 솔라나 밈코인 파이프라인 태스크 초기 설정",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-08-29T00:28:00Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/73"
+        },
         {
           "number": 71,
           "title": "docs(CLE2-24): 태스크 완료 — 검증 통과, 협업 사이클 1회 완주",
@@ -248,14 +256,6 @@
           "state": "closed",
           "updated_at": "2026-08-28T23:57:47Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/70"
-        },
-        {
-          "number": 66,
-          "title": "feat(CLE2-23): 자체 호스팅 SNS AI 직원 시스템 태스크 초기 설정",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-08-25T00:13:54Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/66"
         }
       ]
     },
@@ -466,10 +466,10 @@
       "slug": "Daegu-Agent-Crew/team-memory",
       "name": "team-memory",
       "private": true,
-      "open_issues": 2,
-      "open_prs": 2,
+      "open_issues": 3,
+      "open_prs": 3,
       "updated_at": "2026-08-29T00:05:49Z",
-      "pushed_at": "2026-08-29T00:05:19Z",
+      "pushed_at": "2026-08-29T00:28:45Z",
       "recent_commits": [
         {
           "sha": "e2fc39e",
@@ -504,6 +504,14 @@
       ],
       "recent_prs": [
         {
+          "number": 19,
+          "title": "docs(agents-board): 라이카 온보딩 + next_id 버그 리포트 (AB-0006, AB-0007)",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-08-29T00:29:01Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/19"
+        },
+        {
           "number": 18,
           "title": "chore(agents-board): 협업 사이클 1회 완주 마감 (CLE2-24)",
           "author": "sfex11",
@@ -518,14 +526,6 @@
           "state": "closed",
           "updated_at": "2026-08-29T00:02:46Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/17"
-        },
-        {
-          "number": 16,
-          "title": "docs(agents-board): tm-board 스킬 + AGENTS.md 온보딩 (CLE2-24)",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-08-28T23:58:31Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/16"
         }
       ]
     },
@@ -600,6 +600,44 @@
   "activity_feed": [
     {
       "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "docs(agents-board): 라이카 온보딩 + next_id 버그 리포트 (AB-0006, AB-0007)",
+      "number": 19,
+      "state": "open",
+      "date": "2026-08-29T00:29:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/19"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-25): 솔라나 밈코인 파이프라인 태스크 초기 설정",
+      "number": 73,
+      "state": "closed",
+      "date": "2026-08-29T00:28:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/73"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-25): 태스크 초기 설정 + 결정사항 확정 (#73)",
+      "sha": "402b2a1",
+      "date": "2026-08-29T00:27:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/402b2a1860237d995985a63577857516bf05fabb"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-29T00:08:40Z)",
+      "sha": "f80af7c",
+      "date": "2026-08-29T00:08:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f80af7c81d752f381da96f219cee279b519ae32f"
+    },
+    {
+      "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
       "message": "docs(CLE2-24): 태스크 완료 — 검증 통과, 협업 사이클 1회 완주",
@@ -654,16 +692,6 @@
       "sha": "15dfa4d",
       "date": "2026-08-29T00:02:46Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/15dfa4de2993394d4a15dbabdc9fcd2ebac275a8"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs(agents-board): tm-board 스킬 + AGENTS.md 온보딩 (CLE2-24)",
-      "number": 16,
-      "state": "closed",
-      "date": "2026-08-28T23:58:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/16"
     },
     {
       "type": "commit",
@@ -749,15 +777,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update data 2026-08-29 00:46",
-      "sha": "9b02245",
-      "date": "2026-08-28T15:46:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9b02245c1c692e789b2cfe243922f128be6fa837"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-08-28: 위키 갱신 (2개)",
@@ -802,16 +821,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3a4df2b6a9ef0a1098556130be1dec193a725bbc"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-23): 자체 호스팅 SNS AI 직원 시스템 태스크 초기 설정",
-      "number": 66,
-      "state": "closed",
-      "date": "2026-08-25T00:13:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/66"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -838,15 +847,6 @@
       "state": "open",
       "date": "2026-08-18T17:28:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/pull/10"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "Merge pull request #64 from Daegu-Agent-Crew/codex/cle2-22-pilot-review",
-      "sha": "67e7ea1",
-      "date": "2026-08-16T02:26:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/67e7ea1938e68bc436b2daf85df7757aab8d3860"
     },
     {
       "type": "pr",
