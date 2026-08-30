@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-30T06:06:11Z",
-  "since": "2026-07-31T06:05:24Z",
+  "generated": "2026-08-30T08:14:18Z",
+  "since": "2026-07-31T08:13:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-30T03:07:42Z",
-      "pushed_at": "2026-08-30T03:07:38Z",
+      "updated_at": "2026-08-30T06:06:31Z",
+      "pushed_at": "2026-08-30T06:06:13Z",
       "recent_commits": [
+        {
+          "sha": "d7a7810",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-30T06:06:11Z)",
+          "author": "daeguru",
+          "date": "2026-08-30T06:06:11Z"
+        },
         {
           "sha": "56642c2",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-30T03:07:35Z)",
@@ -85,12 +91,6 @@
           "message": "dac-151 diagram: meme-coin purpose shift (education to transparent revenue, principles kept, 2 pending gates)",
           "author": "sfex11",
           "date": "2026-08-29T23:14:12Z"
-        },
-        {
-          "sha": "547c871",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-29T21:06:54Z)",
-          "author": "daeguru",
-          "date": "2026-08-29T21:06:54Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-30T06:06:11Z)",
+      "sha": "d7a7810",
+      "date": "2026-08-30T06:06:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d7a7810b2eca36b2ad684922e6b76bb127172af2"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #152: a scheduled failure becomes data (DAC 스튜디오 리포트 152회차)",
@@ -660,15 +669,6 @@
       "sha": "b197f64",
       "date": "2026-08-29T23:08:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b197f643654ead4c3e0d3aa9f7dcec47708fed5f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-29T21:06:54Z)",
-      "sha": "547c871",
-      "date": "2026-08-29T21:06:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/547c8719ad484d531824218966603c6651fdb591"
     },
     {
       "type": "commit",
