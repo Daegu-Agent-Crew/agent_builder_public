@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-30T08:14:18Z",
-  "since": "2026-07-31T08:13:47Z",
+  "generated": "2026-08-30T09:07:31Z",
+  "since": "2026-07-31T09:06:48Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-30T06:06:31Z",
-      "pushed_at": "2026-08-30T06:06:13Z",
+      "updated_at": "2026-08-30T08:15:26Z",
+      "pushed_at": "2026-08-30T08:14:47Z",
       "recent_commits": [
+        {
+          "sha": "34a4056",
+          "message": "dashboard: update dashboard.json and github-activity.json (cron)",
+          "author": "daeguru",
+          "date": "2026-08-30T08:14:45Z"
+        },
         {
           "sha": "d7a7810",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-30T06:06:11Z)",
@@ -84,12 +90,6 @@
           "sha": "fb2aac7",
           "message": "dashboard: update dashboard.json and github-activity.json (2026-08-30 08:12 KST)",
           "author": "daeguru",
-          "date": "2026-08-29T23:14:12Z"
-        },
-        {
-          "sha": "262829c",
-          "message": "dac-151 diagram: meme-coin purpose shift (education to transparent revenue, principles kept, 2 pending gates)",
-          "author": "sfex11",
           "date": "2026-08-29T23:14:12Z"
         }
       ],
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (cron)",
+      "sha": "34a4056",
+      "date": "2026-08-30T08:14:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/34a40561a080f6e0ccfa34aab14a05677ce34dc0"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-30T06:06:11Z)",
       "sha": "d7a7810",
       "date": "2026-08-30T06:06:11Z",
@@ -642,15 +651,6 @@
       "sha": "2853fdc",
       "date": "2026-08-30T00:07:03Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2853fdca963ae277d19df764f95a125bbce0ffac"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-151 diagram: meme-coin purpose shift (education to transparent revenue, principles kept, 2 pending gates)",
-      "sha": "262829c",
-      "date": "2026-08-29T23:14:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/262829c256ff6ef61262057537b1f68253e97db1"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
