@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-30T11:14:53Z",
-  "since": "2026-07-31T11:14:18Z",
+  "generated": "2026-08-30T12:06:28Z",
+  "since": "2026-07-31T12:05:39Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 278,
+      "open_issues": 279,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-30T09:08:34Z",
-      "pushed_at": "2026-08-30T09:07:34Z",
+      "updated_at": "2026-08-30T11:18:27Z",
+      "pushed_at": "2026-08-30T11:17:54Z",
       "recent_commits": [
+        {
+          "sha": "a776f9a",
+          "message": "dac report 153 diagram: appointment-keeping line (5 stages)",
+          "author": "sfex11",
+          "date": "2026-08-30T11:17:53Z"
+        },
+        {
+          "sha": "d77cf73",
+          "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-08-30T11:15:19Z)",
+          "author": "daeguru",
+          "date": "2026-08-30T11:15:19Z"
+        },
         {
           "sha": "4c20e26",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-30T09:07:31Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-30T06:06:11Z)",
           "author": "daeguru",
           "date": "2026-08-30T06:06:11Z"
-        },
-        {
-          "sha": "56642c2",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-30T03:07:35Z)",
-          "author": "daeguru",
-          "date": "2026-08-30T03:07:36Z"
-        },
-        {
-          "sha": "2853fdc",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-30T00:07:03Z)",
-          "author": "daeguru",
-          "date": "2026-08-30T00:07:03Z"
         }
       ],
       "recent_prs": [
@@ -466,11 +466,17 @@
       "slug": "Daegu-Agent-Crew/team-memory",
       "name": "team-memory",
       "private": true,
-      "open_issues": 3,
+      "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-08-30T05:18:03Z",
-      "pushed_at": "2026-08-30T05:17:39Z",
+      "updated_at": "2026-08-30T11:18:44Z",
+      "pushed_at": "2026-08-30T11:17:56Z",
       "recent_commits": [
+        {
+          "sha": "39f9d50",
+          "message": "lesson #153: approval is not merge — define the merger (DAC 스튜디오 리포트 153회차)",
+          "author": "sfex11",
+          "date": "2026-08-30T11:17:56Z"
+        },
         {
           "sha": "fd9d474",
           "message": "lesson #152: a scheduled failure becomes data (DAC 스튜디오 리포트 152회차)",
@@ -494,12 +500,6 @@
           "message": "lesson #149: commit message is a claim, file list is evidence (DAC 스튜디오 리포트 149회차)",
           "author": "sfex11",
           "date": "2026-08-29T11:15:17Z"
-        },
-        {
-          "sha": "814b3d0",
-          "message": "lesson #148: 원샷은 할 일 부재의 증상 — 이어진 큐는 사이클을 만든다 (DAC 스튜디오 리포트 148회차)",
-          "author": "sfex11",
-          "date": "2026-08-29T05:13:05Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #153: approval is not merge — define the merger (DAC 스튜디오 리포트 153회차)",
+      "sha": "39f9d50",
+      "date": "2026-08-30T11:17:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/39f9d506952d06f71f34920a2e7299d7fd652c86"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac report 153 diagram: appointment-keeping line (5 stages)",
+      "sha": "a776f9a",
+      "date": "2026-08-30T11:17:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a776f9a41cd248bded95959638c9c252bd32dd54"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-08-30T11:15:19Z)",
+      "sha": "d77cf73",
+      "date": "2026-08-30T11:15:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d77cf7334daf5f1323079cde9e9c0d08042d7fa5"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-30T09:07:31Z)",
@@ -642,24 +669,6 @@
       "sha": "91a9e0f",
       "date": "2026-08-30T05:04:51Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/91a9e0f8151317c94976b12edbdb68dc1ed6617a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-30T03:07:35Z)",
-      "sha": "56642c2",
-      "date": "2026-08-30T03:07:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/56642c256f42cae2d247a2fc1914691256bb43ac"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-30T00:07:03Z)",
-      "sha": "2853fdc",
-      "date": "2026-08-30T00:07:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2853fdca963ae277d19df764f95a125bbce0ffac"
     },
     {
       "type": "commit",
@@ -706,15 +715,6 @@
       "sha": "07a202d",
       "date": "2026-08-29T11:15:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/07a202d37ac784f7d09ca47bfcf623ab372657ca"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #148: 원샷은 할 일 부재의 증상 — 이어진 큐는 사이클을 만든다 (DAC 스튜디오 리포트 148회차)",
-      "sha": "814b3d0",
-      "date": "2026-08-29T05:13:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/814b3d028e7266c2803d2faef5c67ced7b07b34d"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 22,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
