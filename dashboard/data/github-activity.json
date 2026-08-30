@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-30T12:06:28Z",
-  "since": "2026-07-31T12:05:39Z",
+  "generated": "2026-08-30T14:13:57Z",
+  "since": "2026-07-31T14:13:23Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-30T11:18:27Z",
-      "pushed_at": "2026-08-30T11:17:54Z",
+      "updated_at": "2026-08-30T12:08:58Z",
+      "pushed_at": "2026-08-30T12:06:31Z",
       "recent_commits": [
+        {
+          "sha": "1be232f",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-30T12:06:28Z)",
+          "author": "daeguru",
+          "date": "2026-08-30T12:06:29Z"
+        },
         {
           "sha": "a776f9a",
           "message": "dac report 153 diagram: appointment-keeping line (5 stages)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (cron)",
           "author": "daeguru",
           "date": "2026-08-30T08:14:45Z"
-        },
-        {
-          "sha": "d7a7810",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-30T06:06:11Z)",
-          "author": "daeguru",
-          "date": "2026-08-30T06:06:11Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 2,
       "open_prs": 0,
-      "updated_at": "2026-08-30T05:06:26Z",
-      "pushed_at": "2026-08-30T05:05:55Z",
+      "updated_at": "2026-08-30T14:12:24Z",
+      "pushed_at": "2026-08-30T14:11:59Z",
       "recent_commits": [
+        {
+          "sha": "6d66736",
+          "message": "🔍 2026-08-30: 위키 린트 점검 — 빈 앵커(#)+미존재 앵커 10건 수정",
+          "author": "Renover",
+          "date": "2026-08-30T14:11:17Z"
+        },
         {
           "sha": "91a9e0f",
           "message": "📚 2026-08-30: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-08-28: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-08-28T05:11:04Z"
-        },
-        {
-          "sha": "f56998e",
-          "message": "📰 2026-08-27: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-08-27T23:25:27Z"
         }
       ],
       "recent_prs": []
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🔍 2026-08-30: 위키 린트 점검 — 빈 앵커(#)+미존재 앵커 10건 수정",
+      "sha": "6d66736",
+      "date": "2026-08-30T14:11:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/6d667368b4abf13d6c734a2564d9409539d798ae"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-30T12:06:28Z)",
+      "sha": "1be232f",
+      "date": "2026-08-30T12:06:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1be232f656556afdb5d8c19986153320dee25f8b"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #153: approval is not merge — define the merger (DAC 스튜디오 리포트 153회차)",
@@ -642,15 +660,6 @@
       "sha": "34a4056",
       "date": "2026-08-30T08:14:45Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/34a40561a080f6e0ccfa34aab14a05677ce34dc0"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-30T06:06:11Z)",
-      "sha": "d7a7810",
-      "date": "2026-08-30T06:06:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d7a7810b2eca36b2ad684922e6b76bb127172af2"
     },
     {
       "type": "commit",
@@ -819,15 +828,6 @@
       "sha": "e9a7241",
       "date": "2026-08-28T05:11:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e9a7241f7854a1d24862e7894f089ee676839d4c"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-08-27: 뉴스 수집 (5건)",
-      "sha": "f56998e",
-      "date": "2026-08-27T23:25:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f56998e4f120171d1954df23c3a4ede641ed6bad"
     },
     {
       "type": "commit",
