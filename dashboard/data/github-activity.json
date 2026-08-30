@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-30T17:13:50Z",
-  "since": "2026-07-31T17:13:16Z",
+  "generated": "2026-08-30T20:16:10Z",
+  "since": "2026-07-31T20:15:36Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 279,
+      "open_issues": 280,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-30T15:07:58Z",
-      "pushed_at": "2026-08-30T15:07:12Z",
+      "updated_at": "2026-08-30T17:15:07Z",
+      "pushed_at": "2026-08-30T17:14:38Z",
       "recent_commits": [
+        {
+          "sha": "b1dd3a1",
+          "message": "Update dashboard data: dashboard.json + github-activity (2026-08-31 02:12 KST)",
+          "author": "daeguru",
+          "date": "2026-08-30T17:14:37Z"
+        },
         {
           "sha": "a263dca",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-30T15:07:09Z)",
@@ -85,12 +91,6 @@
           "message": "dac report 153 diagram: appointment-keeping line (5 stages)",
           "author": "sfex11",
           "date": "2026-08-30T11:17:53Z"
-        },
-        {
-          "sha": "d77cf73",
-          "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-08-30T11:15:19Z)",
-          "author": "daeguru",
-          "date": "2026-08-30T11:15:19Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-08-30T11:18:44Z",
-      "pushed_at": "2026-08-30T11:17:56Z",
+      "updated_at": "2026-08-30T17:14:44Z",
+      "pushed_at": "2026-08-30T17:14:14Z",
       "recent_commits": [
+        {
+          "sha": "7d5625e",
+          "message": "lesson #154: line maturity shows in what it self-repairs (DAC 스튜디오 리포트 154)",
+          "author": "sfex11",
+          "date": "2026-08-30T17:14:14Z"
+        },
         {
           "sha": "39f9d50",
           "message": "lesson #153: approval is not merge — define the merger (DAC 스튜디오 리포트 153회차)",
@@ -494,12 +500,6 @@
           "message": "lesson #150: pushed_at owner may be a branch, not main (DAC 스튜디오 리포트 150회차)",
           "author": "sfex11",
           "date": "2026-08-29T17:10:39Z"
-        },
-        {
-          "sha": "07a202d",
-          "message": "lesson #149: commit message is a claim, file list is evidence (DAC 스튜디오 리포트 149회차)",
-          "author": "sfex11",
-          "date": "2026-08-29T11:15:17Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "Update dashboard data: dashboard.json + github-activity (2026-08-31 02:12 KST)",
+      "sha": "b1dd3a1",
+      "date": "2026-08-30T17:14:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b1dd3a165d8938f35c4f81c1eb16d06b6219e88f"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #154: line maturity shows in what it self-repairs (DAC 스튜디오 리포트 154)",
+      "sha": "7d5625e",
+      "date": "2026-08-30T17:14:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7d5625e625e97812e90af0401669f7835c1f1b44"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-30T15:07:09Z)",
       "sha": "a263dca",
       "date": "2026-08-30T15:07:09Z",
@@ -651,15 +669,6 @@
       "sha": "a776f9a",
       "date": "2026-08-30T11:17:53Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a776f9a41cd248bded95959638c9c252bd32dd54"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-08-30T11:15:19Z)",
-      "sha": "d77cf73",
-      "date": "2026-08-30T11:15:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d77cf7334daf5f1323079cde9e9c0d08042d7fa5"
     },
     {
       "type": "commit",
@@ -715,15 +724,6 @@
       "sha": "dc3faf8",
       "date": "2026-08-29T14:34:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/dc3faf8956440114dcc446ba5729921d0329fe62"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #149: commit message is a claim, file list is evidence (DAC 스튜디오 리포트 149회차)",
-      "sha": "07a202d",
-      "date": "2026-08-29T11:15:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/07a202d37ac784f7d09ca47bfcf623ab372657ca"
     },
     {
       "type": "commit",
