@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-31T08:14:15Z",
-  "since": "2026-08-01T08:13:40Z",
+  "generated": "2026-08-31T13:49:53Z",
+  "since": "2026-08-01T13:49:07Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 280,
+      "open_issues": 281,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-31T02:14:41Z",
-      "pushed_at": "2026-08-31T02:14:37Z",
+      "updated_at": "2026-08-31T13:45:36Z",
+      "pushed_at": "2026-08-31T13:38:17Z",
       "recent_commits": [
+        {
+          "sha": "f07a4ea",
+          "message": "dac-155-diagram: 라인의 자기 관리 성숙 사다리 3단계 (시간표→숙제 장부→자가 수리)",
+          "author": "sfex11",
+          "date": "2026-08-31T13:38:16Z"
+        },
+        {
+          "sha": "51df4df",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-08-31T08:14:39Z"
+        },
         {
           "sha": "ce0ecbf",
           "message": "dashboard: update dashboard.json 및 github-activity.json",
@@ -79,18 +91,6 @@
           "message": "Update dashboard data: dashboard.json + github-activity (2026-08-31 02:12 KST)",
           "author": "daeguru",
           "date": "2026-08-30T17:14:37Z"
-        },
-        {
-          "sha": "a263dca",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-30T15:07:09Z)",
-          "author": "daeguru",
-          "date": "2026-08-30T15:07:09Z"
-        },
-        {
-          "sha": "fd3ab8b",
-          "message": "chore: update dashboard data (github activity + dashboard.json)",
-          "author": "daeguru",
-          "date": "2026-08-30T14:14:37Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-08-30T17:14:44Z",
-      "pushed_at": "2026-08-30T17:14:14Z",
+      "updated_at": "2026-08-31T13:49:27Z",
+      "pushed_at": "2026-08-31T13:40:09Z",
       "recent_commits": [
+        {
+          "sha": "3a03570",
+          "message": "교훈 #155: 활성 신호는 main보다 브랜치·PR에서 먼저 보인다 (155회차)",
+          "author": "sfex11",
+          "date": "2026-08-31T13:40:09Z"
+        },
         {
           "sha": "7d5625e",
           "message": "lesson #154: line maturity shows in what it self-repairs (DAC 스튜디오 리포트 154)",
@@ -494,12 +500,6 @@
           "message": "lesson #151: actor identity via style, timezone notation, channel (DAC 스튜디오 리포트 151회차)",
           "author": "sfex11",
           "date": "2026-08-29T23:08:49Z"
-        },
-        {
-          "sha": "cb7a0d0",
-          "message": "lesson #150: pushed_at owner may be a branch, not main (DAC 스튜디오 리포트 150회차)",
-          "author": "sfex11",
-          "date": "2026-08-29T17:10:39Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #155: 활성 신호는 main보다 브랜치·PR에서 먼저 보인다 (155회차)",
+      "sha": "3a03570",
+      "date": "2026-08-31T13:40:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3a03570131b498f2fea9b9ca52cf2e1de7741162"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac-155-diagram: 라인의 자기 관리 성숙 사다리 3단계 (시간표→숙제 장부→자가 수리)",
+      "sha": "f07a4ea",
+      "date": "2026-08-31T13:38:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f07a4ea3f39987bdf283dfa47a566ea107216038"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json",
+      "sha": "51df4df",
+      "date": "2026-08-31T08:14:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/51df4df75d4e8a7597bb8a7d89b5726d3446fce6"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-08-31: 위키 갱신 (2개)",
@@ -645,24 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-30T15:07:09Z)",
-      "sha": "a263dca",
-      "date": "2026-08-30T15:07:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a263dca8edef222acc2dfa8f22804af826560459"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (github activity + dashboard.json)",
-      "sha": "fd3ab8b",
-      "date": "2026-08-30T14:14:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fd3ab8be88bf66bb087b17f8cc27b045820a61d4"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🔍 2026-08-30: 위키 린트 점검 — 빈 앵커(#)+미존재 앵커 10건 수정",
@@ -705,15 +714,6 @@
       "sha": "b197f64",
       "date": "2026-08-29T23:08:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b197f643654ead4c3e0d3aa9f7dcec47708fed5f"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #150: pushed_at owner may be a branch, not main (DAC 스튜디오 리포트 150회차)",
-      "sha": "cb7a0d0",
-      "date": "2026-08-29T17:10:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cb7a0d0efe32c7696ae1916e271dba024fa6d7b1"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 22,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
