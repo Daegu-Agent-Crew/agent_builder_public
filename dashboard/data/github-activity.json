@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-31T13:49:53Z",
-  "since": "2026-08-01T13:49:07Z",
+  "generated": "2026-08-31T14:14:00Z",
+  "since": "2026-08-01T14:13:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-31T13:45:36Z",
-      "pushed_at": "2026-08-31T13:38:17Z",
+      "updated_at": "2026-08-31T13:57:09Z",
+      "pushed_at": "2026-08-31T13:49:57Z",
       "recent_commits": [
+        {
+          "sha": "232f0da",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-31T13:49:53Z)",
+          "author": "daeguru",
+          "date": "2026-08-31T13:49:54Z"
+        },
         {
           "sha": "f07a4ea",
           "message": "dac-155-diagram: 라인의 자기 관리 성숙 사다리 3단계 (시간표→숙제 장부→자가 수리)",
@@ -85,12 +91,6 @@
           "message": "Update dashboard data: dashboard.json + github-activity (2026-08-31 05:12 KST)",
           "author": "daeguru",
           "date": "2026-08-30T20:16:29Z"
-        },
-        {
-          "sha": "b1dd3a1",
-          "message": "Update dashboard data: dashboard.json + github-activity (2026-08-31 02:12 KST)",
-          "author": "daeguru",
-          "date": "2026-08-30T17:14:37Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-31T13:49:53Z)",
+      "sha": "232f0da",
+      "date": "2026-08-31T13:49:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/232f0dae42a865f47c0379fcd654b3b7220e1ec8"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #155: 활성 신호는 main보다 브랜치·PR에서 먼저 보인다 (155회차)",
@@ -651,15 +660,6 @@
       "sha": "7dd138a",
       "date": "2026-08-30T20:16:29Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7dd138a61c7d483f4dcea7a5b9fc5a22feecd98a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard data: dashboard.json + github-activity (2026-08-31 02:12 KST)",
-      "sha": "b1dd3a1",
-      "date": "2026-08-30T17:14:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b1dd3a165d8938f35c4f81c1eb16d06b6219e88f"
     },
     {
       "type": "commit",
