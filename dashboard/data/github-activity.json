@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-30T20:16:10Z",
-  "since": "2026-07-31T20:15:36Z",
+  "generated": "2026-08-31T02:14:23Z",
+  "since": "2026-08-01T02:13:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-30T17:15:07Z",
-      "pushed_at": "2026-08-30T17:14:38Z",
+      "updated_at": "2026-08-30T20:16:53Z",
+      "pushed_at": "2026-08-30T20:16:31Z",
       "recent_commits": [
+        {
+          "sha": "7dd138a",
+          "message": "Update dashboard data: dashboard.json + github-activity (2026-08-31 05:12 KST)",
+          "author": "daeguru",
+          "date": "2026-08-30T20:16:29Z"
+        },
         {
           "sha": "b1dd3a1",
           "message": "Update dashboard data: dashboard.json + github-activity (2026-08-31 02:12 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-30T12:06:28Z)",
           "author": "daeguru",
           "date": "2026-08-30T12:06:29Z"
-        },
-        {
-          "sha": "a776f9a",
-          "message": "dac report 153 diagram: appointment-keeping line (5 stages)",
-          "author": "sfex11",
-          "date": "2026-08-30T11:17:53Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "Update dashboard data: dashboard.json + github-activity (2026-08-31 05:12 KST)",
+      "sha": "7dd138a",
+      "date": "2026-08-30T20:16:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7dd138a61c7d483f4dcea7a5b9fc5a22feecd98a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "Update dashboard data: dashboard.json + github-activity (2026-08-31 02:12 KST)",
       "sha": "b1dd3a1",
       "date": "2026-08-30T17:14:37Z",
@@ -660,15 +669,6 @@
       "sha": "39f9d50",
       "date": "2026-08-30T11:17:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/39f9d506952d06f71f34920a2e7299d7fd652c86"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac report 153 diagram: appointment-keeping line (5 stages)",
-      "sha": "a776f9a",
-      "date": "2026-08-30T11:17:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a776f9a41cd248bded95959638c9c252bd32dd54"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
