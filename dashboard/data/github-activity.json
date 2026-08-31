@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-31T18:05:53Z",
-  "since": "2026-08-01T18:05:06Z",
+  "generated": "2026-08-31T20:13:55Z",
+  "since": "2026-08-01T20:13:22Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 281,
+      "open_issues": 282,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-31T15:21:23Z",
-      "pushed_at": "2026-08-31T15:05:50Z",
+      "updated_at": "2026-08-31T19:36:06Z",
+      "pushed_at": "2026-08-31T19:35:17Z",
       "recent_commits": [
+        {
+          "sha": "f681973",
+          "message": "dac-156-diagram upload (작업대와 창고)",
+          "author": "sfex11",
+          "date": "2026-08-31T19:35:16Z"
+        },
+        {
+          "sha": "140732b",
+          "message": "chore(dashboard): auto-refresh github activity (2026-08-31T18:05:53Z)",
+          "author": "daeguru",
+          "date": "2026-08-31T18:05:53Z"
+        },
         {
           "sha": "4f86ef8",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-31T15:05:46Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-31T13:49:53Z)",
           "author": "daeguru",
           "date": "2026-08-31T13:49:54Z"
-        },
-        {
-          "sha": "f07a4ea",
-          "message": "dac-155-diagram: 라인의 자기 관리 성숙 사다리 3단계 (시간표→숙제 장부→자가 수리)",
-          "author": "sfex11",
-          "date": "2026-08-31T13:38:16Z"
-        },
-        {
-          "sha": "51df4df",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-08-31T08:14:39Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-08-31T13:49:27Z",
-      "pushed_at": "2026-08-31T13:40:09Z",
+      "updated_at": "2026-08-31T19:59:14Z",
+      "pushed_at": "2026-08-31T19:37:15Z",
       "recent_commits": [
+        {
+          "sha": "b21deeb",
+          "message": "교훈 #156: 병목은 산출에서 반영으로 이동 (156회차)",
+          "author": "sfex11",
+          "date": "2026-08-31T19:37:14Z"
+        },
         {
           "sha": "3a03570",
           "message": "교훈 #155: 활성 신호는 main보다 브랜치·PR에서 먼저 보인다 (155회차)",
@@ -494,12 +500,6 @@
           "message": "lesson #152: a scheduled failure becomes data (DAC 스튜디오 리포트 152회차)",
           "author": "sfex11",
           "date": "2026-08-30T05:17:39Z"
-        },
-        {
-          "sha": "b197f64",
-          "message": "lesson #151: actor identity via style, timezone notation, channel (DAC 스튜디오 리포트 151회차)",
-          "author": "sfex11",
-          "date": "2026-08-29T23:08:49Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #156: 병목은 산출에서 반영으로 이동 (156회차)",
+      "sha": "b21deeb",
+      "date": "2026-08-31T19:37:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b21deeb3d96a8b740915ef3f830fa90aa9c34e9d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac-156-diagram upload (작업대와 창고)",
+      "sha": "f681973",
+      "date": "2026-08-31T19:35:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f681973595d1b4ff6c33d26ba8b6c6ac45097951"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-08-31T18:05:53Z)",
+      "sha": "140732b",
+      "date": "2026-08-31T18:05:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/140732b6ca8f4764cda1240b81ab769d586da671"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-08-31T15:05:46Z)",
@@ -633,24 +660,6 @@
       "sha": "3a03570",
       "date": "2026-08-31T13:40:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3a03570131b498f2fea9b9ca52cf2e1de7741162"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-155-diagram: 라인의 자기 관리 성숙 사다리 3단계 (시간표→숙제 장부→자가 수리)",
-      "sha": "f07a4ea",
-      "date": "2026-08-31T13:38:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f07a4ea3f39987bdf283dfa47a566ea107216038"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json",
-      "sha": "51df4df",
-      "date": "2026-08-31T08:14:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/51df4df75d4e8a7597bb8a7d89b5726d3446fce6"
     },
     {
       "type": "commit",
@@ -705,15 +714,6 @@
       "sha": "91a9e0f",
       "date": "2026-08-30T05:04:51Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/91a9e0f8151317c94976b12edbdb68dc1ed6617a"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #151: actor identity via style, timezone notation, channel (DAC 스튜디오 리포트 151회차)",
-      "sha": "b197f64",
-      "date": "2026-08-29T23:08:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b197f643654ead4c3e0d3aa9f7dcec47708fed5f"
     },
     {
       "type": "pr",
