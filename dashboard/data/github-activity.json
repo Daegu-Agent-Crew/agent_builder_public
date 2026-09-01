@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-01T21:08:49Z",
-  "since": "2026-08-02T21:07:45Z",
+  "generated": "2026-09-01T23:13:48Z",
+  "since": "2026-08-02T23:13:13Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 286,
+      "open_issues": 287,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-01T18:12:54Z",
-      "pushed_at": "2026-09-01T18:05:55Z",
+      "updated_at": "2026-09-01T21:09:03Z",
+      "pushed_at": "2026-09-01T21:08:59Z",
       "recent_commits": [
+        {
+          "sha": "53abacb",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-01T21:08:49Z)",
+          "author": "daeguru",
+          "date": "2026-09-01T21:08:56Z"
+        },
+        {
+          "sha": "11b7ef8",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-01T21:08:21Z)",
+          "author": "daeguru",
+          "date": "2026-09-01T21:08:21Z"
+        },
         {
           "sha": "5a8e8b4",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-01T18:05:52Z)",
@@ -79,18 +91,6 @@
           "message": "assets: DAC studio report #160 diagram (activity iceberg)",
           "author": "sfex11",
           "date": "2026-09-01T17:06:22Z"
-        },
-        {
-          "sha": "3de5531",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-01T15:08:15Z)",
-          "author": "daeguru",
-          "date": "2026-09-01T15:08:15Z"
-        },
-        {
-          "sha": "930e186",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-01T12:05:54Z)",
-          "author": "daeguru",
-          "date": "2026-09-01T12:05:55Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-01T17:26:20Z",
-      "pushed_at": "2026-09-01T17:07:49Z",
+      "updated_at": "2026-09-01T23:08:56Z",
+      "pushed_at": "2026-09-01T23:08:45Z",
       "recent_commits": [
+        {
+          "sha": "46f2ae2",
+          "message": "교훈 #161: 부활 판정은 세 번째 산출에서 — 원샷과 리듬을 가르는 기준 (161회차)",
+          "author": "sfex11",
+          "date": "2026-09-01T23:08:45Z"
+        },
         {
           "sha": "73243d0",
           "message": "lesson #160: verify credential propagation before blaming the API",
@@ -494,12 +500,6 @@
           "message": "교훈 #157: 24h 정밀 간격은 예약의 지문 (157회차)",
           "author": "sfex11",
           "date": "2026-08-31T23:00:21Z"
-        },
-        {
-          "sha": "b21deeb",
-          "message": "교훈 #156: 병목은 산출에서 반영으로 이동 (156회차)",
-          "author": "sfex11",
-          "date": "2026-08-31T19:37:14Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #161: 부활 판정은 세 번째 산출에서 — 원샷과 리듬을 가르는 기준 (161회차)",
+      "sha": "46f2ae2",
+      "date": "2026-09-01T23:08:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/46f2ae25364701fe7d758a0253b971d83b7606ac"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-01T21:08:49Z)",
+      "sha": "53abacb",
+      "date": "2026-09-01T21:08:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/53abacb305b9eb2577fd7b0819291949f777c66d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-01T21:08:21Z)",
+      "sha": "11b7ef8",
+      "date": "2026-09-01T21:08:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/11b7ef874c34f8ed3e16334ab2ec15cf41a24658"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-01T18:05:52Z)",
@@ -636,24 +663,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-01T15:08:15Z)",
-      "sha": "3de5531",
-      "date": "2026-09-01T15:08:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3de553157352600031242c1f00cdd747a680e909"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-01T12:05:54Z)",
-      "sha": "930e186",
-      "date": "2026-09-01T12:05:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/930e1864e28747c22c2fec02e9aa6169e4edf3fb"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lessons: add #159 (2026-09-01) — pushed_at signal vs branch reality",
@@ -687,15 +696,6 @@
       "sha": "90772f4",
       "date": "2026-08-31T23:00:21Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/90772f46f17197c8703da751f84b23d11c1aaa02"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #156: 병목은 산출에서 반영으로 이동 (156회차)",
-      "sha": "b21deeb",
-      "date": "2026-08-31T19:37:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b21deeb3d96a8b740915ef3f830fa90aa9c34e9d"
     },
     {
       "type": "commit",

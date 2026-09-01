@@ -9,7 +9,7 @@ This project has 6 source record(s) in team memory. [source: context/records/pro
 ## Source Records
 
 - 삼체문제 재미 요소 분석 (v2) (2026-06-11, research-note, renover) [source: context/records/projects/three-body-comic/2026-06-11-three-body-fun-factors.md]
-- Untitled (2026-06-12, unknown source, unknown member) [source: context/records/projects/three-body-comic/2026-06-12-prd-v2-intent-alignment-decisions.md]
+- PRD v2 Intent 정렬 결정 (2026-06-12, meeting-note, sfex11) [source: context/records/projects/three-body-comic/2026-06-12-prd-v2-intent-alignment-decisions.md]
 - 삼체 만화 프로젝트 세팅 및 EP001 대본 완성 (2026-06-12, codex-session, sfex11) [source: context/records/projects/three-body-comic/2026-06-12-project-setup-ep001-script.md]
 - 삼체 만화 레노버 에이전트 환경 설정 개선 (2026-06-12, codex-session, sfex11) [source: context/records/projects/three-body-comic/2026-06-12-renover-env-setup.md]
 - 삼체 만화 전략 문서 검토 (2026-06-12, external-doc, sfex11) [source: context/records/projects/three-body-comic/2026-06-12-strategy-doc-review.md]
