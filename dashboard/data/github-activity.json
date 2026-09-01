@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-01T11:14:12Z",
-  "since": "2026-08-02T11:13:38Z",
+  "generated": "2026-09-01T12:05:54Z",
+  "since": "2026-08-02T12:05:06Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-01T11:09:06Z",
-      "pushed_at": "2026-09-01T11:07:55Z",
+      "updated_at": "2026-09-01T11:15:59Z",
+      "pushed_at": "2026-09-01T11:14:35Z",
       "recent_commits": [
+        {
+          "sha": "98d46e2",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-09-01T11:14:34Z"
+        },
         {
           "sha": "71a0f09",
           "message": "assets: add dac-159-diagram (Explorer x Falsifier design method)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json [auto]",
           "author": "daeguru",
           "date": "2026-09-01T08:15:38Z"
-        },
-        {
-          "sha": "0099e21",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-01T06:06:46Z)",
-          "author": "daeguru",
-          "date": "2026-09-01T06:06:46Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json",
+      "sha": "98d46e2",
+      "date": "2026-09-01T11:14:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/98d46e265099a6d58d6207dcddfaf6200b30c358"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lessons: add #159 (2026-09-01) — pushed_at signal vs branch reality",
@@ -642,15 +651,6 @@
       "sha": "0461565",
       "date": "2026-09-01T08:15:38Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/04615655e5c9d300e3c6e3aaeac9a8ce69b76abd"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-01T06:06:46Z)",
-      "sha": "0099e21",
-      "date": "2026-09-01T06:06:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0099e21f7f81306d597361f0277f2e15f514cb19"
     },
     {
       "type": "commit",
