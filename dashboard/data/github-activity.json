@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-01T00:05:46Z",
-  "since": "2026-08-02T00:04:57Z",
+  "generated": "2026-09-01T03:08:13Z",
+  "since": "2026-08-02T03:07:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-31T23:15:12Z",
-      "pushed_at": "2026-08-31T23:14:27Z",
+      "updated_at": "2026-09-01T02:16:35Z",
+      "pushed_at": "2026-09-01T02:15:57Z",
       "recent_commits": [
+        {
+          "sha": "15ace71",
+          "message": "chore(dashboard): regenerate dashboard.json",
+          "author": "daeguru",
+          "date": "2026-09-01T02:15:51Z"
+        },
+        {
+          "sha": "8298e71",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-01T00:05:46Z)",
+          "author": "daeguru",
+          "date": "2026-09-01T00:05:47Z"
+        },
         {
           "sha": "7c35164",
           "message": "dashboard: regenerate dashboard.json and github-activity (2026-09-01)",
@@ -79,18 +91,6 @@
           "message": "chore: update dashboard data (github activity)",
           "author": "daeguru",
           "date": "2026-08-31T20:14:13Z"
-        },
-        {
-          "sha": "f681973",
-          "message": "dac-156-diagram upload (작업대와 창고)",
-          "author": "sfex11",
-          "date": "2026-08-31T19:35:16Z"
-        },
-        {
-          "sha": "140732b",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-31T18:05:53Z)",
-          "author": "daeguru",
-          "date": "2026-08-31T18:05:53Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): regenerate dashboard.json",
+      "sha": "15ace71",
+      "date": "2026-09-01T02:15:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/15ace71260e0b5096158b784066403f8a27d67b5"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-01T00:05:46Z)",
+      "sha": "8298e71",
+      "date": "2026-09-01T00:05:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8298e71d2a905239fbb1e280f197ac2022db4607"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "dashboard: regenerate dashboard.json and github-activity (2026-09-01)",
       "sha": "7c35164",
       "date": "2026-08-31T23:14:25Z",
@@ -642,24 +660,6 @@
       "sha": "b21deeb",
       "date": "2026-08-31T19:37:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b21deeb3d96a8b740915ef3f830fa90aa9c34e9d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-156-diagram upload (작업대와 창고)",
-      "sha": "f681973",
-      "date": "2026-08-31T19:35:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f681973595d1b4ff6c33d26ba8b6c6ac45097951"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-31T18:05:53Z)",
-      "sha": "140732b",
-      "date": "2026-08-31T18:05:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/140732b6ca8f4764cda1240b81ab769d586da671"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
