@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-01T03:08:13Z",
-  "since": "2026-08-02T03:07:25Z",
+  "generated": "2026-09-01T05:14:14Z",
+  "since": "2026-08-02T05:13:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 283,
+      "open_issues": 284,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-01T02:16:35Z",
-      "pushed_at": "2026-09-01T02:15:57Z",
+      "updated_at": "2026-09-01T03:08:39Z",
+      "pushed_at": "2026-09-01T03:08:16Z",
       "recent_commits": [
+        {
+          "sha": "708a9d9",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-01T03:08:13Z)",
+          "author": "daeguru",
+          "date": "2026-09-01T03:08:13Z"
+        },
         {
           "sha": "15ace71",
           "message": "chore(dashboard): regenerate dashboard.json",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-31T21:05:42Z)",
           "author": "daeguru",
           "date": "2026-08-31T21:05:42Z"
-        },
-        {
-          "sha": "3e66350",
-          "message": "chore: update dashboard data (github activity)",
-          "author": "daeguru",
-          "date": "2026-08-31T20:14:13Z"
         }
       ],
       "recent_prs": [
@@ -469,8 +469,14 @@
       "open_issues": 4,
       "open_prs": 3,
       "updated_at": "2026-08-31T23:00:35Z",
-      "pushed_at": "2026-08-31T23:00:21Z",
+      "pushed_at": "2026-09-01T05:07:18Z",
       "recent_commits": [
+        {
+          "sha": "533aa22",
+          "message": "lesson #158: 설계 단계 독립 반증자 (DAC 스튜디오 리포트 #158)",
+          "author": "sfex11",
+          "date": "2026-09-01T05:07:18Z"
+        },
         {
           "sha": "90772f4",
           "message": "교훈 #157: 24h 정밀 간격은 예약의 지문 (157회차)",
@@ -494,12 +500,6 @@
           "message": "lesson #154: line maturity shows in what it self-repairs (DAC 스튜디오 리포트 154)",
           "author": "sfex11",
           "date": "2026-08-30T17:14:14Z"
-        },
-        {
-          "sha": "39f9d50",
-          "message": "lesson #153: approval is not merge — define the merger (DAC 스튜디오 리포트 153회차)",
-          "author": "sfex11",
-          "date": "2026-08-30T11:17:56Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #158: 설계 단계 독립 반증자 (DAC 스튜디오 리포트 #158)",
+      "sha": "533aa22",
+      "date": "2026-09-01T05:07:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/533aa2248a3702b77bf821f469fd14cf67233083"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-01T03:08:13Z)",
+      "sha": "708a9d9",
+      "date": "2026-09-01T03:08:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/708a9d9a25e275819f2ce0eaad3a8550fce6a56b"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): regenerate dashboard.json",
@@ -645,15 +663,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (github activity)",
-      "sha": "3e66350",
-      "date": "2026-08-31T20:14:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3e66350fe0f260bb50c422c7b72d5eda4bfc1c33"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #156: 병목은 산출에서 반영으로 이동 (156회차)",
@@ -696,15 +705,6 @@
       "sha": "6d66736",
       "date": "2026-08-30T14:11:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/6d667368b4abf13d6c734a2564d9409539d798ae"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #153: approval is not merge — define the merger (DAC 스튜디오 리포트 153회차)",
-      "sha": "39f9d50",
-      "date": "2026-08-30T11:17:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/39f9d506952d06f71f34920a2e7299d7fd652c86"
     },
     {
       "type": "commit",
