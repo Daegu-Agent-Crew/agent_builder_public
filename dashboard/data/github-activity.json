@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-31T23:13:42Z",
-  "since": "2026-08-01T23:13:10Z",
+  "generated": "2026-09-01T00:05:46Z",
+  "since": "2026-08-02T00:04:57Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-08-31T21:05:52Z",
-      "pushed_at": "2026-08-31T21:05:46Z",
+      "updated_at": "2026-08-31T23:15:12Z",
+      "pushed_at": "2026-08-31T23:14:27Z",
       "recent_commits": [
+        {
+          "sha": "7c35164",
+          "message": "dashboard: regenerate dashboard.json and github-activity (2026-09-01)",
+          "author": "daeguru",
+          "date": "2026-08-31T23:14:25Z"
+        },
         {
           "sha": "d3bb6f6",
           "message": "chore(dashboard): auto-refresh github activity (2026-08-31T21:05:42Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-08-31T18:05:53Z)",
           "author": "daeguru",
           "date": "2026-08-31T18:05:53Z"
-        },
-        {
-          "sha": "4f86ef8",
-          "message": "chore(dashboard): auto-refresh github activity (2026-08-31T15:05:46Z)",
-          "author": "daeguru",
-          "date": "2026-08-31T15:05:47Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json and github-activity (2026-09-01)",
+      "sha": "7c35164",
+      "date": "2026-08-31T23:14:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7c351648aa9b3e90eb324e77085be563795127ec"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #157: 24h 정밀 간격은 예약의 지문 (157회차)",
@@ -651,15 +660,6 @@
       "sha": "140732b",
       "date": "2026-08-31T18:05:53Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/140732b6ca8f4764cda1240b81ab769d586da671"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-08-31T15:05:46Z)",
-      "sha": "4f86ef8",
-      "date": "2026-08-31T15:05:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4f86ef8e8a764b6a316382ce7cc7c214a1390af4"
     },
     {
       "type": "commit",
