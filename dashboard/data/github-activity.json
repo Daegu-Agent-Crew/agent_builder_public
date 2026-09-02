@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-02T17:13:35Z",
-  "since": "2026-08-03T17:13:00Z",
+  "generated": "2026-09-02T18:07:45Z",
+  "since": "2026-08-03T18:06:53Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-02T15:38:03Z",
-      "pushed_at": "2026-09-02T15:05:53Z",
+      "updated_at": "2026-09-02T17:15:47Z",
+      "pushed_at": "2026-09-02T17:13:56Z",
       "recent_commits": [
+        {
+          "sha": "916adc2",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-09-02T17:13:54Z"
+        },
         {
           "sha": "e3d9149",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-02T15:05:49Z)",
@@ -85,12 +91,6 @@
           "message": "assets: DAC studio report #163 diagram (pre-code gate)",
           "author": "sfex11",
           "date": "2026-09-02T11:08:43Z"
-        },
-        {
-          "sha": "1bffa1c",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-02T09:06:01Z)",
-          "author": "daeguru",
-          "date": "2026-09-02T09:06:01Z"
         }
       ],
       "recent_prs": [
@@ -468,7 +468,7 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-02T11:11:16Z",
+      "updated_at": "2026-09-02T17:24:52Z",
       "pushed_at": "2026-09-02T17:05:15Z",
       "recent_commits": [
         {
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json",
+      "sha": "916adc2",
+      "date": "2026-09-02T17:13:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/916adc2067dde1f7dc999804dfae04c44a8bbcda"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #164: push 지연은 결번이 아니다 (164회차)",
@@ -669,15 +678,6 @@
       "sha": "b8192e3",
       "date": "2026-09-02T11:08:43Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b8192e3fffded8b75afbb59136485cf8ccdb6f3b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-02T09:06:01Z)",
-      "sha": "1bffa1c",
-      "date": "2026-09-02T09:06:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1bffa1cb20a8c703ddc2310543122e3c4c622daf"
     },
     {
       "type": "commit",
