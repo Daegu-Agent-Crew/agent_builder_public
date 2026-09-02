@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-02T11:14:30Z",
-  "since": "2026-08-03T11:13:57Z",
+  "generated": "2026-09-02T12:07:15Z",
+  "since": "2026-08-03T12:06:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-02T11:09:08Z",
-      "pushed_at": "2026-09-02T11:08:44Z",
+      "updated_at": "2026-09-02T11:16:18Z",
+      "pushed_at": "2026-09-02T11:14:47Z",
       "recent_commits": [
+        {
+          "sha": "ec8cbbf",
+          "message": "dashboard: refresh dashboard.json and github-activity (2026-09-02 20:12 KST)",
+          "author": "daeguru",
+          "date": "2026-09-02T11:14:46Z"
+        },
         {
           "sha": "b8192e3",
           "message": "assets: DAC studio report #163 diagram (pre-code gate)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-02T06:08:38Z)",
           "author": "daeguru",
           "date": "2026-09-02T06:08:38Z"
-        },
-        {
-          "sha": "6e6952a",
-          "message": "chore(dashboard): update dashboard.json and github activity",
-          "author": "daeguru",
-          "date": "2026-09-02T05:13:51Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 2,
       "open_prs": 0,
-      "updated_at": "2026-09-01T05:16:19Z",
-      "pushed_at": "2026-09-01T05:15:01Z",
+      "updated_at": "2026-09-02T12:02:58Z",
+      "pushed_at": "2026-09-02T12:02:12Z",
       "recent_commits": [
+        {
+          "sha": "b727486",
+          "message": "📰 2026-09-02: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-09-02T12:02:10Z"
+        },
         {
           "sha": "f30cb8b",
           "message": "📚 2026-09-01: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-08-30: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-08-30T05:04:51Z"
-        },
-        {
-          "sha": "4865192",
-          "message": "📚 2026-08-29: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-08-29T05:07:53Z"
         }
       ],
       "recent_prs": []
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-02: 뉴스 수집 (5건)",
+      "sha": "b727486",
+      "date": "2026-09-02T12:02:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b7274863628b4b424e91ec2c5d4ccf3c1ec39af1"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json and github-activity (2026-09-02 20:12 KST)",
+      "sha": "ec8cbbf",
+      "date": "2026-09-02T11:14:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ec8cbbfc461d8929ef6559e3c2c83bee010f36f9"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #163: 관측 루프는 관측 대상이 소진되면 함께 멈춘다 (163회차)",
@@ -642,15 +660,6 @@
       "sha": "8fbddfe",
       "date": "2026-09-02T06:08:38Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8fbddfeef05b958e15e5db02ce84c3f6f1afb68a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github activity",
-      "sha": "6e6952a",
-      "date": "2026-09-02T05:13:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6e6952a7362ab70b902d9f7223e13b7b26a1227a"
     },
     {
       "type": "commit",
@@ -742,15 +751,6 @@
       "sha": "dc3faf8",
       "date": "2026-08-29T14:34:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/dc3faf8956440114dcc446ba5729921d0329fe62"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-08-29: 위키 갱신 (2개)",
-      "sha": "4865192",
-      "date": "2026-08-29T05:07:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/486519260b32b61613e2c79950dba67769f546a2"
     },
     {
       "type": "pr",
