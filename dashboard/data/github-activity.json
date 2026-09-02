@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-02T15:05:49Z",
-  "since": "2026-08-03T15:04:56Z",
+  "generated": "2026-09-02T17:13:35Z",
+  "since": "2026-08-03T17:13:00Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 289,
+      "open_issues": 290,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-02T12:08:12Z",
-      "pushed_at": "2026-09-02T12:07:19Z",
+      "updated_at": "2026-09-02T15:38:03Z",
+      "pushed_at": "2026-09-02T15:05:53Z",
       "recent_commits": [
+        {
+          "sha": "e3d9149",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-02T15:05:49Z)",
+          "author": "daeguru",
+          "date": "2026-09-02T15:05:49Z"
+        },
         {
           "sha": "ca12499",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-02T12:07:15Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-02T09:06:01Z)",
           "author": "daeguru",
           "date": "2026-09-02T09:06:01Z"
-        },
-        {
-          "sha": "b1188fa",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-02T08:14:47Z"
         }
       ],
       "recent_prs": [
@@ -469,8 +469,14 @@
       "open_issues": 4,
       "open_prs": 3,
       "updated_at": "2026-09-02T11:11:16Z",
-      "pushed_at": "2026-09-02T11:10:19Z",
+      "pushed_at": "2026-09-02T17:05:15Z",
       "recent_commits": [
+        {
+          "sha": "3e12dbc",
+          "message": "교훈 #164: push 지연은 결번이 아니다 (164회차)",
+          "author": "sfex11",
+          "date": "2026-09-02T17:05:15Z"
+        },
         {
           "sha": "0daf0f5",
           "message": "교훈 #163: 관측 루프는 관측 대상이 소진되면 함께 멈춘다 (163회차)",
@@ -494,12 +500,6 @@
           "message": "lesson #160: verify credential propagation before blaming the API",
           "author": "sfex11",
           "date": "2026-09-01T17:07:49Z"
-        },
-        {
-          "sha": "71cb67c",
-          "message": "lessons: add #159 (2026-09-01) — pushed_at signal vs branch reality",
-          "author": "sfex11",
-          "date": "2026-09-01T11:10:29Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #164: push 지연은 결번이 아니다 (164회차)",
+      "sha": "3e12dbc",
+      "date": "2026-09-02T17:05:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3e12dbc89c6b039af5f5aaebf32f3b25ce3796be"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-02T15:05:49Z)",
+      "sha": "e3d9149",
+      "date": "2026-09-02T15:05:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e3d9149de8f7e2da2d1fe9ae333b5773aa707fa5"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-02: 위키 갱신 (2개)",
@@ -663,15 +681,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json",
-      "sha": "b1188fa",
-      "date": "2026-09-02T08:14:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b1188fab53d3c918b70f53c9c09a82bc152983b7"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #162: 설계 가설은 코드 전 검문소에서 심사한다 (162회차)",
@@ -696,15 +705,6 @@
       "sha": "73243d0",
       "date": "2026-09-01T17:07:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/73243d0c1bc4f6e2adb3f643c2c3a2a1934a39b0"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lessons: add #159 (2026-09-01) — pushed_at signal vs branch reality",
-      "sha": "71cb67c",
-      "date": "2026-09-01T11:10:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/71cb67c28c56a98b18ba1c515bf3385b6367b9e7"
     },
     {
       "type": "commit",
