@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-02T18:07:45Z",
-  "since": "2026-08-03T18:06:53Z",
+  "generated": "2026-09-02T21:10:06Z",
+  "since": "2026-08-03T21:09:04Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-02T17:15:47Z",
-      "pushed_at": "2026-09-02T17:13:56Z",
+      "updated_at": "2026-09-02T18:08:28Z",
+      "pushed_at": "2026-09-02T18:07:49Z",
       "recent_commits": [
+        {
+          "sha": "513c557",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-02T18:07:45Z)",
+          "author": "daeguru",
+          "date": "2026-09-02T18:07:46Z"
+        },
         {
           "sha": "916adc2",
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json and github-activity (2026-09-02 20:12 KST)",
           "author": "daeguru",
           "date": "2026-09-02T11:14:46Z"
-        },
-        {
-          "sha": "b8192e3",
-          "message": "assets: DAC studio report #163 diagram (pre-code gate)",
-          "author": "sfex11",
-          "date": "2026-09-02T11:08:43Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-02T18:07:45Z)",
+      "sha": "513c557",
+      "date": "2026-09-02T18:07:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/513c5574cfa88c037e72e3ecc9538cbddb31e2ae"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): update dashboard.json and github-activity.json",
       "sha": "916adc2",
       "date": "2026-09-02T17:13:54Z",
@@ -669,15 +678,6 @@
       "sha": "0daf0f5",
       "date": "2026-09-02T11:10:19Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0daf0f5c5de00884b1467e4415c39648fb3e7637"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "assets: DAC studio report #163 diagram (pre-code gate)",
-      "sha": "b8192e3",
-      "date": "2026-09-02T11:08:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b8192e3fffded8b75afbb59136485cf8ccdb6f3b"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
