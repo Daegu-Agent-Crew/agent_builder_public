@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-02T03:07:18Z",
-  "since": "2026-08-03T03:06:22Z",
+  "generated": "2026-09-02T05:13:39Z",
+  "since": "2026-08-03T05:13:06Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 287,
+      "open_issues": 288,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-02T02:15:22Z",
-      "pushed_at": "2026-09-02T03:05:57Z",
+      "updated_at": "2026-09-02T03:07:40Z",
+      "pushed_at": "2026-09-02T03:07:21Z",
       "recent_commits": [
+        {
+          "sha": "f2738e2",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-02T03:07:18Z)",
+          "author": "daeguru",
+          "date": "2026-09-02T03:07:18Z"
+        },
         {
           "sha": "24b0001",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-02T03:05:54Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: regenerate dashboard.json, wiki, github-activity (2026-09-02 08:1x KST)",
           "author": "daeguru",
           "date": "2026-09-01T23:14:22Z"
-        },
-        {
-          "sha": "cfaf694",
-          "message": "dac-161 diagram: 스스로 사는 라인의 판정 기준 (원샷 vs 같은 간격 3연속)",
-          "author": "sfex11",
-          "date": "2026-09-01T23:14:01Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-01T23:08:56Z",
-      "pushed_at": "2026-09-01T23:08:45Z",
+      "updated_at": "2026-09-02T05:09:26Z",
+      "pushed_at": "2026-09-02T05:07:59Z",
       "recent_commits": [
+        {
+          "sha": "d4aae0f",
+          "message": "교훈 #162: 설계 가설은 코드 전 검문소에서 심사한다 (162회차)",
+          "author": "sfex11",
+          "date": "2026-09-02T05:07:59Z"
+        },
         {
           "sha": "46f2ae2",
           "message": "교훈 #161: 부활 판정은 세 번째 산출에서 — 원샷과 리듬을 가르는 기준 (161회차)",
@@ -494,12 +500,6 @@
           "message": "lesson #158: 설계 단계 독립 반증자 (DAC 스튜디오 리포트 #158)",
           "author": "sfex11",
           "date": "2026-09-01T05:07:18Z"
-        },
-        {
-          "sha": "90772f4",
-          "message": "교훈 #157: 24h 정밀 간격은 예약의 지문 (157회차)",
-          "author": "sfex11",
-          "date": "2026-08-31T23:00:21Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #162: 설계 가설은 코드 전 검문소에서 심사한다 (162회차)",
+      "sha": "d4aae0f",
+      "date": "2026-09-02T05:07:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d4aae0f9cd6a2d855e9f1267f11dcbb49f98a00b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-02T03:07:18Z)",
+      "sha": "f2738e2",
+      "date": "2026-09-02T03:07:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f2738e28515870e1037a4d71f0a6c82e3f755087"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-02T03:05:54Z)",
@@ -633,15 +651,6 @@
       "sha": "130da7b",
       "date": "2026-09-01T23:14:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/130da7bd7d8e7155bc84dc82809063e7c431d8f7"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-161 diagram: 스스로 사는 라인의 판정 기준 (원샷 vs 같은 간격 3연속)",
-      "sha": "cfaf694",
-      "date": "2026-09-01T23:14:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cfaf69454610365117e33766f1cc6e4e0fbae51c"
     },
     {
       "type": "commit",
@@ -687,15 +696,6 @@
       "sha": "533aa22",
       "date": "2026-09-01T05:07:18Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/533aa2248a3702b77bf821f469fd14cf67233083"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #157: 24h 정밀 간격은 예약의 지문 (157회차)",
-      "sha": "90772f4",
-      "date": "2026-08-31T23:00:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/90772f46f17197c8703da751f84b23d11c1aaa02"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
