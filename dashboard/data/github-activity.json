@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-02T21:10:06Z",
-  "since": "2026-08-03T21:09:04Z",
+  "generated": "2026-09-02T23:13:25Z",
+  "since": "2026-08-03T23:12:53Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 290,
+      "open_issues": 291,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-02T18:08:28Z",
-      "pushed_at": "2026-09-02T18:07:49Z",
+      "updated_at": "2026-09-02T23:07:58Z",
+      "pushed_at": "2026-09-02T23:07:32Z",
       "recent_commits": [
+        {
+          "sha": "d92bea3",
+          "message": "dac-165 diagram: 산출물 전달 흐름 (서랍 재고→대기표 PR→창고 머지)",
+          "author": "sfex11",
+          "date": "2026-09-02T23:07:31Z"
+        },
+        {
+          "sha": "80c8790",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-02T21:10:06Z)",
+          "author": "daeguru",
+          "date": "2026-09-02T21:10:07Z"
+        },
         {
           "sha": "513c557",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-02T18:07:45Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-02T15:05:49Z)",
           "author": "daeguru",
           "date": "2026-09-02T15:05:49Z"
-        },
-        {
-          "sha": "ca12499",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-02T12:07:15Z)",
-          "author": "daeguru",
-          "date": "2026-09-02T12:07:15Z"
-        },
-        {
-          "sha": "ec8cbbf",
-          "message": "dashboard: refresh dashboard.json and github-activity (2026-09-02 20:12 KST)",
-          "author": "daeguru",
-          "date": "2026-09-02T11:14:46Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-02T17:24:52Z",
-      "pushed_at": "2026-09-02T17:05:15Z",
+      "updated_at": "2026-09-02T23:08:15Z",
+      "pushed_at": "2026-09-02T23:04:33Z",
       "recent_commits": [
+        {
+          "sha": "80e6233",
+          "message": "교훈 #165: 산출 세션은 전달 형태로 끝낸다 (DAC 165회차)",
+          "author": "sfex11",
+          "date": "2026-09-02T23:04:33Z"
+        },
         {
           "sha": "3e12dbc",
           "message": "교훈 #164: push 지연은 결번이 아니다 (164회차)",
@@ -494,12 +500,6 @@
           "message": "교훈 #161: 부활 판정은 세 번째 산출에서 — 원샷과 리듬을 가르는 기준 (161회차)",
           "author": "sfex11",
           "date": "2026-09-01T23:08:45Z"
-        },
-        {
-          "sha": "73243d0",
-          "message": "lesson #160: verify credential propagation before blaming the API",
-          "author": "sfex11",
-          "date": "2026-09-01T17:07:49Z"
         }
       ],
       "recent_prs": [
@@ -601,6 +601,33 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac-165 diagram: 산출물 전달 흐름 (서랍 재고→대기표 PR→창고 머지)",
+      "sha": "d92bea3",
+      "date": "2026-09-02T23:07:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d92bea36f60ab3a2f0d4afeffb0352e278e9071e"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #165: 산출 세션은 전달 형태로 끝낸다 (DAC 165회차)",
+      "sha": "80e6233",
+      "date": "2026-09-02T23:04:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/80e6233231aa8de19fd174297c69a9d34c7501b9"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-02T21:10:06Z)",
+      "sha": "80c8790",
+      "date": "2026-09-02T21:10:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/80c8790b84dc15126d6f3e817df109d1ea8eb8a9"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-02T18:07:45Z)",
       "sha": "513c557",
@@ -645,30 +672,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-02T12:07:15Z)",
-      "sha": "ca12499",
-      "date": "2026-09-02T12:07:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ca124992de65c31a96983a6f847b49fbc2d44214"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-02: 뉴스 수집 (5건)",
       "sha": "b727486",
       "date": "2026-09-02T12:02:10Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b7274863628b4b424e91ec2c5d4ccf3c1ec39af1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity (2026-09-02 20:12 KST)",
-      "sha": "ec8cbbf",
-      "date": "2026-09-02T11:14:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ec8cbbfc461d8929ef6559e3c2c83bee010f36f9"
     },
     {
       "type": "commit",
@@ -696,15 +705,6 @@
       "sha": "46f2ae2",
       "date": "2026-09-01T23:08:45Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/46f2ae25364701fe7d758a0253b971d83b7606ac"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #160: verify credential propagation before blaming the API",
-      "sha": "73243d0",
-      "date": "2026-09-01T17:07:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/73243d0c1bc4f6e2adb3f643c2c3a2a1934a39b0"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 22,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
