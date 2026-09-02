@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-01T23:13:48Z",
-  "since": "2026-08-02T23:13:13Z",
+  "generated": "2026-09-02T00:06:30Z",
+  "since": "2026-08-03T00:05:23Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-01T21:09:03Z",
-      "pushed_at": "2026-09-01T21:08:59Z",
+      "updated_at": "2026-09-01T23:14:35Z",
+      "pushed_at": "2026-09-01T23:14:32Z",
       "recent_commits": [
+        {
+          "sha": "130da7b",
+          "message": "dashboard: regenerate dashboard.json, wiki, github-activity (2026-09-02 08:1x KST)",
+          "author": "daeguru",
+          "date": "2026-09-01T23:14:22Z"
+        },
+        {
+          "sha": "cfaf694",
+          "message": "dac-161 diagram: 스스로 사는 라인의 판정 기준 (원샷 vs 같은 간격 3연속)",
+          "author": "sfex11",
+          "date": "2026-09-01T23:14:01Z"
+        },
         {
           "sha": "53abacb",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-01T21:08:49Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-01T18:05:52Z)",
           "author": "daeguru",
           "date": "2026-09-01T18:05:53Z"
-        },
-        {
-          "sha": "13cc787",
-          "message": "dashboard: update dashboard.json & github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-01T17:15:00Z"
-        },
-        {
-          "sha": "ebadde4",
-          "message": "assets: DAC studio report #160 diagram (activity iceberg)",
-          "author": "sfex11",
-          "date": "2026-09-01T17:06:22Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json, wiki, github-activity (2026-09-02 08:1x KST)",
+      "sha": "130da7b",
+      "date": "2026-09-01T23:14:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/130da7bd7d8e7155bc84dc82809063e7c431d8f7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac-161 diagram: 스스로 사는 라인의 판정 기준 (원샷 vs 같은 간격 3연속)",
+      "sha": "cfaf694",
+      "date": "2026-09-01T23:14:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cfaf69454610365117e33766f1cc6e4e0fbae51c"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #161: 부활 판정은 세 번째 산출에서 — 원샷과 리듬을 가르는 기준 (161회차)",
@@ -636,30 +654,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json & github-activity.json",
-      "sha": "13cc787",
-      "date": "2026-09-01T17:15:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/13cc787f4ba283478bd29c1097d7bafffd3295b1"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #160: verify credential propagation before blaming the API",
       "sha": "73243d0",
       "date": "2026-09-01T17:07:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/73243d0c1bc4f6e2adb3f643c2c3a2a1934a39b0"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "assets: DAC studio report #160 diagram (activity iceberg)",
-      "sha": "ebadde4",
-      "date": "2026-09-01T17:06:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ebadde4fd1ea3e6a868256d39d68ef265258961b"
     },
     {
       "type": "commit",
