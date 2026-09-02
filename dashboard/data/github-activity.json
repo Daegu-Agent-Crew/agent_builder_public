@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-02T03:05:54Z",
-  "since": "2026-08-03T03:05:06Z",
+  "generated": "2026-09-02T03:07:18Z",
+  "since": "2026-08-03T03:06:22Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-09-02T02:15:22Z",
-      "pushed_at": "2026-09-02T02:15:15Z",
+      "pushed_at": "2026-09-02T03:05:57Z",
       "recent_commits": [
+        {
+          "sha": "24b0001",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-02T03:05:54Z)",
+          "author": "daeguru",
+          "date": "2026-09-02T03:05:54Z"
+        },
         {
           "sha": "27284b9",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-02T02:15:14Z)",
@@ -85,12 +91,6 @@
           "message": "dac-161 diagram: 스스로 사는 라인의 판정 기준 (원샷 vs 같은 간격 3연속)",
           "author": "sfex11",
           "date": "2026-09-01T23:14:01Z"
-        },
-        {
-          "sha": "53abacb",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-01T21:08:49Z)",
-          "author": "daeguru",
-          "date": "2026-09-01T21:08:56Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-02T03:05:54Z)",
+      "sha": "24b0001",
+      "date": "2026-09-02T03:05:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/24b0001328a632b16143d3ae19abcd1263a3fef4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-02T02:15:14Z)",
       "sha": "27284b9",
       "date": "2026-09-02T02:15:14Z",
@@ -642,15 +651,6 @@
       "sha": "46f2ae2",
       "date": "2026-09-01T23:08:45Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/46f2ae25364701fe7d758a0253b971d83b7606ac"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-01T21:08:49Z)",
-      "sha": "53abacb",
-      "date": "2026-09-01T21:08:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/53abacb305b9eb2577fd7b0819291949f777c66d"
     },
     {
       "type": "commit",
