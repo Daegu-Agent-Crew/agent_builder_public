@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-03T12:08:59Z",
-  "since": "2026-08-04T12:07:14Z",
+  "generated": "2026-09-03T12:45:55Z",
+  "since": "2026-08-04T12:45:20Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-03T09:13:04Z",
-      "pushed_at": "2026-09-03T09:06:14Z",
+      "updated_at": "2026-09-03T12:11:39Z",
+      "pushed_at": "2026-09-03T12:09:03Z",
       "recent_commits": [
+        {
+          "sha": "bb95c03",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-03T12:08:59Z)",
+          "author": "daeguru",
+          "date": "2026-09-03T12:08:59Z"
+        },
         {
           "sha": "9313abd",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-03T09:06:11Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-03T06:06:24Z)",
           "author": "daeguru",
           "date": "2026-09-03T06:06:24Z"
-        },
-        {
-          "sha": "7679580",
-          "message": "dashboard: update activity data & wiki (2026-09-03 14:12 KST)",
-          "author": "daeguru",
-          "date": "2026-09-03T05:14:33Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-03T12:08:59Z)",
+      "sha": "bb95c03",
+      "date": "2026-09-03T12:08:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bb95c03729974b181a2ba3c5bbc1815610eb3ba9"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #167 (167회차): 관찰 루프 수명 = 관찰 대상의 재생산 속도",
@@ -642,15 +651,6 @@
       "sha": "3a8830b",
       "date": "2026-09-03T06:06:24Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3a8830b51748cee4566c4c2adf740b7aac1d4e1b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update activity data & wiki (2026-09-03 14:12 KST)",
-      "sha": "7679580",
-      "date": "2026-09-03T05:14:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7679580ef0a18077ee9491aefe39a3c97cc05d30"
     },
     {
       "type": "commit",
