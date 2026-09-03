@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-03T15:45:48Z",
-  "since": "2026-08-04T15:45:16Z",
+  "generated": "2026-09-03T18:06:45Z",
+  "since": "2026-08-04T18:05:51Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 293,
+      "open_issues": 294,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-03T15:09:26Z",
-      "pushed_at": "2026-09-03T15:07:34Z",
+      "updated_at": "2026-09-03T15:52:02Z",
+      "pushed_at": "2026-09-03T15:46:14Z",
       "recent_commits": [
+        {
+          "sha": "e173854",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-09-04 00:46 KST)",
+          "author": "daeguru",
+          "date": "2026-09-03T15:46:12Z"
+        },
         {
           "sha": "b088d22",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-03T15:07:31Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-03T09:06:11Z)",
           "author": "daeguru",
           "date": "2026-09-03T09:06:12Z"
-        },
-        {
-          "sha": "7947719",
-          "message": "dashboard: update activity data & wiki (2026-09-03 17:21 KST)",
-          "author": "daeguru",
-          "date": "2026-09-03T08:22:06Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-03T11:04:49Z",
-      "pushed_at": "2026-09-03T11:04:05Z",
+      "updated_at": "2026-09-03T17:10:53Z",
+      "pushed_at": "2026-09-03T17:05:52Z",
       "recent_commits": [
+        {
+          "sha": "744e498",
+          "message": "교훈 #168 (168회차): 전달 기록은 신호일 뿐 — 수신 측 신호로 발송 완료 판정",
+          "author": "sfex11",
+          "date": "2026-09-03T17:05:52Z"
+        },
         {
           "sha": "c674a74",
           "message": "교훈 #167 (167회차): 관찰 루프 수명 = 관찰 대상의 재생산 속도",
@@ -494,12 +500,6 @@
           "message": "교훈 #164: push 지연은 결번이 아니다 (164회차)",
           "author": "sfex11",
           "date": "2026-09-02T17:05:15Z"
-        },
-        {
-          "sha": "0daf0f5",
-          "message": "교훈 #163: 관측 루프는 관측 대상이 소진되면 함께 멈춘다 (163회차)",
-          "author": "sfex11",
-          "date": "2026-09-02T11:10:19Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #168 (168회차): 전달 기록은 신호일 뿐 — 수신 측 신호로 발송 완료 판정",
+      "sha": "744e498",
+      "date": "2026-09-03T17:05:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/744e4985bbe48e1adde5232436591f6949ee7ab5"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-09-04 00:46 KST)",
+      "sha": "e173854",
+      "date": "2026-09-03T15:46:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e173854ae0d0b66052556a5cd051dd030a4ba21e"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-03T15:07:31Z)",
@@ -645,15 +663,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update activity data & wiki (2026-09-03 17:21 KST)",
-      "sha": "7947719",
-      "date": "2026-09-03T08:22:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7947719a28e92f48413c44a413e1f9f9061b9f15"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #166 (166회차): 라인이 아니라 작업 단위로 맥박을 짚어라",
@@ -696,15 +705,6 @@
       "sha": "b727486",
       "date": "2026-09-02T12:02:10Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b7274863628b4b424e91ec2c5d4ccf3c1ec39af1"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #163: 관측 루프는 관측 대상이 소진되면 함께 멈춘다 (163회차)",
-      "sha": "0daf0f5",
-      "date": "2026-09-02T11:10:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0daf0f5c5de00884b1467e4415c39648fb3e7637"
     },
     {
       "type": "commit",
