@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-04T03:06:42Z",
-  "since": "2026-08-05T03:05:51Z",
+  "generated": "2026-09-04T06:08:25Z",
+  "since": "2026-08-05T06:06:46Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 295,
+      "open_issues": 296,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-04T00:47:09Z",
-      "pushed_at": "2026-09-04T00:47:05Z",
+      "updated_at": "2026-09-04T03:06:51Z",
+      "pushed_at": "2026-09-04T03:06:45Z",
       "recent_commits": [
+        {
+          "sha": "e96ca0c",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-04T03:06:42Z)",
+          "author": "daeguru",
+          "date": "2026-09-04T03:06:42Z"
+        },
         {
           "sha": "7f2ca35",
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-04 09:45 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-03T21:09:34Z)",
           "author": "daeguru",
           "date": "2026-09-03T21:09:40Z"
-        },
-        {
-          "sha": "717bd9e",
-          "message": "dashboard: update dashboard.json and github-activity.json (2026-09-04 03:47 KST)",
-          "author": "daeguru",
-          "date": "2026-09-03T18:46:27Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-03T23:00:47Z",
-      "pushed_at": "2026-09-03T23:00:37Z",
+      "updated_at": "2026-09-04T05:02:39Z",
+      "pushed_at": "2026-09-04T05:02:29Z",
       "recent_commits": [
+        {
+          "sha": "edf3b81",
+          "message": "교훈 #170 (170회차): 두 시계가 아니라 한 세션 — 공변 실측으로 독립 가설 폐기",
+          "author": "sfex11",
+          "date": "2026-09-04T05:02:29Z"
+        },
         {
           "sha": "16e9166",
           "message": "교훈 #169 (169회차): 피드백 효과는 다음 깨어남에서 측정",
@@ -494,12 +500,6 @@
           "message": "교훈 #166 (166회차): 라인이 아니라 작업 단위로 맥박을 짚어라",
           "author": "sfex11",
           "date": "2026-09-03T05:04:49Z"
-        },
-        {
-          "sha": "80e6233",
-          "message": "교훈 #165: 산출 세션은 전달 형태로 끝낸다 (DAC 165회차)",
-          "author": "sfex11",
-          "date": "2026-09-02T23:04:33Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #170 (170회차): 두 시계가 아니라 한 세션 — 공변 실측으로 독립 가설 폐기",
+      "sha": "edf3b81",
+      "date": "2026-09-04T05:02:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/edf3b816d427fd1900904fd5de16e098f849a9a4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-04T03:06:42Z)",
+      "sha": "e96ca0c",
+      "date": "2026-09-04T03:06:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e96ca0c24fc30738dce02d28fe53d207785f4ad2"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-04 09:45 KST)",
@@ -645,15 +663,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (2026-09-04 03:47 KST)",
-      "sha": "717bd9e",
-      "date": "2026-09-03T18:46:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/717bd9e8f85c65a1990aeeca8be7c2147d342a0e"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #168 (168회차): 전달 기록은 신호일 뿐 — 수신 측 신호로 발송 완료 판정",
@@ -678,15 +687,6 @@
       "sha": "7a4e13d",
       "date": "2026-09-03T05:04:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7a4e13d3fa7c97aafbe63a3c3dda20efc1ce3d06"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #165: 산출 세션은 전달 형태로 끝낸다 (DAC 165회차)",
-      "sha": "80e6233",
-      "date": "2026-09-02T23:04:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/80e6233231aa8de19fd174297c69a9d34c7501b9"
     },
     {
       "type": "commit",
