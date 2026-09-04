@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-04T09:46:35Z",
-  "since": "2026-08-05T09:45:54Z",
+  "generated": "2026-09-04T12:07:07Z",
+  "since": "2026-08-05T12:06:07Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 296,
+      "open_issues": 297,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-04T09:06:52Z",
-      "pushed_at": "2026-09-04T09:05:57Z",
+      "updated_at": "2026-09-04T11:12:41Z",
+      "pushed_at": "2026-09-04T11:12:29Z",
       "recent_commits": [
+        {
+          "sha": "3755967",
+          "message": "add dac-171-diagram (세션 단위 산출 vs 두 시계)",
+          "author": "sfex11",
+          "date": "2026-09-04T11:12:28Z"
+        },
+        {
+          "sha": "20db1f8",
+          "message": "docs(dashboard): update dashboard.json and github-activity.json (2026-09-04 18:44 KST)",
+          "author": "daeguru",
+          "date": "2026-09-04T09:46:56Z"
+        },
         {
           "sha": "c6234db",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-04T09:05:54Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-04T06:08:25Z)",
           "author": "daeguru",
           "date": "2026-09-04T06:08:25Z"
-        },
-        {
-          "sha": "e96ca0c",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-04T03:06:42Z)",
-          "author": "daeguru",
-          "date": "2026-09-04T03:06:42Z"
-        },
-        {
-          "sha": "7f2ca35",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-04 09:45 KST)",
-          "author": "daeguru",
-          "date": "2026-09-04T00:47:04Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-04T05:02:39Z",
-      "pushed_at": "2026-09-04T05:02:29Z",
+      "updated_at": "2026-09-04T11:13:35Z",
+      "pushed_at": "2026-09-04T11:13:30Z",
       "recent_commits": [
+        {
+          "sha": "7a15537",
+          "message": "교훈 #171 — 사람의 응답도 세션 단위",
+          "author": "sfex11",
+          "date": "2026-09-04T11:13:30Z"
+        },
         {
           "sha": "edf3b81",
           "message": "교훈 #170 (170회차): 두 시계가 아니라 한 세션 — 공변 실측으로 독립 가설 폐기",
@@ -494,12 +500,6 @@
           "message": "교훈 #167 (167회차): 관찰 루프 수명 = 관찰 대상의 재생산 속도",
           "author": "sfex11",
           "date": "2026-09-03T11:04:05Z"
-        },
-        {
-          "sha": "7a4e13d",
-          "message": "교훈 #166 (166회차): 라인이 아니라 작업 단위로 맥박을 짚어라",
-          "author": "sfex11",
-          "date": "2026-09-03T05:04:49Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #171 — 사람의 응답도 세션 단위",
+      "sha": "7a15537",
+      "date": "2026-09-04T11:13:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7a155375d30ad29433d9caf1bd885432dd0a4c10"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "add dac-171-diagram (세션 단위 산출 vs 두 시계)",
+      "sha": "3755967",
+      "date": "2026-09-04T11:12:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3755967828e2d85d892d1d11cd7490be8fd5884e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "docs(dashboard): update dashboard.json and github-activity.json (2026-09-04 18:44 KST)",
+      "sha": "20db1f8",
+      "date": "2026-09-04T09:46:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/20db1f856881141733f569397ba7030a63184b5a"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-04T09:05:54Z)",
@@ -636,24 +663,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-04T03:06:42Z)",
-      "sha": "e96ca0c",
-      "date": "2026-09-04T03:06:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e96ca0c24fc30738dce02d28fe53d207785f4ad2"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-04 09:45 KST)",
-      "sha": "7f2ca35",
-      "date": "2026-09-04T00:47:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7f2ca35c089d1416587d2419fffd694d12a287e0"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #169 (169회차): 피드백 효과는 다음 깨어남에서 측정",
@@ -678,15 +687,6 @@
       "sha": "c674a74",
       "date": "2026-09-03T11:04:05Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c674a7461a61461162e702098eff685552357e2c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #166 (166회차): 라인이 아니라 작업 단위로 맥박을 짚어라",
-      "sha": "7a4e13d",
-      "date": "2026-09-03T05:04:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7a4e13d3fa7c97aafbe63a3c3dda20efc1ce3d06"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 22,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
