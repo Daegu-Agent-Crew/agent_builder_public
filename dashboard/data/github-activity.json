@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-05T00:46:33Z",
-  "since": "2026-08-06T00:46:01Z",
+  "generated": "2026-09-05T03:06:06Z",
+  "since": "2026-08-06T03:04:53Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-05T00:05:50Z",
-      "pushed_at": "2026-09-05T00:05:46Z",
+      "updated_at": "2026-09-05T00:47:16Z",
+      "pushed_at": "2026-09-05T00:47:13Z",
       "recent_commits": [
+        {
+          "sha": "00ceb8e",
+          "message": "dashboard: 2026-09-05 갱신 (dashboard.json, github-activity.json)",
+          "author": "daeguru",
+          "date": "2026-09-05T00:47:11Z"
+        },
         {
           "sha": "0fc5fc2",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-05T00:05:43Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: 대시보드 및 GitHub 활동 데이터 갱신 (2026-09-05 03:45 KST)",
           "author": "daeguru",
           "date": "2026-09-04T18:45:59Z"
-        },
-        {
-          "sha": "eb35f8a",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-04T18:06:57Z)",
-          "author": "daeguru",
-          "date": "2026-09-04T18:06:58Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-04T17:11:14Z",
-      "pushed_at": "2026-09-04T17:11:06Z",
+      "updated_at": "2026-09-05T00:46:57Z",
+      "pushed_at": "2026-09-05T00:46:53Z",
       "recent_commits": [
+        {
+          "sha": "da7a362",
+          "message": "dashboard: 2026-09-05 갱신",
+          "author": "daeguru",
+          "date": "2026-09-05T00:46:52Z"
+        },
         {
           "sha": "5bc9a1d",
           "message": "lesson #172: 스트릭은 예측 근거가 아니다 (DAC 172회차)",
@@ -494,12 +500,6 @@
           "message": "교훈 #169 (169회차): 피드백 효과는 다음 깨어남에서 측정",
           "author": "sfex11",
           "date": "2026-09-03T23:00:37Z"
-        },
-        {
-          "sha": "744e498",
-          "message": "교훈 #168 (168회차): 전달 기록은 신호일 뿐 — 수신 측 신호로 발송 완료 판정",
-          "author": "sfex11",
-          "date": "2026-09-03T17:05:52Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "dashboard: 2026-09-05 갱신 (dashboard.json, github-activity.json)",
+      "sha": "00ceb8e",
+      "date": "2026-09-05T00:47:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/00ceb8e2e68f58aa867adced11c8f750d34aa096"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "dashboard: 2026-09-05 갱신",
+      "sha": "da7a362",
+      "date": "2026-09-05T00:46:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/da7a362e5ceca01541ecfdaaf88a72b7cf1af481"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-05T00:05:43Z)",
       "sha": "0fc5fc2",
       "date": "2026-09-05T00:05:43Z",
@@ -633,15 +651,6 @@
       "sha": "88a094f",
       "date": "2026-09-04T18:45:59Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/88a094fa78492e921e75594bf6e63bf59acc455d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-04T18:06:57Z)",
-      "sha": "eb35f8a",
-      "date": "2026-09-04T18:06:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/eb35f8a51acc62cb26877b6de5894674499830ea"
     },
     {
       "type": "commit",
@@ -678,15 +687,6 @@
       "sha": "16e9166",
       "date": "2026-09-03T23:00:37Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/16e9166beda25562295ff67190f0d55895156c89"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #168 (168회차): 전달 기록은 신호일 뿐 — 수신 측 신호로 발송 완료 판정",
-      "sha": "744e498",
-      "date": "2026-09-03T17:05:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/744e4985bbe48e1adde5232436591f6949ee7ab5"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 20,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
