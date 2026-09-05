@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-05T00:05:43Z",
-  "since": "2026-08-06T00:04:53Z",
+  "generated": "2026-09-05T00:46:33Z",
+  "since": "2026-08-06T00:46:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-04T21:46:12Z",
-      "pushed_at": "2026-09-04T21:46:08Z",
+      "updated_at": "2026-09-05T00:05:50Z",
+      "pushed_at": "2026-09-05T00:05:46Z",
       "recent_commits": [
+        {
+          "sha": "0fc5fc2",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-05T00:05:43Z)",
+          "author": "daeguru",
+          "date": "2026-09-05T00:05:43Z"
+        },
         {
           "sha": "d211e90",
           "message": "Update dashboard data (2026-09-05 06:45 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-04T18:06:57Z)",
           "author": "daeguru",
           "date": "2026-09-04T18:06:58Z"
-        },
-        {
-          "sha": "2d6dace",
-          "message": "DAC report 172 diagram: 답장은 깨어난 시간에 온다 (사람 응답의 세션 모델)",
-          "author": "sfex11",
-          "date": "2026-09-04T17:09:06Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-05T00:05:43Z)",
+      "sha": "0fc5fc2",
+      "date": "2026-09-05T00:05:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0fc5fc2969a17695d109e1fd921c9a8d5d83b72d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "Update dashboard data (2026-09-05 06:45 KST)",
       "sha": "d211e90",
       "date": "2026-09-04T21:46:07Z",
@@ -642,15 +651,6 @@
       "sha": "5bc9a1d",
       "date": "2026-09-04T17:11:06Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5bc9a1d29a6af9a1f39826add9e10686daa0d3f5"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "DAC report 172 diagram: 답장은 깨어난 시간에 온다 (사람 응답의 세션 모델)",
-      "sha": "2d6dace",
-      "date": "2026-09-04T17:09:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2d6dace7654249b850c5a1d3df16ae669f02d129"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
