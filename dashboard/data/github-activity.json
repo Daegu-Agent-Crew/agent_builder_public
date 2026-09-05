@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-04T21:45:44Z",
-  "since": "2026-08-05T21:45:12Z",
+  "generated": "2026-09-05T00:05:43Z",
+  "since": "2026-08-06T00:04:53Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 298,
+      "open_issues": 299,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-04T21:08:17Z",
-      "pushed_at": "2026-09-04T21:08:13Z",
+      "updated_at": "2026-09-04T21:46:12Z",
+      "pushed_at": "2026-09-04T21:46:08Z",
       "recent_commits": [
+        {
+          "sha": "d211e90",
+          "message": "Update dashboard data (2026-09-05 06:45 KST)",
+          "author": "daeguru",
+          "date": "2026-09-04T21:46:07Z"
+        },
         {
           "sha": "d0e0e32",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-04T21:08:10Z)",
@@ -85,12 +91,6 @@
           "message": "DAC report 172 diagram: 답장은 깨어난 시간에 온다 (사람 응답의 세션 모델)",
           "author": "sfex11",
           "date": "2026-09-04T17:09:06Z"
-        },
-        {
-          "sha": "0d4c8a1",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-04T15:05:43Z)",
-          "author": "daeguru",
-          "date": "2026-09-04T15:05:43Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "Update dashboard data (2026-09-05 06:45 KST)",
+      "sha": "d211e90",
+      "date": "2026-09-04T21:46:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d211e907d6fcb09b1d9b4207b29e7bdfa87fc54a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-04T21:08:10Z)",
       "sha": "d0e0e32",
       "date": "2026-09-04T21:08:10Z",
@@ -642,15 +651,6 @@
       "sha": "2d6dace",
       "date": "2026-09-04T17:09:06Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2d6dace7654249b850c5a1d3df16ae669f02d129"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-04T15:05:43Z)",
-      "sha": "0d4c8a1",
-      "date": "2026-09-04T15:05:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0d4c8a1eb0f1d722fbb67ee9b922450159371d02"
     },
     {
       "type": "commit",
