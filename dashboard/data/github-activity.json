@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-05T06:08:31Z",
-  "since": "2026-08-06T06:07:17Z",
+  "generated": "2026-09-05T06:47:19Z",
+  "since": "2026-08-06T06:46:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-05T03:46:25Z",
-      "pushed_at": "2026-09-05T03:46:21Z",
+      "updated_at": "2026-09-05T06:08:38Z",
+      "pushed_at": "2026-09-05T06:08:34Z",
       "recent_commits": [
+        {
+          "sha": "703dfbb",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-05T06:08:31Z)",
+          "author": "daeguru",
+          "date": "2026-09-05T06:08:31Z"
+        },
         {
           "sha": "f780d4c",
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-05 12:44 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-05T00:05:43Z)",
           "author": "daeguru",
           "date": "2026-09-05T00:05:43Z"
-        },
-        {
-          "sha": "d211e90",
-          "message": "Update dashboard data (2026-09-05 06:45 KST)",
-          "author": "daeguru",
-          "date": "2026-09-04T21:46:07Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-05T06:08:31Z)",
+      "sha": "703dfbb",
+      "date": "2026-09-05T06:08:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/703dfbb45a9af78abe4e924570e4b39601b0b882"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #174: mergeable≠검사합격 — 반영 판정은 체크 결론까지 (174회차)",
@@ -651,15 +660,6 @@
       "sha": "0fc5fc2",
       "date": "2026-09-05T00:05:43Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0fc5fc2969a17695d109e1fd921c9a8d5d83b72d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "Update dashboard data (2026-09-05 06:45 KST)",
-      "sha": "d211e90",
-      "date": "2026-09-04T21:46:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d211e907d6fcb09b1d9b4207b29e7bdfa87fc54a"
     },
     {
       "type": "commit",
