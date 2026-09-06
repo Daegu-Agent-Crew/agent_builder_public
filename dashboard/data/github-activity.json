@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-06T21:05:39Z",
-  "since": "2026-08-07T21:04:53Z",
+  "generated": "2026-09-06T21:45:43Z",
+  "since": "2026-08-07T21:45:11Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-06T20:04:54Z",
-      "pushed_at": "2026-09-06T20:04:50Z",
+      "updated_at": "2026-09-06T21:05:46Z",
+      "pushed_at": "2026-09-06T21:05:42Z",
       "recent_commits": [
+        {
+          "sha": "63c94f7",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-06T21:05:39Z)",
+          "author": "daeguru",
+          "date": "2026-09-06T21:05:39Z"
+        },
         {
           "sha": "3eb2a22",
           "message": "fix: prevent duplicate dashboard activity refreshes (#20)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-06T18:06:36Z)",
           "author": "daeguru",
           "date": "2026-09-06T18:06:37Z"
-        },
-        {
-          "sha": "f6bc2d1",
-          "message": "dac-180-diagram: 깨어남 간격 압축 곡선 (180회차)",
-          "author": "sfex11",
-          "date": "2026-09-06T17:19:42Z"
         }
       ],
       "recent_prs": [
@@ -599,6 +599,15 @@
   ],
   "activity_feed": [
     {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-06T21:05:39Z)",
+      "sha": "63c94f7",
+      "date": "2026-09-06T21:05:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/63c94f796fdd19b620e29bed1ca9427ef0815b61"
+    },
+    {
       "type": "pr",
       "repo": "agent_builder_public",
       "author": "sfex11",
@@ -652,15 +661,6 @@
       "sha": "a91dcf5",
       "date": "2026-09-06T17:22:23Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a91dcf57f942ed46de649e725084f6873c1a899d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-180-diagram: 깨어남 간격 압축 곡선 (180회차)",
-      "sha": "f6bc2d1",
-      "date": "2026-09-06T17:19:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f6bc2d17c08a89002e73417e6c1eeddc801a3335"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 23,
+      "commits": 22,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 4,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
