@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-06T18:45:39Z",
-  "since": "2026-08-07T18:45:07Z",
+  "generated": "2026-09-06T21:05:39Z",
+  "since": "2026-08-07T21:04:53Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 306,
+      "open_issues": 0,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -57,11 +57,23 @@
       "slug": "Daegu-Agent-Crew/agent_builder_public",
       "name": "agent_builder_public",
       "private": false,
-      "open_issues": 11,
+      "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-06T18:07:58Z",
-      "pushed_at": "2026-09-06T18:07:48Z",
+      "updated_at": "2026-09-06T20:04:54Z",
+      "pushed_at": "2026-09-06T20:04:50Z",
       "recent_commits": [
+        {
+          "sha": "3eb2a22",
+          "message": "fix: prevent duplicate dashboard activity refreshes (#20)",
+          "author": "sfex11",
+          "date": "2026-09-06T20:04:50Z"
+        },
+        {
+          "sha": "ac93756",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
+          "author": "daeguru",
+          "date": "2026-09-06T18:45:59Z"
+        },
         {
           "sha": "28b3ed6",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-06T18:07:45Z)",
@@ -79,21 +91,17 @@
           "message": "dac-180-diagram: 깨어남 간격 압축 곡선 (180회차)",
           "author": "sfex11",
           "date": "2026-09-06T17:19:42Z"
-        },
-        {
-          "sha": "da5c99d",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-06T15:08:52Z)",
-          "author": "daeguru",
-          "date": "2026-09-06T15:08:52Z"
-        },
-        {
-          "sha": "b55cbe9",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-09-06 21:46 KST",
-          "author": "daeguru",
-          "date": "2026-09-06T12:46:13Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 20,
+          "title": "fix: prevent duplicate dashboard activity refreshes",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-09-06T20:04:50Z",
+          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/20"
+        },
         {
           "number": 2,
           "title": "feat: project detail page — click project card to see details",
@@ -109,14 +117,6 @@
           "state": "closed",
           "updated_at": "2026-07-20T01:31:34Z",
           "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/3"
-        },
-        {
-          "number": 11,
-          "title": "feat: CLE2-8 Phase 5 — Discord 연동 설계",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-06-27T10:46:54Z",
-          "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/11"
         }
       ]
     },
@@ -599,6 +599,34 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "fix: prevent duplicate dashboard activity refreshes",
+      "number": 20,
+      "state": "closed",
+      "date": "2026-09-06T20:04:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/20"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "fix: prevent duplicate dashboard activity refreshes (#20)",
+      "sha": "3eb2a22",
+      "date": "2026-09-06T20:04:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3eb2a22ed5225c15429a955269a94d592ab9b422"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
+      "sha": "ac93756",
+      "date": "2026-09-06T18:45:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ac93756ba68b3b6d10fca2ce4947a6742de75826"
+    },
+    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -636,30 +664,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-06T15:08:52Z)",
-      "sha": "da5c99d",
-      "date": "2026-09-06T15:08:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/da5c99dd88b4e9c0b2647d8e4aef1b6980d2ddd0"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🔍 2026-09-06: 위키 린트 점검",
       "sha": "2d8394c",
       "date": "2026-09-06T14:08:35Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2d8394c6500452daa9bd83176b8182bf4c0a7c7f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-09-06 21:46 KST",
-      "sha": "b55cbe9",
-      "date": "2026-09-06T12:46:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b55cbe965bdc88d476f3e1fc5f13bb60ae565cbf"
     },
     {
       "type": "commit",
@@ -974,16 +984,6 @@
     },
     {
       "type": "pr",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "feat: CLE2-8 Phase 5 — Discord 연동 설계",
-      "number": 11,
-      "state": "closed",
-      "date": "2026-06-27T10:46:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/11"
-    },
-    {
-      "type": "pr",
       "repo": "election2663-archive-public",
       "author": "ynginkim",
       "message": "Bind to shared Context Tree (Daegu-Agent-Crew/context-tree)",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 23,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 4,
       "prs": 0,
       "issues": 0,
       "reviews": 0
