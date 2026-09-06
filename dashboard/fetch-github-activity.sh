@@ -7,6 +7,33 @@ set -euo pipefail
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 DATA_FILE="$SCRIPT_DIR/data/dashboard.json"
 OUTPUT="$SCRIPT_DIR/data/github-activity.json"
+LOCK_FILE="$SCRIPT_DIR/data/.github-activity-refresh.lock"
+DEBOUNCE_SECONDS=1800
+
+command -v jq >/dev/null 2>&1 || { echo "ERROR: jq not found" >&2; exit 1; }
+command -v curl >/dev/null 2>&1 || { echo "ERROR: curl not found" >&2; exit 1; }
+command -v flock >/dev/null 2>&1 || { echo "ERROR: flock not found" >&2; exit 1; }
+
+mkdir -p "$(dirname "$OUTPUT")"
+exec 9>"$LOCK_FILE"
+if ! flock -n 9; then
+  printf '[%s] SKIP: GitHub activity refresh already running\n' "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >&2
+  exit 0
+fi
+
+# Avoid back-to-back successful refreshes. The lock closes the race where two
+# processes inspect the same previous output before either writes a new one.
+if [ -f "$OUTPUT" ]; then
+  NOW_EPOCH=$(date -u +%s)
+  AGE_SECONDS=$(jq -er --argjson now "$NOW_EPOCH" \
+    '.generated | fromdateiso8601 as $generated | ($now - $generated)' \
+    "$OUTPUT" 2>/dev/null || true)
+  if [[ "$AGE_SECONDS" =~ ^[0-9]+$ ]] && [ "$AGE_SECONDS" -lt "$DEBOUNCE_SECONDS" ]; then
+    printf '[%s] SKIP: last successful GitHub activity refresh was %ss ago (<%ss)\n' \
+      "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" "$AGE_SECONDS" "$DEBOUNCE_SECONDS" >&2
+    exit 0
+  fi
+fi
 
 # Load token
 ENV_FILE="${GITHUB_ENV_FILE:-$HOME/.openclaw/workspace/.env}"
@@ -19,9 +46,6 @@ if [ -z "${GITHUB_TOKEN:-}" ]; then
   echo "ERROR: GITHUB_TOKEN not set" >&2
   exit 1
 fi
-
-command -v jq >/dev/null 2>&1 || { echo "ERROR: jq not found" >&2; exit 1; }
-command -v curl >/dev/null 2>&1 || { echo "ERROR: curl not found" >&2; exit 1; }
 
 ORG="Daegu-Agent-Crew"
 API="https://api.github.com"
@@ -208,7 +232,6 @@ RESULT=$(jq -n \
     member_stats: $members
   }')
 
-mkdir -p "$(dirname "$OUTPUT")"
 printf '%s\n' "$RESULT" > "$OUTPUT"
 echo "Written to $OUTPUT" >&2
 echo "$OUTPUT"
