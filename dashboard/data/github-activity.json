@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-06T21:45:43Z",
-  "since": "2026-08-07T21:45:11Z",
+  "generated": "2026-09-07T00:08:13Z",
+  "since": "2026-08-08T00:07:14Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 0,
+      "open_issues": 1,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-06T21:05:46Z",
-      "pushed_at": "2026-09-06T21:05:42Z",
+      "updated_at": "2026-09-06T23:27:08Z",
+      "pushed_at": "2026-09-06T23:27:05Z",
       "recent_commits": [
+        {
+          "sha": "8c5e3cc",
+          "message": "add dac-181 diagram (지속성의 두 문)",
+          "author": "sfex11",
+          "date": "2026-09-06T23:27:04Z"
+        },
+        {
+          "sha": "c25f68c",
+          "message": "dashboard: regenerate dashboard.json and github-activity (auto)",
+          "author": "daeguru",
+          "date": "2026-09-06T21:45:55Z"
+        },
         {
           "sha": "63c94f7",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-06T21:05:39Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
           "author": "daeguru",
           "date": "2026-09-06T18:45:59Z"
-        },
-        {
-          "sha": "28b3ed6",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-06T18:07:45Z)",
-          "author": "daeguru",
-          "date": "2026-09-06T18:07:46Z"
-        },
-        {
-          "sha": "c6c7990",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-06T18:06:36Z)",
-          "author": "daeguru",
-          "date": "2026-09-06T18:06:37Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 2,
       "open_prs": 0,
-      "updated_at": "2026-09-06T14:08:44Z",
-      "pushed_at": "2026-09-06T14:08:38Z",
+      "updated_at": "2026-09-06T23:15:51Z",
+      "pushed_at": "2026-09-06T23:15:47Z",
       "recent_commits": [
+        {
+          "sha": "15fc2b0",
+          "message": "📰 2026-09-07: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-09-06T23:15:44Z"
+        },
         {
           "sha": "2d8394c",
           "message": "🔍 2026-09-06: 위키 린트 점검",
@@ -152,12 +158,6 @@
           "message": "📚 2026-09-05: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-09-05T12:59:43Z"
-        },
-        {
-          "sha": "e82827d",
-          "message": "📰 2026-09-05: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-09-05T12:38:22Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-06T17:22:36Z",
-      "pushed_at": "2026-09-06T17:22:23Z",
+      "updated_at": "2026-09-06T23:29:42Z",
+      "pushed_at": "2026-09-06T23:29:38Z",
       "recent_commits": [
+        {
+          "sha": "2967941",
+          "message": "교훈 #181: 원격 부재≠라인 사망 (push 배치 오판, 3연속 정정)",
+          "author": "sfex11",
+          "date": "2026-09-06T23:29:38Z"
+        },
         {
           "sha": "a91dcf5",
           "message": "교훈 #180: 지속성의 두 문 — 시간표 아니면 활성 구간 (180회차)",
@@ -494,12 +500,6 @@
           "message": "교훈 #176 오타 정정 (스트릭)",
           "author": "sfex11",
           "date": "2026-09-05T17:17:19Z"
-        },
-        {
-          "sha": "1f1188c",
-          "message": "교훈 #176: 라인별 스트릭은 세션의 그림자다 (176회차)",
-          "author": "sfex11",
-          "date": "2026-09-05T17:17:05Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #181: 원격 부재≠라인 사망 (push 배치 오판, 3연속 정정)",
+      "sha": "2967941",
+      "date": "2026-09-06T23:29:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2967941c0d06b3924393ca3fbda48fb41f5dadbb"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "add dac-181 diagram (지속성의 두 문)",
+      "sha": "8c5e3cc",
+      "date": "2026-09-06T23:27:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8c5e3cc60b1ee686026c2bcfe615099614c4d6b8"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-07: 뉴스 수집 (5건)",
+      "sha": "15fc2b0",
+      "date": "2026-09-06T23:15:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/15fc2b04db3067a4d06124f81a03338d342976cf"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json and github-activity (auto)",
+      "sha": "c25f68c",
+      "date": "2026-09-06T21:45:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c25f68cb115e6c0a53e641f8c6ffcc6b76fc38fa"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-06T21:05:39Z)",
@@ -634,24 +670,6 @@
       "sha": "ac93756",
       "date": "2026-09-06T18:45:59Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ac93756ba68b3b6d10fca2ce4947a6742de75826"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-06T18:07:45Z)",
-      "sha": "28b3ed6",
-      "date": "2026-09-06T18:07:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/28b3ed68b03c143713fa2dac0ba964336af2fffa"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-06T18:06:36Z)",
-      "sha": "c6c7990",
-      "date": "2026-09-06T18:06:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c6c7990acec4836dd6db4b64dfc2097ebe3b45f7"
     },
     {
       "type": "commit",
@@ -718,30 +736,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #176: 라인별 스트릭은 세션의 그림자다 (176회차)",
-      "sha": "1f1188c",
-      "date": "2026-09-05T17:17:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1f1188c72f6e04ba054d98a98f1226e3531ef87e"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-05: 위키 갱신 (2개)",
       "sha": "354aa45",
       "date": "2026-09-05T12:59:43Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/354aa453ca942928fcd589d0dd141fb807ddcbbe"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-05: 뉴스 수집 (5건)",
-      "sha": "e82827d",
-      "date": "2026-09-05T12:38:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e82827d8fb628062ed9ee7c1a956c3dcc4bea064"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 23,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 4,
       "prs": 0,
       "issues": 0,
       "reviews": 0
