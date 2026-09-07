@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-07T00:08:13Z",
-  "since": "2026-08-08T00:07:14Z",
+  "generated": "2026-09-07T00:45:34Z",
+  "since": "2026-08-08T00:45:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-06T23:27:08Z",
-      "pushed_at": "2026-09-06T23:27:05Z",
+      "updated_at": "2026-09-07T00:08:19Z",
+      "pushed_at": "2026-09-07T00:08:16Z",
       "recent_commits": [
+        {
+          "sha": "6f34fb3",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-07T00:08:13Z)",
+          "author": "daeguru",
+          "date": "2026-09-07T00:08:13Z"
+        },
         {
           "sha": "8c5e3cc",
           "message": "add dac-181 diagram (지속성의 두 문)",
@@ -85,12 +91,6 @@
           "message": "fix: prevent duplicate dashboard activity refreshes (#20)",
           "author": "sfex11",
           "date": "2026-09-06T20:04:50Z"
-        },
-        {
-          "sha": "ac93756",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
-          "author": "daeguru",
-          "date": "2026-09-06T18:45:59Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-07T00:08:13Z)",
+      "sha": "6f34fb3",
+      "date": "2026-09-07T00:08:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6f34fb33e57a84edb4a673834a7e80637fd1504c"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #181: 원격 부재≠라인 사망 (push 배치 오판, 3연속 정정)",
@@ -661,15 +670,6 @@
       "sha": "3eb2a22",
       "date": "2026-09-06T20:04:50Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3eb2a22ed5225c15429a955269a94d592ab9b422"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
-      "sha": "ac93756",
-      "date": "2026-09-06T18:45:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ac93756ba68b3b6d10fca2ce4947a6742de75826"
     },
     {
       "type": "commit",
