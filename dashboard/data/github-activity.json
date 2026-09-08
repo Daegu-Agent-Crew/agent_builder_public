@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T12:09:51Z",
-  "since": "2026-08-09T12:08:59Z",
+  "generated": "2026-09-08T12:46:06Z",
+  "since": "2026-08-09T12:45:20Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-08T11:00:27Z",
-      "pushed_at": "2026-09-08T10:59:56Z",
+      "updated_at": "2026-09-08T12:12:06Z",
+      "pushed_at": "2026-09-08T12:09:54Z",
       "recent_commits": [
+        {
+          "sha": "26df5be",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-08T12:09:51Z)",
+          "author": "daeguru",
+          "date": "2026-09-08T12:09:51Z"
+        },
         {
           "sha": "c74822f",
           "message": "upload dac-187-diagram (적체는 결정을 기다린다 — 대기 상자+승인 열쇠)",
@@ -85,12 +91,6 @@
           "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-08 15:44 KST)",
           "author": "daeguru",
           "date": "2026-09-08T06:47:52Z"
-        },
-        {
-          "sha": "2b05efd",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-08T06:07:24Z)",
-          "author": "daeguru",
-          "date": "2026-09-08T06:07:33Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-08T12:09:51Z)",
+      "sha": "26df5be",
+      "date": "2026-09-08T12:09:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/26df5be05ce5f0308ec598caf418681b310ff274"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #187: 숙제 장부가 라인의 장기 기억이다 (DAC 187회차)",
@@ -642,15 +651,6 @@
       "sha": "0b99b73",
       "date": "2026-09-08T06:47:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0b99b73edcdaa4ee5d94882f117bdd45dc4d7f69"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-08T06:07:24Z)",
-      "sha": "2b05efd",
-      "date": "2026-09-08T06:07:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2b05efd78a8e4cd9590130f508b83c6e35ec74b7"
     },
     {
       "type": "commit",
