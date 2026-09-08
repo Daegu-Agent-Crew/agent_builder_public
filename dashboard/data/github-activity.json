@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-08T09:45:48Z",
-  "since": "2026-08-09T09:45:14Z",
+  "generated": "2026-09-08T12:09:51Z",
+  "since": "2026-08-09T12:08:59Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 6,
+      "open_issues": 7,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-08T09:10:47Z",
-      "pushed_at": "2026-09-08T09:08:47Z",
+      "updated_at": "2026-09-08T11:00:27Z",
+      "pushed_at": "2026-09-08T10:59:56Z",
       "recent_commits": [
+        {
+          "sha": "c74822f",
+          "message": "upload dac-187-diagram (적체는 결정을 기다린다 — 대기 상자+승인 열쇠)",
+          "author": "sfex11",
+          "date": "2026-09-08T10:59:56Z"
+        },
+        {
+          "sha": "b6c10cb",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json [auto]",
+          "author": "daeguru",
+          "date": "2026-09-08T09:46:24Z"
+        },
         {
           "sha": "fd08a4a",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-08T09:08:41Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-08T06:07:24Z)",
           "author": "daeguru",
           "date": "2026-09-08T06:07:33Z"
-        },
-        {
-          "sha": "fc4c7ae",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-08T03:09:09Z)",
-          "author": "daeguru",
-          "date": "2026-09-08T03:09:09Z"
-        },
-        {
-          "sha": "a4dcca3",
-          "message": "data: update dashboard.json and github activity",
-          "author": "daeguru",
-          "date": "2026-09-08T00:46:07Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-08T05:05:58Z",
-      "pushed_at": "2026-09-08T05:05:54Z",
+      "updated_at": "2026-09-08T11:03:20Z",
+      "pushed_at": "2026-09-08T11:02:19Z",
       "recent_commits": [
+        {
+          "sha": "dac47fb",
+          "message": "교훈 #187: 숙제 장부가 라인의 장기 기억이다 (DAC 187회차)",
+          "author": "sfex11",
+          "date": "2026-09-08T11:02:19Z"
+        },
         {
           "sha": "b5d6728",
           "message": "교훈 #186: 적체의 정체는 결정 대기다 (DAC 186회차)",
@@ -494,12 +500,6 @@
           "message": "교훈 #183: 닫힌 창은 만기와 무관하게 이미 판정되어 있다 (DAC 183회차)",
           "author": "sfex11",
           "date": "2026-09-07T11:07:56Z"
-        },
-        {
-          "sha": "02151fa",
-          "message": "교훈 #182: 깨어있는 동안 내일 칸을 미리 채운다 (DAC 182회차)",
-          "author": "sfex11",
-          "date": "2026-09-07T05:08:27Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #187: 숙제 장부가 라인의 장기 기억이다 (DAC 187회차)",
+      "sha": "dac47fb",
+      "date": "2026-09-08T11:02:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/dac47fb257fb8032ea9940146932d46eae262b95"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "upload dac-187-diagram (적체는 결정을 기다린다 — 대기 상자+승인 열쇠)",
+      "sha": "c74822f",
+      "date": "2026-09-08T10:59:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c74822fd340f13032a62f372e4dca52b3a2d5041"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json [auto]",
+      "sha": "b6c10cb",
+      "date": "2026-09-08T09:46:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b6c10cbde3b0b5e882699946800b841ac4e51051"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-08T09:08:41Z)",
@@ -645,24 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-08T03:09:09Z)",
-      "sha": "fc4c7ae",
-      "date": "2026-09-08T03:09:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fc4c7ae795b8ef6e8e95d3ad1d21818780fcddeb"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "data: update dashboard.json and github activity",
-      "sha": "a4dcca3",
-      "date": "2026-09-08T00:46:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a4dcca310fcfbb147acedf34ea2e72bb93ff2e40"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-08: 뉴스 수집 (4건)",
@@ -705,15 +714,6 @@
       "sha": "d7bc530",
       "date": "2026-09-07T05:09:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d7bc530f78920a7cb6fac4f6dc041d4aa0588682"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #182: 깨어있는 동안 내일 칸을 미리 채운다 (DAC 182회차)",
-      "sha": "02151fa",
-      "date": "2026-09-07T05:08:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/02151fa9a56f92d5f382dd365bb97d9a9821a3c3"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 22,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
