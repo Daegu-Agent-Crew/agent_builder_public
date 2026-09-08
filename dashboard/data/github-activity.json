@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T00:05:49Z",
-  "since": "2026-08-09T00:05:02Z",
+  "generated": "2026-09-08T00:45:41Z",
+  "since": "2026-08-09T00:45:09Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-07T23:11:52Z",
-      "pushed_at": "2026-09-07T23:11:45Z",
+      "updated_at": "2026-09-08T00:06:19Z",
+      "pushed_at": "2026-09-08T00:05:52Z",
       "recent_commits": [
+        {
+          "sha": "fd8afa5",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-08T00:05:49Z)",
+          "author": "daeguru",
+          "date": "2026-09-08T00:05:49Z"
+        },
         {
           "sha": "9682869",
           "message": "add dac-185 diagram (two completion rates)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-07T18:06:38Z)",
           "author": "daeguru",
           "date": "2026-09-07T18:06:39Z"
-        },
-        {
-          "sha": "07d1251",
-          "message": "add dac-184 diagram (three clocks)",
-          "author": "sfex11",
-          "date": "2026-09-07T17:05:55Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-08T00:05:49Z)",
+      "sha": "fd8afa5",
+      "date": "2026-09-08T00:05:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fd8afa567bf80373943395508e2362c74eceb308"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-08: 뉴스 수집 (4건)",
@@ -660,15 +669,6 @@
       "sha": "7dcf269",
       "date": "2026-09-07T17:05:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7dcf26996a4f2c9914185628286b4d34540f0d23"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "add dac-184 diagram (three clocks)",
-      "sha": "07d1251",
-      "date": "2026-09-07T17:05:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/07d12516804931cac3cadbcde6dc4f3506a3ad32"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 23,
+      "commits": 22,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 4,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
