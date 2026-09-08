@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T06:47:38Z",
-  "since": "2026-08-09T06:47:07Z",
+  "generated": "2026-09-08T09:08:41Z",
+  "since": "2026-08-09T09:07:33Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-08T06:07:40Z",
-      "pushed_at": "2026-09-08T06:07:37Z",
+      "updated_at": "2026-09-08T06:48:23Z",
+      "pushed_at": "2026-09-08T06:47:53Z",
       "recent_commits": [
+        {
+          "sha": "0b99b73",
+          "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-08 15:44 KST)",
+          "author": "daeguru",
+          "date": "2026-09-08T06:47:52Z"
+        },
         {
           "sha": "2b05efd",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-08T06:07:24Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-08T00:05:49Z)",
           "author": "daeguru",
           "date": "2026-09-08T00:05:49Z"
-        },
-        {
-          "sha": "9682869",
-          "message": "add dac-185 diagram (two completion rates)",
-          "author": "sfex11",
-          "date": "2026-09-07T23:11:45Z"
         }
       ],
       "recent_prs": [
@@ -602,6 +602,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-08 15:44 KST)",
+      "sha": "0b99b73",
+      "date": "2026-09-08T06:47:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0b99b73edcdaa4ee5d94882f117bdd45dc4d7f69"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-08T06:07:24Z)",
       "sha": "2b05efd",
       "date": "2026-09-08T06:07:33Z",
@@ -660,15 +669,6 @@
       "sha": "2a8abbd",
       "date": "2026-09-07T23:12:46Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2a8abbdabec7a77570a4e064bb46f39093d41896"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "add dac-185 diagram (two completion rates)",
-      "sha": "9682869",
-      "date": "2026-09-07T23:11:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9682869d780af533501b7f506807199ba3cf6e89"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 21,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
