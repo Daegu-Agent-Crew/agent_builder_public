@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T06:07:24Z",
-  "since": "2026-08-09T06:05:37Z",
+  "generated": "2026-09-08T06:47:38Z",
+  "since": "2026-08-09T06:47:07Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-08T03:09:16Z",
-      "pushed_at": "2026-09-08T03:09:12Z",
+      "updated_at": "2026-09-08T06:07:40Z",
+      "pushed_at": "2026-09-08T06:07:37Z",
       "recent_commits": [
+        {
+          "sha": "2b05efd",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-08T06:07:24Z)",
+          "author": "daeguru",
+          "date": "2026-09-08T06:07:33Z"
+        },
         {
           "sha": "fc4c7ae",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-08T03:09:09Z)",
@@ -85,12 +91,6 @@
           "message": "add dac-185 diagram (two completion rates)",
           "author": "sfex11",
           "date": "2026-09-07T23:11:45Z"
-        },
-        {
-          "sha": "ea22403",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-07T21:06:22Z)",
-          "author": "daeguru",
-          "date": "2026-09-07T21:06:22Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-08T06:07:24Z)",
+      "sha": "2b05efd",
+      "date": "2026-09-08T06:07:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2b05efd78a8e4cd9590130f508b83c6e35ec74b7"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-08: 위키 갱신 (2개) — research 14차(인지 바이러스·An Alien Mind), industry 28차(연구 인턴·합의 집행·물리 AI) + Volta 0B 모순 수정",
@@ -669,15 +678,6 @@
       "sha": "1c375c5",
       "date": "2026-09-07T23:04:15Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1c375c562c698312c6f49ce4921412e618e302a8"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-07T21:06:22Z)",
-      "sha": "ea22403",
-      "date": "2026-09-07T21:06:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ea224030f1037b655fc7dcfdb901d5877e2213ea"
     },
     {
       "type": "commit",
