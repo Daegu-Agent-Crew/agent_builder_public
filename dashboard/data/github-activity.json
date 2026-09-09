@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-09T09:46:46Z",
-  "since": "2026-08-10T09:46:12Z",
+  "generated": "2026-09-09T12:06:04Z",
+  "since": "2026-08-10T12:05:15Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 10,
+      "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-09T09:08:04Z",
-      "pushed_at": "2026-09-09T09:07:01Z",
+      "updated_at": "2026-09-09T11:15:32Z",
+      "pushed_at": "2026-09-09T11:13:42Z",
       "recent_commits": [
+        {
+          "sha": "0b8f1d3",
+          "message": "dac-191-diagram: 교대 톱니 (밤 수집 세션 ↔ 새벽 위키 세션, 하루를 두 세션이 나눠 쓴다)",
+          "author": "sfex11",
+          "date": "2026-09-09T11:13:41Z"
+        },
+        {
+          "sha": "915bfd6",
+          "message": "chore: update dashboard data (cron)",
+          "author": "daeguru",
+          "date": "2026-09-09T09:47:33Z"
+        },
         {
           "sha": "33903fb",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-09T09:06:58Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-09T06:06:42Z)",
           "author": "daeguru",
           "date": "2026-09-09T06:06:42Z"
-        },
-        {
-          "sha": "a026c72",
-          "message": "dac-190-diagram: 같은 칸의 세 겹 게이지 (그림 49/57 · 대사·검토 27/18/4 · 최종판 45)",
-          "author": "sfex11",
-          "date": "2026-09-09T05:05:26Z"
-        },
-        {
-          "sha": "09e5c7c",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-09T03:05:59Z)",
-          "author": "daeguru",
-          "date": "2026-09-09T03:05:59Z"
         }
       ],
       "recent_prs": [
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-09T05:05:36Z",
-      "pushed_at": "2026-09-09T05:05:29Z",
+      "updated_at": "2026-09-09T11:10:17Z",
+      "pushed_at": "2026-09-09T11:08:44Z",
       "recent_commits": [
+        {
+          "sha": "09c86e6",
+          "message": "교훈 #191: 병목의 게이지 이동 (DAC 191회차)",
+          "author": "sfex11",
+          "date": "2026-09-09T11:08:44Z"
+        },
         {
           "sha": "e1566c4",
           "message": "교훈 #190: 하루 2산출의 교대 구조 (DAC 190회차)",
@@ -494,12 +500,6 @@
           "message": "교훈 #187: 숙제 장부가 라인의 장기 기억이다 (DAC 187회차)",
           "author": "sfex11",
           "date": "2026-09-08T11:02:19Z"
-        },
-        {
-          "sha": "b5d6728",
-          "message": "교훈 #186: 적체의 정체는 결정 대기다 (DAC 186회차)",
-          "author": "sfex11",
-          "date": "2026-09-08T05:05:53Z"
         }
       ],
       "recent_prs": [
@@ -601,6 +601,33 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac-191-diagram: 교대 톱니 (밤 수집 세션 ↔ 새벽 위키 세션, 하루를 두 세션이 나눠 쓴다)",
+      "sha": "0b8f1d3",
+      "date": "2026-09-09T11:13:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0b8f1d37d193faaad0d5ab64da1aee2b303355ad"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #191: 병목의 게이지 이동 (DAC 191회차)",
+      "sha": "09c86e6",
+      "date": "2026-09-09T11:08:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/09c86e60b1363e9c8562e4cedd7c0e80b69afccc"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (cron)",
+      "sha": "915bfd6",
+      "date": "2026-09-09T09:47:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/915bfd69a8f97882360425930b27ed3447de9e64"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-09T09:06:58Z)",
       "sha": "33903fb",
@@ -642,24 +669,6 @@
       "sha": "e1566c4",
       "date": "2026-09-09T05:05:28Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e1566c4f41204816bbb87bddd83b2bf04f1aab59"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-190-diagram: 같은 칸의 세 겹 게이지 (그림 49/57 · 대사·검토 27/18/4 · 최종판 45)",
-      "sha": "a026c72",
-      "date": "2026-09-09T05:05:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a026c7207d872ccfb6be2b8eedfdf5180e44f437"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-09T03:05:59Z)",
-      "sha": "09e5c7c",
-      "date": "2026-09-09T03:05:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/09e5c7c8741fe50890c50eb941406fce49d9134b"
     },
     {
       "type": "commit",
@@ -705,15 +714,6 @@
       "sha": "3983a36",
       "date": "2026-09-08T05:14:30Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3983a363138076820ac226315813a098927ed4c0"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #186: 적체의 정체는 결정 대기다 (DAC 186회차)",
-      "sha": "b5d6728",
-      "date": "2026-09-08T05:05:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b5d6728382e43b105ddf940e178f19beabb2f3b2"
     },
     {
       "type": "commit",
