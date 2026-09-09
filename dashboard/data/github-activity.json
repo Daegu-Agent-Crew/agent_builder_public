@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-09T06:06:42Z",
-  "since": "2026-08-10T06:05:44Z",
+  "generated": "2026-09-09T06:45:59Z",
+  "since": "2026-08-10T06:45:26Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-09T05:05:55Z",
-      "pushed_at": "2026-09-09T05:05:27Z",
+      "updated_at": "2026-09-09T06:07:41Z",
+      "pushed_at": "2026-09-09T06:06:45Z",
       "recent_commits": [
+        {
+          "sha": "89ff2ef",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-09T06:06:42Z)",
+          "author": "daeguru",
+          "date": "2026-09-09T06:06:42Z"
+        },
         {
           "sha": "a026c72",
           "message": "dac-190-diagram: 같은 칸의 세 겹 게이지 (그림 49/57 · 대사·검토 27/18/4 · 최종판 45)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-09T00:06:11Z)",
           "author": "daeguru",
           "date": "2026-09-09T00:06:19Z"
-        },
-        {
-          "sha": "4a0842b",
-          "message": "add dac-189 diagram (빈칸 메우기 단계)",
-          "author": "sfex11",
-          "date": "2026-09-08T23:05:03Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-09T06:06:42Z)",
+      "sha": "89ff2ef",
+      "date": "2026-09-09T06:06:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/89ff2efd003459db9006d214831583da4caa0c73"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-09: 위키 갱신 (2개) — model 25차, research 15차",
@@ -669,15 +678,6 @@
       "sha": "a29771d",
       "date": "2026-09-08T23:06:42Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a29771d7fdfeb4a89d14b4d5b1ee0da2381b2c64"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "add dac-189 diagram (빈칸 메우기 단계)",
-      "sha": "4a0842b",
-      "date": "2026-09-08T23:05:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4a0842be121097134f791dd2376309c719288cb3"
     },
     {
       "type": "commit",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 23,
+      "commits": 22,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 4,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
