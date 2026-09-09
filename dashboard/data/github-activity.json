@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-09T12:06:04Z",
-  "since": "2026-08-10T12:05:15Z",
+  "generated": "2026-09-09T12:46:57Z",
+  "since": "2026-08-10T12:46:24Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-09T11:15:32Z",
-      "pushed_at": "2026-09-09T11:13:42Z",
+      "updated_at": "2026-09-09T12:07:33Z",
+      "pushed_at": "2026-09-09T12:06:07Z",
       "recent_commits": [
+        {
+          "sha": "72a7ac0",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-09T12:06:04Z)",
+          "author": "daeguru",
+          "date": "2026-09-09T12:06:04Z"
+        },
         {
           "sha": "0b8f1d3",
           "message": "dac-191-diagram: 교대 톱니 (밤 수집 세션 ↔ 새벽 위키 세션, 하루를 두 세션이 나눠 쓴다)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data (cron)",
           "author": "daeguru",
           "date": "2026-09-09T06:46:08Z"
-        },
-        {
-          "sha": "89ff2ef",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-09T06:06:42Z)",
-          "author": "daeguru",
-          "date": "2026-09-09T06:06:42Z"
         }
       ],
       "recent_prs": [
@@ -601,6 +601,15 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-09T12:06:04Z)",
+      "sha": "72a7ac0",
+      "date": "2026-09-09T12:06:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/72a7ac001eb6e7278035b1c75c21898d06b872dc"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "sfex11",
       "message": "dac-191-diagram: 교대 톱니 (밤 수집 세션 ↔ 새벽 위키 세션, 하루를 두 세션이 나눠 쓴다)",
       "sha": "0b8f1d3",
@@ -642,15 +651,6 @@
       "sha": "97739f1",
       "date": "2026-09-09T06:46:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/97739f1ba9bc071a5efa4a043df327b913d91582"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-09T06:06:42Z)",
-      "sha": "89ff2ef",
-      "date": "2026-09-09T06:06:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/89ff2efd003459db9006d214831583da4caa0c73"
     },
     {
       "type": "commit",
