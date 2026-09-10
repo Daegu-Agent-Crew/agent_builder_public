@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-10T03:46:44Z",
-  "since": "2026-08-11T03:46:12Z",
+  "generated": "2026-09-10T06:09:15Z",
+  "since": "2026-08-11T06:07:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 13,
+      "open_issues": 14,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-10T03:10:23Z",
-      "pushed_at": "2026-09-10T03:10:17Z",
+      "updated_at": "2026-09-10T05:06:41Z",
+      "pushed_at": "2026-09-10T05:06:38Z",
       "recent_commits": [
+        {
+          "sha": "9202f2c",
+          "message": "dac-194 diagram: 사건은 매일, 배달은 뭉치로 — 판정은 배달 뒤 (교훈 #192)",
+          "author": "sfex11",
+          "date": "2026-09-10T05:06:37Z"
+        },
+        {
+          "sha": "37f977d",
+          "message": "chore: dashboard + github-activity 갱신 (자동)",
+          "author": "daeguru",
+          "date": "2026-09-10T03:47:25Z"
+        },
         {
           "sha": "9330384",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-10T03:10:14Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-10T00:07:31Z)",
           "author": "daeguru",
           "date": "2026-09-10T00:07:32Z"
-        },
-        {
-          "sha": "2f8812c",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-09T21:08:16Z)",
-          "author": "daeguru",
-          "date": "2026-09-09T21:08:16Z"
-        },
-        {
-          "sha": "fc76b43",
-          "message": "chore(dashboard): refresh dashboard + github activity (2026-09-09T18:46:47Z)",
-          "author": "daeguru",
-          "date": "2026-09-09T18:46:47Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 2,
       "open_prs": 0,
-      "updated_at": "2026-09-09T23:09:23Z",
-      "pushed_at": "2026-09-09T23:09:17Z",
+      "updated_at": "2026-09-10T05:07:17Z",
+      "pushed_at": "2026-09-10T05:07:13Z",
       "recent_commits": [
+        {
+          "sha": "6186e44",
+          "message": "📚 2026-09-10: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-10T05:07:09Z"
+        },
         {
           "sha": "ee3c7ab",
           "message": "📰 2026-09-10: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-09-08: 위키 갱신 (2개) — research 14차(인지 바이러스·An Alien Mind), industry 28차(연구 인턴·합의 집행·물리 AI) + Volta 0B 모순 수정",
           "author": "Renover",
           "date": "2026-09-08T05:14:30Z"
-        },
-        {
-          "sha": "2a8abbd",
-          "message": "📰 2026-09-08: 뉴스 수집 (4건)",
-          "author": "Renover",
-          "date": "2026-09-07T23:12:46Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-09T23:06:10Z",
-      "pushed_at": "2026-09-09T23:06:05Z",
+      "updated_at": "2026-09-10T05:09:52Z",
+      "pushed_at": "2026-09-10T05:09:48Z",
       "recent_commits": [
+        {
+          "sha": "5277dd5",
+          "message": "교훈 #194: 부재 신호(404)는 빈 상태가 아니다 — 실제 경로 확인 후 판정 (DAC 194회차)",
+          "author": "sfex11",
+          "date": "2026-09-10T05:09:48Z"
+        },
         {
           "sha": "f401ab7",
           "message": "교훈 #193: 산출 유형마다 전달 규칙 재명시 (DAC 193회차)",
@@ -494,12 +500,6 @@
           "message": "교훈 #190: 하루 2산출의 교대 구조 (DAC 190회차)",
           "author": "sfex11",
           "date": "2026-09-09T05:05:28Z"
-        },
-        {
-          "sha": "a29771d",
-          "message": "교훈 #189: 세션의 심박은 시각이지 산출물이 아니다 (DAC 189회차)",
-          "author": "sfex11",
-          "date": "2026-09-08T23:06:42Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #194: 부재 신호(404)는 빈 상태가 아니다 — 실제 경로 확인 후 판정 (DAC 194회차)",
+      "sha": "5277dd5",
+      "date": "2026-09-10T05:09:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5277dd55cdab597eb25ded1ce9840e1f1a3f6580"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-10: 위키 갱신 (2개)",
+      "sha": "6186e44",
+      "date": "2026-09-10T05:07:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/6186e442b1eb88e9287a131a190502bc1bc7799d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac-194 diagram: 사건은 매일, 배달은 뭉치로 — 판정은 배달 뒤 (교훈 #192)",
+      "sha": "9202f2c",
+      "date": "2026-09-10T05:06:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9202f2c76f16a84eb89efda03403dc16542100de"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: dashboard + github-activity 갱신 (자동)",
+      "sha": "37f977d",
+      "date": "2026-09-10T03:47:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/37f977dee617233d62b9af33a2fe06a4c286419f"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-10T03:10:14Z)",
@@ -642,24 +678,6 @@
       "sha": "f401ab7",
       "date": "2026-09-09T23:06:05Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f401ab73d1c223d0330a67a90a8218f4f7af6b9f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-09T21:08:16Z)",
-      "sha": "2f8812c",
-      "date": "2026-09-09T21:08:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2f8812c9f53d96c80c515fa57d372befc40085e8"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard + github activity (2026-09-09T18:46:47Z)",
-      "sha": "fc76b43",
-      "date": "2026-09-09T18:46:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fc76b4359603ed7b7bc8bda831d0ea50bdb7dc84"
     },
     {
       "type": "commit",
@@ -708,30 +726,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #189: 세션의 심박은 시각이지 산출물이 아니다 (DAC 189회차)",
-      "sha": "a29771d",
-      "date": "2026-09-08T23:06:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a29771d7fdfeb4a89d14b4d5b1ee0da2381b2c64"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-08: 위키 갱신 (2개) — research 14차(인지 바이러스·An Alien Mind), industry 28차(연구 인턴·합의 집행·물리 AI) + Volta 0B 모순 수정",
       "sha": "3983a36",
       "date": "2026-09-08T05:14:30Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3983a363138076820ac226315813a098927ed4c0"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-08: 뉴스 수집 (4건)",
-      "sha": "2a8abbd",
-      "date": "2026-09-07T23:12:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2a8abbdabec7a77570a4e064bb46f39093d41896"
     },
     {
       "type": "pr",
@@ -1069,14 +1069,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 21,
+      "commits": 22,
       "prs": 17,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
