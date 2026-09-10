@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-10T15:47:39Z",
-  "since": "2026-08-11T15:47:05Z",
+  "generated": "2026-09-10T18:06:33Z",
+  "since": "2026-08-11T18:05:14Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 15,
+      "open_issues": 16,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-10T15:19:01Z",
-      "pushed_at": "2026-09-10T15:10:13Z",
+      "updated_at": "2026-09-10T15:52:55Z",
+      "pushed_at": "2026-09-10T15:48:03Z",
       "recent_commits": [
+        {
+          "sha": "8747381",
+          "message": "chore(dashboard): update dashboard.json & github-activity.json (09-11 00:48)",
+          "author": "daeguru",
+          "date": "2026-09-10T15:48:01Z"
+        },
         {
           "sha": "f434900",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-10T15:10:08Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-09-10T09:46:22Z"
-        },
-        {
-          "sha": "d2a9bbf",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-10T09:06:53Z)",
-          "author": "daeguru",
-          "date": "2026-09-10T09:06:53Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-10T11:08:40Z",
-      "pushed_at": "2026-09-10T11:08:07Z",
+      "updated_at": "2026-09-10T17:04:44Z",
+      "pushed_at": "2026-09-10T17:04:40Z",
       "recent_commits": [
+        {
+          "sha": "498e2b6",
+          "message": "교훈 #196: 표본 3개는 규칙 후보 — 5표본 전까지 도전으로만 베팅 (DAC 196회차)",
+          "author": "sfex11",
+          "date": "2026-09-10T17:04:40Z"
+        },
         {
           "sha": "1cf258e",
           "message": "교훈 #195: 외부 패턴 이식은 축소본부터 (195회차)",
@@ -503,12 +509,6 @@
           "message": "교훈 #192: 만기는 증거 도달 채널 뒤 (DAC 192회차)",
           "author": "sfex11",
           "date": "2026-09-09T17:01:30Z"
-        },
-        {
-          "sha": "09c86e6",
-          "message": "교훈 #191: 병목의 게이지 이동 (DAC 191회차)",
-          "author": "sfex11",
-          "date": "2026-09-09T11:08:44Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #196: 표본 3개는 규칙 후보 — 5표본 전까지 도전으로만 베팅 (DAC 196회차)",
+      "sha": "498e2b6",
+      "date": "2026-09-10T17:04:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/498e2b6533a5cc067f1f72b3acc79f16d99eba30"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json & github-activity.json (09-11 00:48)",
+      "sha": "8747381",
+      "date": "2026-09-10T15:48:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/87473811b64befca3b8c31ab60729cfd3494ee3b"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-10T15:10:08Z)",
@@ -664,15 +682,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-10T09:06:53Z)",
-      "sha": "d2a9bbf",
-      "date": "2026-09-10T09:06:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d2a9bbf7484a38749ec97ba41786940a2fa9fa7f"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "sfex11",
       "message": "feat: 증거 장부 패턴 적용 — 사실/해석 분리 규칙 + 중요도 산정표 + 수집 노트 + lint/CI (#3)",
@@ -724,15 +733,6 @@
       "sha": "00b8e28",
       "date": "2026-09-09T17:01:30Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/00b8e281f79e08ad5c72646f1b924c7270fcd2a7"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #191: 병목의 게이지 이동 (DAC 191회차)",
-      "sha": "09c86e6",
-      "date": "2026-09-09T11:08:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/09c86e60b1363e9c8562e4cedd7c0e80b69afccc"
     },
     {
       "type": "commit",
