@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-10T06:46:06Z",
-  "since": "2026-08-11T06:45:34Z",
+  "generated": "2026-09-10T09:06:53Z",
+  "since": "2026-08-11T09:06:04Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-10T06:09:24Z",
-      "pushed_at": "2026-09-10T06:09:19Z",
+      "updated_at": "2026-09-10T06:46:46Z",
+      "pushed_at": "2026-09-10T06:46:40Z",
       "recent_commits": [
+        {
+          "sha": "29a3174",
+          "message": "chore: update dashboard + github-activity",
+          "author": "daeguru",
+          "date": "2026-09-10T06:46:39Z"
+        },
         {
           "sha": "7754b39",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-10T06:09:15Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-10T03:10:14Z)",
           "author": "daeguru",
           "date": "2026-09-10T03:10:14Z"
-        },
-        {
-          "sha": "691f792",
-          "message": "chore(dashboard): refresh dashboard + github activity (2026-09-10T00:44Z)",
-          "author": "daeguru",
-          "date": "2026-09-10T00:46:01Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 2,
       "open_prs": 0,
-      "updated_at": "2026-09-10T05:07:17Z",
-      "pushed_at": "2026-09-10T05:07:13Z",
+      "updated_at": "2026-09-10T07:29:03Z",
+      "pushed_at": "2026-09-10T07:28:57Z",
       "recent_commits": [
+        {
+          "sha": "e7b3cec",
+          "message": "feat: 증거 장부 패턴 적용 — 사실/해석 분리 규칙 + 중요도 산정표 + 수집 노트 + lint/CI (#3)",
+          "author": "sfex11",
+          "date": "2026-09-10T07:28:57Z"
+        },
         {
           "sha": "6186e44",
           "message": "📚 2026-09-10: 위키 갱신 (2개)",
@@ -152,15 +158,18 @@
           "message": "📰 2026-09-09: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-08T23:11:04Z"
-        },
-        {
-          "sha": "3983a36",
-          "message": "📚 2026-09-08: 위키 갱신 (2개) — research 14차(인지 바이러스·An Alien Mind), industry 28차(연구 인턴·합의 집행·물리 AI) + Volta 0B 모순 수정",
-          "author": "Renover",
-          "date": "2026-09-08T05:14:30Z"
         }
       ],
-      "recent_prs": []
+      "recent_prs": [
+        {
+          "number": 3,
+          "title": "feat: 증거 장부 패턴 적용 — 사실/해석 분리 + 중요도 산정표 + 수집 노트 + lint/CI",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-09-10T07:28:58Z",
+          "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/pull/3"
+        }
+      ]
     },
     {
       "slug": "Daegu-Agent-Crew/context-tree",
@@ -599,6 +608,34 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "ai-agent-news",
+      "author": "sfex11",
+      "message": "feat: 증거 장부 패턴 적용 — 사실/해석 분리 + 중요도 산정표 + 수집 노트 + lint/CI",
+      "number": 3,
+      "state": "closed",
+      "date": "2026-09-10T07:28:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/pull/3"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "sfex11",
+      "message": "feat: 증거 장부 패턴 적용 — 사실/해석 분리 규칙 + 중요도 산정표 + 수집 노트 + lint/CI (#3)",
+      "sha": "e7b3cec",
+      "date": "2026-09-10T07:28:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e7b3ceca9c532af1190472263b331bfebbe187c1"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard + github-activity",
+      "sha": "29a3174",
+      "date": "2026-09-10T06:46:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/29a31749665c3725736e2931b863c423a41855da"
+    },
+    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -651,15 +688,6 @@
       "sha": "9330384",
       "date": "2026-09-10T03:10:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/933038477e7ab803daa34909fa94af1f13bd6c6f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard + github activity (2026-09-10T00:44Z)",
-      "sha": "691f792",
-      "date": "2026-09-10T00:46:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/691f792e95ca9459919e81848748bf15724d526d"
     },
     {
       "type": "commit",
@@ -723,15 +751,6 @@
       "sha": "d69681d",
       "date": "2026-09-08T23:11:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d69681d64b6a35ac574ec556dab96634400f2856"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-08: 위키 갱신 (2개) — research 14차(인지 바이러스·An Alien Mind), industry 28차(연구 인턴·합의 집행·물리 AI) + Volta 0B 모순 수정",
-      "sha": "3983a36",
-      "date": "2026-09-08T05:14:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3983a363138076820ac226315813a098927ed4c0"
     },
     {
       "type": "pr",
@@ -1055,22 +1074,13 @@
       "sha": "c42e3ef",
       "date": "2026-06-10T15:02:38Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/c42e3efd89b779177df74e0498b27099631166d2"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory-kit",
-      "author": "ynginkim",
-      "message": "docs: add team intent design notes",
-      "sha": "0a79063",
-      "date": "2026-06-10T14:03:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/0a79063dbe3117c12756f9374ff44437032bad02"
     }
   ],
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
-      "prs": 17,
+      "commits": 23,
+      "prs": 18,
       "issues": 0,
       "reviews": 0
     },
