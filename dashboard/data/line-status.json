@@ -1,0 +1,84 @@
+{
+  "generated": "2026-09-10T23:12:00Z",
+  "source": "DAC 스튜디오 리포터 — 자력 경고등 v1 (점검 루프 21일 무응답 후 자력 전환, 197회차)",
+  "maintainer": "dac-studio-report (매 회차 갱신)",
+  "thresholds": {
+    "warnHours": 48,
+    "sleepHours": 120
+  },
+  "note": "pushed_at 기준 스냅샷 — CLE5-priv·CLE3은 몰아 배달(batch push) 버릇이 있어 경고 표시도 소급 정정될 수 있음",
+  "lines": [
+    {
+      "id": "dashboard",
+      "name": "계기판",
+      "repo": "agent_builder_public",
+      "lastActivity": "2026-09-10T21:46:10Z",
+      "staleHours": 0,
+      "status": "active",
+      "note": "96연속 자동갱신, 38일 무결함"
+    },
+    {
+      "id": "cle3",
+      "name": "만화엔진",
+      "repo": "creative-loop-engineering3",
+      "lastActivity": "2026-09-10T21:02:25Z",
+      "staleHours": 0,
+      "status": "active",
+      "note": "세션 생존(21:02Z 케이던스 유지) — 산출은 스키마 검증, 칸(신규 PNG)은 2일 공백"
+    },
+    {
+      "id": "news",
+      "name": "뉴스룸",
+      "repo": "ai-agent-news",
+      "lastActivity": "2026-09-10T07:28:57Z",
+      "staleHours": 15,
+      "status": "active",
+      "note": "활성 12연속 · 13차 밤 수집 예정(23:1xZ 패턴)"
+    },
+    {
+      "id": "cle5priv",
+      "name": "만화공방 관측",
+      "repo": "creative-loop-engineering5-private",
+      "lastActivity": "2026-09-08T01:57:09Z",
+      "staleHours": 69,
+      "status": "warning",
+      "note": "09:0xZ 관측 케이던스 3일 결번 — batch push(몰아 배달) 도착 시 소급 정정 전례 다수"
+    },
+    {
+      "id": "cle5pub",
+      "name": "만화공방 배포",
+      "repo": "creative-loop-engineering5",
+      "lastActivity": "2026-09-08T05:26:50Z",
+      "staleHours": 65,
+      "status": "warning",
+      "note": "증거 이관 push 3연속 후 4일 단선(교훈 #196)"
+    },
+    {
+      "id": "daeguru",
+      "name": "대구루 창작(영상요약·위키)",
+      "repo": "team-memory",
+      "lastActivity": "2026-08-27T09:45:00Z",
+      "staleHours": 349,
+      "status": "sleeping",
+      "note": "창작 산출 14일 공백(리포터 교훈 PUT·dashboard.json 제외 기준) — pushed_at은 09-10T17:04Z지만 라이카 산물"
+    },
+    {
+      "id": "solana",
+      "name": "밈코인 파이프라인",
+      "repo": "ai-solana-agent",
+      "lastActivity": "2026-09-02T01:07:16Z",
+      "staleHours": 214,
+      "status": "sleeping",
+      "note": "8.9일 정적 — 카드·예약 전달로도 기상 없음"
+    },
+    {
+      "id": "cle2",
+      "name": "SNS 직원·작업관리소",
+      "repo": "creative-loop-engineering2",
+      "lastActivity": "2026-08-29T14:34:55Z",
+      "staleHours": 297,
+      "status": "sleeping",
+      "note": "12.4일 정적 — 첫 작업 카드 이행 0건"
+    }
+  ]
+}
