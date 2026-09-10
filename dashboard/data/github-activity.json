@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-09T21:08:16Z",
-  "since": "2026-08-10T21:07:06Z",
+  "generated": "2026-09-10T00:07:31Z",
+  "since": "2026-08-11T00:06:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 12,
+      "open_issues": 13,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-09T18:55:16Z",
-      "pushed_at": "2026-09-09T18:46:48Z",
+      "updated_at": "2026-09-09T21:08:32Z",
+      "pushed_at": "2026-09-09T21:08:20Z",
       "recent_commits": [
+        {
+          "sha": "2f8812c",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-09T21:08:16Z)",
+          "author": "daeguru",
+          "date": "2026-09-09T21:08:16Z"
+        },
         {
           "sha": "fc76b43",
           "message": "chore(dashboard): refresh dashboard + github activity (2026-09-09T18:46:47Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-09T15:08:11Z)",
           "author": "daeguru",
           "date": "2026-09-09T15:08:11Z"
-        },
-        {
-          "sha": "f7368c5",
-          "message": "dashboard: update dashboard.json and github-activity.json (auto)",
-          "author": "daeguru",
-          "date": "2026-09-09T12:47:16Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 2,
       "open_prs": 0,
-      "updated_at": "2026-09-09T05:10:07Z",
-      "pushed_at": "2026-09-09T05:09:52Z",
+      "updated_at": "2026-09-09T23:09:23Z",
+      "pushed_at": "2026-09-09T23:09:17Z",
       "recent_commits": [
+        {
+          "sha": "ee3c7ab",
+          "message": "📰 2026-09-10: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-09-09T23:09:14Z"
+        },
         {
           "sha": "19b185c",
           "message": "📚 2026-09-09: 위키 갱신 (2개) — model 25차, research 15차",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-08: 뉴스 수집 (4건)",
           "author": "Renover",
           "date": "2026-09-07T23:12:46Z"
-        },
-        {
-          "sha": "d7bc530",
-          "message": "📚 2026-09-07: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-09-07T05:09:08Z"
         }
       ],
       "recent_prs": []
@@ -468,9 +468,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-09T17:02:18Z",
-      "pushed_at": "2026-09-09T17:01:30Z",
+      "updated_at": "2026-09-09T23:06:10Z",
+      "pushed_at": "2026-09-09T23:06:05Z",
       "recent_commits": [
+        {
+          "sha": "f401ab7",
+          "message": "교훈 #193: 산출 유형마다 전달 규칙 재명시 (DAC 193회차)",
+          "author": "sfex11",
+          "date": "2026-09-09T23:06:05Z"
+        },
         {
           "sha": "00b8e28",
           "message": "교훈 #192: 만기는 증거 도달 채널 뒤 (DAC 192회차)",
@@ -494,12 +500,6 @@
           "message": "교훈 #189: 세션의 심박은 시각이지 산출물이 아니다 (DAC 189회차)",
           "author": "sfex11",
           "date": "2026-09-08T23:06:42Z"
-        },
-        {
-          "sha": "1c8e4ac",
-          "message": "교훈 #188: 할 일 카드는 깨어난 뒤에 읽힌다 (DAC 188회차)",
-          "author": "sfex11",
-          "date": "2026-09-08T17:03:43Z"
         }
       ],
       "recent_prs": [
@@ -600,6 +600,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-10: 뉴스 수집 (5건)",
+      "sha": "ee3c7ab",
+      "date": "2026-09-09T23:09:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ee3c7ab957e4fb7d016b071f2b6b2f197539f944"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #193: 산출 유형마다 전달 규칙 재명시 (DAC 193회차)",
+      "sha": "f401ab7",
+      "date": "2026-09-09T23:06:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f401ab73d1c223d0330a67a90a8218f4f7af6b9f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-09T21:08:16Z)",
+      "sha": "2f8812c",
+      "date": "2026-09-09T21:08:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2f8812c9f53d96c80c515fa57d372befc40085e8"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): refresh dashboard + github activity (2026-09-09T18:46:47Z)",
@@ -642,15 +669,6 @@
       "sha": "88625fe",
       "date": "2026-09-09T15:08:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/88625fe51795edb1d387b7c522ecfb8b6f5bd437"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (auto)",
-      "sha": "f7368c5",
-      "date": "2026-09-09T12:47:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f7368c54de992671fd4cd2976dab2398df4841f4"
     },
     {
       "type": "commit",
@@ -699,15 +717,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #188: 할 일 카드는 깨어난 뒤에 읽힌다 (DAC 188회차)",
-      "sha": "1c8e4ac",
-      "date": "2026-09-08T17:03:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1c8e4ac01f38115f15539bb59256027efd7a3718"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-08: 위키 갱신 (2개) — research 14차(인지 바이러스·An Alien Mind), industry 28차(연구 인턴·합의 집행·물리 AI) + Volta 0B 모순 수정",
@@ -723,15 +732,6 @@
       "sha": "2a8abbd",
       "date": "2026-09-07T23:12:46Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2a8abbdabec7a77570a4e064bb46f39093d41896"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-07: 위키 갱신 (2개)",
-      "sha": "d7bc530",
-      "date": "2026-09-07T05:09:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d7bc530f78920a7cb6fac4f6dc041d4aa0588682"
     },
     {
       "type": "pr",
