@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-10T09:46:03Z",
-  "since": "2026-08-11T09:45:30Z",
+  "generated": "2026-09-10T12:08:24Z",
+  "since": "2026-08-11T12:07:23Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 14,
+      "open_issues": 15,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-10T09:08:02Z",
-      "pushed_at": "2026-09-10T09:06:57Z",
+      "updated_at": "2026-09-10T09:48:19Z",
+      "pushed_at": "2026-09-10T09:46:23Z",
       "recent_commits": [
+        {
+          "sha": "fc3d5b9",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-09-10T09:46:22Z"
+        },
         {
           "sha": "d2a9bbf",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-10T09:06:53Z)",
@@ -85,12 +91,6 @@
           "message": "dac-194 diagram: 사건은 매일, 배달은 뭉치로 — 판정은 배달 뒤 (교훈 #192)",
           "author": "sfex11",
           "date": "2026-09-10T05:06:37Z"
-        },
-        {
-          "sha": "37f977d",
-          "message": "chore: dashboard + github-activity 갱신 (자동)",
-          "author": "daeguru",
-          "date": "2026-09-10T03:47:25Z"
         }
       ],
       "recent_prs": [
@@ -166,7 +166,7 @@
           "title": "feat: 증거 장부 패턴 적용 — 사실/해석 분리 + 중요도 산정표 + 수집 노트 + lint/CI",
           "author": "sfex11",
           "state": "closed",
-          "updated_at": "2026-09-10T07:28:58Z",
+          "updated_at": "2026-09-10T11:07:44Z",
           "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/pull/3"
         }
       ]
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-10T05:09:52Z",
-      "pushed_at": "2026-09-10T05:09:48Z",
+      "updated_at": "2026-09-10T11:08:40Z",
+      "pushed_at": "2026-09-10T11:08:07Z",
       "recent_commits": [
+        {
+          "sha": "1cf258e",
+          "message": "교훈 #195: 외부 패턴 이식은 축소본부터 (195회차)",
+          "author": "sfex11",
+          "date": "2026-09-10T11:08:07Z"
+        },
         {
           "sha": "5277dd5",
           "message": "교훈 #194: 부재 신호(404)는 빈 상태가 아니다 — 실제 경로 확인 후 판정 (DAC 194회차)",
@@ -503,12 +509,6 @@
           "message": "교훈 #191: 병목의 게이지 이동 (DAC 191회차)",
           "author": "sfex11",
           "date": "2026-09-09T11:08:44Z"
-        },
-        {
-          "sha": "e1566c4",
-          "message": "교훈 #190: 하루 2산출의 교대 구조 (DAC 190회차)",
-          "author": "sfex11",
-          "date": "2026-09-09T05:05:28Z"
         }
       ],
       "recent_prs": [
@@ -609,12 +609,12 @@
   "activity_feed": [
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-10T09:06:53Z)",
-      "sha": "d2a9bbf",
-      "date": "2026-09-10T09:06:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d2a9bbf7484a38749ec97ba41786940a2fa9fa7f"
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #195: 외부 패턴 이식은 축소본부터 (195회차)",
+      "sha": "1cf258e",
+      "date": "2026-09-10T11:08:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1cf258e2114987f509a2b2f6e6daf23d3eecc451"
     },
     {
       "type": "pr",
@@ -623,8 +623,26 @@
       "message": "feat: 증거 장부 패턴 적용 — 사실/해석 분리 + 중요도 산정표 + 수집 노트 + lint/CI",
       "number": 3,
       "state": "closed",
-      "date": "2026-09-10T07:28:58Z",
+      "date": "2026-09-10T11:07:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/pull/3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json",
+      "sha": "fc3d5b9",
+      "date": "2026-09-10T09:46:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fc3d5b989317b07843a6c87657ad6c3efbda40a3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-10T09:06:53Z)",
+      "sha": "d2a9bbf",
+      "date": "2026-09-10T09:06:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d2a9bbf7484a38749ec97ba41786940a2fa9fa7f"
     },
     {
       "type": "commit",
@@ -682,15 +700,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: dashboard + github-activity 갱신 (자동)",
-      "sha": "37f977d",
-      "date": "2026-09-10T03:47:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/37f977dee617233d62b9af33a2fe06a4c286419f"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-10: 뉴스 수집 (5건)",
@@ -733,15 +742,6 @@
       "sha": "19b185c",
       "date": "2026-09-09T05:09:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/19b185c038ca00bb9680fe332c17667da57089d9"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #190: 하루 2산출의 교대 구조 (DAC 190회차)",
-      "sha": "e1566c4",
-      "date": "2026-09-09T05:05:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e1566c4f41204816bbb87bddd83b2bf04f1aab59"
     },
     {
       "type": "commit",
