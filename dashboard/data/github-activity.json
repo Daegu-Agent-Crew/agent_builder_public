@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-10T18:06:33Z",
-  "since": "2026-08-11T18:05:14Z",
+  "generated": "2026-09-10T18:45:45Z",
+  "since": "2026-08-11T18:45:12Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-10T15:52:55Z",
-      "pushed_at": "2026-09-10T15:48:03Z",
+      "updated_at": "2026-09-10T18:06:47Z",
+      "pushed_at": "2026-09-10T18:06:43Z",
       "recent_commits": [
+        {
+          "sha": "cf02fa5",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-10T18:06:33Z)",
+          "author": "daeguru",
+          "date": "2026-09-10T18:06:33Z"
+        },
         {
           "sha": "8747381",
           "message": "chore(dashboard): update dashboard.json & github-activity.json (09-11 00:48)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-10T12:08:24Z)",
           "author": "daeguru",
           "date": "2026-09-10T12:08:24Z"
-        },
-        {
-          "sha": "fc3d5b9",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-10T09:46:22Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-10T18:06:33Z)",
+      "sha": "cf02fa5",
+      "date": "2026-09-10T18:06:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cf02fa522fa78f6e01aaae08ae676e18cf428702"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #196: 표본 3개는 규칙 후보 — 5표본 전까지 도전으로만 베팅 (DAC 196회차)",
@@ -670,15 +679,6 @@
       "state": "closed",
       "date": "2026-09-10T11:07:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/pull/3"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json",
-      "sha": "fc3d5b9",
-      "date": "2026-09-10T09:46:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fc3d5b989317b07843a6c87657ad6c3efbda40a3"
     },
     {
       "type": "commit",
