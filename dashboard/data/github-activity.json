@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-10T12:08:24Z",
-  "since": "2026-08-11T12:07:23Z",
+  "generated": "2026-09-10T12:46:05Z",
+  "since": "2026-08-11T12:45:31Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-10T09:48:19Z",
-      "pushed_at": "2026-09-10T09:46:23Z",
+      "updated_at": "2026-09-10T12:09:24Z",
+      "pushed_at": "2026-09-10T12:08:27Z",
       "recent_commits": [
+        {
+          "sha": "c801294",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-10T12:08:24Z)",
+          "author": "daeguru",
+          "date": "2026-09-10T12:08:24Z"
+        },
         {
           "sha": "fc3d5b9",
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-10T06:09:15Z)",
           "author": "daeguru",
           "date": "2026-09-10T06:09:16Z"
-        },
-        {
-          "sha": "9202f2c",
-          "message": "dac-194 diagram: 사건은 매일, 배달은 뭉치로 — 판정은 배달 뒤 (교훈 #192)",
-          "author": "sfex11",
-          "date": "2026-09-10T05:06:37Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-10T12:08:24Z)",
+      "sha": "c801294",
+      "date": "2026-09-10T12:08:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c801294d06ad38f7b285b77c04b604fe3a79f9fe"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #195: 외부 패턴 이식은 축소본부터 (195회차)",
@@ -688,15 +697,6 @@
       "sha": "6186e44",
       "date": "2026-09-10T05:07:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/6186e442b1eb88e9287a131a190502bc1bc7799d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-194 diagram: 사건은 매일, 배달은 뭉치로 — 판정은 배달 뒤 (교훈 #192)",
-      "sha": "9202f2c",
-      "date": "2026-09-10T05:06:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9202f2c76f16a84eb89efda03403dc16542100de"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 23,
+      "commits": 22,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
