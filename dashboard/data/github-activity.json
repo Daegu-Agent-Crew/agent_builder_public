@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-10T21:45:54Z",
-  "since": "2026-08-11T21:45:23Z",
+  "generated": "2026-09-11T00:06:37Z",
+  "since": "2026-08-12T00:05:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 16,
+      "open_issues": 17,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-10T21:07:02Z",
-      "pushed_at": "2026-09-10T21:06:57Z",
+      "updated_at": "2026-09-10T23:10:02Z",
+      "pushed_at": "2026-09-10T23:09:58Z",
       "recent_commits": [
+        {
+          "sha": "6d8f8f4",
+          "message": "dac: 자력 경고등 v1 — 라인별 마지막 활동+무활동 경고 (점검 루프 자력 전환, 197회차)",
+          "author": "sfex11",
+          "date": "2026-09-10T23:09:58Z"
+        },
+        {
+          "sha": "d173e0d",
+          "message": "dashboard: regenerate dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-09-10T21:46:09Z"
+        },
         {
           "sha": "0ac0f46",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-10T21:06:54Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-10T18:06:33Z)",
           "author": "daeguru",
           "date": "2026-09-10T18:06:33Z"
-        },
-        {
-          "sha": "8747381",
-          "message": "chore(dashboard): update dashboard.json & github-activity.json (09-11 00:48)",
-          "author": "daeguru",
-          "date": "2026-09-10T15:48:01Z"
-        },
-        {
-          "sha": "f434900",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-10T15:10:08Z)",
-          "author": "daeguru",
-          "date": "2026-09-10T15:10:09Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-10T17:04:44Z",
-      "pushed_at": "2026-09-10T17:04:40Z",
+      "updated_at": "2026-09-10T23:10:04Z",
+      "pushed_at": "2026-09-10T23:10:01Z",
       "recent_commits": [
+        {
+          "sha": "8cc4206",
+          "message": "교훈 #197: 외부 조회 실패 시 생성 대신 검증 전환 (DAC 197회차)",
+          "author": "sfex11",
+          "date": "2026-09-10T23:10:00Z"
+        },
         {
           "sha": "498e2b6",
           "message": "교훈 #196: 표본 3개는 규칙 후보 — 5표본 전까지 도전으로만 베팅 (DAC 196회차)",
@@ -503,12 +509,6 @@
           "message": "교훈 #193: 산출 유형마다 전달 규칙 재명시 (DAC 193회차)",
           "author": "sfex11",
           "date": "2026-09-09T23:06:05Z"
-        },
-        {
-          "sha": "00b8e28",
-          "message": "교훈 #192: 만기는 증거 도달 채널 뒤 (DAC 192회차)",
-          "author": "sfex11",
-          "date": "2026-09-09T17:01:30Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #197: 외부 조회 실패 시 생성 대신 검증 전환 (DAC 197회차)",
+      "sha": "8cc4206",
+      "date": "2026-09-10T23:10:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8cc420654e229718c6b6db78f4b866dc83dde639"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac: 자력 경고등 v1 — 라인별 마지막 활동+무활동 경고 (점검 루프 자력 전환, 197회차)",
+      "sha": "6d8f8f4",
+      "date": "2026-09-10T23:09:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6d8f8f45cdf35741421122733b0fafaf0e7b5d95"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json and github-activity.json",
+      "sha": "d173e0d",
+      "date": "2026-09-10T21:46:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d173e0d7f382b15dfbb3505c7e9c3eb184a9f23d"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-10T21:06:54Z)",
@@ -642,24 +669,6 @@
       "sha": "498e2b6",
       "date": "2026-09-10T17:04:40Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/498e2b6533a5cc067f1f72b3acc79f16d99eba30"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json & github-activity.json (09-11 00:48)",
-      "sha": "8747381",
-      "date": "2026-09-10T15:48:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/87473811b64befca3b8c31ab60729cfd3494ee3b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-10T15:10:08Z)",
-      "sha": "f434900",
-      "date": "2026-09-10T15:10:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f434900675290ffc08b6ba265fe615835e56ed13"
     },
     {
       "type": "commit",
@@ -724,15 +733,6 @@
       "sha": "f401ab7",
       "date": "2026-09-09T23:06:05Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f401ab73d1c223d0330a67a90a8218f4f7af6b9f"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #192: 만기는 증거 도달 채널 뒤 (DAC 192회차)",
-      "sha": "00b8e28",
-      "date": "2026-09-09T17:01:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/00b8e281f79e08ad5c72646f1b924c7270fcd2a7"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 22,
+      "commits": 23,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
