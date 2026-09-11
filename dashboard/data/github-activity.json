@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-11T06:09:38Z",
-  "since": "2026-08-12T06:08:17Z",
+  "generated": "2026-09-11T06:47:52Z",
+  "since": "2026-08-12T06:47:21Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-11T05:08:21Z",
-      "pushed_at": "2026-09-11T05:08:18Z",
+      "updated_at": "2026-09-11T06:09:45Z",
+      "pushed_at": "2026-09-11T06:09:41Z",
       "recent_commits": [
+        {
+          "sha": "0681a60",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-11T06:09:38Z)",
+          "author": "daeguru",
+          "date": "2026-09-11T06:09:38Z"
+        },
         {
           "sha": "a9e57d1",
           "message": "계기판: 라인 상태 스냅샷 갱신 (DAC 198회차) — 뉴스 13차 도착·새 양식 첫 실전 통과",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-11T00:06:37Z)",
           "author": "daeguru",
           "date": "2026-09-11T00:06:37Z"
-        },
-        {
-          "sha": "6d8f8f4",
-          "message": "dac: 자력 경고등 v1 — 라인별 마지막 활동+무활동 경고 (점검 루프 자력 전환, 197회차)",
-          "author": "sfex11",
-          "date": "2026-09-10T23:09:58Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-11T06:09:38Z)",
+      "sha": "0681a60",
+      "date": "2026-09-11T06:09:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0681a60692f9061fd3cb9dbe6ac250b0bd98b386"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-11: 위키 갱신 (2개)",
@@ -678,15 +687,6 @@
       "sha": "8cc4206",
       "date": "2026-09-10T23:10:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8cc420654e229718c6b6db78f4b866dc83dde639"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac: 자력 경고등 v1 — 라인별 마지막 활동+무활동 경고 (점검 루프 자력 전환, 197회차)",
-      "sha": "6d8f8f4",
-      "date": "2026-09-10T23:09:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6d8f8f45cdf35741421122733b0fafaf0e7b5d95"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 24,
+      "commits": 23,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 4,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
