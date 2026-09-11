@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10T23:12:00Z",
+  "generated": "2026-09-11T05:20:00Z",
   "source": "DAC 스튜디오 리포터 — 자력 경고등 v1 (점검 루프 21일 무응답 후 자력 전환, 197회차)",
   "maintainer": "dac-studio-report (매 회차 갱신)",
   "thresholds": {
@@ -12,55 +12,55 @@
       "id": "dashboard",
       "name": "계기판",
       "repo": "agent_builder_public",
-      "lastActivity": "2026-09-10T21:46:10Z",
-      "staleHours": 0,
+      "lastActivity": "2026-09-11T03:07:28Z",
+      "staleHours": 2.2,
       "status": "active",
-      "note": "96연속 자동갱신, 38일 무결함"
+      "note": "97연속 자동갱신, 39일 무결함"
     },
     {
       "id": "cle3",
       "name": "만화엔진",
       "repo": "creative-loop-engineering3",
       "lastActivity": "2026-09-10T21:02:25Z",
-      "staleHours": 0,
+      "staleHours": 8.3,
       "status": "active",
-      "note": "세션 생존(21:02Z 케이던스 유지) — 산출은 스키마 검증, 칸(신규 PNG)은 2일 공백"
+      "note": "세션 생존(21:02Z 케이던스) — 칸(신규 PNG) 산출 2연속 결번, 오늘 밤 창 관전 중(P197-2)"
     },
     {
       "id": "news",
       "name": "뉴스룸",
       "repo": "ai-agent-news",
-      "lastActivity": "2026-09-10T07:28:57Z",
-      "staleHours": 15,
+      "lastActivity": "2026-09-11T00:27:44Z",
+      "staleHours": 4.9,
       "status": "active",
-      "note": "활성 12연속 · 13차 밤 수집 예정(23:1xZ 패턴)"
+      "note": "활성 13연속 · 13차 도착(00:27Z) — 증거 장부 새 양식 첫 실전 완주(별점 ⭐2~⭐5 변별, lint 4체크 통과)"
     },
     {
       "id": "cle5priv",
       "name": "만화공방 관측",
       "repo": "creative-loop-engineering5-private",
       "lastActivity": "2026-09-08T01:57:09Z",
-      "staleHours": 69,
+      "staleHours": 75.4,
       "status": "warning",
-      "note": "09:0xZ 관측 케이던스 3일 결번 — batch push(몰아 배달) 도착 시 소급 정정 전례 다수"
+      "note": "09:0xZ 관측 케이던스 3일+ 결번 — batch push 도착 시 소급 정정 전례 다수(P197-3 관전)"
     },
     {
       "id": "cle5pub",
       "name": "만화공방 배포",
       "repo": "creative-loop-engineering5",
       "lastActivity": "2026-09-08T05:26:50Z",
-      "staleHours": 65,
+      "staleHours": 71.9,
       "status": "warning",
-      "note": "증거 이관 push 3연속 후 4일 단선(교훈 #196)"
+      "note": "증거 이관 push 3연속 후 4일 단선(교훈 #196) — P196-2 오늘 13:00Z 만기"
     },
     {
       "id": "daeguru",
       "name": "대구루 창작(영상요약·위키)",
       "repo": "team-memory",
       "lastActivity": "2026-08-27T09:45:00Z",
-      "staleHours": 349,
+      "staleHours": 355.6,
       "status": "sleeping",
-      "note": "창작 산출 14일 공백(리포터 교훈 PUT·dashboard.json 제외 기준) — pushed_at은 09-10T17:04Z지만 라이카 산물"
+      "note": "창작 산출 14.8일 공백 — P196-3 오늘 13:00Z 만기"
     },
     {
       "id": "solana",
