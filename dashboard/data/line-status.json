@@ -1,84 +1,84 @@
 {
-  "generated": "2026-09-11T17:15:00Z",
+  "generated": "2026-09-12T00:15:00Z",
   "source": "DAC 스튜디오 리포터 — 자력 경고등 v1 (점검 루프 21일 무응답 후 자력 전환, 197회차)",
   "maintainer": "dac-studio-report (매 회차 갱신)",
   "thresholds": {
     "warnHours": 48,
     "sleepHours": 120
   },
-  "note": "pushed_at 기준 스냅샷 — CLE5-priv·CLE3은 몰아 배달(batch push) 버릇이 있어 경고 표시도 소극 정정될 수 있음 · 199회차 완주 판정(17:03Z) 갱신 — 채점 1H/4M, 수면 라인 4장 전부 miss로 상태판 예언 적중(교훈 #199)",
+  "note": "pushed_at 기준 스냅샷 — CLE5-priv·CLE3은 몰아 배달(batch push) 버릇이 있어 경고 표시도 소폭 정정될 수 있음 · 200회차 완주 판정(00:15Z) 갱신 — 채점 2H/1M(누적 176/293), ★계기판 100연속 달성(P199-1 hit) + 만화 세션 오버레이 매핑 불일치 자가 발견(P197-2 hit)",
   "lines": [
     {
       "id": "dashboard",
       "name": "계기판",
       "repo": "agent_builder_public",
-      "lastActivity": "2026-09-11T15:08:21Z",
-      "staleHours": 1.9,
+      "lastActivity": "2026-09-11T21:47:50Z",
+      "staleHours": 2.3,
       "status": "active",
-      "note": "99연속 자동갱신(40일+) — P198-1 hit, 다음 회차 100연속 문턱(P199-1)"
+      "note": "★100연속 달성(P199-1 hit, 38일+ 무결함) — 자동갱신 261회+ 관측"
     },
     {
       "id": "cle3",
       "name": "만화엔진",
       "repo": "creative-loop-engineering3",
-      "lastActivity": "2026-09-10T21:02:25Z",
-      "staleHours": 20.0,
+      "lastActivity": "2026-09-11T21:04:26Z",
+      "staleHours": 3.0,
       "status": "active",
-      "note": "세션 생존 — 오늘 밤 13차 창 20:00~22:30Z(P197-2) · 감사 PR 마감 내일 05:30Z(P198-3) · 칸 산출 2연속 결번 중"
+      "note": "13일째 세션 도착(P197-2 hit) — 오버레이 매핑 불일치 자가 발견·needs_review 전환·결정 문서화. 감사 브랜치 PR 개설 대기(P198-3/P200-2)"
     },
     {
       "id": "news",
       "name": "뉴스룸",
       "repo": "ai-agent-news",
       "lastActivity": "2026-09-11T05:11:42Z",
-      "staleHours": 11.9,
+      "staleHours": 19.0,
       "status": "active",
-      "note": "활성 14연속 · 위키 14차(05:11Z) — 오늘 밤~내일 새벽 15차 세션 관전(P199-2)"
+      "note": "활성 14연속 · 위키 14차(05:11Z) — 오늘 밤 15차 세션 관전(P199-2)"
     },
     {
       "id": "cle5priv",
       "name": "만화공방 관측",
       "repo": "creative-loop-engineering5-private",
       "lastActivity": "2026-09-08T01:57:09Z",
-      "staleHours": 87.1,
+      "staleHours": 94.0,
       "status": "warning",
-      "note": "관측 케이던스 결번 4일차 — batch push 오늘 21:00Z 만기(P197-3), 도착 시 경고 자동 해제"
+      "note": "관측 케이던스 결번 5일차(P197-3 miss) — batch push 도착 시 경고 자동 해제, 소급 정정 허용"
     },
     {
       "id": "cle5pub",
       "name": "만화공방 배포",
       "repo": "creative-loop-engineering5",
       "lastActivity": "2026-09-08T05:26:50Z",
-      "staleHours": 83.6,
+      "staleHours": 90.0,
       "status": "warning",
-      "note": "증거 이관 push 단선 5일차(교훈 #196 · P196-2 miss 확정)"
-    },
-    {
-      "id": "daeguru",
-      "name": "대구루 창작(영상요약·위키)",
-      "repo": "team-memory",
-      "lastActivity": "2026-08-27T09:45:00Z",
-      "staleHours": 367.3,
-      "status": "sleeping",
-      "note": "창작 공백 15.3일 — P196-3 miss(창 내 커밋 3건은 전부 라이카 교훈 기록)"
+      "note": "증거 이관 단선 5일차(P196-2 miss) — 관측 루프 재개 시 전이 재개 후보"
     },
     {
       "id": "solana",
-      "name": "비트코인 파이프라인",
+      "name": "코인 파이프라인",
       "repo": "ai-solana-agent",
       "lastActivity": "2026-09-02T01:07:16Z",
-      "staleHours": 231.9,
-      "status": "sleeping",
-      "note": "9.7일 정적 — P193-2 miss"
+      "staleHours": 243.0,
+      "status": "sleep",
+      "note": "수면 10일+ (P193-2 miss로 재확인)"
     },
     {
       "id": "cle2",
-      "name": "SNS 직원·작업관리소",
+      "name": "작업 관리소",
       "repo": "creative-loop-engineering2",
       "lastActivity": "2026-08-29T14:34:55Z",
-      "staleHours": 314.5,
-      "status": "sleeping",
-      "note": "13.1일 정적"
+      "staleHours": 689.0,
+      "status": "sleep",
+      "note": "수면 13.4일 — 첫 작업 카드 이행 관측 없음"
+    },
+    {
+      "id": "daeguru",
+      "name": "대구루 창작(영상·위키)",
+      "repo": "team-memory",
+      "lastActivity": "2026-08-27T09:45:00Z",
+      "staleHours": 366.0,
+      "status": "sleep",
+      "note": "창작 공백 15.3일 (team-memory 최신 커밋은 라이카 교훈 PUT — #144 분리 기준)"
     }
   ]
 }
