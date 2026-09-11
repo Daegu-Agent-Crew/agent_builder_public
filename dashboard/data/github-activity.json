@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-11T00:06:37Z",
-  "since": "2026-08-12T00:05:25Z",
+  "generated": "2026-09-11T00:46:17Z",
+  "since": "2026-08-12T00:45:45Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-10T23:10:02Z",
-      "pushed_at": "2026-09-10T23:09:58Z",
+      "updated_at": "2026-09-11T00:06:44Z",
+      "pushed_at": "2026-09-11T00:06:40Z",
       "recent_commits": [
+        {
+          "sha": "7e9cb4a",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-11T00:06:37Z)",
+          "author": "daeguru",
+          "date": "2026-09-11T00:06:37Z"
+        },
         {
           "sha": "6d8f8f4",
           "message": "dac: 자력 경고등 v1 — 라인별 마지막 활동+무활동 경고 (점검 루프 자력 전환, 197회차)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-09-10T18:46:20Z)",
           "author": "daeguru",
           "date": "2026-09-10T18:46:20Z"
-        },
-        {
-          "sha": "cf02fa5",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-10T18:06:33Z)",
-          "author": "daeguru",
-          "date": "2026-09-10T18:06:33Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 2,
       "open_prs": 0,
-      "updated_at": "2026-09-10T07:29:03Z",
-      "pushed_at": "2026-09-10T07:28:57Z",
+      "updated_at": "2026-09-11T00:27:49Z",
+      "pushed_at": "2026-09-11T00:27:44Z",
       "recent_commits": [
+        {
+          "sha": "15ea797",
+          "message": "📰 2026-09-11: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-09-11T00:27:43Z"
+        },
         {
           "sha": "e7b3cec",
           "message": "feat: 증거 장부 패턴 적용 — 사실/해석 분리 규칙 + 중요도 산정표 + 수집 노트 + lint/CI (#3)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-09-09: 위키 갱신 (2개) — model 25차, research 15차",
           "author": "Renover",
           "date": "2026-09-09T05:09:49Z"
-        },
-        {
-          "sha": "d69681d",
-          "message": "📰 2026-09-09: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-09-08T23:11:04Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-11: 뉴스 수집 (5건)",
+      "sha": "15ea797",
+      "date": "2026-09-11T00:27:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/15ea797de33f70b82869558efcc4d76594e4651f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-11T00:06:37Z)",
+      "sha": "7e9cb4a",
+      "date": "2026-09-11T00:06:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7e9cb4a43061eac462f40747f0b26d93e40ddf8e"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #197: 외부 조회 실패 시 생성 대신 검증 전환 (DAC 197회차)",
@@ -651,15 +669,6 @@
       "sha": "938df04",
       "date": "2026-09-10T18:46:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/938df04c2394a50abb2388830b21f1416214501e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-10T18:06:33Z)",
-      "sha": "cf02fa5",
-      "date": "2026-09-10T18:06:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cf02fa522fa78f6e01aaae08ae676e18cf428702"
     },
     {
       "type": "commit",
@@ -742,15 +751,6 @@
       "sha": "19b185c",
       "date": "2026-09-09T05:09:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/19b185c038ca00bb9680fe332c17667da57089d9"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-09: 뉴스 수집 (5건)",
-      "sha": "d69681d",
-      "date": "2026-09-08T23:11:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d69681d64b6a35ac574ec556dab96634400f2856"
     },
     {
       "type": "pr",
