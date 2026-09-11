@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-11T18:06:29Z",
-  "since": "2026-08-12T18:05:32Z",
+  "generated": "2026-09-11T18:47:26Z",
+  "since": "2026-08-12T18:46:54Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-11T17:13:57Z",
-      "pushed_at": "2026-09-11T17:13:52Z",
+      "updated_at": "2026-09-11T18:06:37Z",
+      "pushed_at": "2026-09-11T18:06:32Z",
       "recent_commits": [
+        {
+          "sha": "abe5cae",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-11T18:06:29Z)",
+          "author": "daeguru",
+          "date": "2026-09-11T18:06:29Z"
+        },
         {
           "sha": "e4d42bc",
           "message": "DAC 199회차 다이어그램: 경고등 색이 곧 베팅 확률 (교훈 #199)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-09-11T12:46:43Z"
-        },
-        {
-          "sha": "28b28d7",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-11T12:07:20Z)",
-          "author": "daeguru",
-          "date": "2026-09-11T12:07:20Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,15 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-11T18:06:29Z)",
+      "sha": "abe5cae",
+      "date": "2026-09-11T18:06:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/abe5cae2d3d49b4c9f515093b692e6132124bedd"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "sfex11",
       "message": "DAC 199회차 다이어그램: 경고등 색이 곧 베팅 확률 (교훈 #199)",
       "sha": "e4d42bc",
@@ -651,15 +660,6 @@
       "sha": "210dad4",
       "date": "2026-09-11T12:46:43Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/210dad4079d527d761e2e434e85fff1f0321e3ba"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-11T12:07:20Z)",
-      "sha": "28b28d7",
-      "date": "2026-09-11T12:07:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/28b28d76410ff5f163ebbe9efcdcfba797ccd919"
     },
     {
       "type": "commit",
