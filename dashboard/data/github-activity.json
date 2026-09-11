@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-11T09:45:50Z",
-  "since": "2026-08-12T09:45:18Z",
+  "generated": "2026-09-11T12:07:20Z",
+  "since": "2026-08-12T12:06:23Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,27 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-11T09:07:27Z",
-      "pushed_at": "2026-09-11T09:07:22Z",
+      "updated_at": "2026-09-11T11:09:37Z",
+      "pushed_at": "2026-09-11T11:09:32Z",
       "recent_commits": [
+        {
+          "sha": "5128813",
+          "message": "계기판 창고 라인 상태 갱신 — 198회차 완주판정(뉴스 14연속, 계기판 98연속)",
+          "author": "sfex11",
+          "date": "2026-09-11T11:09:31Z"
+        },
+        {
+          "sha": "6d472b1",
+          "message": "DAC 198회차 다이어그램 — 뉴스 별점 산정표(출처 권위+교차 확인+반응 → 별점, 제외 후보)",
+          "author": "sfex11",
+          "date": "2026-09-11T11:09:05Z"
+        },
+        {
+          "sha": "3044221",
+          "message": "dashboard: 데이터 갱신 (2026-09-11 18:45 KST)",
+          "author": "daeguru",
+          "date": "2026-09-11T09:46:05Z"
+        },
         {
           "sha": "f308c46",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-11T09:07:19Z)",
@@ -73,24 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-11 15:44 KST)",
           "author": "daeguru",
           "date": "2026-09-11T06:48:47Z"
-        },
-        {
-          "sha": "0681a60",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-11T06:09:38Z)",
-          "author": "daeguru",
-          "date": "2026-09-11T06:09:38Z"
-        },
-        {
-          "sha": "a9e57d1",
-          "message": "계기판: 라인 상태 스냅샷 갱신 (DAC 198회차) — 뉴스 13차 도착·새 양식 첫 실전 통과",
-          "author": "sfex11",
-          "date": "2026-09-11T05:08:18Z"
-        },
-        {
-          "sha": "a01bfec",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-11T03:07:25Z)",
-          "author": "daeguru",
-          "date": "2026-09-11T03:07:25Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,33 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "계기판 창고 라인 상태 갱신 — 198회차 완주판정(뉴스 14연속, 계기판 98연속)",
+      "sha": "5128813",
+      "date": "2026-09-11T11:09:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5128813f1003e499e92b5c0e505ddec8ef8c9d61"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "DAC 198회차 다이어그램 — 뉴스 별점 산정표(출처 권위+교차 확인+반응 → 별점, 제외 후보)",
+      "sha": "6d472b1",
+      "date": "2026-09-11T11:09:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6d472b17ba12cb3e7dd73a65e71b2955d7b7cc8d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: 데이터 갱신 (2026-09-11 18:45 KST)",
+      "sha": "3044221",
+      "date": "2026-09-11T09:46:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3044221dad4be887ff97f852ca5ace374556167f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-11T09:07:19Z)",
       "sha": "f308c46",
@@ -627,15 +654,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-11T06:09:38Z)",
-      "sha": "0681a60",
-      "date": "2026-09-11T06:09:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0681a60692f9061fd3cb9dbe6ac250b0bd98b386"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-11: 위키 갱신 (2개)",
@@ -645,30 +663,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "계기판: 라인 상태 스냅샷 갱신 (DAC 198회차) — 뉴스 13차 도착·새 양식 첫 실전 통과",
-      "sha": "a9e57d1",
-      "date": "2026-09-11T05:08:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a9e57d12bfb50e1b462eec3230ad74b81b893478"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #198: 새 규칙 첫 실전의 극단 쌍 변별력 증명 (DAC 198회차)",
       "sha": "a244416",
       "date": "2026-09-11T05:07:42Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a244416d3ae52f8b577ba02e088e05921b0bd91e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-11T03:07:25Z)",
-      "sha": "a01bfec",
-      "date": "2026-09-11T03:07:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a01bfec6fa39785c6690001a409d0a5d429dcf23"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 23,
+      "commits": 24,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 4,
       "prs": 0,
       "issues": 0,
       "reviews": 0
