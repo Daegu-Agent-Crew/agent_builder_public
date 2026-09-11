@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-11T21:07:37Z",
-  "since": "2026-08-12T21:06:49Z",
+  "generated": "2026-09-11T21:46:52Z",
+  "since": "2026-08-12T21:46:20Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-11T18:48:09Z",
-      "pushed_at": "2026-09-11T18:48:05Z",
+      "updated_at": "2026-09-11T21:07:46Z",
+      "pushed_at": "2026-09-11T21:07:41Z",
       "recent_commits": [
+        {
+          "sha": "b22ee28",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-11T21:07:37Z)",
+          "author": "daeguru",
+          "date": "2026-09-11T21:07:38Z"
+        },
         {
           "sha": "97f8b4c",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-11T18:47:00Z)",
@@ -85,12 +91,6 @@
           "message": "라인 상태판 v1 갱신 (DAC 199회차): 채점 1H/4M — 수면 4라인 miss·계기판 99연속, 상태판 예언 적중",
           "author": "sfex11",
           "date": "2026-09-11T17:10:41Z"
-        },
-        {
-          "sha": "eb47d1b",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-11T15:08:17Z)",
-          "author": "daeguru",
-          "date": "2026-09-11T15:08:17Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-11T21:07:37Z)",
+      "sha": "b22ee28",
+      "date": "2026-09-11T21:07:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b22ee289b384a989aa89f8ad87d9fc65a181e09d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-11T18:47:00Z)",
       "sha": "97f8b4c",
       "date": "2026-09-11T18:48:04Z",
@@ -651,15 +660,6 @@
       "sha": "13cdfad",
       "date": "2026-09-11T17:10:41Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/13cdfade5cf5843e82275808bd303a47ac215e34"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-11T15:08:17Z)",
-      "sha": "eb47d1b",
-      "date": "2026-09-11T15:08:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/eb47d1bcb7582971ce3038a85947e00dab28958c"
     },
     {
       "type": "commit",
