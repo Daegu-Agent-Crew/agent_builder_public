@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-11T03:07:25Z",
-  "since": "2026-08-12T03:06:38Z",
+  "generated": "2026-09-11T06:09:38Z",
+  "since": "2026-08-12T06:08:17Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 17,
+      "open_issues": 18,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-11T00:46:39Z",
-      "pushed_at": "2026-09-11T00:46:35Z",
+      "updated_at": "2026-09-11T05:08:21Z",
+      "pushed_at": "2026-09-11T05:08:18Z",
       "recent_commits": [
+        {
+          "sha": "a9e57d1",
+          "message": "계기판: 라인 상태 스냅샷 갱신 (DAC 198회차) — 뉴스 13차 도착·새 양식 첫 실전 통과",
+          "author": "sfex11",
+          "date": "2026-09-11T05:08:18Z"
+        },
+        {
+          "sha": "a01bfec",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-11T03:07:25Z)",
+          "author": "daeguru",
+          "date": "2026-09-11T03:07:25Z"
+        },
         {
           "sha": "365a2de",
           "message": "dashboard: regenerate dashboard.json and github-activity.json",
@@ -79,18 +91,6 @@
           "message": "dac: 자력 경고등 v1 — 라인별 마지막 활동+무활동 경고 (점검 루프 자력 전환, 197회차)",
           "author": "sfex11",
           "date": "2026-09-10T23:09:58Z"
-        },
-        {
-          "sha": "d173e0d",
-          "message": "dashboard: regenerate dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-10T21:46:09Z"
-        },
-        {
-          "sha": "0ac0f46",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-10T21:06:54Z)",
-          "author": "daeguru",
-          "date": "2026-09-10T21:06:54Z"
         }
       ],
       "recent_prs": [
@@ -124,11 +124,17 @@
       "slug": "Daegu-Agent-Crew/ai-agent-news",
       "name": "ai-agent-news",
       "private": false,
-      "open_issues": 2,
+      "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-09-11T00:27:49Z",
-      "pushed_at": "2026-09-11T00:27:44Z",
+      "updated_at": "2026-09-11T05:11:45Z",
+      "pushed_at": "2026-09-11T05:11:42Z",
       "recent_commits": [
+        {
+          "sha": "47c7166",
+          "message": "📚 2026-09-11: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-11T05:11:39Z"
+        },
         {
           "sha": "15ea797",
           "message": "📰 2026-09-11: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-10: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-09T23:09:14Z"
-        },
-        {
-          "sha": "19b185c",
-          "message": "📚 2026-09-09: 위키 갱신 (2개) — model 25차, research 15차",
-          "author": "Renover",
-          "date": "2026-09-09T05:09:49Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-10T23:10:04Z",
-      "pushed_at": "2026-09-10T23:10:01Z",
+      "updated_at": "2026-09-11T05:07:46Z",
+      "pushed_at": "2026-09-11T05:07:43Z",
       "recent_commits": [
+        {
+          "sha": "a244416",
+          "message": "교훈 #198: 새 규칙 첫 실전의 극단 쌍 변별력 증명 (DAC 198회차)",
+          "author": "sfex11",
+          "date": "2026-09-11T05:07:42Z"
+        },
         {
           "sha": "8cc4206",
           "message": "교훈 #197: 외부 조회 실패 시 생성 대신 검증 전환 (DAC 197회차)",
@@ -503,12 +509,6 @@
           "message": "교훈 #194: 부재 신호(404)는 빈 상태가 아니다 — 실제 경로 확인 후 판정 (DAC 194회차)",
           "author": "sfex11",
           "date": "2026-09-10T05:09:48Z"
-        },
-        {
-          "sha": "f401ab7",
-          "message": "교훈 #193: 산출 유형마다 전달 규칙 재명시 (DAC 193회차)",
-          "author": "sfex11",
-          "date": "2026-09-09T23:06:05Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-11: 위키 갱신 (2개)",
+      "sha": "47c7166",
+      "date": "2026-09-11T05:11:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/47c7166067bd3fab66a6ea8bda191ad3315ed46f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "계기판: 라인 상태 스냅샷 갱신 (DAC 198회차) — 뉴스 13차 도착·새 양식 첫 실전 통과",
+      "sha": "a9e57d1",
+      "date": "2026-09-11T05:08:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a9e57d12bfb50e1b462eec3230ad74b81b893478"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #198: 새 규칙 첫 실전의 극단 쌍 변별력 증명 (DAC 198회차)",
+      "sha": "a244416",
+      "date": "2026-09-11T05:07:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a244416d3ae52f8b577ba02e088e05921b0bd91e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-11T03:07:25Z)",
+      "sha": "a01bfec",
+      "date": "2026-09-11T03:07:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a01bfec6fa39785c6690001a409d0a5d429dcf23"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: regenerate dashboard.json and github-activity.json",
@@ -651,24 +687,6 @@
       "sha": "6d8f8f4",
       "date": "2026-09-10T23:09:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6d8f8f45cdf35741421122733b0fafaf0e7b5d95"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: regenerate dashboard.json and github-activity.json",
-      "sha": "d173e0d",
-      "date": "2026-09-10T21:46:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d173e0d7f382b15dfbb3505c7e9c3eb184a9f23d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-10T21:06:54Z)",
-      "sha": "0ac0f46",
-      "date": "2026-09-10T21:06:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0ac0f46c3ffc37de73e4caa932270cb50ae17193"
     },
     {
       "type": "commit",
@@ -733,24 +751,6 @@
       "sha": "ee3c7ab",
       "date": "2026-09-09T23:09:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ee3c7ab957e4fb7d016b071f2b6b2f197539f944"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #193: 산출 유형마다 전달 규칙 재명시 (DAC 193회차)",
-      "sha": "f401ab7",
-      "date": "2026-09-09T23:06:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f401ab73d1c223d0330a67a90a8218f4f7af6b9f"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-09: 위키 갱신 (2개) — model 25차, research 15차",
-      "sha": "19b185c",
-      "date": "2026-09-09T05:09:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/19b185c038ca00bb9680fe332c17667da57089d9"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 23,
+      "commits": 24,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 4,
       "prs": 0,
       "issues": 0,
       "reviews": 0
