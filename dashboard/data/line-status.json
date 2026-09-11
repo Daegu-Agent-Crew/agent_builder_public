@@ -1,46 +1,46 @@
 {
-  "generated": "2026-09-11T05:20:00Z",
+  "generated": "2026-09-11T11:10:00Z",
   "source": "DAC 스튜디오 리포터 — 자력 경고등 v1 (점검 루프 21일 무응답 후 자력 전환, 197회차)",
   "maintainer": "dac-studio-report (매 회차 갱신)",
   "thresholds": {
     "warnHours": 48,
     "sleepHours": 120
   },
-  "note": "pushed_at 기준 스냅샷 — CLE5-priv·CLE3은 몰아 배달(batch push) 버릇이 있어 경고 표시도 소급 정정될 수 있음",
+  "note": "pushed_at 기준 스냅샷 — CLE5-priv·CLE3은 몰아 배달(batch push) 버릇이 있어 경고 표시도 소급 정정될 수 있음 · 198회차 완주 판정(11:10Z) — 새벽 05:08Z 부분 실행 이어받기",
   "lines": [
     {
       "id": "dashboard",
       "name": "계기판",
       "repo": "agent_builder_public",
-      "lastActivity": "2026-09-11T03:07:28Z",
-      "staleHours": 2.2,
+      "lastActivity": "2026-09-11T09:45:50Z",
+      "staleHours": 1.4,
       "status": "active",
-      "note": "97연속 자동갱신, 39일 무결함"
+      "note": "98연속 자동갱신, 40일 무결함"
     },
     {
       "id": "cle3",
       "name": "만화엔진",
       "repo": "creative-loop-engineering3",
       "lastActivity": "2026-09-10T21:02:25Z",
-      "staleHours": 8.3,
+      "staleHours": 14.1,
       "status": "active",
-      "note": "세션 생존(21:02Z 케이던스) — 칸(신규 PNG) 산출 2연속 결번, 오늘 밤 창 관전 중(P197-2)"
+      "note": "세션 생존(21:02Z 케이던스) — 칸 산출 2연속 결번, 오늘 밤 20:00~22:30Z 창 관전(P197-2) · 감사 PR 3단계 이행 대기(P198-3)"
     },
     {
       "id": "news",
       "name": "뉴스룸",
       "repo": "ai-agent-news",
-      "lastActivity": "2026-09-11T00:27:44Z",
-      "staleHours": 4.9,
+      "lastActivity": "2026-09-11T05:11:42Z",
+      "staleHours": 6.0,
       "status": "active",
-      "note": "활성 13연속 · 13차 도착(00:27Z) — 증거 장부 새 양식 첫 실전 완주(별점 ⭐2~⭐5 변별, lint 4체크 통과)"
+      "note": "활성 14연속 · 위키 14차 도착(05:11Z) — 증거 장부 새 양식 첫 실전 완주(13차 00:27Z, 별점 ⭐2~⭐5 변별, lint 4체크 통과)"
     },
     {
       "id": "cle5priv",
       "name": "만화공방 관측",
       "repo": "creative-loop-engineering5-private",
       "lastActivity": "2026-09-08T01:57:09Z",
-      "staleHours": 75.4,
+      "staleHours": 81.2,
       "status": "warning",
       "note": "09:0xZ 관측 케이던스 3일+ 결번 — batch push 도착 시 소급 정정 전례 다수(P197-3 관전)"
     },
@@ -49,7 +49,7 @@
       "name": "만화공방 배포",
       "repo": "creative-loop-engineering5",
       "lastActivity": "2026-09-08T05:26:50Z",
-      "staleHours": 71.9,
+      "staleHours": 77.7,
       "status": "warning",
       "note": "증거 이관 push 3연속 후 4일 단선(교훈 #196) — P196-2 오늘 13:00Z 만기"
     },
@@ -58,7 +58,7 @@
       "name": "대구루 창작(영상요약·위키)",
       "repo": "team-memory",
       "lastActivity": "2026-08-27T09:45:00Z",
-      "staleHours": 355.6,
+      "staleHours": 361.4,
       "status": "sleeping",
       "note": "창작 산출 14.8일 공백 — P196-3 오늘 13:00Z 만기"
     },
@@ -67,7 +67,7 @@
       "name": "밈코인 파이프라인",
       "repo": "ai-solana-agent",
       "lastActivity": "2026-09-02T01:07:16Z",
-      "staleHours": 214,
+      "staleHours": 226.0,
       "status": "sleeping",
       "note": "8.9일 정적 — 카드·예약 전달로도 기상 없음"
     },
@@ -76,7 +76,7 @@
       "name": "SNS 직원·작업관리소",
       "repo": "creative-loop-engineering2",
       "lastActivity": "2026-08-29T14:34:55Z",
-      "staleHours": 297,
+      "staleHours": 308.6,
       "status": "sleeping",
       "note": "12.4일 정적 — 첫 작업 카드 이행 0건"
     }
