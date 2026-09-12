@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-11T21:46:52Z",
-  "since": "2026-08-12T21:46:20Z",
+  "generated": "2026-09-12T00:06:28Z",
+  "since": "2026-08-13T00:05:42Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 19,
+      "open_issues": 20,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-11T21:07:46Z",
-      "pushed_at": "2026-09-11T21:07:41Z",
+      "updated_at": "2026-09-11T23:09:26Z",
+      "pushed_at": "2026-09-11T23:09:22Z",
       "recent_commits": [
+        {
+          "sha": "cb9ca91",
+          "message": "line-status 200회차 갱신 — 계기판 100연속, 만화 세션 오버레이 검토 도착",
+          "author": "sfex11",
+          "date": "2026-09-11T23:09:22Z"
+        },
+        {
+          "sha": "34877ee",
+          "message": "chore(dashboard): regenerate dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-09-11T21:47:49Z"
+        },
         {
           "sha": "b22ee28",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-11T21:07:37Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-11T18:06:29Z)",
           "author": "daeguru",
           "date": "2026-09-11T18:06:29Z"
-        },
-        {
-          "sha": "e4d42bc",
-          "message": "DAC 199회차 다이어그램: 경고등 색이 곧 베팅 확률 (교훈 #199)",
-          "author": "sfex11",
-          "date": "2026-09-11T17:13:52Z"
-        },
-        {
-          "sha": "13cdfad",
-          "message": "라인 상태판 v1 갱신 (DAC 199회차): 채점 1H/4M — 수면 4라인 miss·계기판 99연속, 상태판 예언 적중",
-          "author": "sfex11",
-          "date": "2026-09-11T17:10:41Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-09-11T05:11:45Z",
-      "pushed_at": "2026-09-11T05:11:42Z",
+      "updated_at": "2026-09-11T23:22:10Z",
+      "pushed_at": "2026-09-11T23:22:05Z",
       "recent_commits": [
+        {
+          "sha": "48d0979",
+          "message": "📰 2026-09-12: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-09-11T23:22:04Z"
+        },
         {
           "sha": "47c7166",
           "message": "📚 2026-09-11: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-09-10: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-09-10T05:07:09Z"
-        },
-        {
-          "sha": "ee3c7ab",
-          "message": "📰 2026-09-10: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-09-09T23:09:14Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-11T17:10:48Z",
-      "pushed_at": "2026-09-11T17:10:44Z",
+      "updated_at": "2026-09-11T23:08:39Z",
+      "pushed_at": "2026-09-11T23:08:36Z",
       "recent_commits": [
+        {
+          "sha": "5fdb6bb",
+          "message": "교훈 #200: 정합성은 ID가 아니라 근거에서 나온다 (DAC 200회차)",
+          "author": "sfex11",
+          "date": "2026-09-11T23:08:36Z"
+        },
         {
           "sha": "a505e95",
           "message": "교훈 #199: 경고등 색이 곧 베팅 확률이다 (DAC 199회차)",
@@ -503,12 +509,6 @@
           "message": "교훈 #196: 표본 3개는 규칙 후보 — 5표본 전까지 도전으로만 베팅 (DAC 196회차)",
           "author": "sfex11",
           "date": "2026-09-10T17:04:40Z"
-        },
-        {
-          "sha": "1cf258e",
-          "message": "교훈 #195: 외부 패턴 이식은 축소본부터 (195회차)",
-          "author": "sfex11",
-          "date": "2026-09-10T11:08:07Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-12: 뉴스 수집 (5건)",
+      "sha": "48d0979",
+      "date": "2026-09-11T23:22:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/48d09794024c5472dad50c9e9727690b8c98a76a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "line-status 200회차 갱신 — 계기판 100연속, 만화 세션 오버레이 검토 도착",
+      "sha": "cb9ca91",
+      "date": "2026-09-11T23:09:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cb9ca9195b3db887c797e71ce656d0d2d160cefd"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #200: 정합성은 ID가 아니라 근거에서 나온다 (DAC 200회차)",
+      "sha": "5fdb6bb",
+      "date": "2026-09-11T23:08:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5fdb6bb82b90c00f4834cf763f91e6b276e0938c"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): regenerate dashboard.json and github-activity.json",
+      "sha": "34877ee",
+      "date": "2026-09-11T21:47:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/34877eeb32545ea50c8378d68bc5ce09dac55a0a"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-11T21:07:37Z)",
@@ -636,30 +672,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "DAC 199회차 다이어그램: 경고등 색이 곧 베팅 확률 (교훈 #199)",
-      "sha": "e4d42bc",
-      "date": "2026-09-11T17:13:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e4d42bc4cf8296dbbabf88dae42782f45fc28731"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #199: 경고등 색이 곧 베팅 확률이다 (DAC 199회차)",
       "sha": "a505e95",
       "date": "2026-09-11T17:10:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a505e95c4e89debdf1224d5374b2226614f0db59"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "라인 상태판 v1 갱신 (DAC 199회차): 채점 1H/4M — 수면 4라인 miss·계기판 99연속, 상태판 예언 적중",
-      "sha": "13cdfad",
-      "date": "2026-09-11T17:10:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/13cdfade5cf5843e82275808bd303a47ac215e34"
     },
     {
       "type": "commit",
@@ -707,15 +725,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/498e2b6533a5cc067f1f72b3acc79f16d99eba30"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #195: 외부 패턴 이식은 축소본부터 (195회차)",
-      "sha": "1cf258e",
-      "date": "2026-09-10T11:08:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1cf258e2114987f509a2b2f6e6daf23d3eecc451"
-    },
-    {
       "type": "pr",
       "repo": "ai-agent-news",
       "author": "sfex11",
@@ -742,15 +751,6 @@
       "sha": "6186e44",
       "date": "2026-09-10T05:07:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/6186e442b1eb88e9287a131a190502bc1bc7799d"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-10: 뉴스 수집 (5건)",
-      "sha": "ee3c7ab",
-      "date": "2026-09-09T23:09:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ee3c7ab957e4fb7d016b071f2b6b2f197539f944"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 24,
+      "commits": 23,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 4,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
