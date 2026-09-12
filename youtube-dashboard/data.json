@@ -2,15 +2,16 @@
   "meta": {
     "version": 1,
     "generatedAt": "2026-08-11",
-    "totalVideos": 21,
-    "totalChannels": 14,
+    "totalVideos": 22,
+    "totalChannels": 15,
     "byType": {
-      "영상 요약": 13,
+      "영상 요약": 14,
       "담화 패턴 분석": 5,
       "기타": 2,
       "참가자 분석": 1
     },
     "byChannel": {
+      "AI Frontier Korea (노정석)": 1,
       "AI Jason": 3,
       "Tech Bridge": 1,
       "미상": 5,
@@ -27,12 +28,31 @@
       "천영록": 1
     },
     "byMonth": {
+      "2026-09": 1,
       "2026-08": 7,
       "2026-07": 11,
       "2026-06": 3
     }
   },
   "videos": [
+    {
+      "filename": "2026-09-12-ai-frontier-ep114-navier-stokes.md",
+      "title": "Navier-Stokes 방정식 AI 해결, GPT Image 2.5, AlphaGenome Atlas (AI Frontier EP114)",
+      "videoUrl": "https://youtu.be/y7VAW4Xd_Q0",
+      "channel": "AI Frontier Korea (노정석)",
+      "speaker": "",
+      "date": "2026-09-12",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "OpenAI가 다음 세대 내부 모델(B 계열, Astra 후속)로 1만 개 에이전트를 88시간 동시 구동해 밀레니엄 문제 Navier-Stokes 방정식을 공략했다. \"검증 가능한(RLVR) 영역 + 물량(compute) + 대규모 에이전트 협업\"이면 미해결 난제도 무너진다는 것이 증명된 사건이며, 생물학(AlphaGenome Atlas)도 같은 계열의 '계산화'를 밟고 있다. 그러나 그 이면에 연구 데이터 유출 의혹·양사 갈등·안전성 경고가 공존한다.",
+      "sections": [
+        "주요 내용",
+        "우리 팀(Daegu Agent Crew)에 반영할 인사이트"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-09-12-ai-frontier-ep114-navier-stokes.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/y7VAW4Xd_Q0/mqdefault.jpg"
+    },
     {
       "filename": "2026-08-27-graph-engineer-control-graph.md",
       "title": "I don't prompt agents anymore...",
