@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-12T06:45:20Z",
-  "since": "2026-08-13T06:44:49Z",
+  "generated": "2026-09-12T09:07:53Z",
+  "since": "2026-08-13T09:07:06Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-12T06:29:18Z",
-      "pushed_at": "2026-09-12T06:29:15Z",
+      "updated_at": "2026-09-12T06:45:42Z",
+      "pushed_at": "2026-09-12T06:45:38Z",
       "recent_commits": [
+        {
+          "sha": "28f1852",
+          "message": "chore(dashboard): refresh dashboard + github activity (2026-09-12T06:44Z)",
+          "author": "daeguru",
+          "date": "2026-09-12T06:45:37Z"
+        },
         {
           "sha": "97a5195",
           "message": "chore: update youtube dashboard data (EP114)",
@@ -85,12 +91,6 @@
           "message": "dac-201 diagram: 계기판 100연속 (201회차)",
           "author": "sfex11",
           "date": "2026-09-12T05:09:41Z"
-        },
-        {
-          "sha": "43f076e",
-          "message": "chore(dashboard): auto-refresh data (2026-09-12T03:46:48Z)",
-          "author": "daeguru",
-          "date": "2026-09-12T03:46:48Z"
         }
       ],
       "recent_prs": [
@@ -205,66 +205,66 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 21,
+      "open_issues": 22,
       "open_prs": 0,
-      "updated_at": "2026-08-29T14:35:12Z",
-      "pushed_at": "2026-08-29T14:34:55Z",
+      "updated_at": "2026-09-12T07:31:50Z",
+      "pushed_at": "2026-09-12T07:31:48Z",
       "recent_commits": [
+        {
+          "sha": "4a81183",
+          "message": "docs: 재개 조건 2건 회장님 확정 반영 — ROADMAP.md · STATUS.md (#81)",
+          "author": "sfex11",
+          "date": "2026-09-12T07:31:45Z"
+        },
+        {
+          "sha": "2e7d237",
+          "message": "docs: ROADMAP.md 작성 — org 리포 21개 활성/보류/완결 분류 (CLE2-26) (#80)",
+          "author": "sfex11",
+          "date": "2026-09-12T07:21:20Z"
+        },
+        {
+          "sha": "6af2a0d",
+          "message": "docs(OPERATING): 대구루2 등록 — CLE2 세션, agent:daeguru2 표기 + 협업 채널 규칙 (#78)",
+          "author": "sfex11",
+          "date": "2026-09-12T07:10:53Z"
+        },
+        {
+          "sha": "60292fc",
+          "message": "docs: 운영 규칙 제정 — attribution/TTL 승인 프로토콜/CLE2 중심 사이클 (#76)",
+          "author": "sfex11",
+          "date": "2026-09-12T06:59:15Z"
+        },
         {
           "sha": "dc3faf8",
           "message": "docs(CLE2-25): Phase 0 상태 갱신 (#74)",
           "author": "sfex11",
           "date": "2026-08-29T14:34:52Z"
-        },
-        {
-          "sha": "402b2a1",
-          "message": "feat(CLE2-25): 태스크 초기 설정 + 결정사항 확정 (#73)",
-          "author": "sfex11",
-          "date": "2026-08-29T00:27:57Z"
-        },
-        {
-          "sha": "6ff8904",
-          "message": "docs(CLE2-24): 태스크 완료 — 검증 통과, 협업 사이클 1회 완주 (#71)",
-          "author": "sfex11",
-          "date": "2026-08-29T00:05:43Z"
-        },
-        {
-          "sha": "74a504e",
-          "message": "feat(CLE2-24): 에이전트 협업 게시판 태스크 초기 설정 (#70)",
-          "author": "sfex11",
-          "date": "2026-08-28T23:57:44Z"
-        },
-        {
-          "sha": "ee66cb0",
-          "message": "Merge pull request #66 from Daegu-Agent-Crew/cle2-23-setup",
-          "author": "sfex11",
-          "date": "2026-08-25T00:13:51Z"
         }
       ],
       "recent_prs": [
         {
-          "number": 74,
-          "title": "docs(CLE2-25): Phase 0 상태 갱신 — 코드 완성, 파우셋 대기",
+          "number": 81,
+          "title": "docs: 재개 조건 2건 회장님 확정 반영",
           "author": "sfex11",
           "state": "closed",
-          "updated_at": "2026-08-29T14:34:55Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/74"
+          "updated_at": "2026-09-12T07:31:48Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/81"
         },
         {
-          "number": 73,
-          "title": "feat(CLE2-25): 솔라나 밈코인 파이프라인 태스크 초기 설정",
+          "number": 80,
+          "title": "docs: ROADMAP.md 작성 — org 리포 21개 활성/보류/완결 분류 (CLE2-26)",
           "author": "sfex11",
           "state": "closed",
-          "updated_at": "2026-08-29T00:28:00Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/73"
+          "updated_at": "2026-09-12T07:21:23Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/80"
         },
         {
-          "number": 71,
-          "title": "docs(CLE2-24): 태스크 완료 — 검증 통과, 협업 사이클 1회 완주",
+          "number": 78,
+          "title": "docs(OPERATING): 대구루2 등록 — agent:daeguru2 표기 + 에이전트 협업 채널",
           "author": "sfex11",
           "state": "closed",
-          "updated_at": "2026-08-29T00:05:46Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/71"
+          "updated_at": "2026-09-12T07:10:55Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/78"
         }
       ]
     },
@@ -608,6 +608,81 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: 재개 조건 2건 회장님 확정 반영",
+      "number": 81,
+      "state": "closed",
+      "date": "2026-09-12T07:31:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/81"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: 재개 조건 2건 회장님 확정 반영 — ROADMAP.md · STATUS.md (#81)",
+      "sha": "4a81183",
+      "date": "2026-09-12T07:31:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/4a811831f81d5c5623a8e341e7c471cc65393abe"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: ROADMAP.md 작성 — org 리포 21개 활성/보류/완결 분류 (CLE2-26)",
+      "number": 80,
+      "state": "closed",
+      "date": "2026-09-12T07:21:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/80"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: ROADMAP.md 작성 — org 리포 21개 활성/보류/완결 분류 (CLE2-26) (#80)",
+      "sha": "2e7d237",
+      "date": "2026-09-12T07:21:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2e7d2375e363d7c1a4df8352a5656eb9828da8a1"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(OPERATING): 대구루2 등록 — agent:daeguru2 표기 + 에이전트 협업 채널",
+      "number": 78,
+      "state": "closed",
+      "date": "2026-09-12T07:10:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/78"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(OPERATING): 대구루2 등록 — CLE2 세션, agent:daeguru2 표기 + 협업 채널 규칙 (#78)",
+      "sha": "6af2a0d",
+      "date": "2026-09-12T07:10:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/6af2a0df16d544421fc352c252795f8b24f2a134"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs: 운영 규칙 제정 — attribution/TTL 승인 프로토콜/CLE2 중심 사이클 (#76)",
+      "sha": "60292fc",
+      "date": "2026-09-12T06:59:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/60292fc1d1b00512ab99d319f094a0e6e1f0f34d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard + github activity (2026-09-12T06:44Z)",
+      "sha": "28f1852",
+      "date": "2026-09-12T06:45:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/28f18528285afc284a96380326fe9e23791deb23"
+    },
+    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -669,15 +744,6 @@
       "sha": "3c7812a",
       "date": "2026-09-12T05:09:41Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3c7812ad96a4390472bd1baeaa23594fd15b80e3"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh data (2026-09-12T03:46:48Z)",
-      "sha": "43f076e",
-      "date": "2026-09-12T03:46:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/43f076e29db5ba5c67ca12daf15ab21231795816"
     },
     {
       "type": "commit",
@@ -763,16 +829,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/20"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-25): Phase 0 상태 갱신 — 코드 완성, 파우셋 대기",
-      "number": 74,
-      "state": "closed",
-      "date": "2026-08-29T14:34:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/74"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -793,44 +849,6 @@
     },
     {
       "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-25): 솔라나 밈코인 파이프라인 태스크 초기 설정",
-      "number": 73,
-      "state": "closed",
-      "date": "2026-08-29T00:28:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/73"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-25): 태스크 초기 설정 + 결정사항 확정 (#73)",
-      "sha": "402b2a1",
-      "date": "2026-08-29T00:27:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/402b2a1860237d995985a63577857516bf05fabb"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-24): 태스크 완료 — 검증 통과, 협업 사이클 1회 완주",
-      "number": 71,
-      "state": "closed",
-      "date": "2026-08-29T00:05:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/71"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-24): 태스크 완료 — 검증 통과, 협업 사이클 1회 완주 (#71)",
-      "sha": "6ff8904",
-      "date": "2026-08-29T00:05:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/6ff8904f797bd924677dda3c05e992e46f30840c"
-    },
-    {
-      "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "chore(agents-board): 협업 사이클 1회 완주 마감 (CLE2-24)",
@@ -848,24 +866,6 @@
       "state": "closed",
       "date": "2026-08-29T00:02:46Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/17"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-24): 에이전트 협업 게시판 태스크 초기 설정 (#70)",
-      "sha": "74a504e",
-      "date": "2026-08-28T23:57:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/74a504e56cc5d7471ac1e77b304d7ed9e111d93e"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "Merge pull request #66 from Daegu-Agent-Crew/cle2-23-setup",
-      "sha": "ee66cb0",
-      "date": "2026-08-25T00:13:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/ee66cb06929dfa2d68c50307b8874e88d5a546ec"
     },
     {
       "type": "pr",
