@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-12T18:07:03Z",
-  "since": "2026-08-13T18:06:10Z",
+  "generated": "2026-09-12T21:07:12Z",
+  "since": "2026-08-13T21:06:06Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-12T17:12:20Z",
-      "pushed_at": "2026-09-12T17:12:17Z",
+      "updated_at": "2026-09-12T18:46:04Z",
+      "pushed_at": "2026-09-12T18:46:01Z",
       "recent_commits": [
+        {
+          "sha": "4e8b5a3",
+          "message": "chore(dashboard): regenerate dashboard.json (2026-09-13 03:44 KST)",
+          "author": "daeguru",
+          "date": "2026-09-12T18:46:00Z"
+        },
+        {
+          "sha": "9297bd2",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T18:07:03Z)",
+          "author": "daeguru",
+          "date": "2026-09-12T18:07:03Z"
+        },
         {
           "sha": "928ff88",
           "message": "dac-203 diagram: 21개 창고를 세 서랍으로 (활성7/보류6/완결8) — 203회차 보고 첨부용",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): refresh dashboard.json + github activity (2026-09-12 21:46 KST)",
           "author": "daeguru",
           "date": "2026-09-12T12:47:07Z"
-        },
-        {
-          "sha": "be49915",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T12:09:01Z)",
-          "author": "daeguru",
-          "date": "2026-09-12T12:09:01Z"
-        },
-        {
-          "sha": "b6cbbd4",
-          "message": "line-status 202회차 갱신 — CLE2·대구루 부활(수면→활성), 계기판 102연속",
-          "author": "Laika",
-          "date": "2026-09-12T11:14:17Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): regenerate dashboard.json (2026-09-13 03:44 KST)",
+      "sha": "4e8b5a3",
+      "date": "2026-09-12T18:46:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4e8b5a3cc182c28aee67e6af7e2e3a28df16a50d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T18:07:03Z)",
+      "sha": "9297bd2",
+      "date": "2026-09-12T18:07:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9297bd24505bcc8a0270ce15058a64dee50b397d"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #203: 채널 산출은 장부로 옮겨질 때 조직 자산이 된다 (DAC 203회차)",
@@ -651,24 +669,6 @@
       "sha": "1ac59da",
       "date": "2026-09-12T12:47:07Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1ac59da6c987a4e6f9c8e1d8ab3af33d780cffe0"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T12:09:01Z)",
-      "sha": "be49915",
-      "date": "2026-09-12T12:09:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/be499151a1454341ade9bfef5f3d2521a09f327b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "line-status 202회차 갱신 — CLE2·대구루 부활(수면→활성), 계기판 102연속",
-      "sha": "b6cbbd4",
-      "date": "2026-09-12T11:14:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b6cbbd4bac3adb6a37e175eafcd56cc2f2741a57"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
