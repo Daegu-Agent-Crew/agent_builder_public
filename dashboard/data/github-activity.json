@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-12T03:46:31Z",
-  "since": "2026-08-13T03:46:00Z",
+  "generated": "2026-09-12T06:08:42Z",
+  "since": "2026-08-13T06:07:15Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 20,
+      "open_issues": 21,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,27 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-12T03:10:50Z",
-      "pushed_at": "2026-09-12T03:10:46Z",
+      "updated_at": "2026-09-12T05:11:32Z",
+      "pushed_at": "2026-09-12T05:11:28Z",
       "recent_commits": [
+        {
+          "sha": "dc5cd22",
+          "message": "line-status 201회차 갱신 — 뉴스 15차 선제·계기판 101연속·저축 결번 방어(교훈 #201)",
+          "author": "sfex11",
+          "date": "2026-09-12T05:11:28Z"
+        },
+        {
+          "sha": "3c7812a",
+          "message": "dac-201 diagram: 계기판 100연속 (201회차)",
+          "author": "sfex11",
+          "date": "2026-09-12T05:09:41Z"
+        },
+        {
+          "sha": "43f076e",
+          "message": "chore(dashboard): auto-refresh data (2026-09-12T03:46:48Z)",
+          "author": "daeguru",
+          "date": "2026-09-12T03:46:48Z"
+        },
         {
           "sha": "a11ab41",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-12T03:10:43Z)",
@@ -73,24 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-12 09:45 KST)",
           "author": "daeguru",
           "date": "2026-09-12T00:46:11Z"
-        },
-        {
-          "sha": "e63cbcc",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T00:06:28Z)",
-          "author": "daeguru",
-          "date": "2026-09-12T00:06:28Z"
-        },
-        {
-          "sha": "cb9ca91",
-          "message": "line-status 200회차 갱신 — 계기판 100연속, 만화 세션 오버레이 검토 도착",
-          "author": "sfex11",
-          "date": "2026-09-11T23:09:22Z"
-        },
-        {
-          "sha": "34877ee",
-          "message": "chore(dashboard): regenerate dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-11T21:47:49Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-09-11T23:22:10Z",
-      "pushed_at": "2026-09-11T23:22:05Z",
+      "updated_at": "2026-09-12T05:10:24Z",
+      "pushed_at": "2026-09-12T05:10:21Z",
       "recent_commits": [
+        {
+          "sha": "71710cb",
+          "message": "📚 2026-09-12: 위키 갱신 (2개) — industry 30차(5건), research 16차(3건)",
+          "author": "Renover",
+          "date": "2026-09-12T05:10:20Z"
+        },
         {
           "sha": "48d0979",
           "message": "📰 2026-09-12: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "feat: 증거 장부 패턴 적용 — 사실/해석 분리 규칙 + 중요도 산정표 + 수집 노트 + lint/CI (#3)",
           "author": "sfex11",
           "date": "2026-09-10T07:28:57Z"
-        },
-        {
-          "sha": "6186e44",
-          "message": "📚 2026-09-10: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-09-10T05:07:09Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-11T23:08:39Z",
-      "pushed_at": "2026-09-11T23:08:36Z",
+      "updated_at": "2026-09-12T05:11:34Z",
+      "pushed_at": "2026-09-12T05:11:30Z",
       "recent_commits": [
+        {
+          "sha": "3e58933",
+          "message": "교훈 #201: 몫이 미리 채워진 달력은 라인의 멈춤을 하루 늦게 알린다 (DAC 201회차)",
+          "author": "sfex11",
+          "date": "2026-09-12T05:11:30Z"
+        },
         {
           "sha": "5fdb6bb",
           "message": "교훈 #200: 정합성은 ID가 아니라 근거에서 나온다 (DAC 200회차)",
@@ -503,12 +509,6 @@
           "message": "교훈 #197: 외부 조회 실패 시 생성 대신 검증 전환 (DAC 197회차)",
           "author": "sfex11",
           "date": "2026-09-10T23:10:00Z"
-        },
-        {
-          "sha": "498e2b6",
-          "message": "교훈 #196: 표본 3개는 규칙 후보 — 5표본 전까지 도전으로만 베팅 (DAC 196회차)",
-          "author": "sfex11",
-          "date": "2026-09-10T17:04:40Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,51 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #201: 몫이 미리 채워진 달력은 라인의 멈춤을 하루 늦게 알린다 (DAC 201회차)",
+      "sha": "3e58933",
+      "date": "2026-09-12T05:11:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3e589338cc8fd2cd1b0be8ee004ce81073253bb0"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "line-status 201회차 갱신 — 뉴스 15차 선제·계기판 101연속·저축 결번 방어(교훈 #201)",
+      "sha": "dc5cd22",
+      "date": "2026-09-12T05:11:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dc5cd22a3c695e936c0f414d93cd3b8239dc99f0"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-12: 위키 갱신 (2개) — industry 30차(5건), research 16차(3건)",
+      "sha": "71710cb",
+      "date": "2026-09-12T05:10:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/71710cb49e1f258277b171bdeb5596408774a2bd"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac-201 diagram: 계기판 100연속 (201회차)",
+      "sha": "3c7812a",
+      "date": "2026-09-12T05:09:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3c7812ad96a4390472bd1baeaa23594fd15b80e3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh data (2026-09-12T03:46:48Z)",
+      "sha": "43f076e",
+      "date": "2026-09-12T03:46:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/43f076e29db5ba5c67ca12daf15ab21231795816"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-12T03:10:43Z)",
@@ -627,15 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T00:06:28Z)",
-      "sha": "e63cbcc",
-      "date": "2026-09-12T00:06:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e63cbccaed2a9b7cad8b9ff10ef211ab5daef00a"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-12: 뉴스 수집 (5건)",
@@ -645,30 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "line-status 200회차 갱신 — 계기판 100연속, 만화 세션 오버레이 검토 도착",
-      "sha": "cb9ca91",
-      "date": "2026-09-11T23:09:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cb9ca9195b3db887c797e71ce656d0d2d160cefd"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #200: 정합성은 ID가 아니라 근거에서 나온다 (DAC 200회차)",
       "sha": "5fdb6bb",
       "date": "2026-09-11T23:08:36Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5fdb6bb82b90c00f4834cf763f91e6b276e0938c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): regenerate dashboard.json and github-activity.json",
-      "sha": "34877ee",
-      "date": "2026-09-11T21:47:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/34877eeb32545ea50c8378d68bc5ce09dac55a0a"
     },
     {
       "type": "commit",
@@ -716,15 +734,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8cc420654e229718c6b6db78f4b866dc83dde639"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #196: 표본 3개는 규칙 후보 — 5표본 전까지 도전으로만 베팅 (DAC 196회차)",
-      "sha": "498e2b6",
-      "date": "2026-09-10T17:04:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/498e2b6533a5cc067f1f72b3acc79f16d99eba30"
-    },
-    {
       "type": "pr",
       "repo": "ai-agent-news",
       "author": "sfex11",
@@ -742,15 +751,6 @@
       "sha": "e7b3cec",
       "date": "2026-09-10T07:28:57Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e7b3ceca9c532af1190472263b331bfebbe187c1"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-10: 위키 갱신 (2개)",
-      "sha": "6186e44",
-      "date": "2026-09-10T05:07:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/6186e442b1eb88e9287a131a190502bc1bc7799d"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 23,
+      "commits": 24,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 4,
       "prs": 0,
       "issues": 0,
       "reviews": 0
