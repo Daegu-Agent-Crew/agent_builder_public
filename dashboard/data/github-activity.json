@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-12T00:06:28Z",
-  "since": "2026-08-13T00:05:42Z",
+  "generated": "2026-09-12T00:45:41Z",
+  "since": "2026-08-13T00:45:10Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-11T23:09:26Z",
-      "pushed_at": "2026-09-11T23:09:22Z",
+      "updated_at": "2026-09-12T00:06:35Z",
+      "pushed_at": "2026-09-12T00:06:31Z",
       "recent_commits": [
+        {
+          "sha": "e63cbcc",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T00:06:28Z)",
+          "author": "daeguru",
+          "date": "2026-09-12T00:06:28Z"
+        },
         {
           "sha": "cb9ca91",
           "message": "line-status 200회차 갱신 — 계기판 100연속, 만화 세션 오버레이 검토 도착",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-11T18:47:00Z)",
           "author": "daeguru",
           "date": "2026-09-11T18:48:04Z"
-        },
-        {
-          "sha": "abe5cae",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-11T18:06:29Z)",
-          "author": "daeguru",
-          "date": "2026-09-11T18:06:29Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T00:06:28Z)",
+      "sha": "e63cbcc",
+      "date": "2026-09-12T00:06:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e63cbccaed2a9b7cad8b9ff10ef211ab5daef00a"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-12: 뉴스 수집 (5건)",
@@ -660,15 +669,6 @@
       "sha": "97f8b4c",
       "date": "2026-09-11T18:48:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/97f8b4cdf23a87ddf40cbcd7924a27bfe8e970b5"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-11T18:06:29Z)",
-      "sha": "abe5cae",
-      "date": "2026-09-11T18:06:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/abe5cae2d3d49b4c9f515093b692e6132124bedd"
     },
     {
       "type": "commit",
