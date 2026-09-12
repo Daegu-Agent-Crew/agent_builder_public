@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-12T09:07:53Z",
-  "since": "2026-08-13T09:07:06Z",
+  "generated": "2026-09-12T12:09:01Z",
+  "since": "2026-08-13T12:08:09Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 21,
+      "open_issues": 22,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-12T06:45:42Z",
-      "pushed_at": "2026-09-12T06:45:38Z",
+      "updated_at": "2026-09-12T11:14:20Z",
+      "pushed_at": "2026-09-12T11:14:17Z",
       "recent_commits": [
+        {
+          "sha": "b6cbbd4",
+          "message": "line-status 202회차 갱신 — CLE2·대구루 부활(수면→활성), 계기판 102연속",
+          "author": "Laika",
+          "date": "2026-09-12T11:14:17Z"
+        },
+        {
+          "sha": "1a4f754",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T09:07:53Z)",
+          "author": "daeguru",
+          "date": "2026-09-12T09:07:53Z"
+        },
         {
           "sha": "28f1852",
           "message": "chore(dashboard): refresh dashboard + github activity (2026-09-12T06:44Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-12T06:08:42Z)",
           "author": "daeguru",
           "date": "2026-09-12T06:08:42Z"
-        },
-        {
-          "sha": "dc5cd22",
-          "message": "line-status 201회차 갱신 — 뉴스 15차 선제·계기판 101연속·저축 결번 방어(교훈 #201)",
-          "author": "sfex11",
-          "date": "2026-09-12T05:11:28Z"
-        },
-        {
-          "sha": "3c7812a",
-          "message": "dac-201 diagram: 계기판 100연속 (201회차)",
-          "author": "sfex11",
-          "date": "2026-09-12T05:09:41Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-12T06:29:05Z",
-      "pushed_at": "2026-09-12T06:29:01Z",
+      "updated_at": "2026-09-12T11:14:18Z",
+      "pushed_at": "2026-09-12T11:14:14Z",
       "recent_commits": [
+        {
+          "sha": "9388959",
+          "message": "교훈 #202: 멈춘 라인은 재개 조건으로 정리된다 (DAC 202회차)",
+          "author": "Laika",
+          "date": "2026-09-12T11:14:14Z"
+        },
         {
           "sha": "0901379",
           "message": "영상 요약: AI Frontier EP114 — Navier-Stokes AI 공략, GPT Image 2.5, AlphaGenome Atlas",
@@ -503,12 +509,6 @@
           "message": "교훈 #199: 경고등 색이 곧 베팅 확률이다 (DAC 199회차)",
           "author": "sfex11",
           "date": "2026-09-11T17:10:44Z"
-        },
-        {
-          "sha": "a244416",
-          "message": "교훈 #198: 새 규칙 첫 실전의 극단 쌍 변별력 증명 (DAC 198회차)",
-          "author": "sfex11",
-          "date": "2026-09-11T05:07:42Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,33 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "line-status 202회차 갱신 — CLE2·대구루 부활(수면→활성), 계기판 102연속",
+      "sha": "b6cbbd4",
+      "date": "2026-09-12T11:14:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b6cbbd4bac3adb6a37e175eafcd56cc2f2741a57"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #202: 멈춘 라인은 재개 조건으로 정리된다 (DAC 202회차)",
+      "sha": "9388959",
+      "date": "2026-09-12T11:14:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9388959219e3a384ba3f81cd930d97794219187f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T09:07:53Z)",
+      "sha": "1a4f754",
+      "date": "2026-09-12T09:07:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1a4f754078e80efece2d76b3acdc4babd8196650"
+    },
     {
       "type": "pr",
       "repo": "creative-loop-engineering2",
@@ -720,30 +747,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "line-status 201회차 갱신 — 뉴스 15차 선제·계기판 101연속·저축 결번 방어(교훈 #201)",
-      "sha": "dc5cd22",
-      "date": "2026-09-12T05:11:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dc5cd22a3c695e936c0f414d93cd3b8239dc99f0"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-12: 위키 갱신 (2개) — industry 30차(5건), research 16차(3건)",
       "sha": "71710cb",
       "date": "2026-09-12T05:10:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/71710cb49e1f258277b171bdeb5596408774a2bd"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-201 diagram: 계기판 100연속 (201회차)",
-      "sha": "3c7812a",
-      "date": "2026-09-12T05:09:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3c7812ad96a4390472bd1baeaa23594fd15b80e3"
     },
     {
       "type": "commit",
@@ -780,15 +789,6 @@
       "sha": "47c7166",
       "date": "2026-09-11T05:11:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/47c7166067bd3fab66a6ea8bda191ad3315ed46f"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #198: 새 규칙 첫 실전의 극단 쌍 변별력 증명 (DAC 198회차)",
-      "sha": "a244416",
-      "date": "2026-09-11T05:07:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a244416d3ae52f8b577ba02e088e05921b0bd91e"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 23,
+      "commits": 20,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
