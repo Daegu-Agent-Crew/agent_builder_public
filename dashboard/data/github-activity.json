@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-12T12:46:03Z",
-  "since": "2026-08-13T12:45:32Z",
+  "generated": "2026-09-12T15:10:17Z",
+  "since": "2026-08-13T15:09:08Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-12T12:09:08Z",
-      "pushed_at": "2026-09-12T12:09:05Z",
+      "updated_at": "2026-09-12T12:47:11Z",
+      "pushed_at": "2026-09-12T12:47:08Z",
       "recent_commits": [
+        {
+          "sha": "1ac59da",
+          "message": "chore(dashboard): refresh dashboard.json + github activity (2026-09-12 21:46 KST)",
+          "author": "daeguru",
+          "date": "2026-09-12T12:47:07Z"
+        },
         {
           "sha": "be49915",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-12T12:09:01Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard + github activity (2026-09-12T06:44Z)",
           "author": "daeguru",
           "date": "2026-09-12T06:45:37Z"
-        },
-        {
-          "sha": "97a5195",
-          "message": "chore: update youtube dashboard data (EP114)",
-          "author": "daeguru",
-          "date": "2026-09-12T06:29:09Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-09-12T05:10:24Z",
-      "pushed_at": "2026-09-12T05:10:21Z",
+      "updated_at": "2026-09-12T14:57:58Z",
+      "pushed_at": "2026-09-12T14:57:55Z",
       "recent_commits": [
+        {
+          "sha": "46a5ac8",
+          "message": "📰 2026-09-06~12: 데일리 브리핑 아카이브 백필 (7건)",
+          "author": "Renover",
+          "date": "2026-09-12T14:57:53Z"
+        },
         {
           "sha": "71710cb",
           "message": "📚 2026-09-12: 위키 갱신 (2개) — industry 30차(5건), research 16차(3건)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-11: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-11T00:27:43Z"
-        },
-        {
-          "sha": "e7b3cec",
-          "message": "feat: 증거 장부 패턴 적용 — 사실/해석 분리 규칙 + 중요도 산정표 + 수집 노트 + lint/CI (#3)",
-          "author": "sfex11",
-          "date": "2026-09-10T07:28:57Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-06~12: 데일리 브리핑 아카이브 백필 (7건)",
+      "sha": "46a5ac8",
+      "date": "2026-09-12T14:57:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/46a5ac8f7001fcf840096037f6499124ab9eed09"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json + github activity (2026-09-12 21:46 KST)",
+      "sha": "1ac59da",
+      "date": "2026-09-12T12:47:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1ac59da6c987a4e6f9c8e1d8ab3af33d780cffe0"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-12T12:09:01Z)",
@@ -720,15 +738,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update youtube dashboard data (EP114)",
-      "sha": "97a5195",
-      "date": "2026-09-12T06:29:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/97a51959e0d53710c29d22d0832776152749f6f5"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "영상 요약: AI Frontier EP114 — Navier-Stokes AI 공략, GPT Image 2.5, AlphaGenome Atlas",
@@ -808,15 +817,6 @@
       "state": "closed",
       "date": "2026-09-10T11:07:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/pull/3"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "sfex11",
-      "message": "feat: 증거 장부 패턴 적용 — 사실/해석 분리 규칙 + 중요도 산정표 + 수집 노트 + lint/CI (#3)",
-      "sha": "e7b3cec",
-      "date": "2026-09-10T07:28:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e7b3ceca9c532af1190472263b331bfebbe187c1"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 19,
       "prs": 18,
       "issues": 0,
       "reviews": 0
