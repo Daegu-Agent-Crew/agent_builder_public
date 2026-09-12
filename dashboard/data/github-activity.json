@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-12T12:09:01Z",
-  "since": "2026-08-13T12:08:09Z",
+  "generated": "2026-09-12T12:46:03Z",
+  "since": "2026-08-13T12:45:32Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-12T11:14:20Z",
-      "pushed_at": "2026-09-12T11:14:17Z",
+      "updated_at": "2026-09-12T12:09:08Z",
+      "pushed_at": "2026-09-12T12:09:05Z",
       "recent_commits": [
+        {
+          "sha": "be49915",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T12:09:01Z)",
+          "author": "daeguru",
+          "date": "2026-09-12T12:09:01Z"
+        },
         {
           "sha": "b6cbbd4",
           "message": "line-status 202회차 갱신 — CLE2·대구루 부활(수면→활성), 계기판 102연속",
@@ -85,12 +91,6 @@
           "message": "chore: update youtube dashboard data (EP114)",
           "author": "daeguru",
           "date": "2026-09-12T06:29:09Z"
-        },
-        {
-          "sha": "5866bc1",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T06:08:42Z)",
-          "author": "daeguru",
-          "date": "2026-09-12T06:08:42Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,15 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T12:09:01Z)",
+      "sha": "be49915",
+      "date": "2026-09-12T12:09:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/be499151a1454341ade9bfef5f3d2521a09f327b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "Laika",
       "message": "line-status 202회차 갱신 — CLE2·대구루 부활(수면→활성), 계기판 102연속",
       "sha": "b6cbbd4",
@@ -726,15 +735,6 @@
       "sha": "0901379",
       "date": "2026-09-12T06:27:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/09013798b44cb870e42c0b020b8a91e858a07494"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T06:08:42Z)",
-      "sha": "5866bc1",
-      "date": "2026-09-12T06:08:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5866bc128fc8cccc6f8e3b229db92f54fa39a0e5"
     },
     {
       "type": "commit",
