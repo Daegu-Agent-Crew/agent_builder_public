@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-12T15:10:17Z",
-  "since": "2026-08-13T15:09:08Z",
+  "generated": "2026-09-12T18:07:03Z",
+  "since": "2026-08-13T18:06:10Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 22,
+      "open_issues": 23,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-12T12:47:11Z",
-      "pushed_at": "2026-09-12T12:47:08Z",
+      "updated_at": "2026-09-12T17:12:20Z",
+      "pushed_at": "2026-09-12T17:12:17Z",
       "recent_commits": [
+        {
+          "sha": "928ff88",
+          "message": "dac-203 diagram: 21개 창고를 세 서랍으로 (활성7/보류6/완결8) — 203회차 보고 첨부용",
+          "author": "Laika",
+          "date": "2026-09-12T17:12:16Z"
+        },
+        {
+          "sha": "d77425f",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T15:10:17Z)",
+          "author": "daeguru",
+          "date": "2026-09-12T15:10:17Z"
+        },
         {
           "sha": "1ac59da",
           "message": "chore(dashboard): refresh dashboard.json + github activity (2026-09-12 21:46 KST)",
@@ -79,18 +91,6 @@
           "message": "line-status 202회차 갱신 — CLE2·대구루 부활(수면→활성), 계기판 102연속",
           "author": "Laika",
           "date": "2026-09-12T11:14:17Z"
-        },
-        {
-          "sha": "1a4f754",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T09:07:53Z)",
-          "author": "daeguru",
-          "date": "2026-09-12T09:07:53Z"
-        },
-        {
-          "sha": "28f1852",
-          "message": "chore(dashboard): refresh dashboard + github activity (2026-09-12T06:44Z)",
-          "author": "daeguru",
-          "date": "2026-09-12T06:45:37Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-12T11:14:18Z",
-      "pushed_at": "2026-09-12T11:14:14Z",
+      "updated_at": "2026-09-12T17:12:56Z",
+      "pushed_at": "2026-09-12T17:12:53Z",
       "recent_commits": [
+        {
+          "sha": "cfd7de0",
+          "message": "교훈 #203: 채널 산출은 장부로 옮겨질 때 조직 자산이 된다 (DAC 203회차)",
+          "author": "Laika",
+          "date": "2026-09-12T17:12:52Z"
+        },
         {
           "sha": "9388959",
           "message": "교훈 #202: 멈춘 라인은 재개 조건으로 정리된다 (DAC 202회차)",
@@ -503,12 +509,6 @@
           "message": "교훈 #200: 정합성은 ID가 아니라 근거에서 나온다 (DAC 200회차)",
           "author": "sfex11",
           "date": "2026-09-11T23:08:36Z"
-        },
-        {
-          "sha": "a505e95",
-          "message": "교훈 #199: 경고등 색이 곧 베팅 확률이다 (DAC 199회차)",
-          "author": "sfex11",
-          "date": "2026-09-11T17:10:44Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #203: 채널 산출은 장부로 옮겨질 때 조직 자산이 된다 (DAC 203회차)",
+      "sha": "cfd7de0",
+      "date": "2026-09-12T17:12:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cfd7de070cdc6a406233b5311c0487e157cc8841"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "dac-203 diagram: 21개 창고를 세 서랍으로 (활성7/보류6/완결8) — 203회차 보고 첨부용",
+      "sha": "928ff88",
+      "date": "2026-09-12T17:12:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/928ff88d5b7b4b231a7b6f447d667fa69694af75"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T15:10:17Z)",
+      "sha": "d77425f",
+      "date": "2026-09-12T15:10:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d77425f70f610f35cec39835de0a8a4696999247"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-06~12: 데일리 브리핑 아카이브 백필 (7건)",
@@ -651,15 +678,6 @@
       "sha": "9388959",
       "date": "2026-09-12T11:14:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9388959219e3a384ba3f81cd930d97794219187f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T09:07:53Z)",
-      "sha": "1a4f754",
-      "date": "2026-09-12T09:07:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1a4f754078e80efece2d76b3acdc4babd8196650"
     },
     {
       "type": "pr",
@@ -729,15 +747,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard + github activity (2026-09-12T06:44Z)",
-      "sha": "28f1852",
-      "date": "2026-09-12T06:45:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/28f18528285afc284a96380326fe9e23791deb23"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "영상 요약: AI Frontier EP114 — Navier-Stokes AI 공략, GPT Image 2.5, AlphaGenome Atlas",
@@ -780,15 +789,6 @@
       "sha": "5fdb6bb",
       "date": "2026-09-11T23:08:36Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5fdb6bb82b90c00f4834cf763f91e6b276e0938c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #199: 경고등 색이 곧 베팅 확률이다 (DAC 199회차)",
-      "sha": "a505e95",
-      "date": "2026-09-11T17:10:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a505e95c4e89debdf1224d5374b2226614f0db59"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 18,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
