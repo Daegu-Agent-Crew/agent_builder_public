@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-12T06:08:42Z",
-  "since": "2026-08-13T06:07:15Z",
+  "generated": "2026-09-12T06:45:20Z",
+  "since": "2026-08-13T06:44:49Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-12T05:11:32Z",
-      "pushed_at": "2026-09-12T05:11:28Z",
+      "updated_at": "2026-09-12T06:29:18Z",
+      "pushed_at": "2026-09-12T06:29:15Z",
       "recent_commits": [
+        {
+          "sha": "97a5195",
+          "message": "chore: update youtube dashboard data (EP114)",
+          "author": "daeguru",
+          "date": "2026-09-12T06:29:09Z"
+        },
+        {
+          "sha": "5866bc1",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T06:08:42Z)",
+          "author": "daeguru",
+          "date": "2026-09-12T06:08:42Z"
+        },
         {
           "sha": "dc5cd22",
           "message": "line-status 201회차 갱신 — 뉴스 15차 선제·계기판 101연속·저축 결번 방어(교훈 #201)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh data (2026-09-12T03:46:48Z)",
           "author": "daeguru",
           "date": "2026-09-12T03:46:48Z"
-        },
-        {
-          "sha": "a11ab41",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T03:10:43Z)",
-          "author": "daeguru",
-          "date": "2026-09-12T03:10:43Z"
-        },
-        {
-          "sha": "b5aa1e6",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-12 09:45 KST)",
-          "author": "daeguru",
-          "date": "2026-09-12T00:46:11Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-12T05:11:34Z",
-      "pushed_at": "2026-09-12T05:11:30Z",
+      "updated_at": "2026-09-12T06:29:05Z",
+      "pushed_at": "2026-09-12T06:29:01Z",
       "recent_commits": [
+        {
+          "sha": "0901379",
+          "message": "영상 요약: AI Frontier EP114 — Navier-Stokes AI 공략, GPT Image 2.5, AlphaGenome Atlas",
+          "author": "daeguru",
+          "date": "2026-09-12T06:27:56Z"
+        },
         {
           "sha": "3e58933",
           "message": "교훈 #201: 몫이 미리 채워진 달력은 라인의 멈춤을 하루 늦게 알린다 (DAC 201회차)",
@@ -503,12 +509,6 @@
           "message": "교훈 #198: 새 규칙 첫 실전의 극단 쌍 변별력 증명 (DAC 198회차)",
           "author": "sfex11",
           "date": "2026-09-11T05:07:42Z"
-        },
-        {
-          "sha": "8cc4206",
-          "message": "교훈 #197: 외부 조회 실패 시 생성 대신 검증 전환 (DAC 197회차)",
-          "author": "sfex11",
-          "date": "2026-09-10T23:10:00Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update youtube dashboard data (EP114)",
+      "sha": "97a5195",
+      "date": "2026-09-12T06:29:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/97a51959e0d53710c29d22d0832776152749f6f5"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "영상 요약: AI Frontier EP114 — Navier-Stokes AI 공략, GPT Image 2.5, AlphaGenome Atlas",
+      "sha": "0901379",
+      "date": "2026-09-12T06:27:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/09013798b44cb870e42c0b020b8a91e858a07494"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T06:08:42Z)",
+      "sha": "5866bc1",
+      "date": "2026-09-12T06:08:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5866bc128fc8cccc6f8e3b229db92f54fa39a0e5"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #201: 몫이 미리 채워진 달력은 라인의 멈춤을 하루 늦게 알린다 (DAC 201회차)",
@@ -651,24 +678,6 @@
       "sha": "43f076e",
       "date": "2026-09-12T03:46:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/43f076e29db5ba5c67ca12daf15ab21231795816"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T03:10:43Z)",
-      "sha": "a11ab41",
-      "date": "2026-09-12T03:10:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a11ab411e7a365dbb1ac2a32c702740a39e46020"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-12 09:45 KST)",
-      "sha": "b5aa1e6",
-      "date": "2026-09-12T00:46:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b5aa1e6d78d1bd8fb0dc07998d5b2080914861b5"
     },
     {
       "type": "commit",
@@ -723,15 +732,6 @@
       "sha": "15ea797",
       "date": "2026-09-11T00:27:43Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/15ea797de33f70b82869558efcc4d76594e4651f"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #197: 외부 조회 실패 시 생성 대신 검증 전환 (DAC 197회차)",
-      "sha": "8cc4206",
-      "date": "2026-09-10T23:10:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8cc420654e229718c6b6db78f4b866dc83dde639"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 24,
+      "commits": 23,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 4,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
