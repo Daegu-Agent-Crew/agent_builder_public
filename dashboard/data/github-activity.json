@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-13T12:46:46Z",
-  "since": "2026-08-14T12:45:48Z",
+  "generated": "2026-09-13T15:08:32Z",
+  "since": "2026-08-14T15:07:04Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-13T12:08:02Z",
-      "pushed_at": "2026-09-13T12:07:59Z",
+      "updated_at": "2026-09-13T12:47:03Z",
+      "pushed_at": "2026-09-13T12:46:59Z",
       "recent_commits": [
+        {
+          "sha": "8e0d743",
+          "message": "chore: dashboard 데이터 갱신 (자동)",
+          "author": "daeguru",
+          "date": "2026-09-13T12:46:58Z"
+        },
         {
           "sha": "dbee215",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-13T12:07:55Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-13T06:06:56Z)",
           "author": "daeguru",
           "date": "2026-09-13T06:06:56Z"
-        },
-        {
-          "sha": "3d96c0c",
-          "message": "[DAC 205회차] line-status 갱신 — CLE3 세션 2일 결번(결정 대기 관측), 뉴스 교대 리듬 완주, 계기판 105연속",
-          "author": "Laika",
-          "date": "2026-09-13T05:23:00Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-09-13T12:44:21Z",
-      "pushed_at": "2026-09-13T12:44:18Z",
+      "updated_at": "2026-09-13T14:11:48Z",
+      "pushed_at": "2026-09-13T14:11:45Z",
       "recent_commits": [
+        {
+          "sha": "c597a85",
+          "message": "🔍 2026-09-13: 위키 린트 점검",
+          "author": "Renover",
+          "date": "2026-09-13T14:11:42Z"
+        },
         {
           "sha": "5f47dcd",
           "message": "📋 2026-09-13: 데일리 브리핑 아카이브",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-06~12: 데일리 브리핑 아카이브 백필 (7건)",
           "author": "Renover",
           "date": "2026-09-12T14:57:53Z"
-        },
-        {
-          "sha": "71710cb",
-          "message": "📚 2026-09-12: 위키 갱신 (2개) — industry 30차(5건), research 16차(3건)",
-          "author": "Renover",
-          "date": "2026-09-12T05:10:20Z"
         }
       ],
       "recent_prs": [
@@ -271,11 +271,11 @@
     {
       "slug": "Daegu-Agent-Crew/dabstack",
       "name": "dabstack",
-      "private": true,
+      "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-05-28T07:55:39Z",
-      "pushed_at": "2026-05-28T07:55:35Z",
+      "updated_at": "",
+      "pushed_at": "",
       "recent_commits": [
         {
           "sha": "9a650b5",
@@ -611,6 +611,24 @@
       "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
+      "message": "🔍 2026-09-13: 위키 린트 점검",
+      "sha": "c597a85",
+      "date": "2026-09-13T14:11:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c597a852aec49f09528d2f30e702961551079d0e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: dashboard 데이터 갱신 (자동)",
+      "sha": "8e0d743",
+      "date": "2026-09-13T12:46:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8e0d7435a7ba8332d1f1b070fd2c89e0b6ae8f84"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
       "message": "📋 2026-09-13: 데일리 브리핑 아카이브",
       "sha": "5f47dcd",
       "date": "2026-09-13T12:44:14Z",
@@ -651,15 +669,6 @@
       "sha": "b9ae6f1",
       "date": "2026-09-13T06:06:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b9ae6f1e28286abec3755abd97e4a3d4d997b964"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "[DAC 205회차] line-status 갱신 — CLE3 세션 2일 결번(결정 대기 관측), 뉴스 교대 리듬 완주, 계기판 105연속",
-      "sha": "3d96c0c",
-      "date": "2026-09-13T05:23:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3d96c0cef43a94c674b46f28e45de25a31c83d64"
     },
     {
       "type": "commit",
@@ -798,15 +807,6 @@
       "sha": "0901379",
       "date": "2026-09-12T06:27:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/09013798b44cb870e42c0b020b8a91e858a07494"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-12: 위키 갱신 (2개) — industry 30차(5건), research 16차(3건)",
-      "sha": "71710cb",
-      "date": "2026-09-12T05:10:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/71710cb49e1f258277b171bdeb5596408774a2bd"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
