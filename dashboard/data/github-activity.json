@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-12T21:07:12Z",
-  "since": "2026-08-13T21:06:06Z",
+  "generated": "2026-09-13T00:08:01Z",
+  "since": "2026-08-14T00:07:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 23,
+      "open_issues": 24,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-12T18:46:04Z",
-      "pushed_at": "2026-09-12T18:46:01Z",
+      "updated_at": "2026-09-12T23:17:09Z",
+      "pushed_at": "2026-09-12T23:17:06Z",
       "recent_commits": [
+        {
+          "sha": "8cbd2a4",
+          "message": "line-status 204회차 갱신: 계기판 104연속·C201-1 void·정적 새벽 창",
+          "author": "Laika",
+          "date": "2026-09-12T23:17:05Z"
+        },
+        {
+          "sha": "40b7456",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T21:07:12Z)",
+          "author": "daeguru",
+          "date": "2026-09-12T21:07:13Z"
+        },
         {
           "sha": "4e8b5a3",
           "message": "chore(dashboard): regenerate dashboard.json (2026-09-13 03:44 KST)",
@@ -79,18 +91,6 @@
           "message": "dac-203 diagram: 21개 창고를 세 서랍으로 (활성7/보류6/완결8) — 203회차 보고 첨부용",
           "author": "Laika",
           "date": "2026-09-12T17:12:16Z"
-        },
-        {
-          "sha": "d77425f",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T15:10:17Z)",
-          "author": "daeguru",
-          "date": "2026-09-12T15:10:17Z"
-        },
-        {
-          "sha": "1ac59da",
-          "message": "chore(dashboard): refresh dashboard.json + github activity (2026-09-12 21:46 KST)",
-          "author": "daeguru",
-          "date": "2026-09-12T12:47:07Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-09-12T14:57:58Z",
-      "pushed_at": "2026-09-12T14:57:55Z",
+      "updated_at": "2026-09-12T23:19:16Z",
+      "pushed_at": "2026-09-12T23:19:12Z",
       "recent_commits": [
+        {
+          "sha": "594f7c5",
+          "message": "📰 2026-09-13: 뉴스 수집 (4건)",
+          "author": "Renover",
+          "date": "2026-09-12T23:19:11Z"
+        },
         {
           "sha": "46a5ac8",
           "message": "📰 2026-09-06~12: 데일리 브리핑 아카이브 백필 (7건)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-09-11: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-09-11T05:11:39Z"
-        },
-        {
-          "sha": "15ea797",
-          "message": "📰 2026-09-11: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-09-11T00:27:43Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-12T17:12:56Z",
-      "pushed_at": "2026-09-12T17:12:53Z",
+      "updated_at": "2026-09-12T23:14:41Z",
+      "pushed_at": "2026-09-12T23:14:37Z",
       "recent_commits": [
+        {
+          "sha": "f9f691a",
+          "message": "교훈 #204: 사람의 채널 복귀는 답변이 아니라 지시다 (DAC 204회차)",
+          "author": "Laika",
+          "date": "2026-09-12T23:14:36Z"
+        },
         {
           "sha": "cfd7de0",
           "message": "교훈 #203: 채널 산출은 장부로 옮겨질 때 조직 자산이 된다 (DAC 203회차)",
@@ -503,12 +509,6 @@
           "message": "교훈 #201: 몫이 미리 채워진 달력은 라인의 멈춤을 하루 늦게 알린다 (DAC 201회차)",
           "author": "sfex11",
           "date": "2026-09-12T05:11:30Z"
-        },
-        {
-          "sha": "5fdb6bb",
-          "message": "교훈 #200: 정합성은 ID가 아니라 근거에서 나온다 (DAC 200회차)",
-          "author": "sfex11",
-          "date": "2026-09-11T23:08:36Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-13: 뉴스 수집 (4건)",
+      "sha": "594f7c5",
+      "date": "2026-09-12T23:19:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/594f7c55795f95d70134d32e988a0e7bd4552e35"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "line-status 204회차 갱신: 계기판 104연속·C201-1 void·정적 새벽 창",
+      "sha": "8cbd2a4",
+      "date": "2026-09-12T23:17:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8cbd2a41c4ac9f171a9110f3ffdae5a494829387"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #204: 사람의 채널 복귀는 답변이 아니라 지시다 (DAC 204회차)",
+      "sha": "f9f691a",
+      "date": "2026-09-12T23:14:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f9f691ab465be1a6f7a98b7a5fe0375fc26b3a3d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T21:07:12Z)",
+      "sha": "40b7456",
+      "date": "2026-09-12T21:07:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/40b74566ca7c36c41c4cf53fded959db0aaf0c1d"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): regenerate dashboard.json (2026-09-13 03:44 KST)",
@@ -645,30 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T15:10:17Z)",
-      "sha": "d77425f",
-      "date": "2026-09-12T15:10:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d77425f70f610f35cec39835de0a8a4696999247"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-06~12: 데일리 브리핑 아카이브 백필 (7건)",
       "sha": "46a5ac8",
       "date": "2026-09-12T14:57:53Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/46a5ac8f7001fcf840096037f6499124ab9eed09"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json + github activity (2026-09-12 21:46 KST)",
-      "sha": "1ac59da",
-      "date": "2026-09-12T12:47:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1ac59da6c987a4e6f9c8e1d8ab3af33d780cffe0"
     },
     {
       "type": "commit",
@@ -783,30 +801,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #200: 정합성은 ID가 아니라 근거에서 나온다 (DAC 200회차)",
-      "sha": "5fdb6bb",
-      "date": "2026-09-11T23:08:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5fdb6bb82b90c00f4834cf763f91e6b276e0938c"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-11: 위키 갱신 (2개)",
       "sha": "47c7166",
       "date": "2026-09-11T05:11:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/47c7166067bd3fab66a6ea8bda191ad3315ed46f"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-11: 뉴스 수집 (5건)",
-      "sha": "15ea797",
-      "date": "2026-09-11T00:27:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/15ea797de33f70b82869558efcc4d76594e4651f"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 17,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
