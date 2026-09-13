@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-13T15:46:26Z",
-  "since": "2026-08-14T15:45:41Z",
+  "generated": "2026-09-13T18:07:27Z",
+  "since": "2026-08-14T18:06:10Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 25,
+      "open_issues": 26,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-13T15:08:40Z",
-      "pushed_at": "2026-09-13T15:08:37Z",
+      "updated_at": "2026-09-13T15:46:57Z",
+      "pushed_at": "2026-09-13T15:46:53Z",
       "recent_commits": [
+        {
+          "sha": "1ec20d0",
+          "message": "dashboard: 2026-09-14 정기 갱신 (dashboard.json, github-activity)",
+          "author": "daeguru",
+          "date": "2026-09-13T15:46:52Z"
+        },
         {
           "sha": "636f88c",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-13T15:08:32Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-13T09:06:18Z)",
           "author": "daeguru",
           "date": "2026-09-13T09:06:18Z"
-        },
-        {
-          "sha": "a3bd714",
-          "message": "data: refresh dashboard.json, github activity, project wikis",
-          "author": "daeguru",
-          "date": "2026-09-13T06:47:17Z"
         }
       ],
       "recent_prs": [
@@ -124,7 +124,7 @@
       "slug": "Daegu-Agent-Crew/ai-agent-news",
       "name": "ai-agent-news",
       "private": false,
-      "open_issues": 3,
+      "open_issues": 4,
       "open_prs": 0,
       "updated_at": "2026-09-13T14:11:48Z",
       "pushed_at": "2026-09-13T14:11:45Z",
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-13T05:21:44Z",
-      "pushed_at": "2026-09-13T05:21:41Z",
+      "updated_at": "2026-09-13T17:27:24Z",
+      "pushed_at": "2026-09-13T17:27:20Z",
       "recent_commits": [
+        {
+          "sha": "da6a8ca",
+          "message": "📚 교훈 #206: 사람 채널은 지시형으로 반응 — 사람 예측은 새 지시 형태로",
+          "author": "sfex11",
+          "date": "2026-09-13T17:27:20Z"
+        },
         {
           "sha": "7d28e03",
           "message": "교훈 #205: 남은 게 사람 결정뿐일 때 라인은 조용히 멈춘다 — 결정 큐에 비차단 작업 명시 (DAC 205회차)",
@@ -503,12 +509,6 @@
           "message": "교훈 #202: 멈춘 라인은 재개 조건으로 정리된다 (DAC 202회차)",
           "author": "Laika",
           "date": "2026-09-12T11:14:14Z"
-        },
-        {
-          "sha": "0901379",
-          "message": "영상 요약: AI Frontier EP114 — Navier-Stokes AI 공략, GPT Image 2.5, AlphaGenome Atlas",
-          "author": "daeguru",
-          "date": "2026-09-12T06:27:56Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "📚 교훈 #206: 사람 채널은 지시형으로 반응 — 사람 예측은 새 지시 형태로",
+      "sha": "da6a8ca",
+      "date": "2026-09-13T17:27:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/da6a8ca7dbb9ce5b5a887a65b1c6da58cc274903"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: 2026-09-14 정기 갱신 (dashboard.json, github-activity)",
+      "sha": "1ec20d0",
+      "date": "2026-09-13T15:46:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1ec20d0af63e558fbe00700d566b488b0d5453a8"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-13T15:08:32Z)",
@@ -660,15 +678,6 @@
       "sha": "8bdfb96",
       "date": "2026-09-13T09:06:18Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8bdfb9617921fcd6762df0db0f7954f548cc072b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "data: refresh dashboard.json, github activity, project wikis",
-      "sha": "a3bd714",
-      "date": "2026-09-13T06:47:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a3bd714ee172eebc1d3c800b9e6519959ff75666"
     },
     {
       "type": "commit",
@@ -798,15 +807,6 @@
       "sha": "60292fc",
       "date": "2026-09-12T06:59:15Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/60292fc1d1b00512ab99d319f094a0e6e1f0f34d"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "영상 요약: AI Frontier EP114 — Navier-Stokes AI 공략, GPT Image 2.5, AlphaGenome Atlas",
-      "sha": "0901379",
-      "date": "2026-09-12T06:27:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/09013798b44cb870e42c0b020b8a91e858a07494"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
+      "commits": 17,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
