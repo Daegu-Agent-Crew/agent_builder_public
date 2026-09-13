@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-13T15:08:32Z",
-  "since": "2026-08-14T15:07:04Z",
+  "generated": "2026-09-13T15:46:26Z",
+  "since": "2026-08-14T15:45:41Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-13T12:47:03Z",
-      "pushed_at": "2026-09-13T12:46:59Z",
+      "updated_at": "2026-09-13T15:08:40Z",
+      "pushed_at": "2026-09-13T15:08:37Z",
       "recent_commits": [
+        {
+          "sha": "636f88c",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-13T15:08:32Z)",
+          "author": "daeguru",
+          "date": "2026-09-13T15:08:32Z"
+        },
         {
           "sha": "8e0d743",
           "message": "chore: dashboard 데이터 갱신 (자동)",
@@ -85,12 +91,6 @@
           "message": "data: refresh dashboard.json, github activity, project wikis",
           "author": "daeguru",
           "date": "2026-09-13T06:47:17Z"
-        },
-        {
-          "sha": "b9ae6f1",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-13T06:06:56Z)",
-          "author": "daeguru",
-          "date": "2026-09-13T06:06:56Z"
         }
       ],
       "recent_prs": [
@@ -271,11 +271,11 @@
     {
       "slug": "Daegu-Agent-Crew/dabstack",
       "name": "dabstack",
-      "private": false,
+      "private": true,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "",
-      "pushed_at": "",
+      "updated_at": "2026-05-28T07:55:39Z",
+      "pushed_at": "2026-05-28T07:55:35Z",
       "recent_commits": [
         {
           "sha": "9a650b5",
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-13T15:08:32Z)",
+      "sha": "636f88c",
+      "date": "2026-09-13T15:08:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/636f88cd5f0e35e7af5334d44f9e3bbce5883eff"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🔍 2026-09-13: 위키 린트 점검",
@@ -660,15 +669,6 @@
       "sha": "a3bd714",
       "date": "2026-09-13T06:47:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a3bd714ee172eebc1d3c800b9e6519959ff75666"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-13T06:06:56Z)",
-      "sha": "b9ae6f1",
-      "date": "2026-09-13T06:06:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b9ae6f1e28286abec3755abd97e4a3d4d997b964"
     },
     {
       "type": "commit",
