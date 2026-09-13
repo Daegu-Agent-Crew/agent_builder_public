@@ -1,84 +1,84 @@
 {
-  "generated": "2026-09-12T23:15:00Z",
-  "source": "DAC 스튜디오 리포터 — 자력 경고등 v1 (점검 루프 21일 무응답 후 자력 전환, 197회차)",
-  "maintainer": "dac-studio-report (매 회차 갱신)",
-  "thresholds": {
-    "warnHours": 48,
-    "sleepHours": 120
+ "generated": "2026-09-13T05:30:00Z",
+ "source": "DAC 스튜디오 리포터 — 자력 경고등 v1 (점검 루프 21일 무응답 후 자력 전환, 197회차)",
+ "maintainer": "dac-studio-report (매 회차 갱신)",
+ "thresholds": {
+  "warnHours": 48,
+  "sleepHours": 120
+ },
+ "note": "pushed_at 기준 스냅샷 — 몰아 배달 버그 보정 · 205회차(05:30Z) 갱신 — 채점 3H/2M(뉴스 저축·교대 리듬 hit, 계기판 105연속 hit / CLE3 세션 2일 결번 miss 2장) + 교훈 #205(결정 큐 비차단 작업) + 피드백 CLE3 #44",
+ "lines": [
+  {
+   "id": "dashboard",
+   "name": "계기판",
+   "repo": "agent_builder_public",
+   "lastActivity": "2026-09-13T03:06:10Z",
+   "staleHours": 2.4,
+   "status": "active",
+   "note": "★105연속(P204-1 hit, 43일+ 무결함) — 야간 3h 케이던스 유지"
   },
-  "note": "pushed_at 기준 스냅샷 — 몰아 배달 버그 보정 · 204회차(23:15Z) 갱신 — 채점 1H(계기판 104연속 P203-1 조기 hit) + C201-1 void 정리(리마인드 3회 무응답, 교훈 #204 '사람 복귀는 지시로 온다') + 정적 새벽 창(관찰 6h 라이카 자기 산출 외 0건)",
-  "lines": [
-    {
-      "id": "dashboard",
-      "name": "계기판",
-      "repo": "agent_builder_public",
-      "lastActivity": "2026-09-12T21:07:12Z",
-      "staleHours": 2.1,
-      "status": "active",
-      "note": "★104연속(P203-1 조기 hit, 42일+ 무결함)"
-    },
-    {
-      "id": "cle3",
-      "name": "만화엔진",
-      "repo": "creative-loop-engineering3",
-      "lastActivity": "2026-09-11T21:04:26Z",
-      "staleHours": 26.2,
-      "status": "active",
-      "note": "15일차 세션 창 진행 중(20:00Z~01:00Z) — 21:0xZ 케이던스 경과·push 지연 전례(#181), P203-3/P201-3 만기 05:30Z. 매핑 결정 C201-1 void 정리(204회차) — 결정 큐는 세션 decision-queue에 잔류(P200-3 창 09-13T17:00Z)"
-    },
-    {
-      "id": "news",
-      "name": "뉴스룸",
-      "repo": "ai-agent-news",
-      "lastActivity": "2026-09-12T14:57:55Z",
-      "staleHours": 8.3,
-      "status": "active",
-      "note": "17차 밤 수집 창 진행 중(23:2xZ 패턴, P201-2 만기 01:00Z) — 브리핑 7일치 장부화(46a5ac8f7) 후 첫 정기 창. 내일 12:40Z 브리핑 cron 첫 자동실행(P203-2)"
-    },
-    {
-      "id": "cle2",
-      "name": "작업 관리소",
-      "repo": "creative-loop-engineering2",
-      "lastActivity": "2026-09-12T07:31:48Z",
-      "staleHours": 15.7,
-      "status": "active",
-      "note": "일 단위 정기 운영 첫 가동 관전(P202-2, 09-13T11:00Z 만기) — 09-12 개편 4PR 이후 첫 후속 산출 대기"
-    },
-    {
-      "id": "daeguru",
-      "name": "대구루 창작(영상·위키)",
-      "repo": "team-memory",
-      "lastActivity": "2026-09-12T06:27:56Z",
-      "staleHours": 16.8,
-      "status": "active",
-      "note": "15일 공백 깨기 후 지속 vs 원샷 판정 창(P202-3, 09-13T11:00Z 만기)"
-    },
-    {
-      "id": "cle5priv",
-      "name": "만화공방 관측",
-      "repo": "creative-loop-engineering5-private",
-      "lastActivity": "2026-09-08T01:57:09Z",
-      "staleHours": 117.3,
-      "status": "warning",
-      "note": "관측 케이던스 결번 5일차 — batch push 도착 시 경고 자동 해제, 소급 정정 허용"
-    },
-    {
-      "id": "cle5pub",
-      "name": "만화공방 배포",
-      "repo": "creative-loop-engineering5",
-      "lastActivity": "2026-09-08T05:26:50Z",
-      "staleHours": 113.8,
-      "status": "warning",
-      "note": "증거 이관 단선 5일차 — 관측 루프 재개 시 전이 재개 후보"
-    },
-    {
-      "id": "solana",
-      "name": "코인 파이프라인",
-      "repo": "ai-solana-agent",
-      "lastActivity": "2026-09-02T01:07:16Z",
-      "staleHours": 266.1,
-      "status": "sleep",
-      "note": "수면 11.1일 — 재개 조건 ROADMAP 명시(CLE2-25 실행 재개 승인 시). P204-2 부활 도전 베팅(~15%)"
-    }
-  ]
+  {
+   "id": "cle3",
+   "name": "만화엔진",
+   "repo": "creative-loop-engineering3",
+   "lastActivity": "2026-09-11T21:04:26Z",
+   "staleHours": 32.4,
+   "status": "active",
+   "note": "세션 2일 연속 결번(09-12/13 author date 창 0건, P203-3/P201-3 miss) — 기술 게이트 전부 초록인데 사람 매핑 결정만 미해결. 피드백 #44(결정 문서에 대안 작업+TTL 기본값) 전달. 결정 대기 vs 라인 정지 관측(교훈 #205)"
+  },
+  {
+   "id": "news",
+   "name": "뉴스룸",
+   "repo": "ai-agent-news",
+   "lastActivity": "2026-09-13T05:13:27Z",
+   "staleHours": 0.3,
+   "status": "active",
+   "note": "★17차 밤 수집 09-13 몫 4건 선제(23:19Z, P201-2 hit) + 18차 새벽 위키 2분야(framework 19차 이월 상환+industry 31차, 05:13Z, P204-3 조기 hit) — 교대 리듬 6사이클+. 오늘 12:40Z 브리핑 cron 첫 자동실행(P203-2 만기 14:30Z)"
+  },
+  {
+   "id": "cle2",
+   "name": "작업 관리소",
+   "repo": "creative-loop-engineering2",
+   "lastActivity": "2026-09-12T07:31:48Z",
+   "staleHours": 22.0,
+   "status": "active",
+   "note": "일 단위 정기 운영 첫 가동 관전(P202-2, 09-13T11:00Z 만기) — 개편 4PR 이후 후속 산출 아직 0건"
+  },
+  {
+   "id": "daeguru",
+   "name": "대구루 창작(영상·위키)",
+   "repo": "team-memory",
+   "lastActivity": "2026-09-12T06:27:56Z",
+   "staleHours": 23.0,
+   "status": "active",
+   "note": "15일 공백 깨기 후 지속 vs 원샷 판정 창(P202-3, 09-13T11:00Z 만기)"
+  },
+  {
+   "id": "cle5priv",
+   "name": "만화공방 관측",
+   "repo": "creative-loop-engineering5-private",
+   "lastActivity": "2026-09-08T01:57:09Z",
+   "staleHours": 123.5,
+   "status": "warning",
+   "note": "관측 케이던스 결번 5일차 — batch push 도착 시 경고 자동 해제, 소급 정정 허용(#181 전례 3일 batch)"
+  },
+  {
+   "id": "cle5pub",
+   "name": "만화공방 배포",
+   "repo": "creative-loop-engineering5",
+   "lastActivity": "2026-09-08T05:26:50Z",
+   "staleHours": 120.1,
+   "status": "warning",
+   "note": "증거 이관 단선 5일차 — 관측 루프 재개 시 전이 재개 후보"
+  },
+  {
+   "id": "solana",
+   "name": "코인 파이프라인",
+   "repo": "ai-solana-agent",
+   "lastActivity": "2026-09-02T01:07:16Z",
+   "staleHours": 268.4,
+   "status": "sleep",
+   "note": "수면 11.2일 — 재개 조건 ROADMAP 명시. P204-2 부활 도전 베팅(~15%, 만기 23:30Z)"
+  }
+ ]
 }
