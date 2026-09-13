@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-13T09:06:18Z",
-  "since": "2026-08-14T09:05:15Z",
+  "generated": "2026-09-13T12:07:55Z",
+  "since": "2026-08-14T12:07:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 24,
+      "open_issues": 25,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-13T06:47:22Z",
-      "pushed_at": "2026-09-13T06:47:18Z",
+      "updated_at": "2026-09-13T09:06:27Z",
+      "pushed_at": "2026-09-13T09:06:21Z",
       "recent_commits": [
+        {
+          "sha": "8bdfb96",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-13T09:06:18Z)",
+          "author": "daeguru",
+          "date": "2026-09-13T09:06:18Z"
+        },
         {
           "sha": "a3bd714",
           "message": "data: refresh dashboard.json, github activity, project wikis",
@@ -85,12 +91,6 @@
           "message": "[DAC 205회차] 다이어그램: 질문 게이트에 기본값 자동문 달기",
           "author": "Laika",
           "date": "2026-09-13T05:17:23Z"
-        },
-        {
-          "sha": "bba40a2",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-13T03:06:10Z)",
-          "author": "daeguru",
-          "date": "2026-09-13T03:06:10Z"
         }
       ],
       "recent_prs": [
@@ -205,7 +205,7 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 22,
+      "open_issues": 23,
       "open_prs": 0,
       "updated_at": "2026-09-12T07:31:50Z",
       "pushed_at": "2026-09-12T07:31:48Z",
@@ -611,6 +611,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-13T09:06:18Z)",
+      "sha": "8bdfb96",
+      "date": "2026-09-13T09:06:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8bdfb9617921fcd6762df0db0f7954f548cc072b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "data: refresh dashboard.json, github activity, project wikis",
       "sha": "a3bd714",
       "date": "2026-09-13T06:47:17Z",
@@ -660,15 +669,6 @@
       "sha": "fce8b0e",
       "date": "2026-09-13T05:13:13Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/fce8b0e22faaa3021eeb23e3f2e1ccf1840b9c54"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-13T03:06:10Z)",
-      "sha": "bba40a2",
-      "date": "2026-09-13T03:06:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bba40a2809d110818c0539f74b4143a9e08da71f"
     },
     {
       "type": "commit",
