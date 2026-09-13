@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-13T12:07:55Z",
-  "since": "2026-08-14T12:07:02Z",
+  "generated": "2026-09-13T12:46:46Z",
+  "since": "2026-08-14T12:45:48Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-13T09:06:27Z",
-      "pushed_at": "2026-09-13T09:06:21Z",
+      "updated_at": "2026-09-13T12:08:02Z",
+      "pushed_at": "2026-09-13T12:07:59Z",
       "recent_commits": [
+        {
+          "sha": "dbee215",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-13T12:07:55Z)",
+          "author": "daeguru",
+          "date": "2026-09-13T12:07:55Z"
+        },
         {
           "sha": "8bdfb96",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-13T09:06:18Z)",
@@ -85,12 +91,6 @@
           "message": "[DAC 205회차] line-status 갱신 — CLE3 세션 2일 결번(결정 대기 관측), 뉴스 교대 리듬 완주, 계기판 105연속",
           "author": "Laika",
           "date": "2026-09-13T05:23:00Z"
-        },
-        {
-          "sha": "d155b2c",
-          "message": "[DAC 205회차] 다이어그램: 질문 게이트에 기본값 자동문 달기",
-          "author": "Laika",
-          "date": "2026-09-13T05:17:23Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-09-13T05:13:31Z",
-      "pushed_at": "2026-09-13T05:13:27Z",
+      "updated_at": "2026-09-13T12:44:21Z",
+      "pushed_at": "2026-09-13T12:44:18Z",
       "recent_commits": [
+        {
+          "sha": "5f47dcd",
+          "message": "📋 2026-09-13: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-09-13T12:44:14Z"
+        },
         {
           "sha": "fce8b0e",
           "message": "📚 2026-09-13: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-09-12: 위키 갱신 (2개) — industry 30차(5건), research 16차(3건)",
           "author": "Renover",
           "date": "2026-09-12T05:10:20Z"
-        },
-        {
-          "sha": "48d0979",
-          "message": "📰 2026-09-12: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-09-11T23:22:04Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-09-13: 데일리 브리핑 아카이브",
+      "sha": "5f47dcd",
+      "date": "2026-09-13T12:44:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5f47dcde03db0a2d823a47fda240fd0329230d06"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-13T12:07:55Z)",
+      "sha": "dbee215",
+      "date": "2026-09-13T12:07:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dbee215335b56153eb85768a5b62b0462d1a106c"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-13T09:06:18Z)",
@@ -651,15 +669,6 @@
       "sha": "7d28e03",
       "date": "2026-09-13T05:21:40Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7d28e03ef237262668ed1d660cf29a7801735269"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "[DAC 205회차] 다이어그램: 질문 게이트에 기본값 자동문 달기",
-      "sha": "d155b2c",
-      "date": "2026-09-13T05:17:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d155b2c0b46943ab644c5a04ebeddb0a9021ccbd"
     },
     {
       "type": "commit",
@@ -798,15 +807,6 @@
       "sha": "71710cb",
       "date": "2026-09-12T05:10:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/71710cb49e1f258277b171bdeb5596408774a2bd"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-12: 뉴스 수집 (5건)",
-      "sha": "48d0979",
-      "date": "2026-09-11T23:22:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/48d09794024c5472dad50c9e9727690b8c98a76a"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
