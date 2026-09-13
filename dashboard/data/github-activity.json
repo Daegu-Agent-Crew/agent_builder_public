@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-13T03:06:10Z",
-  "since": "2026-08-14T03:05:14Z",
+  "generated": "2026-09-13T06:06:56Z",
+  "since": "2026-08-14T06:05:24Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,27 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-13T00:46:13Z",
-      "pushed_at": "2026-09-13T00:46:10Z",
+      "updated_at": "2026-09-13T05:23:03Z",
+      "pushed_at": "2026-09-13T05:23:00Z",
       "recent_commits": [
+        {
+          "sha": "3d96c0c",
+          "message": "[DAC 205회차] line-status 갱신 — CLE3 세션 2일 결번(결정 대기 관측), 뉴스 교대 리듬 완주, 계기판 105연속",
+          "author": "Laika",
+          "date": "2026-09-13T05:23:00Z"
+        },
+        {
+          "sha": "d155b2c",
+          "message": "[DAC 205회차] 다이어그램: 질문 게이트에 기본값 자동문 달기",
+          "author": "Laika",
+          "date": "2026-09-13T05:17:23Z"
+        },
+        {
+          "sha": "bba40a2",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-13T03:06:10Z)",
+          "author": "daeguru",
+          "date": "2026-09-13T03:06:10Z"
+        },
         {
           "sha": "8d0330e",
           "message": "dashboard: regenerate dashboard.json & github-activity (2026-09-13 09:45 KST)",
@@ -73,24 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-13T00:08:01Z)",
           "author": "daeguru",
           "date": "2026-09-13T00:08:01Z"
-        },
-        {
-          "sha": "8cbd2a4",
-          "message": "line-status 204회차 갱신: 계기판 104연속·C201-1 void·정적 새벽 창",
-          "author": "Laika",
-          "date": "2026-09-12T23:17:05Z"
-        },
-        {
-          "sha": "40b7456",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-12T21:07:12Z)",
-          "author": "daeguru",
-          "date": "2026-09-12T21:07:13Z"
-        },
-        {
-          "sha": "4e8b5a3",
-          "message": "chore(dashboard): regenerate dashboard.json (2026-09-13 03:44 KST)",
-          "author": "daeguru",
-          "date": "2026-09-12T18:46:00Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 3,
       "open_prs": 0,
-      "updated_at": "2026-09-12T23:19:16Z",
-      "pushed_at": "2026-09-12T23:19:12Z",
+      "updated_at": "2026-09-13T05:13:31Z",
+      "pushed_at": "2026-09-13T05:13:27Z",
       "recent_commits": [
+        {
+          "sha": "fce8b0e",
+          "message": "📚 2026-09-13: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-13T05:13:13Z"
+        },
         {
           "sha": "594f7c5",
           "message": "📰 2026-09-13: 뉴스 수집 (4건)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-12: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-11T23:22:04Z"
-        },
-        {
-          "sha": "47c7166",
-          "message": "📚 2026-09-11: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-09-11T05:11:39Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-12T23:14:41Z",
-      "pushed_at": "2026-09-12T23:14:37Z",
+      "updated_at": "2026-09-13T05:21:44Z",
+      "pushed_at": "2026-09-13T05:21:41Z",
       "recent_commits": [
+        {
+          "sha": "7d28e03",
+          "message": "교훈 #205: 남은 게 사람 결정뿐일 때 라인은 조용히 멈춘다 — 결정 큐에 비차단 작업 명시 (DAC 205회차)",
+          "author": "Laika",
+          "date": "2026-09-13T05:21:40Z"
+        },
         {
           "sha": "f9f691a",
           "message": "교훈 #204: 사람의 채널 복귀는 답변이 아니라 지시다 (DAC 204회차)",
@@ -503,12 +509,6 @@
           "message": "영상 요약: AI Frontier EP114 — Navier-Stokes AI 공략, GPT Image 2.5, AlphaGenome Atlas",
           "author": "daeguru",
           "date": "2026-09-12T06:27:56Z"
-        },
-        {
-          "sha": "3e58933",
-          "message": "교훈 #201: 몫이 미리 채워진 달력은 라인의 멈춤을 하루 늦게 알린다 (DAC 201회차)",
-          "author": "sfex11",
-          "date": "2026-09-12T05:11:30Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,51 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "[DAC 205회차] line-status 갱신 — CLE3 세션 2일 결번(결정 대기 관측), 뉴스 교대 리듬 완주, 계기판 105연속",
+      "sha": "3d96c0c",
+      "date": "2026-09-13T05:23:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3d96c0cef43a94c674b46f28e45de25a31c83d64"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #205: 남은 게 사람 결정뿐일 때 라인은 조용히 멈춘다 — 결정 큐에 비차단 작업 명시 (DAC 205회차)",
+      "sha": "7d28e03",
+      "date": "2026-09-13T05:21:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7d28e03ef237262668ed1d660cf29a7801735269"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "[DAC 205회차] 다이어그램: 질문 게이트에 기본값 자동문 달기",
+      "sha": "d155b2c",
+      "date": "2026-09-13T05:17:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d155b2c0b46943ab644c5a04ebeddb0a9021ccbd"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-13: 위키 갱신 (2개)",
+      "sha": "fce8b0e",
+      "date": "2026-09-13T05:13:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/fce8b0e22faaa3021eeb23e3f2e1ccf1840b9c54"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-13T03:06:10Z)",
+      "sha": "bba40a2",
+      "date": "2026-09-13T03:06:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bba40a2809d110818c0539f74b4143a9e08da71f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: regenerate dashboard.json & github-activity (2026-09-13 09:45 KST)",
       "sha": "8d0330e",
@@ -636,39 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "line-status 204회차 갱신: 계기판 104연속·C201-1 void·정적 새벽 창",
-      "sha": "8cbd2a4",
-      "date": "2026-09-12T23:17:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8cbd2a41c4ac9f171a9110f3ffdae5a494829387"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #204: 사람의 채널 복귀는 답변이 아니라 지시다 (DAC 204회차)",
       "sha": "f9f691a",
       "date": "2026-09-12T23:14:36Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f9f691ab465be1a6f7a98b7a5fe0375fc26b3a3d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-12T21:07:12Z)",
-      "sha": "40b7456",
-      "date": "2026-09-12T21:07:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/40b74566ca7c36c41c4cf53fded959db0aaf0c1d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): regenerate dashboard.json (2026-09-13 03:44 KST)",
-      "sha": "4e8b5a3",
-      "date": "2026-09-12T18:46:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4e8b5a3cc182c28aee67e6af7e2e3a28df16a50d"
     },
     {
       "type": "commit",
@@ -774,15 +792,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #201: 몫이 미리 채워진 달력은 라인의 멈춤을 하루 늦게 알린다 (DAC 201회차)",
-      "sha": "3e58933",
-      "date": "2026-09-12T05:11:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3e589338cc8fd2cd1b0be8ee004ce81073253bb0"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-12: 위키 갱신 (2개) — industry 30차(5건), research 16차(3건)",
@@ -798,15 +807,6 @@
       "sha": "48d0979",
       "date": "2026-09-11T23:22:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/48d09794024c5472dad50c9e9727690b8c98a76a"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-11: 위키 갱신 (2개)",
-      "sha": "47c7166",
-      "date": "2026-09-11T05:11:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/47c7166067bd3fab66a6ea8bda191ad3315ed46f"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 16,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
