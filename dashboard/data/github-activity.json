@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-13T18:07:27Z",
-  "since": "2026-08-14T18:06:10Z",
+  "generated": "2026-09-13T18:46:39Z",
+  "since": "2026-08-14T18:46:06Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-13T15:46:57Z",
-      "pushed_at": "2026-09-13T15:46:53Z",
+      "updated_at": "2026-09-13T18:07:34Z",
+      "pushed_at": "2026-09-13T18:07:31Z",
       "recent_commits": [
+        {
+          "sha": "c19627b",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-13T18:07:27Z)",
+          "author": "daeguru",
+          "date": "2026-09-13T18:07:28Z"
+        },
         {
           "sha": "1ec20d0",
           "message": "dashboard: 2026-09-14 정기 갱신 (dashboard.json, github-activity)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-13T12:07:55Z)",
           "author": "daeguru",
           "date": "2026-09-13T12:07:55Z"
-        },
-        {
-          "sha": "8bdfb96",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-13T09:06:18Z)",
-          "author": "daeguru",
-          "date": "2026-09-13T09:06:18Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-13T18:07:27Z)",
+      "sha": "c19627b",
+      "date": "2026-09-13T18:07:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c19627b92222610fe5c3648d24b8fc41412953ba"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "📚 교훈 #206: 사람 채널은 지시형으로 반응 — 사람 예측은 새 지시 형태로",
@@ -669,15 +678,6 @@
       "sha": "dbee215",
       "date": "2026-09-13T12:07:55Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dbee215335b56153eb85768a5b62b0462d1a106c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-13T09:06:18Z)",
-      "sha": "8bdfb96",
-      "date": "2026-09-13T09:06:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8bdfb9617921fcd6762df0db0f7954f548cc072b"
     },
     {
       "type": "commit",
