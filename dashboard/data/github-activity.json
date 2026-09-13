@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-13T00:08:01Z",
-  "since": "2026-08-14T00:07:01Z",
+  "generated": "2026-09-13T00:45:46Z",
+  "since": "2026-08-14T00:45:11Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-12T23:17:09Z",
-      "pushed_at": "2026-09-12T23:17:06Z",
+      "updated_at": "2026-09-13T00:08:08Z",
+      "pushed_at": "2026-09-13T00:08:05Z",
       "recent_commits": [
+        {
+          "sha": "0762649",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-13T00:08:01Z)",
+          "author": "daeguru",
+          "date": "2026-09-13T00:08:01Z"
+        },
         {
           "sha": "8cbd2a4",
           "message": "line-status 204회차 갱신: 계기판 104연속·C201-1 void·정적 새벽 창",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-12T18:07:03Z)",
           "author": "daeguru",
           "date": "2026-09-12T18:07:03Z"
-        },
-        {
-          "sha": "928ff88",
-          "message": "dac-203 diagram: 21개 창고를 세 서랍으로 (활성7/보류6/완결8) — 203회차 보고 첨부용",
-          "author": "Laika",
-          "date": "2026-09-12T17:12:16Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-13T00:08:01Z)",
+      "sha": "0762649",
+      "date": "2026-09-13T00:08:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/076264940f743318e225423759649572333f4349"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-13: 뉴스 수집 (4건)",
@@ -669,15 +678,6 @@
       "sha": "cfd7de0",
       "date": "2026-09-12T17:12:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cfd7de070cdc6a406233b5311c0487e157cc8841"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "dac-203 diagram: 21개 창고를 세 서랍으로 (활성7/보류6/완결8) — 203회차 보고 첨부용",
-      "sha": "928ff88",
-      "date": "2026-09-12T17:12:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/928ff88d5b7b4b231a7b6f447d667fa69694af75"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
