@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14T09:05:56Z",
-  "since": "2026-08-15T09:04:57Z",
+  "generated": "2026-09-14T09:46:15Z",
+  "since": "2026-08-15T09:45:39Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-14T06:52:28Z",
-      "pushed_at": "2026-09-14T06:52:24Z",
+      "updated_at": "2026-09-14T09:06:03Z",
+      "pushed_at": "2026-09-14T09:05:59Z",
       "recent_commits": [
+        {
+          "sha": "bf1a862",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-14T09:05:56Z)",
+          "author": "daeguru",
+          "date": "2026-09-14T09:05:56Z"
+        },
         {
           "sha": "736358c",
           "message": "chore(dashboard): regenerate dashboard.json 2026-09-14T06:52:22Z",
@@ -85,12 +91,6 @@
           "message": "🩺 line-status 207회차 갱신: CLE3 몰아배달 소급 정정(16일 연속) · 계기판 107 · 뉴스 더블 배치 (라이카)",
           "author": "Laika",
           "date": "2026-09-14T05:32:24Z"
-        },
-        {
-          "sha": "8426f1d",
-          "message": "chore(dashboard): refresh dashboard & github activity (2026-09-14T03:48:02Z)",
-          "author": "daeguru",
-          "date": "2026-09-14T03:48:02Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-14T09:05:56Z)",
+      "sha": "bf1a862",
+      "date": "2026-09-14T09:05:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bf1a8627d5ee3fe828fa48b948d4632f708638a8"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): regenerate dashboard.json 2026-09-14T06:52:22Z",
       "sha": "736358c",
       "date": "2026-09-14T06:52:22Z",
@@ -660,15 +669,6 @@
       "sha": "136ea3d",
       "date": "2026-09-14T05:17:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/136ea3df59bb353a63066d6750b618052562a446"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard & github activity (2026-09-14T03:48:02Z)",
-      "sha": "8426f1d",
-      "date": "2026-09-14T03:48:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8426f1d7df3d159da75f779e74e206c5f00ce478"
     },
     {
       "type": "commit",
