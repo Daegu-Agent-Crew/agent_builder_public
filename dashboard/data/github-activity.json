@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-14T03:46:44Z",
-  "since": "2026-08-15T03:46:03Z",
+  "generated": "2026-09-14T06:08:24Z",
+  "since": "2026-08-15T06:07:23Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 26,
+      "open_issues": 27,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-14T03:08:23Z",
-      "pushed_at": "2026-09-14T03:08:19Z",
+      "updated_at": "2026-09-14T05:32:28Z",
+      "pushed_at": "2026-09-14T05:32:24Z",
       "recent_commits": [
+        {
+          "sha": "d042b59",
+          "message": "🩺 line-status 207회차 갱신: CLE3 몰아배달 소급 정정(16일 연속) · 계기판 107 · 뉴스 더블 배치 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-14T05:32:24Z"
+        },
+        {
+          "sha": "8426f1d",
+          "message": "chore(dashboard): refresh dashboard & github activity (2026-09-14T03:48:02Z)",
+          "author": "daeguru",
+          "date": "2026-09-14T03:48:02Z"
+        },
         {
           "sha": "beb9547",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-14T03:08:16Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-14T00:08:13Z)",
           "author": "daeguru",
           "date": "2026-09-14T00:08:13Z"
-        },
-        {
-          "sha": "86051d7",
-          "message": "chore(dashboard): refresh dashboard.json and github-activity (auto)",
-          "author": "daeguru",
-          "date": "2026-09-13T21:46:27Z"
-        },
-        {
-          "sha": "8771e4b",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-13T21:07:40Z)",
-          "author": "daeguru",
-          "date": "2026-09-13T21:07:40Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-13T23:55:54Z",
-      "pushed_at": "2026-09-13T23:55:45Z",
+      "updated_at": "2026-09-14T05:18:02Z",
+      "pushed_at": "2026-09-14T05:17:58Z",
       "recent_commits": [
+        {
+          "sha": "136ea3d",
+          "message": "📚 2026-09-14: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-14T05:17:56Z"
+        },
         {
           "sha": "5346df3",
           "message": "📰 2026-09-14: 뉴스 수집 (4건)",
@@ -152,12 +158,6 @@
           "message": "📋 2026-09-13: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-09-13T12:44:14Z"
-        },
-        {
-          "sha": "fce8b0e",
-          "message": "📚 2026-09-13: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-09-13T05:13:13Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-13T17:27:24Z",
-      "pushed_at": "2026-09-13T17:27:20Z",
+      "updated_at": "2026-09-14T05:30:26Z",
+      "pushed_at": "2026-09-14T05:30:22Z",
       "recent_commits": [
+        {
+          "sha": "c46c3f1",
+          "message": "📚 교훈 #207: 보류(hold)도 산출이다 — 결정 대기 라인은 매일 출근한다 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-14T05:30:21Z"
+        },
         {
           "sha": "da6a8ca",
           "message": "📚 교훈 #206: 사람 채널은 지시형으로 반응 — 사람 예측은 새 지시 형태로",
@@ -503,12 +509,6 @@
           "message": "교훈 #203: 채널 산출은 장부로 옮겨질 때 조직 자산이 된다 (DAC 203회차)",
           "author": "Laika",
           "date": "2026-09-12T17:12:52Z"
-        },
-        {
-          "sha": "9388959",
-          "message": "교훈 #202: 멈춘 라인은 재개 조건으로 정리된다 (DAC 202회차)",
-          "author": "Laika",
-          "date": "2026-09-12T11:14:14Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,42 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "🩺 line-status 207회차 갱신: CLE3 몰아배달 소급 정정(16일 연속) · 계기판 107 · 뉴스 더블 배치 (라이카)",
+      "sha": "d042b59",
+      "date": "2026-09-14T05:32:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d042b599cf3774be51bab6c6fc2d57e075f8bbcb"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "📚 교훈 #207: 보류(hold)도 산출이다 — 결정 대기 라인은 매일 출근한다 (라이카)",
+      "sha": "c46c3f1",
+      "date": "2026-09-14T05:30:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c46c3f131688accf807f7c35c44466b992c3af65"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-14: 위키 갱신 (2개)",
+      "sha": "136ea3d",
+      "date": "2026-09-14T05:17:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/136ea3df59bb353a63066d6750b618052562a446"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard & github activity (2026-09-14T03:48:02Z)",
+      "sha": "8426f1d",
+      "date": "2026-09-14T03:48:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8426f1d7df3d159da75f779e74e206c5f00ce478"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-14T03:08:16Z)",
       "sha": "beb9547",
@@ -654,24 +690,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json and github-activity (auto)",
-      "sha": "86051d7",
-      "date": "2026-09-13T21:46:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/86051d7b918410dde9ea76d640d94a8a63882445"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-13T21:07:40Z)",
-      "sha": "8771e4b",
-      "date": "2026-09-13T21:07:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8771e4b71b590273f4c64e764cef2d0770b9e3bb"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "📚 교훈 #206: 사람 채널은 지시형으로 반응 — 사람 예측은 새 지시 형태로",
@@ -708,15 +726,6 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-13: 위키 갱신 (2개)",
-      "sha": "fce8b0e",
-      "date": "2026-09-13T05:13:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/fce8b0e22faaa3021eeb23e3f2e1ccf1840b9c54"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #204: 사람의 채널 복귀는 답변이 아니라 지시다 (DAC 204회차)",
@@ -732,15 +741,6 @@
       "sha": "cfd7de0",
       "date": "2026-09-12T17:12:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cfd7de070cdc6a406233b5311c0487e157cc8841"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #202: 멈춘 라인은 재개 조건으로 정리된다 (DAC 202회차)",
-      "sha": "9388959",
-      "date": "2026-09-12T11:14:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9388959219e3a384ba3f81cd930d97794219187f"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
