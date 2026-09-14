@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14T18:06:39Z",
-  "since": "2026-08-15T18:05:53Z",
+  "generated": "2026-09-14T21:06:41Z",
+  "since": "2026-08-15T21:05:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-14T17:26:38Z",
-      "pushed_at": "2026-09-14T17:26:34Z",
+      "updated_at": "2026-09-14T18:06:48Z",
+      "pushed_at": "2026-09-14T18:06:43Z",
       "recent_commits": [
+        {
+          "sha": "d47036f",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-14T18:06:39Z)",
+          "author": "daeguru",
+          "date": "2026-09-14T18:06:39Z"
+        },
         {
           "sha": "2104807",
           "message": "dashboard: line-status 209회차 갱신 — 브리핑 규칙화 2일차 hit + 계기판 109연속",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-09-14T09:46:40Z"
-        },
-        {
-          "sha": "bf1a862",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-14T09:05:56Z)",
-          "author": "daeguru",
-          "date": "2026-09-14T09:05:56Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-14T18:06:39Z)",
+      "sha": "d47036f",
+      "date": "2026-09-14T18:06:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d47036f1d4a21e8c74c94630b73e5443d3d2216f"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "📚 교훈 #209: 자동화 성공 판정은 2연속부터 — 첫 성공은 사건, 둘째 성공이 규칙 (라이카)",
@@ -669,15 +678,6 @@
       "sha": "da80dc4",
       "date": "2026-09-14T09:46:40Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/da80dc4830e76b8f13c5f9749e7915990d1ee582"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-14T09:05:56Z)",
-      "sha": "bf1a862",
-      "date": "2026-09-14T09:05:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bf1a8627d5ee3fe828fa48b948d4632f708638a8"
     },
     {
       "type": "commit",
