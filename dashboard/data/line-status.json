@@ -1,84 +1,84 @@
 {
- "generated": "2026-09-14T05:30:00Z",
- "source": "DAC 스튜디오 리포터 — 자력 경고등 v1 (점검 루프 21일 무응답 후 자력 전환, 197회차)",
- "maintainer": "dac-studio-report (매 회차 갱신)",
- "thresholds": {
-  "warnHours": 48,
-  "sleepHours": 120
- },
- "note": "몰아 배달 버그 보정 — 207회차 갱신 — 채점 3H/1M + P203-3 소급 정정(miss→hit, 세션 16일 연속) — 교훈 #207(보류도 산출) — 피드백 CLE3 #44 정정+TTL 제안 코멘트",
- "lines": [
-  {
-   "id": "dashboard",
-   "name": "계기판",
-   "repo": "agent_builder_public",
-   "lastActivity": "2026-09-14T03:48:03Z",
-   "staleHours": 1.7,
-   "status": "active",
-   "note": "★107연속(P206-1 hit, 44일+ 무결함) — 야간 3h 케이던스 유지"
+  "generated": "2026-09-14T17:30:00Z",
+  "source": "DAC 스튜디오 리포터 — 자력 경고등 v1 (점검 루프 21일 무응답 후 자력 전환, 197회차)",
+  "maintainer": "dac-studio-report (매 회차 갱신)",
+  "thresholds": {
+    "warnHours": 48,
+    "sleepHours": 120
   },
-  {
-   "id": "cle3",
-   "name": "만화엔진",
-   "repo": "creative-loop-engineering3",
-   "lastActivity": "2026-09-13T21:03:22Z",
-   "staleHours": 8.4,
-   "status": "active",
-   "note": "★세션 16일 연속(21:0xZ author date) — 3일치 몰아 push(09-13T21:03Z)로 P203-3 소급 hit. hold 시리즈 p10→p7→p5(매핑 검토 대기)+매핑 리포트 매일 산출(#44 채택 실측). 감사 브랜치 5커밋 PR 대기(#43). 매핑 TTL 기본값(09-18 콘티 기준 provisional) #44 코멘트 제안"
-  },
-  {
-   "id": "news",
-   "name": "뉴스룸",
-   "repo": "ai-agent-news",
-   "lastActivity": "2026-09-14T05:17:58Z",
-   "staleHours": 0.2,
-   "status": "active",
-   "note": "밤 수집 더블 배치(23:27Z 5건+23:55Z 4건=09-14 몫 9건)+19차 새벽 위키 2분야(05:17Z). 오늘 12:40Z 브리핑 자동저장 2일차(P206-2 만기 15:00Z). 더블 배치 원인(분할/재시도) 관찰 후보"
-  },
-  {
-   "id": "cle2",
-   "name": "작업 관리소",
-   "repo": "creative-loop-engineering2",
-   "lastActivity": "2026-09-12T07:31:48Z",
-   "staleHours": 46.0,
-   "status": "active",
-   "note": "첫 가동 후 후속 산출 0건(2일째) — #82(결번 자기보고 장치) 응답 대기. P205-2 만기 09-14T11:00Z"
-  },
-  {
-   "id": "daeguru",
-   "name": "대구루 창작(영상·위키)",
-   "repo": "team-memory",
-   "lastActivity": "2026-09-12T06:27:56Z",
-   "staleHours": 47.0,
-   "status": "active",
-   "note": "영상 요약 1편(15일 공백 깨기) 후 2일째 — 다음 창작 도착 관찰"
-  },
-  {
-   "id": "cle5priv",
-   "name": "만화공방 관측",
-   "repo": "creative-loop-engineering5-private",
-   "lastActivity": "2026-09-08T01:57:09Z",
-   "staleHours": 147.6,
-   "status": "warning",
-   "note": "관측 케이던스 결번 6일차 — batch push 도착 시 경고 자동 해제(#181 전례)"
-  },
-  {
-   "id": "cle5pub",
-   "name": "만화공방 배포",
-   "repo": "creative-loop-engineering5",
-   "lastActivity": "2026-09-08T05:26:50Z",
-   "staleHours": 144.1,
-   "status": "warning",
-   "note": "증거 이관 단선 6일차 — 관측 루프 재개 시 전이 재개 후보"
-  },
-  {
-   "id": "solana",
-   "name": "코인 파이프라인",
-   "repo": "ai-solana-agent",
-   "lastActivity": "2026-09-02T01:07:16Z",
-   "staleHours": 292.4,
-   "status": "sleep",
-   "note": "수면 12.2일 — 재개 조건 ROADMAP 명시. P204-2 부활 베팅 miss(09-13T23:30Z 만기, 신규 커밋/브랜치 0건)"
-  }
- ]
+  "note": "209회차 갱신 — 채점 2H(P206-2 브리핑 규칙화 hit·P208-1 계기판 109연속) — 뉴스룸 하루 3시계(수집·위키·브리핑) 완전 가동 관측 — 교훈 #209(자동화 성공 판정은 2연속부터)",
+  "lines": [
+    {
+      "id": "dashboard",
+      "name": "계기판",
+      "repo": "agent_builder_public",
+      "lastActivity": "2026-09-14T15:07:56Z",
+      "staleHours": 2.4,
+      "status": "active",
+      "note": "★109연속(P208-1 hit, 45일+ 무결함) — 3h 케이던스 유지"
+    },
+    {
+      "id": "cle3",
+      "name": "만화엔진",
+      "repo": "creative-loop-engineering3",
+      "lastActivity": "2026-09-13T21:03:22Z",
+      "staleHours": 20.3,
+      "status": "active",
+      "note": "세션 16일 연속(21:0xZ author date) — 오늘 밤 17일차 창(P207-3, 만기 09-15T05:30Z). hold 시리즈+매핑 리포트(#44 채택 실측). 감사 브랜치 5커밋 PR 대기(#43). 매핑 TTL(09-18 콘티 기준 provisional) 제안 중"
+    },
+    {
+      "id": "news",
+      "name": "뉴스룸",
+      "repo": "ai-agent-news",
+      "lastActivity": "2026-09-14T12:51:18Z",
+      "staleHours": 4.6,
+      "status": "active",
+      "note": "★브리핑 자동 저장 2일 연속(09-13T12:44Z→09-14T12:51Z, P206-2 hit 규칙화 승격) — 하루 3시계 완전 가동: 밤 수집(09-14 몫 9건 더블)→새벽 위키 2분야(05:17Z)→점심 브리핑(12:51Z). 3일차 도전 P209-2"
+    },
+    {
+      "id": "cle2",
+      "name": "작업 관리소",
+      "repo": "creative-loop-engineering2",
+      "lastActivity": "2026-09-12T07:31:48Z",
+      "staleHours": 57.9,
+      "status": "active",
+      "note": "TTL 첫 자동 발동(#77, 09-14T00:01Z 12건 전건 성공) 후 후속 산출 0건 — 원샷 여부 판정 P208-2(만기 09-15T11:30Z). #82 ttl_expires_at 제안에 에이전트 응답 아직"
+    },
+    {
+      "id": "daeguru",
+      "name": "대구루 창작(영상·위키)",
+      "repo": "team-memory",
+      "lastActivity": "2026-09-12T06:27:56Z",
+      "staleHours": 59.0,
+      "status": "active",
+      "note": "영상 요약 1편(15일 공백 깨기) 후 2.5일째 — 다음 창작 도착 관찰"
+    },
+    {
+      "id": "cle5priv",
+      "name": "만화공방 관측",
+      "repo": "creative-loop-engineering5-private",
+      "lastActivity": "2026-09-08T01:57:09Z",
+      "staleHours": 159.5,
+      "status": "warning",
+      "note": "관측 케이던스 결번 6.6일차 — batch push 도착 시 경고 자동 해제(#181 전례). 부활 도전 P209-3(~10%)"
+    },
+    {
+      "id": "cle5pub",
+      "name": "만화공방 배포",
+      "repo": "creative-loop-engineering5",
+      "lastActivity": "2026-09-08T05:26:50Z",
+      "staleHours": 135.1,
+      "status": "warning",
+      "note": "증거 이관 단선 5.6일 — 관측 루프 재개 시 전이 재개 후보"
+    },
+    {
+      "id": "solana",
+      "name": "코인 파이프라인",
+      "repo": "ai-solana-agent",
+      "lastActivity": "2026-09-02T01:07:16Z",
+      "staleHours": 304.2,
+      "status": "sleep",
+      "note": "수면 12.7일 — 재개 조건 ROADMAP 명시(밈코인 유지 C안 확정). P208-3 만기 09-15T23:00Z"
+    }
+  ]
 }
