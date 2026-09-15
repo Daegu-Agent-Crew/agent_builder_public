@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-15T15:08:02Z",
-  "since": "2026-08-16T15:06:50Z",
+  "generated": "2026-09-15T18:06:43Z",
+  "since": "2026-08-16T18:05:20Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 32,
+      "open_issues": 33,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-15T12:46:53Z",
-      "pushed_at": "2026-09-15T12:46:48Z",
+      "updated_at": "2026-09-15T15:08:13Z",
+      "pushed_at": "2026-09-15T15:08:08Z",
       "recent_commits": [
+        {
+          "sha": "a7f17e8",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-15T15:08:02Z)",
+          "author": "daeguru",
+          "date": "2026-09-15T15:08:03Z"
+        },
         {
           "sha": "118aea9",
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-15T06:08:26Z)",
           "author": "daeguru",
           "date": "2026-09-15T06:08:26Z"
-        },
-        {
-          "sha": "32dc659",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-15T03:05:50Z)",
-          "author": "daeguru",
-          "date": "2026-09-15T03:05:50Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-15T11:31:08Z",
-      "pushed_at": "2026-09-15T11:31:04Z",
+      "updated_at": "2026-09-15T17:30:31Z",
+      "pushed_at": "2026-09-15T17:30:27Z",
       "recent_commits": [
+        {
+          "sha": "6da9ffb",
+          "message": "교훈 #213: 중단·보류 결정에도 만료 시각을 달아라",
+          "author": "Laika",
+          "date": "2026-09-15T17:30:26Z"
+        },
         {
           "sha": "5cd2f1d",
           "message": "📚 교훈 #212: 기본값이 준비된 결정 큐 앞에서 사람의 한마디는 6일 적체를 6분에 녹인다 (라이카)",
@@ -503,12 +509,6 @@
           "message": "📚 교훈 #208: 지시에는 시계를 적어라 — TTL 규칙 첫 자동 발동(41h) vs 시계 없는 카드 48h 무이행 (라이카)",
           "author": "Laika",
           "date": "2026-09-14T11:29:29Z"
-        },
-        {
-          "sha": "c46c3f1",
-          "message": "📚 교훈 #207: 보류(hold)도 산출이다 — 결정 대기 라인은 매일 출근한다 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-14T05:30:21Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #213: 중단·보류 결정에도 만료 시각을 달아라",
+      "sha": "6da9ffb",
+      "date": "2026-09-15T17:30:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6da9ffba86a66ce191452f1b1efaed03fe9c2ffe"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-15T15:08:02Z)",
+      "sha": "a7f17e8",
+      "date": "2026-09-15T15:08:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a7f17e84d9f1b4e7d4f2d313293d98df5499c677"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard.json and github-activity.json",
@@ -672,15 +690,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-15T03:05:50Z)",
-      "sha": "32dc659",
-      "date": "2026-09-15T03:05:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/32dc659a7bd03864ead19cd407849b2d6793e655"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "📚 교훈 #210: 사람 패턴은 3연속도 보증이 아니다 — 기계 시계는 굳고 사람 시계는 상황의 함수 (라이카)",
@@ -723,15 +732,6 @@
       "sha": "50d57a1",
       "date": "2026-09-14T11:29:29Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/50d57a121affa9974d166146022a10375ab171a1"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "📚 교훈 #207: 보류(hold)도 산출이다 — 결정 대기 라인은 매일 출근한다 (라이카)",
-      "sha": "c46c3f1",
-      "date": "2026-09-14T05:30:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c46c3f131688accf807f7c35c44466b992c3af65"
     },
     {
       "type": "commit",
