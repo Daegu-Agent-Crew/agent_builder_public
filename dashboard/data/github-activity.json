@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-14T21:06:41Z",
-  "since": "2026-08-15T21:05:27Z",
+  "generated": "2026-09-15T00:05:47Z",
+  "since": "2026-08-16T00:04:57Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 29,
+      "open_issues": 30,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-14T18:06:48Z",
-      "pushed_at": "2026-09-14T18:06:43Z",
+      "updated_at": "2026-09-14T21:06:50Z",
+      "pushed_at": "2026-09-14T21:06:45Z",
       "recent_commits": [
+        {
+          "sha": "3930d68",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-14T21:06:41Z)",
+          "author": "daeguru",
+          "date": "2026-09-14T21:06:41Z"
+        },
         {
           "sha": "d47036f",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-14T18:06:39Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-14T12:09:39Z)",
           "author": "daeguru",
           "date": "2026-09-14T12:09:39Z"
-        },
-        {
-          "sha": "da80dc4",
-          "message": "dashboard: refresh dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-14T09:46:40Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-14T12:51:22Z",
-      "pushed_at": "2026-09-14T12:51:18Z",
+      "updated_at": "2026-09-14T23:17:12Z",
+      "pushed_at": "2026-09-14T23:17:08Z",
       "recent_commits": [
+        {
+          "sha": "6de6184",
+          "message": "📰 2026-09-15: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-09-14T23:17:07Z"
+        },
         {
           "sha": "ece728a",
           "message": "📋 2026-09-14: 데일리 브리핑 아카이브",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-14: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-13T23:27:28Z"
-        },
-        {
-          "sha": "c597a85",
-          "message": "🔍 2026-09-13: 위키 린트 점검",
-          "author": "Renover",
-          "date": "2026-09-13T14:11:42Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-14T17:26:57Z",
-      "pushed_at": "2026-09-14T17:26:53Z",
+      "updated_at": "2026-09-14T23:28:09Z",
+      "pushed_at": "2026-09-14T23:28:05Z",
       "recent_commits": [
+        {
+          "sha": "aac2fff",
+          "message": "📚 교훈 #210: 사람 패턴은 3연속도 보증이 아니다 — 기계 시계는 굳고 사람 시계는 상황의 함수 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-14T23:28:05Z"
+        },
         {
           "sha": "6ad02d7",
           "message": "📚 교훈 #209: 자동화 성공 판정은 2연속부터 — 첫 성공은 사건, 둘째 성공이 규칙 (라이카)",
@@ -503,12 +509,6 @@
           "message": "📚 교훈 #206: 사람 채널은 지시형으로 반응 — 사람 예측은 새 지시 형태로",
           "author": "sfex11",
           "date": "2026-09-13T17:27:20Z"
-        },
-        {
-          "sha": "7d28e03",
-          "message": "교훈 #205: 남은 게 사람 결정뿐일 때 라인은 조용히 멈춘다 — 결정 큐에 비차단 작업 명시 (DAC 205회차)",
-          "author": "Laika",
-          "date": "2026-09-13T05:21:40Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "📚 교훈 #210: 사람 패턴은 3연속도 보증이 아니다 — 기계 시계는 굳고 사람 시계는 상황의 함수 (라이카)",
+      "sha": "aac2fff",
+      "date": "2026-09-14T23:28:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/aac2fff14d7ed9041971a0dbbc6e39f9f37e6fc4"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-15: 뉴스 수집 (5건)",
+      "sha": "6de6184",
+      "date": "2026-09-14T23:17:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/6de6184b7f96854005fb76a34dc9b837feabf71e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-14T21:06:41Z)",
+      "sha": "3930d68",
+      "date": "2026-09-14T21:06:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3930d6857c17a769deb11553aa1385b127330344"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-14T18:06:39Z)",
@@ -672,15 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json",
-      "sha": "da80dc4",
-      "date": "2026-09-14T09:46:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/da80dc4830e76b8f13c5f9749e7915990d1ee582"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "📚 교훈 #207: 보류(hold)도 산출이다 — 결정 대기 라인은 매일 출근한다 (라이카)",
@@ -723,24 +741,6 @@
       "sha": "da6a8ca",
       "date": "2026-09-13T17:27:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/da6a8ca7dbb9ce5b5a887a65b1c6da58cc274903"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔍 2026-09-13: 위키 린트 점검",
-      "sha": "c597a85",
-      "date": "2026-09-13T14:11:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c597a852aec49f09528d2f30e702961551079d0e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #205: 남은 게 사람 결정뿐일 때 라인은 조용히 멈춘다 — 결정 큐에 비차단 작업 명시 (DAC 205회차)",
-      "sha": "7d28e03",
-      "date": "2026-09-13T05:21:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7d28e03ef237262668ed1d660cf29a7801735269"
     },
     {
       "type": "pr",
