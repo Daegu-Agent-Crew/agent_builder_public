@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-15T12:09:22Z",
-  "since": "2026-08-16T12:08:08Z",
+  "generated": "2026-09-15T12:46:12Z",
+  "since": "2026-08-16T12:45:29Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-15T09:06:50Z",
-      "pushed_at": "2026-09-15T09:06:46Z",
+      "updated_at": "2026-09-15T12:09:30Z",
+      "pushed_at": "2026-09-15T12:09:26Z",
       "recent_commits": [
+        {
+          "sha": "5d74083",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-15T12:09:22Z)",
+          "author": "daeguru",
+          "date": "2026-09-15T12:09:23Z"
+        },
         {
           "sha": "a0bd833",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-15T09:06:42Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-15T00:05:47Z)",
           "author": "daeguru",
           "date": "2026-09-15T00:05:47Z"
-        },
-        {
-          "sha": "3930d68",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-14T21:06:41Z)",
-          "author": "daeguru",
-          "date": "2026-09-14T21:06:41Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-15T12:09:22Z)",
+      "sha": "5d74083",
+      "date": "2026-09-15T12:09:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5d7408320922e4bab436410d75241c6a51a54288"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "📚 교훈 #212: 기본값이 준비된 결정 큐 앞에서 사람의 한마디는 6일 적체를 6분에 녹인다 (라이카)",
@@ -678,15 +687,6 @@
       "sha": "6de6184",
       "date": "2026-09-14T23:17:07Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/6de6184b7f96854005fb76a34dc9b837feabf71e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-14T21:06:41Z)",
-      "sha": "3930d68",
-      "date": "2026-09-14T21:06:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3930d6857c17a769deb11553aa1385b127330344"
     },
     {
       "type": "commit",
