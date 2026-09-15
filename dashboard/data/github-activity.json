@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-15T00:05:47Z",
-  "since": "2026-08-16T00:04:57Z",
+  "generated": "2026-09-15T03:05:50Z",
+  "since": "2026-08-16T03:04:57Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-14T21:06:50Z",
-      "pushed_at": "2026-09-14T21:06:45Z",
+      "updated_at": "2026-09-15T00:05:54Z",
+      "pushed_at": "2026-09-15T00:05:50Z",
       "recent_commits": [
+        {
+          "sha": "f0a6572",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-15T00:05:47Z)",
+          "author": "daeguru",
+          "date": "2026-09-15T00:05:47Z"
+        },
         {
           "sha": "3930d68",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-14T21:06:41Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-14T15:07:56Z)",
           "author": "daeguru",
           "date": "2026-09-14T15:07:56Z"
-        },
-        {
-          "sha": "8c944f0",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-14T12:09:39Z)",
-          "author": "daeguru",
-          "date": "2026-09-14T12:09:39Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-15T00:05:47Z)",
+      "sha": "f0a6572",
+      "date": "2026-09-15T00:05:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f0a6572ba4661d97a9052422c8e279e5c2a91ae3"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "📚 교훈 #210: 사람 패턴은 3연속도 보증이 아니다 — 기계 시계는 굳고 사람 시계는 상황의 함수 (라이카)",
@@ -678,15 +687,6 @@
       "sha": "ece728a",
       "date": "2026-09-14T12:51:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ece728af08c2e7ca00496fdfc967baf3e9e2bf3f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-14T12:09:39Z)",
-      "sha": "8c944f0",
-      "date": "2026-09-14T12:09:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8c944f0e8425984e1f822296c8bfa0890401b74a"
     },
     {
       "type": "commit",
