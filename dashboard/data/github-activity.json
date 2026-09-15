@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-15T06:08:26Z",
-  "since": "2026-08-16T06:07:23Z",
+  "generated": "2026-09-15T09:06:42Z",
+  "since": "2026-08-16T09:05:53Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-15T03:05:57Z",
-      "pushed_at": "2026-09-15T03:05:53Z",
+      "updated_at": "2026-09-15T06:08:33Z",
+      "pushed_at": "2026-09-15T06:08:29Z",
       "recent_commits": [
+        {
+          "sha": "627b3b9",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-15T06:08:26Z)",
+          "author": "daeguru",
+          "date": "2026-09-15T06:08:26Z"
+        },
         {
           "sha": "32dc659",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-15T03:05:50Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-14T18:06:39Z)",
           "author": "daeguru",
           "date": "2026-09-14T18:06:39Z"
-        },
-        {
-          "sha": "2104807",
-          "message": "dashboard: line-status 209회차 갱신 — 브리핑 규칙화 2일차 hit + 계기판 109연속",
-          "author": "Laika",
-          "date": "2026-09-14T17:26:33Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-15T06:08:26Z)",
+      "sha": "627b3b9",
+      "date": "2026-09-15T06:08:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/627b3b97d99c808de3ae185519f33ff9dce6bc7f"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-15: 위키 갱신 (2개)",
@@ -678,15 +687,6 @@
       "sha": "6ad02d7",
       "date": "2026-09-14T17:26:53Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6ad02d7d646525594065145142dc9b97ce8d215b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "dashboard: line-status 209회차 갱신 — 브리핑 규칙화 2일차 hit + 계기판 109연속",
-      "sha": "2104807",
-      "date": "2026-09-14T17:26:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2104807711b3c33c59779b03490248f4dd1c64eb"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
