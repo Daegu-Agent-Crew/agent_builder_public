@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-16T18:07:34Z",
-  "since": "2026-08-17T18:06:32Z",
+  "generated": "2026-09-16T18:46:01Z",
+  "since": "2026-08-17T18:45:30Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-16T15:46:55Z",
-      "pushed_at": "2026-09-16T15:46:51Z",
+      "updated_at": "2026-09-16T18:07:41Z",
+      "pushed_at": "2026-09-16T18:07:37Z",
       "recent_commits": [
+        {
+          "sha": "37535bf",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-16T18:07:34Z)",
+          "author": "daeguru",
+          "date": "2026-09-16T18:07:34Z"
+        },
         {
           "sha": "cb686ee",
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-16T12:07:39Z)",
           "author": "daeguru",
           "date": "2026-09-16T12:07:39Z"
-        },
-        {
-          "sha": "27e8bcb",
-          "message": "dashboard: update dashboard.json and github-activity (2026-09-16 18:44 KST)",
-          "author": "daeguru",
-          "date": "2026-09-16T09:46:23Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-16T18:07:34Z)",
+      "sha": "37535bf",
+      "date": "2026-09-16T18:07:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/37535bf4a81ecdc62f17963649a02f4580d37ee8"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #217: 완성 직후가 가장 깊은 정적 구간 — 다음 결정 카드를 동봉하라 (라이카)",
@@ -669,15 +678,6 @@
       "sha": "5365fa1",
       "date": "2026-09-16T11:42:10Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5365fa109be6d3debb9f7adb33beec48d665a324"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity (2026-09-16 18:44 KST)",
-      "sha": "27e8bcb",
-      "date": "2026-09-16T09:46:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/27e8bcb14dd23a1699c34bef4fb4ae11e4585549"
     },
     {
       "type": "pr",
