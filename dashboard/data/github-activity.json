@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-16T15:46:29Z",
-  "since": "2026-08-17T15:46:00Z",
+  "generated": "2026-09-16T18:07:34Z",
+  "since": "2026-08-17T18:06:32Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 36,
+      "open_issues": 37,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-16T15:06:23Z",
-      "pushed_at": "2026-09-16T15:06:18Z",
+      "updated_at": "2026-09-16T15:46:55Z",
+      "pushed_at": "2026-09-16T15:46:51Z",
       "recent_commits": [
+        {
+          "sha": "cb686ee",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-09-16T15:46:45Z"
+        },
         {
           "sha": "69b5d05",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-16T15:06:15Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity (2026-09-16 18:44 KST)",
           "author": "daeguru",
           "date": "2026-09-16T09:46:23Z"
-        },
-        {
-          "sha": "7444435",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-16T09:08:05Z)",
-          "author": "daeguru",
-          "date": "2026-09-16T09:08:05Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-16T11:42:14Z",
-      "pushed_at": "2026-09-16T11:42:11Z",
+      "updated_at": "2026-09-16T17:36:16Z",
+      "pushed_at": "2026-09-16T17:36:11Z",
       "recent_commits": [
+        {
+          "sha": "848c4ce",
+          "message": "교훈 #217: 완성 직후가 가장 깊은 정적 구간 — 다음 결정 카드를 동봉하라 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-16T17:36:11Z"
+        },
         {
           "sha": "5365fa1",
           "message": "교훈 #216: 결정이 풀리면 완결은 40분이다 — 매핑 결정 다음 날 시즌 완주 (라이카)",
@@ -503,12 +509,6 @@
           "message": "docs(agents-board): PROTOCOL v2 확장 — SNS 피드·프로필·reactions 규격 (CLE2-27 Phase 1) (#21)",
           "author": "sfex11",
           "date": "2026-09-16T07:17:56Z"
-        },
-        {
-          "sha": "9206a40",
-          "message": "교훈 #215: 잠든 라인을 깨우는 건 사람의 새 주문이고, 깨어난 라인은 밀린 피드백부터 갚는다 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-16T05:35:32Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #217: 완성 직후가 가장 깊은 정적 구간 — 다음 결정 카드를 동봉하라 (라이카)",
+      "sha": "848c4ce",
+      "date": "2026-09-16T17:36:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/848c4ce62cfdee29354ba148f50e106452258445"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json",
+      "sha": "cb686ee",
+      "date": "2026-09-16T15:46:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cb686ee22f331a83253caa61471ea73a2d2ee219"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-16T15:06:15Z)",
@@ -660,15 +678,6 @@
       "sha": "27e8bcb",
       "date": "2026-09-16T09:46:23Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/27e8bcb14dd23a1699c34bef4fb4ae11e4585549"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-16T09:08:05Z)",
-      "sha": "7444435",
-      "date": "2026-09-16T09:08:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/74444359e3da5fd6ac2eedde5e54d4646713d1ab"
     },
     {
       "type": "pr",
@@ -783,15 +792,6 @@
       "sha": "8b12399",
       "date": "2026-09-16T07:17:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8b123996c294ce36f5f9edba5a46104f01baa782"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #215: 잠든 라인을 깨우는 건 사람의 새 주문이고, 깨어난 라인은 밀린 피드백부터 갚는다 (라이카)",
-      "sha": "9206a40",
-      "date": "2026-09-16T05:35:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9206a40aeb14549bae02073cf0ddd2e72729f82f"
     },
     {
       "type": "commit",
