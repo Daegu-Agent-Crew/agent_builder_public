@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-16T06:06:48Z",
-  "since": "2026-08-17T06:06:00Z",
+  "generated": "2026-09-16T06:46:39Z",
+  "since": "2026-08-17T06:46:09Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-16T03:47:44Z",
-      "pushed_at": "2026-09-16T03:47:40Z",
+      "updated_at": "2026-09-16T06:06:55Z",
+      "pushed_at": "2026-09-16T06:06:51Z",
       "recent_commits": [
+        {
+          "sha": "567257e",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-16T06:06:48Z)",
+          "author": "daeguru",
+          "date": "2026-09-16T06:06:48Z"
+        },
         {
           "sha": "ea15cfe",
           "message": "chore(dashboard): refresh dashboard.json and github activity (2026-09-16T12:46+09:00)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-16T00:06:46Z)",
           "author": "daeguru",
           "date": "2026-09-16T00:06:47Z"
-        },
-        {
-          "sha": "24e9a5d",
-          "message": "diagram: dac-214 뉴스룸 하루 3교대 시계 (수집→정리→브리핑, 자동)",
-          "author": "Laika",
-          "date": "2026-09-15T23:30:19Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-16T06:06:48Z)",
+      "sha": "567257e",
+      "date": "2026-09-16T06:06:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/567257e1032d5d402a8a76c0fd9b55057d8b9e00"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #215: 잠든 라인을 깨우는 건 사람의 새 주문이고, 깨어난 라인은 밀린 피드백부터 갚는다 (라이카)",
@@ -727,15 +736,6 @@
       "sha": "914b834",
       "date": "2026-09-15T23:33:19Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/914b834728b8cc55e39bff485059c6302ad7c988"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "diagram: dac-214 뉴스룸 하루 3교대 시계 (수집→정리→브리핑, 자동)",
-      "sha": "24e9a5d",
-      "date": "2026-09-15T23:30:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/24e9a5d91ad05ff0f2a9f11be448f88ab323ec31"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
