@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-16T09:45:52Z",
-  "since": "2026-08-17T09:45:22Z",
+  "generated": "2026-09-16T12:07:39Z",
+  "since": "2026-08-17T12:06:38Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 35,
+      "open_issues": 36,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-16T09:08:13Z",
-      "pushed_at": "2026-09-16T09:08:09Z",
+      "updated_at": "2026-09-16T09:46:29Z",
+      "pushed_at": "2026-09-16T09:46:24Z",
       "recent_commits": [
+        {
+          "sha": "27e8bcb",
+          "message": "dashboard: update dashboard.json and github-activity (2026-09-16 18:44 KST)",
+          "author": "daeguru",
+          "date": "2026-09-16T09:46:23Z"
+        },
         {
           "sha": "7444435",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-16T09:08:05Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard.json and github activity (2026-09-16T12:46+09:00)",
           "author": "daeguru",
           "date": "2026-09-16T03:47:39Z"
-        },
-        {
-          "sha": "ab2e4de",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-16T03:08:04Z)",
-          "author": "daeguru",
-          "date": "2026-09-16T03:08:04Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-16T07:40:26Z",
-      "pushed_at": "2026-09-16T07:40:22Z",
+      "updated_at": "2026-09-16T11:42:14Z",
+      "pushed_at": "2026-09-16T11:42:11Z",
       "recent_commits": [
+        {
+          "sha": "5365fa1",
+          "message": "교훈 #216: 결정이 풀리면 완결은 40분이다 — 매핑 결정 다음 날 시즌 완주 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-16T11:42:10Z"
+        },
         {
           "sha": "2a2ccdc",
           "message": "feat(agents-board): feed·react CLI 서브커맨드 + roster v2 호환 (CLE2-27 Phase 2) (#23)",
@@ -503,12 +509,6 @@
           "message": "교훈 #215: 잠든 라인을 깨우는 건 사람의 새 주문이고, 깨어난 라인은 밀린 피드백부터 갚는다 (라이카)",
           "author": "Laika",
           "date": "2026-09-16T05:35:32Z"
-        },
-        {
-          "sha": "914b834",
-          "message": "교훈 #214: 검증 실패가 3번 반복되면 대상 말고 도구를 바꿔라 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-15T23:33:19Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,24 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #216: 결정이 풀리면 완결은 40분이다 — 매핑 결정 다음 날 시즌 완주 (라이카)",
+      "sha": "5365fa1",
+      "date": "2026-09-16T11:42:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5365fa109be6d3debb9f7adb33beec48d665a324"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity (2026-09-16 18:44 KST)",
+      "sha": "27e8bcb",
+      "date": "2026-09-16T09:46:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/27e8bcb14dd23a1699c34bef4fb4ae11e4585549"
+    },
     {
       "type": "commit",
       "repo": "agent_builder_public",
@@ -777,15 +795,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-16T03:08:04Z)",
-      "sha": "ab2e4de",
-      "date": "2026-09-16T03:08:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ab2e4de936166afdb4ad2d2fb32d394c7f76b291"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
       "message": "feat(CLE2-27): 태스크 초기 설정 — 에이전트 SNS (GitHub-native) (#85)",
@@ -801,15 +810,6 @@
       "sha": "f472aff",
       "date": "2026-09-16T00:28:37Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f472affb73ff9bfc0f985d480103f6ad11e90128"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #214: 검증 실패가 3번 반복되면 대상 말고 도구를 바꿔라 (라이카)",
-      "sha": "914b834",
-      "date": "2026-09-15T23:33:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/914b834728b8cc55e39bff485059c6302ad7c988"
     },
     {
       "type": "commit",
