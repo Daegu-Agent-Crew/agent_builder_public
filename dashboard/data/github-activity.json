@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-15T21:06:29Z",
-  "since": "2026-08-16T21:05:04Z",
+  "generated": "2026-09-16T00:06:46Z",
+  "since": "2026-08-17T00:05:43Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 33,
+      "open_issues": 34,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-15T18:47:57Z",
-      "pushed_at": "2026-09-15T18:47:52Z",
+      "updated_at": "2026-09-15T23:30:23Z",
+      "pushed_at": "2026-09-15T23:30:19Z",
       "recent_commits": [
+        {
+          "sha": "24e9a5d",
+          "message": "diagram: dac-214 뉴스룸 하루 3교대 시계 (수집→정리→브리핑, 자동)",
+          "author": "Laika",
+          "date": "2026-09-15T23:30:19Z"
+        },
+        {
+          "sha": "de5f4fc",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-15T21:06:29Z)",
+          "author": "daeguru",
+          "date": "2026-09-15T21:06:29Z"
+        },
         {
           "sha": "c107e82",
           "message": "chore: update dashboard data (dashboard.json, github-activity)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-15T15:08:02Z)",
           "author": "daeguru",
           "date": "2026-09-15T15:08:03Z"
-        },
-        {
-          "sha": "118aea9",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-15T12:46:47Z"
-        },
-        {
-          "sha": "5d74083",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-15T12:09:22Z)",
-          "author": "daeguru",
-          "date": "2026-09-15T12:09:23Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-15T12:46:10Z",
-      "pushed_at": "2026-09-15T12:46:06Z",
+      "updated_at": "2026-09-15T23:15:57Z",
+      "pushed_at": "2026-09-15T23:15:53Z",
       "recent_commits": [
+        {
+          "sha": "58e1a95",
+          "message": "📰 2026-09-16: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-09-15T23:15:49Z"
+        },
         {
           "sha": "e05e0b4",
           "message": "📋 2026-09-15: 데일리 브리핑 아카이브",
@@ -152,12 +158,6 @@
           "message": "📋 2026-09-14: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-09-14T12:51:17Z"
-        },
-        {
-          "sha": "136ea3d",
-          "message": "📚 2026-09-14: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-09-14T05:17:56Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-15T17:30:31Z",
-      "pushed_at": "2026-09-15T17:30:27Z",
+      "updated_at": "2026-09-15T23:33:22Z",
+      "pushed_at": "2026-09-15T23:33:19Z",
       "recent_commits": [
+        {
+          "sha": "914b834",
+          "message": "교훈 #214: 검증 실패가 3번 반복되면 대상 말고 도구를 바꿔라 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-15T23:33:19Z"
+        },
         {
           "sha": "6da9ffb",
           "message": "교훈 #213: 중단·보류 결정에도 만료 시각을 달아라",
@@ -503,12 +509,6 @@
           "message": "📚 교훈 #209: 자동화 성공 판정은 2연속부터 — 첫 성공은 사건, 둘째 성공이 규칙 (라이카)",
           "author": "Laika",
           "date": "2026-09-14T17:26:53Z"
-        },
-        {
-          "sha": "50d57a1",
-          "message": "📚 교훈 #208: 지시에는 시계를 적어라 — TTL 규칙 첫 자동 발동(41h) vs 시계 없는 카드 48h 무이행 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-14T11:29:29Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #214: 검증 실패가 3번 반복되면 대상 말고 도구를 바꿔라 (라이카)",
+      "sha": "914b834",
+      "date": "2026-09-15T23:33:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/914b834728b8cc55e39bff485059c6302ad7c988"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "diagram: dac-214 뉴스룸 하루 3교대 시계 (수집→정리→브리핑, 자동)",
+      "sha": "24e9a5d",
+      "date": "2026-09-15T23:30:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/24e9a5d91ad05ff0f2a9f11be448f88ab323ec31"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-16: 뉴스 수집 (5건)",
+      "sha": "58e1a95",
+      "date": "2026-09-15T23:15:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/58e1a9593d1a6aeb20b2df84783d877ef44b4b2e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-15T21:06:29Z)",
+      "sha": "de5f4fc",
+      "date": "2026-09-15T21:06:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/de5f4fc9667fecd3e6422523a95d6983897c6f33"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update dashboard data (dashboard.json, github-activity)",
@@ -645,30 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json",
-      "sha": "118aea9",
-      "date": "2026-09-15T12:46:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/118aea92e08b5829ff9a5a3e1602913c07a3d137"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-09-15: 데일리 브리핑 아카이브",
       "sha": "e05e0b4",
       "date": "2026-09-15T12:46:07Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e05e0b44cb6cad7eaaa848d7fa4cb18b5ee11cf4"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-15T12:09:22Z)",
-      "sha": "5d74083",
-      "date": "2026-09-15T12:09:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5d7408320922e4bab436410d75241c6a51a54288"
     },
     {
       "type": "commit",
@@ -723,24 +741,6 @@
       "sha": "ece728a",
       "date": "2026-09-14T12:51:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ece728af08c2e7ca00496fdfc967baf3e9e2bf3f"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "📚 교훈 #208: 지시에는 시계를 적어라 — TTL 규칙 첫 자동 발동(41h) vs 시계 없는 카드 48h 무이행 (라이카)",
-      "sha": "50d57a1",
-      "date": "2026-09-14T11:29:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/50d57a121affa9974d166146022a10375ab171a1"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-14: 위키 갱신 (2개)",
-      "sha": "136ea3d",
-      "date": "2026-09-14T05:17:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/136ea3df59bb353a63066d6750b618052562a446"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
