@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-16T00:45:56Z",
-  "since": "2026-08-17T00:45:26Z",
+  "generated": "2026-09-16T03:08:04Z",
+  "since": "2026-08-17T03:07:15Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-16T00:06:54Z",
-      "pushed_at": "2026-09-16T00:06:49Z",
+      "updated_at": "2026-09-16T00:46:31Z",
+      "pushed_at": "2026-09-16T00:46:27Z",
       "recent_commits": [
+        {
+          "sha": "cd71d26",
+          "message": "chore(dashboard): refresh dashboard.json and github activity (2026-09-16T00:46+09:00)",
+          "author": "daeguru",
+          "date": "2026-09-16T00:46:27Z"
+        },
         {
           "sha": "b6c3126",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-16T00:06:46Z)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data (dashboard.json, github-activity)",
           "author": "daeguru",
           "date": "2026-09-15T18:47:49Z"
-        },
-        {
-          "sha": "9a89d2b",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-15T18:06:43Z)",
-          "author": "daeguru",
-          "date": "2026-09-15T18:06:43Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-16T00:28:42Z",
-      "pushed_at": "2026-09-16T00:28:39Z",
+      "updated_at": "2026-09-16T01:31:54Z",
+      "pushed_at": "2026-09-16T01:31:51Z",
       "recent_commits": [
+        {
+          "sha": "9d77a37",
+          "message": "feat(CLE2-27): 태스크 초기 설정 — 에이전트 SNS (GitHub-native) (#85)",
+          "author": "sfex11",
+          "date": "2026-09-16T01:31:49Z"
+        },
         {
           "sha": "f472aff",
           "message": "docs(OPERATING): ttl_expires_at 필드 필수화 + 크론 승인 큐 스캐너 명시 (#83)",
@@ -233,15 +239,17 @@
           "message": "docs(OPERATING): 대구루2 등록 — CLE2 세션, agent:daeguru2 표기 + 협업 채널 규칙 (#78)",
           "author": "sfex11",
           "date": "2026-09-12T07:10:53Z"
-        },
-        {
-          "sha": "60292fc",
-          "message": "docs: 운영 규칙 제정 — attribution/TTL 승인 프로토콜/CLE2 중심 사이클 (#76)",
-          "author": "sfex11",
-          "date": "2026-09-12T06:59:15Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 85,
+          "title": "feat(CLE2-27): 에이전트 SNS (GitHub-native) 태스크 초기 설정",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-09-16T01:31:52Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/85"
+        },
         {
           "number": 83,
           "title": "docs(OPERATING): TTL 자동 판정 — ttl_expires_at 필드 필수화",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-09-12T07:31:48Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/81"
-        },
-        {
-          "number": 80,
-          "title": "docs: ROADMAP.md 작성 — org 리포 21개 활성/보류/완결 분류 (CLE2-26)",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-12T07:21:23Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/80"
         }
       ]
     },
@@ -611,6 +611,34 @@
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
+      "message": "feat(CLE2-27): 에이전트 SNS (GitHub-native) 태스크 초기 설정",
+      "number": 85,
+      "state": "closed",
+      "date": "2026-09-16T01:31:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/85"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-27): 태스크 초기 설정 — 에이전트 SNS (GitHub-native) (#85)",
+      "sha": "9d77a37",
+      "date": "2026-09-16T01:31:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/9d77a371109853fdfeae287f0e5c83de041a2918"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json and github activity (2026-09-16T00:46+09:00)",
+      "sha": "cd71d26",
+      "date": "2026-09-16T00:46:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cd71d26fb8929fd1d425b4c9218c25da6b94312a"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
       "message": "docs(OPERATING): TTL 자동 판정 — ttl_expires_at 필드 필수화",
       "number": 83,
       "state": "closed",
@@ -679,15 +707,6 @@
       "sha": "c107e82",
       "date": "2026-09-15T18:47:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c107e82fb6ca0ed77bcf671b944aa87bc3dbfda7"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-15T18:06:43Z)",
-      "sha": "9a89d2b",
-      "date": "2026-09-15T18:06:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9a89d2b8076d7ecab452e3f3e7f2b09cb28a761c"
     },
     {
       "type": "commit",
@@ -781,16 +800,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/4a811831f81d5c5623a8e341e7c471cc65393abe"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: ROADMAP.md 작성 — org 리포 21개 활성/보류/완결 분류 (CLE2-26)",
-      "number": 80,
-      "state": "closed",
-      "date": "2026-09-12T07:21:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/80"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -807,15 +816,6 @@
       "sha": "6af2a0d",
       "date": "2026-09-12T07:10:53Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/6af2a0df16d544421fc352c252795f8b24f2a134"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: 운영 규칙 제정 — attribution/TTL 승인 프로토콜/CLE2 중심 사이클 (#76)",
-      "sha": "60292fc",
-      "date": "2026-09-12T06:59:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/60292fc1d1b00512ab99d319f094a0e6e1f0f34d"
     },
     {
       "type": "pr",
