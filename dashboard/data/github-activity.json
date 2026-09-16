@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-16T03:08:04Z",
-  "since": "2026-08-17T03:07:15Z",
+  "generated": "2026-09-16T03:47:15Z",
+  "since": "2026-08-17T03:46:43Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-16T00:46:31Z",
-      "pushed_at": "2026-09-16T00:46:27Z",
+      "updated_at": "2026-09-16T03:08:11Z",
+      "pushed_at": "2026-09-16T03:08:07Z",
       "recent_commits": [
+        {
+          "sha": "ab2e4de",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-16T03:08:04Z)",
+          "author": "daeguru",
+          "date": "2026-09-16T03:08:04Z"
+        },
         {
           "sha": "cd71d26",
           "message": "chore(dashboard): refresh dashboard.json and github activity (2026-09-16T00:46+09:00)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-15T21:06:29Z)",
           "author": "daeguru",
           "date": "2026-09-15T21:06:29Z"
-        },
-        {
-          "sha": "c107e82",
-          "message": "chore: update dashboard data (dashboard.json, github-activity)",
-          "author": "daeguru",
-          "date": "2026-09-15T18:47:49Z"
         }
       ],
       "recent_prs": [
@@ -205,10 +205,10 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 10,
-      "open_prs": 0,
+      "open_issues": 11,
+      "open_prs": 1,
       "updated_at": "2026-09-16T01:31:54Z",
-      "pushed_at": "2026-09-16T01:31:51Z",
+      "pushed_at": "2026-09-16T03:45:04Z",
       "recent_commits": [
         {
           "sha": "9d77a37",
@@ -243,6 +243,14 @@
       ],
       "recent_prs": [
         {
+          "number": 86,
+          "title": "docs(CLE2-27): Phase 1 진행 상태 갱신 — PROTOCOL v2 확장안 PR 제출",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-09-16T03:45:12Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/86"
+        },
+        {
           "number": 85,
           "title": "feat(CLE2-27): 에이전트 SNS (GitHub-native) 태스크 초기 설정",
           "author": "sfex11",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-09-16T00:28:39Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/83"
-        },
-        {
-          "number": 81,
-          "title": "docs: 재개 조건 2건 회장님 확정 반영",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-12T07:31:48Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/81"
         }
       ]
     },
@@ -475,10 +475,10 @@
       "slug": "Daegu-Agent-Crew/team-memory",
       "name": "team-memory",
       "private": true,
-      "open_issues": 4,
-      "open_prs": 3,
+      "open_issues": 5,
+      "open_prs": 4,
       "updated_at": "2026-09-15T23:33:22Z",
-      "pushed_at": "2026-09-15T23:33:19Z",
+      "pushed_at": "2026-09-16T03:44:11Z",
       "recent_commits": [
         {
           "sha": "914b834",
@@ -513,6 +513,14 @@
       ],
       "recent_prs": [
         {
+          "number": 21,
+          "title": "docs(agents-board): PROTOCOL v2 확장안 — SNS 피드·프로필·reactions 규격 (CLE2-27 Phase 1)",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-09-16T03:44:36Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/21"
+        },
+        {
           "number": 19,
           "title": "docs(agents-board): 라이카 온보딩 + next_id 버그 리포트 (AB-0006, AB-0007)",
           "author": "sfex11",
@@ -527,14 +535,6 @@
           "state": "closed",
           "updated_at": "2026-08-29T00:05:20Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/18"
-        },
-        {
-          "number": 17,
-          "title": "fix(agents-board): 정합성 하드닝 — 신원검증·시크릿스캔·락·--parent (CLE2-24)",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-08-29T00:02:46Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/17"
         }
       ]
     },
@@ -607,6 +607,35 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-27): Phase 1 진행 상태 갱신 — PROTOCOL v2 확장안 PR 제출",
+      "number": 86,
+      "state": "open",
+      "date": "2026-09-16T03:45:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/86"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "docs(agents-board): PROTOCOL v2 확장안 — SNS 피드·프로필·reactions 규격 (CLE2-27 Phase 1)",
+      "number": 21,
+      "state": "open",
+      "date": "2026-09-16T03:44:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/21"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-16T03:08:04Z)",
+      "sha": "ab2e4de",
+      "date": "2026-09-16T03:08:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ab2e4de936166afdb4ad2d2fb32d394c7f76b291"
+    },
     {
       "type": "pr",
       "repo": "creative-loop-engineering2",
@@ -701,15 +730,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (dashboard.json, github-activity)",
-      "sha": "c107e82",
-      "date": "2026-09-15T18:47:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c107e82fb6ca0ed77bcf671b944aa87bc3dbfda7"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #213: 중단·보류 결정에도 만료 시각을 달아라",
@@ -781,16 +801,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ece728af08c2e7ca00496fdfc967baf3e9e2bf3f"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: 재개 조건 2건 회장님 확정 반영",
-      "number": 81,
-      "state": "closed",
-      "date": "2026-09-12T07:31:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/81"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -856,16 +866,6 @@
       "state": "closed",
       "date": "2026-08-29T00:05:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/18"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "fix(agents-board): 정합성 하드닝 — 신원검증·시크릿스캔·락·--parent (CLE2-24)",
-      "number": 17,
-      "state": "closed",
-      "date": "2026-08-29T00:02:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/17"
     },
     {
       "type": "pr",
