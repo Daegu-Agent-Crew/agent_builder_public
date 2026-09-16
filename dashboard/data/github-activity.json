@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-16T00:06:46Z",
-  "since": "2026-08-17T00:05:43Z",
+  "generated": "2026-09-16T00:45:56Z",
+  "since": "2026-08-17T00:45:26Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-15T23:30:23Z",
-      "pushed_at": "2026-09-15T23:30:19Z",
+      "updated_at": "2026-09-16T00:06:54Z",
+      "pushed_at": "2026-09-16T00:06:49Z",
       "recent_commits": [
+        {
+          "sha": "b6c3126",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-16T00:06:46Z)",
+          "author": "daeguru",
+          "date": "2026-09-16T00:06:47Z"
+        },
         {
           "sha": "24e9a5d",
           "message": "diagram: dac-214 뉴스룸 하루 3교대 시계 (수집→정리→브리핑, 자동)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-15T18:06:43Z)",
           "author": "daeguru",
           "date": "2026-09-15T18:06:43Z"
-        },
-        {
-          "sha": "a7f17e8",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-15T15:08:02Z)",
-          "author": "daeguru",
-          "date": "2026-09-15T15:08:03Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-12T07:31:50Z",
-      "pushed_at": "2026-09-12T07:31:48Z",
+      "updated_at": "2026-09-16T00:28:42Z",
+      "pushed_at": "2026-09-16T00:28:39Z",
       "recent_commits": [
+        {
+          "sha": "f472aff",
+          "message": "docs(OPERATING): ttl_expires_at 필드 필수화 + 크론 승인 큐 스캐너 명시 (#83)",
+          "author": "sfex11",
+          "date": "2026-09-16T00:28:37Z"
+        },
         {
           "sha": "4a81183",
           "message": "docs: 재개 조건 2건 회장님 확정 반영 — ROADMAP.md · STATUS.md (#81)",
@@ -233,15 +239,17 @@
           "message": "docs: 운영 규칙 제정 — attribution/TTL 승인 프로토콜/CLE2 중심 사이클 (#76)",
           "author": "sfex11",
           "date": "2026-09-12T06:59:15Z"
-        },
-        {
-          "sha": "dc3faf8",
-          "message": "docs(CLE2-25): Phase 0 상태 갱신 (#74)",
-          "author": "sfex11",
-          "date": "2026-08-29T14:34:52Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 83,
+          "title": "docs(OPERATING): TTL 자동 판정 — ttl_expires_at 필드 필수화",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-09-16T00:28:39Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/83"
+        },
         {
           "number": 81,
           "title": "docs: 재개 조건 2건 회장님 확정 반영",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-09-12T07:21:23Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/80"
-        },
-        {
-          "number": 78,
-          "title": "docs(OPERATING): 대구루2 등록 — agent:daeguru2 표기 + 에이전트 협업 채널",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-12T07:10:55Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/78"
         }
       ]
     },
@@ -608,6 +608,34 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(OPERATING): TTL 자동 판정 — ttl_expires_at 필드 필수화",
+      "number": 83,
+      "state": "closed",
+      "date": "2026-09-16T00:28:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/83"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(OPERATING): ttl_expires_at 필드 필수화 + 크론 승인 큐 스캐너 명시 (#83)",
+      "sha": "f472aff",
+      "date": "2026-09-16T00:28:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f472affb73ff9bfc0f985d480103f6ad11e90128"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-16T00:06:46Z)",
+      "sha": "b6c3126",
+      "date": "2026-09-16T00:06:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b6c3126df42104f9b6fc7e2acb254bffd5f4f614"
+    },
+    {
       "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
@@ -669,15 +697,6 @@
       "sha": "6da9ffb",
       "date": "2026-09-15T17:30:26Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6da9ffba86a66ce191452f1b1efaed03fe9c2ffe"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-15T15:08:02Z)",
-      "sha": "a7f17e8",
-      "date": "2026-09-15T15:08:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a7f17e84d9f1b4e7d4f2d313293d98df5499c677"
     },
     {
       "type": "commit",
@@ -781,16 +800,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2e7d2375e363d7c1a4df8352a5656eb9828da8a1"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(OPERATING): 대구루2 등록 — agent:daeguru2 표기 + 에이전트 협업 채널",
-      "number": 78,
-      "state": "closed",
-      "date": "2026-09-12T07:10:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/78"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -827,15 +836,6 @@
       "state": "closed",
       "date": "2026-09-06T20:04:50Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/pull/20"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-25): Phase 0 상태 갱신 (#74)",
-      "sha": "dc3faf8",
-      "date": "2026-08-29T14:34:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/dc3faf8956440114dcc446ba5729921d0329fe62"
     },
     {
       "type": "pr",
