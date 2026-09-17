@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T06:45:49Z",
-  "since": "2026-08-18T06:45:20Z",
+  "generated": "2026-09-17T09:08:38Z",
+  "since": "2026-08-18T09:07:35Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-17T06:06:20Z",
-      "pushed_at": "2026-09-17T06:06:16Z",
+      "updated_at": "2026-09-17T06:46:25Z",
+      "pushed_at": "2026-09-17T06:46:20Z",
       "recent_commits": [
+        {
+          "sha": "0c224da",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-09-17 15:44 KST)",
+          "author": "daeguru",
+          "date": "2026-09-17T06:46:18Z"
+        },
         {
           "sha": "c554113",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-17T06:06:13Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-17T00:08:09Z)",
           "author": "daeguru",
           "date": "2026-09-17T00:08:09Z"
-        },
-        {
-          "sha": "37187b6",
-          "message": "dac-218-diagram: 완결 후 두 갈래길 지도 — 회장님 A 선택 실증 회차",
-          "author": "Laika",
-          "date": "2026-09-16T23:41:48Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-09-17 15:44 KST)",
+      "sha": "0c224da",
+      "date": "2026-09-17T06:46:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0c224da98f237f035aa9a580c0d173298454a60f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-17T06:06:13Z)",
       "sha": "c554113",
       "date": "2026-09-17T06:06:13Z",
@@ -678,15 +687,6 @@
       "sha": "8648687",
       "date": "2026-09-16T23:41:51Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/86486874948e6bfb1e2e35ed9b1f925a2e901e04"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "dac-218-diagram: 완결 후 두 갈래길 지도 — 회장님 A 선택 실증 회차",
-      "sha": "37187b6",
-      "date": "2026-09-16T23:41:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/37187b660256bfe6fd2628e866f2c45e910da2c5"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
