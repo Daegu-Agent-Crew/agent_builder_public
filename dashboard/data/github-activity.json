@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-17T15:47:01Z",
-  "since": "2026-08-18T15:46:31Z",
+  "generated": "2026-09-17T18:07:25Z",
+  "since": "2026-08-18T18:06:37Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 40,
+      "open_issues": 41,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-17T15:08:17Z",
-      "pushed_at": "2026-09-17T15:08:13Z",
+      "updated_at": "2026-09-17T15:47:23Z",
+      "pushed_at": "2026-09-17T15:47:18Z",
       "recent_commits": [
+        {
+          "sha": "10e7be4",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-09-17T15:47:18Z"
+        },
         {
           "sha": "37cf18a",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-17T15:08:10Z)",
@@ -85,12 +91,6 @@
           "message": "DAC 221 다이어그램 업로드 — 기상 스캐너(§9.4: 멘션→확인→스캔→깨우기→기록)",
           "author": "Laika",
           "date": "2026-09-17T12:06:18Z"
-        },
-        {
-          "sha": "332316f",
-          "message": "DAC 220 다이어그램 업로드 — 전수 vs 하이브리드 (238컷 품질 조사 두 방법)",
-          "author": "Laika",
-          "date": "2026-09-17T11:48:58Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-17T11:51:32Z",
-      "pushed_at": "2026-09-17T11:51:28Z",
+      "updated_at": "2026-09-17T17:45:10Z",
+      "pushed_at": "2026-09-17T17:45:06Z",
       "recent_commits": [
+        {
+          "sha": "4c51497",
+          "message": "교훈 #221: 파일명은 깨져도 프론트매터가 살면 시스템은 산다 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-17T17:45:05Z"
+        },
         {
           "sha": "da97ced",
           "message": "교훈 #220: 기상도 규격이다 — ACK·재기상 한도·실패 책임자의 프로토콜화 (§9.4/PR#24)",
@@ -503,12 +509,6 @@
           "message": "AB-0007: AB-0006 조사 방법 전수→하이브리드 변경 승인 보고 (회장님 승인 09:04)",
           "author": "daeguru",
           "date": "2026-09-17T00:05:48Z"
-        },
-        {
-          "sha": "8648687",
-          "message": "교훈 #218: 두 번째 창작물의 주문은 품질 조사부터 — 238컷 전수 조사 위임 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-16T23:41:51Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #221: 파일명은 깨져도 프론트매터가 살면 시스템은 산다 (라이카)",
+      "sha": "4c51497",
+      "date": "2026-09-17T17:45:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4c5149723b1e0c417b1e0c86509428dd1c1a04ed"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json",
+      "sha": "10e7be4",
+      "date": "2026-09-17T15:47:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/10e7be472f91d2bf94258b4b2b260290499f6760"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-17T15:08:10Z)",
@@ -662,15 +680,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/da97ceda2afc298862dacdc7f91abd32e71b29db"
     },
     {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "DAC 220 다이어그램 업로드 — 전수 vs 하이브리드 (238컷 품질 조사 두 방법)",
-      "sha": "332316f",
-      "date": "2026-09-17T11:48:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/332316f29a011b50159eae2993e8839c5b3eb5df"
-    },
-    {
       "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
@@ -715,15 +724,6 @@
       "sha": "f0d02cb",
       "date": "2026-09-17T00:05:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f0d02cbbaf9d89fc6432d8992ec8c899daf12412"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #218: 두 번째 창작물의 주문은 품질 조사부터 — 238컷 전수 조사 위임 (라이카)",
-      "sha": "8648687",
-      "date": "2026-09-16T23:41:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/86486874948e6bfb1e2e35ed9b1f925a2e901e04"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
