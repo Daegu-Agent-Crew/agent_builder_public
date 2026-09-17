@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-16T21:06:27Z",
-  "since": "2026-08-17T21:05:39Z",
+  "generated": "2026-09-17T00:08:09Z",
+  "since": "2026-08-18T00:07:24Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 37,
+      "open_issues": 38,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-16T18:46:35Z",
-      "pushed_at": "2026-09-16T18:46:31Z",
+      "updated_at": "2026-09-16T23:41:52Z",
+      "pushed_at": "2026-09-16T23:41:49Z",
       "recent_commits": [
+        {
+          "sha": "37187b6",
+          "message": "dac-218-diagram: 완결 후 두 갈래길 지도 — 회장님 A 선택 실증 회차",
+          "author": "Laika",
+          "date": "2026-09-16T23:41:48Z"
+        },
+        {
+          "sha": "0d26eb0",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-16T21:06:27Z)",
+          "author": "daeguru",
+          "date": "2026-09-16T21:06:27Z"
+        },
         {
           "sha": "818b2b2",
           "message": "chore(dashboard): refresh dashboard + github activity (2026-09-16T18:47Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-09-16T15:46:45Z"
-        },
-        {
-          "sha": "69b5d05",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-16T15:06:15Z)",
-          "author": "daeguru",
-          "date": "2026-09-16T15:06:15Z"
-        },
-        {
-          "sha": "a8d65bf",
-          "message": "dashboard: update dashboard.json and github-activity.json (2026-09-16 21:44 KST)",
-          "author": "daeguru",
-          "date": "2026-09-16T12:46:41Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-16T12:43:57Z",
-      "pushed_at": "2026-09-16T12:43:52Z",
+      "updated_at": "2026-09-16T23:13:14Z",
+      "pushed_at": "2026-09-16T23:13:11Z",
       "recent_commits": [
+        {
+          "sha": "5ee3140",
+          "message": "📰 2026-09-17: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-09-16T23:13:10Z"
+        },
         {
           "sha": "a465b5c",
           "message": "📋 2026-09-16: 데일리 브리핑 아카이브",
@@ -152,12 +158,6 @@
           "message": "📋 2026-09-15: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-09-15T12:46:07Z"
-        },
-        {
-          "sha": "b102e7b",
-          "message": "📚 2026-09-15: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-09-15T05:11:34Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,27 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-16T17:36:16Z",
-      "pushed_at": "2026-09-16T17:36:11Z",
+      "updated_at": "2026-09-17T00:06:01Z",
+      "pushed_at": "2026-09-17T00:05:58Z",
       "recent_commits": [
+        {
+          "sha": "f0d02cb",
+          "message": "AB-0007: AB-0006 조사 방법 전수→하이브리드 변경 승인 보고 (회장님 승인 09:04)",
+          "author": "daeguru",
+          "date": "2026-09-17T00:05:48Z"
+        },
+        {
+          "sha": "8648687",
+          "message": "교훈 #218: 두 번째 창작물의 주문은 품질 조사부터 — 238컷 전수 조사 위임 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-16T23:41:51Z"
+        },
+        {
+          "sha": "012d726",
+          "message": "chore(agents-board): AB-0006 새 시즌 품질개선 3축 과제 게시 및 대구루 배정 (회장님 지시)",
+          "author": "Laika",
+          "date": "2026-09-16T22:50:34Z"
+        },
         {
           "sha": "848c4ce",
           "message": "교훈 #217: 완성 직후가 가장 깊은 정적 구간 — 다음 결정 카드를 동봉하라 (라이카)",
@@ -491,24 +509,6 @@
           "message": "교훈 #216: 결정이 풀리면 완결은 40분이다 — 매핑 결정 다음 날 시즌 완주 (라이카)",
           "author": "Laika",
           "date": "2026-09-16T11:42:10Z"
-        },
-        {
-          "sha": "2a2ccdc",
-          "message": "feat(agents-board): feed·react CLI 서브커맨드 + roster v2 호환 (CLE2-27 Phase 2) (#23)",
-          "author": "sfex11",
-          "date": "2026-09-16T07:40:22Z"
-        },
-        {
-          "sha": "467c867",
-          "message": "feat(agents-board): roster v2 마이그레이션 + 전 에이전트 등록 + feed 개설 (CLE2-27 Phase 2) (#22)",
-          "author": "sfex11",
-          "date": "2026-09-16T07:33:06Z"
-        },
-        {
-          "sha": "8b12399",
-          "message": "docs(agents-board): PROTOCOL v2 확장 — SNS 피드·프로필·reactions 규격 (CLE2-27 Phase 1) (#21)",
-          "author": "sfex11",
-          "date": "2026-09-16T07:17:56Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,60 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "AB-0007: AB-0006 조사 방법 전수→하이브리드 변경 승인 보고 (회장님 승인 09:04)",
+      "sha": "f0d02cb",
+      "date": "2026-09-17T00:05:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f0d02cbbaf9d89fc6432d8992ec8c899daf12412"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #218: 두 번째 창작물의 주문은 품질 조사부터 — 238컷 전수 조사 위임 (라이카)",
+      "sha": "8648687",
+      "date": "2026-09-16T23:41:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/86486874948e6bfb1e2e35ed9b1f925a2e901e04"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "dac-218-diagram: 완결 후 두 갈래길 지도 — 회장님 A 선택 실증 회차",
+      "sha": "37187b6",
+      "date": "2026-09-16T23:41:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/37187b660256bfe6fd2628e866f2c45e910da2c5"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-17: 뉴스 수집 (5건)",
+      "sha": "5ee3140",
+      "date": "2026-09-16T23:13:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5ee3140db3c2a156b4c564687b1a1a69dcb99d4b"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "chore(agents-board): AB-0006 새 시즌 품질개선 3축 과제 게시 및 대구루 배정 (회장님 지시)",
+      "sha": "012d726",
+      "date": "2026-09-16T22:50:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/012d726b56a601bdc31f2b487c519448efc35fa1"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-16T21:06:27Z)",
+      "sha": "0d26eb0",
+      "date": "2026-09-16T21:06:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0d26eb0998c78fd6ee59cd10ea5ee22fa1518659"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): refresh dashboard + github activity (2026-09-16T18:47Z)",
@@ -642,24 +696,6 @@
       "sha": "cb686ee",
       "date": "2026-09-16T15:46:45Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cb686ee22f331a83253caa61471ea73a2d2ee219"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-16T15:06:15Z)",
-      "sha": "69b5d05",
-      "date": "2026-09-16T15:06:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/69b5d059b2ae379822c7542f9d2444a52ec13e4a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (2026-09-16 21:44 KST)",
-      "sha": "a8d65bf",
-      "date": "2026-09-16T12:46:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a8d65bfb56013194701417ebee301c2a199a0e33"
     },
     {
       "type": "commit",
@@ -709,15 +745,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/23"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "feat(agents-board): feed·react CLI 서브커맨드 + roster v2 호환 (CLE2-27 Phase 2) (#23)",
-      "sha": "2a2ccdc",
-      "date": "2026-09-16T07:40:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2a2ccdca7998dcd522860bf8549e802ac4ef6dc6"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -747,15 +774,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/22"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "feat(agents-board): roster v2 마이그레이션 + 전 에이전트 등록 + feed 개설 (CLE2-27 Phase 2) (#22)",
-      "sha": "467c867",
-      "date": "2026-09-16T07:33:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/467c867303804190b74d77746efea920006a5b71"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -783,15 +801,6 @@
       "state": "closed",
       "date": "2026-09-16T07:17:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/21"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs(agents-board): PROTOCOL v2 확장 — SNS 피드·프로필·reactions 규격 (CLE2-27 Phase 1) (#21)",
-      "sha": "8b12399",
-      "date": "2026-09-16T07:17:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8b123996c294ce36f5f9edba5a46104f01baa782"
     },
     {
       "type": "commit",
@@ -837,15 +846,6 @@
       "sha": "e05e0b4",
       "date": "2026-09-15T12:46:07Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e05e0b44cb6cad7eaaa848d7fa4cb18b5ee11cf4"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-15: 위키 갱신 (2개)",
-      "sha": "b102e7b",
-      "date": "2026-09-15T05:11:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b102e7b4bc6ef00cf4fd5790bed4fb86650fda6e"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 16,
       "prs": 18,
       "issues": 0,
       "reviews": 0
