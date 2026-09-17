@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T06:06:13Z",
-  "since": "2026-08-18T06:05:30Z",
+  "generated": "2026-09-17T06:45:49Z",
+  "since": "2026-08-18T06:45:20Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-17T03:07:01Z",
-      "pushed_at": "2026-09-17T03:06:58Z",
+      "updated_at": "2026-09-17T06:06:20Z",
+      "pushed_at": "2026-09-17T06:06:16Z",
       "recent_commits": [
+        {
+          "sha": "c554113",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-17T06:06:13Z)",
+          "author": "daeguru",
+          "date": "2026-09-17T06:06:13Z"
+        },
         {
           "sha": "f707174",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-17T03:06:55Z)",
@@ -85,12 +91,6 @@
           "message": "dac-218-diagram: 완결 후 두 갈래길 지도 — 회장님 A 선택 실증 회차",
           "author": "Laika",
           "date": "2026-09-16T23:41:48Z"
-        },
-        {
-          "sha": "0d26eb0",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-16T21:06:27Z)",
-          "author": "daeguru",
-          "date": "2026-09-16T21:06:27Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-17T06:06:13Z)",
+      "sha": "c554113",
+      "date": "2026-09-17T06:06:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c554113384fada6ef7d20619c501274dc6658021"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #219: 위임받은 에이전트는 수단도 다시 제안한다 — 목적 재계산이 성숙 신호 (라이카)",
@@ -696,15 +705,6 @@
       "sha": "012d726",
       "date": "2026-09-16T22:50:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/012d726b56a601bdc31f2b487c519448efc35fa1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-16T21:06:27Z)",
-      "sha": "0d26eb0",
-      "date": "2026-09-16T21:06:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0d26eb0998c78fd6ee59cd10ea5ee22fa1518659"
     },
     {
       "type": "commit",
