@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T18:07:25Z",
-  "since": "2026-08-18T18:06:37Z",
+  "generated": "2026-09-17T18:46:38Z",
+  "since": "2026-08-18T18:46:08Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-17T15:47:23Z",
-      "pushed_at": "2026-09-17T15:47:18Z",
+      "updated_at": "2026-09-17T18:07:33Z",
+      "pushed_at": "2026-09-17T18:07:29Z",
       "recent_commits": [
+        {
+          "sha": "7e97bff",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-17T18:07:25Z)",
+          "author": "daeguru",
+          "date": "2026-09-17T18:07:25Z"
+        },
         {
           "sha": "10e7be4",
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-17T12:09:33Z)",
           "author": "daeguru",
           "date": "2026-09-17T12:09:33Z"
-        },
-        {
-          "sha": "e5937eb",
-          "message": "DAC 221 다이어그램 업로드 — 기상 스캐너(§9.4: 멘션→확인→스캔→깨우기→기록)",
-          "author": "Laika",
-          "date": "2026-09-17T12:06:18Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-17T18:07:25Z)",
+      "sha": "7e97bff",
+      "date": "2026-09-17T18:07:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7e97bff1f57495cbc365c3f95d42b6389064f57b"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #221: 파일명은 깨져도 프론트매터가 살면 시스템은 산다 (라이카)",
@@ -660,15 +669,6 @@
       "sha": "28f7ebf",
       "date": "2026-09-17T12:09:33Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/28f7ebf23e6e66d3a7fdae556d8d92b16325beac"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "DAC 221 다이어그램 업로드 — 기상 스캐너(§9.4: 멘션→확인→스캔→깨우기→기록)",
-      "sha": "e5937eb",
-      "date": "2026-09-17T12:06:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e5937eb2b9dcd1cb2618fac032f9a928cba2dd6a"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
