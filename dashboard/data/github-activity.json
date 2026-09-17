@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T00:08:09Z",
-  "since": "2026-08-18T00:07:24Z",
+  "generated": "2026-09-17T00:45:22Z",
+  "since": "2026-08-18T00:44:49Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-16T23:41:52Z",
-      "pushed_at": "2026-09-16T23:41:49Z",
+      "updated_at": "2026-09-17T00:08:16Z",
+      "pushed_at": "2026-09-17T00:08:12Z",
       "recent_commits": [
+        {
+          "sha": "12c8ad0",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-17T00:08:09Z)",
+          "author": "daeguru",
+          "date": "2026-09-17T00:08:09Z"
+        },
         {
           "sha": "37187b6",
           "message": "dac-218-diagram: 완결 후 두 갈래길 지도 — 회장님 A 선택 실증 회차",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-16T18:07:34Z)",
           "author": "daeguru",
           "date": "2026-09-16T18:07:34Z"
-        },
-        {
-          "sha": "cb686ee",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-16T15:46:45Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-17T00:08:09Z)",
+      "sha": "12c8ad0",
+      "date": "2026-09-17T00:08:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/12c8ad074e1fec76dff3cddaa2fb72539d162299"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "AB-0007: AB-0006 조사 방법 전수→하이브리드 변경 승인 보고 (회장님 승인 09:04)",
@@ -687,15 +696,6 @@
       "sha": "848c4ce",
       "date": "2026-09-16T17:36:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/848c4ce62cfdee29354ba148f50e106452258445"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json",
-      "sha": "cb686ee",
-      "date": "2026-09-16T15:46:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cb686ee22f331a83253caa61471ea73a2d2ee219"
     },
     {
       "type": "commit",
