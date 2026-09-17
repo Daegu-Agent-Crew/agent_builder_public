@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-17T03:06:55Z",
-  "since": "2026-08-18T03:06:11Z",
+  "generated": "2026-09-17T06:06:13Z",
+  "since": "2026-08-18T06:05:30Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 38,
+      "open_issues": 39,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-17T00:45:42Z",
-      "pushed_at": "2026-09-17T00:45:38Z",
+      "updated_at": "2026-09-17T03:07:01Z",
+      "pushed_at": "2026-09-17T03:06:58Z",
       "recent_commits": [
+        {
+          "sha": "f707174",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-17T03:06:55Z)",
+          "author": "daeguru",
+          "date": "2026-09-17T03:06:55Z"
+        },
         {
           "sha": "9b11ee0",
           "message": "chore(dashboard): refresh dashboard + github activity (2026-09-17T00:45:37Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-16T21:06:27Z)",
           "author": "daeguru",
           "date": "2026-09-16T21:06:27Z"
-        },
-        {
-          "sha": "818b2b2",
-          "message": "chore(dashboard): refresh dashboard + github activity (2026-09-16T18:47Z)",
-          "author": "daeguru",
-          "date": "2026-09-16T18:46:30Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-16T23:13:14Z",
-      "pushed_at": "2026-09-16T23:13:11Z",
+      "updated_at": "2026-09-17T05:10:46Z",
+      "pushed_at": "2026-09-17T05:10:43Z",
       "recent_commits": [
+        {
+          "sha": "941a62e",
+          "message": "📚 2026-09-17: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-17T05:10:39Z"
+        },
         {
           "sha": "5ee3140",
           "message": "📰 2026-09-17: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-16: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-15T23:15:49Z"
-        },
-        {
-          "sha": "e05e0b4",
-          "message": "📋 2026-09-15: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-09-15T12:46:07Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-17T00:06:01Z",
-      "pushed_at": "2026-09-17T00:05:58Z",
+      "updated_at": "2026-09-17T05:42:11Z",
+      "pushed_at": "2026-09-17T05:42:07Z",
       "recent_commits": [
+        {
+          "sha": "d6372ef",
+          "message": "교훈 #219: 위임받은 에이전트는 수단도 다시 제안한다 — 목적 재계산이 성숙 신호 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-17T05:42:07Z"
+        },
         {
           "sha": "f0d02cb",
           "message": "AB-0007: AB-0006 조사 방법 전수→하이브리드 변경 승인 보고 (회장님 승인 09:04)",
@@ -503,12 +509,6 @@
           "message": "교훈 #217: 완성 직후가 가장 깊은 정적 구간 — 다음 결정 카드를 동봉하라 (라이카)",
           "author": "Laika",
           "date": "2026-09-16T17:36:11Z"
-        },
-        {
-          "sha": "5365fa1",
-          "message": "교훈 #216: 결정이 풀리면 완결은 40분이다 — 매핑 결정 다음 날 시즌 완주 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-16T11:42:10Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #219: 위임받은 에이전트는 수단도 다시 제안한다 — 목적 재계산이 성숙 신호 (라이카)",
+      "sha": "d6372ef",
+      "date": "2026-09-17T05:42:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d6372ef745b40a6e9321951eef335a4ac1aa0543"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-17: 위키 갱신 (2개)",
+      "sha": "941a62e",
+      "date": "2026-09-17T05:10:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/941a62e787353b3f5da457450b51883640fcb58b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-17T03:06:55Z)",
+      "sha": "f707174",
+      "date": "2026-09-17T03:06:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f707174e7c6a89f21a37ef5a0b65fc8cff316c8c"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): refresh dashboard + github activity (2026-09-17T00:45:37Z)",
@@ -681,15 +708,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard + github activity (2026-09-16T18:47Z)",
-      "sha": "818b2b2",
-      "date": "2026-09-16T18:46:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/818b2b273c7529deb31cddd48390fedbaebc579b"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #217: 완성 직후가 가장 깊은 정적 구간 — 다음 결정 카드를 동봉하라 (라이카)",
@@ -705,15 +723,6 @@
       "sha": "a465b5c",
       "date": "2026-09-16T12:43:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a465b5ca6f2d49e018441b18f747e77fcd915b87"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #216: 결정이 풀리면 완결은 40분이다 — 매핑 결정 다음 날 시즌 완주 (라이카)",
-      "sha": "5365fa1",
-      "date": "2026-09-16T11:42:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5365fa109be6d3debb9f7adb33beec48d665a324"
     },
     {
       "type": "pr",
@@ -837,15 +846,6 @@
       "sha": "58e1a95",
       "date": "2026-09-15T23:15:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/58e1a9593d1a6aeb20b2df84783d877ef44b4b2e"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-09-15: 데일리 브리핑 아카이브",
-      "sha": "e05e0b4",
-      "date": "2026-09-15T12:46:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e05e0b44cb6cad7eaaa848d7fa4cb18b5ee11cf4"
     },
     {
       "type": "pr",
