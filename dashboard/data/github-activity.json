@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T09:08:38Z",
-  "since": "2026-08-18T09:07:35Z",
+  "generated": "2026-09-17T09:46:19Z",
+  "since": "2026-08-18T09:45:49Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-17T06:46:25Z",
-      "pushed_at": "2026-09-17T06:46:20Z",
+      "updated_at": "2026-09-17T09:08:45Z",
+      "pushed_at": "2026-09-17T09:08:41Z",
       "recent_commits": [
+        {
+          "sha": "3d24363",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-17T09:08:38Z)",
+          "author": "daeguru",
+          "date": "2026-09-17T09:08:38Z"
+        },
         {
           "sha": "0c224da",
           "message": "dashboard: update dashboard.json and github-activity.json (2026-09-17 15:44 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard + github activity (2026-09-17T00:45:37Z)",
           "author": "daeguru",
           "date": "2026-09-17T00:45:37Z"
-        },
-        {
-          "sha": "12c8ad0",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-17T00:08:09Z)",
-          "author": "daeguru",
-          "date": "2026-09-17T00:08:09Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-17T05:42:11Z",
-      "pushed_at": "2026-09-17T05:42:07Z",
+      "updated_at": "2026-09-17T09:32:14Z",
+      "pushed_at": "2026-09-17T09:32:10Z",
       "recent_commits": [
+        {
+          "sha": "0d59143",
+          "message": "PROTOCOL §9.4 기상 규격 확정 — CLE2-27 Phase 3 (#24)",
+          "author": "sfex11",
+          "date": "2026-09-17T09:32:10Z"
+        },
         {
           "sha": "d6372ef",
           "message": "교훈 #219: 위임받은 에이전트는 수단도 다시 제안한다 — 목적 재계산이 성숙 신호 (라이카)",
@@ -503,15 +509,17 @@
           "message": "chore(agents-board): AB-0006 새 시즌 품질개선 3축 과제 게시 및 대구루 배정 (회장님 지시)",
           "author": "Laika",
           "date": "2026-09-16T22:50:34Z"
-        },
-        {
-          "sha": "848c4ce",
-          "message": "교훈 #217: 완성 직후가 가장 깊은 정적 구간 — 다음 결정 카드를 동봉하라 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-16T17:36:11Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 24,
+          "title": "PROTOCOL §9.4 기상 규격 확정 — CLE2-27 Phase 3 (ACK·wakes·기상 스캐너)",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-09-17T09:32:11Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/24"
+        },
         {
           "number": 23,
           "title": "feat(agents-board): feed·react CLI 서브커맨드 + roster v2 호환 (CLE2-27 Phase 2)",
@@ -527,14 +535,6 @@
           "state": "closed",
           "updated_at": "2026-09-16T07:33:06Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/22"
-        },
-        {
-          "number": 21,
-          "title": "docs(agents-board): PROTOCOL v2 확장안 — SNS 피드·프로필·reactions 규격 (CLE2-27 Phase 1)",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-16T07:17:56Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/21"
         }
       ]
     },
@@ -608,6 +608,34 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "PROTOCOL §9.4 기상 규격 확정 — CLE2-27 Phase 3 (ACK·wakes·기상 스캐너)",
+      "number": 24,
+      "state": "closed",
+      "date": "2026-09-17T09:32:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/24"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "PROTOCOL §9.4 기상 규격 확정 — CLE2-27 Phase 3 (#24)",
+      "sha": "0d59143",
+      "date": "2026-09-17T09:32:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0d59143e938e741901a2761798eef54203a7233f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-17T09:08:38Z)",
+      "sha": "3d24363",
+      "date": "2026-09-17T09:08:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3d243639a23e149d14208251ea58fe260726aed6"
+    },
+    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -663,15 +691,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-17T00:08:09Z)",
-      "sha": "12c8ad0",
-      "date": "2026-09-17T00:08:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/12c8ad074e1fec76dff3cddaa2fb72539d162299"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "AB-0007: AB-0006 조사 방법 전수→하이브리드 변경 승인 보고 (회장님 승인 09:04)",
@@ -705,15 +724,6 @@
       "sha": "012d726",
       "date": "2026-09-16T22:50:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/012d726b56a601bdc31f2b487c519448efc35fa1"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #217: 완성 직후가 가장 깊은 정적 구간 — 다음 결정 카드를 동봉하라 (라이카)",
-      "sha": "848c4ce",
-      "date": "2026-09-16T17:36:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/848c4ce62cfdee29354ba148f50e106452258445"
     },
     {
       "type": "commit",
@@ -800,16 +810,6 @@
       "sha": "17cf457",
       "date": "2026-09-16T07:17:59Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/17cf4577a91b17046fa03059e9c6964ae2c078a3"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs(agents-board): PROTOCOL v2 확장안 — SNS 피드·프로필·reactions 규격 (CLE2-27 Phase 1)",
-      "number": 21,
-      "state": "closed",
-      "date": "2026-09-16T07:17:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/21"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
+      "commits": 17,
       "prs": 18,
       "issues": 0,
       "reviews": 0
