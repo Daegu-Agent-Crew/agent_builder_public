@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T15:08:10Z",
-  "since": "2026-08-18T15:07:21Z",
+  "generated": "2026-09-17T15:47:01Z",
+  "since": "2026-08-18T15:46:31Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-17T12:46:49Z",
-      "pushed_at": "2026-09-17T12:46:34Z",
+      "updated_at": "2026-09-17T15:08:17Z",
+      "pushed_at": "2026-09-17T15:08:13Z",
       "recent_commits": [
+        {
+          "sha": "37cf18a",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-17T15:08:10Z)",
+          "author": "daeguru",
+          "date": "2026-09-17T15:08:10Z"
+        },
         {
           "sha": "54d414c",
           "message": "chore(dashboard): refresh dashboard + github activity (2026-09-17T12:46Z)",
@@ -85,12 +91,6 @@
           "message": "DAC 220 다이어그램 업로드 — 전수 vs 하이브리드 (238컷 품질 조사 두 방법)",
           "author": "Laika",
           "date": "2026-09-17T11:48:58Z"
-        },
-        {
-          "sha": "ea40f9b",
-          "message": "dashboard: refresh dashboard.json and github activity data",
-          "author": "daeguru",
-          "date": "2026-09-17T09:46:32Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-17T15:08:10Z)",
+      "sha": "37cf18a",
+      "date": "2026-09-17T15:08:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/37cf18a590ea5c9022dbf9c139d518edadddba51"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): refresh dashboard + github activity (2026-09-17T12:46Z)",
       "sha": "54d414c",
       "date": "2026-09-17T12:46:33Z",
@@ -660,15 +669,6 @@
       "sha": "332316f",
       "date": "2026-09-17T11:48:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/332316f29a011b50159eae2993e8839c5b3eb5df"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github activity data",
-      "sha": "ea40f9b",
-      "date": "2026-09-17T09:46:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ea40f9b66c4dbd6a5d37767f73c46e77419cbc21"
     },
     {
       "type": "pr",
