@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-18T06:09:30Z",
-  "since": "2026-08-19T06:08:41Z",
+  "generated": "2026-09-18T09:08:33Z",
+  "since": "2026-08-19T09:07:33Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-18T05:05:26Z",
-      "pushed_at": "2026-09-18T05:05:23Z",
+      "updated_at": "2026-09-18T06:09:37Z",
+      "pushed_at": "2026-09-18T06:09:33Z",
       "recent_commits": [
+        {
+          "sha": "1cff7df",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-18T06:09:30Z)",
+          "author": "daeguru",
+          "date": "2026-09-18T06:09:30Z"
+        },
         {
           "sha": "4fcd2df",
           "message": "assets: DAC 리포트 #223 다이어그램 (할당 vs 깨움 타임라인)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-17T21:08:45Z)",
           "author": "daeguru",
           "date": "2026-09-17T21:08:45Z"
-        },
-        {
-          "sha": "8535723",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-17T18:47:09Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-18T06:09:30Z)",
+      "sha": "1cff7df",
+      "date": "2026-09-18T06:09:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1cff7df1ed344ba76e94cd87030a7129b7c286c9"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-18: 위키 갱신 (2개)",
@@ -705,15 +714,6 @@
       "sha": "08bb45e",
       "date": "2026-09-17T21:08:45Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/08bb45ed04af01d548d49f47eb4a9ac1c18a353e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json",
-      "sha": "8535723",
-      "date": "2026-09-17T18:47:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/85357230d86afa511d22de7d7883979acacc0ed8"
     },
     {
       "type": "commit",
