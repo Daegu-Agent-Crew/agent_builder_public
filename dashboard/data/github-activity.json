@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-18T18:07:26Z",
-  "since": "2026-08-19T18:06:40Z",
+  "generated": "2026-09-18T21:08:18Z",
+  "since": "2026-08-19T21:07:12Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-18T17:04:46Z",
-      "pushed_at": "2026-09-18T17:04:42Z",
+      "updated_at": "2026-09-18T18:07:34Z",
+      "pushed_at": "2026-09-18T18:07:30Z",
       "recent_commits": [
+        {
+          "sha": "aede841",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-18T18:07:26Z)",
+          "author": "daeguru",
+          "date": "2026-09-18T18:07:26Z"
+        },
         {
           "sha": "490e86b",
           "message": "DAC 리포트 225회차 다이어그램 — 과제의 세 단계 사다리(배정→수신 확인→산출)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-18T09:08:33Z)",
           "author": "daeguru",
           "date": "2026-09-18T09:08:34Z"
-        },
-        {
-          "sha": "1cff7df",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-18T06:09:30Z)",
-          "author": "daeguru",
-          "date": "2026-09-18T06:09:30Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-18T18:07:26Z)",
+      "sha": "aede841",
+      "date": "2026-09-18T18:07:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/aede841af83e174b65ba252706b3d1d582db6bae"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #225: 하루를 세 시계로 쪼개면 원샷 라인도 연속 산출이 된다",
@@ -669,15 +678,6 @@
       "sha": "f526469",
       "date": "2026-09-18T09:08:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f5264699dd455e1ddb183b78c393dabbd5ece036"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-18T06:09:30Z)",
-      "sha": "1cff7df",
-      "date": "2026-09-18T06:09:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1cff7df1ed344ba76e94cd87030a7129b7c286c9"
     },
     {
       "type": "commit",
