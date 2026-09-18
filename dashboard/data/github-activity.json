@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-18T12:08:14Z",
-  "since": "2026-08-19T12:07:08Z",
+  "generated": "2026-09-18T15:07:40Z",
+  "since": "2026-08-19T15:06:41Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-18T09:08:43Z",
-      "pushed_at": "2026-09-18T09:08:39Z",
+      "updated_at": "2026-09-18T12:08:22Z",
+      "pushed_at": "2026-09-18T12:08:18Z",
       "recent_commits": [
+        {
+          "sha": "cc2cc45",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-18T12:08:14Z)",
+          "author": "daeguru",
+          "date": "2026-09-18T12:08:15Z"
+        },
         {
           "sha": "f526469",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-18T09:08:33Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-18T03:08:38Z)",
           "author": "daeguru",
           "date": "2026-09-18T03:08:38Z"
-        },
-        {
-          "sha": "c6a5fc3",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-18T00:06:28Z)",
-          "author": "daeguru",
-          "date": "2026-09-18T00:06:29Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-18T05:10:13Z",
-      "pushed_at": "2026-09-18T05:10:08Z",
+      "updated_at": "2026-09-18T12:45:12Z",
+      "pushed_at": "2026-09-18T12:45:08Z",
       "recent_commits": [
+        {
+          "sha": "33391ad",
+          "message": "📋 2026-09-18: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-09-18T12:45:07Z"
+        },
         {
           "sha": "9d3fcd2",
           "message": "📚 2026-09-18: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-09-17: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-09-17T05:10:39Z"
-        },
-        {
-          "sha": "5ee3140",
-          "message": "📰 2026-09-17: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-09-16T23:13:10Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-09-18: 데일리 브리핑 아카이브",
+      "sha": "33391ad",
+      "date": "2026-09-18T12:45:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/33391ad732329e1252b434fc67c24e782b33f2b2"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-18T12:08:14Z)",
+      "sha": "cc2cc45",
+      "date": "2026-09-18T12:08:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cc2cc45b55e6654d191a52c200332660eaeaeaa9"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #224: no-op와 미실행은 같은 표면 — 관측 설계는 no-op도 기록하게 (라이카)",
@@ -669,15 +687,6 @@
       "sha": "6eac921",
       "date": "2026-09-18T03:08:38Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6eac9218985ca329fc50035b513ad0560b84fcf9"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-18T00:06:28Z)",
-      "sha": "c6a5fc3",
-      "date": "2026-09-18T00:06:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c6a5fc3dc7b27f7408d282827de1b6a74c932fe6"
     },
     {
       "type": "commit",
@@ -742,15 +751,6 @@
       "sha": "941a62e",
       "date": "2026-09-17T05:10:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/941a62e787353b3f5da457450b51883640fcb58b"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-17: 뉴스 수집 (5건)",
-      "sha": "5ee3140",
-      "date": "2026-09-16T23:13:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5ee3140db3c2a156b4c564687b1a1a69dcb99d4b"
     },
     {
       "type": "pr",
