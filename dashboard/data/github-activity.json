@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-18T15:07:40Z",
-  "since": "2026-08-19T15:06:41Z",
+  "generated": "2026-09-18T18:07:26Z",
+  "since": "2026-08-19T18:06:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 44,
+      "open_issues": 45,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-18T12:08:22Z",
-      "pushed_at": "2026-09-18T12:08:18Z",
+      "updated_at": "2026-09-18T17:04:46Z",
+      "pushed_at": "2026-09-18T17:04:42Z",
       "recent_commits": [
+        {
+          "sha": "490e86b",
+          "message": "DAC 리포트 225회차 다이어그램 — 과제의 세 단계 사다리(배정→수신 확인→산출)",
+          "author": "Laika",
+          "date": "2026-09-18T17:04:42Z"
+        },
+        {
+          "sha": "721bab3",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-18T15:07:40Z)",
+          "author": "daeguru",
+          "date": "2026-09-18T15:07:40Z"
+        },
         {
           "sha": "cc2cc45",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-18T12:08:14Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-18T06:09:30Z)",
           "author": "daeguru",
           "date": "2026-09-18T06:09:30Z"
-        },
-        {
-          "sha": "4fcd2df",
-          "message": "assets: DAC 리포트 #223 다이어그램 (할당 vs 깨움 타임라인)",
-          "author": "Laika",
-          "date": "2026-09-18T05:05:22Z"
-        },
-        {
-          "sha": "6eac921",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-18T03:08:38Z)",
-          "author": "daeguru",
-          "date": "2026-09-18T03:08:38Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 5,
       "open_prs": 3,
-      "updated_at": "2026-09-18T11:08:28Z",
-      "pushed_at": "2026-09-18T11:08:24Z",
+      "updated_at": "2026-09-18T17:06:33Z",
+      "pushed_at": "2026-09-18T17:06:29Z",
       "recent_commits": [
+        {
+          "sha": "ecd47a5",
+          "message": "교훈 #225: 하루를 세 시계로 쪼개면 원샷 라인도 연속 산출이 된다",
+          "author": "Laika",
+          "date": "2026-09-18T17:06:29Z"
+        },
         {
           "sha": "341435f",
           "message": "교훈 #224: no-op와 미실행은 같은 표면 — 관측 설계는 no-op도 기록하게 (라이카)",
@@ -503,12 +509,6 @@
           "message": "교훈 #222: 배정은 깨움이 아니다 — 카드 23시간 무반응 vs 기상 기록 57초 응답 (라이카)",
           "author": "Laika",
           "date": "2026-09-17T23:02:03Z"
-        },
-        {
-          "sha": "f8dc832",
-          "message": "교훈 #222: 배정은 깨움이 아니다 — 카드 23시간 무반응 vs 기상 기록 57초 응답 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-17T23:01:33Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #225: 하루를 세 시계로 쪼개면 원샷 라인도 연속 산출이 된다",
+      "sha": "ecd47a5",
+      "date": "2026-09-18T17:06:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ecd47a5bcc585845ea79add98b294075f89cb243"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "DAC 리포트 225회차 다이어그램 — 과제의 세 단계 사다리(배정→수신 확인→산출)",
+      "sha": "490e86b",
+      "date": "2026-09-18T17:04:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/490e86b5dc711751422052e5d09d860f6e40ef63"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-18T15:07:40Z)",
+      "sha": "721bab3",
+      "date": "2026-09-18T15:07:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/721bab303e6578423c48326afce32a12eb4a0dfc"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-09-18: 데일리 브리핑 아카이브",
@@ -672,24 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "assets: DAC 리포트 #223 다이어그램 (할당 vs 깨움 타임라인)",
-      "sha": "4fcd2df",
-      "date": "2026-09-18T05:05:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4fcd2dfc497b8ab7f30be6506552f3299767e858"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-18T03:08:38Z)",
-      "sha": "6eac921",
-      "date": "2026-09-18T03:08:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6eac9218985ca329fc50035b513ad0560b84fcf9"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-18: 뉴스 수집 (5건)",
@@ -714,15 +723,6 @@
       "sha": "12548da",
       "date": "2026-09-17T23:02:03Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/12548da77c01d3046016d3045e2bac03888af7f1"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #222: 배정은 깨움이 아니다 — 카드 23시간 무반응 vs 기상 기록 57초 응답 (라이카)",
-      "sha": "f8dc832",
-      "date": "2026-09-17T23:01:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f8dc83283e3fae315ce8d02a2e578db869bc79db"
     },
     {
       "type": "commit",
