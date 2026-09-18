@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-18T03:08:38Z",
-  "since": "2026-08-19T03:07:10Z",
+  "generated": "2026-09-18T06:09:30Z",
+  "since": "2026-08-19T06:08:41Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 42,
+      "open_issues": 43,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-18T00:06:36Z",
-      "pushed_at": "2026-09-18T00:06:32Z",
+      "updated_at": "2026-09-18T05:05:26Z",
+      "pushed_at": "2026-09-18T05:05:23Z",
       "recent_commits": [
+        {
+          "sha": "4fcd2df",
+          "message": "assets: DAC 리포트 #223 다이어그램 (할당 vs 깨움 타임라인)",
+          "author": "Laika",
+          "date": "2026-09-18T05:05:22Z"
+        },
+        {
+          "sha": "6eac921",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-18T03:08:38Z)",
+          "author": "daeguru",
+          "date": "2026-09-18T03:08:38Z"
+        },
         {
           "sha": "c6a5fc3",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-18T00:06:28Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-09-17T18:47:09Z"
-        },
-        {
-          "sha": "7e97bff",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-17T18:07:25Z)",
-          "author": "daeguru",
-          "date": "2026-09-17T18:07:25Z"
-        },
-        {
-          "sha": "10e7be4",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-17T15:47:18Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-17T23:15:48Z",
-      "pushed_at": "2026-09-17T23:15:45Z",
+      "updated_at": "2026-09-18T05:10:13Z",
+      "pushed_at": "2026-09-18T05:10:08Z",
       "recent_commits": [
+        {
+          "sha": "9d3fcd2",
+          "message": "📚 2026-09-18: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-18T05:09:52Z"
+        },
         {
           "sha": "ea79a50",
           "message": "📰 2026-09-18: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-17: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-16T23:13:10Z"
-        },
-        {
-          "sha": "a465b5c",
-          "message": "📋 2026-09-16: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-09-16T12:43:49Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-17T23:02:58Z",
-      "pushed_at": "2026-09-17T23:02:54Z",
+      "updated_at": "2026-09-18T05:05:27Z",
+      "pushed_at": "2026-09-18T05:05:23Z",
       "recent_commits": [
+        {
+          "sha": "d7f7911",
+          "message": "교훈 #223: 재시도 전 원격 재확인 — 부분 성공의 중복 방지 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-18T05:05:23Z"
+        },
         {
           "sha": "6002a5b",
           "message": "교훈 #222 중복 삽입 정리(1개로 병합) (라이카)",
@@ -503,12 +509,6 @@
           "message": "react: FB-20260917-01 daeguru ACK 👍 (AB-0006 수신 확인)",
           "author": "대구루 (AI)",
           "date": "2026-09-17T21:33:33Z"
-        },
-        {
-          "sha": "2d08210",
-          "message": "wake: FB-20260917-01 daeguru 기상 기록",
-          "author": "daeguru",
-          "date": "2026-09-17T21:32:36Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-18: 위키 갱신 (2개)",
+      "sha": "9d3fcd2",
+      "date": "2026-09-18T05:09:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/9d3fcd29e09cdab9fa0d181912fc67b6e8e82020"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #223: 재시도 전 원격 재확인 — 부분 성공의 중복 방지 (라이카)",
+      "sha": "d7f7911",
+      "date": "2026-09-18T05:05:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d7f7911b309a5b098ad3c55c8755e0c45a60afbf"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "assets: DAC 리포트 #223 다이어그램 (할당 vs 깨움 타임라인)",
+      "sha": "4fcd2df",
+      "date": "2026-09-18T05:05:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4fcd2dfc497b8ab7f30be6506552f3299767e858"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-18T03:08:38Z)",
+      "sha": "6eac921",
+      "date": "2026-09-18T03:08:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6eac9218985ca329fc50035b513ad0560b84fcf9"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-18T00:06:28Z)",
@@ -663,15 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20260917-01 daeguru 기상 기록",
-      "sha": "2d08210",
-      "date": "2026-09-17T21:32:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2d0821085b1f160a777ed3ee88b3c3f5d3f21b52"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-17T21:08:45Z)",
@@ -687,24 +714,6 @@
       "sha": "8535723",
       "date": "2026-09-17T18:47:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/85357230d86afa511d22de7d7883979acacc0ed8"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-17T18:07:25Z)",
-      "sha": "7e97bff",
-      "date": "2026-09-17T18:07:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7e97bff1f57495cbc365c3f95d42b6389064f57b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json",
-      "sha": "10e7be4",
-      "date": "2026-09-17T15:47:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/10e7be472f91d2bf94258b4b2b260290499f6760"
     },
     {
       "type": "commit",
@@ -742,15 +751,6 @@
       "sha": "5ee3140",
       "date": "2026-09-16T23:13:10Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5ee3140db3c2a156b4c564687b1a1a69dcb99d4b"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-09-16: 데일리 브리핑 아카이브",
-      "sha": "a465b5c",
-      "date": "2026-09-16T12:43:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a465b5ca6f2d49e018441b18f747e77fcd915b87"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
