@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-17T21:08:45Z",
-  "since": "2026-08-18T21:07:58Z",
+  "generated": "2026-09-18T00:06:28Z",
+  "since": "2026-08-19T00:05:45Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 41,
+      "open_issues": 42,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-17T18:47:15Z",
-      "pushed_at": "2026-09-17T18:47:11Z",
+      "updated_at": "2026-09-17T21:08:52Z",
+      "pushed_at": "2026-09-17T21:08:48Z",
       "recent_commits": [
+        {
+          "sha": "08bb45e",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-17T21:08:45Z)",
+          "author": "daeguru",
+          "date": "2026-09-17T21:08:45Z"
+        },
         {
           "sha": "8535723",
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-17T15:08:10Z)",
           "author": "daeguru",
           "date": "2026-09-17T15:08:10Z"
-        },
-        {
-          "sha": "54d414c",
-          "message": "chore(dashboard): refresh dashboard + github activity (2026-09-17T12:46Z)",
-          "author": "daeguru",
-          "date": "2026-09-17T12:46:33Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-17T12:46:34Z",
-      "pushed_at": "2026-09-17T12:46:30Z",
+      "updated_at": "2026-09-17T23:15:48Z",
+      "pushed_at": "2026-09-17T23:15:45Z",
       "recent_commits": [
+        {
+          "sha": "ea79a50",
+          "message": "📰 2026-09-18: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-09-17T23:15:43Z"
+        },
         {
           "sha": "aae92c8",
           "message": "📋 2026-09-17: 데일리 브리핑 아카이브",
@@ -152,12 +158,6 @@
           "message": "📋 2026-09-16: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-09-16T12:43:49Z"
-        },
-        {
-          "sha": "4fc0ae3",
-          "message": "📚 2026-09-16: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-09-16T05:10:54Z"
         }
       ],
       "recent_prs": [
@@ -477,38 +477,38 @@
       "private": true,
       "open_issues": 4,
       "open_prs": 3,
-      "updated_at": "2026-09-17T17:45:10Z",
-      "pushed_at": "2026-09-17T17:45:06Z",
+      "updated_at": "2026-09-17T23:02:58Z",
+      "pushed_at": "2026-09-17T23:02:54Z",
       "recent_commits": [
         {
-          "sha": "4c51497",
-          "message": "교훈 #221: 파일명은 깨져도 프론트매터가 살면 시스템은 산다 (라이카)",
+          "sha": "6002a5b",
+          "message": "교훈 #222 중복 삽입 정리(1개로 병합) (라이카)",
           "author": "Laika",
-          "date": "2026-09-17T17:45:05Z"
+          "date": "2026-09-17T23:02:54Z"
         },
         {
-          "sha": "da97ced",
-          "message": "교훈 #220: 기상도 규격이다 — ACK·재기상 한도·실패 책임자의 프로토콜화 (§9.4/PR#24)",
+          "sha": "12548da",
+          "message": "교훈 #222: 배정은 깨움이 아니다 — 카드 23시간 무반응 vs 기상 기록 57초 응답 (라이카)",
           "author": "Laika",
-          "date": "2026-09-17T11:51:28Z"
+          "date": "2026-09-17T23:02:03Z"
         },
         {
-          "sha": "0d59143",
-          "message": "PROTOCOL §9.4 기상 규격 확정 — CLE2-27 Phase 3 (#24)",
-          "author": "sfex11",
-          "date": "2026-09-17T09:32:10Z"
-        },
-        {
-          "sha": "d6372ef",
-          "message": "교훈 #219: 위임받은 에이전트는 수단도 다시 제안한다 — 목적 재계산이 성숙 신호 (라이카)",
+          "sha": "f8dc832",
+          "message": "교훈 #222: 배정은 깨움이 아니다 — 카드 23시간 무반응 vs 기상 기록 57초 응답 (라이카)",
           "author": "Laika",
-          "date": "2026-09-17T05:42:07Z"
+          "date": "2026-09-17T23:01:33Z"
         },
         {
-          "sha": "f0d02cb",
-          "message": "AB-0007: AB-0006 조사 방법 전수→하이브리드 변경 승인 보고 (회장님 승인 09:04)",
+          "sha": "d32d51f",
+          "message": "react: FB-20260917-01 daeguru ACK 👍 (AB-0006 수신 확인)",
+          "author": "대구루 (AI)",
+          "date": "2026-09-17T21:33:33Z"
+        },
+        {
+          "sha": "2d08210",
+          "message": "wake: FB-20260917-01 daeguru 기상 기록",
           "author": "daeguru",
-          "date": "2026-09-17T00:05:48Z"
+          "date": "2026-09-17T21:32:36Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,69 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-18: 뉴스 수집 (5건)",
+      "sha": "ea79a50",
+      "date": "2026-09-17T23:15:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ea79a50875ab078c9af305d8ddb8425cfa022488"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #222 중복 삽입 정리(1개로 병합) (라이카)",
+      "sha": "6002a5b",
+      "date": "2026-09-17T23:02:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6002a5ba356d39c119b0c7ddc3b39859cada6264"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #222: 배정은 깨움이 아니다 — 카드 23시간 무반응 vs 기상 기록 57초 응답 (라이카)",
+      "sha": "12548da",
+      "date": "2026-09-17T23:02:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/12548da77c01d3046016d3045e2bac03888af7f1"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #222: 배정은 깨움이 아니다 — 카드 23시간 무반응 vs 기상 기록 57초 응답 (라이카)",
+      "sha": "f8dc832",
+      "date": "2026-09-17T23:01:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f8dc83283e3fae315ce8d02a2e578db869bc79db"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "react: FB-20260917-01 daeguru ACK 👍 (AB-0006 수신 확인)",
+      "sha": "d32d51f",
+      "date": "2026-09-17T21:33:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d32d51f659b9d437d8f3953e41acfe08d9fa808a"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20260917-01 daeguru 기상 기록",
+      "sha": "2d08210",
+      "date": "2026-09-17T21:32:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2d0821085b1f160a777ed3ee88b3c3f5d3f21b52"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-17T21:08:45Z)",
+      "sha": "08bb45e",
+      "date": "2026-09-17T21:08:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/08bb45ed04af01d548d49f47eb4a9ac1c18a353e"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard.json and github-activity.json",
@@ -624,15 +687,6 @@
       "sha": "7e97bff",
       "date": "2026-09-17T18:07:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7e97bff1f57495cbc365c3f95d42b6389064f57b"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #221: 파일명은 깨져도 프론트매터가 살면 시스템은 산다 (라이카)",
-      "sha": "4c51497",
-      "date": "2026-09-17T17:45:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4c5149723b1e0c417b1e0c86509428dd1c1a04ed"
     },
     {
       "type": "commit",
@@ -654,30 +708,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard + github activity (2026-09-17T12:46Z)",
-      "sha": "54d414c",
-      "date": "2026-09-17T12:46:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/54d414c31ebbc15617dcb293bc7156d425f0e0be"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-09-17: 데일리 브리핑 아카이브",
       "sha": "aae92c8",
       "date": "2026-09-17T12:46:29Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/aae92c8680e81fc71ee46f13267f9197af5d6152"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #220: 기상도 규격이다 — ACK·재기상 한도·실패 책임자의 프로토콜화 (§9.4/PR#24)",
-      "sha": "da97ced",
-      "date": "2026-09-17T11:51:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/da97ceda2afc298862dacdc7f91abd32e71b29db"
     },
     {
       "type": "pr",
@@ -691,39 +727,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "PROTOCOL §9.4 기상 규격 확정 — CLE2-27 Phase 3 (#24)",
-      "sha": "0d59143",
-      "date": "2026-09-17T09:32:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0d59143e938e741901a2761798eef54203a7233f"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #219: 위임받은 에이전트는 수단도 다시 제안한다 — 목적 재계산이 성숙 신호 (라이카)",
-      "sha": "d6372ef",
-      "date": "2026-09-17T05:42:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d6372ef745b40a6e9321951eef335a4ac1aa0543"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-17: 위키 갱신 (2개)",
       "sha": "941a62e",
       "date": "2026-09-17T05:10:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/941a62e787353b3f5da457450b51883640fcb58b"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "AB-0007: AB-0006 조사 방법 전수→하이브리드 변경 승인 보고 (회장님 승인 09:04)",
-      "sha": "f0d02cb",
-      "date": "2026-09-17T00:05:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f0d02cbbaf9d89fc6432d8992ec8c899daf12412"
     },
     {
       "type": "commit",
@@ -819,15 +828,6 @@
       "sha": "17cf457",
       "date": "2026-09-16T07:17:59Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/17cf4577a91b17046fa03059e9c6964ae2c078a3"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-16: 위키 갱신 (2개)",
-      "sha": "4fc0ae3",
-      "date": "2026-09-16T05:10:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/4fc0ae3848f8c3d06746b192c7d343081131df2c"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 16,
       "prs": 18,
       "issues": 0,
       "reviews": 0
