@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-19T18:05:41Z",
-  "since": "2026-08-20T18:04:55Z",
+  "generated": "2026-09-19T21:07:01Z",
+  "since": "2026-08-20T21:06:12Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,27 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-19T17:19:17Z",
-      "pushed_at": "2026-09-19T17:19:14Z",
+      "updated_at": "2026-09-19T18:25:19Z",
+      "pushed_at": "2026-09-19T18:25:16Z",
       "recent_commits": [
+        {
+          "sha": "7890169",
+          "message": "chore(dashboard): regenerate dashboard.json (projects=9, repositories=11)",
+          "author": "daeguru",
+          "date": "2026-09-19T18:25:15Z"
+        },
+        {
+          "sha": "47ee0d4",
+          "message": "dashboard: refresh dashboard.json (2026-09-20 03:22 KST)",
+          "author": "daeguru",
+          "date": "2026-09-19T18:23:33Z"
+        },
+        {
+          "sha": "08a05e4",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-19T18:05:41Z)",
+          "author": "daeguru",
+          "date": "2026-09-19T18:05:42Z"
+        },
         {
           "sha": "dc981c9",
           "message": "DAC 리포트 229회차 다이어그램 — 뉴스룸 3교대 일주일 달력(빈칸 없음) (라이카)",
@@ -73,24 +91,6 @@
           "message": "dashboard: refresh dashboard.json (2026-09-20 00:21 KST)",
           "author": "daeguru",
           "date": "2026-09-19T15:21:41Z"
-        },
-        {
-          "sha": "e09a309",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-19T15:07:21Z)",
-          "author": "daeguru",
-          "date": "2026-09-19T15:07:22Z"
-        },
-        {
-          "sha": "49b8366",
-          "message": "dashboard: refresh dashboard.json (2026-09-19 21:20 KST)",
-          "author": "daeguru",
-          "date": "2026-09-19T12:20:10Z"
-        },
-        {
-          "sha": "d710b11",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-19T12:07:52Z)",
-          "author": "daeguru",
-          "date": "2026-09-19T12:07:53Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,33 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): regenerate dashboard.json (projects=9, repositories=11)",
+      "sha": "7890169",
+      "date": "2026-09-19T18:25:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7890169bc7a5f20f0cbbeee26bb170ef42c3067a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json (2026-09-20 03:22 KST)",
+      "sha": "47ee0d4",
+      "date": "2026-09-19T18:23:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/47ee0d4a4b18c3cd974b281c06dfc4aa4e9c8eea"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-19T18:05:41Z)",
+      "sha": "08a05e4",
+      "date": "2026-09-19T18:05:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/08a05e4833e487a8f00c9972e712d2966bfc9f72"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "Laika",
       "message": "DAC 리포트 229회차 다이어그램 — 뉴스룸 3교대 일주일 달력(빈칸 없음) (라이카)",
       "sha": "dc981c9",
@@ -636,39 +663,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-19T15:07:21Z)",
-      "sha": "e09a309",
-      "date": "2026-09-19T15:07:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e09a3092241e2a5049e9351aa23d278f37e86a34"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-09-19: 데일리 브리핑 아카이브",
       "sha": "f9b8757",
       "date": "2026-09-19T12:43:35Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f9b87572b72f4f53023c4edd6240947fb1b8286b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json (2026-09-19 21:20 KST)",
-      "sha": "49b8366",
-      "date": "2026-09-19T12:20:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/49b8366893a471c392fa40738a8bfe940e167abb"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-19T12:07:52Z)",
-      "sha": "d710b11",
-      "date": "2026-09-19T12:07:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d710b114d4919be0e058f4901baa31243f819cd1"
     },
     {
       "type": "commit",
