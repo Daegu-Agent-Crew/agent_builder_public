@@ -2,15 +2,16 @@
   "meta": {
     "version": 1,
     "generatedAt": "2026-08-11",
-    "totalVideos": 22,
-    "totalChannels": 15,
+    "totalVideos": 23,
+    "totalChannels": 16,
     "byType": {
-      "영상 요약": 14,
+      "영상 요약": 15,
       "담화 패턴 분석": 5,
       "기타": 2,
       "참가자 분석": 1
     },
     "byChannel": {
+      "엥지유니버스 | 로봇 엔지니어": 1,
       "AI Frontier Korea (노정석)": 1,
       "AI Jason": 3,
       "Tech Bridge": 1,
@@ -28,13 +29,33 @@
       "천영록": 1
     },
     "byMonth": {
-      "2026-09": 1,
+      "2026-09": 2,
       "2026-08": 7,
       "2026-07": 11,
       "2026-06": 3
     }
   },
   "videos": [
+    {
+      "filename": "2026-09-19-world-models-genie3-cosmos-predict25.md",
+      "title": "월드 모델 전쟁: Genie 3 vs Cosmos-Predict 2.5, Physical AI의 다음 단계",
+      "videoUrl": "https://youtu.be/Ymj4c0qzZHA",
+      "channel": "엥지유니버스 | 로봇 엔지니어",
+      "speaker": "",
+      "date": "2026-09-19",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "구글 딥마인드(Genie 3)와 엔비디아(Cosmos-Predict 2.5)가 동시에 \"월드 모델\"에 몰두하는 이유는 더 예쁜 영상을 만들려는 게 아니라, 로봇이 **직접 부딪히지 않고 세상을 경험할 수 있게** 하기 위해서다. Genie 3는 \"행동이 무엇인지\"를 라벨 없이 스스로 발견하는 단계(개념 형성), Cosmos-Predict 2.5는 \"정해진 행동이 어떤 미래를 만드는지\"를 물리적으로 신뢰성 있게 예측하는 단계(의사 결정 검증)를 담당한다. 두 모델은 경쟁이 아니라 Physical AI 학습 파이프라인의 **직렬 연결 단계**로 조합될 수 있다.",
+      "sections": [
+        "주요 내용",
+        "보강 — 영상 밖 맥락 (대구루 추가 정리)",
+        "우리 팀(Daegu Agent Crew)에 반영할 인사이트",
+        "원본 영상"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-09-19-world-models-genie3-cosmos-predict25.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/Ymj4c0qzZHA/mqdefault.jpg"
+    },
     {
       "filename": "2026-09-12-ai-frontier-ep114-navier-stokes.md",
       "title": "Navier-Stokes 방정식 AI 해결, GPT Image 2.5, AlphaGenome Atlas (AI Frontier EP114)",
