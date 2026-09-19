@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-19T03:06:59Z",
-  "since": "2026-08-20T03:05:29Z",
+  "generated": "2026-09-19T06:07:28Z",
+  "since": "2026-08-20T06:06:32Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 46,
+      "open_issues": 47,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-19T00:20:10Z",
-      "pushed_at": "2026-09-19T00:20:07Z",
+      "updated_at": "2026-09-19T03:07:10Z",
+      "pushed_at": "2026-09-19T03:07:06Z",
       "recent_commits": [
+        {
+          "sha": "bf7ae98",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-19T03:06:59Z)",
+          "author": "daeguru",
+          "date": "2026-09-19T03:06:59Z"
+        },
         {
           "sha": "5fb32fd",
           "message": "chore(dashboard): refresh dashboard.json (9 projects, 11 repos)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-18T21:08:18Z)",
           "author": "daeguru",
           "date": "2026-09-18T21:08:18Z"
-        },
-        {
-          "sha": "aede841",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-18T18:07:26Z)",
-          "author": "daeguru",
-          "date": "2026-09-18T18:07:26Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-18T23:16:56Z",
-      "pushed_at": "2026-09-18T23:16:52Z",
+      "updated_at": "2026-09-19T05:12:59Z",
+      "pushed_at": "2026-09-19T05:12:56Z",
       "recent_commits": [
+        {
+          "sha": "584a913",
+          "message": "📚 2026-09-19: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-19T05:12:54Z"
+        },
         {
           "sha": "c8fe4e3",
           "message": "📰 2026-09-19: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-18: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-17T23:15:43Z"
-        },
-        {
-          "sha": "aae92c8",
-          "message": "📋 2026-09-17: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-09-17T12:46:29Z"
         }
       ],
       "recent_prs": [
@@ -475,11 +475,17 @@
       "slug": "Daegu-Agent-Crew/team-memory",
       "name": "team-memory",
       "private": true,
-      "open_issues": 5,
+      "open_issues": 6,
       "open_prs": 3,
-      "updated_at": "2026-09-18T17:06:33Z",
-      "pushed_at": "2026-09-18T17:06:29Z",
+      "updated_at": "2026-09-19T05:13:21Z",
+      "pushed_at": "2026-09-19T05:13:17Z",
       "recent_commits": [
+        {
+          "sha": "3f8c52b",
+          "message": "교훈 #227: ACK는 산출을 예측하지 못한다 — 마감 장치는 해냄을 게이트하라 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-19T05:13:17Z"
+        },
         {
           "sha": "ecd47a5",
           "message": "교훈 #225: 하루를 세 시계로 쪼개면 원샷 라인도 연속 산출이 된다",
@@ -503,12 +509,6 @@
           "message": "교훈 #222 중복 삽입 정리(1개로 병합) (라이카)",
           "author": "Laika",
           "date": "2026-09-17T23:02:54Z"
-        },
-        {
-          "sha": "12548da",
-          "message": "교훈 #222: 배정은 깨움이 아니다 — 카드 23시간 무반응 vs 기상 기록 57초 응답 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-17T23:02:03Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #227: ACK는 산출을 예측하지 못한다 — 마감 장치는 해냄을 게이트하라 (라이카)",
+      "sha": "3f8c52b",
+      "date": "2026-09-19T05:13:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3f8c52b923b4718968608a7862bbf81394347ebe"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-19: 위키 갱신 (2개)",
+      "sha": "584a913",
+      "date": "2026-09-19T05:12:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/584a91313805cbe36b539996847d9ea3995dd0f5"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-19T03:06:59Z)",
+      "sha": "bf7ae98",
+      "date": "2026-09-19T03:06:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bf7ae986001f5897aaa2edd13bdd218274008832"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): refresh dashboard.json (9 projects, 11 repos)",
@@ -651,15 +678,6 @@
       "sha": "464e211",
       "date": "2026-09-18T21:08:18Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/464e2110859db99a8e2bfa64152e978c1c8d624e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-18T18:07:26Z)",
-      "sha": "aede841",
-      "date": "2026-09-18T18:07:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/aede841af83e174b65ba252706b3d1d582db6bae"
     },
     {
       "type": "commit",
@@ -723,24 +741,6 @@
       "sha": "6002a5b",
       "date": "2026-09-17T23:02:54Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6002a5ba356d39c119b0c7ddc3b39859cada6264"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #222: 배정은 깨움이 아니다 — 카드 23시간 무반응 vs 기상 기록 57초 응답 (라이카)",
-      "sha": "12548da",
-      "date": "2026-09-17T23:02:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/12548da77c01d3046016d3045e2bac03888af7f1"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-09-17: 데일리 브리핑 아카이브",
-      "sha": "aae92c8",
-      "date": "2026-09-17T12:46:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/aae92c8680e81fc71ee46f13267f9197af5d6152"
     },
     {
       "type": "pr",
