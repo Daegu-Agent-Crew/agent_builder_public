@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-19T15:07:21Z",
-  "since": "2026-08-20T15:06:29Z",
+  "generated": "2026-09-19T18:05:41Z",
+  "since": "2026-08-20T18:04:55Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 48,
+      "open_issues": 49,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,27 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-19T12:20:14Z",
-      "pushed_at": "2026-09-19T12:20:10Z",
+      "updated_at": "2026-09-19T17:19:17Z",
+      "pushed_at": "2026-09-19T17:19:14Z",
       "recent_commits": [
+        {
+          "sha": "dc981c9",
+          "message": "DAC 리포트 229회차 다이어그램 — 뉴스룸 3교대 일주일 달력(빈칸 없음) (라이카)",
+          "author": "Laika",
+          "date": "2026-09-19T17:19:13Z"
+        },
+        {
+          "sha": "e381719",
+          "message": "dashboard: refresh dashboard.json (2026-09-20 00:21 KST)",
+          "author": "daeguru",
+          "date": "2026-09-19T15:21:41Z"
+        },
+        {
+          "sha": "e09a309",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-19T15:07:21Z)",
+          "author": "daeguru",
+          "date": "2026-09-19T15:07:22Z"
+        },
         {
           "sha": "49b8366",
           "message": "dashboard: refresh dashboard.json (2026-09-19 21:20 KST)",
@@ -73,24 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-19T12:07:52Z)",
           "author": "daeguru",
           "date": "2026-09-19T12:07:53Z"
-        },
-        {
-          "sha": "2bcbbf8",
-          "message": "DAC report #228 diagram: 불씨 옮기기 (기폭재 임무)",
-          "author": "Laika",
-          "date": "2026-09-19T11:11:18Z"
-        },
-        {
-          "sha": "ff044dd",
-          "message": "chore(dashboard): refresh dashboard data (2026-09-19T09:20:19Z)",
-          "author": "daeguru",
-          "date": "2026-09-19T09:20:19Z"
-        },
-        {
-          "sha": "b0e7773",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-19T09:07:49Z)",
-          "author": "daeguru",
-          "date": "2026-09-19T09:07:49Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 6,
       "open_prs": 3,
-      "updated_at": "2026-09-19T11:11:24Z",
-      "pushed_at": "2026-09-19T11:11:21Z",
+      "updated_at": "2026-09-19T17:11:58Z",
+      "pushed_at": "2026-09-19T17:11:54Z",
       "recent_commits": [
+        {
+          "sha": "ada6eb3",
+          "message": "교훈 #229: 일감 공급원이 라인을 산다 — 케이던스 vs 문화 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-19T17:11:54Z"
+        },
         {
           "sha": "faca986",
           "message": "교훈 #228: 제안+실행설계 동봉 — 승인-시행 0초",
@@ -503,12 +509,6 @@
           "message": "Add world-models-genie3-cosmos-predict25 video summary record",
           "author": "sfex11",
           "date": "2026-09-19T08:54:55Z"
-        },
-        {
-          "sha": "3f8c52b",
-          "message": "교훈 #227: ACK는 산출을 예측하지 못한다 — 마감 장치는 해냄을 게이트하라 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-19T05:13:17Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "DAC 리포트 229회차 다이어그램 — 뉴스룸 3교대 일주일 달력(빈칸 없음) (라이카)",
+      "sha": "dc981c9",
+      "date": "2026-09-19T17:19:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dc981c9dab8a2ba39cecb85b004ce3a592279cd1"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #229: 일감 공급원이 라인을 산다 — 케이던스 vs 문화 (라이카)",
+      "sha": "ada6eb3",
+      "date": "2026-09-19T17:11:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ada6eb3f75adcdf470433000d59ddea1b2c712dd"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json (2026-09-20 00:21 KST)",
+      "sha": "e381719",
+      "date": "2026-09-19T15:21:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e381719f717dbd59327b3ad766168331953c0c0a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-19T15:07:21Z)",
+      "sha": "e09a309",
+      "date": "2026-09-19T15:07:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e09a3092241e2a5049e9351aa23d278f37e86a34"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-09-19: 데일리 브리핑 아카이브",
@@ -645,15 +681,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "DAC report #228 diagram: 불씨 옮기기 (기폭재 임무)",
-      "sha": "2bcbbf8",
-      "date": "2026-09-19T11:11:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2bcbbf83495a1984be26cd8c0865ec63a1126382"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add observation log standardization design v0.1",
@@ -672,39 +699,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard data (2026-09-19T09:20:19Z)",
-      "sha": "ff044dd",
-      "date": "2026-09-19T09:20:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ff044dd0b1a2e165dd378713e609a8b368044b40"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-19T09:07:49Z)",
-      "sha": "b0e7773",
-      "date": "2026-09-19T09:07:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b0e777371bd98d20dbb9990f067ec75053d3807c"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add world-models-genie3-cosmos-predict25 video summary record",
       "sha": "8bdc171",
       "date": "2026-09-19T08:54:55Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8bdc171667de73723cd84987acb17a92c505481a"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #227: ACK는 산출을 예측하지 못한다 — 마감 장치는 해냄을 게이트하라 (라이카)",
-      "sha": "3f8c52b",
-      "date": "2026-09-19T05:13:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3f8c52b923b4718968608a7862bbf81394347ebe"
     },
     {
       "type": "commit",
