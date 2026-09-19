@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-19T12:07:52Z",
-  "since": "2026-08-20T12:06:50Z",
+  "generated": "2026-09-19T15:07:21Z",
+  "since": "2026-08-20T15:06:29Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-19T11:11:22Z",
-      "pushed_at": "2026-09-19T11:11:18Z",
+      "updated_at": "2026-09-19T12:20:14Z",
+      "pushed_at": "2026-09-19T12:20:10Z",
       "recent_commits": [
+        {
+          "sha": "49b8366",
+          "message": "dashboard: refresh dashboard.json (2026-09-19 21:20 KST)",
+          "author": "daeguru",
+          "date": "2026-09-19T12:20:10Z"
+        },
+        {
+          "sha": "d710b11",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-19T12:07:52Z)",
+          "author": "daeguru",
+          "date": "2026-09-19T12:07:53Z"
+        },
         {
           "sha": "2bcbbf8",
           "message": "DAC report #228 diagram: 불씨 옮기기 (기폭재 임무)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-19T09:07:49Z)",
           "author": "daeguru",
           "date": "2026-09-19T09:07:49Z"
-        },
-        {
-          "sha": "baa36b9",
-          "message": "chore: update youtube dashboard data (world models)",
-          "author": "daeguru",
-          "date": "2026-09-19T08:55:27Z"
-        },
-        {
-          "sha": "0a4b559",
-          "message": "chore(dashboard): refresh dashboard data (2026-09-19T06:20:43Z)",
-          "author": "daeguru",
-          "date": "2026-09-19T06:20:43Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-19T05:12:59Z",
-      "pushed_at": "2026-09-19T05:12:56Z",
+      "updated_at": "2026-09-19T12:43:41Z",
+      "pushed_at": "2026-09-19T12:43:37Z",
       "recent_commits": [
+        {
+          "sha": "f9b8757",
+          "message": "📋 2026-09-19: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-09-19T12:43:35Z"
+        },
         {
           "sha": "584a913",
           "message": "📚 2026-09-19: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-09-18: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-09-18T05:09:52Z"
-        },
-        {
-          "sha": "ea79a50",
-          "message": "📰 2026-09-18: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-09-17T23:15:43Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-09-19: 데일리 브리핑 아카이브",
+      "sha": "f9b8757",
+      "date": "2026-09-19T12:43:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f9b87572b72f4f53023c4edd6240947fb1b8286b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json (2026-09-19 21:20 KST)",
+      "sha": "49b8366",
+      "date": "2026-09-19T12:20:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/49b8366893a471c392fa40738a8bfe940e167abb"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-19T12:07:52Z)",
+      "sha": "d710b11",
+      "date": "2026-09-19T12:07:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d710b114d4919be0e058f4901baa31243f819cd1"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #228: 제안+실행설계 동봉 — 승인-시행 0초",
@@ -663,30 +690,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update youtube dashboard data (world models)",
-      "sha": "baa36b9",
-      "date": "2026-09-19T08:55:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/baa36b918bc8d38559f0b72ab1f2ac717168c55b"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add world-models-genie3-cosmos-predict25 video summary record",
       "sha": "8bdc171",
       "date": "2026-09-19T08:54:55Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8bdc171667de73723cd84987acb17a92c505481a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard data (2026-09-19T06:20:43Z)",
-      "sha": "0a4b559",
-      "date": "2026-09-19T06:20:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0a4b5591422740c8ae4630e4f9c1bda858e76de2"
     },
     {
       "type": "commit",
@@ -732,15 +741,6 @@
       "sha": "9d3fcd2",
       "date": "2026-09-18T05:09:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/9d3fcd29e09cdab9fa0d181912fc67b6e8e82020"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-18: 뉴스 수집 (5건)",
-      "sha": "ea79a50",
-      "date": "2026-09-17T23:15:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ea79a50875ab078c9af305d8ddb8425cfa022488"
     },
     {
       "type": "pr",
