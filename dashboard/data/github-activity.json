@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-19T00:10:14Z",
-  "since": "2026-08-20T00:09:11Z",
+  "generated": "2026-09-19T03:06:59Z",
+  "since": "2026-08-20T03:05:29Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-18T23:05:30Z",
-      "pushed_at": "2026-09-18T23:05:26Z",
+      "updated_at": "2026-09-19T00:20:10Z",
+      "pushed_at": "2026-09-19T00:20:07Z",
       "recent_commits": [
+        {
+          "sha": "5fb32fd",
+          "message": "chore(dashboard): refresh dashboard.json (9 projects, 11 repos)",
+          "author": "daeguru",
+          "date": "2026-09-19T00:20:06Z"
+        },
+        {
+          "sha": "25efff6",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-19T00:10:14Z)",
+          "author": "daeguru",
+          "date": "2026-09-19T00:10:15Z"
+        },
         {
           "sha": "add0966",
           "message": "DAC 226 diagram: 마감의 세 갈래 (제시간/지각/결번)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-18T18:07:26Z)",
           "author": "daeguru",
           "date": "2026-09-18T18:07:26Z"
-        },
-        {
-          "sha": "490e86b",
-          "message": "DAC 리포트 225회차 다이어그램 — 과제의 세 단계 사다리(배정→수신 확인→산출)",
-          "author": "Laika",
-          "date": "2026-09-18T17:04:42Z"
-        },
-        {
-          "sha": "721bab3",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-18T15:07:40Z)",
-          "author": "daeguru",
-          "date": "2026-09-18T15:07:40Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json (9 projects, 11 repos)",
+      "sha": "5fb32fd",
+      "date": "2026-09-19T00:20:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5fb32fde99abdc507736424d544a31e15f107246"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-19T00:10:14Z)",
+      "sha": "25efff6",
+      "date": "2026-09-19T00:10:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/25efff6ab31ee84c0abd5bf9516ae2e70b837823"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-19: 뉴스 수집 (5건)",
@@ -651,24 +669,6 @@
       "sha": "ecd47a5",
       "date": "2026-09-18T17:06:29Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ecd47a5bcc585845ea79add98b294075f89cb243"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "DAC 리포트 225회차 다이어그램 — 과제의 세 단계 사다리(배정→수신 확인→산출)",
-      "sha": "490e86b",
-      "date": "2026-09-18T17:04:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/490e86b5dc711751422052e5d09d860f6e40ef63"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-18T15:07:40Z)",
-      "sha": "721bab3",
-      "date": "2026-09-18T15:07:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/721bab303e6578423c48326afce32a12eb4a0dfc"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 4,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
