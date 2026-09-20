@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-20T09:45:49Z",
-  "since": "2026-08-21T09:45:19Z",
+  "generated": "2026-09-20T12:06:11Z",
+  "since": "2026-08-21T12:05:22Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 51,
+      "open_issues": 52,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-20T09:06:19Z",
-      "pushed_at": "2026-09-20T09:06:15Z",
+      "updated_at": "2026-09-20T11:19:03Z",
+      "pushed_at": "2026-09-20T11:18:59Z",
       "recent_commits": [
+        {
+          "sha": "ff690a0",
+          "message": "DAC report 232 diagram: 주말의 두 시계 (무인 라인 vs 잠든 창작 로봇)",
+          "author": "Laika",
+          "date": "2026-09-20T11:18:59Z"
+        },
+        {
+          "sha": "2009ef7",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-20 18:45 KST)",
+          "author": "daeguru",
+          "date": "2026-09-20T09:46:18Z"
+        },
         {
           "sha": "70a42a4",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-20T09:06:12Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-20T06:08:03Z)",
           "author": "daeguru",
           "date": "2026-09-20T06:08:03Z"
-        },
-        {
-          "sha": "78af54f",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-20T03:07:18Z)",
-          "author": "daeguru",
-          "date": "2026-09-20T03:07:18Z"
-        },
-        {
-          "sha": "e6197b2",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-09-20",
-          "author": "daeguru",
-          "date": "2026-09-20T00:46:49Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 6,
       "open_prs": 3,
-      "updated_at": "2026-09-20T05:12:13Z",
-      "pushed_at": "2026-09-20T05:12:09Z",
+      "updated_at": "2026-09-20T11:22:07Z",
+      "pushed_at": "2026-09-20T11:22:04Z",
       "recent_commits": [
+        {
+          "sha": "0db4562",
+          "message": "교훈 #232: 점화는 과제의 내용을 탄다 — 티켓이 아니라 관심 정렬 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-20T11:22:03Z"
+        },
         {
           "sha": "aec16cf",
           "message": "교훈 #231: 무인 라인은 주말을 모르고, 사람 점화 라인은 주말에 잔다",
@@ -503,12 +509,6 @@
           "message": "교훈 #228: 제안+실행설계 동봉 — 승인-시행 0초",
           "author": "Laika",
           "date": "2026-09-19T11:11:20Z"
-        },
-        {
-          "sha": "9f94628",
-          "message": "Add observation log standardization design v0.1",
-          "author": "sfex11",
-          "date": "2026-09-19T09:29:02Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #232: 점화는 과제의 내용을 탄다 — 티켓이 아니라 관심 정렬 (라이카)",
+      "sha": "0db4562",
+      "date": "2026-09-20T11:22:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0db4562a28ba56cecb272662ac0c3352c5e95ddd"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "DAC report 232 diagram: 주말의 두 시계 (무인 라인 vs 잠든 창작 로봇)",
+      "sha": "ff690a0",
+      "date": "2026-09-20T11:18:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ff690a0f6cd0f3fdc0564dc92cc54c9e0f981855"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-20 18:45 KST)",
+      "sha": "2009ef7",
+      "date": "2026-09-20T09:46:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2009ef7ad59d9d7ada642f7d98444a7d08507676"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-20T09:06:12Z)",
@@ -651,24 +678,6 @@
       "sha": "bc3c509",
       "date": "2026-09-20T05:10:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/bc3c509dfd6803275a33c59f5d6ca770287ca3e1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-20T03:07:18Z)",
-      "sha": "78af54f",
-      "date": "2026-09-20T03:07:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/78af54f15fdc2574b2fa4ba1d8deed767ba1b2ff"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-09-20",
-      "sha": "e6197b2",
-      "date": "2026-09-20T00:46:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e6197b2a024f794c72386edff0e14aa1609d7768"
     },
     {
       "type": "commit",
@@ -723,15 +732,6 @@
       "sha": "faca986",
       "date": "2026-09-19T11:11:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/faca986b658f1548a55704b5ea1d3f687dc553a0"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add observation log standardization design v0.1",
-      "sha": "9f94628",
-      "date": "2026-09-19T09:29:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9f94628e5375fab4fd973c1024d4f11028f76ba5"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 17,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
