@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-20T12:06:11Z",
-  "since": "2026-08-21T12:05:22Z",
+  "generated": "2026-09-20T12:46:03Z",
+  "since": "2026-08-21T12:45:31Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-20T11:19:03Z",
-      "pushed_at": "2026-09-20T11:18:59Z",
+      "updated_at": "2026-09-20T12:06:17Z",
+      "pushed_at": "2026-09-20T12:06:14Z",
       "recent_commits": [
+        {
+          "sha": "018010c",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-20T12:06:11Z)",
+          "author": "daeguru",
+          "date": "2026-09-20T12:06:12Z"
+        },
         {
           "sha": "ff690a0",
           "message": "DAC report 232 diagram: 주말의 두 시계 (무인 라인 vs 잠든 창작 로봇)",
@@ -85,12 +91,6 @@
           "message": "dashboard: regenerate dashboard.json and github-activity (2026-09-20 15:44 KST)",
           "author": "daeguru",
           "date": "2026-09-20T06:46:40Z"
-        },
-        {
-          "sha": "ed44009",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-20T06:08:03Z)",
-          "author": "daeguru",
-          "date": "2026-09-20T06:08:03Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-20T12:06:11Z)",
+      "sha": "018010c",
+      "date": "2026-09-20T12:06:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/018010cb9928b5990ed8ae4c2a8b6d95ab057a61"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #232: 점화는 과제의 내용을 탄다 — 티켓이 아니라 관심 정렬 (라이카)",
@@ -651,15 +660,6 @@
       "sha": "6bc6631",
       "date": "2026-09-20T06:46:40Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6bc66315fd69dc13cdb2594a48459c61a6f74dce"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-20T06:08:03Z)",
-      "sha": "ed44009",
-      "date": "2026-09-20T06:08:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ed440090fe3301846b6e5ce44c256b7161f9c9b2"
     },
     {
       "type": "commit",
