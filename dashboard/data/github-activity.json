@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-20T06:08:03Z",
-  "since": "2026-08-21T06:07:01Z",
+  "generated": "2026-09-20T06:46:05Z",
+  "since": "2026-08-21T06:45:37Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-20T03:07:27Z",
-      "pushed_at": "2026-09-20T03:07:23Z",
+      "updated_at": "2026-09-20T06:08:09Z",
+      "pushed_at": "2026-09-20T06:08:06Z",
       "recent_commits": [
+        {
+          "sha": "ed44009",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-20T06:08:03Z)",
+          "author": "daeguru",
+          "date": "2026-09-20T06:08:03Z"
+        },
         {
           "sha": "78af54f",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-20T03:07:18Z)",
@@ -85,12 +91,6 @@
           "message": "DAC 리포트 230회차 다이어그램 — 루틴과 빈 칸(관측로그 대기) (라이카)",
           "author": "sfex11",
           "date": "2026-09-19T23:17:47Z"
-        },
-        {
-          "sha": "18c703d",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-19T21:07:01Z)",
-          "author": "daeguru",
-          "date": "2026-09-19T21:07:01Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-20T06:08:03Z)",
+      "sha": "ed44009",
+      "date": "2026-09-20T06:08:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ed440090fe3301846b6e5ce44c256b7161f9c9b2"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #231: 무인 라인은 주말을 모르고, 사람 점화 라인은 주말에 잔다",
@@ -687,15 +696,6 @@
       "sha": "8b5c695",
       "date": "2026-09-19T23:14:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8b5c6954960aa9e776282b3a8b69f2770b31bfe5"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-19T21:07:01Z)",
-      "sha": "18c703d",
-      "date": "2026-09-19T21:07:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/18c703d97e162cc4e0a5dc6ed1612026983a877d"
     },
     {
       "type": "commit",
