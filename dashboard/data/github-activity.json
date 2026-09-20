@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-19T21:07:01Z",
-  "since": "2026-08-20T21:06:12Z",
+  "generated": "2026-09-20T00:07:20Z",
+  "since": "2026-08-21T00:06:21Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 49,
+      "open_issues": 50,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-19T18:25:19Z",
-      "pushed_at": "2026-09-19T18:25:16Z",
+      "updated_at": "2026-09-19T23:17:51Z",
+      "pushed_at": "2026-09-19T23:17:48Z",
       "recent_commits": [
+        {
+          "sha": "28d0f8a",
+          "message": "DAC 리포트 230회차 다이어그램 — 루틴과 빈 칸(관측로그 대기) (라이카)",
+          "author": "sfex11",
+          "date": "2026-09-19T23:17:47Z"
+        },
+        {
+          "sha": "18c703d",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-19T21:07:01Z)",
+          "author": "daeguru",
+          "date": "2026-09-19T21:07:01Z"
+        },
         {
           "sha": "7890169",
           "message": "chore(dashboard): regenerate dashboard.json (projects=9, repositories=11)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-19T18:05:41Z)",
           "author": "daeguru",
           "date": "2026-09-19T18:05:42Z"
-        },
-        {
-          "sha": "dc981c9",
-          "message": "DAC 리포트 229회차 다이어그램 — 뉴스룸 3교대 일주일 달력(빈칸 없음) (라이카)",
-          "author": "Laika",
-          "date": "2026-09-19T17:19:13Z"
-        },
-        {
-          "sha": "e381719",
-          "message": "dashboard: refresh dashboard.json (2026-09-20 00:21 KST)",
-          "author": "daeguru",
-          "date": "2026-09-19T15:21:41Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,21 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-19T12:43:41Z",
-      "pushed_at": "2026-09-19T12:43:37Z",
+      "updated_at": "2026-09-19T23:45:29Z",
+      "pushed_at": "2026-09-19T23:45:25Z",
       "recent_commits": [
+        {
+          "sha": "a672264",
+          "message": "📰 2026-09-20: 뉴스 수집 (4건)",
+          "author": "Renover",
+          "date": "2026-09-19T23:45:23Z"
+        },
+        {
+          "sha": "8890b77",
+          "message": "📰 2026-09-20: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-09-19T23:18:05Z"
+        },
         {
           "sha": "f9b8757",
           "message": "📋 2026-09-19: 데일리 브리핑 아카이브",
@@ -146,18 +158,6 @@
           "message": "📰 2026-09-19: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-18T23:16:49Z"
-        },
-        {
-          "sha": "33391ad",
-          "message": "📋 2026-09-18: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-09-18T12:45:07Z"
-        },
-        {
-          "sha": "9d3fcd2",
-          "message": "📚 2026-09-18: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-09-18T05:09:52Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 6,
       "open_prs": 3,
-      "updated_at": "2026-09-19T17:11:58Z",
-      "pushed_at": "2026-09-19T17:11:54Z",
+      "updated_at": "2026-09-19T23:15:00Z",
+      "pushed_at": "2026-09-19T23:14:56Z",
       "recent_commits": [
+        {
+          "sha": "8b5c695",
+          "message": "교훈 #230: 새 규칙의 첫 기록은 기존 루틴이 쉬는 시간에 온다 — 루틴-신규 경합 (라이카)",
+          "author": "sfex11",
+          "date": "2026-09-19T23:14:56Z"
+        },
         {
           "sha": "ada6eb3",
           "message": "교훈 #229: 일감 공급원이 라인을 산다 — 케이던스 vs 문화 (라이카)",
@@ -503,12 +509,6 @@
           "message": "Add robot-learning to github-agents mapping note",
           "author": "sfex11",
           "date": "2026-09-19T09:29:00Z"
-        },
-        {
-          "sha": "8bdc171",
-          "message": "Add world-models-genie3-cosmos-predict25 video summary record",
-          "author": "sfex11",
-          "date": "2026-09-19T08:54:55Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,51 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-20: 뉴스 수집 (4건)",
+      "sha": "a672264",
+      "date": "2026-09-19T23:45:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a6722643332425507cbe59c14e09c0c2523fbc7f"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-20: 뉴스 수집 (5건)",
+      "sha": "8890b77",
+      "date": "2026-09-19T23:18:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/8890b779ef6d0cf636d50becb295e1d10bc378f9"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "DAC 리포트 230회차 다이어그램 — 루틴과 빈 칸(관측로그 대기) (라이카)",
+      "sha": "28d0f8a",
+      "date": "2026-09-19T23:17:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/28d0f8a1794678768f194b74589b930d2f4374f9"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #230: 새 규칙의 첫 기록은 기존 루틴이 쉬는 시간에 온다 — 루틴-신규 경합 (라이카)",
+      "sha": "8b5c695",
+      "date": "2026-09-19T23:14:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8b5c6954960aa9e776282b3a8b69f2770b31bfe5"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-19T21:07:01Z)",
+      "sha": "18c703d",
+      "date": "2026-09-19T21:07:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/18c703d97e162cc4e0a5dc6ed1612026983a877d"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): regenerate dashboard.json (projects=9, repositories=11)",
@@ -636,30 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "DAC 리포트 229회차 다이어그램 — 뉴스룸 3교대 일주일 달력(빈칸 없음) (라이카)",
-      "sha": "dc981c9",
-      "date": "2026-09-19T17:19:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dc981c9dab8a2ba39cecb85b004ce3a592279cd1"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #229: 일감 공급원이 라인을 산다 — 케이던스 vs 문화 (라이카)",
       "sha": "ada6eb3",
       "date": "2026-09-19T17:11:54Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ada6eb3f75adcdf470433000d59ddea1b2c712dd"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json (2026-09-20 00:21 KST)",
-      "sha": "e381719",
-      "date": "2026-09-19T15:21:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e381719f717dbd59327b3ad766168331953c0c0a"
     },
     {
       "type": "commit",
@@ -699,15 +726,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add world-models-genie3-cosmos-predict25 video summary record",
-      "sha": "8bdc171",
-      "date": "2026-09-19T08:54:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8bdc171667de73723cd84987acb17a92c505481a"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-19: 위키 갱신 (2개)",
@@ -723,24 +741,6 @@
       "sha": "c8fe4e3",
       "date": "2026-09-18T23:16:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c8fe4e3d6800daf19a0cfb129d8fa9b27d6bb3e6"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-09-18: 데일리 브리핑 아카이브",
-      "sha": "33391ad",
-      "date": "2026-09-18T12:45:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/33391ad732329e1252b434fc67c24e782b33f2b2"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-18: 위키 갱신 (2개)",
-      "sha": "9d3fcd2",
-      "date": "2026-09-18T05:09:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/9d3fcd29e09cdab9fa0d181912fc67b6e8e82020"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 20,
       "prs": 18,
       "issues": 0,
       "reviews": 0
