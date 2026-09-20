@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-20T03:07:18Z",
-  "since": "2026-08-21T03:05:49Z",
+  "generated": "2026-09-20T06:08:03Z",
+  "since": "2026-08-21T06:07:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 50,
+      "open_issues": 51,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-20T00:47:13Z",
-      "pushed_at": "2026-09-20T00:47:09Z",
+      "updated_at": "2026-09-20T03:07:27Z",
+      "pushed_at": "2026-09-20T03:07:23Z",
       "recent_commits": [
+        {
+          "sha": "78af54f",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-20T03:07:18Z)",
+          "author": "daeguru",
+          "date": "2026-09-20T03:07:18Z"
+        },
         {
           "sha": "e6197b2",
           "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-09-20",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-19T21:07:01Z)",
           "author": "daeguru",
           "date": "2026-09-19T21:07:01Z"
-        },
-        {
-          "sha": "7890169",
-          "message": "chore(dashboard): regenerate dashboard.json (projects=9, repositories=11)",
-          "author": "daeguru",
-          "date": "2026-09-19T18:25:15Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-19T23:45:29Z",
-      "pushed_at": "2026-09-19T23:45:25Z",
+      "updated_at": "2026-09-20T05:10:11Z",
+      "pushed_at": "2026-09-20T05:10:07Z",
       "recent_commits": [
+        {
+          "sha": "bc3c509",
+          "message": "📚 2026-09-20: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-20T05:10:04Z"
+        },
         {
           "sha": "a672264",
           "message": "📰 2026-09-20: 뉴스 수집 (4건)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-09-19: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-09-19T05:12:54Z"
-        },
-        {
-          "sha": "c8fe4e3",
-          "message": "📰 2026-09-19: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-09-18T23:16:49Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 6,
       "open_prs": 3,
-      "updated_at": "2026-09-19T23:15:00Z",
-      "pushed_at": "2026-09-19T23:14:56Z",
+      "updated_at": "2026-09-20T05:12:13Z",
+      "pushed_at": "2026-09-20T05:12:09Z",
       "recent_commits": [
+        {
+          "sha": "aec16cf",
+          "message": "교훈 #231: 무인 라인은 주말을 모르고, 사람 점화 라인은 주말에 잔다",
+          "author": "Laika",
+          "date": "2026-09-20T05:12:09Z"
+        },
         {
           "sha": "8b5c695",
           "message": "교훈 #230: 새 규칙의 첫 기록은 기존 루틴이 쉬는 시간에 온다 — 루틴-신규 경합 (라이카)",
@@ -503,12 +509,6 @@
           "message": "Add observation log standardization design v0.1",
           "author": "sfex11",
           "date": "2026-09-19T09:29:02Z"
-        },
-        {
-          "sha": "00aadd1",
-          "message": "Add robot-learning to github-agents mapping note",
-          "author": "sfex11",
-          "date": "2026-09-19T09:29:00Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #231: 무인 라인은 주말을 모르고, 사람 점화 라인은 주말에 잔다",
+      "sha": "aec16cf",
+      "date": "2026-09-20T05:12:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/aec16cfab5b4ac50b1a5afec211bb3f39e62c3ec"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-20: 위키 갱신 (2개)",
+      "sha": "bc3c509",
+      "date": "2026-09-20T05:10:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/bc3c509dfd6803275a33c59f5d6ca770287ca3e1"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-20T03:07:18Z)",
+      "sha": "78af54f",
+      "date": "2026-09-20T03:07:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/78af54f15fdc2574b2fa4ba1d8deed767ba1b2ff"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-09-20",
@@ -672,15 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): regenerate dashboard.json (projects=9, repositories=11)",
-      "sha": "7890169",
-      "date": "2026-09-19T18:25:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7890169bc7a5f20f0cbbeee26bb170ef42c3067a"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #229: 일감 공급원이 라인을 산다 — 케이던스 vs 문화 (라이카)",
@@ -717,30 +735,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add robot-learning to github-agents mapping note",
-      "sha": "00aadd1",
-      "date": "2026-09-19T09:29:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/00aadd1bebb9cbd6608b306c223dd2a2a9566ed0"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-19: 위키 갱신 (2개)",
       "sha": "584a913",
       "date": "2026-09-19T05:12:54Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/584a91313805cbe36b539996847d9ea3995dd0f5"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-19: 뉴스 수집 (5건)",
-      "sha": "c8fe4e3",
-      "date": "2026-09-18T23:16:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c8fe4e3d6800daf19a0cfb129d8fa9b27d6bb3e6"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 20,
+      "commits": 19,
       "prs": 18,
       "issues": 0,
       "reviews": 0
