@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-20T06:46:05Z",
-  "since": "2026-08-21T06:45:37Z",
+  "generated": "2026-09-20T09:06:12Z",
+  "since": "2026-08-21T09:05:10Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-20T06:08:09Z",
-      "pushed_at": "2026-09-20T06:08:06Z",
+      "updated_at": "2026-09-20T06:46:43Z",
+      "pushed_at": "2026-09-20T06:46:40Z",
       "recent_commits": [
+        {
+          "sha": "6bc6631",
+          "message": "dashboard: regenerate dashboard.json and github-activity (2026-09-20 15:44 KST)",
+          "author": "daeguru",
+          "date": "2026-09-20T06:46:40Z"
+        },
         {
           "sha": "ed44009",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-20T06:08:03Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-20T00:07:20Z)",
           "author": "daeguru",
           "date": "2026-09-20T00:07:20Z"
-        },
-        {
-          "sha": "28d0f8a",
-          "message": "DAC 리포트 230회차 다이어그램 — 루틴과 빈 칸(관측로그 대기) (라이카)",
-          "author": "sfex11",
-          "date": "2026-09-19T23:17:47Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json and github-activity (2026-09-20 15:44 KST)",
+      "sha": "6bc6631",
+      "date": "2026-09-20T06:46:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6bc66315fd69dc13cdb2594a48459c61a6f74dce"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-20T06:08:03Z)",
       "sha": "ed44009",
       "date": "2026-09-20T06:08:03Z",
@@ -678,15 +687,6 @@
       "sha": "8890b77",
       "date": "2026-09-19T23:18:05Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/8890b779ef6d0cf636d50becb295e1d10bc378f9"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "DAC 리포트 230회차 다이어그램 — 루틴과 빈 칸(관측로그 대기) (라이카)",
-      "sha": "28d0f8a",
-      "date": "2026-09-19T23:17:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/28d0f8a1794678768f194b74589b930d2f4374f9"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 18,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
