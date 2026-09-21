@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-21T03:07:31Z",
-  "since": "2026-08-22T03:06:47Z",
+  "generated": "2026-09-21T06:06:53Z",
+  "since": "2026-08-22T06:06:05Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 54,
+      "open_issues": 55,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-21T00:46:11Z",
-      "pushed_at": "2026-09-21T00:46:07Z",
+      "updated_at": "2026-09-21T03:07:38Z",
+      "pushed_at": "2026-09-21T03:07:34Z",
       "recent_commits": [
+        {
+          "sha": "44a6cac",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-21T03:07:31Z)",
+          "author": "daeguru",
+          "date": "2026-09-21T03:07:31Z"
+        },
         {
           "sha": "75307e2",
           "message": "dashboard: wiki/dashboard/GitHub 활동 데이터 갱신 (2026-09-21 09:45 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-20T21:07:42Z)",
           "author": "daeguru",
           "date": "2026-09-20T21:07:44Z"
-        },
-        {
-          "sha": "513eb84",
-          "message": "dashboard: wiki/dashboard/GitHub 활동 데이터 갱신 (2026-09-21 03:45 KST)",
-          "author": "daeguru",
-          "date": "2026-09-20T18:46:10Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-20T23:19:51Z",
-      "pushed_at": "2026-09-20T23:19:48Z",
+      "updated_at": "2026-09-21T05:11:02Z",
+      "pushed_at": "2026-09-21T05:10:59Z",
       "recent_commits": [
+        {
+          "sha": "f544403",
+          "message": "📚 2026-09-21: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-21T05:10:55Z"
+        },
         {
           "sha": "d73c898",
           "message": "📰 2026-09-21: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-09-20: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-09-20T05:10:04Z"
-        },
-        {
-          "sha": "a672264",
-          "message": "📰 2026-09-20: 뉴스 수집 (4건)",
-          "author": "Renover",
-          "date": "2026-09-19T23:45:23Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 6,
       "open_prs": 3,
-      "updated_at": "2026-09-20T17:13:49Z",
-      "pushed_at": "2026-09-20T17:13:46Z",
+      "updated_at": "2026-09-21T05:19:30Z",
+      "pushed_at": "2026-09-21T05:19:26Z",
       "recent_commits": [
+        {
+          "sha": "63fa580",
+          "message": "교훈 #235: 라인의 성숙은 도착 시각의 분산으로 측정한다 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-21T05:19:26Z"
+        },
         {
           "sha": "e8051b2",
           "message": "교훈 #233: 케이던스가 안정되면 라인은 자기 관리를 시작한다 (라이카)",
@@ -503,12 +509,6 @@
           "message": "교훈 #230: 새 규칙의 첫 기록은 기존 루틴이 쉬는 시간에 온다 — 루틴-신규 경합 (라이카)",
           "author": "sfex11",
           "date": "2026-09-19T23:14:56Z"
-        },
-        {
-          "sha": "ada6eb3",
-          "message": "교훈 #229: 일감 공급원이 라인을 산다 — 케이던스 vs 문화 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-19T17:11:54Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #235: 라인의 성숙은 도착 시각의 분산으로 측정한다 (라이카)",
+      "sha": "63fa580",
+      "date": "2026-09-21T05:19:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/63fa5803062009bcab69f44162200fc01021bea3"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-21: 위키 갱신 (2개)",
+      "sha": "f544403",
+      "date": "2026-09-21T05:10:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f544403a855355c1b5add05cab73923205885fda"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-21T03:07:31Z)",
+      "sha": "44a6cac",
+      "date": "2026-09-21T03:07:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/44a6cacfad567e7fea2cb6e08a1be5c5bbeac2a4"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: wiki/dashboard/GitHub 활동 데이터 갱신 (2026-09-21 09:45 KST)",
@@ -651,15 +678,6 @@
       "sha": "2d1c33f",
       "date": "2026-09-20T21:07:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2d1c33fe8a63a245af284db7ba1dfc827f57ec38"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: wiki/dashboard/GitHub 활동 데이터 갱신 (2026-09-21 03:45 KST)",
-      "sha": "513eb84",
-      "date": "2026-09-20T18:46:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/513eb849e342bfe9183e566f1406e75cc78936c3"
     },
     {
       "type": "commit",
@@ -717,30 +735,12 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-20: 뉴스 수집 (4건)",
-      "sha": "a672264",
-      "date": "2026-09-19T23:45:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a6722643332425507cbe59c14e09c0c2523fbc7f"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #230: 새 규칙의 첫 기록은 기존 루틴이 쉬는 시간에 온다 — 루틴-신규 경합 (라이카)",
       "sha": "8b5c695",
       "date": "2026-09-19T23:14:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8b5c6954960aa9e776282b3a8b69f2770b31bfe5"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #229: 일감 공급원이 라인을 산다 — 케이던스 vs 문화 (라이카)",
-      "sha": "ada6eb3",
-      "date": "2026-09-19T17:11:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ada6eb3f75adcdf470433000d59ddea1b2c712dd"
     },
     {
       "type": "pr",
