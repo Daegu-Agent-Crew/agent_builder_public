@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-21T06:06:53Z",
-  "since": "2026-08-22T06:06:05Z",
+  "generated": "2026-09-21T06:46:17Z",
+  "since": "2026-08-22T06:45:44Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-21T03:07:38Z",
-      "pushed_at": "2026-09-21T03:07:34Z",
+      "updated_at": "2026-09-21T06:07:05Z",
+      "pushed_at": "2026-09-21T06:07:01Z",
       "recent_commits": [
+        {
+          "sha": "84d16b6",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-21T06:06:53Z)",
+          "author": "daeguru",
+          "date": "2026-09-21T06:06:58Z"
+        },
         {
           "sha": "44a6cac",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-21T03:07:31Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: wiki/dashboard/GitHub 활동 데이터 갱신 (2026-09-21 06:45 KST)",
           "author": "daeguru",
           "date": "2026-09-20T21:46:00Z"
-        },
-        {
-          "sha": "2d1c33f",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-20T21:07:42Z)",
-          "author": "daeguru",
-          "date": "2026-09-20T21:07:44Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-21T06:06:53Z)",
+      "sha": "84d16b6",
+      "date": "2026-09-21T06:06:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/84d16b674752b4671860d5277df9007167733422"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #235: 라인의 성숙은 도착 시각의 분산으로 측정한다 (라이카)",
@@ -669,15 +678,6 @@
       "sha": "9a76ce0",
       "date": "2026-09-20T21:46:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9a76ce04197f24a87c118e4446857fd4cab026ab"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-20T21:07:42Z)",
-      "sha": "2d1c33f",
-      "date": "2026-09-20T21:07:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2d1c33fe8a63a245af284db7ba1dfc827f57ec38"
     },
     {
       "type": "commit",
