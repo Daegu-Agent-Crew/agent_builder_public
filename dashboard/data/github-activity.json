@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-21T15:06:13Z",
-  "since": "2026-08-22T15:05:29Z",
+  "generated": "2026-09-21T18:05:41Z",
+  "since": "2026-08-22T18:04:56Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 56,
+      "open_issues": 57,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-21T12:46:38Z",
-      "pushed_at": "2026-09-21T12:46:35Z",
+      "updated_at": "2026-09-21T15:06:21Z",
+      "pushed_at": "2026-09-21T15:06:17Z",
       "recent_commits": [
+        {
+          "sha": "73192b5",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-21T15:06:13Z)",
+          "author": "daeguru",
+          "date": "2026-09-21T15:06:13Z"
+        },
         {
           "sha": "9ada9d2",
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-21T09:08:54Z)",
           "author": "daeguru",
           "date": "2026-09-21T09:08:55Z"
-        },
-        {
-          "sha": "165fa0e",
-          "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-21 15:46 KST)",
-          "author": "daeguru",
-          "date": "2026-09-21T06:46:35Z"
         }
       ],
       "recent_prs": [
@@ -475,11 +475,17 @@
       "slug": "Daegu-Agent-Crew/team-memory",
       "name": "team-memory",
       "private": true,
-      "open_issues": 6,
+      "open_issues": 7,
       "open_prs": 3,
-      "updated_at": "2026-09-21T11:20:31Z",
-      "pushed_at": "2026-09-21T11:20:27Z",
+      "updated_at": "2026-09-21T17:19:22Z",
+      "pushed_at": "2026-09-21T17:19:18Z",
       "recent_commits": [
+        {
+          "sha": "98d48d5",
+          "message": "교훈 #237: 습관의 첫 칸은 기존 흐름에 얹는 지점에서 열린다 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-21T17:19:18Z"
+        },
         {
           "sha": "429b30c",
           "message": "교훈 #236: 사람 점화 라인의 수면은 달력이 아니라 큐의 함수다 (라이카)",
@@ -503,12 +509,6 @@
           "message": "교훈 #232: 점화는 과제의 내용을 탄다 — 티켓이 아니라 관심 정렬 (라이카)",
           "author": "Laika",
           "date": "2026-09-20T11:22:03Z"
-        },
-        {
-          "sha": "aec16cf",
-          "message": "교훈 #231: 무인 라인은 주말을 모르고, 사람 점화 라인은 주말에 잔다",
-          "author": "Laika",
-          "date": "2026-09-20T05:12:09Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #237: 습관의 첫 칸은 기존 흐름에 얹는 지점에서 열린다 (라이카)",
+      "sha": "98d48d5",
+      "date": "2026-09-21T17:19:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/98d48d5450acae098ac584511b6d21085bf4f42d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-21T15:06:13Z)",
+      "sha": "73192b5",
+      "date": "2026-09-21T15:06:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/73192b536973fe9e214e4c422c09da972e544313"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-09-21: 데일리 브리핑 아카이브",
@@ -660,15 +678,6 @@
       "sha": "61e7a9a",
       "date": "2026-09-21T09:08:55Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/61e7a9a0c42f8099a4f5704084c530dac164d52f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-21 15:46 KST)",
-      "sha": "165fa0e",
-      "date": "2026-09-21T06:46:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/165fa0e5a51a721501e8bdb8432a85c788c5dd01"
     },
     {
       "type": "commit",
@@ -732,15 +741,6 @@
       "sha": "0db4562",
       "date": "2026-09-20T11:22:03Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0db4562a28ba56cecb272662ac0c3352c5e95ddd"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #231: 무인 라인은 주말을 모르고, 사람 점화 라인은 주말에 잔다",
-      "sha": "aec16cf",
-      "date": "2026-09-20T05:12:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/aec16cfab5b4ac50b1a5afec211bb3f39e62c3ec"
     },
     {
       "type": "pr",
