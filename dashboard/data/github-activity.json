@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-21T18:05:41Z",
-  "since": "2026-08-22T18:04:56Z",
+  "generated": "2026-09-21T18:46:34Z",
+  "since": "2026-08-22T18:46:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-21T15:06:21Z",
-      "pushed_at": "2026-09-21T15:06:17Z",
+      "updated_at": "2026-09-21T18:05:48Z",
+      "pushed_at": "2026-09-21T18:05:44Z",
       "recent_commits": [
+        {
+          "sha": "920e1e8",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-21T18:05:41Z)",
+          "author": "daeguru",
+          "date": "2026-09-21T18:05:41Z"
+        },
         {
           "sha": "73192b5",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-21T15:06:13Z)",
@@ -85,12 +91,6 @@
           "message": "dac-236 diagram: 도착 밴드 수렴 (뉴스룸 새벽 위키 10일 8분 밴드)",
           "author": "Laika",
           "date": "2026-09-21T11:19:44Z"
-        },
-        {
-          "sha": "61e7a9a",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-21T09:08:54Z)",
-          "author": "daeguru",
-          "date": "2026-09-21T09:08:55Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-21T18:05:41Z)",
+      "sha": "920e1e8",
+      "date": "2026-09-21T18:05:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/920e1e8afb74a8cd5e593e673ffeeada7c0d40ab"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #237: 습관의 첫 칸은 기존 흐름에 얹는 지점에서 열린다 (라이카)",
@@ -669,15 +678,6 @@
       "sha": "18e21fa",
       "date": "2026-09-21T11:19:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/18e21fa478a1c4998efbacac77f06289bf2dabe8"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-21T09:08:54Z)",
-      "sha": "61e7a9a",
-      "date": "2026-09-21T09:08:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/61e7a9a0c42f8099a4f5704084c530dac164d52f"
     },
     {
       "type": "commit",
