@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-21T00:05:58Z",
-  "since": "2026-08-22T00:05:11Z",
+  "generated": "2026-09-21T00:45:57Z",
+  "since": "2026-08-22T00:45:26Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-20T21:46:04Z",
-      "pushed_at": "2026-09-20T21:46:01Z",
+      "updated_at": "2026-09-21T00:06:05Z",
+      "pushed_at": "2026-09-21T00:06:01Z",
       "recent_commits": [
+        {
+          "sha": "518a3c8",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-21T00:05:58Z)",
+          "author": "daeguru",
+          "date": "2026-09-21T00:05:58Z"
+        },
         {
           "sha": "9a76ce0",
           "message": "dashboard: wiki/dashboard/GitHub 활동 데이터 갱신 (2026-09-21 06:45 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-20T18:09:38Z)",
           "author": "daeguru",
           "date": "2026-09-20T18:09:38Z"
-        },
-        {
-          "sha": "327d983",
-          "message": "DAC 스튜디오 리포트 233회차 다이어그램: 뉴스룸 네 번째 시계(자발 청소) (라이카)",
-          "author": "Laika",
-          "date": "2026-09-20T17:18:34Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-21T00:05:58Z)",
+      "sha": "518a3c8",
+      "date": "2026-09-21T00:05:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/518a3c85ae074dc07084161d9f421afe3834b8e8"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-21: 뉴스 수집 (5건)",
@@ -651,15 +660,6 @@
       "sha": "5b0c4cb",
       "date": "2026-09-20T18:09:38Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5b0c4cb63275634bf6ebf05f7b6f9dd86791b907"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "DAC 스튜디오 리포트 233회차 다이어그램: 뉴스룸 네 번째 시계(자발 청소) (라이카)",
-      "sha": "327d983",
-      "date": "2026-09-20T17:18:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/327d983d8317fed45b7381ce844e0e542fd63795"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
