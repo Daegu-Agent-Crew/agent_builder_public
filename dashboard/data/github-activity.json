@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-21T09:08:54Z",
-  "since": "2026-08-22T09:07:48Z",
+  "generated": "2026-09-21T12:06:09Z",
+  "since": "2026-08-22T12:05:26Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 55,
+      "open_issues": 56,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-21T06:46:39Z",
-      "pushed_at": "2026-09-21T06:46:36Z",
+      "updated_at": "2026-09-21T11:19:48Z",
+      "pushed_at": "2026-09-21T11:19:45Z",
       "recent_commits": [
+        {
+          "sha": "18e21fa",
+          "message": "dac-236 diagram: 도착 밴드 수렴 (뉴스룸 새벽 위키 10일 8분 밴드)",
+          "author": "Laika",
+          "date": "2026-09-21T11:19:44Z"
+        },
+        {
+          "sha": "61e7a9a",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-21T09:08:54Z)",
+          "author": "daeguru",
+          "date": "2026-09-21T09:08:55Z"
+        },
         {
           "sha": "165fa0e",
           "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-21 15:46 KST)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-21T03:07:31Z)",
           "author": "daeguru",
           "date": "2026-09-21T03:07:31Z"
-        },
-        {
-          "sha": "75307e2",
-          "message": "dashboard: wiki/dashboard/GitHub 활동 데이터 갱신 (2026-09-21 09:45 KST)",
-          "author": "daeguru",
-          "date": "2026-09-21T00:46:07Z"
-        },
-        {
-          "sha": "518a3c8",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-21T00:05:58Z)",
-          "author": "daeguru",
-          "date": "2026-09-21T00:05:58Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 6,
       "open_prs": 3,
-      "updated_at": "2026-09-21T05:19:30Z",
-      "pushed_at": "2026-09-21T05:19:26Z",
+      "updated_at": "2026-09-21T11:20:31Z",
+      "pushed_at": "2026-09-21T11:20:27Z",
       "recent_commits": [
+        {
+          "sha": "429b30c",
+          "message": "교훈 #236: 사람 점화 라인의 수면은 달력이 아니라 큐의 함수다 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-21T11:20:27Z"
+        },
         {
           "sha": "63fa580",
           "message": "교훈 #235: 라인의 성숙은 도착 시각의 분산으로 측정한다 (라이카)",
@@ -503,12 +509,6 @@
           "message": "교훈 #231: 무인 라인은 주말을 모르고, 사람 점화 라인은 주말에 잔다",
           "author": "Laika",
           "date": "2026-09-20T05:12:09Z"
-        },
-        {
-          "sha": "8b5c695",
-          "message": "교훈 #230: 새 규칙의 첫 기록은 기존 루틴이 쉬는 시간에 온다 — 루틴-신규 경합 (라이카)",
-          "author": "sfex11",
-          "date": "2026-09-19T23:14:56Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #236: 사람 점화 라인의 수면은 달력이 아니라 큐의 함수다 (라이카)",
+      "sha": "429b30c",
+      "date": "2026-09-21T11:20:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/429b30ccb9ec8cb95204ba1d0a554a40333917b7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "dac-236 diagram: 도착 밴드 수렴 (뉴스룸 새벽 위키 10일 8분 밴드)",
+      "sha": "18e21fa",
+      "date": "2026-09-21T11:19:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/18e21fa478a1c4998efbacac77f06289bf2dabe8"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-21T09:08:54Z)",
+      "sha": "61e7a9a",
+      "date": "2026-09-21T09:08:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/61e7a9a0c42f8099a4f5704084c530dac164d52f"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-21 15:46 KST)",
@@ -651,24 +678,6 @@
       "sha": "44a6cac",
       "date": "2026-09-21T03:07:31Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/44a6cacfad567e7fea2cb6e08a1be5c5bbeac2a4"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: wiki/dashboard/GitHub 활동 데이터 갱신 (2026-09-21 09:45 KST)",
-      "sha": "75307e2",
-      "date": "2026-09-21T00:46:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/75307e2aa1b02e45c2ee2f0d74cd7b4aedbf26fe"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-21T00:05:58Z)",
-      "sha": "518a3c8",
-      "date": "2026-09-21T00:05:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/518a3c85ae074dc07084161d9f421afe3834b8e8"
     },
     {
       "type": "commit",
@@ -732,15 +741,6 @@
       "sha": "bc3c509",
       "date": "2026-09-20T05:10:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/bc3c509dfd6803275a33c59f5d6ca770287ca3e1"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #230: 새 규칙의 첫 기록은 기존 루틴이 쉬는 시간에 온다 — 루틴-신규 경합 (라이카)",
-      "sha": "8b5c695",
-      "date": "2026-09-19T23:14:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8b5c6954960aa9e776282b3a8b69f2770b31bfe5"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 16,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
