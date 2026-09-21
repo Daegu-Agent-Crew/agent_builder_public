@@ -2,15 +2,16 @@
   "meta": {
     "version": 1,
     "generatedAt": "2026-08-11",
-    "totalVideos": 23,
-    "totalChannels": 16,
+    "totalVideos": 24,
+    "totalChannels": 17,
     "byType": {
-      "영상 요약": 15,
+      "영상 요약": 16,
       "담화 패턴 분석": 5,
       "기타": 2,
       "참가자 분석": 1
     },
     "byChannel": {
+      "배움의달인 (김정)": 1,
       "엥지유니버스 | 로봇 엔지니어": 1,
       "AI Frontier Korea (노정석)": 1,
       "AI Jason": 3,
@@ -29,13 +30,33 @@
       "천영록": 1
     },
     "byMonth": {
-      "2026-09": 2,
+      "2026-09": 3,
       "2026-08": 7,
       "2026-07": 11,
       "2026-06": 3
     }
   },
   "videos": [
+    {
+      "filename": "2026-09-22-jev-api-typesafe.md",
+      "title": "Jev API 사용법 (TypeSafe AI) —",
+      "videoUrl": "https://youtu.be/hRW-Gh5Y4MM",
+      "channel": "배움의달인 (김정)",
+      "speaker": "",
+      "date": "2026-09-22",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "Jev는 말을 하는 챗 모델이 아니라 **판단·선택만 하는 결정 엔진**이다. LLM이 데이터를 모으면 Jev가 확률과 신뢰도가 붙은 결정을 반환하고, 코드가 그 결정대로 분기한다. LLM 대비 ~193배 빠르고 ~444배 싸다.",
+      "sections": [
+        "Jev란 (공식 문서 교차 확인)",
+        "영상 유스케이스 4가지",
+        "공통 패턴 (우리가 빌려올 것)",
+        "Daegu-Agent-Crew 적용 제안"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-09-22-jev-api-typesafe.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/hRW-Gh5Y4MM/mqdefault.jpg"
+    },
     {
       "filename": "2026-09-19-world-models-genie3-cosmos-predict25.md",
       "title": "월드 모델 전쟁: Genie 3 vs Cosmos-Predict 2.5, Physical AI의 다음 단계",
