@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-22T03:45:52Z",
-  "since": "2026-08-23T03:45:20Z",
+  "generated": "2026-09-22T06:05:45Z",
+  "since": "2026-08-23T06:05:00Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 58,
+      "open_issues": 59,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-22T03:08:43Z",
-      "pushed_at": "2026-09-22T03:08:39Z",
+      "updated_at": "2026-09-22T05:30:26Z",
+      "pushed_at": "2026-09-22T05:30:22Z",
       "recent_commits": [
+        {
+          "sha": "b47e86c",
+          "message": "dac-239 diagram: 깨어난 라인은 옛 습관만 싣고 복귀한다 (교훈 #238, P233-3 hit로 재확증)",
+          "author": "sfex11",
+          "date": "2026-09-22T05:30:21Z"
+        },
+        {
+          "sha": "b67555f",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json [auto]",
+          "author": "daeguru",
+          "date": "2026-09-22T03:46:02Z"
+        },
         {
           "sha": "93f0ff0",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-22T03:08:36Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-22T00:05:41Z)",
           "author": "daeguru",
           "date": "2026-09-22T00:05:41Z"
-        },
-        {
-          "sha": "f1d39ab",
-          "message": "chore: update youtube dashboard data (jev api)",
-          "author": "daeguru",
-          "date": "2026-09-21T23:11:46Z"
-        },
-        {
-          "sha": "cfecf13",
-          "message": "chore(dashboard): update dashboard.json and github-activity (auto)",
-          "author": "daeguru",
-          "date": "2026-09-21T21:46:23Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-21T23:18:59Z",
-      "pushed_at": "2026-09-21T23:18:54Z",
+      "updated_at": "2026-09-22T05:14:12Z",
+      "pushed_at": "2026-09-22T05:14:08Z",
       "recent_commits": [
+        {
+          "sha": "10a43e8",
+          "message": "📚 2026-09-22: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-22T05:13:59Z"
+        },
         {
           "sha": "b2a884f",
           "message": "📰 2026-09-22: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-21: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-20T23:19:48Z"
-        },
-        {
-          "sha": "8128c33",
-          "message": "🔍 2026-09-20: 위키 린트 점검",
-          "author": "Renover",
-          "date": "2026-09-20T14:10:22Z"
         }
       ],
       "recent_prs": [
@@ -475,40 +475,40 @@
       "slug": "Daegu-Agent-Crew/team-memory",
       "name": "team-memory",
       "private": true,
-      "open_issues": 7,
+      "open_issues": 8,
       "open_prs": 3,
-      "updated_at": "2026-09-22T01:18:15Z",
-      "pushed_at": "2026-09-22T01:18:11Z",
+      "updated_at": "2026-09-22T05:30:21Z",
+      "pushed_at": "2026-09-22T05:30:18Z",
       "recent_commits": [
         {
-          "sha": "30d23e2",
-          "message": "feat(agents-board): Jev 판단 게이트 추가 (CLE2-27 Phase 3 · PROTOCOL §9.4.1) (#28)",
+          "sha": "2c23125",
+          "message": "교훈 #239: 에이전트가 에이전트를 깨운다 — A2A 첫 완주 (라이카)",
           "author": "sfex11",
-          "date": "2026-09-22T01:18:11Z"
+          "date": "2026-09-22T05:30:17Z"
         },
         {
-          "sha": "e87f351",
-          "message": "교훈 #238: 깨어난 라인은 옛 습관만 싣고 복귀한다 — 착지는 내용 지문으로 판정 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-21T23:27:19Z"
+          "sha": "bb38e44",
+          "message": "log: Jev 게이트 판정 기록 2026-09-22",
+          "author": "daeguru",
+          "date": "2026-09-22T05:14:18Z"
         },
         {
-          "sha": "9d94772",
-          "message": "Add Jev API (TypeSafe AI) video summary record",
-          "author": "sfex11",
-          "date": "2026-09-21T23:10:37Z"
+          "sha": "32c9bf9",
+          "message": "wake: FB-20260922-02 daeguru 기상 기록",
+          "author": "daeguru",
+          "date": "2026-09-22T05:14:17Z"
         },
         {
-          "sha": "98d48d5",
-          "message": "교훈 #237: 습관의 첫 칸은 기존 흐름에 얹는 지점에서 열린다 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-21T17:19:18Z"
+          "sha": "c583f32",
+          "message": "wake: FB-20260922-01 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-09-22T05:12:31Z"
         },
         {
-          "sha": "429b30c",
-          "message": "교훈 #236: 사람 점화 라인의 수면은 달력이 아니라 큐의 함수다 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-21T11:20:27Z"
+          "sha": "8c8a167",
+          "message": "feed: FB-20260922-02 다음 주 피드 주제 추천 응답 + FB-20260922-01 ACK (daeguru2)",
+          "author": "daeguru2",
+          "date": "2026-09-22T05:12:00Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,78 @@
     {
       "type": "commit",
       "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac-239 diagram: 깨어난 라인은 옛 습관만 싣고 복귀한다 (교훈 #238, P233-3 hit로 재확증)",
+      "sha": "b47e86c",
+      "date": "2026-09-22T05:30:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b47e86cdac253000df2fab80ba6496ebfc7b8a7c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #239: 에이전트가 에이전트를 깨운다 — A2A 첫 완주 (라이카)",
+      "sha": "2c23125",
+      "date": "2026-09-22T05:30:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2c23125ac6684b2ef720dd4f87104e110807e16d"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-09-22",
+      "sha": "bb38e44",
+      "date": "2026-09-22T05:14:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bb38e442aad5690c6d3b6dd7c917afe8fe42ac74"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20260922-02 daeguru 기상 기록",
+      "sha": "32c9bf9",
+      "date": "2026-09-22T05:14:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/32c9bf9e261f9f87adb61e0272586caf3676b3b2"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-22: 위키 갱신 (2개)",
+      "sha": "10a43e8",
+      "date": "2026-09-22T05:13:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/10a43e8f5756f04fac54f13f43449b5ed39c0756"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20260922-01 daeguru2 기상 기록",
+      "sha": "c583f32",
+      "date": "2026-09-22T05:12:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c583f323b55ab86df04a26eb0685588907a58405"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru2",
+      "message": "feed: FB-20260922-02 다음 주 피드 주제 추천 응답 + FB-20260922-01 ACK (daeguru2)",
+      "sha": "8c8a167",
+      "date": "2026-09-22T05:12:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8c8a167f724012fb9a082320ea9a5639f30ad8b0"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json [auto]",
+      "sha": "b67555f",
+      "date": "2026-09-22T03:46:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b67555f8df2ab7863c7c0b151461cb19135a42a1"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-22T03:08:36Z)",
       "sha": "93f0ff0",
@@ -644,15 +716,6 @@
       "state": "closed",
       "date": "2026-09-22T01:18:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/28"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "feat(agents-board): Jev 판단 게이트 추가 (CLE2-27 Phase 3 · PROTOCOL §9.4.1) (#28)",
-      "sha": "30d23e2",
-      "date": "2026-09-22T01:18:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/30d23e290f208da3ead6ab896870361c48914ac6"
     },
     {
       "type": "commit",
@@ -712,15 +775,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #238: 깨어난 라인은 옛 습관만 싣고 복귀한다 — 착지는 내용 지문으로 판정 (라이카)",
-      "sha": "e87f351",
-      "date": "2026-09-21T23:27:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e87f351cb52195785ae26730a126aff1dcf04e5e"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-22: 뉴스 수집 (5건)",
@@ -730,57 +784,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update youtube dashboard data (jev api)",
-      "sha": "f1d39ab",
-      "date": "2026-09-21T23:11:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f1d39ab01daf478516837c695fbe0e52c1b30ea9"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add Jev API (TypeSafe AI) video summary record",
-      "sha": "9d94772",
-      "date": "2026-09-21T23:10:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9d94772416b77fbbea3c439ccdc06afaf59f3651"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity (auto)",
-      "sha": "cfecf13",
-      "date": "2026-09-21T21:46:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cfecf138aac51db40be3578eddad14bfb62415cd"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #237: 습관의 첫 칸은 기존 흐름에 얹는 지점에서 열린다 (라이카)",
-      "sha": "98d48d5",
-      "date": "2026-09-21T17:19:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/98d48d5450acae098ac584511b6d21085bf4f42d"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-09-21: 데일리 브리핑 아카이브",
       "sha": "53621a6",
       "date": "2026-09-21T12:48:13Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/53621a69b0ba8924d73b228132164bf01ac525fc"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #236: 사람 점화 라인의 수면은 달력이 아니라 큐의 함수다 (라이카)",
-      "sha": "429b30c",
-      "date": "2026-09-21T11:20:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/429b30ccb9ec8cb95204ba1d0a554a40333917b7"
     },
     {
       "type": "commit",
@@ -799,15 +808,6 @@
       "sha": "d73c898",
       "date": "2026-09-20T23:19:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d73c89823b585de790e64a4a2000e30db0b1eab4"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔍 2026-09-20: 위키 린트 점검",
-      "sha": "8128c33",
-      "date": "2026-09-20T14:10:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/8128c3397a0b962d5c0916b76e954109437f44a6"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 8,
       "prs": 0,
       "issues": 0,
       "reviews": 0
