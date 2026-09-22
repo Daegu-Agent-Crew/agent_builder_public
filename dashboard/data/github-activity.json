@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T00:45:35Z",
-  "since": "2026-08-23T00:45:01Z",
+  "generated": "2026-09-22T03:08:36Z",
+  "since": "2026-08-23T03:07:50Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-22T00:05:49Z",
-      "pushed_at": "2026-09-22T00:05:45Z",
+      "updated_at": "2026-09-22T00:45:49Z",
+      "pushed_at": "2026-09-22T00:45:45Z",
       "recent_commits": [
+        {
+          "sha": "efb4b12",
+          "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-22 09:45 KST)",
+          "author": "daeguru",
+          "date": "2026-09-22T00:45:44Z"
+        },
         {
           "sha": "db85c7c",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-22T00:05:41Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-21T21:07:31Z)",
           "author": "daeguru",
           "date": "2026-09-21T21:07:31Z"
-        },
-        {
-          "sha": "5e52e07",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-21T18:46:44Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-22T00:06:16Z",
-      "pushed_at": "2026-09-22T00:06:14Z",
+      "updated_at": "2026-09-22T01:19:28Z",
+      "pushed_at": "2026-09-22T01:19:25Z",
       "recent_commits": [
+        {
+          "sha": "37af6c3",
+          "message": "docs(CLE2-27): TESTS·STATUS — Jev 게이트 검증 항목 및 Phase 3 진행 갱신 (#91)",
+          "author": "sfex11",
+          "date": "2026-09-22T01:19:23Z"
+        },
         {
           "sha": "f3e3af7",
           "message": "docs(CLE2-27): Phase 3 착수 상태 갱신 (Jev 키 등록·스모크 테스트·설계안 v1) (#90)",
@@ -233,15 +239,17 @@
           "message": "docs(CLE2-27): Phase 1 완료·Phase 2 착수 상태 갱신 (#87)",
           "author": "sfex11",
           "date": "2026-09-16T07:33:08Z"
-        },
-        {
-          "sha": "17cf457",
-          "message": "docs(CLE2-27): Phase 1 진행 상태 갱신 — PROTOCOL v2 확장안 PR 제출 (#86)",
-          "author": "sfex11",
-          "date": "2026-09-16T07:17:59Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 91,
+          "title": "docs(CLE2-27): TESTS·STATUS — Jev 게이트 검증·진행 갱신",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-09-22T01:19:26Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/91"
+        },
         {
           "number": 90,
           "title": "docs(CLE2-27): Phase 3 착수 상태 갱신",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-09-21T23:57:52Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/89"
-        },
-        {
-          "number": 88,
-          "title": "docs(CLE2-27): Phase 2 완료 상태 갱신",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-16T07:41:25Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/88"
         }
       ]
     },
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 7,
       "open_prs": 3,
-      "updated_at": "2026-09-21T23:27:23Z",
-      "pushed_at": "2026-09-21T23:27:19Z",
+      "updated_at": "2026-09-22T01:18:15Z",
+      "pushed_at": "2026-09-22T01:18:11Z",
       "recent_commits": [
+        {
+          "sha": "30d23e2",
+          "message": "feat(agents-board): Jev 판단 게이트 추가 (CLE2-27 Phase 3 · PROTOCOL §9.4.1) (#28)",
+          "author": "sfex11",
+          "date": "2026-09-22T01:18:11Z"
+        },
         {
           "sha": "e87f351",
           "message": "교훈 #238: 깨어난 라인은 옛 습관만 싣고 복귀한다 — 착지는 내용 지문으로 판정 (라이카)",
@@ -503,15 +509,17 @@
           "message": "교훈 #236: 사람 점화 라인의 수면은 달력이 아니라 큐의 함수다 (라이카)",
           "author": "Laika",
           "date": "2026-09-21T11:20:27Z"
-        },
-        {
-          "sha": "63fa580",
-          "message": "교훈 #235: 라인의 성숙은 도착 시각의 분산으로 측정한다 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-21T05:19:26Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 28,
+          "title": "CLE2-27 Phase 3: Jev 판단 게이트 (스캐너 확장)",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-09-22T01:18:11Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/28"
+        },
         {
           "number": 24,
           "title": "PROTOCOL §9.4 기상 규격 확정 — CLE2-27 Phase 3 (ACK·wakes·기상 스캐너)",
@@ -527,14 +535,6 @@
           "state": "closed",
           "updated_at": "2026-09-16T07:40:22Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/23"
-        },
-        {
-          "number": 22,
-          "title": "feat(agents-board): roster v2 마이그레이션 + 전 에이전트 등록 + feed 개설 (CLE2-27 Phase 2)",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-16T07:33:06Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/22"
         }
       ]
     },
@@ -607,6 +607,53 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-27): TESTS·STATUS — Jev 게이트 검증·진행 갱신",
+      "number": 91,
+      "state": "closed",
+      "date": "2026-09-22T01:19:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/91"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-27): TESTS·STATUS — Jev 게이트 검증 항목 및 Phase 3 진행 갱신 (#91)",
+      "sha": "37af6c3",
+      "date": "2026-09-22T01:19:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/37af6c38aaf60635a25e69b978fd28b8c0abcc9b"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "CLE2-27 Phase 3: Jev 판단 게이트 (스캐너 확장)",
+      "number": 28,
+      "state": "closed",
+      "date": "2026-09-22T01:18:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/28"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "feat(agents-board): Jev 판단 게이트 추가 (CLE2-27 Phase 3 · PROTOCOL §9.4.1) (#28)",
+      "sha": "30d23e2",
+      "date": "2026-09-22T01:18:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/30d23e290f208da3ead6ab896870361c48914ac6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-22 09:45 KST)",
+      "sha": "efb4b12",
+      "date": "2026-09-22T00:45:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/efb4b126bbfe280586ec934c2c1ce732a042178c"
+    },
     {
       "type": "pr",
       "repo": "creative-loop-engineering2",
@@ -710,15 +757,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json",
-      "sha": "5e52e07",
-      "date": "2026-09-21T18:46:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5e52e077dd6fdf4644149f65184a06cc9d265f33"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #237: 습관의 첫 칸은 기존 흐름에 얹는 지점에서 열린다 (라이카)",
@@ -743,15 +781,6 @@
       "sha": "429b30c",
       "date": "2026-09-21T11:20:27Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/429b30ccb9ec8cb95204ba1d0a554a40333917b7"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #235: 라인의 성숙은 도착 시각의 분산으로 측정한다 (라이카)",
-      "sha": "63fa580",
-      "date": "2026-09-21T05:19:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/63fa5803062009bcab69f44162200fc01021bea3"
     },
     {
       "type": "commit",
@@ -791,16 +820,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/24"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-27): Phase 2 완료 상태 갱신",
-      "number": 88,
-      "state": "closed",
-      "date": "2026-09-16T07:41:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/88"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -827,25 +846,6 @@
       "sha": "176cbe0",
       "date": "2026-09-16T07:33:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/176cbe0aba0435d3cd2ffce669a612adf15e6b8a"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "feat(agents-board): roster v2 마이그레이션 + 전 에이전트 등록 + feed 개설 (CLE2-27 Phase 2)",
-      "number": 22,
-      "state": "closed",
-      "date": "2026-09-16T07:33:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/22"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-27): Phase 1 진행 상태 갱신 — PROTOCOL v2 확장안 PR 제출 (#86)",
-      "sha": "17cf457",
-      "date": "2026-09-16T07:17:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/17cf4577a91b17046fa03059e9c6964ae2c078a3"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 18,
       "prs": 18,
       "issues": 0,
       "reviews": 0
