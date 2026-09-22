@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T00:05:41Z",
-  "since": "2026-08-23T00:04:57Z",
+  "generated": "2026-09-22T00:45:35Z",
+  "since": "2026-08-23T00:45:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-21T23:11:50Z",
-      "pushed_at": "2026-09-21T23:11:47Z",
+      "updated_at": "2026-09-22T00:05:49Z",
+      "pushed_at": "2026-09-22T00:05:45Z",
       "recent_commits": [
+        {
+          "sha": "db85c7c",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-22T00:05:41Z)",
+          "author": "daeguru",
+          "date": "2026-09-22T00:05:41Z"
+        },
         {
           "sha": "f1d39ab",
           "message": "chore: update youtube dashboard data (jev api)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-09-21T18:46:44Z"
-        },
-        {
-          "sha": "920e1e8",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-21T18:05:41Z)",
-          "author": "daeguru",
-          "date": "2026-09-21T18:05:41Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-21T23:57:54Z",
-      "pushed_at": "2026-09-21T23:57:52Z",
+      "updated_at": "2026-09-22T00:06:16Z",
+      "pushed_at": "2026-09-22T00:06:14Z",
       "recent_commits": [
+        {
+          "sha": "f3e3af7",
+          "message": "docs(CLE2-27): Phase 3 착수 상태 갱신 (Jev 키 등록·스모크 테스트·설계안 v1) (#90)",
+          "author": "sfex11",
+          "date": "2026-09-22T00:06:12Z"
+        },
         {
           "sha": "82774de",
           "message": "docs(CLE2-27): STATUS에 Jev 도입 검토 항목 반영 (이슈 #84 의견 등록) (#89)",
@@ -233,15 +239,17 @@
           "message": "docs(CLE2-27): Phase 1 진행 상태 갱신 — PROTOCOL v2 확장안 PR 제출 (#86)",
           "author": "sfex11",
           "date": "2026-09-16T07:17:59Z"
-        },
-        {
-          "sha": "9d77a37",
-          "message": "feat(CLE2-27): 태스크 초기 설정 — 에이전트 SNS (GitHub-native) (#85)",
-          "author": "sfex11",
-          "date": "2026-09-16T01:31:49Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 90,
+          "title": "docs(CLE2-27): Phase 3 착수 상태 갱신",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-09-22T00:06:14Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/90"
+        },
         {
           "number": 89,
           "title": "docs(CLE2-27): STATUS에 Jev 도입 검토 항목 반영",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-09-16T07:41:25Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/88"
-        },
-        {
-          "number": 87,
-          "title": "docs(CLE2-27): Phase 1 완료·Phase 2 착수 상태 갱신",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-16T07:33:11Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/87"
         }
       ]
     },
@@ -611,6 +611,34 @@
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
+      "message": "docs(CLE2-27): Phase 3 착수 상태 갱신",
+      "number": 90,
+      "state": "closed",
+      "date": "2026-09-22T00:06:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/90"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-27): Phase 3 착수 상태 갱신 (Jev 키 등록·스모크 테스트·설계안 v1) (#90)",
+      "sha": "f3e3af7",
+      "date": "2026-09-22T00:06:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f3e3af78465f96d50bf7c6e35490e327f1faf234"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-22T00:05:41Z)",
+      "sha": "db85c7c",
+      "date": "2026-09-22T00:05:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/db85c7c000555e1c43e651b547a57c4d30ad05c1"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
       "message": "docs(CLE2-27): STATUS에 Jev 도입 검토 항목 반영",
       "number": 89,
       "state": "closed",
@@ -688,15 +716,6 @@
       "sha": "5e52e07",
       "date": "2026-09-21T18:46:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5e52e077dd6fdf4644149f65184a06cc9d265f33"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-21T18:05:41Z)",
-      "sha": "920e1e8",
-      "date": "2026-09-21T18:05:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/920e1e8afb74a8cd5e593e673ffeeada7c0d40ab"
     },
     {
       "type": "commit",
@@ -801,16 +820,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/23"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-27): Phase 1 완료·Phase 2 착수 상태 갱신",
-      "number": 87,
-      "state": "closed",
-      "date": "2026-09-16T07:33:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/87"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -837,15 +846,6 @@
       "sha": "17cf457",
       "date": "2026-09-16T07:17:59Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/17cf4577a91b17046fa03059e9c6964ae2c078a3"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-27): 태스크 초기 설정 — 에이전트 SNS (GitHub-native) (#85)",
-      "sha": "9d77a37",
-      "date": "2026-09-16T01:31:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/9d77a371109853fdfeae287f0e5c83de041a2918"
     },
     {
       "type": "pr",
