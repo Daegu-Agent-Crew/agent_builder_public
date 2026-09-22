@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-22T15:46:21Z",
-  "since": "2026-08-23T15:45:53Z",
+  "generated": "2026-09-22T18:07:52Z",
+  "since": "2026-08-23T18:07:03Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 60,
+      "open_issues": 61,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-22T15:07:36Z",
-      "pushed_at": "2026-09-22T15:07:32Z",
+      "updated_at": "2026-09-22T15:47:21Z",
+      "pushed_at": "2026-09-22T15:47:18Z",
       "recent_commits": [
+        {
+          "sha": "44733d2",
+          "message": "chore: dashboard 데이터 갱신 (2026-09-23)",
+          "author": "daeguru",
+          "date": "2026-09-22T15:47:16Z"
+        },
         {
           "sha": "33f5354",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-22T15:07:28Z)",
@@ -85,12 +91,6 @@
           "message": "dac-240 diagram: 에이전트가 에이전트를 깨운다 — 질문 편지→기상 스캐너→동료 로봇 기상→답변 도장 (교훈 #239 주제)",
           "author": "Laika",
           "date": "2026-09-22T11:11:59Z"
-        },
-        {
-          "sha": "f55d001",
-          "message": "dashboard: update dashboard.json and github-activity.json (auto 2026-09-22 18:45 KST)",
-          "author": "daeguru",
-          "date": "2026-09-22T09:45:42Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 8,
       "open_prs": 3,
-      "updated_at": "2026-09-22T15:34:27Z",
-      "pushed_at": "2026-09-22T15:34:22Z",
+      "updated_at": "2026-09-22T17:11:23Z",
+      "pushed_at": "2026-09-22T17:11:18Z",
       "recent_commits": [
+        {
+          "sha": "5b82514",
+          "message": "교훈 #241: 전달은 세 관문(스캔→기상→행동) — 1관문 통과만으로 전달 성공 선언 금지",
+          "author": "Laika",
+          "date": "2026-09-22T17:11:18Z"
+        },
         {
           "sha": "4594802",
           "message": "log: Jev 게이트 판정 기록 2026-09-23",
@@ -503,12 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-09-22",
           "author": "daeguru",
           "date": "2026-09-22T09:32:22Z"
-        },
-        {
-          "sha": "2c23125",
-          "message": "교훈 #239: 에이전트가 에이전트를 깨운다 — A2A 첫 완주 (라이카)",
-          "author": "sfex11",
-          "date": "2026-09-22T05:30:17Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,24 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #241: 전달은 세 관문(스캔→기상→행동) — 1관문 통과만으로 전달 성공 선언 금지",
+      "sha": "5b82514",
+      "date": "2026-09-22T17:11:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5b82514b264f2ea8ba62f856e35e32aa549d0cac"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: dashboard 데이터 갱신 (2026-09-23)",
+      "sha": "44733d2",
+      "date": "2026-09-22T15:47:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/44733d2867f94aed0af2107fe55bd77f9ea28986"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "daeguru-agent",
       "message": "log: Jev 게이트 판정 기록 2026-09-23",
       "sha": "4594802",
@@ -681,30 +699,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (auto 2026-09-22 18:45 KST)",
-      "sha": "f55d001",
-      "date": "2026-09-22T09:45:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f55d00160e47a551c5f1e74bda329924e907b307"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-09-22",
       "sha": "5eeff01",
       "date": "2026-09-22T09:32:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5eeff0158e566f8112a1194c1defb7d85892f2f0"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "교훈 #239: 에이전트가 에이전트를 깨운다 — A2A 첫 완주 (라이카)",
-      "sha": "2c23125",
-      "date": "2026-09-22T05:30:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2c23125ac6684b2ef720dd4f87104e110807e16d"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 16,
       "prs": 18,
       "issues": 0,
       "reviews": 0
