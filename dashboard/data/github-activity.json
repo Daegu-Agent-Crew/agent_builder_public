@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T15:07:28Z",
-  "since": "2026-08-23T15:06:37Z",
+  "generated": "2026-09-22T15:46:21Z",
+  "since": "2026-08-23T15:45:53Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-22T12:46:32Z",
-      "pushed_at": "2026-09-22T12:46:28Z",
+      "updated_at": "2026-09-22T15:07:36Z",
+      "pushed_at": "2026-09-22T15:07:32Z",
       "recent_commits": [
+        {
+          "sha": "33f5354",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-22T15:07:28Z)",
+          "author": "daeguru",
+          "date": "2026-09-22T15:07:28Z"
+        },
         {
           "sha": "f6d138a",
           "message": "dashboard: update dashboard.json & github-activity.json (2026-09-22 21:46 KST)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (auto 2026-09-22 18:45 KST)",
           "author": "daeguru",
           "date": "2026-09-22T09:45:42Z"
-        },
-        {
-          "sha": "97f85d9",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-22T09:08:41Z)",
-          "author": "daeguru",
-          "date": "2026-09-22T09:08:41Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 8,
       "open_prs": 3,
-      "updated_at": "2026-09-22T11:11:56Z",
-      "pushed_at": "2026-09-22T11:11:52Z",
+      "updated_at": "2026-09-22T15:34:27Z",
+      "pushed_at": "2026-09-22T15:34:22Z",
       "recent_commits": [
+        {
+          "sha": "4594802",
+          "message": "log: Jev 게이트 판정 기록 2026-09-23",
+          "author": "daeguru-agent",
+          "date": "2026-09-22T15:34:22Z"
+        },
         {
           "sha": "37b06bc",
           "message": "교훈 #240: 피드백은 닿는 채널로 배달한다 — 이슈는 사서함, 게시판 카드는 초인종 (라이카)",
@@ -503,12 +509,6 @@
           "message": "교훈 #239: 에이전트가 에이전트를 깨운다 — A2A 첫 완주 (라이카)",
           "author": "sfex11",
           "date": "2026-09-22T05:30:17Z"
-        },
-        {
-          "sha": "bb38e44",
-          "message": "log: Jev 게이트 판정 기록 2026-09-22",
-          "author": "daeguru",
-          "date": "2026-09-22T05:14:18Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru-agent",
+      "message": "log: Jev 게이트 판정 기록 2026-09-23",
+      "sha": "4594802",
+      "date": "2026-09-22T15:34:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/45948022c4afdc3bc47815aa7928b8802fde16eb"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-22T15:07:28Z)",
+      "sha": "33f5354",
+      "date": "2026-09-22T15:07:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/33f5354f25f0235371f3c79e82b134b3261f4943"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json & github-activity.json (2026-09-22 21:46 KST)",
@@ -681,30 +699,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-22T09:08:41Z)",
-      "sha": "97f85d9",
-      "date": "2026-09-22T09:08:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/97f85d90601e8637fa781370d46c153ab03a3b77"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #239: 에이전트가 에이전트를 깨운다 — A2A 첫 완주 (라이카)",
       "sha": "2c23125",
       "date": "2026-09-22T05:30:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2c23125ac6684b2ef720dd4f87104e110807e16d"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-09-22",
-      "sha": "bb38e44",
-      "date": "2026-09-22T05:14:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bb38e442aad5690c6d3b6dd7c917afe8fe42ac74"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
