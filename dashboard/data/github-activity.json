@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T18:07:52Z",
-  "since": "2026-08-23T18:07:03Z",
+  "generated": "2026-09-22T18:46:32Z",
+  "since": "2026-08-23T18:46:05Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-22T15:47:21Z",
-      "pushed_at": "2026-09-22T15:47:18Z",
+      "updated_at": "2026-09-22T18:08:01Z",
+      "pushed_at": "2026-09-22T18:07:56Z",
       "recent_commits": [
+        {
+          "sha": "6c98273",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-22T18:07:52Z)",
+          "author": "daeguru",
+          "date": "2026-09-22T18:07:52Z"
+        },
         {
           "sha": "44733d2",
           "message": "chore: dashboard 데이터 갱신 (2026-09-23)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-22T12:07:12Z)",
           "author": "daeguru",
           "date": "2026-09-22T12:07:12Z"
-        },
-        {
-          "sha": "cff2d6c",
-          "message": "dac-240 diagram: 에이전트가 에이전트를 깨운다 — 질문 편지→기상 스캐너→동료 로봇 기상→답변 도장 (교훈 #239 주제)",
-          "author": "Laika",
-          "date": "2026-09-22T11:11:59Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-22T18:07:52Z)",
+      "sha": "6c98273",
+      "date": "2026-09-22T18:07:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6c9827325a8f5674b834f1d4dc3b3414fed7590f"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #241: 전달은 세 관문(스캔→기상→행동) — 1관문 통과만으로 전달 성공 선언 금지",
@@ -669,15 +678,6 @@
       "sha": "e490fcc",
       "date": "2026-09-22T12:07:12Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e490fcc89dfc481f26a2e42842549b6fccda8270"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "dac-240 diagram: 에이전트가 에이전트를 깨운다 — 질문 편지→기상 스캐너→동료 로봇 기상→답변 도장 (교훈 #239 주제)",
-      "sha": "cff2d6c",
-      "date": "2026-09-22T11:11:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cff2d6c0ce8bba2d4775ccbc19b95bb0ae0031f8"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
