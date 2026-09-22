@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T09:08:41Z",
-  "since": "2026-08-23T09:06:21Z",
+  "generated": "2026-09-22T09:45:32Z",
+  "since": "2026-08-23T09:44:59Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-22T06:47:46Z",
-      "pushed_at": "2026-09-22T06:47:42Z",
+      "updated_at": "2026-09-22T09:08:48Z",
+      "pushed_at": "2026-09-22T09:08:44Z",
       "recent_commits": [
+        {
+          "sha": "97f85d9",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-22T09:08:41Z)",
+          "author": "daeguru",
+          "date": "2026-09-22T09:08:41Z"
+        },
         {
           "sha": "b92eb87",
           "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-09-22T06:47:42Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json [auto]",
           "author": "daeguru",
           "date": "2026-09-22T03:46:02Z"
-        },
-        {
-          "sha": "93f0ff0",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-22T03:08:36Z)",
-          "author": "daeguru",
-          "date": "2026-09-22T03:08:37Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 8,
       "open_prs": 3,
-      "updated_at": "2026-09-22T05:30:21Z",
-      "pushed_at": "2026-09-22T05:30:18Z",
+      "updated_at": "2026-09-22T09:32:27Z",
+      "pushed_at": "2026-09-22T09:32:22Z",
       "recent_commits": [
+        {
+          "sha": "5eeff01",
+          "message": "log: Jev 게이트 판정 기록 2026-09-22",
+          "author": "daeguru",
+          "date": "2026-09-22T09:32:22Z"
+        },
         {
           "sha": "2c23125",
           "message": "교훈 #239: 에이전트가 에이전트를 깨운다 — A2A 첫 완주 (라이카)",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20260922-01 daeguru2 기상 기록",
           "author": "daeguru",
           "date": "2026-09-22T05:12:31Z"
-        },
-        {
-          "sha": "8c8a167",
-          "message": "feed: FB-20260922-02 다음 주 피드 주제 추천 응답 + FB-20260922-01 ACK (daeguru2)",
-          "author": "daeguru2",
-          "date": "2026-09-22T05:12:00Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-09-22",
+      "sha": "5eeff01",
+      "date": "2026-09-22T09:32:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5eeff0158e566f8112a1194c1defb7d85892f2f0"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-22T09:08:41Z)",
+      "sha": "97f85d9",
+      "date": "2026-09-22T09:08:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/97f85d90601e8637fa781370d46c153ab03a3b77"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-09-22T06:47:42Z)",
@@ -681,30 +699,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru2",
-      "message": "feed: FB-20260922-02 다음 주 피드 주제 추천 응답 + FB-20260922-01 ACK (daeguru2)",
-      "sha": "8c8a167",
-      "date": "2026-09-22T05:12:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8c8a167f724012fb9a082320ea9a5639f30ad8b0"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard.json and github-activity.json [auto]",
       "sha": "b67555f",
       "date": "2026-09-22T03:46:02Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b67555f8df2ab7863c7c0b151461cb19135a42a1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-22T03:08:36Z)",
-      "sha": "93f0ff0",
-      "date": "2026-09-22T03:08:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/93f0ff0e76fc14eda3b4eb4cbd8a8408b5b5cfde"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 8,
+      "commits": 9,
       "prs": 0,
       "issues": 0,
       "reviews": 0
