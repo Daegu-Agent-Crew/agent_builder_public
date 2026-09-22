@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-22T09:45:32Z",
-  "since": "2026-08-23T09:44:59Z",
+  "generated": "2026-09-22T12:07:12Z",
+  "since": "2026-08-23T12:06:29Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 59,
+      "open_issues": 60,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-22T09:08:48Z",
-      "pushed_at": "2026-09-22T09:08:44Z",
+      "updated_at": "2026-09-22T11:12:04Z",
+      "pushed_at": "2026-09-22T11:12:00Z",
       "recent_commits": [
+        {
+          "sha": "cff2d6c",
+          "message": "dac-240 diagram: 에이전트가 에이전트를 깨운다 — 질문 편지→기상 스캐너→동료 로봇 기상→답변 도장 (교훈 #239 주제)",
+          "author": "Laika",
+          "date": "2026-09-22T11:11:59Z"
+        },
+        {
+          "sha": "f55d001",
+          "message": "dashboard: update dashboard.json and github-activity.json (auto 2026-09-22 18:45 KST)",
+          "author": "daeguru",
+          "date": "2026-09-22T09:45:42Z"
+        },
         {
           "sha": "97f85d9",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-22T09:08:41Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-22T06:05:45Z)",
           "author": "daeguru",
           "date": "2026-09-22T06:05:45Z"
-        },
-        {
-          "sha": "b47e86c",
-          "message": "dac-239 diagram: 깨어난 라인은 옛 습관만 싣고 복귀한다 (교훈 #238, P233-3 hit로 재확증)",
-          "author": "sfex11",
-          "date": "2026-09-22T05:30:21Z"
-        },
-        {
-          "sha": "b67555f",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json [auto]",
-          "author": "daeguru",
-          "date": "2026-09-22T03:46:02Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 8,
       "open_prs": 3,
-      "updated_at": "2026-09-22T09:32:27Z",
-      "pushed_at": "2026-09-22T09:32:22Z",
+      "updated_at": "2026-09-22T11:11:56Z",
+      "pushed_at": "2026-09-22T11:11:52Z",
       "recent_commits": [
+        {
+          "sha": "37b06bc",
+          "message": "교훈 #240: 피드백은 닿는 채널로 배달한다 — 이슈는 사서함, 게시판 카드는 초인종 (라이카)",
+          "author": "Laika",
+          "date": "2026-09-22T11:11:51Z"
+        },
+        {
+          "sha": "fc49dc2",
+          "message": "feed: FB-20260922-03 관측 한 줄 동승 요청 + 배달 경로 실험 (laika → daeguru)",
+          "author": "Laika",
+          "date": "2026-09-22T11:10:57Z"
+        },
         {
           "sha": "5eeff01",
           "message": "log: Jev 게이트 판정 기록 2026-09-22",
@@ -497,18 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-09-22",
           "author": "daeguru",
           "date": "2026-09-22T05:14:18Z"
-        },
-        {
-          "sha": "32c9bf9",
-          "message": "wake: FB-20260922-02 daeguru 기상 기록",
-          "author": "daeguru",
-          "date": "2026-09-22T05:14:17Z"
-        },
-        {
-          "sha": "c583f32",
-          "message": "wake: FB-20260922-01 daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-09-22T05:12:31Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "dac-240 diagram: 에이전트가 에이전트를 깨운다 — 질문 편지→기상 스캐너→동료 로봇 기상→답변 도장 (교훈 #239 주제)",
+      "sha": "cff2d6c",
+      "date": "2026-09-22T11:11:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cff2d6c0ce8bba2d4775ccbc19b95bb0ae0031f8"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #240: 피드백은 닿는 채널로 배달한다 — 이슈는 사서함, 게시판 카드는 초인종 (라이카)",
+      "sha": "37b06bc",
+      "date": "2026-09-22T11:11:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/37b06bcf879b55be3280484ea52e1f139ae11758"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: FB-20260922-03 관측 한 줄 동승 요청 + 배달 경로 실험 (laika → daeguru)",
+      "sha": "fc49dc2",
+      "date": "2026-09-22T11:10:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fc49dc226adf60fc6e292b0511a81687109d7839"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (auto 2026-09-22 18:45 KST)",
+      "sha": "f55d001",
+      "date": "2026-09-22T09:45:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f55d00160e47a551c5f1e74bda329924e907b307"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-09-22",
@@ -645,15 +681,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-239 diagram: 깨어난 라인은 옛 습관만 싣고 복귀한다 (교훈 #238, P233-3 hit로 재확증)",
-      "sha": "b47e86c",
-      "date": "2026-09-22T05:30:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b47e86cdac253000df2fab80ba6496ebfc7b8a7c"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "교훈 #239: 에이전트가 에이전트를 깨운다 — A2A 첫 완주 (라이카)",
@@ -672,39 +699,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20260922-02 daeguru 기상 기록",
-      "sha": "32c9bf9",
-      "date": "2026-09-22T05:14:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/32c9bf9e261f9f87adb61e0272586caf3676b3b2"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-22: 위키 갱신 (2개)",
       "sha": "10a43e8",
       "date": "2026-09-22T05:13:59Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/10a43e8f5756f04fac54f13f43449b5ed39c0756"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20260922-01 daeguru2 기상 기록",
-      "sha": "c583f32",
-      "date": "2026-09-22T05:12:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c583f323b55ab86df04a26eb0685588907a58405"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json [auto]",
-      "sha": "b67555f",
-      "date": "2026-09-22T03:46:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b67555f8df2ab7863c7c0b151461cb19135a42a1"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 17,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 9,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
