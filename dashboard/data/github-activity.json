@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T12:07:12Z",
-  "since": "2026-08-23T12:06:29Z",
+  "generated": "2026-09-22T12:46:14Z",
+  "since": "2026-08-23T12:45:44Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-22T11:12:04Z",
-      "pushed_at": "2026-09-22T11:12:00Z",
+      "updated_at": "2026-09-22T12:07:19Z",
+      "pushed_at": "2026-09-22T12:07:15Z",
       "recent_commits": [
+        {
+          "sha": "e490fcc",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-22T12:07:12Z)",
+          "author": "daeguru",
+          "date": "2026-09-22T12:07:12Z"
+        },
         {
           "sha": "cff2d6c",
           "message": "dac-240 diagram: 에이전트가 에이전트를 깨운다 — 질문 편지→기상 스캐너→동료 로봇 기상→답변 도장 (교훈 #239 주제)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-09-22T06:47:42Z)",
           "author": "daeguru",
           "date": "2026-09-22T06:47:42Z"
-        },
-        {
-          "sha": "395fe7d",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-22T06:05:45Z)",
-          "author": "daeguru",
-          "date": "2026-09-22T06:05:45Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-22T05:14:12Z",
-      "pushed_at": "2026-09-22T05:14:08Z",
+      "updated_at": "2026-09-22T12:45:00Z",
+      "pushed_at": "2026-09-22T12:44:55Z",
       "recent_commits": [
+        {
+          "sha": "d82bdee",
+          "message": "📋 2026-09-22: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-09-22T12:44:51Z"
+        },
         {
           "sha": "10a43e8",
           "message": "📚 2026-09-22: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📚 2026-09-21: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-09-21T05:10:55Z"
-        },
-        {
-          "sha": "d73c898",
-          "message": "📰 2026-09-21: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-09-20T23:19:48Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-09-22: 데일리 브리핑 아카이브",
+      "sha": "d82bdee",
+      "date": "2026-09-22T12:44:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d82bdeeff176ccdea160dff65ba8eb35c07b1fa6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-22T12:07:12Z)",
+      "sha": "e490fcc",
+      "date": "2026-09-22T12:07:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e490fcc89dfc481f26a2e42842549b6fccda8270"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "Laika",
       "message": "dac-240 diagram: 에이전트가 에이전트를 깨운다 — 질문 편지→기상 스캐너→동료 로봇 기상→답변 도장 (교훈 #239 주제)",
@@ -669,15 +687,6 @@
       "sha": "b92eb87",
       "date": "2026-09-22T06:47:42Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b92eb87f2aa6940b7bb65ca1d07cc0048145616c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-22T06:05:45Z)",
-      "sha": "395fe7d",
-      "date": "2026-09-22T06:05:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/395fe7d42636889d2bc91497d4f02dc1dcb9a0bb"
     },
     {
       "type": "commit",
@@ -799,15 +808,6 @@
       "sha": "f544403",
       "date": "2026-09-21T05:10:55Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f544403a855355c1b5add05cab73923205885fda"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-21: 뉴스 수집 (5건)",
-      "sha": "d73c898",
-      "date": "2026-09-20T23:19:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d73c89823b585de790e64a4a2000e30db0b1eab4"
     },
     {
       "type": "pr",
