@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-23T00:45:44Z",
-  "since": "2026-08-24T00:45:15Z",
+  "generated": "2026-09-23T03:06:33Z",
+  "since": "2026-08-24T03:05:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-23T00:08:47Z",
-      "pushed_at": "2026-09-23T00:08:43Z",
+      "updated_at": "2026-09-23T00:45:57Z",
+      "pushed_at": "2026-09-23T00:45:54Z",
       "recent_commits": [
+        {
+          "sha": "637ec67",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-09-23 09:45 KST)",
+          "author": "daeguru",
+          "date": "2026-09-23T00:45:53Z"
+        },
         {
           "sha": "996bb6a",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-23T00:08:40Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-22T21:07:53Z)",
           "author": "daeguru",
           "date": "2026-09-22T21:07:53Z"
-        },
-        {
-          "sha": "71b159c",
-          "message": "dashboard: regenerate dashboard.json and github-activity.json (2026-09-23 03:46 KST)",
-          "author": "daeguru",
-          "date": "2026-09-22T18:46:45Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-09-23 09:45 KST)",
+      "sha": "637ec67",
+      "date": "2026-09-23T00:45:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/637ec67a239449241417cf37123160133bac9e99"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "대구루 (AI)",
       "message": "feed: 캐릭터 시트 이미지 생성 막힘 보고 (CLE33)",
@@ -734,15 +743,6 @@
       "sha": "c99bb24",
       "date": "2026-09-22T21:07:53Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c99bb249d27e9fecda206321b9ea870a6581057f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: regenerate dashboard.json and github-activity.json (2026-09-23 03:46 KST)",
-      "sha": "71b159c",
-      "date": "2026-09-22T18:46:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/71b159c2487d68fc0150695df04e4e010b88d613"
     },
     {
       "type": "commit",
