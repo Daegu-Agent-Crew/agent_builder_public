@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-23T11:29:16Z",
-  "since": "2026-08-24T11:28:46Z",
+  "generated": "2026-09-23T12:07:28Z",
+  "since": "2026-08-24T12:06:19Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-23T11:15:26Z",
-      "pushed_at": "2026-09-23T11:15:21Z",
+      "updated_at": "2026-09-23T11:29:49Z",
+      "pushed_at": "2026-09-23T11:29:45Z",
       "recent_commits": [
+        {
+          "sha": "85cb928",
+          "message": "dashboard: 정기 갱신 (2026-09-23 20:30 KST)",
+          "author": "daeguru",
+          "date": "2026-09-23T11:29:45Z"
+        },
         {
           "sha": "1483cd3",
           "message": "assets: dac-244 다이어그램 — 기준표가 먼저 (교훈 #243 시각화)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-23T06:06:39Z)",
           "author": "daeguru",
           "date": "2026-09-23T06:06:39Z"
-        },
-        {
-          "sha": "15a8adc",
-          "message": "data: update dashboard and github activity (scheduled 2026-09-23 14:30 KST)",
-          "author": "daeguru",
-          "date": "2026-09-23T05:30:22Z"
         }
       ],
       "recent_prs": [
@@ -608,6 +608,15 @@
   ],
   "activity_feed": [
     {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: 정기 갱신 (2026-09-23 20:30 KST)",
+      "sha": "85cb928",
+      "date": "2026-09-23T11:29:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/85cb928f2d9381410b56bbc6f9949f86af2c0583"
+    },
+    {
       "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
@@ -716,15 +725,6 @@
       "sha": "24c1288",
       "date": "2026-09-23T06:06:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/24c1288a11346a26dab49a8a22767970ea3db2bc"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "data: update dashboard and github activity (scheduled 2026-09-23 14:30 KST)",
-      "sha": "15a8adc",
-      "date": "2026-09-23T05:30:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/15a8adc7166e33b9f3b16750e672e5c4de50e5d8"
     },
     {
       "type": "commit",
