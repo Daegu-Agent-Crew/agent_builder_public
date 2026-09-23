@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-23T03:06:33Z",
-  "since": "2026-08-24T03:05:47Z",
+  "generated": "2026-09-23T05:29:59Z",
+  "since": "2026-08-24T05:29:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 62,
+      "open_issues": 63,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-23T00:45:57Z",
-      "pushed_at": "2026-09-23T00:45:54Z",
+      "updated_at": "2026-09-23T05:10:33Z",
+      "pushed_at": "2026-09-23T05:10:29Z",
       "recent_commits": [
+        {
+          "sha": "7e45c42",
+          "message": "DAC 리포트 243회차 다이어그램 — 세 로봇의 만화 공장 (컨베이어: 스토리→콘티→이미지→채점→발행)",
+          "author": "Laika",
+          "date": "2026-09-23T05:10:29Z"
+        },
+        {
+          "sha": "db954ac",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-23T03:06:33Z)",
+          "author": "daeguru",
+          "date": "2026-09-23T03:06:33Z"
+        },
         {
           "sha": "637ec67",
           "message": "dashboard: update dashboard.json and github-activity.json (2026-09-23 09:45 KST)",
@@ -79,18 +91,6 @@
           "message": "dac-242 diagram: 배달의 세 관문 (3관문 완주 회차)",
           "author": "sfex11",
           "date": "2026-09-22T23:10:07Z"
-        },
-        {
-          "sha": "2ad89be",
-          "message": "dashboard: update dashboard.json and github-activity.json (2026-09-23 06:46 KST)",
-          "author": "daeguru",
-          "date": "2026-09-22T21:46:06Z"
-        },
-        {
-          "sha": "c99bb24",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-22T21:07:53Z)",
-          "author": "daeguru",
-          "date": "2026-09-22T21:07:53Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-22T23:16:15Z",
-      "pushed_at": "2026-09-22T23:16:11Z",
+      "updated_at": "2026-09-23T05:09:15Z",
+      "pushed_at": "2026-09-23T05:09:11Z",
       "recent_commits": [
+        {
+          "sha": "befcfa8",
+          "message": "📚 2026-09-23: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-23T05:09:06Z"
+        },
         {
           "sha": "d8cc4d9",
           "message": "📰 2026-09-23: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-22: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-21T23:18:52Z"
-        },
-        {
-          "sha": "53621a6",
-          "message": "📋 2026-09-21: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-09-21T12:48:13Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 8,
       "open_prs": 3,
-      "updated_at": "2026-09-23T00:30:20Z",
-      "pushed_at": "2026-09-23T00:30:17Z",
+      "updated_at": "2026-09-23T05:13:25Z",
+      "pushed_at": "2026-09-23T05:13:22Z",
       "recent_commits": [
+        {
+          "sha": "9d70fdb",
+          "message": "교훈 #243: 채점 기준표를 먼저 세우면 채점은 37분이다 — CLE33 RUBRIC 선행 사이클 실측",
+          "author": "Laika",
+          "date": "2026-09-23T05:13:21Z"
+        },
         {
           "sha": "4ead966",
           "message": "feed: 캐릭터 시트 이미지 생성 막힘 보고 (CLE33)",
@@ -503,12 +509,6 @@
           "message": "feed: FB-20260923-06 EP001 스토리 완성 — 채점·시트 착수 요청",
           "author": "daeguru",
           "date": "2026-09-22T22:32:56Z"
-        },
-        {
-          "sha": "837ab0c",
-          "message": "feed: 현황판 골격 v0 완성 보고 (CLE33 Phase 1)",
-          "author": "대구루 (AI)",
-          "date": "2026-09-22T22:24:53Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #243: 채점 기준표를 먼저 세우면 채점은 37분이다 — CLE33 RUBRIC 선행 사이클 실측",
+      "sha": "9d70fdb",
+      "date": "2026-09-23T05:13:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9d70fdb587879f6d4835077db6c66c3ec2aa92c2"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "DAC 리포트 243회차 다이어그램 — 세 로봇의 만화 공장 (컨베이어: 스토리→콘티→이미지→채점→발행)",
+      "sha": "7e45c42",
+      "date": "2026-09-23T05:10:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7e45c42270a18d245bdfcdd94d753231d1ba9d88"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-23: 위키 갱신 (2개)",
+      "sha": "befcfa8",
+      "date": "2026-09-23T05:09:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/befcfa83aa6247f97a92d79f7b5bfd7a8fc12b2c"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-23T03:06:33Z)",
+      "sha": "db954ac",
+      "date": "2026-09-23T03:06:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/db954acbd5455c708482d08dea291aac39ff83f1"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json (2026-09-23 09:45 KST)",
@@ -680,15 +716,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d06cde7120d2e9c3a521880763eafec17591de5d"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "feed: 현황판 골격 v0 완성 보고 (CLE33 Phase 1)",
-      "sha": "837ab0c",
-      "date": "2026-09-22T22:24:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/837ab0c04e0ee3d145d432c5f3dd84822a377057"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -708,15 +735,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/03a4138943e5d7e513b47467ca5568d6e0e858df"
     },
     {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (2026-09-23 06:46 KST)",
-      "sha": "2ad89be",
-      "date": "2026-09-22T21:46:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2ad89bee2eb1cd2fe08645b482a6585eaecfcf20"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -734,15 +752,6 @@
       "sha": "1fa09f3",
       "date": "2026-09-22T21:35:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1fa09f3e748fe746629a77dcb69973f09bd4c31c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-22T21:07:53Z)",
-      "sha": "c99bb24",
-      "date": "2026-09-22T21:07:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c99bb249d27e9fecda206321b9ea870a6581057f"
     },
     {
       "type": "commit",
@@ -817,15 +826,6 @@
       "sha": "b2a884f",
       "date": "2026-09-21T23:18:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b2a884f49c167e5cb0b00ab11653dbc813e9e21a"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-09-21: 데일리 브리핑 아카이브",
-      "sha": "53621a6",
-      "date": "2026-09-21T12:48:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/53621a69b0ba8924d73b228132164bf01ac525fc"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
