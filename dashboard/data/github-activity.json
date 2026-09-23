@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-22T21:45:37Z",
-  "since": "2026-08-23T21:45:09Z",
+  "generated": "2026-09-23T00:08:40Z",
+  "since": "2026-08-24T00:07:52Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 61,
+      "open_issues": 62,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-22T21:08:02Z",
-      "pushed_at": "2026-09-22T21:07:57Z",
+      "updated_at": "2026-09-22T23:10:12Z",
+      "pushed_at": "2026-09-22T23:10:08Z",
       "recent_commits": [
+        {
+          "sha": "3df1182",
+          "message": "dac-242 diagram: 배달의 세 관문 (3관문 완주 회차)",
+          "author": "sfex11",
+          "date": "2026-09-22T23:10:07Z"
+        },
+        {
+          "sha": "2ad89be",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-09-23 06:46 KST)",
+          "author": "daeguru",
+          "date": "2026-09-22T21:46:06Z"
+        },
         {
           "sha": "c99bb24",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-22T21:07:53Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-22T18:07:52Z)",
           "author": "daeguru",
           "date": "2026-09-22T18:07:52Z"
-        },
-        {
-          "sha": "44733d2",
-          "message": "chore: dashboard 데이터 갱신 (2026-09-23)",
-          "author": "daeguru",
-          "date": "2026-09-22T15:47:16Z"
-        },
-        {
-          "sha": "33f5354",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-22T15:07:28Z)",
-          "author": "daeguru",
-          "date": "2026-09-22T15:07:28Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 4,
       "open_prs": 0,
-      "updated_at": "2026-09-22T12:45:00Z",
-      "pushed_at": "2026-09-22T12:44:55Z",
+      "updated_at": "2026-09-22T23:16:15Z",
+      "pushed_at": "2026-09-22T23:16:11Z",
       "recent_commits": [
+        {
+          "sha": "d8cc4d9",
+          "message": "📰 2026-09-23: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-09-22T23:16:11Z"
+        },
         {
           "sha": "d82bdee",
           "message": "📋 2026-09-22: 데일리 브리핑 아카이브",
@@ -152,12 +158,6 @@
           "message": "📋 2026-09-21: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-09-21T12:48:13Z"
-        },
-        {
-          "sha": "f544403",
-          "message": "📚 2026-09-21: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-09-21T05:10:55Z"
         }
       ],
       "recent_prs": [
@@ -205,11 +205,17 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 10,
+      "open_issues": 11,
       "open_prs": 0,
-      "updated_at": "2026-09-22T21:35:52Z",
-      "pushed_at": "2026-09-22T21:35:52Z",
+      "updated_at": "2026-09-22T22:09:54Z",
+      "pushed_at": "2026-09-22T22:09:51Z",
       "recent_commits": [
+        {
+          "sha": "03a4138",
+          "message": "feat(CLE2-28): 태스크 초기 설정 (#94)",
+          "author": "sfex11",
+          "date": "2026-09-22T22:09:49Z"
+        },
         {
           "sha": "1fa09f3",
           "message": "docs(CLE2-27): STATUS 머리글 정렬 — Phase 3 진행 중로 갱신 (#92)",
@@ -233,15 +239,17 @@
           "message": "docs(CLE2-27): STATUS에 Jev 도입 검토 항목 반영 (이슈 #84 의견 등록) (#89)",
           "author": "sfex11",
           "date": "2026-09-21T23:57:49Z"
-        },
-        {
-          "sha": "23748fc",
-          "message": "docs(CLE2-27): Phase 2 완료 상태 갱신 (#88)",
-          "author": "sfex11",
-          "date": "2026-09-16T07:41:21Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 94,
+          "title": "feat(CLE2-28): CLE33 마션 SF코믹 창작·배포 시스템 태스크 초기 설정",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-09-22T22:09:52Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/94"
+        },
         {
           "number": 92,
           "title": "docs(CLE2-27): STATUS 머리글 정렬 — Phase 3 진행 중로 갱신",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-09-22T01:19:26Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/91"
-        },
-        {
-          "number": 90,
-          "title": "docs(CLE2-27): Phase 3 착수 상태 갱신",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-22T00:06:14Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/90"
         }
       ]
     },
@@ -477,38 +477,38 @@
       "private": true,
       "open_issues": 8,
       "open_prs": 3,
-      "updated_at": "2026-09-22T21:32:50Z",
-      "pushed_at": "2026-09-22T21:32:46Z",
+      "updated_at": "2026-09-22T23:11:28Z",
+      "pushed_at": "2026-09-22T23:11:24Z",
       "recent_commits": [
         {
-          "sha": "828208d",
-          "message": "log: Jev 게이트 판정 기록 2026-09-23",
-          "author": "대구루 (AI)",
-          "date": "2026-09-22T21:32:46Z"
-        },
-        {
-          "sha": "3ee0450",
-          "message": "ack: FB-20260922-03 daeguru 확인 응답 (#29 채택 이행)",
-          "author": "대구루 (AI)",
-          "date": "2026-09-22T21:28:18Z"
-        },
-        {
-          "sha": "5b82514",
-          "message": "교훈 #241: 전달은 세 관문(스캔→기상→행동) — 1관문 통과만으로 전달 성공 선언 금지",
+          "sha": "ecea45c",
+          "message": "feed: FB-20260923-07 EP001 스토리 채점 5/5 통과 보고",
           "author": "Laika",
-          "date": "2026-09-22T17:11:18Z"
+          "date": "2026-09-22T23:11:19Z"
         },
         {
-          "sha": "4594802",
-          "message": "log: Jev 게이트 판정 기록 2026-09-23",
-          "author": "daeguru-agent",
-          "date": "2026-09-22T15:34:22Z"
+          "sha": "78846bf",
+          "message": "교훈 #242: 전달 실패 시 채널을 바꿔라 — 게시판 카드 3관문 완주 실측",
+          "author": "sfex11",
+          "date": "2026-09-22T23:10:11Z"
         },
         {
-          "sha": "37b06bc",
-          "message": "교훈 #240: 피드백은 닿는 채널로 배달한다 — 이슈는 사서함, 게시판 카드는 초인종 (라이카)",
+          "sha": "d06cde7",
+          "message": "feed: FB-20260923-06 EP001 스토리 완성 — 채점·시트 착수 요청",
+          "author": "daeguru",
+          "date": "2026-09-22T22:32:56Z"
+        },
+        {
+          "sha": "837ab0c",
+          "message": "feed: 현황판 골격 v0 완성 보고 (CLE33 Phase 1)",
+          "author": "대구루 (AI)",
+          "date": "2026-09-22T22:24:53Z"
+        },
+        {
+          "sha": "c5ea0c7",
+          "message": "fix: 라이카 채점기준표 카드 ID 중복 정정 FB-20260923-03 → 04 (대구루 -03 선점)",
           "author": "Laika",
-          "date": "2026-09-22T11:11:51Z"
+          "date": "2026-09-22T22:23:07Z"
         }
       ],
       "recent_prs": [
@@ -608,6 +608,97 @@
   ],
   "activity_feed": [
     {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-23: 뉴스 수집 (5건)",
+      "sha": "d8cc4d9",
+      "date": "2026-09-22T23:16:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d8cc4d95123d1fc52177432b488878a472cd7bf0"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: FB-20260923-07 EP001 스토리 채점 5/5 통과 보고",
+      "sha": "ecea45c",
+      "date": "2026-09-22T23:11:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ecea45cd8debbeb9101bb0fc63a6eedac48d1c7d"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "교훈 #242: 전달 실패 시 채널을 바꿔라 — 게시판 카드 3관문 완주 실측",
+      "sha": "78846bf",
+      "date": "2026-09-22T23:10:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/78846bf814a575857757b2b39e32031f30a83596"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac-242 diagram: 배달의 세 관문 (3관문 완주 회차)",
+      "sha": "3df1182",
+      "date": "2026-09-22T23:10:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3df118279eb64a350c3b80094b1bb12356fa13c1"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20260923-06 EP001 스토리 완성 — 채점·시트 착수 요청",
+      "sha": "d06cde7",
+      "date": "2026-09-22T22:32:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d06cde7120d2e9c3a521880763eafec17591de5d"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "feed: 현황판 골격 v0 완성 보고 (CLE33 Phase 1)",
+      "sha": "837ab0c",
+      "date": "2026-09-22T22:24:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/837ab0c04e0ee3d145d432c5f3dd84822a377057"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "fix: 라이카 채점기준표 카드 ID 중복 정정 FB-20260923-03 → 04 (대구루 -03 선점)",
+      "sha": "c5ea0c7",
+      "date": "2026-09-22T22:23:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c5ea0c794aa0d5b4eb3ff9e4f5e8654f7d2c2093"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-28): CLE33 마션 SF코믹 창작·배포 시스템 태스크 초기 설정",
+      "number": 94,
+      "state": "closed",
+      "date": "2026-09-22T22:09:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/94"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-28): 태스크 초기 설정 (#94)",
+      "sha": "03a4138",
+      "date": "2026-09-22T22:09:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/03a4138943e5d7e513b47467ca5568d6e0e858df"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-09-23 06:46 KST)",
+      "sha": "2ad89be",
+      "date": "2026-09-22T21:46:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2ad89bee2eb1cd2fe08645b482a6585eaecfcf20"
+    },
+    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -625,24 +716,6 @@
       "sha": "1fa09f3",
       "date": "2026-09-22T21:35:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1fa09f3e748fe746629a77dcb69973f09bd4c31c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "log: Jev 게이트 판정 기록 2026-09-23",
-      "sha": "828208d",
-      "date": "2026-09-22T21:32:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/828208db25abc639fd9e7451d3e57af4289850f3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "ack: FB-20260922-03 daeguru 확인 응답 (#29 채택 이행)",
-      "sha": "3ee0450",
-      "date": "2026-09-22T21:28:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3ee0450555b5d12fcdb96f930b13daca5b9d1471"
     },
     {
       "type": "commit",
@@ -673,57 +746,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #241: 전달은 세 관문(스캔→기상→행동) — 1관문 통과만으로 전달 성공 선언 금지",
-      "sha": "5b82514",
-      "date": "2026-09-22T17:11:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5b82514b264f2ea8ba62f856e35e32aa549d0cac"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: dashboard 데이터 갱신 (2026-09-23)",
-      "sha": "44733d2",
-      "date": "2026-09-22T15:47:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/44733d2867f94aed0af2107fe55bd77f9ea28986"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru-agent",
-      "message": "log: Jev 게이트 판정 기록 2026-09-23",
-      "sha": "4594802",
-      "date": "2026-09-22T15:34:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/45948022c4afdc3bc47815aa7928b8802fde16eb"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-22T15:07:28Z)",
-      "sha": "33f5354",
-      "date": "2026-09-22T15:07:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/33f5354f25f0235371f3c79e82b134b3261f4943"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-09-22: 데일리 브리핑 아카이브",
       "sha": "d82bdee",
       "date": "2026-09-22T12:44:51Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d82bdeeff176ccdea160dff65ba8eb35c07b1fa6"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #240: 피드백은 닿는 채널로 배달한다 — 이슈는 사서함, 게시판 카드는 초인종 (라이카)",
-      "sha": "37b06bc",
-      "date": "2026-09-22T11:11:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/37b06bcf879b55be3280484ea52e1f139ae11758"
     },
     {
       "type": "commit",
@@ -764,16 +792,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/28"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-27): Phase 3 착수 상태 갱신",
-      "number": 90,
-      "state": "closed",
-      "date": "2026-09-22T00:06:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/90"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -810,15 +828,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/53621a69b0ba8924d73b228132164bf01ac525fc"
     },
     {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-21: 위키 갱신 (2개)",
-      "sha": "f544403",
-      "date": "2026-09-21T05:10:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f544403a855355c1b5add05cab73923205885fda"
-    },
-    {
       "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
@@ -827,15 +836,6 @@
       "state": "closed",
       "date": "2026-09-17T09:32:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/24"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-27): Phase 2 완료 상태 갱신 (#88)",
-      "sha": "23748fc",
-      "date": "2026-09-16T07:41:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/23748fcb3321f4709db615fbb3c546d83c62650c"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
+      "commits": 18,
       "prs": 18,
       "issues": 0,
       "reviews": 0
