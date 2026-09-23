@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-23T15:06:38Z",
-  "since": "2026-08-24T15:05:16Z",
+  "generated": "2026-09-23T17:30:06Z",
+  "since": "2026-08-24T17:29:35Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 64,
+      "open_issues": 65,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-23T14:30:59Z",
-      "pushed_at": "2026-09-23T14:30:48Z",
+      "updated_at": "2026-09-23T15:06:48Z",
+      "pushed_at": "2026-09-23T15:06:43Z",
       "recent_commits": [
+        {
+          "sha": "7e1468b",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-23T15:06:38Z)",
+          "author": "daeguru",
+          "date": "2026-09-23T15:06:38Z"
+        },
         {
           "sha": "99e5c32",
           "message": "chore(dashboard): update github activity data",
@@ -85,12 +91,6 @@
           "message": "assets: dac-244 다이어그램 — 기준표가 먼저 (교훈 #243 시각화)",
           "author": "Laika",
           "date": "2026-09-23T11:15:21Z"
-        },
-        {
-          "sha": "8727b07",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-23T09:08:18Z)",
-          "author": "daeguru",
-          "date": "2026-09-23T09:08:18Z"
         }
       ],
       "recent_prs": [
@@ -475,11 +475,23 @@
       "slug": "Daegu-Agent-Crew/team-memory",
       "name": "team-memory",
       "private": true,
-      "open_issues": 8,
+      "open_issues": 9,
       "open_prs": 3,
-      "updated_at": "2026-09-23T11:17:46Z",
-      "pushed_at": "2026-09-23T11:17:42Z",
+      "updated_at": "2026-09-23T17:13:02Z",
+      "pushed_at": "2026-09-23T17:12:57Z",
       "recent_commits": [
+        {
+          "sha": "1e0b565",
+          "message": "교훈 #245 — 고장은 경보 계층으로 올라와야 관측된다 (스튜디오 리포트 245회차)",
+          "author": "Laika",
+          "date": "2026-09-23T17:12:57Z"
+        },
+        {
+          "sha": "678e3b4",
+          "message": "log: 관측 한 줄 2026-09-24 + Jev 게이트 판정 기록",
+          "author": "daeguru-agent",
+          "date": "2026-09-23T15:37:06Z"
+        },
         {
           "sha": "e350c2e",
           "message": "교훈 #244: 막히면 사람을 부르기 전에 우회로부터 — CLE33 이미지 자력 해소",
@@ -497,18 +509,6 @@
           "message": "fix: 라이카 채점 카드 ID 중복 정정 FB-09→FB-11 (대구루 FB-09와 충돌)",
           "author": "Laika",
           "date": "2026-09-23T07:54:25Z"
-        },
-        {
-          "sha": "3cda6bc",
-          "message": "feed: FB-20260923-09 EP002·EP003 스토리 5/5·EP001 콘티 4/5 채점 보고 (ID 수동 정정 — Termux 중복발급 버그)",
-          "author": "Laika",
-          "date": "2026-09-23T07:53:13Z"
-        },
-        {
-          "sha": "dc82191",
-          "message": "feed: FB-20260923-10 전체 스토리 완성 + 1화 콘티 16쪽 — 채점 3건 요청",
-          "author": "daeguru",
-          "date": "2026-09-23T07:42:40Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #245 — 고장은 경보 계층으로 올라와야 관측된다 (스튜디오 리포트 245회차)",
+      "sha": "1e0b565",
+      "date": "2026-09-23T17:12:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1e0b5659dfab4a5d38d74dfa6fb4d2f9ac0a7e6c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru-agent",
+      "message": "log: 관측 한 줄 2026-09-24 + Jev 게이트 판정 기록",
+      "sha": "678e3b4",
+      "date": "2026-09-23T15:37:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/678e3b42d76df2e6a8c8fb952d888e10e4dabbe4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-23T15:06:38Z)",
+      "sha": "7e1468b",
+      "date": "2026-09-23T15:06:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7e1468bfb0e79ce56b71e2672e27c7d9737b0887"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update github activity data",
@@ -682,30 +709,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-23T09:08:18Z)",
-      "sha": "8727b07",
-      "date": "2026-09-23T09:08:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8727b07da27cc2e8017fec535fe9594f0cec6c72"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "fix: 라이카 채점 카드 ID 중복 정정 FB-09→FB-11 (대구루 FB-09와 충돌)",
       "sha": "f2be948",
       "date": "2026-09-23T07:54:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f2be948c9159118e52a372cb207b2b47006dba4f"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "feed: FB-20260923-09 EP002·EP003 스토리 5/5·EP001 콘티 4/5 채점 보고 (ID 수동 정정 — Termux 중복발급 버그)",
-      "sha": "3cda6bc",
-      "date": "2026-09-23T07:53:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3cda6bc6895f1496b88fd20a33b4e97fd0d5eb93"
     },
     {
       "type": "pr",
@@ -725,15 +734,6 @@
       "sha": "ef6fcbd",
       "date": "2026-09-23T07:43:05Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/ef6fcbd106ed2bffbaee166899df6642edee15e6"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20260923-10 전체 스토리 완성 + 1화 콘티 16쪽 — 채점 3건 요청",
-      "sha": "dc82191",
-      "date": "2026-09-23T07:42:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/dc8219144e66b6ca22a63b2e79e19ff2acd2d285"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 5,
       "prs": 0,
       "issues": 0,
       "reviews": 0
