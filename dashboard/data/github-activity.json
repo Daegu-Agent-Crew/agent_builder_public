@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-23T00:08:40Z",
-  "since": "2026-08-24T00:07:52Z",
+  "generated": "2026-09-23T00:45:44Z",
+  "since": "2026-08-24T00:45:15Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-22T23:10:12Z",
-      "pushed_at": "2026-09-22T23:10:08Z",
+      "updated_at": "2026-09-23T00:08:47Z",
+      "pushed_at": "2026-09-23T00:08:43Z",
       "recent_commits": [
+        {
+          "sha": "996bb6a",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-23T00:08:40Z)",
+          "author": "daeguru",
+          "date": "2026-09-23T00:08:40Z"
+        },
         {
           "sha": "3df1182",
           "message": "dac-242 diagram: 배달의 세 관문 (3관문 완주 회차)",
@@ -85,12 +91,6 @@
           "message": "dashboard: regenerate dashboard.json and github-activity.json (2026-09-23 03:46 KST)",
           "author": "daeguru",
           "date": "2026-09-22T18:46:45Z"
-        },
-        {
-          "sha": "6c98273",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-22T18:07:52Z)",
-          "author": "daeguru",
-          "date": "2026-09-22T18:07:52Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 8,
       "open_prs": 3,
-      "updated_at": "2026-09-22T23:11:28Z",
-      "pushed_at": "2026-09-22T23:11:24Z",
+      "updated_at": "2026-09-23T00:30:20Z",
+      "pushed_at": "2026-09-23T00:30:17Z",
       "recent_commits": [
+        {
+          "sha": "4ead966",
+          "message": "feed: 캐릭터 시트 이미지 생성 막힘 보고 (CLE33)",
+          "author": "대구루 (AI)",
+          "date": "2026-09-23T00:30:17Z"
+        },
         {
           "sha": "ecea45c",
           "message": "feed: FB-20260923-07 EP001 스토리 채점 5/5 통과 보고",
@@ -503,12 +509,6 @@
           "message": "feed: 현황판 골격 v0 완성 보고 (CLE33 Phase 1)",
           "author": "대구루 (AI)",
           "date": "2026-09-22T22:24:53Z"
-        },
-        {
-          "sha": "c5ea0c7",
-          "message": "fix: 라이카 채점기준표 카드 ID 중복 정정 FB-20260923-03 → 04 (대구루 -03 선점)",
-          "author": "Laika",
-          "date": "2026-09-22T22:23:07Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "feed: 캐릭터 시트 이미지 생성 막힘 보고 (CLE33)",
+      "sha": "4ead966",
+      "date": "2026-09-23T00:30:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4ead9665d0aba8a56b48ba01d8e1c91eb5770e00"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-23T00:08:40Z)",
+      "sha": "996bb6a",
+      "date": "2026-09-23T00:08:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/996bb6a6cc5f1eac5f82d1849e76972f9a935f15"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-09-23: 뉴스 수집 (5건)",
@@ -660,15 +678,6 @@
       "sha": "837ab0c",
       "date": "2026-09-22T22:24:53Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/837ab0c04e0ee3d145d432c5f3dd84822a377057"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "fix: 라이카 채점기준표 카드 ID 중복 정정 FB-20260923-03 → 04 (대구루 -03 선점)",
-      "sha": "c5ea0c7",
-      "date": "2026-09-22T22:23:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c5ea0c794aa0d5b4eb3ff9e4f5e8654f7d2c2093"
     },
     {
       "type": "pr",
@@ -734,15 +743,6 @@
       "sha": "71b159c",
       "date": "2026-09-22T18:46:45Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/71b159c2487d68fc0150695df04e4e010b88d613"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-22T18:07:52Z)",
-      "sha": "6c98273",
-      "date": "2026-09-22T18:07:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6c9827325a8f5674b834f1d4dc3b3414fed7590f"
     },
     {
       "type": "commit",
