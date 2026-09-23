@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-23T05:29:59Z",
-  "since": "2026-08-24T05:29:25Z",
+  "generated": "2026-09-23T06:06:39Z",
+  "since": "2026-08-24T06:05:54Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-23T05:10:33Z",
-      "pushed_at": "2026-09-23T05:10:29Z",
+      "updated_at": "2026-09-23T05:30:27Z",
+      "pushed_at": "2026-09-23T05:30:23Z",
       "recent_commits": [
+        {
+          "sha": "15a8adc",
+          "message": "data: update dashboard and github activity (scheduled 2026-09-23 14:30 KST)",
+          "author": "daeguru",
+          "date": "2026-09-23T05:30:22Z"
+        },
         {
           "sha": "7e45c42",
           "message": "DAC 리포트 243회차 다이어그램 — 세 로봇의 만화 공장 (컨베이어: 스토리→콘티→이미지→채점→발행)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-23T00:08:40Z)",
           "author": "daeguru",
           "date": "2026-09-23T00:08:40Z"
-        },
-        {
-          "sha": "3df1182",
-          "message": "dac-242 diagram: 배달의 세 관문 (3관문 완주 회차)",
-          "author": "sfex11",
-          "date": "2026-09-22T23:10:07Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 8,
       "open_prs": 3,
-      "updated_at": "2026-09-23T05:13:25Z",
-      "pushed_at": "2026-09-23T05:13:22Z",
+      "updated_at": "2026-09-23T05:32:14Z",
+      "pushed_at": "2026-09-23T05:32:10Z",
       "recent_commits": [
+        {
+          "sha": "6aacf58",
+          "message": "log: Jev 게이트 판정 기록 2026-09-23",
+          "author": "daeguru",
+          "date": "2026-09-23T05:32:10Z"
+        },
         {
           "sha": "9d70fdb",
           "message": "교훈 #243: 채점 기준표를 먼저 세우면 채점은 37분이다 — CLE33 RUBRIC 선행 사이클 실측",
@@ -503,12 +509,6 @@
           "message": "교훈 #242: 전달 실패 시 채널을 바꿔라 — 게시판 카드 3관문 완주 실측",
           "author": "sfex11",
           "date": "2026-09-22T23:10:11Z"
-        },
-        {
-          "sha": "d06cde7",
-          "message": "feed: FB-20260923-06 EP001 스토리 완성 — 채점·시트 착수 요청",
-          "author": "daeguru",
-          "date": "2026-09-22T22:32:56Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,24 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-09-23",
+      "sha": "6aacf58",
+      "date": "2026-09-23T05:32:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6aacf5850e711958543fbc0ddc49698fad14cedd"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "data: update dashboard and github activity (scheduled 2026-09-23 14:30 KST)",
+      "sha": "15a8adc",
+      "date": "2026-09-23T05:30:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/15a8adc7166e33b9f3b16750e672e5c4de50e5d8"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #243: 채점 기준표를 먼저 세우면 채점은 37분이다 — CLE33 RUBRIC 선행 사이클 실측",
       "sha": "9d70fdb",
@@ -696,24 +714,6 @@
       "sha": "78846bf",
       "date": "2026-09-22T23:10:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/78846bf814a575857757b2b39e32031f30a83596"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-242 diagram: 배달의 세 관문 (3관문 완주 회차)",
-      "sha": "3df1182",
-      "date": "2026-09-22T23:10:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3df118279eb64a350c3b80094b1bb12356fa13c1"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20260923-06 EP001 스토리 완성 — 채점·시트 착수 요청",
-      "sha": "d06cde7",
-      "date": "2026-09-22T22:32:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d06cde7120d2e9c3a521880763eafec17591de5d"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 17,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
