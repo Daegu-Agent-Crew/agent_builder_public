@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-23T09:08:18Z",
-  "since": "2026-08-24T09:07:32Z",
+  "generated": "2026-09-23T11:29:16Z",
+  "since": "2026-08-24T11:28:46Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 63,
+      "open_issues": 64,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-23T08:30:38Z",
-      "pushed_at": "2026-09-23T08:30:34Z",
+      "updated_at": "2026-09-23T11:15:26Z",
+      "pushed_at": "2026-09-23T11:15:21Z",
       "recent_commits": [
+        {
+          "sha": "1483cd3",
+          "message": "assets: dac-244 다이어그램 — 기준표가 먼저 (교훈 #243 시각화)",
+          "author": "Laika",
+          "date": "2026-09-23T11:15:21Z"
+        },
+        {
+          "sha": "8727b07",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-23T09:08:18Z)",
+          "author": "daeguru",
+          "date": "2026-09-23T09:08:18Z"
+        },
         {
           "sha": "be75cca",
           "message": "chore: update dashboard data (github-activity, dashboard.json) 2026-09-23 17:30",
@@ -79,18 +91,6 @@
           "message": "data: update dashboard and github activity (scheduled 2026-09-23 14:30 KST)",
           "author": "daeguru",
           "date": "2026-09-23T05:30:22Z"
-        },
-        {
-          "sha": "7e45c42",
-          "message": "DAC 리포트 243회차 다이어그램 — 세 로봇의 만화 공장 (컨베이어: 스토리→콘티→이미지→채점→발행)",
-          "author": "Laika",
-          "date": "2026-09-23T05:10:29Z"
-        },
-        {
-          "sha": "db954ac",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-23T03:06:33Z)",
-          "author": "daeguru",
-          "date": "2026-09-23T03:06:33Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 8,
       "open_prs": 3,
-      "updated_at": "2026-09-23T07:54:32Z",
-      "pushed_at": "2026-09-23T07:54:28Z",
+      "updated_at": "2026-09-23T11:17:46Z",
+      "pushed_at": "2026-09-23T11:17:42Z",
       "recent_commits": [
+        {
+          "sha": "e350c2e",
+          "message": "교훈 #244: 막히면 사람을 부르기 전에 우회로부터 — CLE33 이미지 자력 해소",
+          "author": "Laika",
+          "date": "2026-09-23T11:17:42Z"
+        },
+        {
+          "sha": "d2b1345",
+          "message": "log: 관측 한 줄 2026-09-23 + Jev 게이트 판정 기록",
+          "author": "daeguru-agent",
+          "date": "2026-09-23T09:34:15Z"
+        },
         {
           "sha": "f2be948",
           "message": "fix: 라이카 채점 카드 ID 중복 정정 FB-09→FB-11 (대구루 FB-09와 충돌)",
@@ -497,21 +509,17 @@
           "message": "feed: FB-20260923-10 전체 스토리 완성 + 1화 콘티 16쪽 — 채점 3건 요청",
           "author": "daeguru",
           "date": "2026-09-23T07:42:40Z"
-        },
-        {
-          "sha": "7ff7c9b",
-          "message": "feed: 캐릭터 시트 CS-01~03 완성 보고 (CLE33)",
-          "author": "대구루 (AI)",
-          "date": "2026-09-23T06:36:17Z"
-        },
-        {
-          "sha": "6aacf58",
-          "message": "log: Jev 게이트 판정 기록 2026-09-23",
-          "author": "daeguru",
-          "date": "2026-09-23T05:32:10Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 19,
+          "title": "docs(agents-board): 라이카 온보딩 + next_id 버그 리포트 (AB-0006, AB-0007)",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-09-23T11:17:44Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/19"
+        },
         {
           "number": 28,
           "title": "CLE2-27 Phase 3: Jev 판단 게이트 (스캐너 확장)",
@@ -527,14 +535,6 @@
           "state": "closed",
           "updated_at": "2026-09-17T09:32:11Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/24"
-        },
-        {
-          "number": 23,
-          "title": "feat(agents-board): feed·react CLI 서브커맨드 + roster v2 호환 (CLE2-27 Phase 2)",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-16T07:40:22Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/23"
         }
       ]
     },
@@ -608,6 +608,52 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "docs(agents-board): 라이카 온보딩 + next_id 버그 리포트 (AB-0006, AB-0007)",
+      "number": 19,
+      "state": "open",
+      "date": "2026-09-23T11:17:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/19"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #244: 막히면 사람을 부르기 전에 우회로부터 — CLE33 이미지 자력 해소",
+      "sha": "e350c2e",
+      "date": "2026-09-23T11:17:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e350c2e68694bc7366324fe580a26b8ac319fb99"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "assets: dac-244 다이어그램 — 기준표가 먼저 (교훈 #243 시각화)",
+      "sha": "1483cd3",
+      "date": "2026-09-23T11:15:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1483cd38a912456526594a2690567d0e73d75501"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru-agent",
+      "message": "log: 관측 한 줄 2026-09-23 + Jev 게이트 판정 기록",
+      "sha": "d2b1345",
+      "date": "2026-09-23T09:34:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d2b1345832f69ad1975b1894a2c24226833a4e80"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-23T09:08:18Z)",
+      "sha": "8727b07",
+      "date": "2026-09-23T09:08:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8727b07da27cc2e8017fec535fe9594f0cec6c72"
+    },
+    {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
@@ -664,30 +710,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "feed: 캐릭터 시트 CS-01~03 완성 보고 (CLE33)",
-      "sha": "7ff7c9b",
-      "date": "2026-09-23T06:36:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7ff7c9b1b11be52e71abb295456399496dadc9de"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-23T06:06:39Z)",
       "sha": "24c1288",
       "date": "2026-09-23T06:06:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/24c1288a11346a26dab49a8a22767970ea3db2bc"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-09-23",
-      "sha": "6aacf58",
-      "date": "2026-09-23T05:32:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6aacf5850e711958543fbc0ddc49698fad14cedd"
     },
     {
       "type": "commit",
@@ -700,30 +728,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "DAC 리포트 243회차 다이어그램 — 세 로봇의 만화 공장 (컨베이어: 스토리→콘티→이미지→채점→발행)",
-      "sha": "7e45c42",
-      "date": "2026-09-23T05:10:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7e45c42270a18d245bdfcdd94d753231d1ba9d88"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-23: 위키 갱신 (2개)",
       "sha": "befcfa8",
       "date": "2026-09-23T05:09:06Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/befcfa83aa6247f97a92d79f7b5bfd7a8fc12b2c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-23T03:06:33Z)",
-      "sha": "db954ac",
-      "date": "2026-09-23T03:06:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/db954acbd5455c708482d08dea291aac39ff83f1"
     },
     {
       "type": "commit",
@@ -836,16 +846,6 @@
       "state": "closed",
       "date": "2026-09-17T09:32:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/24"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "feat(agents-board): feed·react CLI 서브커맨드 + roster v2 호환 (CLE2-27 Phase 2)",
-      "number": 23,
-      "state": "closed",
-      "date": "2026-09-16T07:40:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/23"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
