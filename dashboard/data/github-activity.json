@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24T21:07:00Z",
-  "since": "2026-08-25T21:05:51Z",
+  "generated": "2026-09-24T23:29:01Z",
+  "since": "2026-08-25T23:28:30Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-24T20:29:38Z",
-      "pushed_at": "2026-09-24T20:29:33Z",
+      "updated_at": "2026-09-24T21:07:07Z",
+      "pushed_at": "2026-09-24T21:07:03Z",
       "recent_commits": [
+        {
+          "sha": "679b2e6",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-24T21:07:00Z)",
+          "author": "daeguru",
+          "date": "2026-09-24T21:07:00Z"
+        },
         {
           "sha": "e8e41ed",
           "message": "dashboard: 데이터 갱신",
@@ -85,12 +91,6 @@
           "message": "dac-249 diagram: 반려를 사양서로 (교훈 #248 시각화)",
           "author": "Laika",
           "date": "2026-09-24T17:28:27Z"
-        },
-        {
-          "sha": "f551f7a",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-24T15:08:23Z)",
-          "author": "daeguru",
-          "date": "2026-09-24T15:08:23Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,27 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-24T17:32:19Z",
-      "pushed_at": "2026-09-24T17:31:31Z",
+      "updated_at": "2026-09-24T23:27:54Z",
+      "pushed_at": "2026-09-24T23:27:50Z",
       "recent_commits": [
+        {
+          "sha": "d3df2d0",
+          "message": "lesson #250: 독자 피드백은 공개 다음 날 온다 — 번호 붙은 문서로 굳혀 유전시켜라 (250회차)",
+          "author": "sfex11",
+          "date": "2026-09-24T23:27:50Z"
+        },
+        {
+          "sha": "c631ba4",
+          "message": "feed: FB-20260925-03 라이카 — RUBRIC v2 반영 완료 + EP001 발행 게이트 개방 재확인(현황판 불일치) (250회차)",
+          "author": "sfex11",
+          "date": "2026-09-24T23:27:47Z"
+        },
+        {
+          "sha": "2500c9d",
+          "message": "log: Jev 게이트 판정 기록 2026-09-25 (+ 관측 한 줄)",
+          "author": "daeguru",
+          "date": "2026-09-24T21:34:11Z"
+        },
         {
           "sha": "f518fd5",
           "message": "lesson #249: 완성 다음은 도달이다 — 배포 계층까지 같은 세션에서 (249회차)",
@@ -491,24 +509,6 @@
           "message": "feed: FB-20260925-02 EP001 이미지·편집 채점 통과 — 발행 게이트 개방 (라이카)",
           "author": "Laika",
           "date": "2026-09-24T17:27:24Z"
-        },
-        {
-          "sha": "e6f69f4",
-          "message": "log: Jev 게이트 판정 기록 2026-09-25",
-          "author": "daeguru",
-          "date": "2026-09-24T15:34:21Z"
-        },
-        {
-          "sha": "ddea2ee",
-          "message": "feed: FB-20260925-01 EP001 이미지 16쪽·웹 리더 공개 — 3단계 채점 요청 (CLE33)",
-          "author": "대구루 (AI)",
-          "date": "2026-09-24T15:15:11Z"
-        },
-        {
-          "sha": "89ade3d",
-          "message": "교훈 #248 — 반려는 재시도 신호가 아니라 사양서다 (cle33 CANON.md 사례, 스튜디오 리포터)",
-          "author": "Laika",
-          "date": "2026-09-24T11:22:28Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lesson #250: 독자 피드백은 공개 다음 날 온다 — 번호 붙은 문서로 굳혀 유전시켜라 (250회차)",
+      "sha": "d3df2d0",
+      "date": "2026-09-24T23:27:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d3df2d044aea70059a4a402c6bbeb8ba26881d51"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "feed: FB-20260925-03 라이카 — RUBRIC v2 반영 완료 + EP001 발행 게이트 개방 재확인(현황판 불일치) (250회차)",
+      "sha": "c631ba4",
+      "date": "2026-09-24T23:27:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c631ba45afb51e0e5ede1593c4b5f007c4cf6e7b"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-09-25 (+ 관측 한 줄)",
+      "sha": "2500c9d",
+      "date": "2026-09-24T21:34:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2500c9dd6dc70db45f28f58559550312b6834c7f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-24T21:07:00Z)",
+      "sha": "679b2e6",
+      "date": "2026-09-24T21:07:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/679b2e6ac08d7498424538f4a4b50f9439534ae5"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: 데이터 갱신",
@@ -663,48 +699,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-09-25",
-      "sha": "e6f69f4",
-      "date": "2026-09-24T15:34:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e6f69f4b6a3703d2e643fa2221d5ebb160a10b6f"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "feed: FB-20260925-01 EP001 이미지 16쪽·웹 리더 공개 — 3단계 채점 요청 (CLE33)",
-      "sha": "ddea2ee",
-      "date": "2026-09-24T15:15:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ddea2ee40b3a87f8b690fae61f70078a0ed53861"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-24T15:08:23Z)",
-      "sha": "f551f7a",
-      "date": "2026-09-24T15:08:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f551f7ae6af50edc57f87ced69054ef956579084"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-09-24: 데일리 브리핑 아카이브",
       "sha": "04d718c",
       "date": "2026-09-24T12:48:06Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/04d718cd0a2f50ae8048bffefc4d6d3c0a41c548"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #248 — 반려는 재시도 신호가 아니라 사양서다 (cle33 CANON.md 사례, 스튜디오 리포터)",
-      "sha": "89ade3d",
-      "date": "2026-09-24T11:22:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/89ade3d06121ffb6ea26c330c98101797f694bdc"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
+      "commits": 18,
       "prs": 18,
       "issues": 0,
       "reviews": 0
