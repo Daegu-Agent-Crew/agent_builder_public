@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-24T17:29:11Z",
-  "since": "2026-08-25T17:28:37Z",
+  "generated": "2026-09-24T18:06:09Z",
+  "since": "2026-08-25T18:05:22Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 68,
+      "open_issues": 69,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-24T17:28:33Z",
-      "pushed_at": "2026-09-24T17:28:29Z",
+      "updated_at": "2026-09-24T17:29:51Z",
+      "pushed_at": "2026-09-24T17:29:33Z",
       "recent_commits": [
+        {
+          "sha": "2027fc8",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-09-25)",
+          "author": "daeguru",
+          "date": "2026-09-24T17:29:27Z"
+        },
         {
           "sha": "1623167",
           "message": "dac-249 diagram: 반려를 사양서로 (교훈 #248 시각화)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-09-24T11:29:56Z"
-        },
-        {
-          "sha": "fecfca0",
-          "message": "dac-248 diagram: 바꾸치기와 복구 — 교훈 #247 append 무결성 시각화 (스튜디오 리포터)",
-          "author": "Laika",
-          "date": "2026-09-24T11:17:27Z"
         }
       ],
       "recent_prs": [
@@ -475,11 +475,17 @@
       "slug": "Daegu-Agent-Crew/team-memory",
       "name": "team-memory",
       "private": true,
-      "open_issues": 9,
+      "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-24T17:27:45Z",
-      "pushed_at": "2026-09-24T17:27:24Z",
+      "updated_at": "2026-09-24T17:32:19Z",
+      "pushed_at": "2026-09-24T17:31:31Z",
       "recent_commits": [
+        {
+          "sha": "f518fd5",
+          "message": "lesson #249: 완성 다음은 도달이다 — 배포 계층까지 같은 세션에서 (249회차)",
+          "author": "Laika",
+          "date": "2026-09-24T17:31:31Z"
+        },
         {
           "sha": "2c7a7ec",
           "message": "feed: FB-20260925-02 EP001 이미지·편집 채점 통과 — 발행 게이트 개방 (라이카)",
@@ -503,12 +509,6 @@
           "message": "교훈 #248 — 반려는 재시도 신호가 아니라 사양서다 (cle33 CANON.md 사례, 스튜디오 리포터)",
           "author": "Laika",
           "date": "2026-09-24T11:22:28Z"
-        },
-        {
-          "sha": "d109b20",
-          "message": "feed: FB-20260924-04 시트 v2 재생성·CS-09 신규 — 재감수 요청 (CLE33)",
-          "author": "대구루 (AI)",
-          "date": "2026-09-24T11:14:44Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "lesson #249: 완성 다음은 도달이다 — 배포 계층까지 같은 세션에서 (249회차)",
+      "sha": "f518fd5",
+      "date": "2026-09-24T17:31:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f518fd5d580fee7260c92d44f4f5246681607ab3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-09-25)",
+      "sha": "2027fc8",
+      "date": "2026-09-24T17:29:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2027fc8a3df820e0539a79ae2e1de2f7b2cbe045"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "Laika",
       "message": "dac-249 diagram: 반려를 사양서로 (교훈 #248 시각화)",
@@ -687,24 +705,6 @@
       "sha": "89ade3d",
       "date": "2026-09-24T11:22:28Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/89ade3d06121ffb6ea26c330c98101797f694bdc"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "dac-248 diagram: 바꾸치기와 복구 — 교훈 #247 append 무결성 시각화 (스튜디오 리포터)",
-      "sha": "fecfca0",
-      "date": "2026-09-24T11:17:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fecfca0d869d9cd4fe24a0f0f13eff562e1c27ca"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "feed: FB-20260924-04 시트 v2 재생성·CS-09 신규 — 재감수 요청 (CLE33)",
-      "sha": "d109b20",
-      "date": "2026-09-24T11:14:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d109b2060743abd29732a8f6819d53ddf589ccac"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
