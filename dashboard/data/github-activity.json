@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24T11:29:42Z",
-  "since": "2026-08-25T11:29:12Z",
+  "generated": "2026-09-24T12:06:37Z",
+  "since": "2026-08-25T12:05:43Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-24T11:17:31Z",
-      "pushed_at": "2026-09-24T11:17:28Z",
+      "updated_at": "2026-09-24T11:30:00Z",
+      "pushed_at": "2026-09-24T11:29:56Z",
       "recent_commits": [
+        {
+          "sha": "e71dca7",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-09-24T11:29:56Z"
+        },
         {
           "sha": "fecfca0",
           "message": "dac-248 diagram: 바꾸치기와 복구 — 교훈 #247 append 무결성 시각화 (스튜디오 리포터)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-24T06:05:47Z)",
           "author": "daeguru",
           "date": "2026-09-24T06:05:47Z"
-        },
-        {
-          "sha": "cd22c3c",
-          "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-24 14:30 KST)",
-          "author": "daeguru",
-          "date": "2026-09-24T05:29:03Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json",
+      "sha": "e71dca7",
+      "date": "2026-09-24T11:29:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e71dca7ea022703f606c7c13a84b67c38688bcc1"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #248 — 반려는 재시도 신호가 아니라 사양서다 (cle33 CANON.md 사례, 스튜디오 리포터)",
@@ -669,15 +678,6 @@
       "sha": "31907ef",
       "date": "2026-09-24T06:05:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/31907efb57de442c751aa6db4ecbcc08fcd5c82a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-24 14:30 KST)",
-      "sha": "cd22c3c",
-      "date": "2026-09-24T05:29:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cd22c3c584015d80566eb705fd8bef35ba0fc8ef"
     },
     {
       "type": "commit",
