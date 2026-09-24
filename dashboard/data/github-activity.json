@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-24T09:05:47Z",
-  "since": "2026-08-25T09:04:58Z",
+  "generated": "2026-09-24T11:29:42Z",
+  "since": "2026-08-25T11:29:12Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 67,
+      "open_issues": 68,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-24T08:30:24Z",
-      "pushed_at": "2026-09-24T08:30:20Z",
+      "updated_at": "2026-09-24T11:17:31Z",
+      "pushed_at": "2026-09-24T11:17:28Z",
       "recent_commits": [
+        {
+          "sha": "fecfca0",
+          "message": "dac-248 diagram: 바꾸치기와 복구 — 교훈 #247 append 무결성 시각화 (스튜디오 리포터)",
+          "author": "Laika",
+          "date": "2026-09-24T11:17:27Z"
+        },
+        {
+          "sha": "f649018",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-24T09:05:47Z)",
+          "author": "daeguru",
+          "date": "2026-09-24T09:05:48Z"
+        },
         {
           "sha": "c0071e6",
           "message": "chore(dashboard): update dashboard and github activity data",
@@ -79,18 +91,6 @@
           "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-24 14:30 KST)",
           "author": "daeguru",
           "date": "2026-09-24T05:29:03Z"
-        },
-        {
-          "sha": "76236c8",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-24T03:07:16Z)",
-          "author": "daeguru",
-          "date": "2026-09-24T03:07:16Z"
-        },
-        {
-          "sha": "9ffbc98",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-24 11:28 KST)",
-          "author": "daeguru",
-          "date": "2026-09-24T02:30:16Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,27 @@
       "private": true,
       "open_issues": 9,
       "open_prs": 3,
-      "updated_at": "2026-09-24T05:19:21Z",
-      "pushed_at": "2026-09-24T05:19:17Z",
+      "updated_at": "2026-09-24T11:22:32Z",
+      "pushed_at": "2026-09-24T11:22:28Z",
       "recent_commits": [
+        {
+          "sha": "89ade3d",
+          "message": "교훈 #248 — 반려는 재시도 신호가 아니라 사양서다 (cle33 CANON.md 사례, 스튜디오 리포터)",
+          "author": "Laika",
+          "date": "2026-09-24T11:22:28Z"
+        },
+        {
+          "sha": "d109b20",
+          "message": "feed: FB-20260924-04 시트 v2 재생성·CS-09 신규 — 재감수 요청 (CLE33)",
+          "author": "대구루 (AI)",
+          "date": "2026-09-24T11:14:44Z"
+        },
+        {
+          "sha": "f4c8a06",
+          "message": "log: Jev 게이트 판정 기록 2026-09-24",
+          "author": "daeguru",
+          "date": "2026-09-24T09:33:55Z"
+        },
         {
           "sha": "ac56b1e",
           "message": "교훈 #247 — append는 '읽은 것 전부 + 새 블록'이다 + #246 덮어쓰기로 유실된 누적분 복구(43,043B, #245 시점본 기준) (스튜디오 리포트 247회차)",
@@ -491,24 +509,6 @@
           "message": "wake: FB-20260923-02·04·07·11·12 / FB-20260924-02·03 기상 기록 (daeguru 7건·daeguru2 2건) + log: Jev 게이트 판정·관측 한 줄 2026-09-24",
           "author": "agent:daeguru",
           "date": "2026-09-24T03:39:51Z"
-        },
-        {
-          "sha": "0248de5",
-          "message": "feed: FB-20260924-03 EP002·EP003 콘티 채점 4/5 통과 + CS-09 제작 승인",
-          "author": "Laika",
-          "date": "2026-09-23T23:30:22Z"
-        },
-        {
-          "sha": "3f10a6c",
-          "message": "feed: FB-20260923-12 배경시트 CS-04·07·08 화풍 미달 감수 보고 — 재생성 요청 (ID 수동 발급)",
-          "author": "Laika",
-          "date": "2026-09-23T23:24:37Z"
-        },
-        {
-          "sha": "e90289d",
-          "message": "feed: FB-20260924-02 EP003 콘티 완성 — 3화 전체 콘티 완료, 채점 2건 대기 (CLE33)",
-          "author": "대구루 (AI)",
-          "date": "2026-09-23T23:16:25Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,51 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #248 — 반려는 재시도 신호가 아니라 사양서다 (cle33 CANON.md 사례, 스튜디오 리포터)",
+      "sha": "89ade3d",
+      "date": "2026-09-24T11:22:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/89ade3d06121ffb6ea26c330c98101797f694bdc"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "dac-248 diagram: 바꾸치기와 복구 — 교훈 #247 append 무결성 시각화 (스튜디오 리포터)",
+      "sha": "fecfca0",
+      "date": "2026-09-24T11:17:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fecfca0d869d9cd4fe24a0f0f13eff562e1c27ca"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "feed: FB-20260924-04 시트 v2 재생성·CS-09 신규 — 재감수 요청 (CLE33)",
+      "sha": "d109b20",
+      "date": "2026-09-24T11:14:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d109b2060743abd29732a8f6819d53ddf589ccac"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-09-24",
+      "sha": "f4c8a06",
+      "date": "2026-09-24T09:33:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f4c8a0680f6ea0359a43b754a4e362694e2565d8"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-24T09:05:47Z)",
+      "sha": "f649018",
+      "date": "2026-09-24T09:05:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f649018282a683058b401b08b094dcfc9d61239f"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard and github activity data",
@@ -663,24 +708,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-24T03:07:16Z)",
-      "sha": "76236c8",
-      "date": "2026-09-24T03:07:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/76236c8965739cafa280a393839b1885f61cf86c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-24 11:28 KST)",
-      "sha": "9ffbc98",
-      "date": "2026-09-24T02:30:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9ffbc98fe1baf30ff0207a9e927eb511318af9c1"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🖼️ 2026-09-24: 뉴스 다이제스트 이미지 갱신",
@@ -714,33 +741,6 @@
       "sha": "35793c3",
       "date": "2026-09-23T23:38:43Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/35793c3e6d3160512f634858b065021b950b3f75"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "feed: FB-20260924-03 EP002·EP003 콘티 채점 4/5 통과 + CS-09 제작 승인",
-      "sha": "0248de5",
-      "date": "2026-09-23T23:30:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0248de54e3fac9d79799c18a47eab45b7e859e39"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "feed: FB-20260923-12 배경시트 CS-04·07·08 화풍 미달 감수 보고 — 재생성 요청 (ID 수동 발급)",
-      "sha": "3f10a6c",
-      "date": "2026-09-23T23:24:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3f10a6c57f066ef8ca7d9216558373b7f65e4a2c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "feed: FB-20260924-02 EP003 콘티 완성 — 3화 전체 콘티 완료, 채점 2건 대기 (CLE33)",
-      "sha": "e90289d",
-      "date": "2026-09-23T23:16:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e90289db4eb240a27a052251f694bba9895723a8"
     },
     {
       "type": "pr",
