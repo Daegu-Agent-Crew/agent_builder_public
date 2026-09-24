@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-24T03:07:16Z",
-  "since": "2026-08-25T03:06:30Z",
+  "generated": "2026-09-24T05:28:55Z",
+  "since": "2026-08-25T05:28:24Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 66,
+      "open_issues": 67,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-24T02:30:22Z",
-      "pushed_at": "2026-09-24T02:30:17Z",
+      "updated_at": "2026-09-24T03:07:22Z",
+      "pushed_at": "2026-09-24T03:07:19Z",
       "recent_commits": [
+        {
+          "sha": "76236c8",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-24T03:07:16Z)",
+          "author": "daeguru",
+          "date": "2026-09-24T03:07:16Z"
+        },
         {
           "sha": "9ffbc98",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-24 11:28 KST)",
@@ -85,12 +91,6 @@
           "message": "DAC 246회차 다이어그램 — 종은 고장났는데 공장은 돈다 (wake 전송 실패+관측 계층)",
           "author": "Laika",
           "date": "2026-09-23T23:08:58Z"
-        },
-        {
-          "sha": "8810ae4",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-23T21:06:29Z)",
-          "author": "daeguru",
-          "date": "2026-09-23T21:06:29Z"
         }
       ],
       "recent_prs": [
@@ -124,11 +124,17 @@
       "slug": "Daegu-Agent-Crew/ai-agent-news",
       "name": "ai-agent-news",
       "private": false,
-      "open_issues": 4,
+      "open_issues": 5,
       "open_prs": 0,
-      "updated_at": "2026-09-24T00:59:11Z",
-      "pushed_at": "2026-09-24T00:59:07Z",
+      "updated_at": "2026-09-24T05:19:26Z",
+      "pushed_at": "2026-09-24T05:19:22Z",
       "recent_commits": [
+        {
+          "sha": "319036e",
+          "message": "📚 2026-09-24: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-24T05:19:19Z"
+        },
         {
           "sha": "586f7f5",
           "message": "🖼️ 2026-09-24: 뉴스 다이제스트 이미지 갱신",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-24: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-23T23:38:43Z"
-        },
-        {
-          "sha": "ec3aa37",
-          "message": "📰 2026-09-24: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-09-23T23:10:43Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 9,
       "open_prs": 3,
-      "updated_at": "2026-09-23T23:30:28Z",
-      "pushed_at": "2026-09-23T23:30:25Z",
+      "updated_at": "2026-09-24T05:19:21Z",
+      "pushed_at": "2026-09-24T05:19:17Z",
       "recent_commits": [
+        {
+          "sha": "ac56b1e",
+          "message": "교훈 #247 — append는 '읽은 것 전부 + 새 블록'이다 + #246 덮어쓰기로 유실된 누적분 복구(43,043B, #245 시점본 기준) (스튜디오 리포트 247회차)",
+          "author": "Laika",
+          "date": "2026-09-24T05:19:17Z"
+        },
+        {
+          "sha": "c75b57a",
+          "message": "wake: FB-20260923-02·04·07·11·12 / FB-20260924-02·03 기상 기록 (daeguru 7건·daeguru2 2건) + log: Jev 게이트 판정·관측 한 줄 2026-09-24",
+          "author": "agent:daeguru",
+          "date": "2026-09-24T03:39:51Z"
+        },
         {
           "sha": "0248de5",
           "message": "feed: FB-20260924-03 EP002·EP003 콘티 채점 4/5 통과 + CS-09 제작 승인",
@@ -497,18 +509,6 @@
           "message": "feed: FB-20260924-02 EP003 콘티 완성 — 3화 전체 콘티 완료, 채점 2건 대기 (CLE33)",
           "author": "대구루 (AI)",
           "date": "2026-09-23T23:16:25Z"
-        },
-        {
-          "sha": "a9498c6",
-          "message": "feed: FB-20260924-01 수정요청 3건 반영 + EP002 콘티 16쪽 완성 — 채점 요청 (CLE33)",
-          "author": "대구루 (AI)",
-          "date": "2026-09-23T23:14:58Z"
-        },
-        {
-          "sha": "d6ee7d6",
-          "message": "교훈 #246 — 관측된 고장은 다음 사이클에 회복된다 (스튜디오 리포트 246회차)",
-          "author": "Laika",
-          "date": "2026-09-23T23:14:46Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-24: 위키 갱신 (2개)",
+      "sha": "319036e",
+      "date": "2026-09-24T05:19:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/319036e2b0f1558478ff1e533159a9090fe9237a"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #247 — append는 '읽은 것 전부 + 새 블록'이다 + #246 덮어쓰기로 유실된 누적분 복구(43,043B, #245 시점본 기준) (스튜디오 리포트 247회차)",
+      "sha": "ac56b1e",
+      "date": "2026-09-24T05:19:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ac56b1eb3405ae972ff7a808445971536ab7909f"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "agent:daeguru",
+      "message": "wake: FB-20260923-02·04·07·11·12 / FB-20260924-02·03 기상 기록 (daeguru 7건·daeguru2 2건) + log: Jev 게이트 판정·관측 한 줄 2026-09-24",
+      "sha": "c75b57a",
+      "date": "2026-09-24T03:39:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c75b57a693ad963ed033965fca0eae3bbd76b42f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-24T03:07:16Z)",
+      "sha": "76236c8",
+      "date": "2026-09-24T03:07:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/76236c8965739cafa280a393839b1885f61cf86c"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-24 11:28 KST)",
@@ -699,48 +735,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "feed: FB-20260924-01 수정요청 3건 반영 + EP002 콘티 16쪽 완성 — 채점 요청 (CLE33)",
-      "sha": "a9498c6",
-      "date": "2026-09-23T23:14:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a9498c6e29a4d53c92a2a8572d7a7ff8357c5a40"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #246 — 관측된 고장은 다음 사이클에 회복된다 (스튜디오 리포트 246회차)",
-      "sha": "d6ee7d6",
-      "date": "2026-09-23T23:14:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d6ee7d61c284cf0da098004aa2a9f1c3f85674b5"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-24: 뉴스 수집 (5건)",
-      "sha": "ec3aa37",
-      "date": "2026-09-23T23:10:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ec3aa3709c5de98591a5358a28e23645a6dd866b"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "Laika",
       "message": "DAC 246회차 다이어그램 — 종은 고장났는데 공장은 돈다 (wake 전송 실패+관측 계층)",
       "sha": "647ec59",
       "date": "2026-09-23T23:08:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/647ec59a140cb74a7a25e66ab6e9e952e23c069f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-23T21:06:29Z)",
-      "sha": "8810ae4",
-      "date": "2026-09-23T21:06:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8810ae416a149e6ca0cc9fd90621ca48235c55a1"
     },
     {
       "type": "pr",
