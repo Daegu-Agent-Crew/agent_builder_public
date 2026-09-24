@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24T05:28:55Z",
-  "since": "2026-08-25T05:28:24Z",
+  "generated": "2026-09-24T06:05:47Z",
+  "since": "2026-08-25T06:05:00Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-24T03:07:22Z",
-      "pushed_at": "2026-09-24T03:07:19Z",
+      "updated_at": "2026-09-24T05:29:08Z",
+      "pushed_at": "2026-09-24T05:29:04Z",
       "recent_commits": [
+        {
+          "sha": "cd22c3c",
+          "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-24 14:30 KST)",
+          "author": "daeguru",
+          "date": "2026-09-24T05:29:03Z"
+        },
         {
           "sha": "76236c8",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-24T03:07:16Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-24 08:30 KST)",
           "author": "daeguru",
           "date": "2026-09-23T23:29:30Z"
-        },
-        {
-          "sha": "647ec59",
-          "message": "DAC 246회차 다이어그램 — 종은 고장났는데 공장은 돈다 (wake 전송 실패+관측 계층)",
-          "author": "Laika",
-          "date": "2026-09-23T23:08:58Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json + github-activity (2026-09-24 14:30 KST)",
+      "sha": "cd22c3c",
+      "date": "2026-09-24T05:29:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cd22c3c584015d80566eb705fd8bef35ba0fc8ef"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-24: 위키 갱신 (2개)",
@@ -732,15 +741,6 @@
       "sha": "e90289d",
       "date": "2026-09-23T23:16:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e90289db4eb240a27a052251f694bba9895723a8"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "DAC 246회차 다이어그램 — 종은 고장났는데 공장은 돈다 (wake 전송 실패+관측 계층)",
-      "sha": "647ec59",
-      "date": "2026-09-23T23:08:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/647ec59a140cb74a7a25e66ab6e9e952e23c069f"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 5,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
