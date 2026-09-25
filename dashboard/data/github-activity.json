@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-24T23:29:01Z",
-  "since": "2026-08-25T23:28:30Z",
+  "generated": "2026-09-25T00:08:29Z",
+  "since": "2026-08-26T00:07:15Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 69,
+      "open_issues": 70,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-24T21:07:07Z",
-      "pushed_at": "2026-09-24T21:07:03Z",
+      "updated_at": "2026-09-24T23:39:57Z",
+      "pushed_at": "2026-09-24T23:39:53Z",
       "recent_commits": [
+        {
+          "sha": "67e15ba",
+          "message": "dac-250 diagram: 피드백 순환 고리 — 공개→독자→지시 문서→다음 배치 (교훈 #250 시각화, 동일 회차 완성·후속 첨부)",
+          "author": "sfex11",
+          "date": "2026-09-24T23:39:52Z"
+        },
+        {
+          "sha": "b917f7a",
+          "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-09-24T23:29:18Z"
+        },
         {
           "sha": "679b2e6",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-24T21:07:00Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-24T18:06:09Z)",
           "author": "daeguru",
           "date": "2026-09-24T18:06:09Z"
-        },
-        {
-          "sha": "2027fc8",
-          "message": "dashboard: update dashboard.json and github-activity.json (2026-09-25)",
-          "author": "daeguru",
-          "date": "2026-09-24T17:29:27Z"
-        },
-        {
-          "sha": "1623167",
-          "message": "dac-249 diagram: 반려를 사양서로 (교훈 #248 시각화)",
-          "author": "Laika",
-          "date": "2026-09-24T17:28:27Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 5,
       "open_prs": 0,
-      "updated_at": "2026-09-24T12:48:12Z",
-      "pushed_at": "2026-09-24T12:48:08Z",
+      "updated_at": "2026-09-24T23:35:34Z",
+      "pushed_at": "2026-09-24T23:35:30Z",
       "recent_commits": [
+        {
+          "sha": "77372e6",
+          "message": "📰 2026-09-25: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-09-24T23:35:29Z"
+        },
         {
           "sha": "04d718c",
           "message": "📋 2026-09-24: 데일리 브리핑 아카이브",
@@ -152,12 +158,6 @@
           "message": "📰 2026-09-24: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-24T00:06:05Z"
-        },
-        {
-          "sha": "294154c",
-          "message": "🖼️ 2026-09-24: 뉴스 다이제스트 이미지",
-          "author": "Renover",
-          "date": "2026-09-23T23:45:06Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "sfex11",
+      "message": "dac-250 diagram: 피드백 순환 고리 — 공개→독자→지시 문서→다음 배치 (교훈 #250 시각화, 동일 회차 완성·후속 첨부)",
+      "sha": "67e15ba",
+      "date": "2026-09-24T23:39:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/67e15ba9f1d78cf21c3cee7e21ac94ee75036d5a"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-09-25: 뉴스 수집 (5건)",
+      "sha": "77372e6",
+      "date": "2026-09-24T23:35:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/77372e68aca6ecc68afcc532f92941301c563192"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
+      "sha": "b917f7a",
+      "date": "2026-09-24T23:29:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b917f7a7b31f53577cf5deebfefeaf1641c273d5"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "lesson #250: 독자 피드백은 공개 다음 날 온다 — 번호 붙은 문서로 굳혀 유전시켜라 (250회차)",
@@ -672,24 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (2026-09-25)",
-      "sha": "2027fc8",
-      "date": "2026-09-24T17:29:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2027fc8a3df820e0539a79ae2e1de2f7b2cbe045"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "dac-249 diagram: 반려를 사양서로 (교훈 #248 시각화)",
-      "sha": "1623167",
-      "date": "2026-09-24T17:28:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1623167e6ae90f0ecc1d5c29bc6a52ac0fcd2458"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "feed: FB-20260925-02 EP001 이미지·편집 채점 통과 — 발행 게이트 개방 (라이카)",
@@ -732,15 +741,6 @@
       "sha": "a3e8763",
       "date": "2026-09-24T00:06:05Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a3e8763df67c5752913ca4857665b8ccd832f693"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🖼️ 2026-09-24: 뉴스 다이제스트 이미지",
-      "sha": "294154c",
-      "date": "2026-09-23T23:45:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/294154c82616301b9ad049fc01b5e77d384ba510"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 19,
       "prs": 18,
       "issues": 0,
       "reviews": 0
