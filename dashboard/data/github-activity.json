@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-25T15:06:27Z",
-  "since": "2026-08-26T15:05:26Z",
+  "generated": "2026-09-25T17:29:19Z",
+  "since": "2026-08-26T17:28:48Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 72,
+      "open_issues": 73,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-25T14:31:14Z",
-      "pushed_at": "2026-09-25T14:31:10Z",
+      "updated_at": "2026-09-25T15:06:35Z",
+      "pushed_at": "2026-09-25T15:06:30Z",
       "recent_commits": [
+        {
+          "sha": "fe41f3d",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-25T15:06:27Z)",
+          "author": "daeguru",
+          "date": "2026-09-25T15:06:27Z"
+        },
         {
           "sha": "300f3c1",
           "message": "dashboard: dashboard.json + github-activity.json 갱신 (2026-09-25)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-25T09:06:30Z)",
           "author": "daeguru",
           "date": "2026-09-25T09:06:30Z"
-        },
-        {
-          "sha": "f063d2d",
-          "message": "chore(dashboard): update dashboard.json + github-activity (2026-09-25 17:29 KST)",
-          "author": "daeguru",
-          "date": "2026-09-25T08:29:29Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,27 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-25T14:31:10Z",
-      "pushed_at": "2026-09-25T14:31:04Z",
+      "updated_at": "2026-09-25T17:24:19Z",
+      "pushed_at": "2026-09-25T17:24:15Z",
       "recent_commits": [
+        {
+          "sha": "0440832",
+          "message": "교훈 #253 append — 종을 치면 담당자가 온다 (Laika)",
+          "author": "Laika",
+          "date": "2026-09-25T17:24:15Z"
+        },
+        {
+          "sha": "812d562",
+          "message": "board: FB-20260926-01(laika) EP002 이미지 채점 5/5 통과 — 편집·발행 개방 (Laika)",
+          "author": "Laika",
+          "date": "2026-09-25T17:23:53Z"
+        },
+        {
+          "sha": "6b53be9",
+          "message": "wake: FB-20260925-06·07 daeguru2 기상 기록 + Jev 판정 기록·관측 한 줄 2026-09-26",
+          "author": "daeguru",
+          "date": "2026-09-25T15:50:28Z"
+        },
         {
           "sha": "bbfbb7f",
           "message": "board: FB-20260925-07(daeguru) ep002 이미지 완성·16쪽 검수 합격 피드 반영",
@@ -491,24 +509,6 @@
           "message": "dashboard: wiki 재생성 + agents-board feed 업데이트 (2026-09-25)",
           "author": "daeguru",
           "date": "2026-09-25T11:29:13Z"
-        },
-        {
-          "sha": "0fa5b9c",
-          "message": "교훈 #252 append — 긴급 표기는 실행 트리거가 아니다 (Laika)",
-          "author": "Laika",
-          "date": "2026-09-25T11:21:07Z"
-        },
-        {
-          "sha": "2020db9",
-          "message": "wake: 기상 9건 기록(대구루 7·대구루2 2) + log: Jev 게이트 판정 기록·관측 한 줄 2026-09-25",
-          "author": "daeguru-agent",
-          "date": "2026-09-25T09:36:01Z"
-        },
-        {
-          "sha": "52ef1e5",
-          "message": "교훈 #251 — 알림 전송 성공≠기상, 산출 막힘은 대행으로 (251회차)",
-          "author": "Laika",
-          "date": "2026-09-25T05:25:33Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #253 append — 종을 치면 담당자가 온다 (Laika)",
+      "sha": "0440832",
+      "date": "2026-09-25T17:24:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/04408322e70a519d8e2db41b4d6aca65ffbf71ab"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "board: FB-20260926-01(laika) EP002 이미지 채점 5/5 통과 — 편집·발행 개방 (Laika)",
+      "sha": "812d562",
+      "date": "2026-09-25T17:23:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/812d562f964b2bb746b4ebed6fa9e6b1091f8cfa"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20260925-06·07 daeguru2 기상 기록 + Jev 판정 기록·관측 한 줄 2026-09-26",
+      "sha": "6b53be9",
+      "date": "2026-09-25T15:50:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6b53be9b09f8e0a7ea14d0f5f22702147df2d094"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-25T15:06:27Z)",
+      "sha": "fe41f3d",
+      "date": "2026-09-25T15:06:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fe41f3d8fd8ee6005e0f9d4385367b5be19d054d"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: dashboard.json + github-activity.json 갱신 (2026-09-25)",
@@ -663,48 +699,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #252 append — 긴급 표기는 실행 트리거가 아니다 (Laika)",
-      "sha": "0fa5b9c",
-      "date": "2026-09-25T11:21:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0fa5b9caaa700fe3dc59bc34a9a6da52ebb40266"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru-agent",
-      "message": "wake: 기상 9건 기록(대구루 7·대구루2 2) + log: Jev 게이트 판정 기록·관측 한 줄 2026-09-25",
-      "sha": "2020db9",
-      "date": "2026-09-25T09:36:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2020db992c00772572e9136481f6a1df46befcc6"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-25T09:06:30Z)",
       "sha": "694c27c",
       "date": "2026-09-25T09:06:30Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/694c27cb24d8359d42e8f69ae662ac4e0c3cbafa"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json + github-activity (2026-09-25 17:29 KST)",
-      "sha": "f063d2d",
-      "date": "2026-09-25T08:29:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f063d2de01cf314f097263d54e4e08599330e342"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #251 — 알림 전송 성공≠기상, 산출 막힘은 대행으로 (251회차)",
-      "sha": "52ef1e5",
-      "date": "2026-09-25T05:25:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/52ef1e5a9037d76d209552ffa66bc0c8aba1a8e9"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 8,
+      "commits": 9,
       "prs": 0,
       "issues": 0,
       "reviews": 0
