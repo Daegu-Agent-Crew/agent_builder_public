@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25T05:29:06Z",
-  "since": "2026-08-26T05:28:35Z",
+  "generated": "2026-09-25T06:07:03Z",
+  "since": "2026-08-26T06:06:06Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-25T03:09:04Z",
-      "pushed_at": "2026-09-25T03:09:01Z",
+      "updated_at": "2026-09-25T05:29:18Z",
+      "pushed_at": "2026-09-25T05:29:15Z",
       "recent_commits": [
+        {
+          "sha": "fc23452",
+          "message": "chore(dashboard): update dashboard data 2026-09-25 14:27 KST",
+          "author": "daeguru",
+          "date": "2026-09-25T05:29:14Z"
+        },
         {
           "sha": "41d4fe9",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-25T03:08:57Z)",
@@ -85,12 +91,6 @@
           "message": "dac-250 diagram: 피드백 순환 고리 — 공개→독자→지시 문서→다음 배치 (교훈 #250 시각화, 동일 회차 완성·후속 첨부)",
           "author": "sfex11",
           "date": "2026-09-24T23:39:52Z"
-        },
-        {
-          "sha": "b917f7a",
-          "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-24T23:29:18Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard data 2026-09-25 14:27 KST",
+      "sha": "fc23452",
+      "date": "2026-09-25T05:29:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fc23452f3f33bda62c88e75de379da90024a9a8c"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #251 — 알림 전송 성공≠기상, 산출 막힘은 대행으로 (251회차)",
@@ -705,15 +714,6 @@
       "sha": "77372e6",
       "date": "2026-09-24T23:35:29Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/77372e68aca6ecc68afcc532f92941301c563192"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
-      "sha": "b917f7a",
-      "date": "2026-09-24T23:29:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b917f7a7b31f53577cf5deebfefeaf1641c273d5"
     },
     {
       "type": "commit",
