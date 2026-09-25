@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25T06:07:03Z",
-  "since": "2026-08-26T06:06:06Z",
+  "generated": "2026-09-25T08:29:11Z",
+  "since": "2026-08-26T08:28:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-25T05:29:18Z",
-      "pushed_at": "2026-09-25T05:29:15Z",
+      "updated_at": "2026-09-25T06:07:10Z",
+      "pushed_at": "2026-09-25T06:07:07Z",
       "recent_commits": [
+        {
+          "sha": "ccd89d3",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-25T06:07:03Z)",
+          "author": "daeguru",
+          "date": "2026-09-25T06:07:03Z"
+        },
         {
           "sha": "fc23452",
           "message": "chore(dashboard): update dashboard data 2026-09-25 14:27 KST",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-25T00:08:29Z)",
           "author": "daeguru",
           "date": "2026-09-25T00:08:29Z"
-        },
-        {
-          "sha": "67e15ba",
-          "message": "dac-250 diagram: 피드백 순환 고리 — 공개→독자→지시 문서→다음 배치 (교훈 #250 시각화, 동일 회차 완성·후속 첨부)",
-          "author": "sfex11",
-          "date": "2026-09-24T23:39:52Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-25T06:07:03Z)",
+      "sha": "ccd89d3",
+      "date": "2026-09-25T06:07:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ccd89d386d8b0d860e52fec099eeb865f86c0639"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore(dashboard): update dashboard data 2026-09-25 14:27 KST",
       "sha": "fc23452",
       "date": "2026-09-25T05:29:14Z",
@@ -696,15 +705,6 @@
       "sha": "b6b72cd",
       "date": "2026-09-25T00:08:29Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b6b72cd19c59e70ebfbba0428101f87ea904e2ff"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "dac-250 diagram: 피드백 순환 고리 — 공개→독자→지시 문서→다음 배치 (교훈 #250 시각화, 동일 회차 완성·후속 첨부)",
-      "sha": "67e15ba",
-      "date": "2026-09-24T23:39:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/67e15ba9f1d78cf21c3cee7e21ac94ee75036d5a"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 17,
+      "commits": 16,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
