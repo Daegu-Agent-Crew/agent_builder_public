@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25T00:08:29Z",
-  "since": "2026-08-26T00:07:15Z",
+  "generated": "2026-09-25T02:28:51Z",
+  "since": "2026-08-26T02:28:21Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-24T23:39:57Z",
-      "pushed_at": "2026-09-24T23:39:53Z",
+      "updated_at": "2026-09-25T00:08:36Z",
+      "pushed_at": "2026-09-25T00:08:33Z",
       "recent_commits": [
+        {
+          "sha": "b6b72cd",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-25T00:08:29Z)",
+          "author": "daeguru",
+          "date": "2026-09-25T00:08:29Z"
+        },
         {
           "sha": "67e15ba",
           "message": "dac-250 diagram: 피드백 순환 고리 — 공개→독자→지시 문서→다음 배치 (교훈 #250 시각화, 동일 회차 완성·후속 첨부)",
@@ -85,12 +91,6 @@
           "message": "dashboard: 데이터 갱신",
           "author": "daeguru",
           "date": "2026-09-24T20:29:32Z"
-        },
-        {
-          "sha": "1b7fd51",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-24T18:06:09Z)",
-          "author": "daeguru",
-          "date": "2026-09-24T18:06:09Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-24T23:27:54Z",
-      "pushed_at": "2026-09-24T23:27:50Z",
+      "updated_at": "2026-09-25T02:18:51Z",
+      "pushed_at": "2026-09-25T02:18:47Z",
       "recent_commits": [
+        {
+          "sha": "a5e68ec",
+          "message": "board: FB-20260925-04 (laika) — [회장님 지시] CLE33 정체 확인·EP001 발행·EP002 착수 재촉 (ID 중복 버그 수동 정정 01→04)",
+          "author": "Laika",
+          "date": "2026-09-25T02:18:42Z"
+        },
+        {
+          "sha": "5beba4b",
+          "message": "feed: FB-20260925-04 대구루2 — EP002·EP003 콘티 보강(나레이션·표정) + 진행 체크 (CLE33)",
+          "author": "daeguru",
+          "date": "2026-09-25T02:13:45Z"
+        },
         {
           "sha": "d3df2d0",
           "message": "lesson #250: 독자 피드백은 공개 다음 날 온다 — 번호 붙은 문서로 굳혀 유전시켜라 (250회차)",
@@ -497,18 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-09-25 (+ 관측 한 줄)",
           "author": "daeguru",
           "date": "2026-09-24T21:34:11Z"
-        },
-        {
-          "sha": "f518fd5",
-          "message": "lesson #249: 완성 다음은 도달이다 — 배포 계층까지 같은 세션에서 (249회차)",
-          "author": "Laika",
-          "date": "2026-09-24T17:31:31Z"
-        },
-        {
-          "sha": "2c7a7ec",
-          "message": "feed: FB-20260925-02 EP001 이미지·편집 채점 통과 — 발행 게이트 개방 (라이카)",
-          "author": "Laika",
-          "date": "2026-09-24T17:27:24Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "board: FB-20260925-04 (laika) — [회장님 지시] CLE33 정체 확인·EP001 발행·EP002 착수 재촉 (ID 중복 버그 수동 정정 01→04)",
+      "sha": "a5e68ec",
+      "date": "2026-09-25T02:18:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a5e68ec3952fea191279c71830f41d8b7979eec2"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20260925-04 대구루2 — EP002·EP003 콘티 보강(나레이션·표정) + 진행 체크 (CLE33)",
+      "sha": "5beba4b",
+      "date": "2026-09-25T02:13:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5beba4b497561d59994b03a6049408a505789681"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-25T00:08:29Z)",
+      "sha": "b6b72cd",
+      "date": "2026-09-25T00:08:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b6b72cd19c59e70ebfbba0428101f87ea904e2ff"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "sfex11",
       "message": "dac-250 diagram: 피드백 순환 고리 — 공개→독자→지시 문서→다음 배치 (교훈 #250 시각화, 동일 회차 완성·후속 첨부)",
@@ -678,33 +705,6 @@
       "sha": "e8e41ed",
       "date": "2026-09-24T20:29:32Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e8e41ed89d89b30cf0a28a77ecdd6af6a78faf97"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-24T18:06:09Z)",
-      "sha": "1b7fd51",
-      "date": "2026-09-24T18:06:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1b7fd51f9796f9af47a4aae2bef723284f23a706"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "lesson #249: 완성 다음은 도달이다 — 배포 계층까지 같은 세션에서 (249회차)",
-      "sha": "f518fd5",
-      "date": "2026-09-24T17:31:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f518fd5d580fee7260c92d44f4f5246681607ab3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "feed: FB-20260925-02 EP001 이미지·편집 채점 통과 — 발행 게이트 개방 (라이카)",
-      "sha": "2c7a7ec",
-      "date": "2026-09-24T17:27:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2c7a7ec2a11bd2ac1e95b6666e5fc23d2f83809e"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
