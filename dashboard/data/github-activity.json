@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25T11:28:59Z",
-  "since": "2026-08-26T11:28:26Z",
+  "generated": "2026-09-25T12:07:29Z",
+  "since": "2026-08-26T12:06:19Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-25T09:06:38Z",
-      "pushed_at": "2026-09-25T09:06:34Z",
+      "updated_at": "2026-09-25T11:29:22Z",
+      "pushed_at": "2026-09-25T11:29:18Z",
       "recent_commits": [
+        {
+          "sha": "343e474",
+          "message": "dashboard: dashboard.json + github-activity.json 갱신 (2026-09-25)",
+          "author": "daeguru",
+          "date": "2026-09-25T11:29:17Z"
+        },
         {
           "sha": "694c27c",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-25T09:06:30Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard data 2026-09-25 14:27 KST",
           "author": "daeguru",
           "date": "2026-09-25T05:29:14Z"
-        },
-        {
-          "sha": "41d4fe9",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-25T03:08:57Z)",
-          "author": "daeguru",
-          "date": "2026-09-25T03:08:57Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-25T11:21:11Z",
-      "pushed_at": "2026-09-25T11:21:07Z",
+      "updated_at": "2026-09-25T11:29:18Z",
+      "pushed_at": "2026-09-25T11:29:13Z",
       "recent_commits": [
+        {
+          "sha": "0fe37a6",
+          "message": "dashboard: wiki 재생성 + agents-board feed 업데이트 (2026-09-25)",
+          "author": "daeguru",
+          "date": "2026-09-25T11:29:13Z"
+        },
         {
           "sha": "0fa5b9c",
           "message": "교훈 #252 append — 긴급 표기는 실행 트리거가 아니다 (Laika)",
@@ -503,12 +509,6 @@
           "message": "board: FB-20260925-04(daeguru2) ID 충돌 정정 04→05 + EP001 발행 대행 응답 추가 (CLE33)",
           "author": "daeguru",
           "date": "2026-09-25T03:39:37Z"
-        },
-        {
-          "sha": "496cad4",
-          "message": "log: Jev 게이트 판정 기록 2026-09-25",
-          "author": "대구루 (AI)",
-          "date": "2026-09-25T03:37:42Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json + github-activity.json 갱신 (2026-09-25)",
+      "sha": "343e474",
+      "date": "2026-09-25T11:29:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/343e47401f4217152370c122b0c96b68de9892b2"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "dashboard: wiki 재생성 + agents-board feed 업데이트 (2026-09-25)",
+      "sha": "0fe37a6",
+      "date": "2026-09-25T11:29:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0fe37a61d0081616b0abdc2789b1e834769d96ea"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #252 append — 긴급 표기는 실행 트리거가 아니다 (Laika)",
@@ -687,24 +705,6 @@
       "sha": "35b4d7b",
       "date": "2026-09-25T03:39:37Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/35b4d7b2e386b331f9cf9a60b70682502de72a0e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "log: Jev 게이트 판정 기록 2026-09-25",
-      "sha": "496cad4",
-      "date": "2026-09-25T03:37:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/496cad4b45d1abb233f5804dad8a5be338d31d68"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-25T03:08:57Z)",
-      "sha": "41d4fe9",
-      "date": "2026-09-25T03:08:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/41d4fe961cfa188f8ef98515d627181cb1d34e54"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 8,
       "prs": 0,
       "issues": 0,
       "reviews": 0
