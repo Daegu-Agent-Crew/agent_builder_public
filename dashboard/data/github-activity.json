@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-25T09:06:30Z",
-  "since": "2026-08-26T09:05:23Z",
+  "generated": "2026-09-25T11:28:59Z",
+  "since": "2026-08-26T11:28:26Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 71,
+      "open_issues": 72,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-25T08:29:34Z",
-      "pushed_at": "2026-09-25T08:29:29Z",
+      "updated_at": "2026-09-25T09:06:38Z",
+      "pushed_at": "2026-09-25T09:06:34Z",
       "recent_commits": [
+        {
+          "sha": "694c27c",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-25T09:06:30Z)",
+          "author": "daeguru",
+          "date": "2026-09-25T09:06:30Z"
+        },
         {
           "sha": "f063d2d",
           "message": "chore(dashboard): update dashboard.json + github-activity (2026-09-25 17:29 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-25T03:08:57Z)",
           "author": "daeguru",
           "date": "2026-09-25T03:08:57Z"
-        },
-        {
-          "sha": "e602529",
-          "message": "dashboard: update dashboard.json + github-activity (auto, 2026-09-25 11:27)",
-          "author": "daeguru",
-          "date": "2026-09-25T02:29:03Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-25T05:25:37Z",
-      "pushed_at": "2026-09-25T05:25:34Z",
+      "updated_at": "2026-09-25T11:21:11Z",
+      "pushed_at": "2026-09-25T11:21:07Z",
       "recent_commits": [
+        {
+          "sha": "0fa5b9c",
+          "message": "교훈 #252 append — 긴급 표기는 실행 트리거가 아니다 (Laika)",
+          "author": "Laika",
+          "date": "2026-09-25T11:21:07Z"
+        },
+        {
+          "sha": "2020db9",
+          "message": "wake: 기상 9건 기록(대구루 7·대구루2 2) + log: Jev 게이트 판정 기록·관측 한 줄 2026-09-25",
+          "author": "daeguru-agent",
+          "date": "2026-09-25T09:36:01Z"
+        },
         {
           "sha": "52ef1e5",
           "message": "교훈 #251 — 알림 전송 성공≠기상, 산출 막힘은 대행으로 (251회차)",
@@ -497,18 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-09-25",
           "author": "대구루 (AI)",
           "date": "2026-09-25T03:37:42Z"
-        },
-        {
-          "sha": "34f1c2a",
-          "message": "wake: FB-20260923-02 외 16건 daeguru2·daeguru 기상 기록 (20건)",
-          "author": "대구루 (AI)",
-          "date": "2026-09-25T03:37:39Z"
-        },
-        {
-          "sha": "a5e68ec",
-          "message": "board: FB-20260925-04 (laika) — [회장님 지시] CLE33 정체 확인·EP001 발행·EP002 착수 재촉 (ID 중복 버그 수동 정정 01→04)",
-          "author": "Laika",
-          "date": "2026-09-25T02:18:42Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #252 append — 긴급 표기는 실행 트리거가 아니다 (Laika)",
+      "sha": "0fa5b9c",
+      "date": "2026-09-25T11:21:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0fa5b9caaa700fe3dc59bc34a9a6da52ebb40266"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru-agent",
+      "message": "wake: 기상 9건 기록(대구루 7·대구루2 2) + log: Jev 게이트 판정 기록·관측 한 줄 2026-09-25",
+      "sha": "2020db9",
+      "date": "2026-09-25T09:36:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2020db992c00772572e9136481f6a1df46befcc6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-25T09:06:30Z)",
+      "sha": "694c27c",
+      "date": "2026-09-25T09:06:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/694c27cb24d8359d42e8f69ae662ac4e0c3cbafa"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard.json + github-activity (2026-09-25 17:29 KST)",
@@ -672,39 +699,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "wake: FB-20260923-02 외 16건 daeguru2·daeguru 기상 기록 (20건)",
-      "sha": "34f1c2a",
-      "date": "2026-09-25T03:37:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/34f1c2a6bb7907c58ff7bf5ccfe3a9f6217dd863"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-25T03:08:57Z)",
       "sha": "41d4fe9",
       "date": "2026-09-25T03:08:57Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/41d4fe961cfa188f8ef98515d627181cb1d34e54"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json + github-activity (auto, 2026-09-25 11:27)",
-      "sha": "e602529",
-      "date": "2026-09-25T02:29:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e6025298ce005647127abbac74f1e275978bd8e2"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "board: FB-20260925-04 (laika) — [회장님 지시] CLE33 정체 확인·EP001 발행·EP002 착수 재촉 (ID 중복 버그 수동 정정 01→04)",
-      "sha": "a5e68ec",
-      "date": "2026-09-25T02:18:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a5e68ec3952fea191279c71830f41d8b7979eec2"
     },
     {
       "type": "commit",
