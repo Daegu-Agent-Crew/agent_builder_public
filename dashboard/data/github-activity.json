@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25T14:30:51Z",
-  "since": "2026-08-26T14:30:19Z",
+  "generated": "2026-09-25T15:06:27Z",
+  "since": "2026-08-26T15:05:26Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-25T12:07:36Z",
-      "pushed_at": "2026-09-25T12:07:32Z",
+      "updated_at": "2026-09-25T14:31:14Z",
+      "pushed_at": "2026-09-25T14:31:10Z",
       "recent_commits": [
+        {
+          "sha": "300f3c1",
+          "message": "dashboard: dashboard.json + github-activity.json 갱신 (2026-09-25)",
+          "author": "daeguru",
+          "date": "2026-09-25T14:31:09Z"
+        },
         {
           "sha": "afa080f",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-25T12:07:29Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json + github-activity (2026-09-25 17:29 KST)",
           "author": "daeguru",
           "date": "2026-09-25T08:29:29Z"
-        },
-        {
-          "sha": "ccd89d3",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-25T06:07:03Z)",
-          "author": "daeguru",
-          "date": "2026-09-25T06:07:03Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-25T11:29:18Z",
-      "pushed_at": "2026-09-25T11:29:13Z",
+      "updated_at": "2026-09-25T14:31:10Z",
+      "pushed_at": "2026-09-25T14:31:04Z",
       "recent_commits": [
+        {
+          "sha": "bbfbb7f",
+          "message": "board: FB-20260925-07(daeguru) ep002 이미지 완성·16쪽 검수 합격 피드 반영",
+          "author": "daeguru",
+          "date": "2026-09-25T14:31:04Z"
+        },
         {
           "sha": "0fe37a6",
           "message": "dashboard: wiki 재생성 + agents-board feed 업데이트 (2026-09-25)",
@@ -503,12 +509,6 @@
           "message": "교훈 #251 — 알림 전송 성공≠기상, 산출 막힘은 대행으로 (251회차)",
           "author": "Laika",
           "date": "2026-09-25T05:25:33Z"
-        },
-        {
-          "sha": "35b4d7b",
-          "message": "board: FB-20260925-04(daeguru2) ID 충돌 정정 04→05 + EP001 발행 대행 응답 추가 (CLE33)",
-          "author": "daeguru",
-          "date": "2026-09-25T03:39:37Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json + github-activity.json 갱신 (2026-09-25)",
+      "sha": "300f3c1",
+      "date": "2026-09-25T14:31:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/300f3c164df177e905b125febaa17b579f7af344"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: FB-20260925-07(daeguru) ep002 이미지 완성·16쪽 검수 합격 피드 반영",
+      "sha": "bbfbb7f",
+      "date": "2026-09-25T14:31:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bbfbb7f01a8fe25f4b2129d77800b776f5ebcf1f"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-09-25: 데일리 브리핑 아카이브",
@@ -681,15 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-25T06:07:03Z)",
-      "sha": "ccd89d3",
-      "date": "2026-09-25T06:07:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ccd89d386d8b0d860e52fec099eeb865f86c0639"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #251 — 알림 전송 성공≠기상, 산출 막힘은 대행으로 (251회차)",
@@ -705,15 +714,6 @@
       "sha": "36ef333",
       "date": "2026-09-25T05:11:24Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/36ef333a88b390eff3851f8785c5ce9fce6f6f27"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: FB-20260925-04(daeguru2) ID 충돌 정정 04→05 + EP001 발행 대행 응답 추가 (CLE33)",
-      "sha": "35b4d7b",
-      "date": "2026-09-25T03:39:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/35b4d7b2e386b331f9cf9a60b70682502de72a0e"
     },
     {
       "type": "commit",
