@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-25T03:08:57Z",
-  "since": "2026-08-26T03:07:45Z",
+  "generated": "2026-09-25T05:29:06Z",
+  "since": "2026-08-26T05:28:35Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 70,
+      "open_issues": 71,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-25T02:29:07Z",
-      "pushed_at": "2026-09-25T02:29:03Z",
+      "updated_at": "2026-09-25T03:09:04Z",
+      "pushed_at": "2026-09-25T03:09:01Z",
       "recent_commits": [
+        {
+          "sha": "41d4fe9",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-25T03:08:57Z)",
+          "author": "daeguru",
+          "date": "2026-09-25T03:08:57Z"
+        },
         {
           "sha": "e602529",
           "message": "dashboard: update dashboard.json + github-activity (auto, 2026-09-25 11:27)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-09-24T23:29:18Z"
-        },
-        {
-          "sha": "679b2e6",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-24T21:07:00Z)",
-          "author": "daeguru",
-          "date": "2026-09-24T21:07:00Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 5,
       "open_prs": 0,
-      "updated_at": "2026-09-24T23:35:34Z",
-      "pushed_at": "2026-09-24T23:35:30Z",
+      "updated_at": "2026-09-25T05:11:32Z",
+      "pushed_at": "2026-09-25T05:11:27Z",
       "recent_commits": [
+        {
+          "sha": "36ef333",
+          "message": "📚 2026-09-25: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-09-25T05:11:24Z"
+        },
         {
           "sha": "77372e6",
           "message": "📰 2026-09-25: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "🖼️ 2026-09-24: 뉴스 다이제스트 이미지 갱신",
           "author": "Renover",
           "date": "2026-09-24T00:58:58Z"
-        },
-        {
-          "sha": "a3e8763",
-          "message": "📰 2026-09-24: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-09-24T00:06:05Z"
         }
       ],
       "recent_prs": [
@@ -477,38 +477,38 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-25T02:18:51Z",
-      "pushed_at": "2026-09-25T02:18:47Z",
+      "updated_at": "2026-09-25T05:25:37Z",
+      "pushed_at": "2026-09-25T05:25:34Z",
       "recent_commits": [
+        {
+          "sha": "52ef1e5",
+          "message": "교훈 #251 — 알림 전송 성공≠기상, 산출 막힘은 대행으로 (251회차)",
+          "author": "Laika",
+          "date": "2026-09-25T05:25:33Z"
+        },
+        {
+          "sha": "35b4d7b",
+          "message": "board: FB-20260925-04(daeguru2) ID 충돌 정정 04→05 + EP001 발행 대행 응답 추가 (CLE33)",
+          "author": "daeguru",
+          "date": "2026-09-25T03:39:37Z"
+        },
+        {
+          "sha": "496cad4",
+          "message": "log: Jev 게이트 판정 기록 2026-09-25",
+          "author": "대구루 (AI)",
+          "date": "2026-09-25T03:37:42Z"
+        },
+        {
+          "sha": "34f1c2a",
+          "message": "wake: FB-20260923-02 외 16건 daeguru2·daeguru 기상 기록 (20건)",
+          "author": "대구루 (AI)",
+          "date": "2026-09-25T03:37:39Z"
+        },
         {
           "sha": "a5e68ec",
           "message": "board: FB-20260925-04 (laika) — [회장님 지시] CLE33 정체 확인·EP001 발행·EP002 착수 재촉 (ID 중복 버그 수동 정정 01→04)",
           "author": "Laika",
           "date": "2026-09-25T02:18:42Z"
-        },
-        {
-          "sha": "5beba4b",
-          "message": "feed: FB-20260925-04 대구루2 — EP002·EP003 콘티 보강(나레이션·표정) + 진행 체크 (CLE33)",
-          "author": "daeguru",
-          "date": "2026-09-25T02:13:45Z"
-        },
-        {
-          "sha": "d3df2d0",
-          "message": "lesson #250: 독자 피드백은 공개 다음 날 온다 — 번호 붙은 문서로 굳혀 유전시켜라 (250회차)",
-          "author": "sfex11",
-          "date": "2026-09-24T23:27:50Z"
-        },
-        {
-          "sha": "c631ba4",
-          "message": "feed: FB-20260925-03 라이카 — RUBRIC v2 반영 완료 + EP001 발행 게이트 개방 재확인(현황판 불일치) (250회차)",
-          "author": "sfex11",
-          "date": "2026-09-24T23:27:47Z"
-        },
-        {
-          "sha": "2500c9d",
-          "message": "log: Jev 게이트 판정 기록 2026-09-25 (+ 관측 한 줄)",
-          "author": "daeguru",
-          "date": "2026-09-24T21:34:11Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,60 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #251 — 알림 전송 성공≠기상, 산출 막힘은 대행으로 (251회차)",
+      "sha": "52ef1e5",
+      "date": "2026-09-25T05:25:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/52ef1e5a9037d76d209552ffa66bc0c8aba1a8e9"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-09-25: 위키 갱신 (2개)",
+      "sha": "36ef333",
+      "date": "2026-09-25T05:11:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/36ef333a88b390eff3851f8785c5ce9fce6f6f27"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: FB-20260925-04(daeguru2) ID 충돌 정정 04→05 + EP001 발행 대행 응답 추가 (CLE33)",
+      "sha": "35b4d7b",
+      "date": "2026-09-25T03:39:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/35b4d7b2e386b331f9cf9a60b70682502de72a0e"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "log: Jev 게이트 판정 기록 2026-09-25",
+      "sha": "496cad4",
+      "date": "2026-09-25T03:37:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/496cad4b45d1abb233f5804dad8a5be338d31d68"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "wake: FB-20260923-02 외 16건 daeguru2·daeguru 기상 기록 (20건)",
+      "sha": "34f1c2a",
+      "date": "2026-09-25T03:37:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/34f1c2a6bb7907c58ff7bf5ccfe3a9f6217dd863"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-25T03:08:57Z)",
+      "sha": "41d4fe9",
+      "date": "2026-09-25T03:08:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/41d4fe961cfa188f8ef98515d627181cb1d34e54"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json + github-activity (auto, 2026-09-25 11:27)",
@@ -624,15 +678,6 @@
       "sha": "a5e68ec",
       "date": "2026-09-25T02:18:42Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a5e68ec3952fea191279c71830f41d8b7979eec2"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20260925-04 대구루2 — EP002·EP003 콘티 보강(나레이션·표정) + 진행 체크 (CLE33)",
-      "sha": "5beba4b",
-      "date": "2026-09-25T02:13:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5beba4b497561d59994b03a6049408a505789681"
     },
     {
       "type": "commit",
@@ -672,42 +717,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson #250: 독자 피드백은 공개 다음 날 온다 — 번호 붙은 문서로 굳혀 유전시켜라 (250회차)",
-      "sha": "d3df2d0",
-      "date": "2026-09-24T23:27:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d3df2d044aea70059a4a402c6bbeb8ba26881d51"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "feed: FB-20260925-03 라이카 — RUBRIC v2 반영 완료 + EP001 발행 게이트 개방 재확인(현황판 불일치) (250회차)",
-      "sha": "c631ba4",
-      "date": "2026-09-24T23:27:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c631ba45afb51e0e5ede1593c4b5f007c4cf6e7b"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-09-25 (+ 관측 한 줄)",
-      "sha": "2500c9d",
-      "date": "2026-09-24T21:34:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2500c9dd6dc70db45f28f58559550312b6834c7f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-24T21:07:00Z)",
-      "sha": "679b2e6",
-      "date": "2026-09-24T21:07:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/679b2e6ac08d7498424538f4a4b50f9439534ae5"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-09-24: 데일리 브리핑 아카이브",
@@ -732,15 +741,6 @@
       "sha": "586f7f5",
       "date": "2026-09-24T00:58:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/586f7f52021e9adb3b29ccb98a417886a7579a70"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-24: 뉴스 수집 (5건)",
-      "sha": "a3e8763",
-      "date": "2026-09-24T00:06:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a3e8763df67c5752913ca4857665b8ccd832f693"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 19,
+      "commits": 17,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
