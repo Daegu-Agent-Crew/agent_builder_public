@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-26T09:08:15Z",
-  "since": "2026-08-27T09:07:32Z",
+  "generated": "2026-09-26T11:29:13Z",
+  "since": "2026-08-27T11:28:43Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-26T08:29:45Z",
-      "pushed_at": "2026-09-26T08:29:42Z",
+      "updated_at": "2026-09-26T09:08:21Z",
+      "pushed_at": "2026-09-26T09:08:18Z",
       "recent_commits": [
+        {
+          "sha": "8d82b26",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-26T09:08:15Z)",
+          "author": "daeguru",
+          "date": "2026-09-26T09:08:15Z"
+        },
         {
           "sha": "b09661e",
           "message": "chore(dashboard): refresh dashboard.json + github activity (2026-09-26T08:28Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-26T03:06:38Z)",
           "author": "daeguru",
           "date": "2026-09-26T03:06:39Z"
-        },
-        {
-          "sha": "0311048",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-26 11:30 KST)",
-          "author": "daeguru",
-          "date": "2026-09-26T02:29:58Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-26T05:27:48Z",
-      "pushed_at": "2026-09-26T05:27:44Z",
+      "updated_at": "2026-09-26T09:33:34Z",
+      "pushed_at": "2026-09-26T09:33:30Z",
       "recent_commits": [
+        {
+          "sha": "f7a122c",
+          "message": "log: Jev 게이트 판정 기록 2026-09-26",
+          "author": "daeguru",
+          "date": "2026-09-26T09:33:30Z"
+        },
         {
           "sha": "4fc962d",
           "message": "교훈 #255 append — 대행 게이트는 도과 시각 예고가 먼저 (Laika)",
@@ -503,12 +509,6 @@
           "message": "board: FB-20260926-03 EP002 편집·발행 대행 완료 카드 (라이카, 회장님 지시 후속 — 무응답 기준 도과)",
           "author": "Laika",
           "date": "2026-09-26T02:22:38Z"
-        },
-        {
-          "sha": "881bc6e",
-          "message": "교훈 #254 append — 점수와 상관 두 개의 게이지 (Laika)",
-          "author": "Laika",
-          "date": "2026-09-25T23:22:38Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-09-26",
+      "sha": "f7a122c",
+      "date": "2026-09-26T09:33:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f7a122cb5c03c3f4a102537ec8f007cacdf45e45"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-26T09:08:15Z)",
+      "sha": "8d82b26",
+      "date": "2026-09-26T09:08:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8d82b26c512b0ba991f7bb120b13278536faa622"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): refresh dashboard.json + github activity (2026-09-26T08:28Z)",
@@ -681,15 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-26 11:30 KST)",
-      "sha": "0311048",
-      "date": "2026-09-26T02:29:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/03110484a60a4c6ad2c4c8050051e88f09eb2f09"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "board: FB-20260926-03 EP002 편집·발행 대행 완료 카드 (라이카, 회장님 지시 후속 — 무응답 기준 도과)",
@@ -743,15 +752,6 @@
       "sha": "29770b5",
       "date": "2026-09-25T23:23:55Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/29770b5a2b7f7a3ca120d991d169119052699feb"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #254 append — 점수와 상관 두 개의 게이지 (Laika)",
-      "sha": "881bc6e",
-      "date": "2026-09-25T23:22:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/881bc6e5b7b5ce6274eef53eb5a6eb5c833eb509"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 8,
+      "commits": 9,
       "prs": 0,
       "issues": 0,
       "reviews": 0
