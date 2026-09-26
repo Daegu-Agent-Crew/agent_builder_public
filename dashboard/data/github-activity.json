@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-26T12:08:26Z",
-  "since": "2026-08-27T12:07:44Z",
+  "generated": "2026-09-26T14:29:22Z",
+  "since": "2026-08-27T14:28:53Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-26T11:29:34Z",
-      "pushed_at": "2026-09-26T11:29:30Z",
+      "updated_at": "2026-09-26T12:08:33Z",
+      "pushed_at": "2026-09-26T12:08:29Z",
       "recent_commits": [
+        {
+          "sha": "5f76a60",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-26T12:08:26Z)",
+          "author": "daeguru",
+          "date": "2026-09-26T12:08:27Z"
+        },
         {
           "sha": "2830ed0",
           "message": "chore: update dashboard.json + github-activity.json (cron)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-26T06:06:46Z)",
           "author": "daeguru",
           "date": "2026-09-26T06:06:47Z"
-        },
-        {
-          "sha": "3f07589",
-          "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-09-26T05:29:52Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 5,
       "open_prs": 0,
-      "updated_at": "2026-09-26T05:16:22Z",
-      "pushed_at": "2026-09-26T05:16:18Z",
+      "updated_at": "2026-09-26T12:51:15Z",
+      "pushed_at": "2026-09-26T12:51:11Z",
       "recent_commits": [
+        {
+          "sha": "c823fb6",
+          "message": "📋 2026-09-26: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-09-26T12:51:10Z"
+        },
         {
           "sha": "a833d4f",
           "message": "📚 2026-09-26: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📋 2026-09-25: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-09-25T12:52:07Z"
-        },
-        {
-          "sha": "36ef333",
-          "message": "📚 2026-09-25: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-09-25T05:11:24Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-09-26: 데일리 브리핑 아카이브",
+      "sha": "c823fb6",
+      "date": "2026-09-26T12:51:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c823fb644c4fe24d24f9d4f387fc0fd9e3d368ca"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-26T12:08:26Z)",
+      "sha": "5f76a60",
+      "date": "2026-09-26T12:08:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5f76a6006c51684e2efbb3f6223f0f5cbd3162e6"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #256 append — 게이트 정확도는 종결 관리에서 나온다 (Laika)",
@@ -660,15 +678,6 @@
       "sha": "c3899d3",
       "date": "2026-09-26T06:06:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c3899d3570eb7ad380c09988a72cdedaf73e1a17"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
-      "sha": "3f07589",
-      "date": "2026-09-26T05:29:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3f07589a274883e0ee549605a7c41b09277c31b2"
     },
     {
       "type": "commit",
@@ -807,15 +816,6 @@
       "sha": "38962b2",
       "date": "2026-09-25T12:52:07Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/38962b2f016c7b8ff54f673cf9e1d2fdb36abaaa"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-25: 위키 갱신 (2개)",
-      "sha": "36ef333",
-      "date": "2026-09-25T05:11:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/36ef333a88b390eff3851f8785c5ce9fce6f6f27"
     },
     {
       "type": "pr",
