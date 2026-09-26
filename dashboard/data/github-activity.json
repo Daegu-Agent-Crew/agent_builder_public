@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-26T15:05:55Z",
-  "since": "2026-08-27T15:05:11Z",
+  "generated": "2026-09-26T17:28:57Z",
+  "since": "2026-08-27T17:28:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-26T14:29:37Z",
-      "pushed_at": "2026-09-26T14:29:34Z",
+      "updated_at": "2026-09-26T17:27:35Z",
+      "pushed_at": "2026-09-26T17:27:32Z",
       "recent_commits": [
+        {
+          "sha": "2c4aef5",
+          "message": "dac-257 report diagram: 카드 수명 주기 (종결 마킹 vs 좀비 카드)",
+          "author": "Laika",
+          "date": "2026-09-26T17:27:31Z"
+        },
+        {
+          "sha": "e46c22b",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-26T15:05:55Z)",
+          "author": "daeguru",
+          "date": "2026-09-26T15:05:56Z"
+        },
         {
           "sha": "30e2d68",
           "message": "chore(dashboard): update dashboard.json + github-activity.json (cron)",
@@ -79,18 +91,6 @@
           "message": "chore: update dashboard.json + github-activity.json (cron)",
           "author": "daeguru",
           "date": "2026-09-26T11:29:30Z"
-        },
-        {
-          "sha": "8d82b26",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-26T09:08:15Z)",
-          "author": "daeguru",
-          "date": "2026-09-26T09:08:15Z"
-        },
-        {
-          "sha": "b09661e",
-          "message": "chore(dashboard): refresh dashboard.json + github activity (2026-09-26T08:28Z)",
-          "author": "daeguru",
-          "date": "2026-09-26T08:29:42Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-26T11:29:53Z",
-      "pushed_at": "2026-09-26T11:29:50Z",
+      "updated_at": "2026-09-26T17:28:36Z",
+      "pushed_at": "2026-09-26T17:28:33Z",
       "recent_commits": [
+        {
+          "sha": "e2d6fcf",
+          "message": "교훈 #257: 끝난 카드의 알림 예산 소모 — 종결 마킹은 자원 회수 (257회차)",
+          "author": "Laika",
+          "date": "2026-09-26T17:28:33Z"
+        },
+        {
+          "sha": "fa2d3e2",
+          "message": "log: Jev 게이트 판정 기록 2026-09-27",
+          "author": "daeguru",
+          "date": "2026-09-26T15:37:06Z"
+        },
         {
           "sha": "e4886dd",
           "message": "교훈 #256 append — 게이트 정확도는 종결 관리에서 나온다 (Laika)",
@@ -497,18 +509,6 @@
           "message": "교훈 #255 append — 대행 게이트는 도과 시각 예고가 먼저 (Laika)",
           "author": "Laika",
           "date": "2026-09-26T05:27:44Z"
-        },
-        {
-          "sha": "ca412c0",
-          "message": "log: Jev 게이트 판정 기록·관측 한 줄 2026-09-26",
-          "author": "daeguru",
-          "date": "2026-09-26T03:38:20Z"
-        },
-        {
-          "sha": "b17744f",
-          "message": "wake: FB-20260924-04·FB-20260925-01~04 daeguru·daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-09-26T03:38:08Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "교훈 #257: 끝난 카드의 알림 예산 소모 — 종결 마킹은 자원 회수 (257회차)",
+      "sha": "e2d6fcf",
+      "date": "2026-09-26T17:28:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e2d6fcf44163d94ff2db346c6cdea340ac76e5c6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "dac-257 report diagram: 카드 수명 주기 (종결 마킹 vs 좀비 카드)",
+      "sha": "2c4aef5",
+      "date": "2026-09-26T17:27:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2c4aef5e3320807901c486dc225502f6fd151f03"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-09-27",
+      "sha": "fa2d3e2",
+      "date": "2026-09-26T15:37:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fa2d3e20d71e9dd07f55b33d95148954b8c2aa97"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-26T15:05:55Z)",
+      "sha": "e46c22b",
+      "date": "2026-09-26T15:05:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e46c22b14cd7108b4ede657c5b0dbd73cc903d52"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard.json + github-activity.json (cron)",
@@ -663,24 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-26T09:08:15Z)",
-      "sha": "8d82b26",
-      "date": "2026-09-26T09:08:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8d82b26c512b0ba991f7bb120b13278536faa622"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json + github activity (2026-09-26T08:28Z)",
-      "sha": "b09661e",
-      "date": "2026-09-26T08:29:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b09661efd077f4d1bb03b95f34c13fa4e9aa92d8"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #255 append — 대행 게이트는 도과 시각 예고가 먼저 (Laika)",
@@ -696,24 +714,6 @@
       "sha": "a833d4f",
       "date": "2026-09-26T05:16:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a833d4f9cd07084aa31759225fc28d90a946b138"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록·관측 한 줄 2026-09-26",
-      "sha": "ca412c0",
-      "date": "2026-09-26T03:38:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ca412c0313e565fa68f56e958656d22cbfd430fb"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20260924-04·FB-20260925-01~04 daeguru·daeguru2 기상 기록",
-      "sha": "b17744f",
-      "date": "2026-09-26T03:38:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b17744f0c79324c82fa0de96da8062b4b03cdf97"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 9,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
