@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-26T17:28:57Z",
-  "since": "2026-08-27T17:28:27Z",
+  "generated": "2026-09-26T18:06:47Z",
+  "since": "2026-08-27T18:05:51Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 76,
+      "open_issues": 77,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-26T17:27:35Z",
-      "pushed_at": "2026-09-26T17:27:32Z",
+      "updated_at": "2026-09-26T17:29:13Z",
+      "pushed_at": "2026-09-26T17:29:09Z",
       "recent_commits": [
+        {
+          "sha": "7f35422",
+          "message": "dashboard: 갱신 dashboard.json + github-activity.json (2026-09-27 02:29 KST)",
+          "author": "daeguru",
+          "date": "2026-09-26T17:29:08Z"
+        },
         {
           "sha": "2c4aef5",
           "message": "dac-257 report diagram: 카드 수명 주기 (종결 마킹 vs 좀비 카드)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-26T12:08:26Z)",
           "author": "daeguru",
           "date": "2026-09-26T12:08:27Z"
-        },
-        {
-          "sha": "2830ed0",
-          "message": "chore: update dashboard.json + github-activity.json (cron)",
-          "author": "daeguru",
-          "date": "2026-09-26T11:29:30Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: 갱신 dashboard.json + github-activity.json (2026-09-27 02:29 KST)",
+      "sha": "7f35422",
+      "date": "2026-09-26T17:29:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7f354225abc9b75723593a918b20bf382a5a4322"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "교훈 #257: 끝난 카드의 알림 예산 소모 — 종결 마킹은 자원 회수 (257회차)",
@@ -678,15 +687,6 @@
       "sha": "e4886dd",
       "date": "2026-09-26T11:29:50Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e4886ddad43083334084c106012adf9ee52a4534"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard.json + github-activity.json (cron)",
-      "sha": "2830ed0",
-      "date": "2026-09-26T11:29:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2830ed0755c3e25b8b91e169fd7d0a80a7d807c0"
     },
     {
       "type": "commit",
