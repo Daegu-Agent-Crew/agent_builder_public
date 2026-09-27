@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27T12:08:08Z",
-  "since": "2026-08-28T12:07:24Z",
+  "generated": "2026-09-27T15:09:06Z",
+  "since": "2026-08-28T15:07:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-27T11:31:25Z",
-      "pushed_at": "2026-09-27T11:31:22Z",
+      "updated_at": "2026-09-27T12:08:16Z",
+      "pushed_at": "2026-09-27T12:08:12Z",
       "recent_commits": [
+        {
+          "sha": "8efeba5",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T12:08:08Z)",
+          "author": "daeguru",
+          "date": "2026-09-27T12:08:09Z"
+        },
         {
           "sha": "769b326",
           "message": "chore(dashboard): update dashboard data",
@@ -85,12 +91,6 @@
           "message": "news digest 인포그래픽 스펙용 프로토타입 v1 (라이카, 회장님 요청 09-27)",
           "author": "Laika",
           "date": "2026-09-27T06:44:21Z"
-        },
-        {
-          "sha": "4484cbf",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T06:07:31Z)",
-          "author": "daeguru",
-          "date": "2026-09-27T06:07:31Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,21 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-09-27T05:17:53Z",
-      "pushed_at": "2026-09-27T05:17:49Z",
+      "updated_at": "2026-09-27T14:07:12Z",
+      "pushed_at": "2026-09-27T14:07:08Z",
       "recent_commits": [
+        {
+          "sha": "51eb5ba",
+          "message": "🔍 2026-09-27: 위키 린트 점검",
+          "author": "Renover",
+          "date": "2026-09-27T14:07:01Z"
+        },
+        {
+          "sha": "5a82f35",
+          "message": "📋 2026-09-27: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-09-27T12:46:30Z"
+        },
         {
           "sha": "37d7f4a",
           "message": "📚 2026-09-27: 위키 갱신 (2개)",
@@ -146,18 +158,6 @@
           "message": "📰 2026-09-26: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-09-26T23:16:16Z"
-        },
-        {
-          "sha": "c823fb6",
-          "message": "📋 2026-09-26: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-09-26T12:51:10Z"
-        },
-        {
-          "sha": "a833d4f",
-          "message": "📚 2026-09-26: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-09-26T05:16:17Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🔍 2026-09-27: 위키 린트 점검",
+      "sha": "51eb5ba",
+      "date": "2026-09-27T14:07:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/51eb5bac32ec0eb787509c9431a33a85acc3a665"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-09-27: 데일리 브리핑 아카이브",
+      "sha": "5a82f35",
+      "date": "2026-09-27T12:46:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5a82f35c765fe1b2459af439d417c576ab19ea0c"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T12:08:08Z)",
+      "sha": "8efeba5",
+      "date": "2026-09-27T12:08:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8efeba54856e43765c50f054891d1b2c51fa9c8e"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard data",
@@ -672,15 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T06:07:31Z)",
-      "sha": "4484cbf",
-      "date": "2026-09-27T06:07:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4484cbf2fd8e56f2b65f4d56d025107101432b05"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-27: 위키 갱신 (2개)",
@@ -733,24 +751,6 @@
       "state": "open",
       "date": "2026-09-26T23:04:27Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/104"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-09-26: 데일리 브리핑 아카이브",
-      "sha": "c823fb6",
-      "date": "2026-09-26T12:51:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c823fb644c4fe24d24f9d4f387fc0fd9e3d368ca"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-26: 위키 갱신 (2개)",
-      "sha": "a833d4f",
-      "date": "2026-09-26T05:16:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a833d4f9cd07084aa31759225fc28d90a946b138"
     },
     {
       "type": "pr",
