@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27T08:31:40Z",
-  "since": "2026-08-28T08:31:11Z",
+  "generated": "2026-09-27T09:08:41Z",
+  "since": "2026-08-28T09:07:15Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-27T06:44:25Z",
-      "pushed_at": "2026-09-27T06:44:21Z",
+      "updated_at": "2026-09-27T08:32:02Z",
+      "pushed_at": "2026-09-27T08:31:59Z",
       "recent_commits": [
+        {
+          "sha": "b35c7d2",
+          "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-09-27T08:31:58Z"
+        },
         {
           "sha": "54ec718",
           "message": "news digest 인포그래픽 스펙용 프로토타입 v1 (라이카, 회장님 요청 09-27)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-27T03:06:10Z)",
           "author": "daeguru",
           "date": "2026-09-27T03:06:10Z"
-        },
-        {
-          "sha": "84edec4",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-27 11:27 KST)",
-          "author": "daeguru",
-          "date": "2026-09-27T02:30:02Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
+      "sha": "b35c7d2",
+      "date": "2026-09-27T08:31:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b35c7d28f53789ebb4033fea065c86148c664a2d"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "board: AB-0008 뉴스 다이제스트 이미지 정보 밀집형 전환 과제 (라이카, 회장님 요청 09-27)",
@@ -687,15 +696,6 @@
       "sha": "f5abb21",
       "date": "2026-09-27T03:06:10Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f5abb2184e8503ca6c5c37c1ec9f94bd592e4fd2"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-27 11:27 KST)",
-      "sha": "84edec4",
-      "date": "2026-09-27T02:30:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/84edec46d2d675033813ee31808a4ba900511e26"
     },
     {
       "type": "commit",
