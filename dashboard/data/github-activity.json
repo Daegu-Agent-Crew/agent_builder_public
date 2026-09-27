@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-27T15:09:06Z",
-  "since": "2026-08-28T15:07:25Z",
+  "generated": "2026-09-27T17:31:41Z",
+  "since": "2026-08-28T17:31:12Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 80,
+      "open_issues": 81,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-27T12:08:16Z",
-      "pushed_at": "2026-09-27T12:08:12Z",
+      "updated_at": "2026-09-27T15:09:13Z",
+      "pushed_at": "2026-09-27T15:09:09Z",
       "recent_commits": [
+        {
+          "sha": "37fe614",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T15:09:06Z)",
+          "author": "daeguru",
+          "date": "2026-09-27T15:09:06Z"
+        },
         {
           "sha": "8efeba5",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-27T12:08:08Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-09-27T08:31:58Z"
-        },
-        {
-          "sha": "54ec718",
-          "message": "news digest 인포그래픽 스펙용 프로토타입 v1 (라이카, 회장님 요청 09-27)",
-          "author": "Laika",
-          "date": "2026-09-27T06:44:21Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-27T11:06:18Z",
-      "pushed_at": "2026-09-27T11:06:15Z",
+      "updated_at": "2026-09-27T17:10:28Z",
+      "pushed_at": "2026-09-27T17:10:24Z",
       "recent_commits": [
+        {
+          "sha": "045d153",
+          "message": "lesson: #261 wake 로그는 신호, 행동은 실체 (260→261회차)",
+          "author": "Laika",
+          "date": "2026-09-27T17:10:24Z"
+        },
+        {
+          "sha": "604c526",
+          "message": "log: Jev 게이트 판정 기록 + 관측 한 줄 2026-09-28",
+          "author": "daeguru",
+          "date": "2026-09-27T15:35:33Z"
+        },
         {
           "sha": "1a491ab",
           "message": "lesson: #260 한국어 밀집 텍스트 시각물은 템플릿 렌더로 (259→260회차)",
@@ -497,18 +509,6 @@
           "message": "board: AB-0008 뉴스 다이제스트 이미지 정보 밀집형 전환 과제 (라이카, 회장님 요청 09-27)",
           "author": "Laika",
           "date": "2026-09-27T06:47:11Z"
-        },
-        {
-          "sha": "dac73e9",
-          "message": "lessons: #259회차 교훈 추가 (escalations 감소 사유 분리)",
-          "author": "Laika",
-          "date": "2026-09-27T05:15:24Z"
-        },
-        {
-          "sha": "5060378",
-          "message": "log: Jev 게이트 판정 기록 2026-09-27",
-          "author": "daeguru",
-          "date": "2026-09-27T03:37:00Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "lesson: #261 wake 로그는 신호, 행동은 실체 (260→261회차)",
+      "sha": "045d153",
+      "date": "2026-09-27T17:10:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/045d153bab81eee10af4e2f4aab09db4b579afe0"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 + 관측 한 줄 2026-09-28",
+      "sha": "604c526",
+      "date": "2026-09-27T15:35:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/604c526b1d7d2376445e62bcc60f745a7dc3a062"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T15:09:06Z)",
+      "sha": "37fe614",
+      "date": "2026-09-27T15:09:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/37fe61426449e7f24975eac6bb945a3f971dfce1"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🔍 2026-09-27: 위키 린트 점검",
@@ -690,39 +717,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "news digest 인포그래픽 스펙용 프로토타입 v1 (라이카, 회장님 요청 09-27)",
-      "sha": "54ec718",
-      "date": "2026-09-27T06:44:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/54ec7185465a62609a0511e78dae59b502b71ec6"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-09-27: 위키 갱신 (2개)",
       "sha": "37d7f4a",
       "date": "2026-09-27T05:17:40Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/37d7f4a6bbc0b6da165da0750a982c8991620075"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "lessons: #259회차 교훈 추가 (escalations 감소 사유 분리)",
-      "sha": "dac73e9",
-      "date": "2026-09-27T05:15:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/dac73e9bd81eafa3074a168d90e5521ec9c878af"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-09-27",
-      "sha": "5060378",
-      "date": "2026-09-27T03:37:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/50603787e4678ffaa0bb64aedace27d46cb4f23c"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 6,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
