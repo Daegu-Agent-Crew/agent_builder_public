@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-26T23:28:51Z",
-  "since": "2026-08-27T23:28:21Z",
+  "generated": "2026-09-27T00:06:22Z",
+  "since": "2026-08-28T00:05:26Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-26T21:09:23Z",
-      "pushed_at": "2026-09-26T21:09:19Z",
+      "updated_at": "2026-09-26T23:29:07Z",
+      "pushed_at": "2026-09-26T23:29:04Z",
       "recent_commits": [
+        {
+          "sha": "d4fd05f",
+          "message": "chore: update dashboard data (dashboard cron)",
+          "author": "daeguru",
+          "date": "2026-09-26T23:29:03Z"
+        },
         {
           "sha": "c30a64e",
           "message": "chore(dashboard): auto-refresh github activity (2026-09-26T21:09:16Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: 갱신 dashboard.json + github-activity.json (2026-09-27 02:29 KST)",
           "author": "daeguru",
           "date": "2026-09-26T17:29:08Z"
-        },
-        {
-          "sha": "2c4aef5",
-          "message": "dac-257 report diagram: 카드 수명 주기 (종결 마킹 vs 좀비 카드)",
-          "author": "Laika",
-          "date": "2026-09-26T17:27:31Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 5,
       "open_prs": 0,
-      "updated_at": "2026-09-26T23:16:19Z",
-      "pushed_at": "2026-09-26T23:16:16Z",
+      "updated_at": "2026-09-26T23:31:28Z",
+      "pushed_at": "2026-09-26T23:31:24Z",
       "recent_commits": [
+        {
+          "sha": "aa41c50",
+          "message": "🖼️ 2026-09-27: 뉴스 다이제스트 이미지",
+          "author": "Renover",
+          "date": "2026-09-26T23:31:09Z"
+        },
         {
           "sha": "4dc6b68",
           "message": "📰 2026-09-26: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "🖼️ 2026-09-26: 뉴스 다이제스트 이미지",
           "author": "Renover",
           "date": "2026-09-25T23:23:55Z"
-        },
-        {
-          "sha": "eafab0f",
-          "message": "📰 2026-09-25: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-09-25T23:14:23Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,24 @@
       "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
+      "message": "🖼️ 2026-09-27: 뉴스 다이제스트 이미지",
+      "sha": "aa41c50",
+      "date": "2026-09-26T23:31:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/aa41c50cb3e28b23d8ebf820d310737b8c39b2d7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (dashboard cron)",
+      "sha": "d4fd05f",
+      "date": "2026-09-26T23:29:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d4fd05fee2e5b3df01e94e05a1355661e6aaaefa"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
       "message": "📰 2026-09-26: 뉴스 수집 (5건)",
       "sha": "4dc6b68",
       "date": "2026-09-26T23:16:16Z",
@@ -688,15 +706,6 @@
       "sha": "e2d6fcf",
       "date": "2026-09-26T17:28:33Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e2d6fcf44163d94ff2db346c6cdea340ac76e5c6"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "Laika",
-      "message": "dac-257 report diagram: 카드 수명 주기 (종결 마킹 vs 좀비 카드)",
-      "sha": "2c4aef5",
-      "date": "2026-09-26T17:27:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2c4aef5e3320807901c486dc225502f6fd151f03"
     },
     {
       "type": "commit",
@@ -780,15 +789,6 @@
       "sha": "29770b5",
       "date": "2026-09-25T23:23:55Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/29770b5a2b7f7a3ca120d991d169119052699feb"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-25: 뉴스 수집 (5건)",
-      "sha": "eafab0f",
-      "date": "2026-09-25T23:14:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/eafab0f0cb355390d6eaee47590d949517dabbfb"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 8,
       "prs": 0,
       "issues": 0,
       "reviews": 0
