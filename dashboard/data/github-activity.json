@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-27T09:08:41Z",
-  "since": "2026-08-28T09:07:15Z",
+  "generated": "2026-09-27T11:31:18Z",
+  "since": "2026-08-28T11:30:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 79,
+      "open_issues": 80,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-27T08:32:02Z",
-      "pushed_at": "2026-09-27T08:31:59Z",
+      "updated_at": "2026-09-27T09:08:47Z",
+      "pushed_at": "2026-09-27T09:08:44Z",
       "recent_commits": [
+        {
+          "sha": "32e6bb5",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T09:08:41Z)",
+          "author": "daeguru",
+          "date": "2026-09-27T09:08:41Z"
+        },
         {
           "sha": "b35c7d2",
           "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-09-27T05:29:07Z"
-        },
-        {
-          "sha": "f5abb21",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T03:06:10Z)",
-          "author": "daeguru",
-          "date": "2026-09-27T03:06:10Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-27T06:47:19Z",
-      "pushed_at": "2026-09-27T06:47:16Z",
+      "updated_at": "2026-09-27T11:06:18Z",
+      "pushed_at": "2026-09-27T11:06:15Z",
       "recent_commits": [
+        {
+          "sha": "1a491ab",
+          "message": "lesson: #260 한국어 밀집 텍스트 시각물은 템플릿 렌더로 (259→260회차)",
+          "author": "Laika",
+          "date": "2026-09-27T11:06:15Z"
+        },
+        {
+          "sha": "911cf00",
+          "message": "log: Jev 게이트 판정 기록 2026-09-27",
+          "author": "대구루 (AI)",
+          "date": "2026-09-27T09:33:10Z"
+        },
         {
           "sha": "4830a99",
           "message": "board: AB-0008 뉴스 다이제스트 이미지 정보 밀집형 전환 과제 (라이카, 회장님 요청 09-27)",
@@ -497,18 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-09-27",
           "author": "daeguru",
           "date": "2026-09-27T03:37:00Z"
-        },
-        {
-          "sha": "052658c",
-          "message": "wake: FB-20260926-01/02/03 daeguru·daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-09-27T03:37:00Z"
-        },
-        {
-          "sha": "d689d7f",
-          "message": "교훈 #258: 출력이 살아 있으면 입력의 죽음이 안 보인다 — 정기 출력물에 오늘 입력 카운터 분리 표기 (258회차)",
-          "author": "Laika",
-          "date": "2026-09-26T23:07:17Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "lesson: #260 한국어 밀집 텍스트 시각물은 템플릿 렌더로 (259→260회차)",
+      "sha": "1a491ab",
+      "date": "2026-09-27T11:06:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1a491ab26fed07c773c24ccb38d18568e04e1400"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "log: Jev 게이트 판정 기록 2026-09-27",
+      "sha": "911cf00",
+      "date": "2026-09-27T09:33:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/911cf0068ab36922732ad639b35459c950b7c4f8"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T09:08:41Z)",
+      "sha": "32e6bb5",
+      "date": "2026-09-27T09:08:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/32e6bb5ab877f0bf6a05ace6ae263dc7312c737c"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): refresh dashboard.json and github-activity.json",
@@ -674,28 +701,10 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
-      "message": "wake: FB-20260926-01/02/03 daeguru·daeguru2 기상 기록",
-      "sha": "052658c",
-      "date": "2026-09-27T03:37:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/052658ccae7a60e8795122e00320420eca02209d"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-09-27",
       "sha": "5060378",
       "date": "2026-09-27T03:37:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/50603787e4678ffaa0bb64aedace27d46cb4f23c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T03:06:10Z)",
-      "sha": "f5abb21",
-      "date": "2026-09-27T03:06:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f5abb2184e8503ca6c5c37c1ec9f94bd592e4fd2"
     },
     {
       "type": "commit",
@@ -714,15 +723,6 @@
       "sha": "4dc6b68",
       "date": "2026-09-26T23:16:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/4dc6b687a28b4c92efd5532b64f6f2c106ec2908"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "교훈 #258: 출력이 살아 있으면 입력의 죽음이 안 보인다 — 정기 출력물에 오늘 입력 카운터 분리 표기 (258회차)",
-      "sha": "d689d7f",
-      "date": "2026-09-26T23:07:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d689d7fd2385d55ff10fd9283cf04ad3a9a21aba"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 6,
       "prs": 0,
       "issues": 0,
       "reviews": 0
