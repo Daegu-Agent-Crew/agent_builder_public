@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27T18:08:01Z",
-  "since": "2026-08-28T18:07:13Z",
+  "generated": "2026-09-27T20:31:33Z",
+  "since": "2026-08-28T20:31:04Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-27T17:31:56Z",
-      "pushed_at": "2026-09-27T17:31:53Z",
+      "updated_at": "2026-09-27T19:38:25Z",
+      "pushed_at": "2026-09-27T19:38:21Z",
       "recent_commits": [
+        {
+          "sha": "3c97f00",
+          "message": "chore: update youtube dashboard data",
+          "author": "daeguru",
+          "date": "2026-09-27T19:38:16Z"
+        },
+        {
+          "sha": "c4416c0",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T18:08:01Z)",
+          "author": "daeguru",
+          "date": "2026-09-27T18:08:08Z"
+        },
         {
           "sha": "f854c5d",
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-28 02:30 KST)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-27T12:08:08Z)",
           "author": "daeguru",
           "date": "2026-09-27T12:08:09Z"
-        },
-        {
-          "sha": "769b326",
-          "message": "chore(dashboard): update dashboard data",
-          "author": "daeguru",
-          "date": "2026-09-27T11:31:21Z"
-        },
-        {
-          "sha": "32e6bb5",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T09:08:41Z)",
-          "author": "daeguru",
-          "date": "2026-09-27T09:08:41Z"
         }
       ],
       "recent_prs": [
@@ -205,11 +205,23 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 13,
-      "open_prs": 1,
-      "updated_at": "2026-09-26T01:10:26Z",
-      "pushed_at": "2026-09-26T23:04:22Z",
+      "open_issues": 12,
+      "open_prs": 0,
+      "updated_at": "2026-09-27T19:21:54Z",
+      "pushed_at": "2026-09-27T19:21:53Z",
       "recent_commits": [
+        {
+          "sha": "05cb20f",
+          "message": "docs(CLE2-29): 판정 실험 사전 등록 부록 + OWNERS.md 초안 + 크론 스냅샷 (#105)",
+          "author": "sfex11",
+          "date": "2026-09-27T19:21:50Z"
+        },
+        {
+          "sha": "c6908ef",
+          "message": "docs(CLE2-29): STATUS 동기화 — Phase 1 완료·Phase 2 관측 D+1 진행 중 (#104)",
+          "author": "sfex11",
+          "date": "2026-09-27T19:19:55Z"
+        },
         {
           "sha": "c643046",
           "message": "feat(CLE2-29): 태스크 초기 설정 — 밈코인 관측 파일럿 (dapp4·1주차 관측·전염 판정) (#103)",
@@ -227,27 +239,23 @@
           "message": "docs(deepthink): 스킬 완성 판정 반영 — 세션 4 신기록 0.761, 통합 상관 +0.239, 시나리오 A 확정 (#100)",
           "author": "sfex11",
           "date": "2026-09-25T22:42:44Z"
-        },
-        {
-          "sha": "d99edbf",
-          "message": "docs(deepthink): 상태 보고서 세션 3 결과 반영 — 최고 0.734, 상관 첫 양수 +0.331, 판정 A45:B55 (#99)",
-          "author": "sfex11",
-          "date": "2026-09-25T22:03:58Z"
-        },
-        {
-          "sha": "d198a83",
-          "message": "docs(deepthink): Claude 제작 중학생용 성장 프레젠테이션 추가 — 세션 1·2 결과·판정 기준 포함 (#98)",
-          "author": "sfex11",
-          "date": "2026-09-25T21:23:24Z"
         }
       ],
       "recent_prs": [
         {
+          "number": 105,
+          "title": "docs(CLE2-29): 판정 실험 사전 등록 부록 + OWNERS.md 초안",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-09-27T19:21:53Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/105"
+        },
+        {
           "number": 104,
           "title": "docs(CLE2-29): STATUS 동기화 — Phase 1 완료·Phase 2 관측 D+1 진행 중",
           "author": "sfex11",
-          "state": "open",
-          "updated_at": "2026-09-26T23:04:27Z",
+          "state": "closed",
+          "updated_at": "2026-09-27T19:19:58Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/104"
         },
         {
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-09-26T01:10:24Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/103"
-        },
-        {
-          "number": 101,
-          "title": "docs(deepthink): 100코인 소급 프로브 결과 반영",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-26T00:34:25Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/101"
         }
       ]
     },
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-27T17:10:28Z",
-      "pushed_at": "2026-09-27T17:10:24Z",
+      "updated_at": "2026-09-27T19:43:48Z",
+      "pushed_at": "2026-09-27T19:43:44Z",
       "recent_commits": [
+        {
+          "sha": "c0c5d2e",
+          "message": "Add claude eli5 full-transcript explanation (navier-stokes video)",
+          "author": "sfex11",
+          "date": "2026-09-27T19:43:44Z"
+        },
+        {
+          "sha": "020c68a",
+          "message": "Add navier-stokes AI singularity video summary record",
+          "author": "sfex11",
+          "date": "2026-09-27T19:36:59Z"
+        },
         {
           "sha": "045d153",
           "message": "lesson: #261 wake 로그는 신호, 행동은 실체 (260→261회차)",
@@ -497,18 +509,6 @@
           "message": "lesson: #260 한국어 밀집 텍스트 시각물은 템플릿 렌더로 (259→260회차)",
           "author": "Laika",
           "date": "2026-09-27T11:06:15Z"
-        },
-        {
-          "sha": "911cf00",
-          "message": "log: Jev 게이트 판정 기록 2026-09-27",
-          "author": "대구루 (AI)",
-          "date": "2026-09-27T09:33:10Z"
-        },
-        {
-          "sha": "4830a99",
-          "message": "board: AB-0008 뉴스 다이제스트 이미지 정보 밀집형 전환 과제 (라이카, 회장님 요청 09-27)",
-          "author": "Laika",
-          "date": "2026-09-27T06:47:11Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,80 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add claude eli5 full-transcript explanation (navier-stokes video)",
+      "sha": "c0c5d2e",
+      "date": "2026-09-27T19:43:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c0c5d2e6a106e45c5e4fb8d082190a288fc754e6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update youtube dashboard data",
+      "sha": "3c97f00",
+      "date": "2026-09-27T19:38:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3c97f00a408ccb3d6cf0719a53120f9a24b90b5b"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add navier-stokes AI singularity video summary record",
+      "sha": "020c68a",
+      "date": "2026-09-27T19:36:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/020c68a00ad888def6dda1e6357bba0e1062f65d"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-29): 판정 실험 사전 등록 부록 + OWNERS.md 초안",
+      "number": 105,
+      "state": "closed",
+      "date": "2026-09-27T19:21:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/105"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-29): 판정 실험 사전 등록 부록 + OWNERS.md 초안 + 크론 스냅샷 (#105)",
+      "sha": "05cb20f",
+      "date": "2026-09-27T19:21:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/05cb20f8540c4e29bffc75be84c3c7b8f42ef237"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-29): STATUS 동기화 — Phase 1 완료·Phase 2 관측 D+1 진행 중",
+      "number": 104,
+      "state": "closed",
+      "date": "2026-09-27T19:19:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/104"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(CLE2-29): STATUS 동기화 — Phase 1 완료·Phase 2 관측 D+1 진행 중 (#104)",
+      "sha": "c6908ef",
+      "date": "2026-09-27T19:19:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/c6908eff7240133e3d5aef4a805893b77955f224"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T18:08:01Z)",
+      "sha": "c4416c0",
+      "date": "2026-09-27T18:08:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c4416c066b3ee0ac8210a0930ef7fe44f47eeab3"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-28 02:30 KST)",
@@ -672,48 +746,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard data",
-      "sha": "769b326",
-      "date": "2026-09-27T11:31:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/769b326963ac6c979ea9df13b7309c52b739d1cc"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "lesson: #260 한국어 밀집 텍스트 시각물은 템플릿 렌더로 (259→260회차)",
       "sha": "1a491ab",
       "date": "2026-09-27T11:06:15Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1a491ab26fed07c773c24ccb38d18568e04e1400"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "log: Jev 게이트 판정 기록 2026-09-27",
-      "sha": "911cf00",
-      "date": "2026-09-27T09:33:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/911cf0068ab36922732ad639b35459c950b7c4f8"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T09:08:41Z)",
-      "sha": "32e6bb5",
-      "date": "2026-09-27T09:08:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/32e6bb5ab877f0bf6a05ace6ae263dc7312c737c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "board: AB-0008 뉴스 다이제스트 이미지 정보 밀집형 전환 과제 (라이카, 회장님 요청 09-27)",
-      "sha": "4830a99",
-      "date": "2026-09-27T06:47:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4830a9962d53d1636ce3bb44ede506444a362b40"
     },
     {
       "type": "commit",
@@ -746,16 +784,6 @@
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
-      "message": "docs(CLE2-29): STATUS 동기화 — Phase 1 완료·Phase 2 관측 D+1 진행 중",
-      "number": 104,
-      "state": "open",
-      "date": "2026-09-26T23:04:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/104"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
       "message": "feat(CLE2-29): 밈코인 관측 파일럿 태스크 초기 설정",
       "number": 103,
       "state": "closed",
@@ -770,16 +798,6 @@
       "sha": "c643046",
       "date": "2026-09-26T01:10:21Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/c643046bfa694c61d140eeef694dd692ef979bc0"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(deepthink): 100코인 소급 프로브 결과 반영",
-      "number": 101,
-      "state": "closed",
-      "date": "2026-09-26T00:34:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/101"
     },
     {
       "type": "commit",
@@ -798,24 +816,6 @@
       "sha": "d3d61f8",
       "date": "2026-09-25T22:42:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d3d61f8949f2394b9cf3014fce590eab345c0781"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(deepthink): 상태 보고서 세션 3 결과 반영 — 최고 0.734, 상관 첫 양수 +0.331, 판정 A45:B55 (#99)",
-      "sha": "d99edbf",
-      "date": "2026-09-25T22:03:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d99edbf858d20df06c9746ae8887961bceac8987"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(deepthink): Claude 제작 중학생용 성장 프레젠테이션 추가 — 세션 1·2 결과·판정 기준 포함 (#98)",
-      "sha": "d198a83",
-      "date": "2026-09-25T21:23:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d198a8387b008971ae04293b036e6309e9f8767d"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
+      "commits": 18,
       "prs": 18,
       "issues": 0,
       "reviews": 0
