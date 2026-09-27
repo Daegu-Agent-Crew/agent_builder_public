@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27T20:31:33Z",
-  "since": "2026-08-28T20:31:04Z",
+  "generated": "2026-09-27T21:06:18Z",
+  "since": "2026-08-28T21:05:28Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-27T19:38:25Z",
-      "pushed_at": "2026-09-27T19:38:21Z",
+      "updated_at": "2026-09-27T20:32:15Z",
+      "pushed_at": "2026-09-27T20:32:11Z",
       "recent_commits": [
+        {
+          "sha": "0e49d7b",
+          "message": "chore: update dashboard data (github activity)",
+          "author": "daeguru",
+          "date": "2026-09-27T20:32:11Z"
+        },
         {
           "sha": "3c97f00",
           "message": "chore: update youtube dashboard data",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-27T15:09:06Z)",
           "author": "daeguru",
           "date": "2026-09-27T15:09:06Z"
-        },
-        {
-          "sha": "8efeba5",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T12:08:08Z)",
-          "author": "daeguru",
-          "date": "2026-09-27T12:08:09Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (github activity)",
+      "sha": "0e49d7b",
+      "date": "2026-09-27T20:32:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0e49d7b6211f933c08ab64c6c5a9a52f9470a9f3"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "Add claude eli5 full-transcript explanation (navier-stokes video)",
@@ -734,15 +743,6 @@
       "sha": "5a82f35",
       "date": "2026-09-27T12:46:30Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5a82f35c765fe1b2459af439d417c576ab19ea0c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T12:08:08Z)",
-      "sha": "8efeba5",
-      "date": "2026-09-27T12:08:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8efeba54856e43765c50f054891d1b2c51fa9c8e"
     },
     {
       "type": "commit",
