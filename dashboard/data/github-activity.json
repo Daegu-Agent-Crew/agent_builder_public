@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27T06:07:31Z",
-  "since": "2026-08-28T06:06:42Z",
+  "generated": "2026-09-27T08:31:40Z",
+  "since": "2026-08-28T08:31:11Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-27T05:29:10Z",
-      "pushed_at": "2026-09-27T05:29:07Z",
+      "updated_at": "2026-09-27T06:44:25Z",
+      "pushed_at": "2026-09-27T06:44:21Z",
       "recent_commits": [
+        {
+          "sha": "54ec718",
+          "message": "news digest 인포그래픽 스펙용 프로토타입 v1 (라이카, 회장님 요청 09-27)",
+          "author": "Laika",
+          "date": "2026-09-27T06:44:21Z"
+        },
+        {
+          "sha": "4484cbf",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T06:07:31Z)",
+          "author": "daeguru",
+          "date": "2026-09-27T06:07:31Z"
+        },
         {
           "sha": "d9ae453",
           "message": "dashboard: update dashboard.json and github-activity.json",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-27 11:27 KST)",
           "author": "daeguru",
           "date": "2026-09-27T02:30:02Z"
-        },
-        {
-          "sha": "8f2ec59",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T00:06:22Z)",
-          "author": "daeguru",
-          "date": "2026-09-27T00:06:22Z"
-        },
-        {
-          "sha": "d4fd05f",
-          "message": "chore: update dashboard data (dashboard cron)",
-          "author": "daeguru",
-          "date": "2026-09-26T23:29:03Z"
         }
       ],
       "recent_prs": [
@@ -124,7 +124,7 @@
       "slug": "Daegu-Agent-Crew/ai-agent-news",
       "name": "ai-agent-news",
       "private": false,
-      "open_issues": 5,
+      "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-09-27T05:17:53Z",
       "pushed_at": "2026-09-27T05:17:49Z",
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-27T05:15:28Z",
-      "pushed_at": "2026-09-27T05:15:24Z",
+      "updated_at": "2026-09-27T06:47:19Z",
+      "pushed_at": "2026-09-27T06:47:16Z",
       "recent_commits": [
+        {
+          "sha": "4830a99",
+          "message": "board: AB-0008 뉴스 다이제스트 이미지 정보 밀집형 전환 과제 (라이카, 회장님 요청 09-27)",
+          "author": "Laika",
+          "date": "2026-09-27T06:47:11Z"
+        },
         {
           "sha": "dac73e9",
           "message": "lessons: #259회차 교훈 추가 (escalations 감소 사유 분리)",
@@ -503,12 +509,6 @@
           "message": "교훈 #258: 출력이 살아 있으면 입력의 죽음이 안 보인다 — 정기 출력물에 오늘 입력 카운터 분리 표기 (258회차)",
           "author": "Laika",
           "date": "2026-09-26T23:07:17Z"
-        },
-        {
-          "sha": "480af07",
-          "message": "wake: FB-20260925-06 FB-20260925-07 daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-09-26T21:33:34Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "board: AB-0008 뉴스 다이제스트 이미지 정보 밀집형 전환 과제 (라이카, 회장님 요청 09-27)",
+      "sha": "4830a99",
+      "date": "2026-09-27T06:47:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4830a9962d53d1636ce3bb44ede506444a362b40"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "news digest 인포그래픽 스펙용 프로토타입 v1 (라이카, 회장님 요청 09-27)",
+      "sha": "54ec718",
+      "date": "2026-09-27T06:44:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/54ec7185465a62609a0511e78dae59b502b71ec6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T06:07:31Z)",
+      "sha": "4484cbf",
+      "date": "2026-09-27T06:07:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4484cbf2fd8e56f2b65f4d56d025107101432b05"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json",
@@ -672,30 +699,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T00:06:22Z)",
-      "sha": "8f2ec59",
-      "date": "2026-09-27T00:06:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8f2ec599f98d1c1e25c4b558e7387c999d99dd5d"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🖼️ 2026-09-27: 뉴스 다이제스트 이미지",
       "sha": "aa41c50",
       "date": "2026-09-26T23:31:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/aa41c50cb3e28b23d8ebf820d310737b8c39b2d7"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (dashboard cron)",
-      "sha": "d4fd05f",
-      "date": "2026-09-26T23:29:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d4fd05fee2e5b3df01e94e05a1355661e6aaaefa"
     },
     {
       "type": "commit",
@@ -724,15 +733,6 @@
       "state": "open",
       "date": "2026-09-26T23:04:27Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/104"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20260925-06 FB-20260925-07 daeguru2 기상 기록",
-      "sha": "480af07",
-      "date": "2026-09-26T21:33:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/480af07aab5a559cf1530b0f2b57d48d65955496"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 9,
+      "commits": 7,
       "prs": 0,
       "issues": 0,
       "reviews": 0
