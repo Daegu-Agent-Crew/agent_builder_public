@@ -2,15 +2,16 @@
   "meta": {
     "version": 1,
     "generatedAt": "2026-08-11",
-    "totalVideos": 24,
-    "totalChannels": 17,
+    "totalVideos": 25,
+    "totalChannels": 18,
     "byType": {
-      "영상 요약": 16,
+      "영상 요약": 17,
       "담화 패턴 분석": 5,
       "기타": 2,
       "참가자 분석": 1
     },
     "byChannel": {
+      "Dr. Jungmi Choi's Brain Science (최정미의 뇌과학)": 1,
       "배움의달인 (김정)": 1,
       "엥지유니버스 | 로봇 엔지니어": 1,
       "AI Frontier Korea (노정석)": 1,
@@ -30,13 +31,31 @@
       "천영록": 1
     },
     "byMonth": {
-      "2026-09": 3,
+      "2026-09": 4,
       "2026-08": 7,
       "2026-07": 11,
       "2026-06": 3
     }
   },
   "videos": [
+    {
+      "filename": "2026-09-28-navier-stokes-ai-singularity.md",
+      "title": "수학의 특이점에서 AI 특이점까지｜우리는 '무한'을 오해하고 있다",
+      "videoUrl": "https://youtu.be/SbuhPGbqhrI",
+      "channel": "Dr. Jungmi Choi's Brain Science (최정미의 뇌과학)",
+      "speaker": "",
+      "date": "2026-09-28",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "최근 \"AI가 7대 수학 난제를 풀었다\"는 뉴스의 실체는 — 본체 문제(무외력·무경계 3차원 나비에-스토크스)는 여전히 미해결이며, AI의 기여는 통찰이 아니라 '인간의 아이디어를 인간이 감당할 수 없는 정밀도까지 밀어준 것'이다. 특이점의 '무한'은 자연이 하는 말이 아니라 우리가 취한 극한(모델 가정)이 하는 말이다.",
+      "sections": [
+        "주요 내용",
+        "우리 팀(Daegu Agent Crew)에 반영할 인사이트"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-09-28-navier-stokes-ai-singularity.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/SbuhPGbqhrI/mqdefault.jpg"
+    },
     {
       "filename": "2026-09-22-jev-api-typesafe.md",
       "title": "Jev API 사용법 (TypeSafe AI) —",
