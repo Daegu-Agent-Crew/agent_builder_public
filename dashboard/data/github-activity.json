@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-11T05:39:59Z",
-  "since": "2026-09-11T05:39:33Z",
+  "generated": "2026-10-11T08:40:08Z",
+  "since": "2026-09-11T08:39:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-27T23:15:58Z",
-      "pushed_at": "2026-09-27T23:15:54Z",
+      "updated_at": "2026-10-11T05:40:11Z",
+      "pushed_at": "2026-10-11T05:40:07Z",
       "recent_commits": [
+        {
+          "sha": "585446c",
+          "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-10-11T05:40:05Z)",
+          "author": "daeguru",
+          "date": "2026-10-11T05:40:05Z"
+        },
         {
           "sha": "d1c0ba3",
           "message": "add dac-262 diagram (기상 신호 vs 착수 실체 — 전환 갭)",
@@ -85,12 +91,6 @@
           "message": "chore: update youtube dashboard data",
           "author": "daeguru",
           "date": "2026-09-27T19:38:16Z"
-        },
-        {
-          "sha": "c4416c0",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T18:08:01Z)",
-          "author": "daeguru",
-          "date": "2026-09-27T18:08:08Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-10T08:12:19Z",
-      "pushed_at": "2026-10-10T08:12:16Z",
+      "updated_at": "2026-10-11T05:40:10Z",
+      "pushed_at": "2026-10-11T05:40:07Z",
       "recent_commits": [
+        {
+          "sha": "9558c3c",
+          "message": "wake: FB-20261010-02 daeguru, FB-20261010-03 daeguru·daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-10-11T05:40:06Z"
+        },
         {
           "sha": "d0af5b5",
           "message": "feed: FB-20261010-03 해커톤 06 백테스트는 전부 아름답다 — PR #129 리뷰 요청 (라이카, G7 대기)",
@@ -503,12 +509,6 @@
           "message": "feed: FB-20261010-01 해커톤 시즌1 10-10 마감 안내·출품 요청",
           "author": "daeguru",
           "date": "2026-10-10T01:08:03Z"
-        },
-        {
-          "sha": "0e3698d",
-          "message": "board: FB-20261004-09→10 재번호 — 라이카 확인 카드와 ID 충돌 해소",
-          "author": "daeguru",
-          "date": "2026-10-04T01:12:42Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,24 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261010-02 daeguru, FB-20261010-03 daeguru·daeguru2 기상 기록",
+      "sha": "9558c3c",
+      "date": "2026-10-11T05:40:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9558c3ca190267c0d37f79f043e6ecccaf62a7b4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-10-11T05:40:05Z)",
+      "sha": "585446c",
+      "date": "2026-10-11T05:40:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/585446c2ab3e119eccb37a5acb8daacfdb825777"
+    },
     {
       "type": "commit",
       "repo": "ai-agent-news",
@@ -756,15 +774,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: FB-20261004-09→10 재번호 — 라이카 확인 카드와 ID 충돌 해소",
-      "sha": "0e3698d",
-      "date": "2026-10-04T01:12:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0e3698dfc68ed17321d7b48ca7270d676f4e2d5d"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
       "message": "feat(CLE2-30): 해커톤 시즌1 규칙 — 주 2회 제출 + 조사 준비 의무화 (#114) (#124)",
@@ -807,15 +816,6 @@
       "sha": "3c97f00",
       "date": "2026-09-27T19:38:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3c97f00a408ccb3d6cf0719a53120f9a24b90b5b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T18:08:01Z)",
-      "sha": "c4416c0",
-      "date": "2026-09-27T18:08:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c4416c066b3ee0ac8210a0930ef7fe44f47eeab3"
     },
     {
       "type": "pr",
