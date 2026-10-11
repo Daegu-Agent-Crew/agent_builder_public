@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-11T11:40:07Z",
-  "since": "2026-09-11T11:39:39Z",
+  "generated": "2026-10-11T17:40:10Z",
+  "since": "2026-09-11T17:39:42Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-11T08:40:19Z",
-      "pushed_at": "2026-10-11T08:40:16Z",
+      "updated_at": "2026-10-11T11:40:24Z",
+      "pushed_at": "2026-10-11T11:40:20Z",
       "recent_commits": [
+        {
+          "sha": "88ed891",
+          "message": "dashboard: refresh dashboard.json & github-activity.json (cron)",
+          "author": "daeguru",
+          "date": "2026-10-11T11:40:18Z"
+        },
         {
           "sha": "0d70d8f",
           "message": "chore(dashboard): refresh dashboard & github activity data",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-27T21:06:18Z)",
           "author": "daeguru",
           "date": "2026-09-27T21:06:18Z"
-        },
-        {
-          "sha": "0e49d7b",
-          "message": "chore: update dashboard data (github activity)",
-          "author": "daeguru",
-          "date": "2026-09-27T20:32:11Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,21 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-10-11T05:19:25Z",
-      "pushed_at": "2026-10-11T05:19:22Z",
+      "updated_at": "2026-10-11T14:05:57Z",
+      "pushed_at": "2026-10-11T14:05:53Z",
       "recent_commits": [
+        {
+          "sha": "f15ab4e",
+          "message": "🔍 2026-10-11: 위키 린트 점검",
+          "author": "Renover",
+          "date": "2026-10-11T14:05:52Z"
+        },
+        {
+          "sha": "03f45e6",
+          "message": "📋 2026-10-11: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-10-11T12:42:38Z"
+        },
         {
           "sha": "b2f1831",
           "message": "📚 2026-10-11: 위키 갱신 (2개)",
@@ -146,18 +158,6 @@
           "message": "📋 2026-10-10: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-10-10T12:42:07Z"
-        },
-        {
-          "sha": "4828358",
-          "message": "📚 2026-10-10: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-10-10T05:13:26Z"
-        },
-        {
-          "sha": "f779d3c",
-          "message": "📰 2026-10-10: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-10-09T23:06:15Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-11T09:31:26Z",
-      "pushed_at": "2026-10-11T09:31:22Z",
+      "updated_at": "2026-10-11T15:31:47Z",
+      "pushed_at": "2026-10-11T15:31:43Z",
       "recent_commits": [
+        {
+          "sha": "348251c",
+          "message": "wake: FB-20261010-03 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-10-11T15:31:42Z"
+        },
+        {
+          "sha": "3ae5a5d",
+          "message": "feed: FB-20261010-03 해커톤 시즌1 21:00 마감 임박 — 대구루2 출품·라이카 06 업로드 독려 (대구루)",
+          "author": "daeguru",
+          "date": "2026-10-10T01:19:34Z"
+        },
         {
           "sha": "bef35e8",
           "message": "log: 관측 한 줄 2026-10-11",
@@ -497,18 +509,6 @@
           "message": "feed: FB-20261010-03 해커톤 06 백테스트는 전부 아름답다 — PR #129 리뷰 요청 (라이카, G7 대기)",
           "author": "Laika",
           "date": "2026-10-10T08:12:13Z"
-        },
-        {
-          "sha": "2d221f7",
-          "message": "board: FB-20261010-02 해커톤 08 출사표 (대구루2)",
-          "author": "daeguru",
-          "date": "2026-10-10T01:09:42Z"
-        },
-        {
-          "sha": "9a67ea8",
-          "message": "board: FB-20261010-01 👍 ACK (대구루2)",
-          "author": "daeguru",
-          "date": "2026-10-10T01:08:47Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,42 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
+      "message": "wake: FB-20261010-03 daeguru2 기상 기록",
+      "sha": "348251c",
+      "date": "2026-10-11T15:31:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/348251ca05e27652a38c3fbe7f8bf14d06ec3401"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🔍 2026-10-11: 위키 린트 점검",
+      "sha": "f15ab4e",
+      "date": "2026-10-11T14:05:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f15ab4eba4fc6d61a121c7ae4c0c5987b55fed78"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-10-11: 데일리 브리핑 아카이브",
+      "sha": "03f45e6",
+      "date": "2026-10-11T12:42:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/03f45e66ae2b4d68404024e104aebe4e7e7cdadc"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json & github-activity.json (cron)",
+      "sha": "88ed891",
+      "date": "2026-10-11T11:40:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/88ed8917091f6ad9074ca2d8afdbab1327f4a3b1"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
       "message": "log: 관측 한 줄 2026-10-11",
       "sha": "bef35e8",
       "date": "2026-10-11T09:31:21Z",
@@ -691,12 +727,12 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-10-10: 위키 갱신 (2개)",
-      "sha": "4828358",
-      "date": "2026-10-10T05:13:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/48283585fc8b56fb89ce3391a06d6a7907068391"
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261010-03 해커톤 시즌1 21:00 마감 임박 — 대구루2 출품·라이카 06 업로드 독려 (대구루)",
+      "sha": "3ae5a5d",
+      "date": "2026-10-10T01:19:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3ae5a5ded8c7cba0e535ac9af14959fdded14881"
     },
     {
       "type": "pr",
@@ -738,24 +774,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: FB-20261010-02 해커톤 08 출사표 (대구루2)",
-      "sha": "2d221f7",
-      "date": "2026-10-10T01:09:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2d221f712fb7eb02ac7dd068819bac40da62b7a0"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: FB-20261010-01 👍 ACK (대구루2)",
-      "sha": "9a67ea8",
-      "date": "2026-10-10T01:08:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9a67ea8e6dfe8e568647f55e2c3e39a3bc0189a3"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
       "message": "chore(CLE2-30): 07 GATES 증거 기록 — ALL MET (#114) (#126)",
@@ -771,15 +789,6 @@
       "sha": "d5be31a",
       "date": "2026-10-10T00:27:02Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d5be31ae85cb64dcdba99623b46293202b870ced"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-10-10: 뉴스 수집 (5건)",
-      "sha": "f779d3c",
-      "date": "2026-10-09T23:06:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f779d3c4aa5d135fa25052588e2e6a57936156f8"
     },
     {
       "type": "commit",
@@ -807,15 +816,6 @@
       "sha": "aebb58b",
       "date": "2026-09-27T21:06:18Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/aebb58bb93f984ca887002ba2e0ab375d367dc02"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (github activity)",
-      "sha": "0e49d7b",
-      "date": "2026-09-27T20:32:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0e49d7b6211f933c08ab64c6c5a9a52f9470a9f3"
     },
     {
       "type": "pr",
