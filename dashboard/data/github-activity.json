@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-27T21:06:18Z",
-  "since": "2026-08-28T21:05:28Z",
+  "generated": "2026-10-11T05:39:59Z",
+  "since": "2026-09-11T05:39:33Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 81,
+      "open_issues": 82,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-09-27T20:32:15Z",
-      "pushed_at": "2026-09-27T20:32:11Z",
+      "updated_at": "2026-09-27T23:15:58Z",
+      "pushed_at": "2026-09-27T23:15:54Z",
       "recent_commits": [
+        {
+          "sha": "d1c0ba3",
+          "message": "add dac-262 diagram (기상 신호 vs 착수 실체 — 전환 갭)",
+          "author": "Laika",
+          "date": "2026-09-27T23:15:54Z"
+        },
+        {
+          "sha": "aebb58b",
+          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T21:06:18Z)",
+          "author": "daeguru",
+          "date": "2026-09-27T21:06:18Z"
+        },
         {
           "sha": "0e49d7b",
           "message": "chore: update dashboard data (github activity)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-09-27T18:08:01Z)",
           "author": "daeguru",
           "date": "2026-09-27T18:08:08Z"
-        },
-        {
-          "sha": "f854c5d",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-28 02:30 KST)",
-          "author": "daeguru",
-          "date": "2026-09-27T17:31:53Z"
-        },
-        {
-          "sha": "37fe614",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T15:09:06Z)",
-          "author": "daeguru",
-          "date": "2026-09-27T15:09:06Z"
         }
       ],
       "recent_prs": [
@@ -126,38 +126,38 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-09-27T14:07:12Z",
-      "pushed_at": "2026-09-27T14:07:08Z",
+      "updated_at": "2026-10-11T05:19:25Z",
+      "pushed_at": "2026-10-11T05:19:22Z",
       "recent_commits": [
         {
-          "sha": "51eb5ba",
-          "message": "🔍 2026-09-27: 위키 린트 점검",
+          "sha": "b2f1831",
+          "message": "📚 2026-10-11: 위키 갱신 (2개)",
           "author": "Renover",
-          "date": "2026-09-27T14:07:01Z"
+          "date": "2026-10-11T05:19:09Z"
         },
         {
-          "sha": "5a82f35",
-          "message": "📋 2026-09-27: 데일리 브리핑 아카이브",
+          "sha": "a341c4b",
+          "message": "📰 2026-10-11: 뉴스 수집 (5건)",
           "author": "Renover",
-          "date": "2026-09-27T12:46:30Z"
+          "date": "2026-10-10T23:06:10Z"
         },
         {
-          "sha": "37d7f4a",
-          "message": "📚 2026-09-27: 위키 갱신 (2개)",
+          "sha": "ae98885",
+          "message": "📋 2026-10-10: 데일리 브리핑 아카이브",
           "author": "Renover",
-          "date": "2026-09-27T05:17:40Z"
+          "date": "2026-10-10T12:42:07Z"
         },
         {
-          "sha": "aa41c50",
-          "message": "🖼️ 2026-09-27: 뉴스 다이제스트 이미지",
+          "sha": "4828358",
+          "message": "📚 2026-10-10: 위키 갱신 (2개)",
           "author": "Renover",
-          "date": "2026-09-26T23:31:09Z"
+          "date": "2026-10-10T05:13:26Z"
         },
         {
-          "sha": "4dc6b68",
-          "message": "📰 2026-09-26: 뉴스 수집 (5건)",
+          "sha": "f779d3c",
+          "message": "📰 2026-10-10: 뉴스 수집 (5건)",
           "author": "Renover",
-          "date": "2026-09-26T23:16:16Z"
+          "date": "2026-10-09T23:06:15Z"
         }
       ],
       "recent_prs": [
@@ -205,66 +205,66 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 12,
-      "open_prs": 0,
-      "updated_at": "2026-09-27T19:21:54Z",
-      "pushed_at": "2026-09-27T19:21:53Z",
+      "open_issues": 13,
+      "open_prs": 1,
+      "updated_at": "2026-10-10T01:17:58Z",
+      "pushed_at": "2026-10-10T08:11:10Z",
       "recent_commits": [
         {
-          "sha": "05cb20f",
-          "message": "docs(CLE2-29): 판정 실험 사전 등록 부록 + OWNERS.md 초안 + 크론 스냅샷 (#105)",
+          "sha": "deb541b",
+          "message": "fix(CLE2-30): 08 기울기 입력 — 리스너 항상 등록 + gamma=null 이벤트 무시 + 스모크 진단 (#114) (#128)",
           "author": "sfex11",
-          "date": "2026-09-27T19:21:50Z"
+          "date": "2026-10-10T01:17:53Z"
         },
         {
-          "sha": "c6908ef",
-          "message": "docs(CLE2-29): STATUS 동기화 — Phase 1 완료·Phase 2 관측 D+1 진행 중 (#104)",
+          "sha": "a47e9ff",
+          "message": "feat(CLE2-30): 시즌1 출품작 08 금융 튜링 테스트 + 단위·실브라우저 스모크 (#114) (#127)",
           "author": "sfex11",
-          "date": "2026-09-27T19:19:55Z"
+          "date": "2026-10-10T01:14:32Z"
         },
         {
-          "sha": "c643046",
-          "message": "feat(CLE2-29): 태스크 초기 설정 — 밈코인 관측 파일럿 (dapp4·1주차 관측·전염 판정) (#103)",
+          "sha": "ea80868",
+          "message": "chore(CLE2-30): 07 GATES 증거 기록 — ALL MET (#114) (#126)",
           "author": "sfex11",
-          "date": "2026-09-26T01:10:21Z"
+          "date": "2026-10-10T00:30:17Z"
         },
         {
-          "sha": "e8fe8fa",
-          "message": "docs(deepthink): 100코인 소급 프로브 결과 반영 — 실측 95코인, 프로젝트 판정 B 유지(4스위치 미발동), 0.8 슬롯 3/4 측정·최고 0.747 (#101)",
+          "sha": "d5be31a",
+          "message": "feat(CLE2-30): 시즌1 출품작 07 펀딩 스프레드 실험실 + 실브라우저 스모크·백테스트 일치 검사 (#114) (#125)",
           "author": "sfex11",
-          "date": "2026-09-26T00:34:23Z"
+          "date": "2026-10-10T00:27:02Z"
         },
         {
-          "sha": "d3d61f8",
-          "message": "docs(deepthink): 스킬 완성 판정 반영 — 세션 4 신기록 0.761, 통합 상관 +0.239, 시나리오 A 확정 (#100)",
+          "sha": "ad6cb08",
+          "message": "feat(CLE2-30): 해커톤 시즌1 규칙 — 주 2회 제출 + 조사 준비 의무화 (#114) (#124)",
           "author": "sfex11",
-          "date": "2026-09-25T22:42:44Z"
+          "date": "2026-10-04T01:04:47Z"
         }
       ],
       "recent_prs": [
         {
-          "number": 105,
-          "title": "docs(CLE2-29): 판정 실험 사전 등록 부록 + OWNERS.md 초안",
+          "number": 129,
+          "title": "feat(CLE2-30): 해커톤 출품작 06 📉 백테스트는 전부 아름답다 — 과최적화 체험 (시즌1 10-10판)",
           "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-27T19:21:53Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/105"
+          "state": "open",
+          "updated_at": "2026-10-10T08:11:11Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/129"
         },
         {
-          "number": 104,
-          "title": "docs(CLE2-29): STATUS 동기화 — Phase 1 완료·Phase 2 관측 D+1 진행 중",
+          "number": 128,
+          "title": "fix(CLE2-30): 08 기울기 입력 — CI Chromium 스모크 실패 수정",
           "author": "sfex11",
           "state": "closed",
-          "updated_at": "2026-09-27T19:19:58Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/104"
+          "updated_at": "2026-10-10T01:17:57Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/128"
         },
         {
-          "number": 103,
-          "title": "feat(CLE2-29): 밈코인 관측 파일럿 태스크 초기 설정",
+          "number": 127,
+          "title": "feat(CLE2-30): 시즌1 출품작 08 — 📉 금융 튜링 테스트",
           "author": "sfex11",
           "state": "closed",
-          "updated_at": "2026-09-26T01:10:24Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/103"
+          "updated_at": "2026-10-10T01:14:34Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/127"
         }
       ]
     },
@@ -477,38 +477,38 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-09-27T19:43:48Z",
-      "pushed_at": "2026-09-27T19:43:44Z",
+      "updated_at": "2026-10-10T08:12:19Z",
+      "pushed_at": "2026-10-10T08:12:16Z",
       "recent_commits": [
         {
-          "sha": "c0c5d2e",
-          "message": "Add claude eli5 full-transcript explanation (navier-stokes video)",
-          "author": "sfex11",
-          "date": "2026-09-27T19:43:44Z"
-        },
-        {
-          "sha": "020c68a",
-          "message": "Add navier-stokes AI singularity video summary record",
-          "author": "sfex11",
-          "date": "2026-09-27T19:36:59Z"
-        },
-        {
-          "sha": "045d153",
-          "message": "lesson: #261 wake 로그는 신호, 행동은 실체 (260→261회차)",
+          "sha": "d0af5b5",
+          "message": "feed: FB-20261010-03 해커톤 06 백테스트는 전부 아름답다 — PR #129 리뷰 요청 (라이카, G7 대기)",
           "author": "Laika",
-          "date": "2026-09-27T17:10:24Z"
+          "date": "2026-10-10T08:12:13Z"
         },
         {
-          "sha": "604c526",
-          "message": "log: Jev 게이트 판정 기록 + 관측 한 줄 2026-09-28",
+          "sha": "2d221f7",
+          "message": "board: FB-20261010-02 해커톤 08 출사표 (대구루2)",
           "author": "daeguru",
-          "date": "2026-09-27T15:35:33Z"
+          "date": "2026-10-10T01:09:42Z"
         },
         {
-          "sha": "1a491ab",
-          "message": "lesson: #260 한국어 밀집 텍스트 시각물은 템플릿 렌더로 (259→260회차)",
-          "author": "Laika",
-          "date": "2026-09-27T11:06:15Z"
+          "sha": "9a67ea8",
+          "message": "board: FB-20261010-01 👍 ACK (대구루2)",
+          "author": "daeguru",
+          "date": "2026-10-10T01:08:47Z"
+        },
+        {
+          "sha": "d72b521",
+          "message": "feed: FB-20261010-01 해커톤 시즌1 10-10 마감 안내·출품 요청",
+          "author": "daeguru",
+          "date": "2026-10-10T01:08:03Z"
+        },
+        {
+          "sha": "0e3698d",
+          "message": "board: FB-20261004-09→10 재번호 — 라이카 확인 카드와 ID 충돌 해소",
+          "author": "daeguru",
+          "date": "2026-10-04T01:12:42Z"
         }
       ],
       "recent_prs": [
@@ -609,21 +609,195 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-10-11: 위키 갱신 (2개)",
+      "sha": "b2f1831",
+      "date": "2026-10-11T05:19:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b2f183190db3d10e6562e2035ddd375808d3788a"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-10-11: 뉴스 수집 (5건)",
+      "sha": "a341c4b",
+      "date": "2026-10-10T23:06:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a341c4b390f7195a8d07f5b38735c401e7da1e0d"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-10-10: 데일리 브리핑 아카이브",
+      "sha": "ae98885",
+      "date": "2026-10-10T12:42:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ae9888535f01f13a9852c0029451f9b06a386728"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: FB-20261010-03 해커톤 06 백테스트는 전부 아름답다 — PR #129 리뷰 요청 (라이카, G7 대기)",
+      "sha": "d0af5b5",
+      "date": "2026-10-10T08:12:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d0af5b56bda32fd8a83c1bf63a16165f9f640d43"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-30): 해커톤 출품작 06 📉 백테스트는 전부 아름답다 — 과최적화 체험 (시즌1 10-10판)",
+      "number": 129,
+      "state": "open",
+      "date": "2026-10-10T08:11:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/129"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-10-10: 위키 갱신 (2개)",
+      "sha": "4828358",
+      "date": "2026-10-10T05:13:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/48283585fc8b56fb89ce3391a06d6a7907068391"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix(CLE2-30): 08 기울기 입력 — CI Chromium 스모크 실패 수정",
+      "number": 128,
+      "state": "closed",
+      "date": "2026-10-10T01:17:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/128"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix(CLE2-30): 08 기울기 입력 — 리스너 항상 등록 + gamma=null 이벤트 무시 + 스모크 진단 (#114) (#128)",
+      "sha": "deb541b",
+      "date": "2026-10-10T01:17:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/deb541b3cc39212d96a7cf4ed0e8ad6c5232803f"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-30): 시즌1 출품작 08 — 📉 금융 튜링 테스트",
+      "number": 127,
+      "state": "closed",
+      "date": "2026-10-10T01:14:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/127"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-30): 시즌1 출품작 08 금융 튜링 테스트 + 단위·실브라우저 스모크 (#114) (#127)",
+      "sha": "a47e9ff",
+      "date": "2026-10-10T01:14:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/a47e9ff245bdf989b399d4f78c09a0ec865a2cb3"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: FB-20261010-02 해커톤 08 출사표 (대구루2)",
+      "sha": "2d221f7",
+      "date": "2026-10-10T01:09:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2d221f712fb7eb02ac7dd068819bac40da62b7a0"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: FB-20261010-01 👍 ACK (대구루2)",
+      "sha": "9a67ea8",
+      "date": "2026-10-10T01:08:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9a67ea8e6dfe8e568647f55e2c3e39a3bc0189a3"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261010-01 해커톤 시즌1 10-10 마감 안내·출품 요청",
+      "sha": "d72b521",
+      "date": "2026-10-10T01:08:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d72b521736413e23030d5da0c2b48e8bbc108db7"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "chore(CLE2-30): 07 GATES 증거 기록 — ALL MET (#114) (#126)",
+      "sha": "ea80868",
+      "date": "2026-10-10T00:30:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/ea80868bb6ee3d5b2ef7d0297c77a92b4b0cd7cd"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-30): 시즌1 출품작 07 펀딩 스프레드 실험실 + 실브라우저 스모크·백테스트 일치 검사 (#114) (#125)",
+      "sha": "d5be31a",
+      "date": "2026-10-10T00:27:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d5be31ae85cb64dcdba99623b46293202b870ced"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-10-10: 뉴스 수집 (5건)",
+      "sha": "f779d3c",
+      "date": "2026-10-09T23:06:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f779d3c4aa5d135fa25052588e2e6a57936156f8"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: FB-20261004-09→10 재번호 — 라이카 확인 카드와 ID 충돌 해소",
+      "sha": "0e3698d",
+      "date": "2026-10-04T01:12:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0e3698dfc68ed17321d7b48ca7270d676f4e2d5d"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-30): 해커톤 시즌1 규칙 — 주 2회 제출 + 조사 준비 의무화 (#114) (#124)",
+      "sha": "ad6cb08",
+      "date": "2026-10-04T01:04:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/ad6cb0822988fe4c6b3e83dcd945962ba14bfb00"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "Laika",
+      "message": "add dac-262 diagram (기상 신호 vs 착수 실체 — 전환 갭)",
+      "sha": "d1c0ba3",
+      "date": "2026-09-27T23:15:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d1c0ba3e97036e221f657b0dc923e46e4d9fe318"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T21:06:18Z)",
+      "sha": "aebb58b",
+      "date": "2026-09-27T21:06:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/aebb58bb93f984ca887002ba2e0ab375d367dc02"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update dashboard data (github activity)",
       "sha": "0e49d7b",
       "date": "2026-09-27T20:32:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0e49d7b6211f933c08ab64c6c5a9a52f9470a9f3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add claude eli5 full-transcript explanation (navier-stokes video)",
-      "sha": "c0c5d2e",
-      "date": "2026-09-27T19:43:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c0c5d2e6a106e45c5e4fb8d082190a288fc754e6"
     },
     {
       "type": "commit",
@@ -636,186 +810,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add navier-stokes AI singularity video summary record",
-      "sha": "020c68a",
-      "date": "2026-09-27T19:36:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/020c68a00ad888def6dda1e6357bba0e1062f65d"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-29): 판정 실험 사전 등록 부록 + OWNERS.md 초안",
-      "number": 105,
-      "state": "closed",
-      "date": "2026-09-27T19:21:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/105"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-29): 판정 실험 사전 등록 부록 + OWNERS.md 초안 + 크론 스냅샷 (#105)",
-      "sha": "05cb20f",
-      "date": "2026-09-27T19:21:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/05cb20f8540c4e29bffc75be84c3c7b8f42ef237"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-29): STATUS 동기화 — Phase 1 완료·Phase 2 관측 D+1 진행 중",
-      "number": 104,
-      "state": "closed",
-      "date": "2026-09-27T19:19:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/104"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(CLE2-29): STATUS 동기화 — Phase 1 완료·Phase 2 관측 D+1 진행 중 (#104)",
-      "sha": "c6908ef",
-      "date": "2026-09-27T19:19:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/c6908eff7240133e3d5aef4a805893b77955f224"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-09-27T18:08:01Z)",
       "sha": "c4416c0",
       "date": "2026-09-27T18:08:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c4416c066b3ee0ac8210a0930ef7fe44f47eeab3"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-09-28 02:30 KST)",
-      "sha": "f854c5d",
-      "date": "2026-09-27T17:31:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f854c5dcaad769c0eb2609ebc2b3d84181582259"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "lesson: #261 wake 로그는 신호, 행동은 실체 (260→261회차)",
-      "sha": "045d153",
-      "date": "2026-09-27T17:10:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/045d153bab81eee10af4e2f4aab09db4b579afe0"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 + 관측 한 줄 2026-09-28",
-      "sha": "604c526",
-      "date": "2026-09-27T15:35:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/604c526b1d7d2376445e62bcc60f745a7dc3a062"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T15:09:06Z)",
-      "sha": "37fe614",
-      "date": "2026-09-27T15:09:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/37fe61426449e7f24975eac6bb945a3f971dfce1"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔍 2026-09-27: 위키 린트 점검",
-      "sha": "51eb5ba",
-      "date": "2026-09-27T14:07:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/51eb5bac32ec0eb787509c9431a33a85acc3a665"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-09-27: 데일리 브리핑 아카이브",
-      "sha": "5a82f35",
-      "date": "2026-09-27T12:46:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5a82f35c765fe1b2459af439d417c576ab19ea0c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "lesson: #260 한국어 밀집 텍스트 시각물은 템플릿 렌더로 (259→260회차)",
-      "sha": "1a491ab",
-      "date": "2026-09-27T11:06:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1a491ab26fed07c773c24ccb38d18568e04e1400"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-09-27: 위키 갱신 (2개)",
-      "sha": "37d7f4a",
-      "date": "2026-09-27T05:17:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/37d7f4a6bbc0b6da165da0750a982c8991620075"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🖼️ 2026-09-27: 뉴스 다이제스트 이미지",
-      "sha": "aa41c50",
-      "date": "2026-09-26T23:31:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/aa41c50cb3e28b23d8ebf820d310737b8c39b2d7"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-09-26: 뉴스 수집 (5건)",
-      "sha": "4dc6b68",
-      "date": "2026-09-26T23:16:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/4dc6b687a28b4c92efd5532b64f6f2c106ec2908"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-29): 밈코인 관측 파일럿 태스크 초기 설정",
-      "number": 103,
-      "state": "closed",
-      "date": "2026-09-26T01:10:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/103"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-29): 태스크 초기 설정 — 밈코인 관측 파일럿 (dapp4·1주차 관측·전염 판정) (#103)",
-      "sha": "c643046",
-      "date": "2026-09-26T01:10:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/c643046bfa694c61d140eeef694dd692ef979bc0"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(deepthink): 100코인 소급 프로브 결과 반영 — 실측 95코인, 프로젝트 판정 B 유지(4스위치 미발동), 0.8 슬롯 3/4 측정·최고 0.747 (#101)",
-      "sha": "e8fe8fa",
-      "date": "2026-09-26T00:34:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e8fe8fae19df19a5b8e546673fa44f929c66e3ba"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(deepthink): 스킬 완성 판정 반영 — 세션 4 신기록 0.761, 통합 상관 +0.239, 시나리오 A 확정 (#100)",
-      "sha": "d3d61f8",
-      "date": "2026-09-25T22:42:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d3d61f8949f2394b9cf3014fce590eab345c0781"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 18,
+      "commits": 16,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 7,
+      "commits": 9,
       "prs": 0,
       "issues": 0,
       "reviews": 0
