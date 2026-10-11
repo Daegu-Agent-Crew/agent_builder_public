@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-11T17:40:10Z",
-  "since": "2026-09-11T17:39:42Z",
+  "generated": "2026-10-11T23:40:01Z",
+  "since": "2026-09-11T23:39:33Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-11T11:40:24Z",
-      "pushed_at": "2026-10-11T11:40:20Z",
+      "updated_at": "2026-10-11T17:40:19Z",
+      "pushed_at": "2026-10-11T17:40:16Z",
       "recent_commits": [
+        {
+          "sha": "aaa9cc1",
+          "message": "chore(dashboard): update dashboard data and GitHub activity",
+          "author": "daeguru",
+          "date": "2026-10-11T17:40:14Z"
+        },
         {
           "sha": "88ed891",
           "message": "dashboard: refresh dashboard.json & github-activity.json (cron)",
@@ -85,12 +91,6 @@
           "message": "add dac-262 diagram (기상 신호 vs 착수 실체 — 전환 갭)",
           "author": "Laika",
           "date": "2026-09-27T23:15:54Z"
-        },
-        {
-          "sha": "aebb58b",
-          "message": "chore(dashboard): auto-refresh github activity (2026-09-27T21:06:18Z)",
-          "author": "daeguru",
-          "date": "2026-09-27T21:06:18Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-10-11T14:05:57Z",
-      "pushed_at": "2026-10-11T14:05:53Z",
+      "updated_at": "2026-10-11T23:05:16Z",
+      "pushed_at": "2026-10-11T23:05:13Z",
       "recent_commits": [
+        {
+          "sha": "788f0ca",
+          "message": "📰 2026-10-12: 뉴스 수집 (4건)",
+          "author": "Renover",
+          "date": "2026-10-11T23:05:12Z"
+        },
         {
           "sha": "f15ab4e",
           "message": "🔍 2026-10-11: 위키 린트 점검",
@@ -152,12 +158,6 @@
           "message": "📰 2026-10-11: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-10-10T23:06:10Z"
-        },
-        {
-          "sha": "ae98885",
-          "message": "📋 2026-10-10: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-10-10T12:42:07Z"
         }
       ],
       "recent_prs": [
@@ -205,11 +205,23 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 13,
-      "open_prs": 1,
-      "updated_at": "2026-10-10T01:17:58Z",
-      "pushed_at": "2026-10-10T08:11:10Z",
+      "open_issues": 14,
+      "open_prs": 2,
+      "updated_at": "2026-10-11T19:14:34Z",
+      "pushed_at": "2026-10-11T19:14:32Z",
       "recent_commits": [
+        {
+          "sha": "eafba57",
+          "message": "chore(CLE2-30): 09 GATES 증거 — G1~G3 MET, G4 첫 공식 경기 대기 (#114) (#132)",
+          "author": "sfex11",
+          "date": "2026-10-11T19:14:30Z"
+        },
+        {
+          "sha": "e39aada",
+          "message": "feat(CLE2-30): 시즌1 출품작 09 에이전트 아레나 — 매일 21:30 실시간 10분 트레이딩 대결 + 생중계·다시보기 (#114) (#131)",
+          "author": "sfex11",
+          "date": "2026-10-11T19:12:08Z"
+        },
         {
           "sha": "deb541b",
           "message": "fix(CLE2-30): 08 기울기 입력 — 리스너 항상 등록 + gamma=null 이벤트 무시 + 스모크 진단 (#114) (#128)",
@@ -227,44 +239,32 @@
           "message": "chore(CLE2-30): 07 GATES 증거 기록 — ALL MET (#114) (#126)",
           "author": "sfex11",
           "date": "2026-10-10T00:30:17Z"
-        },
-        {
-          "sha": "d5be31a",
-          "message": "feat(CLE2-30): 시즌1 출품작 07 펀딩 스프레드 실험실 + 실브라우저 스모크·백테스트 일치 검사 (#114) (#125)",
-          "author": "sfex11",
-          "date": "2026-10-10T00:27:02Z"
-        },
-        {
-          "sha": "ad6cb08",
-          "message": "feat(CLE2-30): 해커톤 시즌1 규칙 — 주 2회 제출 + 조사 준비 의무화 (#114) (#124)",
-          "author": "sfex11",
-          "date": "2026-10-04T01:04:47Z"
         }
       ],
       "recent_prs": [
         {
-          "number": 129,
-          "title": "feat(CLE2-30): 해커톤 출품작 06 📉 백테스트는 전부 아름답다 — 과최적화 체험 (시즌1 10-10판)",
+          "number": 132,
+          "title": "chore(CLE2-30): 09 GATES 증거 (#114)",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-10-11T19:14:33Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/132"
+        },
+        {
+          "number": 131,
+          "title": "feat(CLE2-30): 시즌1 출품작 09 에이전트 아레나 (#114)",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-10-11T19:12:10Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/131"
+        },
+        {
+          "number": 130,
+          "title": "연구: 암호화폐 사건 기반 매매 신호 검증",
           "author": "sfex11",
           "state": "open",
-          "updated_at": "2026-10-10T08:11:11Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/129"
-        },
-        {
-          "number": 128,
-          "title": "fix(CLE2-30): 08 기울기 입력 — CI Chromium 스모크 실패 수정",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-10-10T01:17:57Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/128"
-        },
-        {
-          "number": 127,
-          "title": "feat(CLE2-30): 시즌1 출품작 08 — 📉 금융 튜링 테스트",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-10-10T01:14:34Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/127"
+          "updated_at": "2026-10-11T19:06:52Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/130"
         }
       ]
     },
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-11T15:31:47Z",
-      "pushed_at": "2026-10-11T15:31:43Z",
+      "updated_at": "2026-10-11T21:31:31Z",
+      "pushed_at": "2026-10-11T21:31:27Z",
       "recent_commits": [
+        {
+          "sha": "212175c",
+          "message": "log: 관측 한 줄 2026-10-12",
+          "author": "sfex11",
+          "date": "2026-10-11T21:31:27Z"
+        },
         {
           "sha": "348251c",
           "message": "wake: FB-20261010-03 daeguru2 기상 기록",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261010-02 daeguru, FB-20261010-03 daeguru·daeguru2 기상 기록",
           "author": "daeguru",
           "date": "2026-10-11T05:40:06Z"
-        },
-        {
-          "sha": "d0af5b5",
-          "message": "feed: FB-20261010-03 해커톤 06 백테스트는 전부 아름답다 — PR #129 리뷰 요청 (라이카, G7 대기)",
-          "author": "Laika",
-          "date": "2026-10-10T08:12:13Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,81 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-10-12: 뉴스 수집 (4건)",
+      "sha": "788f0ca",
+      "date": "2026-10-11T23:05:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/788f0ca907a6dbace6db061022b6c8176b359d3e"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "log: 관측 한 줄 2026-10-12",
+      "sha": "212175c",
+      "date": "2026-10-11T21:31:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/212175cc99cd2a310f98b2975fde3403e81a63ee"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "chore(CLE2-30): 09 GATES 증거 (#114)",
+      "number": 132,
+      "state": "closed",
+      "date": "2026-10-11T19:14:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/132"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "chore(CLE2-30): 09 GATES 증거 — G1~G3 MET, G4 첫 공식 경기 대기 (#114) (#132)",
+      "sha": "eafba57",
+      "date": "2026-10-11T19:14:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/eafba57b33dc355dbf20b3b83107840d7fd2dd9f"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-30): 시즌1 출품작 09 에이전트 아레나 (#114)",
+      "number": 131,
+      "state": "closed",
+      "date": "2026-10-11T19:12:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/131"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-30): 시즌1 출품작 09 에이전트 아레나 — 매일 21:30 실시간 10분 트레이딩 대결 + 생중계·다시보기 (#114) (#131)",
+      "sha": "e39aada",
+      "date": "2026-10-11T19:12:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e39aada9b30cb1b606889f38032f09978b6b0d37"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "연구: 암호화폐 사건 기반 매매 신호 검증",
+      "number": 130,
+      "state": "open",
+      "date": "2026-10-11T19:06:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/130"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard data and GitHub activity",
+      "sha": "aaa9cc1",
+      "date": "2026-10-11T17:40:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/aaa9cc1251521527e8de0c78b31b7c7a6ca098ea"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "wake: FB-20261010-03 daeguru2 기상 기록",
@@ -699,50 +774,12 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-10-10: 데일리 브리핑 아카이브",
-      "sha": "ae98885",
-      "date": "2026-10-10T12:42:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ae9888535f01f13a9852c0029451f9b06a386728"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "feed: FB-20261010-03 해커톤 06 백테스트는 전부 아름답다 — PR #129 리뷰 요청 (라이카, G7 대기)",
-      "sha": "d0af5b5",
-      "date": "2026-10-10T08:12:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d0af5b56bda32fd8a83c1bf63a16165f9f640d43"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-30): 해커톤 출품작 06 📉 백테스트는 전부 아름답다 — 과최적화 체험 (시즌1 10-10판)",
-      "number": 129,
-      "state": "open",
-      "date": "2026-10-10T08:11:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/129"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "feed: FB-20261010-03 해커톤 시즌1 21:00 마감 임박 — 대구루2 출품·라이카 06 업로드 독려 (대구루)",
       "sha": "3ae5a5d",
       "date": "2026-10-10T01:19:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3ae5a5ded8c7cba0e535ac9af14959fdded14881"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix(CLE2-30): 08 기울기 입력 — CI Chromium 스모크 실패 수정",
-      "number": 128,
-      "state": "closed",
-      "date": "2026-10-10T01:17:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/128"
     },
     {
       "type": "commit",
@@ -752,16 +789,6 @@
       "sha": "deb541b",
       "date": "2026-10-10T01:17:53Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/deb541b3cc39212d96a7cf4ed0e8ad6c5232803f"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-30): 시즌1 출품작 08 — 📉 금융 튜링 테스트",
-      "number": 127,
-      "state": "closed",
-      "date": "2026-10-10T01:14:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/127"
     },
     {
       "type": "commit",
@@ -783,39 +810,12 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-30): 시즌1 출품작 07 펀딩 스프레드 실험실 + 실브라우저 스모크·백테스트 일치 검사 (#114) (#125)",
-      "sha": "d5be31a",
-      "date": "2026-10-10T00:27:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d5be31ae85cb64dcdba99623b46293202b870ced"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-30): 해커톤 시즌1 규칙 — 주 2회 제출 + 조사 준비 의무화 (#114) (#124)",
-      "sha": "ad6cb08",
-      "date": "2026-10-04T01:04:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/ad6cb0822988fe4c6b3e83dcd945962ba14bfb00"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "Laika",
       "message": "add dac-262 diagram (기상 신호 vs 착수 실체 — 전환 갭)",
       "sha": "d1c0ba3",
       "date": "2026-09-27T23:15:54Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d1c0ba3e97036e221f657b0dc923e46e4d9fe318"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-09-27T21:06:18Z)",
-      "sha": "aebb58b",
-      "date": "2026-09-27T21:06:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/aebb58bb93f984ca887002ba2e0ab375d367dc02"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 16,
+      "commits": 17,
       "prs": 18,
       "issues": 0,
       "reviews": 0
