@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12T05:39:59Z",
-  "since": "2026-09-12T05:39:31Z",
+  "generated": "2026-10-12T11:40:21Z",
+  "since": "2026-09-12T11:39:48Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-11T23:40:12Z",
-      "pushed_at": "2026-10-11T23:40:08Z",
+      "updated_at": "2026-10-12T05:40:12Z",
+      "pushed_at": "2026-10-12T05:40:08Z",
       "recent_commits": [
+        {
+          "sha": "5dcb7a4",
+          "message": "chore(dashboard): refresh dashboard + github activity 2026-10-12 14:40",
+          "author": "daeguru",
+          "date": "2026-10-12T05:40:06Z"
+        },
         {
           "sha": "21c0c51",
           "message": "chore(dashboard): refresh dashboard + github activity 2026-10-12 08:40",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard & github activity data",
           "author": "daeguru",
           "date": "2026-10-11T08:40:13Z"
-        },
-        {
-          "sha": "585446c",
-          "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-10-11T05:40:05Z)",
-          "author": "daeguru",
-          "date": "2026-10-11T05:40:05Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-12T04:03:59Z",
-      "pushed_at": "2026-10-12T04:03:55Z",
+      "updated_at": "2026-10-12T09:40:25Z",
+      "pushed_at": "2026-10-12T09:40:21Z",
       "recent_commits": [
+        {
+          "sha": "19f53dd",
+          "message": "react: daeguru ACK FB-20261010-02, FB-20261010-03(laika)",
+          "author": "daeguru",
+          "date": "2026-10-12T09:40:20Z"
+        },
+        {
+          "sha": "5639c2c",
+          "message": "wake: FB-20261010-02 daeguru, FB-20261010-03 daeguru·daeguru2, FB-20261012-01 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-10-12T09:31:53Z"
+        },
         {
           "sha": "6608c3b",
           "message": "feed: FB-20261012-01 에이전트 아레나 시즌0 참가 안내 — 라이카 회장님 지시 참가 요청 (대구루)",
@@ -497,18 +509,6 @@
           "message": "log: 관측 한 줄 2026-10-12",
           "author": "sfex11",
           "date": "2026-10-11T21:31:27Z"
-        },
-        {
-          "sha": "348251c",
-          "message": "wake: FB-20261010-03 daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-10-11T15:31:42Z"
-        },
-        {
-          "sha": "3ae5a5d",
-          "message": "feed: FB-20261010-03 해커톤 시즌1 21:00 마감 임박 — 대구루2 출품·라이카 06 업로드 독려 (대구루)",
-          "author": "daeguru",
-          "date": "2026-10-10T01:19:34Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,33 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "react: daeguru ACK FB-20261010-02, FB-20261010-03(laika)",
+      "sha": "19f53dd",
+      "date": "2026-10-12T09:40:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/19f53dd1ef95501a5fabf351175af1c313ba2197"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261010-02 daeguru, FB-20261010-03 daeguru·daeguru2, FB-20261012-01 daeguru2 기상 기록",
+      "sha": "5639c2c",
+      "date": "2026-10-12T09:31:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5639c2ce7b057e6bc379610d97ea95b1a7a9611d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard + github activity 2026-10-12 14:40",
+      "sha": "5dcb7a4",
+      "date": "2026-10-12T05:40:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5dcb7a4a955fef2ec89f17960b9afbdc6007901a"
+    },
     {
       "type": "commit",
       "repo": "ai-agent-news",
@@ -738,15 +765,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261010-03 daeguru2 기상 기록",
-      "sha": "348251c",
-      "date": "2026-10-11T15:31:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/348251ca05e27652a38c3fbe7f8bf14d06ec3401"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🔍 2026-10-11: 위키 린트 점검",
@@ -783,30 +801,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-10-11T05:40:05Z)",
-      "sha": "585446c",
-      "date": "2026-10-11T05:40:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/585446c2ab3e119eccb37a5acb8daacfdb825777"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-10-11: 위키 갱신 (2개)",
       "sha": "b2f1831",
       "date": "2026-10-11T05:19:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b2f183190db3d10e6562e2035ddd375808d3788a"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20261010-03 해커톤 시즌1 21:00 마감 임박 — 대구루2 출품·라이카 06 업로드 독려 (대구루)",
-      "sha": "3ae5a5d",
-      "date": "2026-10-10T01:19:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3ae5a5ded8c7cba0e535ac9af14959fdded14881"
     },
     {
       "type": "commit",
