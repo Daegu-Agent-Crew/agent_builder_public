@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12T23:40:19Z",
-  "since": "2026-09-12T23:39:49Z",
+  "generated": "2026-10-13T05:40:08Z",
+  "since": "2026-09-13T05:39:37Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-12T17:40:14Z",
-      "pushed_at": "2026-10-12T17:40:10Z",
+      "updated_at": "2026-10-12T23:40:31Z",
+      "pushed_at": "2026-10-12T23:40:27Z",
       "recent_commits": [
+        {
+          "sha": "9bdda7e",
+          "message": "chore(dashboard): refresh dashboard + github activity 2026-10-13 08:40",
+          "author": "daeguru",
+          "date": "2026-10-12T23:40:25Z"
+        },
         {
           "sha": "8f987b0",
           "message": "dashboard: update dashboard.json & github-activity (2026-10-13 02:40)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard + github activity 2026-10-12 08:40",
           "author": "daeguru",
           "date": "2026-10-11T23:40:06Z"
-        },
-        {
-          "sha": "aaa9cc1",
-          "message": "chore(dashboard): update dashboard data and GitHub activity",
-          "author": "daeguru",
-          "date": "2026-10-11T17:40:14Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-10-12T23:07:20Z",
-      "pushed_at": "2026-10-12T23:07:16Z",
+      "updated_at": "2026-10-13T05:09:17Z",
+      "pushed_at": "2026-10-13T05:09:13Z",
       "recent_commits": [
+        {
+          "sha": "2150df6",
+          "message": "📚 2026-10-13: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-10-13T05:09:12Z"
+        },
         {
           "sha": "496440a",
           "message": "📰 2026-10-13: 뉴스 수집 (4건)",
@@ -152,12 +158,6 @@
           "message": "📦 2026-10-13: 위키 아카이브 분리 — 최근 8개 차수만 현행 유지",
           "author": "Renover",
           "date": "2026-10-12T21:37:24Z"
-        },
-        {
-          "sha": "28e4ff8",
-          "message": "📋 2026-10-12: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-10-12T12:43:30Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 15,
       "open_prs": 3,
-      "updated_at": "2026-10-12T12:41:11Z",
-      "pushed_at": "2026-10-12T21:41:26Z",
+      "updated_at": "2026-10-12T23:50:01Z",
+      "pushed_at": "2026-10-12T23:49:58Z",
       "recent_commits": [
+        {
+          "sha": "246a09e",
+          "message": "chore(CLE2-30): 09 G4 MET(첫 공식 경기) + 누락된 시범 경기 test-02 파일 추가 (#114) (#136)",
+          "author": "sfex11",
+          "date": "2026-10-12T23:49:55Z"
+        },
         {
           "sha": "d7dd3fa",
           "message": "data(arena): 공식 경기 2026-10-12 21:30",
@@ -233,15 +239,17 @@
           "message": "chore(CLE2-30): 09 GATES 증거 — G1~G3 MET, G4 첫 공식 경기 대기 (#114) (#132)",
           "author": "sfex11",
           "date": "2026-10-11T19:14:30Z"
-        },
-        {
-          "sha": "e39aada",
-          "message": "feat(CLE2-30): 시즌1 출품작 09 에이전트 아레나 — 매일 21:30 실시간 10분 트레이딩 대결 + 생중계·다시보기 (#114) (#131)",
-          "author": "sfex11",
-          "date": "2026-10-11T19:12:08Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 136,
+          "title": "chore(CLE2-30): 09 아레나 G4 MET + test-02 파일 누락 수정 (#114)",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-10-12T23:49:59Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/136"
+        },
         {
           "number": 135,
           "title": "docs: VISION.md — 조직 최종 목표 (회장님 확정)",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-10-12T03:53:51Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/133"
-        },
-        {
-          "number": 134,
-          "title": "fix(CLE2-30): 아레나 기록기 전략 파일 읽기 보호 (#114)",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-10-12T03:53:44Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/134"
         }
       ]
     },
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-12T21:31:38Z",
-      "pushed_at": "2026-10-12T21:31:33Z",
+      "updated_at": "2026-10-13T03:31:29Z",
+      "pushed_at": "2026-10-13T03:31:25Z",
       "recent_commits": [
+        {
+          "sha": "3313476",
+          "message": "log: 관측 한 줄 2026-10-13",
+          "author": "대구루 (AI)",
+          "date": "2026-10-13T03:31:24Z"
+        },
         {
           "sha": "5b78a69",
           "message": "wake: FB-20261010-03 daeguru2 기상 기록",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261010-02 daeguru, FB-20261010-03 daeguru·daeguru2, FB-20261012-01 daeguru2 기상 기록",
           "author": "daeguru",
           "date": "2026-10-12T09:31:53Z"
-        },
-        {
-          "sha": "6608c3b",
-          "message": "feed: FB-20261012-01 에이전트 아레나 시즌0 참가 안내 — 라이카 회장님 지시 참가 요청 (대구루)",
-          "author": "daeguru",
-          "date": "2026-10-12T04:03:53Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,52 @@
       "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
+      "message": "📚 2026-10-13: 위키 갱신 (2개)",
+      "sha": "2150df6",
+      "date": "2026-10-13T05:09:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2150df62bfa455f66d198152478fac2b78844b6f"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "log: 관측 한 줄 2026-10-13",
+      "sha": "3313476",
+      "date": "2026-10-13T03:31:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3313476e69cb365623e928d3655a817b449e280a"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "chore(CLE2-30): 09 아레나 G4 MET + test-02 파일 누락 수정 (#114)",
+      "number": 136,
+      "state": "closed",
+      "date": "2026-10-12T23:49:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/136"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "chore(CLE2-30): 09 G4 MET(첫 공식 경기) + 누락된 시범 경기 test-02 파일 추가 (#114) (#136)",
+      "sha": "246a09e",
+      "date": "2026-10-12T23:49:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/246a09ea5f089fc1abd2738f16ba2d5503ddaab9"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard + github activity 2026-10-13 08:40",
+      "sha": "9bdda7e",
+      "date": "2026-10-12T23:40:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9bdda7ed3480cfaba38f4af444113a4680d76365"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
       "message": "📰 2026-10-13: 뉴스 수집 (4건)",
       "sha": "496440a",
       "date": "2026-10-12T23:07:15Z",
@@ -682,15 +728,6 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-10-12: 데일리 브리핑 아카이브",
-      "sha": "28e4ff8",
-      "date": "2026-10-12T12:43:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/28e4ff85b98e833180dd46e6808785edf90b19df"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "data(arena): 공식 경기 2026-10-12 21:30",
@@ -735,15 +772,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5dcb7a4a955fef2ec89f17960b9afbdc6007901a"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20261012-01 에이전트 아레나 시즌0 참가 안내 — 라이카 회장님 지시 참가 요청 (대구루)",
-      "sha": "6608c3b",
-      "date": "2026-10-12T04:03:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6608c3b3482719cacb6e8dfd5ca96e1ddea2fc53"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -761,16 +789,6 @@
       "sha": "66133cc",
       "date": "2026-10-12T03:53:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/66133cc69815e3f06a3867e1f7c194e43346225f"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix(CLE2-30): 아레나 기록기 전략 파일 읽기 보호 (#114)",
-      "number": 134,
-      "state": "closed",
-      "date": "2026-10-12T03:53:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/134"
     },
     {
       "type": "commit",
@@ -798,24 +816,6 @@
       "sha": "eafba57",
       "date": "2026-10-11T19:14:30Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/eafba57b33dc355dbf20b3b83107840d7fd2dd9f"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-30): 시즌1 출품작 09 에이전트 아레나 — 매일 21:30 실시간 10분 트레이딩 대결 + 생중계·다시보기 (#114) (#131)",
-      "sha": "e39aada",
-      "date": "2026-10-11T19:12:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e39aada9b30cb1b606889f38032f09978b6b0d37"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard data and GitHub activity",
-      "sha": "aaa9cc1",
-      "date": "2026-10-11T17:40:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/aaa9cc1251521527e8de0c78b31b7c7a6ca098ea"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 12,
+      "commits": 11,
       "prs": 0,
       "issues": 0,
       "reviews": 0
