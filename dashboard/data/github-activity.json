@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-13T11:40:45Z",
-  "since": "2026-09-13T11:40:09Z",
+  "generated": "2026-10-13T18:00:17Z",
+  "since": "2026-09-13T17:59:46Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-13T05:40:21Z",
-      "pushed_at": "2026-10-13T05:40:17Z",
+      "updated_at": "2026-10-13T11:41:10Z",
+      "pushed_at": "2026-10-13T11:41:05Z",
       "recent_commits": [
+        {
+          "sha": "fb73d7e",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-10-13 20:41",
+          "author": "daeguru",
+          "date": "2026-10-13T11:41:03Z"
+        },
         {
           "sha": "ab8d1bf",
           "message": "chore(dashboard): refresh dashboard & github activity data",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard & github activity data (2026-10-12 20:40)",
           "author": "daeguru",
           "date": "2026-10-12T11:40:27Z"
-        },
-        {
-          "sha": "5dcb7a4",
-          "message": "chore(dashboard): refresh dashboard + github activity 2026-10-12 14:40",
-          "author": "daeguru",
-          "date": "2026-10-12T05:40:06Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-10-13T05:09:17Z",
-      "pushed_at": "2026-10-13T05:09:13Z",
+      "updated_at": "2026-10-13T12:43:59Z",
+      "pushed_at": "2026-10-13T12:43:54Z",
       "recent_commits": [
+        {
+          "sha": "15e2390",
+          "message": "📋 2026-10-13: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-10-13T12:43:54Z"
+        },
         {
           "sha": "2150df6",
           "message": "📚 2026-10-13: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "🔧 위키 롤링 아카이브 스크립트 추가 + 아카이브 파일명 단순화",
           "author": "Renover",
           "date": "2026-10-12T21:37:45Z"
-        },
-        {
-          "sha": "8dae157",
-          "message": "📦 2026-10-13: 위키 아카이브 분리 — 최근 8개 차수만 현행 유지",
-          "author": "Renover",
-          "date": "2026-10-12T21:37:24Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 15,
       "open_prs": 3,
-      "updated_at": "2026-10-12T23:50:01Z",
-      "pushed_at": "2026-10-12T23:49:58Z",
+      "updated_at": "2026-10-13T12:40:20Z",
+      "pushed_at": "2026-10-13T12:40:15Z",
       "recent_commits": [
+        {
+          "sha": "af1a088",
+          "message": "data(arena): 공식 경기 2026-10-13 21:30",
+          "author": "daeguru",
+          "date": "2026-10-13T12:40:14Z"
+        },
         {
           "sha": "246a09e",
           "message": "chore(CLE2-30): 09 G4 MET(첫 공식 경기) + 누락된 시범 경기 test-02 파일 추가 (#114) (#136)",
@@ -233,12 +239,6 @@
           "message": "fix(CLE2-30): 아레나 기록기 — strategies/index.json 오인 제외 + 깨진 전략 파일은 해당 에이전트만 실격 (#114) (#134)",
           "author": "sfex11",
           "date": "2026-10-12T03:53:41Z"
-        },
-        {
-          "sha": "eafba57",
-          "message": "chore(CLE2-30): 09 GATES 증거 — G1~G3 MET, G4 첫 공식 경기 대기 (#114) (#132)",
-          "author": "sfex11",
-          "date": "2026-10-11T19:14:30Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-13T09:35:43Z",
-      "pushed_at": "2026-10-13T09:35:39Z",
+      "updated_at": "2026-10-13T15:34:09Z",
+      "pushed_at": "2026-10-13T15:34:04Z",
       "recent_commits": [
+        {
+          "sha": "5c0cc02",
+          "message": "wake: FB-20261013-01 daeguru 기상 기록",
+          "author": "대구루 (AI)",
+          "date": "2026-10-13T15:34:03Z"
+        },
         {
           "sha": "a790671",
           "message": "board: FB-20261013-01 대구루2 아레나 시즌0 참가 일정 응답 (관찰 후 10/16 첫 지시문)",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261010-03 daeguru2 기상 기록",
           "author": "daeguru",
           "date": "2026-10-12T21:31:32Z"
-        },
-        {
-          "sha": "972ec57",
-          "message": "log: 관측 한 줄 2026-10-13",
-          "author": "daeguru",
-          "date": "2026-10-12T15:31:29Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,42 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "wake: FB-20261013-01 daeguru 기상 기록",
+      "sha": "5c0cc02",
+      "date": "2026-10-13T15:34:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5c0cc0293162bea0a84fedba8796e2ceee73c72d"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-10-13: 데일리 브리핑 아카이브",
+      "sha": "15e2390",
+      "date": "2026-10-13T12:43:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/15e23905a633d96076f889dd0e754cdf74b02a5c"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-10-13 21:30",
+      "sha": "af1a088",
+      "date": "2026-10-13T12:40:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/af1a0886d51f1b7d28aa5c55dadf7c03eee2f572"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-10-13 20:41",
+      "sha": "fb73d7e",
+      "date": "2026-10-13T11:41:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fb73d7e26c1980398e76721241a540c214b7c310"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -719,15 +755,6 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📦 2026-10-13: 위키 아카이브 분리 — 최근 8개 차수만 현행 유지",
-      "sha": "8dae157",
-      "date": "2026-10-12T21:37:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/8dae15783488b6ab022f736fbced4f4ed8bfb22f"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "wake: FB-20261010-03 daeguru2 기상 기록",
@@ -746,15 +773,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: 관측 한 줄 2026-10-13",
-      "sha": "972ec57",
-      "date": "2026-10-12T15:31:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/972ec57a1861ba9b9eddd87bf43f8f888bea60ae"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "data(arena): 공식 경기 2026-10-12 21:30",
@@ -770,15 +788,6 @@
       "sha": "c22a74d",
       "date": "2026-10-12T11:40:27Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c22a74dd82037c89fd07bfe2af0b9fd58810b76b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard + github activity 2026-10-12 14:40",
-      "sha": "5dcb7a4",
-      "date": "2026-10-12T05:40:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5dcb7a4a955fef2ec89f17960b9afbdc6007901a"
     },
     {
       "type": "pr",
@@ -807,15 +816,6 @@
       "sha": "5977c56",
       "date": "2026-10-12T03:53:41Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/5977c565e6eaf2dbb6a24741abe8329fe90a5266"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "chore(CLE2-30): 09 GATES 증거 — G1~G3 MET, G4 첫 공식 경기 대기 (#114) (#132)",
-      "sha": "eafba57",
-      "date": "2026-10-11T19:14:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/eafba57b33dc355dbf20b3b83107840d7fd2dd9f"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 15,
+      "commits": 14,
       "prs": 18,
       "issues": 0,
       "reviews": 0
