@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-14T03:46:31Z",
-  "since": "2026-09-14T03:46:01Z",
+  "generated": "2026-10-14T09:46:09Z",
+  "since": "2026-09-14T09:45:36Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-14T00:46:16Z",
-      "pushed_at": "2026-10-14T00:46:12Z",
+      "updated_at": "2026-10-14T03:47:13Z",
+      "pushed_at": "2026-10-14T03:47:09Z",
       "recent_commits": [
+        {
+          "sha": "62c6c7e",
+          "message": "data: update dashboard.json + github-activity.json",
+          "author": "daeguru",
+          "date": "2026-10-14T03:47:07Z"
+        },
         {
           "sha": "d495f66",
           "message": "chore(dashboard): refresh dashboard.json and github-activity.json (2026-10-14 09:45 KST)",
@@ -85,12 +91,6 @@
           "message": "dashboard: 데이터 갱신 2026-10-14 03:46 KST",
           "author": "daeguru",
           "date": "2026-10-13T18:46:19Z"
-        },
-        {
-          "sha": "d6db101",
-          "message": "dashboard: update dashboard.json and github-activity.json (2026-10-14 02:58 KST cron)",
-          "author": "daeguru",
-          "date": "2026-10-13T18:00:52Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-10-13T12:43:59Z",
-      "pushed_at": "2026-10-13T12:43:54Z",
+      "updated_at": "2026-10-14T05:05:54Z",
+      "pushed_at": "2026-10-14T05:05:50Z",
       "recent_commits": [
+        {
+          "sha": "5b235c1",
+          "message": "📚 2026-10-14: 위키 갱신 (1개)",
+          "author": "Renover",
+          "date": "2026-10-14T05:05:40Z"
+        },
         {
           "sha": "15e2390",
           "message": "📋 2026-10-13: 데일리 브리핑 아카이브",
@@ -152,12 +158,6 @@
           "message": "🔧 아카이브 상대 링크 보정 (깨진 링크 0) + 롤링 스크립트에 relink 추가",
           "author": "Renover",
           "date": "2026-10-12T21:38:29Z"
-        },
-        {
-          "sha": "5aff907",
-          "message": "🔧 위키 롤링 아카이브 스크립트 추가 + 아카이브 파일명 단순화",
-          "author": "Renover",
-          "date": "2026-10-12T21:37:45Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-14T03:33:26Z",
-      "pushed_at": "2026-10-14T03:33:23Z",
+      "updated_at": "2026-10-14T09:32:47Z",
+      "pushed_at": "2026-10-14T09:32:43Z",
       "recent_commits": [
+        {
+          "sha": "d077a9f",
+          "message": "log: 관측 한 줄 2026-10-14",
+          "author": "daeguru-agent",
+          "date": "2026-10-14T09:32:42Z"
+        },
         {
           "sha": "5833e33",
           "message": "log: 관측 한 줄 2026-10-14",
@@ -503,12 +509,6 @@
           "message": "fix(agents-board): 대구루 공지 중복 id FB-20261014-01 → FB-20261014-03 정리",
           "author": "daeguru",
           "date": "2026-10-13T21:34:25Z"
-        },
-        {
-          "sha": "d2a7ba4",
-          "message": "log: 관측 한 줄 2026-10-14",
-          "author": "daeguru",
-          "date": "2026-10-13T21:33:29Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,33 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "daeguru-agent",
+      "message": "log: 관측 한 줄 2026-10-14",
+      "sha": "d077a9f",
+      "date": "2026-10-14T09:32:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d077a9f8ef19c9f4524ebb5fa98e0fd6f50451a4"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-10-14: 위키 갱신 (1개)",
+      "sha": "5b235c1",
+      "date": "2026-10-14T05:05:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5b235c1380a0f001b964eb972ebc9221520ad7e3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "data: update dashboard.json + github-activity.json",
+      "sha": "62c6c7e",
+      "date": "2026-10-14T03:47:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/62c6c7ee772adf8221d727fbd3e210daa53d4ad4"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "daeguru-bot",
       "message": "log: 관측 한 줄 2026-10-14",
       "sha": "5833e33",
@@ -672,30 +699,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: 관측 한 줄 2026-10-14",
-      "sha": "d2a7ba4",
-      "date": "2026-10-13T21:33:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d2a7ba4284e5388d496d057f7f4ea41d0ceff0ec"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: 데이터 갱신 2026-10-14 03:46 KST",
       "sha": "f7be347",
       "date": "2026-10-13T18:46:19Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f7be347be9d2f97404cd1f0b91e6330c49e6d517"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (2026-10-14 02:58 KST cron)",
-      "sha": "d6db101",
-      "date": "2026-10-13T18:00:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d6db101ea1d2792ece9c34c623190b86b2701709"
     },
     {
       "type": "commit",
@@ -770,15 +779,6 @@
       "sha": "e00f8d9",
       "date": "2026-10-12T21:38:29Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e00f8d9a0cd79950aec4fbbd547336502fb33ede"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔧 위키 롤링 아카이브 스크립트 추가 + 아카이브 파일명 단순화",
-      "sha": "5aff907",
-      "date": "2026-10-12T21:37:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5aff907e76c209f52f1924d942f51486f9c9ded7"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 11,
+      "commits": 10,
       "prs": 0,
       "issues": 0,
       "reviews": 0
