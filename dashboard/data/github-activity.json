@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-14T09:46:09Z",
-  "since": "2026-09-14T09:45:36Z",
+  "generated": "2026-10-14T12:47:30Z",
+  "since": "2026-09-14T12:46:58Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-14T03:47:13Z",
-      "pushed_at": "2026-10-14T03:47:09Z",
+      "updated_at": "2026-10-14T09:46:58Z",
+      "pushed_at": "2026-10-14T09:46:54Z",
       "recent_commits": [
+        {
+          "sha": "76c35ed",
+          "message": "chore(dashboard): refresh dashboard.json and github-activity.json (2026-10-14 18:44 KST)",
+          "author": "daeguru",
+          "date": "2026-10-14T09:46:52Z"
+        },
         {
           "sha": "62c6c7e",
           "message": "data: update dashboard.json + github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): regenerate dashboard.json and github-activity.json",
           "author": "daeguru",
           "date": "2026-10-13T21:46:42Z"
-        },
-        {
-          "sha": "f7be347",
-          "message": "dashboard: 데이터 갱신 2026-10-14 03:46 KST",
-          "author": "daeguru",
-          "date": "2026-10-13T18:46:19Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-10-14T05:05:54Z",
-      "pushed_at": "2026-10-14T05:05:50Z",
+      "updated_at": "2026-10-14T12:43:48Z",
+      "pushed_at": "2026-10-14T12:43:44Z",
       "recent_commits": [
+        {
+          "sha": "584e2d4",
+          "message": "📋 2026-10-14: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-10-14T12:43:43Z"
+        },
         {
           "sha": "5b235c1",
           "message": "📚 2026-10-14: 위키 갱신 (1개)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-10-13: 뉴스 수집 (4건)",
           "author": "Renover",
           "date": "2026-10-12T23:07:15Z"
-        },
-        {
-          "sha": "e00f8d9",
-          "message": "🔧 아카이브 상대 링크 보정 (깨진 링크 0) + 롤링 스크립트에 relink 추가",
-          "author": "Renover",
-          "date": "2026-10-12T21:38:29Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 15,
       "open_prs": 3,
-      "updated_at": "2026-10-13T12:40:20Z",
-      "pushed_at": "2026-10-13T12:40:15Z",
+      "updated_at": "2026-10-14T12:40:18Z",
+      "pushed_at": "2026-10-14T12:40:13Z",
       "recent_commits": [
+        {
+          "sha": "e0a91ad",
+          "message": "data(arena): 공식 경기 2026-10-14 21:30",
+          "author": "daeguru",
+          "date": "2026-10-14T12:40:11Z"
+        },
         {
           "sha": "af1a088",
           "message": "data(arena): 공식 경기 2026-10-13 21:30",
@@ -233,12 +239,6 @@
           "message": "arena: laika 전략 2026-10-12 (#133)",
           "author": "sfex11",
           "date": "2026-10-12T03:53:47Z"
-        },
-        {
-          "sha": "5977c56",
-          "message": "fix(CLE2-30): 아레나 기록기 — strategies/index.json 오인 제외 + 깨진 전략 파일은 해당 에이전트만 실격 (#114) (#134)",
-          "author": "sfex11",
-          "date": "2026-10-12T03:53:41Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-10-14: 데일리 브리핑 아카이브",
+      "sha": "584e2d4",
+      "date": "2026-10-14T12:43:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/584e2d4448e338c530263c0e9cf8fae67577a36a"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-10-14 21:30",
+      "sha": "e0a91ad",
+      "date": "2026-10-14T12:40:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e0a91ada2c60380be3b12b96813a329b5e9491ce"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json and github-activity.json (2026-10-14 18:44 KST)",
+      "sha": "76c35ed",
+      "date": "2026-10-14T09:46:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/76c35ed2145f6e168ceb75abfb5ccfded7f133a2"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru-agent",
       "message": "log: 관측 한 줄 2026-10-14",
@@ -699,15 +726,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: 데이터 갱신 2026-10-14 03:46 KST",
-      "sha": "f7be347",
-      "date": "2026-10-13T18:46:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f7be347be9d2f97404cd1f0b91e6330c49e6d517"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-10-13: 데일리 브리핑 아카이브",
@@ -773,15 +791,6 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔧 아카이브 상대 링크 보정 (깨진 링크 0) + 롤링 스크립트에 relink 추가",
-      "sha": "e00f8d9",
-      "date": "2026-10-12T21:38:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e00f8d9a0cd79950aec4fbbd547336502fb33ede"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "data(arena): 공식 경기 2026-10-12 21:30",
@@ -807,15 +816,6 @@
       "sha": "66133cc",
       "date": "2026-10-12T03:53:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/66133cc69815e3f06a3867e1f7c194e43346225f"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix(CLE2-30): 아레나 기록기 — strategies/index.json 오인 제외 + 깨진 전략 파일은 해당 에이전트만 실격 (#114) (#134)",
-      "sha": "5977c56",
-      "date": "2026-10-12T03:53:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/5977c565e6eaf2dbb6a24741abe8329fe90a5266"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 15,
+      "commits": 14,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 10,
+      "commits": 11,
       "prs": 0,
       "issues": 0,
       "reviews": 0
