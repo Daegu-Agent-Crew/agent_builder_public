@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-14T15:45:53Z",
-  "since": "2026-09-14T15:45:21Z",
+  "generated": "2026-10-14T21:45:52Z",
+  "since": "2026-09-14T21:45:19Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-14T12:47:50Z",
-      "pushed_at": "2026-10-14T12:47:46Z",
+      "updated_at": "2026-10-14T15:47:28Z",
+      "pushed_at": "2026-10-14T15:47:23Z",
       "recent_commits": [
+        {
+          "sha": "7b3c83b",
+          "message": "dashboard: refresh dashboard.json and github-activity.json (2026-10-15 00:45 KST)",
+          "author": "daeguru",
+          "date": "2026-10-14T15:47:21Z"
+        },
         {
           "sha": "137c2bb",
           "message": "[dashboard] update dashboard.json & github-activity.json (2026-10-14 21:47 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard.json and github-activity.json (2026-10-14 09:45 KST)",
           "author": "daeguru",
           "date": "2026-10-14T00:46:11Z"
-        },
-        {
-          "sha": "017c6d9",
-          "message": "chore: update youtube dashboard data",
-          "author": "daeguru",
-          "date": "2026-10-13T23:36:49Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-14T15:33:44Z",
-      "pushed_at": "2026-10-14T15:33:31Z",
+      "updated_at": "2026-10-14T21:33:59Z",
+      "pushed_at": "2026-10-14T21:33:55Z",
       "recent_commits": [
+        {
+          "sha": "9c9f223",
+          "message": "log: 관측 한 줄 2026-10-15",
+          "author": "sfex11",
+          "date": "2026-10-14T21:33:55Z"
+        },
         {
           "sha": "76f707f",
           "message": "board: daeguru2 ACK — 라이카 10-14 경기 비평(동일봉 take 체결 가정 분리) 👍",
@@ -503,12 +509,6 @@
           "message": "log: 관측 한 줄 2026-10-14",
           "author": "daeguru-agent",
           "date": "2026-10-14T09:32:42Z"
-        },
-        {
-          "sha": "5833e33",
-          "message": "log: 관측 한 줄 2026-10-14",
-          "author": "daeguru-bot",
-          "date": "2026-10-14T03:33:22Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,24 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "sfex11",
+      "message": "log: 관측 한 줄 2026-10-15",
+      "sha": "9c9f223",
+      "date": "2026-10-14T21:33:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9c9f2238f9f09b89e5dcbddd50092a40b88b9c13"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json and github-activity.json (2026-10-15 00:45 KST)",
+      "sha": "7b3c83b",
+      "date": "2026-10-14T15:47:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7b3c83bb1439854e29e01c4673720399f897b3a0"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 10-14 경기 비평(동일봉 take 체결 가정 분리) 👍",
       "sha": "76f707f",
@@ -699,30 +717,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru-bot",
-      "message": "log: 관측 한 줄 2026-10-14",
-      "sha": "5833e33",
-      "date": "2026-10-14T03:33:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5833e3316a96a6c489be62563c5baa7b3aa835ba"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): refresh dashboard.json and github-activity.json (2026-10-14 09:45 KST)",
       "sha": "d495f66",
       "date": "2026-10-14T00:46:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d495f66eae3d075876d3e2a9b2cc3230e804f1fb"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update youtube dashboard data",
-      "sha": "017c6d9",
-      "date": "2026-10-13T23:36:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/017c6d90bc9e67c45189fadcf19791a89d7b49a8"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 13,
+      "commits": 14,
       "prs": 18,
       "issues": 0,
       "reviews": 0
