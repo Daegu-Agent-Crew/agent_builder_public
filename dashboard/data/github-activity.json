@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-14T00:45:45Z",
-  "since": "2026-09-14T00:45:14Z",
+  "generated": "2026-10-14T03:46:31Z",
+  "since": "2026-09-14T03:46:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-13T23:36:54Z",
-      "pushed_at": "2026-10-13T23:36:50Z",
+      "updated_at": "2026-10-14T00:46:16Z",
+      "pushed_at": "2026-10-14T00:46:12Z",
       "recent_commits": [
+        {
+          "sha": "d495f66",
+          "message": "chore(dashboard): refresh dashboard.json and github-activity.json (2026-10-14 09:45 KST)",
+          "author": "daeguru",
+          "date": "2026-10-14T00:46:11Z"
+        },
         {
           "sha": "017c6d9",
           "message": "chore: update youtube dashboard data",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (2026-10-14 02:58 KST cron)",
           "author": "daeguru",
           "date": "2026-10-13T18:00:52Z"
-        },
-        {
-          "sha": "fb73d7e",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-10-13 20:41",
-          "author": "daeguru",
-          "date": "2026-10-13T11:41:03Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-13T23:36:51Z",
-      "pushed_at": "2026-10-13T23:36:47Z",
+      "updated_at": "2026-10-14T03:33:26Z",
+      "pushed_at": "2026-10-14T03:33:23Z",
       "recent_commits": [
+        {
+          "sha": "5833e33",
+          "message": "log: 관측 한 줄 2026-10-14",
+          "author": "daeguru-bot",
+          "date": "2026-10-14T03:33:22Z"
+        },
         {
           "sha": "9b0e77d",
           "message": "Add REA reverse-engineering agent video summary record",
@@ -501,12 +507,6 @@
         {
           "sha": "d2a7ba4",
           "message": "log: 관측 한 줄 2026-10-14",
-          "author": "daeguru",
-          "date": "2026-10-13T21:33:29Z"
-        },
-        {
-          "sha": "8402ff7",
-          "message": "wake: FB-20261014-02 daeguru2·daeguru 기상 기록",
           "author": "daeguru",
           "date": "2026-10-13T21:33:29Z"
         }
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru-bot",
+      "message": "log: 관측 한 줄 2026-10-14",
+      "sha": "5833e33",
+      "date": "2026-10-14T03:33:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5833e3316a96a6c489be62563c5baa7b3aa835ba"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json and github-activity.json (2026-10-14 09:45 KST)",
+      "sha": "d495f66",
+      "date": "2026-10-14T00:46:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d495f66eae3d075876d3e2a9b2cc3230e804f1fb"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update youtube dashboard data",
@@ -656,15 +674,6 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
-      "message": "wake: FB-20261014-02 daeguru2·daeguru 기상 기록",
-      "sha": "8402ff7",
-      "date": "2026-10-13T21:33:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8402ff7623a25d8fce26f82eb9d04c34b8e6885e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
       "message": "log: 관측 한 줄 2026-10-14",
       "sha": "d2a7ba4",
       "date": "2026-10-13T21:33:29Z",
@@ -705,15 +714,6 @@
       "sha": "af1a088",
       "date": "2026-10-13T12:40:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/af1a0886d51f1b7d28aa5c55dadf7c03eee2f572"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-10-13 20:41",
-      "sha": "fb73d7e",
-      "date": "2026-10-13T11:41:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fb73d7e26c1980398e76721241a540c214b7c310"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 12,
+      "commits": 11,
       "prs": 0,
       "issues": 0,
       "reviews": 0
