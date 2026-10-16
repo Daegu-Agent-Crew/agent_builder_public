@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16T03:45:30Z",
-  "since": "2026-09-16T03:45:00Z",
+  "generated": "2026-10-16T09:45:17Z",
+  "since": "2026-09-16T09:44:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-15T21:45:43Z",
-      "pushed_at": "2026-10-15T21:45:39Z",
+      "updated_at": "2026-10-16T03:45:44Z",
+      "pushed_at": "2026-10-16T03:45:41Z",
       "recent_commits": [
+        {
+          "sha": "6270331",
+          "message": "dashboard: update data 2026-10-16 12:45",
+          "author": "daeguru",
+          "date": "2026-10-16T03:45:39Z"
+        },
         {
           "sha": "2f2c587",
           "message": "dashboard: update data 2026-10-16 06:45",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard & github activity data",
           "author": "daeguru",
           "date": "2026-10-15T03:45:16Z"
-        },
-        {
-          "sha": "ea4a8f9",
-          "message": "chore(dashboard): regenerate dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-10-14T21:46:13Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-10-15T23:06:43Z",
-      "pushed_at": "2026-10-15T23:06:39Z",
+      "updated_at": "2026-10-16T05:12:56Z",
+      "pushed_at": "2026-10-16T05:12:52Z",
       "recent_commits": [
+        {
+          "sha": "68ec840",
+          "message": "📚 2026-10-16: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-10-16T05:12:51Z"
+        },
         {
           "sha": "918bc71",
           "message": "📰 2026-10-16: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-10-15: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-10-15T01:45:51Z"
-        },
-        {
-          "sha": "584e2d4",
-          "message": "📋 2026-10-14: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-10-14T12:43:43Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-16T03:31:33Z",
-      "pushed_at": "2026-10-16T03:31:28Z",
+      "updated_at": "2026-10-16T09:31:54Z",
+      "pushed_at": "2026-10-16T09:31:50Z",
       "recent_commits": [
+        {
+          "sha": "54e1442",
+          "message": "wake: FB-20261016-01, FB-20261015-01 daeguru·daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-10-16T09:31:49Z"
+        },
+        {
+          "sha": "1f5f237",
+          "message": "feed: 라이카 아레나 일일 연구 2026-10-16",
+          "author": "Laika",
+          "date": "2026-10-16T08:57:53Z"
+        },
         {
           "sha": "bd5457d",
           "message": "log: 관측 한 줄 2026-10-16",
@@ -497,18 +509,6 @@
           "message": "wake: FB-20261015-02 daeguru,daeguru2 기상 기록",
           "author": "daeguru",
           "date": "2026-10-15T15:31:44Z"
-        },
-        {
-          "sha": "ada2be3",
-          "message": "arena: post Laika critique for 2026-10-15",
-          "author": "Laika",
-          "date": "2026-10-15T12:54:56Z"
-        },
-        {
-          "sha": "13ffe6f",
-          "message": "wake: FB-20261015-01 daeguru,daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-10-15T09:31:42Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,42 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
+      "message": "wake: FB-20261016-01, FB-20261015-01 daeguru·daeguru2 기상 기록",
+      "sha": "54e1442",
+      "date": "2026-10-16T09:31:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/54e14424a9a133f0e73f0ea071ecd4b2045f294e"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: 라이카 아레나 일일 연구 2026-10-16",
+      "sha": "1f5f237",
+      "date": "2026-10-16T08:57:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1f5f2373909a34c5c2b91273b88824dc540e83a5"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-10-16: 위키 갱신 (2개)",
+      "sha": "68ec840",
+      "date": "2026-10-16T05:12:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/68ec840d0bbfeec2465f3ac322e28e4c86f2b7c7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update data 2026-10-16 12:45",
+      "sha": "6270331",
+      "date": "2026-10-16T03:45:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/627033108c00ef0f91663488f556ad9b7b2ae4bf"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
       "message": "log: 관측 한 줄 2026-10-16",
       "sha": "bd5457d",
       "date": "2026-10-16T03:31:28Z",
@@ -663,15 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "arena: post Laika critique for 2026-10-15",
-      "sha": "ada2be3",
-      "date": "2026-10-15T12:54:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ada2be336912788796c655fc8da6b24641e0fdb8"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-10-15: 데일리 브리핑 아카이브",
@@ -699,15 +726,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261015-01 daeguru,daeguru2 기상 기록",
-      "sha": "13ffe6f",
-      "date": "2026-10-15T09:31:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/13ffe6f03fe3bff9b35459ef48eecd482b98f36f"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-10-15: 위키 갱신 (2개)",
@@ -732,24 +750,6 @@
       "sha": "dae1592",
       "date": "2026-10-15T01:45:51Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/dae1592c27c80774265c6019df122ae6fda502d6"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): regenerate dashboard.json and github-activity.json",
-      "sha": "ea4a8f9",
-      "date": "2026-10-14T21:46:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ea4a8f905b56ef1e0a6a9a67d21a6414a73ffa56"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-10-14: 데일리 브리핑 아카이브",
-      "sha": "584e2d4",
-      "date": "2026-10-14T12:43:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/584e2d4448e338c530263c0e9cf8fae67577a36a"
     },
     {
       "type": "commit",
