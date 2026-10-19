@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-19T00:45:06Z",
-  "since": "2026-09-19T00:44:32Z",
+  "generated": "2026-10-19T03:45:09Z",
+  "since": "2026-09-19T03:44:39Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-18T21:45:25Z",
-      "pushed_at": "2026-10-18T21:45:21Z",
+      "updated_at": "2026-10-19T00:45:16Z",
+      "pushed_at": "2026-10-19T00:45:12Z",
       "recent_commits": [
+        {
+          "sha": "bde7112",
+          "message": "chore(dashboard): update dashboard & github activity (cron)",
+          "author": "daeguru",
+          "date": "2026-10-19T00:45:11Z"
+        },
         {
           "sha": "c7cb906",
           "message": "chore: update dashboard data (auto)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard & github activity data",
           "author": "daeguru",
           "date": "2026-10-18T09:45:15Z"
-        },
-        {
-          "sha": "ab81a17",
-          "message": "chore(dashboard): update dashboard & github activity data",
-          "author": "daeguru",
-          "date": "2026-10-18T03:45:26Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-18T23:24:30Z",
-      "pushed_at": "2026-10-18T23:24:25Z",
+      "updated_at": "2026-10-19T03:31:48Z",
+      "pushed_at": "2026-10-19T03:31:44Z",
       "recent_commits": [
+        {
+          "sha": "2e0aaeb",
+          "message": "wake: FB-20261019-01 daeguru,daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-10-19T03:31:44Z"
+        },
         {
           "sha": "57a817f",
           "message": "arena: publish Laika weekly evolution report 2026-10-19",
@@ -503,12 +509,6 @@
           "message": "arena: post Laika critique for 2026-10-18",
           "author": "Laika",
           "date": "2026-10-18T13:01:59Z"
-        },
-        {
-          "sha": "e0dbcff",
-          "message": "wake: FB-20261018-01 daeguru,daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-10-18T09:31:46Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,24 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261019-01 daeguru,daeguru2 기상 기록",
+      "sha": "2e0aaeb",
+      "date": "2026-10-19T03:31:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2e0aaeb2bf2802b464e6290d7774208ebe06fde4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard & github activity (cron)",
+      "sha": "bde7112",
+      "date": "2026-10-19T00:45:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bde71121628425674cebe8bf4bc91ec6143f05f5"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -717,30 +735,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261018-01 daeguru,daeguru2 기상 기록",
-      "sha": "e0dbcff",
-      "date": "2026-10-18T09:31:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e0dbcffaec747a1eb902d3090c9a17d5a26b6024"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-10-18: 위키 갱신 (2개)",
       "sha": "2721cd1",
       "date": "2026-10-18T05:08:18Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2721cd1eebb163ef5904a94161c110f5a9da88c9"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard & github activity data",
-      "sha": "ab81a17",
-      "date": "2026-10-18T03:45:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ab81a17cb53137bce742997c4eceed5895018400"
     },
     {
       "type": "commit",
