@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-19T21:45:09Z",
-  "since": "2026-09-19T21:44:40Z",
+  "generated": "2026-10-20T03:45:07Z",
+  "since": "2026-09-20T03:44:36Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-19T15:45:25Z",
-      "pushed_at": "2026-10-19T15:45:21Z",
+      "updated_at": "2026-10-19T21:45:19Z",
+      "pushed_at": "2026-10-19T21:45:15Z",
       "recent_commits": [
+        {
+          "sha": "ef92112",
+          "message": "chore: update dashboard data",
+          "author": "daeguru",
+          "date": "2026-10-19T21:45:14Z"
+        },
         {
           "sha": "55f7fb2",
           "message": "chore(dashboard): update dashboard data 2026-10-20 00:45",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard & github activity (cron)",
           "author": "daeguru",
           "date": "2026-10-19T00:45:11Z"
-        },
-        {
-          "sha": "c7cb906",
-          "message": "chore: update dashboard data (auto)",
-          "author": "daeguru",
-          "date": "2026-10-18T21:45:19Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-10-19T12:41:46Z",
-      "pushed_at": "2026-10-19T12:41:40Z",
+      "updated_at": "2026-10-19T23:03:56Z",
+      "pushed_at": "2026-10-19T23:03:52Z",
       "recent_commits": [
+        {
+          "sha": "d1d98a9",
+          "message": "📰 2026-10-20: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-10-19T23:03:52Z"
+        },
         {
           "sha": "d17121d",
           "message": "📋 2026-10-19: 데일리 브리핑 아카이브",
@@ -152,12 +158,6 @@
           "message": "🔍 2026-10-18: 위키 린트 점검",
           "author": "Renover",
           "date": "2026-10-18T14:07:40Z"
-        },
-        {
-          "sha": "554d90c",
-          "message": "📋 2026-10-18: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-10-18T12:43:18Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-19T21:32:22Z",
-      "pushed_at": "2026-10-19T21:32:17Z",
+      "updated_at": "2026-10-20T03:32:15Z",
+      "pushed_at": "2026-10-20T03:32:11Z",
       "recent_commits": [
+        {
+          "sha": "9f1219b",
+          "message": "wake: FB-20261019-01 daeguru,daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-10-20T03:32:10Z"
+        },
         {
           "sha": "037b72c",
           "message": "wake: FB-20261018-02 daeguru daeguru2 기상 기록",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261019-02 daeguru,daeguru2 기상 기록",
           "author": "daeguru",
           "date": "2026-10-19T09:31:44Z"
-        },
-        {
-          "sha": "3a3ebb7",
-          "message": "arena: laika daily research 2026-10-19",
-          "author": "Laika",
-          "date": "2026-10-19T08:45:13Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,33 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
+      "message": "wake: FB-20261019-01 daeguru,daeguru2 기상 기록",
+      "sha": "9f1219b",
+      "date": "2026-10-20T03:32:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9f1219b71af48e4e6348414420dbb061d65831d1"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-10-20: 뉴스 수집 (5건)",
+      "sha": "d1d98a9",
+      "date": "2026-10-19T23:03:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d1d98a94f4dc488b970896d062b2216ba6e24663"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data",
+      "sha": "ef92112",
+      "date": "2026-10-19T21:45:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ef92112b4c2cfc8fb889c8a1b226aa6d7b7a38fd"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
       "message": "wake: FB-20261018-02 daeguru daeguru2 기상 기록",
       "sha": "037b72c",
       "date": "2026-10-19T21:32:17Z",
@@ -681,15 +708,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "arena: laika daily research 2026-10-19",
-      "sha": "3a3ebb7",
-      "date": "2026-10-19T08:45:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3a3ebb7c638f4b3bdd85bd4a651214338e80d7d2"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-10-19: 위키 갱신 (2개)",
@@ -726,30 +744,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (auto)",
-      "sha": "c7cb906",
-      "date": "2026-10-18T21:45:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c7cb90648d2e68543249df1dd5f47776d6a5f11f"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🔍 2026-10-18: 위키 린트 점검",
       "sha": "36bccd9",
       "date": "2026-10-18T14:07:40Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/36bccd9ce7eae6f8aef3943ab7a33d29a87d1196"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-10-18: 데일리 브리핑 아카이브",
-      "sha": "554d90c",
-      "date": "2026-10-18T12:43:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/554d90cf178d58049c0e9650f323abdcc7e9441d"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 14,
+      "commits": 15,
       "prs": 0,
       "issues": 0,
       "reviews": 0
