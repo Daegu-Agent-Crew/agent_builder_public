@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-24T22:47:17Z",
-  "since": "2026-09-24T22:46:48Z",
+  "generated": "2026-10-25T04:48:07Z",
+  "since": "2026-09-25T04:47:37Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-24T19:47:17Z",
-      "pushed_at": "2026-10-24T19:47:14Z",
+      "updated_at": "2026-10-24T22:47:26Z",
+      "pushed_at": "2026-10-24T22:47:23Z",
       "recent_commits": [
+        {
+          "sha": "4acce3e",
+          "message": "chore(dashboard): refresh dashboard + github activity 2026-10-25_0747",
+          "author": "daeguru",
+          "date": "2026-10-24T22:47:22Z"
+        },
         {
           "sha": "37fe45d",
           "message": "chore(dashboard): refresh dashboard + github activity 2026-10-25_0447",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard data 2026-10-20 00:45",
           "author": "daeguru",
           "date": "2026-10-19T15:45:20Z"
-        },
-        {
-          "sha": "8486400",
-          "message": "chore: update dashboard data (2026-10-19 18:45)",
-          "author": "daeguru",
-          "date": "2026-10-19T09:45:26Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-10-24T12:58:06Z",
-      "pushed_at": "2026-10-24T12:58:03Z",
+      "updated_at": "2026-10-24T23:04:31Z",
+      "pushed_at": "2026-10-24T23:04:28Z",
       "recent_commits": [
+        {
+          "sha": "fc6adb0",
+          "message": "📰 2026-10-25: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-10-24T23:04:26Z"
+        },
         {
           "sha": "aaf35c5",
           "message": "📋 2026-10-24: 데일리 브리핑 아카이브",
@@ -152,12 +158,6 @@
           "message": "📋 2026-10-23: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-10-23T12:45:08Z"
-        },
-        {
-          "sha": "25aba45",
-          "message": "📚 2026-10-23: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-10-23T05:08:18Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-24T21:31:34Z",
-      "pushed_at": "2026-10-24T21:31:30Z",
+      "updated_at": "2026-10-25T03:35:54Z",
+      "pushed_at": "2026-10-25T03:35:50Z",
       "recent_commits": [
+        {
+          "sha": "50342df",
+          "message": "log: 관측 한 줄 2026-10-25",
+          "author": "sfex11",
+          "date": "2026-10-25T03:35:50Z"
+        },
         {
           "sha": "de53cb8",
           "message": "log: 관측 한 줄 2026-10-25",
@@ -503,12 +509,6 @@
           "message": "board: add laika arena research 2026-10-23",
           "author": "Laika",
           "date": "2026-10-23T08:41:34Z"
-        },
-        {
-          "sha": "aa7cd4a",
-          "message": "finding: laika arena research 2026-10-22",
-          "author": "Laika",
-          "date": "2026-10-22T08:50:31Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,33 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "log: 관측 한 줄 2026-10-25",
+      "sha": "50342df",
+      "date": "2026-10-25T03:35:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/50342df5aec167058c0e5932f6a579410cebad21"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-10-25: 뉴스 수집 (5건)",
+      "sha": "fc6adb0",
+      "date": "2026-10-24T23:04:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/fc6adb03eafbb3a7d2424edd208209b7cf9ff376"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard + github activity 2026-10-25_0747",
+      "sha": "4acce3e",
+      "date": "2026-10-24T22:47:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4acce3e1344b42a17eddae81a968bd1c717fb5a5"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -735,24 +762,6 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-10-23: 위키 갱신 (2개)",
-      "sha": "25aba45",
-      "date": "2026-10-23T05:08:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/25aba45167bab8c803d5b404b4ed36cdd93d0954"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "finding: laika arena research 2026-10-22",
-      "sha": "aa7cd4a",
-      "date": "2026-10-22T08:50:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/aa7cd4aebf36b22f7bb79dce38d436a4574587e6"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard.json & github-activity",
@@ -777,15 +786,6 @@
       "sha": "55f7fb2",
       "date": "2026-10-19T15:45:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/55f7fb2d8b393bd6a8d120a95f213deb32523988"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (2026-10-19 18:45)",
-      "sha": "8486400",
-      "date": "2026-10-19T09:45:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/84864005c01fedb10baccb10da5683f29b739829"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 11,
+      "commits": 12,
       "prs": 18,
       "issues": 0,
       "reviews": 0
