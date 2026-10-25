@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-25T04:48:07Z",
-  "since": "2026-09-25T04:47:37Z",
+  "generated": "2026-10-25T07:48:32Z",
+  "since": "2026-09-25T07:48:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-24T22:47:26Z",
-      "pushed_at": "2026-10-24T22:47:23Z",
+      "updated_at": "2026-10-25T04:48:27Z",
+      "pushed_at": "2026-10-25T04:48:23Z",
       "recent_commits": [
+        {
+          "sha": "219700a",
+          "message": "chore(dashboard): refresh dashboard + github activity 2026-10-25_1348",
+          "author": "daeguru",
+          "date": "2026-10-25T04:48:23Z"
+        },
         {
           "sha": "4acce3e",
           "message": "chore(dashboard): refresh dashboard + github activity 2026-10-25_0747",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data",
           "author": "daeguru",
           "date": "2026-10-19T21:45:14Z"
-        },
-        {
-          "sha": "55f7fb2",
-          "message": "chore(dashboard): update dashboard data 2026-10-20 00:45",
-          "author": "daeguru",
-          "date": "2026-10-19T15:45:20Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-10-24T23:04:31Z",
-      "pushed_at": "2026-10-24T23:04:28Z",
+      "updated_at": "2026-10-25T05:10:58Z",
+      "pushed_at": "2026-10-25T05:10:54Z",
       "recent_commits": [
+        {
+          "sha": "a434999",
+          "message": "📚 2026-10-25: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-10-25T05:10:53Z"
+        },
         {
           "sha": "fc6adb0",
           "message": "📰 2026-10-25: 뉴스 수집 (5건)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-10-24: 뉴스 수집 (4건)",
           "author": "Renover",
           "date": "2026-10-23T23:06:51Z"
-        },
-        {
-          "sha": "d3b76f4",
-          "message": "📋 2026-10-23: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-10-23T12:45:08Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,27 @@
       "private": false,
       "open_issues": 15,
       "open_prs": 3,
-      "updated_at": "2026-10-24T07:31:22Z",
-      "pushed_at": "2026-10-24T07:31:18Z",
+      "updated_at": "2026-10-25T07:44:33Z",
+      "pushed_at": "2026-10-25T07:44:29Z",
       "recent_commits": [
+        {
+          "sha": "aa26ff9",
+          "message": "data(arena): 공식 경기 2026-10-24 21:30 (체결 기록 재구성)",
+          "author": "arena-bot",
+          "date": "2026-10-25T07:44:28Z"
+        },
+        {
+          "sha": "23fba81",
+          "message": "daeguru: cockpit v1 gates ALL MET",
+          "author": "daeguru",
+          "date": "2026-10-25T06:33:11Z"
+        },
+        {
+          "sha": "349063a",
+          "message": "daeguru: cockpit v1 - self-check/promises/lessons/arena/techlog",
+          "author": "daeguru",
+          "date": "2026-10-25T06:31:45Z"
+        },
         {
           "sha": "70a35fc",
           "message": "data(arena): 공식 경기 2026-10-23 21:30 (체결 기록 재구성)",
@@ -221,24 +239,6 @@
           "message": "data(arena): 공식 경기 2026-10-22 21:30 (체결 기록 재구성)",
           "author": "arena-bot",
           "date": "2026-10-23T19:41:22Z"
-        },
-        {
-          "sha": "5ed56e9",
-          "message": "data(arena): 공식 경기 2026-10-21 21:30 (체결 기록 재구성)",
-          "author": "arena-bot",
-          "date": "2026-10-23T19:41:17Z"
-        },
-        {
-          "sha": "09cf0cb",
-          "message": "data(arena): 공식 경기 2026-10-20 21:30 (체결 기록 재구성)",
-          "author": "arena-bot",
-          "date": "2026-10-23T19:41:11Z"
-        },
-        {
-          "sha": "2130c64",
-          "message": "ci(arena): 해외 서버 차단 대응 — 다음 날 일별 체결로 경기 재구성·채점(record.mjs --archive)",
-          "author": "daeguru",
-          "date": "2026-10-23T19:40:35Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,51 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "arena-bot",
+      "message": "data(arena): 공식 경기 2026-10-24 21:30 (체결 기록 재구성)",
+      "sha": "aa26ff9",
+      "date": "2026-10-25T07:44:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/aa26ff93a15218779675a2a41f221f8f9047a7e8"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "daeguru: cockpit v1 gates ALL MET",
+      "sha": "23fba81",
+      "date": "2026-10-25T06:33:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/23fba81c944f950f323f6fdfd0de6a86789d80dd"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "daeguru: cockpit v1 - self-check/promises/lessons/arena/techlog",
+      "sha": "349063a",
+      "date": "2026-10-25T06:31:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/349063a7351b31f8bf0f5ca4b4ebf7b13302fdc9"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-10-25: 위키 갱신 (2개)",
+      "sha": "a434999",
+      "date": "2026-10-25T05:10:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a434999d94583e44f456f01d0b9591405035ac4b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard + github activity 2026-10-25_1348",
+      "sha": "219700a",
+      "date": "2026-10-25T04:48:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/219700a932c509805ec4abfde7bc2e61c39cf23f"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "sfex11",
       "message": "log: 관측 한 줄 2026-10-25",
@@ -717,42 +762,6 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "arena-bot",
-      "message": "data(arena): 공식 경기 2026-10-21 21:30 (체결 기록 재구성)",
-      "sha": "5ed56e9",
-      "date": "2026-10-23T19:41:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/5ed56e989f8cbe73a25d63f2beab64a090e95281"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "arena-bot",
-      "message": "data(arena): 공식 경기 2026-10-20 21:30 (체결 기록 재구성)",
-      "sha": "09cf0cb",
-      "date": "2026-10-23T19:41:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/09cf0cbe085deb1a83f4f3d50136f9d7ef4c24e6"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "ci(arena): 해외 서버 차단 대응 — 다음 날 일별 체결로 경기 재구성·채점(record.mjs --archive)",
-      "sha": "2130c64",
-      "date": "2026-10-23T19:40:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2130c647c54d5bd4b05e17f5a005748011c76a94"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-10-23: 데일리 브리핑 아카이브",
-      "sha": "d3b76f4",
-      "date": "2026-10-23T12:45:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d3b76f49ffc8fc24760c651225a06c0803c01161"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "board: add laika arena research 2026-10-23",
@@ -777,15 +786,6 @@
       "sha": "ef92112",
       "date": "2026-10-19T21:45:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ef92112b4c2cfc8fb889c8a1b226aa6d7b7a38fd"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard data 2026-10-20 00:45",
-      "sha": "55f7fb2",
-      "date": "2026-10-19T15:45:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/55f7fb2d8b393bd6a8d120a95f213deb32523988"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 9,
+      "commits": 10,
       "prs": 0,
       "issues": 0,
       "reviews": 0
