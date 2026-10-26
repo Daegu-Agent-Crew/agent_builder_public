@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T15:47:25Z",
-  "since": "2026-09-26T15:46:50Z",
+  "generated": "2026-10-26T21:45:56Z",
+  "since": "2026-09-26T21:45:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-26T09:46:43Z",
-      "pushed_at": "2026-10-26T09:46:39Z",
+      "updated_at": "2026-10-26T15:48:13Z",
+      "pushed_at": "2026-10-26T15:48:09Z",
       "recent_commits": [
+        {
+          "sha": "fe63a20",
+          "message": "dashboard: refresh dashboard.json + github-activity.json (2026-10-27 00:47 KST)",
+          "author": "daeguru",
+          "date": "2026-10-26T15:48:09Z"
+        },
         {
           "sha": "e332202",
           "message": "dashboard: refresh dashboard.json + github-activity (cron 2026-10-26 18:44)",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json and github-activity.json (2026-10-26 13:48 KST)",
           "author": "daeguru",
           "date": "2026-10-26T04:48:06Z"
-        },
-        {
-          "sha": "c7689e7",
-          "message": "dashboard: refresh dashboard.json and github-activity.json (2026-10-26 10:46 KST)",
-          "author": "daeguru",
-          "date": "2026-10-26T01:48:46Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-26T15:35:52Z",
-      "pushed_at": "2026-10-26T15:35:48Z",
+      "updated_at": "2026-10-26T21:37:20Z",
+      "pushed_at": "2026-10-26T21:37:15Z",
       "recent_commits": [
+        {
+          "sha": "e24d596",
+          "message": "log: 관측 한 줄 2026-10-27",
+          "author": "sfex11",
+          "date": "2026-10-26T21:37:14Z"
+        },
         {
           "sha": "5d58cb6",
           "message": "board: daeguru2 ACK — 라이카 10-26 경기 비평(take 6회 모두 비용 후 손실) 👍",
@@ -503,12 +509,6 @@
           "message": "board: daeguru ACK 라이카 10-25 경기 비평(FB-20261026-03) 👀",
           "author": "daeguru",
           "date": "2026-10-26T13:59:45Z"
-        },
-        {
-          "sha": "1c20c58",
-          "message": "arena: post Laika critique for 2026-10-26",
-          "author": "Laika",
-          "date": "2026-10-26T13:03:34Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,24 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "sfex11",
+      "message": "log: 관측 한 줄 2026-10-27",
+      "sha": "e24d596",
+      "date": "2026-10-26T21:37:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e24d596a93072ccca5696e15cd16dca3d3edc808"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json + github-activity.json (2026-10-27 00:47 KST)",
+      "sha": "fe63a20",
+      "date": "2026-10-26T15:48:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fe63a20e10fd03ec4747c1291b9a71e0576f6bdc"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 10-26 경기 비평(take 6회 모두 비용 후 손실) 👍",
       "sha": "5d58cb6",
@@ -642,15 +660,6 @@
       "sha": "bce9764",
       "date": "2026-10-26T13:59:45Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bce9764d236da89ebe02de185012f790f05ead38"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "arena: post Laika critique for 2026-10-26",
-      "sha": "1c20c58",
-      "date": "2026-10-26T13:03:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1c20c58216d99659678a9412be98c5e637e767e1"
     },
     {
       "type": "commit",
@@ -714,15 +723,6 @@
       "sha": "d74f094",
       "date": "2026-10-26T04:48:06Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d74f094f23717caae5ec5ce29e7d9bc3b3eb962a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json (2026-10-26 10:46 KST)",
-      "sha": "c7689e7",
-      "date": "2026-10-26T01:48:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c7689e70f51a8b3a8341f2a9f4d8da730ec14ad4"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 13,
+      "commits": 14,
       "prs": 18,
       "issues": 0,
       "reviews": 0
