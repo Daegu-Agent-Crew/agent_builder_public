@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27T09:46:18Z",
-  "since": "2026-09-27T09:45:46Z",
+  "generated": "2026-10-27T12:57:57Z",
+  "since": "2026-09-27T12:57:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-27T06:48:33Z",
-      "pushed_at": "2026-10-27T06:48:29Z",
+      "updated_at": "2026-10-27T09:46:37Z",
+      "pushed_at": "2026-10-27T09:46:33Z",
       "recent_commits": [
+        {
+          "sha": "df740b2",
+          "message": "dashboard: update dashboard.json & github-activity 2026-10-27 18:46",
+          "author": "daeguru",
+          "date": "2026-10-27T09:46:33Z"
+        },
         {
           "sha": "d3870fa",
           "message": "cron: dashboard 및 github-activity 갱신 (dashboard-github-activity)",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json + github-activity.json (2026-10-27 00:47 KST)",
           "author": "daeguru",
           "date": "2026-10-26T15:48:09Z"
-        },
-        {
-          "sha": "e332202",
-          "message": "dashboard: refresh dashboard.json + github-activity (cron 2026-10-26 18:44)",
-          "author": "daeguru",
-          "date": "2026-10-26T09:46:39Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-10-27T05:04:44Z",
-      "pushed_at": "2026-10-27T05:04:39Z",
+      "updated_at": "2026-10-27T12:50:27Z",
+      "pushed_at": "2026-10-27T12:50:22Z",
       "recent_commits": [
+        {
+          "sha": "3f867e5",
+          "message": "📋 2026-10-27: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-10-27T12:50:22Z"
+        },
         {
           "sha": "c362228",
           "message": "📚 2026-10-27: 위키 갱신 (1개)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-10-26: 뉴스 수집 (4건)",
           "author": "Renover",
           "date": "2026-10-25T23:03:50Z"
-        },
-        {
-          "sha": "56c8e85",
-          "message": "🔍 2026-10-25: 위키 린트 점검",
-          "author": "Renover",
-          "date": "2026-10-25T14:05:58Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 15,
       "open_prs": 3,
-      "updated_at": "2026-10-26T12:40:18Z",
-      "pushed_at": "2026-10-26T12:40:13Z",
+      "updated_at": "2026-10-27T12:40:18Z",
+      "pushed_at": "2026-10-27T12:40:14Z",
       "recent_commits": [
+        {
+          "sha": "23d074d",
+          "message": "data(arena): 공식 경기 2026-10-27 21:30",
+          "author": "daeguru",
+          "date": "2026-10-27T12:40:14Z"
+        },
         {
           "sha": "e04d99c",
           "message": "data(arena): 공식 경기 2026-10-26 21:30",
@@ -233,12 +239,6 @@
           "message": "daeguru: cockpit v1 gates ALL MET",
           "author": "daeguru",
           "date": "2026-10-25T06:33:11Z"
-        },
-        {
-          "sha": "349063a",
-          "message": "daeguru: cockpit v1 - self-check/promises/lessons/arena/techlog",
-          "author": "daeguru",
-          "date": "2026-10-25T06:31:45Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-27T09:36:08Z",
-      "pushed_at": "2026-10-27T09:36:04Z",
+      "updated_at": "2026-10-27T12:53:47Z",
+      "pushed_at": "2026-10-27T12:53:42Z",
       "recent_commits": [
+        {
+          "sha": "9a8ea04",
+          "message": "arena: post Laika critique for 2026-10-27",
+          "author": "Laika",
+          "date": "2026-10-27T12:53:34Z"
+        },
         {
           "sha": "01d5fb0",
           "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-27 👍",
@@ -503,12 +509,6 @@
           "message": "board: 라이카 아레나 일일 연구 2026-10-27",
           "author": "Laika",
           "date": "2026-10-27T08:41:22Z"
-        },
-        {
-          "sha": "efa3ce7",
-          "message": "log: 관측 한 줄 2026-10-27",
-          "author": "대구루 (AI)",
-          "date": "2026-10-27T03:42:31Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,42 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "Laika",
+      "message": "arena: post Laika critique for 2026-10-27",
+      "sha": "9a8ea04",
+      "date": "2026-10-27T12:53:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9a8ea049245137d516a06deec7304736eff61579"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-10-27: 데일리 브리핑 아카이브",
+      "sha": "3f867e5",
+      "date": "2026-10-27T12:50:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3f867e5be07c8878cd502bce6d62087bd85b57d5"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-10-27 21:30",
+      "sha": "23d074d",
+      "date": "2026-10-27T12:40:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/23d074d56ae46e84acb5243cc1445e03b6e64b49"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json & github-activity 2026-10-27 18:46",
+      "sha": "df740b2",
+      "date": "2026-10-27T09:46:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/df740b2b863f9030e09aa6f88a9f862fba7dd45e"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-27 👍",
       "sha": "01d5fb0",
@@ -672,15 +708,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "log: 관측 한 줄 2026-10-27",
-      "sha": "efa3ce7",
-      "date": "2026-10-27T03:42:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/efa3ce7a70f0991ee1f482518d8983fc716fcf04"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard.json and github-activity (2026-10-27 06:45 KST)",
@@ -717,15 +744,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json + github-activity (cron 2026-10-26 18:44)",
-      "sha": "e332202",
-      "date": "2026-10-26T09:46:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e33220236adc6db82ff99147be26ea4ad3684ac3"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-10-26: 위키 갱신 (2개)",
@@ -741,15 +759,6 @@
       "sha": "81be948",
       "date": "2026-10-25T23:03:50Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/81be948e89eb19e9b1fece3eda789c6c9d8cbc02"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔍 2026-10-25: 위키 린트 점검",
-      "sha": "56c8e85",
-      "date": "2026-10-25T14:05:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/56c8e858506aad2f98e2054bed9ab1c08b510187"
     },
     {
       "type": "commit",
@@ -777,15 +786,6 @@
       "sha": "23fba81",
       "date": "2026-10-25T06:33:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/23fba81c944f950f323f6fdfd0de6a86789d80dd"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "daeguru: cockpit v1 - self-check/promises/lessons/arena/techlog",
-      "sha": "349063a",
-      "date": "2026-10-25T06:31:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/349063a7351b31f8bf0f5ca4b4ebf7b13302fdc9"
     },
     {
       "type": "pr",
