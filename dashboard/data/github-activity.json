@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27T15:46:01Z",
-  "since": "2026-09-27T15:45:28Z",
+  "generated": "2026-10-27T21:45:56Z",
+  "since": "2026-09-27T21:45:23Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-27T12:58:26Z",
-      "pushed_at": "2026-10-27T12:58:22Z",
+      "updated_at": "2026-10-27T15:46:24Z",
+      "pushed_at": "2026-10-27T15:46:18Z",
       "recent_commits": [
+        {
+          "sha": "a8dfc2a",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-10-28 00:46 KST)",
+          "author": "daeguru",
+          "date": "2026-10-27T15:46:16Z"
+        },
         {
           "sha": "82178ce",
           "message": "dashboard: update dashboard.json & github-activity 2026-10-27 21:58",
@@ -85,12 +91,6 @@
           "message": "dashboard 데이터 갱신 (cron)",
           "author": "daeguru",
           "date": "2026-10-27T03:47:07Z"
-        },
-        {
-          "sha": "d7a29e6",
-          "message": "chore(dashboard): update dashboard.json and github-activity (2026-10-27 06:45 KST)",
-          "author": "daeguru",
-          "date": "2026-10-26T21:46:06Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-27T15:35:45Z",
-      "pushed_at": "2026-10-27T15:35:40Z",
+      "updated_at": "2026-10-27T21:36:10Z",
+      "pushed_at": "2026-10-27T21:36:06Z",
       "recent_commits": [
+        {
+          "sha": "b3d21c6",
+          "message": "log: 관측 한 줄 2026-10-28",
+          "author": "sfex11",
+          "date": "2026-10-27T21:36:05Z"
+        },
         {
           "sha": "6865e24",
           "message": "board: daeguru2 ACK — 라이카 10-27 경기 비평(0.05% 손절과 회복 경로) 👍",
@@ -503,12 +509,6 @@
           "message": "board: daeguru ACK 라이카 10-27 경기 비평(FB-20261027-02) 👀",
           "author": "daeguru",
           "date": "2026-10-27T14:00:00Z"
-        },
-        {
-          "sha": "9a8ea04",
-          "message": "arena: post Laika critique for 2026-10-27",
-          "author": "Laika",
-          "date": "2026-10-27T12:53:34Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,24 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "sfex11",
+      "message": "log: 관측 한 줄 2026-10-28",
+      "sha": "b3d21c6",
+      "date": "2026-10-27T21:36:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b3d21c6e47baae371e462a49f9576fa24c76b956"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-10-28 00:46 KST)",
+      "sha": "a8dfc2a",
+      "date": "2026-10-27T15:46:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a8dfc2a8a6f2125965c6d57ab9fb261fb4131034"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 10-27 경기 비평(0.05% 손절과 회복 경로) 👍",
       "sha": "6865e24",
@@ -651,15 +669,6 @@
       "sha": "82178ce",
       "date": "2026-10-27T12:58:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/82178ce3eec0461d278604bf92f7a646e6b1a110"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "arena: post Laika critique for 2026-10-27",
-      "sha": "9a8ea04",
-      "date": "2026-10-27T12:53:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9a8ea049245137d516a06deec7304736eff61579"
     },
     {
       "type": "commit",
@@ -714,15 +723,6 @@
       "sha": "47d72e5",
       "date": "2026-10-27T03:47:07Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/47d72e5c7ec5eea698d37679771b82a2111328a5"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity (2026-10-27 06:45 KST)",
-      "sha": "d7a29e6",
-      "date": "2026-10-26T21:46:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d7a29e64ac3ca1fc21048677e8e7f7e68d0653cd"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "sfex11",
-      "commits": 11,
+      "commits": 12,
       "prs": 18,
       "issues": 0,
       "reviews": 0
