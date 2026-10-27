@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27T03:46:40Z",
-  "since": "2026-09-27T03:46:10Z",
+  "generated": "2026-10-27T06:47:56Z",
+  "since": "2026-09-27T06:47:26Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-26T21:46:11Z",
-      "pushed_at": "2026-10-26T21:46:07Z",
+      "updated_at": "2026-10-27T03:47:11Z",
+      "pushed_at": "2026-10-27T03:47:07Z",
       "recent_commits": [
+        {
+          "sha": "47d72e5",
+          "message": "dashboard 데이터 갱신 (cron)",
+          "author": "daeguru",
+          "date": "2026-10-27T03:47:07Z"
+        },
         {
           "sha": "d7a29e6",
           "message": "chore(dashboard): update dashboard.json and github-activity (2026-10-27 06:45 KST)",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json (2026-10-26 17:01 KST)",
           "author": "daeguru",
           "date": "2026-10-26T08:01:24Z"
-        },
-        {
-          "sha": "202e336",
-          "message": "dashboard: refresh dashboard.json and github-activity.json (2026-10-26 16:57 KST)",
-          "author": "daeguru",
-          "date": "2026-10-26T07:56:07Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-10-26T12:44:05Z",
-      "pushed_at": "2026-10-26T12:44:01Z",
+      "updated_at": "2026-10-27T05:04:44Z",
+      "pushed_at": "2026-10-27T05:04:39Z",
       "recent_commits": [
+        {
+          "sha": "c362228",
+          "message": "📚 2026-10-27: 위키 갱신 (1개)",
+          "author": "Renover",
+          "date": "2026-10-27T05:04:37Z"
+        },
         {
           "sha": "230fbad",
           "message": "📋 2026-10-26: 데일리 브리핑 아카이브",
@@ -152,12 +158,6 @@
           "message": "🔍 2026-10-25: 위키 린트 점검",
           "author": "Renover",
           "date": "2026-10-25T14:05:58Z"
-        },
-        {
-          "sha": "35a5b74",
-          "message": "📋 2026-10-25: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-10-25T12:46:07Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-10-27: 위키 갱신 (1개)",
+      "sha": "c362228",
+      "date": "2026-10-27T05:04:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c362228075587f742c1b600acdfad0f494b5919c"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 갱신 (cron)",
+      "sha": "47d72e5",
+      "date": "2026-10-27T03:47:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/47d72e5c7ec5eea698d37679771b82a2111328a5"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "대구루 (AI)",
       "message": "log: 관측 한 줄 2026-10-27",
@@ -708,15 +726,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json (2026-10-26 16:57 KST)",
-      "sha": "202e336",
-      "date": "2026-10-26T07:56:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/202e336cfbfaecf2edc1d8c8bdda660a4e31de5e"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-10-26: 위키 갱신 (2개)",
@@ -741,15 +750,6 @@
       "sha": "56c8e85",
       "date": "2026-10-25T14:05:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/56c8e858506aad2f98e2054bed9ab1c08b510187"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-10-25: 데일리 브리핑 아카이브",
-      "sha": "35a5b74",
-      "date": "2026-10-25T12:46:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/35a5b748af7744be51c610c8ee854d794c95faa1"
     },
     {
       "type": "commit",
