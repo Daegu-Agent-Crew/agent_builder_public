@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29T00:46:29Z",
-  "since": "2026-09-29T00:45:58Z",
+  "generated": "2026-10-29T03:46:07Z",
+  "since": "2026-09-29T03:45:34Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-28T21:46:02Z",
-      "pushed_at": "2026-10-28T21:45:58Z",
+      "updated_at": "2026-10-29T00:46:58Z",
+      "pushed_at": "2026-10-29T00:46:55Z",
       "recent_commits": [
+        {
+          "sha": "5287bba",
+          "message": "dashboard: update dashboard.json and github-activity.json (auto)",
+          "author": "daeguru",
+          "date": "2026-10-29T00:46:53Z"
+        },
         {
           "sha": "95343a5",
           "message": "dashboard: update dashboard.json and github-activity.json (auto)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json (auto 2026-10-28 18:44 KST)",
           "author": "daeguru",
           "date": "2026-10-28T09:46:21Z"
-        },
-        {
-          "sha": "d71ca10",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (auto 2026-10-28 12:45 KST)",
-          "author": "daeguru",
-          "date": "2026-10-28T03:46:08Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-28T21:35:55Z",
-      "pushed_at": "2026-10-28T21:35:50Z",
+      "updated_at": "2026-10-29T03:34:14Z",
+      "pushed_at": "2026-10-29T03:34:10Z",
       "recent_commits": [
+        {
+          "sha": "0bd9d5a",
+          "message": "log: 관측 한 줄 2026-10-29",
+          "author": "sfex11",
+          "date": "2026-10-29T03:34:10Z"
+        },
+        {
+          "sha": "6fc1bdb",
+          "message": "feed: FB-20261029-01 대구루 경기 비평 10-28 판(라이카 전략)",
+          "author": "daeguru",
+          "date": "2026-10-29T03:00:28Z"
+        },
         {
           "sha": "763e761",
           "message": "log: 관측 한 줄 2026-10-29",
@@ -497,18 +509,6 @@
           "message": "board: daeguru2 ACK — 라이카 10-28 경기 비평(3배·4회 반전의 비용 문턱) 👍",
           "author": "daeguru",
           "date": "2026-10-28T15:38:10Z"
-        },
-        {
-          "sha": "21f9cba",
-          "message": "log: 관측 한 줄 2026-10-29",
-          "author": "sfex11",
-          "date": "2026-10-28T15:37:17Z"
-        },
-        {
-          "sha": "afe3dd5",
-          "message": "wake: FB-20261028-03 daeguru 기상 기록",
-          "author": "sfex11",
-          "date": "2026-10-28T15:37:15Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "log: 관측 한 줄 2026-10-29",
+      "sha": "0bd9d5a",
+      "date": "2026-10-29T03:34:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0bd9d5ad747b07c6271a155ccf69a3588bf05ec2"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261029-01 대구루 경기 비평 10-28 판(라이카 전략)",
+      "sha": "6fc1bdb",
+      "date": "2026-10-29T03:00:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6fc1bdbca5eb51afdbd8d1cf52fc43390e0a0c11"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (auto)",
+      "sha": "5287bba",
+      "date": "2026-10-29T00:46:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5287bba303852867499062d625ea55fd299a628e"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json (auto)",
@@ -654,24 +681,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "log: 관측 한 줄 2026-10-29",
-      "sha": "21f9cba",
-      "date": "2026-10-28T15:37:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/21f9cba34768ff14dd01c103b384989741c04f31"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "wake: FB-20261028-03 daeguru 기상 기록",
-      "sha": "afe3dd5",
-      "date": "2026-10-28T15:37:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/afe3dd5f1f8a88c64a3c3e643cf54c567c00ac4d"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-10-28: 데일리 브리핑 아카이브",
@@ -705,15 +714,6 @@
       "sha": "713f1f6",
       "date": "2026-10-28T09:46:21Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/713f1f6ecdb8b74c498b8e9ac26973a26b9f4eb9"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (auto 2026-10-28 12:45 KST)",
-      "sha": "d71ca10",
-      "date": "2026-10-28T03:46:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d71ca1000d9ba9e200b47d284f7234595c1071b7"
     },
     {
       "type": "commit",
@@ -1078,16 +1078,16 @@
   ],
   "member_stats": [
     {
-      "login": "sfex11",
-      "commits": 13,
-      "prs": 18,
+      "login": "daeguru",
+      "commits": 14,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "daeguru",
-      "commits": 13,
-      "prs": 0,
+      "login": "sfex11",
+      "commits": 12,
+      "prs": 18,
       "issues": 0,
       "reviews": 0
     },
