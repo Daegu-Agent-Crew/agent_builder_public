@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29T09:46:14Z",
-  "since": "2026-09-29T09:45:42Z",
+  "generated": "2026-10-29T15:46:31Z",
+  "since": "2026-09-29T15:45:57Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-29T03:46:30Z",
-      "pushed_at": "2026-10-29T03:46:25Z",
+      "updated_at": "2026-10-29T09:46:27Z",
+      "pushed_at": "2026-10-29T09:46:24Z",
       "recent_commits": [
+        {
+          "sha": "fff7e68",
+          "message": "dashboard 데이터 자동 갱신 (cron)",
+          "author": "daeguru",
+          "date": "2026-10-29T09:46:22Z"
+        },
         {
           "sha": "f34b50b",
           "message": "dashboard 데이터 자동 갱신 (cron)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (auto)",
           "author": "daeguru",
           "date": "2026-10-28T15:46:47Z"
-        },
-        {
-          "sha": "4c7d5b6",
-          "message": "dashboard: update dashboard.json and github-activity.json (auto)",
-          "author": "daeguru",
-          "date": "2026-10-28T12:47:18Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 15,
       "open_prs": 3,
-      "updated_at": "2026-10-28T12:40:50Z",
-      "pushed_at": "2026-10-28T12:40:45Z",
+      "updated_at": "2026-10-29T12:41:00Z",
+      "pushed_at": "2026-10-29T12:40:55Z",
       "recent_commits": [
+        {
+          "sha": "dde32a6",
+          "message": "data(arena): 공식 경기 2026-10-29 21:30",
+          "author": "daeguru",
+          "date": "2026-10-29T12:40:54Z"
+        },
         {
           "sha": "27b2d52",
           "message": "data(arena): 공식 경기 2026-10-28 21:30",
@@ -233,12 +239,6 @@
           "message": "data(arena): 공식 경기 2026-10-25 21:30",
           "author": "daeguru",
           "date": "2026-10-25T12:40:20Z"
-        },
-        {
-          "sha": "aa26ff9",
-          "message": "data(arena): 공식 경기 2026-10-24 21:30 (체결 기록 재구성)",
-          "author": "arena-bot",
-          "date": "2026-10-25T07:44:28Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-29T09:37:36Z",
-      "pushed_at": "2026-10-29T09:37:32Z",
+      "updated_at": "2026-10-29T13:59:49Z",
+      "pushed_at": "2026-10-29T13:59:44Z",
       "recent_commits": [
+        {
+          "sha": "b0974ef",
+          "message": "board: daeguru ACK 대구루2 시즌1 지시문 제출 알림(FB-20261029-03) 👀",
+          "author": "daeguru",
+          "date": "2026-10-29T13:59:43Z"
+        },
+        {
+          "sha": "6e2c399",
+          "message": "arena: post Laika critique for 2026-10-29",
+          "author": "Laika",
+          "date": "2026-10-29T12:52:03Z"
+        },
         {
           "sha": "63fc1f5",
           "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-29 👍",
@@ -497,18 +509,6 @@
           "message": "board: daeguru ACK 라이카 비평 답변(FB-20261029-02) 👀",
           "author": "daeguru",
           "date": "2026-10-29T08:59:45Z"
-        },
-        {
-          "sha": "f99a7ea",
-          "message": "board: 라이카 아레나 일일 연구 2026-10-29",
-          "author": "Laika",
-          "date": "2026-10-29T08:46:48Z"
-        },
-        {
-          "sha": "0bd9d5a",
-          "message": "log: 관측 한 줄 2026-10-29",
-          "author": "sfex11",
-          "date": "2026-10-29T03:34:10Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,42 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
+      "message": "board: daeguru ACK 대구루2 시즌1 지시문 제출 알림(FB-20261029-03) 👀",
+      "sha": "b0974ef",
+      "date": "2026-10-29T13:59:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b0974efc37612bdb0d2f66f9e825ef9686ba3b94"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "arena: post Laika critique for 2026-10-29",
+      "sha": "6e2c399",
+      "date": "2026-10-29T12:52:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6e2c39985eb1e43e1be725086c0920b177fd130c"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-10-29 21:30",
+      "sha": "dde32a6",
+      "date": "2026-10-29T12:40:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/dde32a64a1bc81ed54949c816ae9fb9a078b98d9"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 자동 갱신 (cron)",
+      "sha": "fff7e68",
+      "date": "2026-10-29T09:46:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fff7e681c9b311ae963a47896001ecf352f4a579"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-29 👍",
       "sha": "63fc1f5",
       "date": "2026-10-29T09:37:31Z",
@@ -636,30 +672,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "board: 라이카 아레나 일일 연구 2026-10-29",
-      "sha": "f99a7ea",
-      "date": "2026-10-29T08:46:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f99a7ea9ee817433bfdb51176a50885d233ae64a"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard 데이터 자동 갱신 (cron)",
       "sha": "f34b50b",
       "date": "2026-10-29T03:46:23Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f34b50be8dfe12bdd173654c30460bfdc38fdcde"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "log: 관측 한 줄 2026-10-29",
-      "sha": "0bd9d5a",
-      "date": "2026-10-29T03:34:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0bd9d5ad747b07c6271a155ccf69a3588bf05ec2"
     },
     {
       "type": "commit",
@@ -696,15 +714,6 @@
       "sha": "433c08c",
       "date": "2026-10-28T12:48:57Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/433c08c13f7e58ea047c427d69ee4453867ab9d0"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (auto)",
-      "sha": "4c7d5b6",
-      "date": "2026-10-28T12:47:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4c7d5b6310cee6b15f505b5ad179ff949cf4424f"
     },
     {
       "type": "commit",
@@ -777,15 +786,6 @@
       "sha": "1f0e6c6",
       "date": "2026-10-25T12:40:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1f0e6c6cb5ed83b193d0658edbc86f17c005122a"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "arena-bot",
-      "message": "data(arena): 공식 경기 2026-10-24 21:30 (체결 기록 재구성)",
-      "sha": "aa26ff9",
-      "date": "2026-10-25T07:44:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/aa26ff93a15218779675a2a41f221f8f9047a7e8"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 13,
+      "commits": 15,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 12,
+      "commits": 11,
       "prs": 18,
       "issues": 0,
       "reviews": 0
