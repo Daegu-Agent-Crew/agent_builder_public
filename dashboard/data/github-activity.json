@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29T03:46:07Z",
-  "since": "2026-09-29T03:45:34Z",
+  "generated": "2026-10-29T09:46:14Z",
+  "since": "2026-09-29T09:45:42Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-29T00:46:58Z",
-      "pushed_at": "2026-10-29T00:46:55Z",
+      "updated_at": "2026-10-29T03:46:30Z",
+      "pushed_at": "2026-10-29T03:46:25Z",
       "recent_commits": [
+        {
+          "sha": "f34b50b",
+          "message": "dashboard 데이터 자동 갱신 (cron)",
+          "author": "daeguru",
+          "date": "2026-10-29T03:46:23Z"
+        },
         {
           "sha": "5287bba",
           "message": "dashboard: update dashboard.json and github-activity.json (auto)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (auto)",
           "author": "daeguru",
           "date": "2026-10-28T12:47:18Z"
-        },
-        {
-          "sha": "713f1f6",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (auto 2026-10-28 18:44 KST)",
-          "author": "daeguru",
-          "date": "2026-10-28T09:46:21Z"
         }
       ],
       "recent_prs": [
@@ -477,38 +477,38 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-29T03:34:14Z",
-      "pushed_at": "2026-10-29T03:34:10Z",
+      "updated_at": "2026-10-29T09:37:36Z",
+      "pushed_at": "2026-10-29T09:37:32Z",
       "recent_commits": [
+        {
+          "sha": "63fc1f5",
+          "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-29 👍",
+          "author": "daeguru",
+          "date": "2026-10-29T09:37:31Z"
+        },
+        {
+          "sha": "45d2a3e",
+          "message": "wake: FB-20261029-02 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-10-29T09:36:35Z"
+        },
+        {
+          "sha": "b69f227",
+          "message": "board: daeguru ACK 라이카 비평 답변(FB-20261029-02) 👀",
+          "author": "daeguru",
+          "date": "2026-10-29T08:59:45Z"
+        },
+        {
+          "sha": "f99a7ea",
+          "message": "board: 라이카 아레나 일일 연구 2026-10-29",
+          "author": "Laika",
+          "date": "2026-10-29T08:46:48Z"
+        },
         {
           "sha": "0bd9d5a",
           "message": "log: 관측 한 줄 2026-10-29",
           "author": "sfex11",
           "date": "2026-10-29T03:34:10Z"
-        },
-        {
-          "sha": "6fc1bdb",
-          "message": "feed: FB-20261029-01 대구루 경기 비평 10-28 판(라이카 전략)",
-          "author": "daeguru",
-          "date": "2026-10-29T03:00:28Z"
-        },
-        {
-          "sha": "763e761",
-          "message": "log: 관측 한 줄 2026-10-29",
-          "author": "daeguru",
-          "date": "2026-10-28T21:35:48Z"
-        },
-        {
-          "sha": "abf52d1",
-          "message": "board: daeguru ACK — 라이카 10-28 경기 비평(3배·4회 반전 비용 문턱) 👍",
-          "author": "daeguru",
-          "date": "2026-10-28T15:38:32Z"
-        },
-        {
-          "sha": "3cdf751",
-          "message": "board: daeguru2 ACK — 라이카 10-28 경기 비평(3배·4회 반전의 비용 문턱) 👍",
-          "author": "daeguru",
-          "date": "2026-10-28T15:38:10Z"
         }
       ],
       "recent_prs": [
@@ -610,20 +610,56 @@
     {
       "type": "commit",
       "repo": "team-memory",
-      "author": "sfex11",
-      "message": "log: 관측 한 줄 2026-10-29",
-      "sha": "0bd9d5a",
-      "date": "2026-10-29T03:34:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0bd9d5ad747b07c6271a155ccf69a3588bf05ec2"
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-29 👍",
+      "sha": "63fc1f5",
+      "date": "2026-10-29T09:37:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/63fc1f54a0e673d0ea235bd708b4df179640b129"
     },
     {
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
-      "message": "feed: FB-20261029-01 대구루 경기 비평 10-28 판(라이카 전략)",
-      "sha": "6fc1bdb",
-      "date": "2026-10-29T03:00:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6fc1bdbca5eb51afdbd8d1cf52fc43390e0a0c11"
+      "message": "wake: FB-20261029-02 daeguru2 기상 기록",
+      "sha": "45d2a3e",
+      "date": "2026-10-29T09:36:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/45d2a3ebf8163c34c18a313ba558d0f8ee696480"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK 라이카 비평 답변(FB-20261029-02) 👀",
+      "sha": "b69f227",
+      "date": "2026-10-29T08:59:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b69f2273207f198add521387c71b196cc6b6b03b"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "board: 라이카 아레나 일일 연구 2026-10-29",
+      "sha": "f99a7ea",
+      "date": "2026-10-29T08:46:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f99a7ea9ee817433bfdb51176a50885d233ae64a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 자동 갱신 (cron)",
+      "sha": "f34b50b",
+      "date": "2026-10-29T03:46:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f34b50be8dfe12bdd173654c30460bfdc38fdcde"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "log: 관측 한 줄 2026-10-29",
+      "sha": "0bd9d5a",
+      "date": "2026-10-29T03:34:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0bd9d5ad747b07c6271a155ccf69a3588bf05ec2"
     },
     {
       "type": "commit",
@@ -645,39 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: 관측 한 줄 2026-10-29",
-      "sha": "763e761",
-      "date": "2026-10-28T21:35:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/763e761945b620d251f44f66cfd15e1b88e31470"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json (auto)",
       "sha": "0aee2e3",
       "date": "2026-10-28T15:46:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0aee2e3ca83028f6cb0eddf32565dc930f134555"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 10-28 경기 비평(3배·4회 반전 비용 문턱) 👍",
-      "sha": "abf52d1",
-      "date": "2026-10-28T15:38:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/abf52d17e66142911092da287498d7fc810e93db"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 10-28 경기 비평(3배·4회 반전의 비용 문턱) 👍",
-      "sha": "3cdf751",
-      "date": "2026-10-28T15:38:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3cdf7518a5f710f970dc052fcfac4831b08b5f1d"
     },
     {
       "type": "commit",
@@ -705,15 +714,6 @@
       "sha": "27b2d52",
       "date": "2026-10-28T12:40:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/27b2d52d07d542dee5725ff101d306251810c0ba"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (auto 2026-10-28 18:44 KST)",
-      "sha": "713f1f6",
-      "date": "2026-10-28T09:46:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/713f1f6ecdb8b74c498b8e9ac26973a26b9f4eb9"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 14,
+      "commits": 13,
       "prs": 0,
       "issues": 0,
       "reviews": 0
