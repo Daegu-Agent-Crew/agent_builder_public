@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29T18:46:01Z",
-  "since": "2026-09-29T18:45:29Z",
+  "generated": "2026-10-29T21:46:02Z",
+  "since": "2026-09-29T21:45:30Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-29T15:47:14Z",
-      "pushed_at": "2026-10-29T15:47:10Z",
+      "updated_at": "2026-10-29T18:46:43Z",
+      "pushed_at": "2026-10-29T18:46:39Z",
       "recent_commits": [
+        {
+          "sha": "6ee47f1",
+          "message": "dashboard 데이터 자동 갱신 (cron)",
+          "author": "daeguru",
+          "date": "2026-10-29T18:46:37Z"
+        },
         {
           "sha": "808c263",
           "message": "dashboard 데이터 자동 갱신 (cron)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (auto)",
           "author": "daeguru",
           "date": "2026-10-29T00:46:53Z"
-        },
-        {
-          "sha": "95343a5",
-          "message": "dashboard: update dashboard.json and github-activity.json (auto)",
-          "author": "daeguru",
-          "date": "2026-10-28T21:45:56Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-29T15:51:38Z",
-      "pushed_at": "2026-10-29T15:51:33Z",
+      "updated_at": "2026-10-29T21:33:47Z",
+      "pushed_at": "2026-10-29T21:33:43Z",
       "recent_commits": [
+        {
+          "sha": "ab22ae0",
+          "message": "log: 관측 한 줄 2026-10-30",
+          "author": "sfex11",
+          "date": "2026-10-29T21:33:43Z"
+        },
         {
           "sha": "2dd13a6",
           "message": "board: daeguru2 ACK — 라이카 10-29 경기 비평(방향 적중보다 큰 보유 비용) 👍",
@@ -503,12 +509,6 @@
           "message": "board: daeguru ACK 대구루2 시즌1 지시문 제출 알림(FB-20261029-03) 👀",
           "author": "daeguru",
           "date": "2026-10-29T13:59:43Z"
-        },
-        {
-          "sha": "6e2c399",
-          "message": "arena: post Laika critique for 2026-10-29",
-          "author": "Laika",
-          "date": "2026-10-29T12:52:03Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,24 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "sfex11",
+      "message": "log: 관측 한 줄 2026-10-30",
+      "sha": "ab22ae0",
+      "date": "2026-10-29T21:33:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ab22ae01939f94216f265e6b515807d13f2f47ea"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 자동 갱신 (cron)",
+      "sha": "6ee47f1",
+      "date": "2026-10-29T18:46:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6ee47f1d5393f6dde8885a1692ec40225ab5fde4"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 10-29 경기 비평(방향 적중보다 큰 보유 비용) 👍",
       "sha": "2dd13a6",
@@ -654,15 +672,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "arena: post Laika critique for 2026-10-29",
-      "sha": "6e2c399",
-      "date": "2026-10-29T12:52:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6e2c39985eb1e43e1be725086c0920b177fd130c"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "data(arena): 공식 경기 2026-10-29 21:30",
@@ -696,15 +705,6 @@
       "sha": "5287bba",
       "date": "2026-10-29T00:46:53Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5287bba303852867499062d625ea55fd299a628e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (auto)",
-      "sha": "95343a5",
-      "date": "2026-10-28T21:45:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/95343a51c46a006b695908c0eedbbaaa2a8dd77f"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 13,
+      "commits": 14,
       "prs": 18,
       "issues": 0,
       "reviews": 0
