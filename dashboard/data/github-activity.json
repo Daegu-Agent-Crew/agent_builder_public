@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-30T09:46:06Z",
-  "since": "2026-09-30T09:45:34Z",
+  "generated": "2026-10-30T12:46:18Z",
+  "since": "2026-09-30T12:45:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-30T03:45:59Z",
-      "pushed_at": "2026-10-30T03:45:56Z",
+      "updated_at": "2026-10-30T10:09:18Z",
+      "pushed_at": "2026-10-30T10:09:14Z",
       "recent_commits": [
+        {
+          "sha": "6fcb02b",
+          "message": "chore: update youtube dashboard data",
+          "author": "daeguru",
+          "date": "2026-10-30T10:09:13Z"
+        },
+        {
+          "sha": "d94edc9",
+          "message": "chore: update dashboard data + github activity (cron)",
+          "author": "daeguru",
+          "date": "2026-10-30T09:46:20Z"
+        },
         {
           "sha": "0915897",
           "message": "chore: update dashboard data + github activity (cron)",
@@ -79,18 +91,6 @@
           "message": "dashboard 데이터 자동 갱신 (cron)",
           "author": "daeguru",
           "date": "2026-10-29T18:46:37Z"
-        },
-        {
-          "sha": "808c263",
-          "message": "dashboard 데이터 자동 갱신 (cron)",
-          "author": "daeguru",
-          "date": "2026-10-29T15:47:09Z"
-        },
-        {
-          "sha": "fff7e68",
-          "message": "dashboard 데이터 자동 갱신 (cron)",
-          "author": "daeguru",
-          "date": "2026-10-29T09:46:22Z"
         }
       ],
       "recent_prs": [
@@ -205,11 +205,17 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 15,
+      "open_issues": 17,
       "open_prs": 3,
-      "updated_at": "2026-10-29T12:41:00Z",
-      "pushed_at": "2026-10-29T12:40:55Z",
+      "updated_at": "2026-10-30T12:40:19Z",
+      "pushed_at": "2026-10-30T12:40:15Z",
       "recent_commits": [
+        {
+          "sha": "e0909f4",
+          "message": "data(arena): 공식 경기 2026-10-30 21:30",
+          "author": "daeguru",
+          "date": "2026-10-30T12:40:13Z"
+        },
         {
           "sha": "dde32a6",
           "message": "data(arena): 공식 경기 2026-10-29 21:30",
@@ -233,12 +239,6 @@
           "message": "data(arena): 공식 경기 2026-10-26 21:30",
           "author": "daeguru",
           "date": "2026-10-26T12:40:13Z"
-        },
-        {
-          "sha": "1f0e6c6",
-          "message": "data(arena): 공식 경기 2026-10-25 21:30",
-          "author": "daeguru",
-          "date": "2026-10-25T12:40:20Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-30T09:37:26Z",
-      "pushed_at": "2026-10-30T09:37:21Z",
+      "updated_at": "2026-10-30T10:14:22Z",
+      "pushed_at": "2026-10-30T10:14:18Z",
       "recent_commits": [
+        {
+          "sha": "f7135ee",
+          "message": "board: 판사 단계 3단계 비평 제안 공지",
+          "author": "daeguru",
+          "date": "2026-10-30T10:14:17Z"
+        },
+        {
+          "sha": "8144cb7",
+          "message": "Add Claude Cowork delegation video summary record",
+          "author": "sfex11",
+          "date": "2026-10-30T10:09:10Z"
+        },
         {
           "sha": "092a276",
           "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-30 👍",
@@ -497,18 +509,6 @@
           "message": "finding: 라이카 아레나 일일 연구 2026-10-30",
           "author": "Laika",
           "date": "2026-10-30T08:44:44Z"
-        },
-        {
-          "sha": "e17d9eb",
-          "message": "log: 관측 한 줄 2026-10-30",
-          "author": "sfex11",
-          "date": "2026-10-30T03:34:58Z"
-        },
-        {
-          "sha": "ab22ae0",
-          "message": "log: 관측 한 줄 2026-10-30",
-          "author": "sfex11",
-          "date": "2026-10-29T21:33:43Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,51 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-10-30 21:30",
+      "sha": "e0909f4",
+      "date": "2026-10-30T12:40:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e0909f445fa632e9198627ad9e11dc31dd2f8296"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: 판사 단계 3단계 비평 제안 공지",
+      "sha": "f7135ee",
+      "date": "2026-10-30T10:14:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f7135ee8d34061314def74a02700b08fbbdc11d6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update youtube dashboard data",
+      "sha": "6fcb02b",
+      "date": "2026-10-30T10:09:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6fcb02b7e13f40755ff9f538fc34f7fb7f5de61d"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "Add Claude Cowork delegation video summary record",
+      "sha": "8144cb7",
+      "date": "2026-10-30T10:09:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8144cb7b625125c1c33ae527a800199d89ec06b1"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data + github activity (cron)",
+      "sha": "d94edc9",
+      "date": "2026-10-30T09:46:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d94edc939085339ebbb0a02e863c773397da3b05"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-30 👍",
@@ -645,30 +690,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "log: 관측 한 줄 2026-10-30",
-      "sha": "e17d9eb",
-      "date": "2026-10-30T03:34:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e17d9eb7f863bc5f5b866ac656fe61bfa28333d5"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard 데이터 자동 갱신 (cron)",
       "sha": "fa2a6cd",
       "date": "2026-10-29T21:46:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fa2a6cd9cf783402bd656318cf85882dfb678e38"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "log: 관측 한 줄 2026-10-30",
-      "sha": "ab22ae0",
-      "date": "2026-10-29T21:33:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ab22ae01939f94216f265e6b515807d13f2f47ea"
     },
     {
       "type": "commit",
@@ -681,30 +708,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard 데이터 자동 갱신 (cron)",
-      "sha": "808c263",
-      "date": "2026-10-29T15:47:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/808c263a445fedad056cf3d35ea27aa068429647"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "data(arena): 공식 경기 2026-10-29 21:30",
       "sha": "dde32a6",
       "date": "2026-10-29T12:40:54Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/dde32a64a1bc81ed54949c816ae9fb9a078b98d9"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard 데이터 자동 갱신 (cron)",
-      "sha": "fff7e68",
-      "date": "2026-10-29T09:46:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fff7e681c9b311ae963a47896001ecf352f4a579"
     },
     {
       "type": "commit",
@@ -777,15 +786,6 @@
       "sha": "0cf1ce3",
       "date": "2026-10-26T05:08:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/0cf1ce36d96810fc128e2fe7054cc3782da7a4f0"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-10-25 21:30",
-      "sha": "1f0e6c6",
-      "date": "2026-10-25T12:40:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1f0e6c6cb5ed83b193d0658edbc86f17c005122a"
     },
     {
       "type": "pr",
@@ -1078,16 +1078,16 @@
   ],
   "member_stats": [
     {
-      "login": "sfex11",
+      "login": "daeguru",
       "commits": 13,
-      "prs": 18,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "daeguru",
+      "login": "sfex11",
       "commits": 12,
-      "prs": 0,
+      "prs": 18,
       "issues": 0,
       "reviews": 0
     },
