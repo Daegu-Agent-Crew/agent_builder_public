@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29T21:46:02Z",
-  "since": "2026-09-29T21:45:30Z",
+  "generated": "2026-10-30T03:45:42Z",
+  "since": "2026-09-30T03:45:10Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-29T18:46:43Z",
-      "pushed_at": "2026-10-29T18:46:39Z",
+      "updated_at": "2026-10-29T21:46:17Z",
+      "pushed_at": "2026-10-29T21:46:13Z",
       "recent_commits": [
+        {
+          "sha": "fa2a6cd",
+          "message": "dashboard 데이터 자동 갱신 (cron)",
+          "author": "daeguru",
+          "date": "2026-10-29T21:46:11Z"
+        },
         {
           "sha": "6ee47f1",
           "message": "dashboard 데이터 자동 갱신 (cron)",
@@ -85,12 +91,6 @@
           "message": "dashboard 데이터 자동 갱신 (cron)",
           "author": "daeguru",
           "date": "2026-10-29T03:46:23Z"
-        },
-        {
-          "sha": "5287bba",
-          "message": "dashboard: update dashboard.json and github-activity.json (auto)",
-          "author": "daeguru",
-          "date": "2026-10-29T00:46:53Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-29T21:33:47Z",
-      "pushed_at": "2026-10-29T21:33:43Z",
+      "updated_at": "2026-10-30T03:35:02Z",
+      "pushed_at": "2026-10-30T03:34:58Z",
       "recent_commits": [
+        {
+          "sha": "e17d9eb",
+          "message": "log: 관측 한 줄 2026-10-30",
+          "author": "sfex11",
+          "date": "2026-10-30T03:34:58Z"
+        },
         {
           "sha": "ab22ae0",
           "message": "log: 관측 한 줄 2026-10-30",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261029-03 daeguru2 기상 기록",
           "author": "sfex11",
           "date": "2026-10-29T15:50:16Z"
-        },
-        {
-          "sha": "b0974ef",
-          "message": "board: daeguru ACK 대구루2 시즌1 지시문 제출 알림(FB-20261029-03) 👀",
-          "author": "daeguru",
-          "date": "2026-10-29T13:59:43Z"
         }
       ],
       "recent_prs": [
@@ -612,6 +612,24 @@
       "repo": "team-memory",
       "author": "sfex11",
       "message": "log: 관측 한 줄 2026-10-30",
+      "sha": "e17d9eb",
+      "date": "2026-10-30T03:34:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e17d9eb7f863bc5f5b866ac656fe61bfa28333d5"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 자동 갱신 (cron)",
+      "sha": "fa2a6cd",
+      "date": "2026-10-29T21:46:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fa2a6cd9cf783402bd656318cf85882dfb678e38"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "log: 관측 한 줄 2026-10-30",
       "sha": "ab22ae0",
       "date": "2026-10-29T21:33:43Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ab22ae01939f94216f265e6b515807d13f2f47ea"
@@ -663,15 +681,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK 대구루2 시즌1 지시문 제출 알림(FB-20261029-03) 👀",
-      "sha": "b0974ef",
-      "date": "2026-10-29T13:59:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b0974efc37612bdb0d2f66f9e825ef9686ba3b94"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "data(arena): 공식 경기 2026-10-29 21:30",
@@ -696,15 +705,6 @@
       "sha": "f34b50b",
       "date": "2026-10-29T03:46:23Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f34b50be8dfe12bdd173654c30460bfdc38fdcde"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (auto)",
-      "sha": "5287bba",
-      "date": "2026-10-29T00:46:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5287bba303852867499062d625ea55fd299a628e"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 14,
+      "commits": 15,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 13,
+      "commits": 12,
       "prs": 0,
       "issues": 0,
       "reviews": 0
