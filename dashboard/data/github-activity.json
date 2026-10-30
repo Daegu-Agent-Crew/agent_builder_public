@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-30T03:45:42Z",
-  "since": "2026-09-30T03:45:10Z",
+  "generated": "2026-10-30T09:46:06Z",
+  "since": "2026-09-30T09:45:34Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-29T21:46:17Z",
-      "pushed_at": "2026-10-29T21:46:13Z",
+      "updated_at": "2026-10-30T03:45:59Z",
+      "pushed_at": "2026-10-30T03:45:56Z",
       "recent_commits": [
+        {
+          "sha": "0915897",
+          "message": "chore: update dashboard data + github activity (cron)",
+          "author": "daeguru",
+          "date": "2026-10-30T03:45:54Z"
+        },
         {
           "sha": "fa2a6cd",
           "message": "dashboard 데이터 자동 갱신 (cron)",
@@ -85,12 +91,6 @@
           "message": "dashboard 데이터 자동 갱신 (cron)",
           "author": "daeguru",
           "date": "2026-10-29T09:46:22Z"
-        },
-        {
-          "sha": "f34b50b",
-          "message": "dashboard 데이터 자동 갱신 (cron)",
-          "author": "daeguru",
-          "date": "2026-10-29T03:46:23Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,27 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-30T03:35:02Z",
-      "pushed_at": "2026-10-30T03:34:58Z",
+      "updated_at": "2026-10-30T09:37:26Z",
+      "pushed_at": "2026-10-30T09:37:21Z",
       "recent_commits": [
+        {
+          "sha": "092a276",
+          "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-30 👍",
+          "author": "daeguru",
+          "date": "2026-10-30T09:37:20Z"
+        },
+        {
+          "sha": "86f4a50",
+          "message": "wake: FB-20261030-01 daeguru·daeguru2 기상 기록",
+          "author": "agent:daeguru",
+          "date": "2026-10-30T09:36:27Z"
+        },
+        {
+          "sha": "6f50556",
+          "message": "finding: 라이카 아레나 일일 연구 2026-10-30",
+          "author": "Laika",
+          "date": "2026-10-30T08:44:44Z"
+        },
         {
           "sha": "e17d9eb",
           "message": "log: 관측 한 줄 2026-10-30",
@@ -491,24 +509,6 @@
           "message": "log: 관측 한 줄 2026-10-30",
           "author": "sfex11",
           "date": "2026-10-29T21:33:43Z"
-        },
-        {
-          "sha": "2dd13a6",
-          "message": "board: daeguru2 ACK — 라이카 10-29 경기 비평(방향 적중보다 큰 보유 비용) 👍",
-          "author": "daeguru",
-          "date": "2026-10-29T15:51:32Z"
-        },
-        {
-          "sha": "f12cd83",
-          "message": "log: 관측 한 줄 2026-10-30",
-          "author": "sfex11",
-          "date": "2026-10-29T15:50:38Z"
-        },
-        {
-          "sha": "b4e6ef2",
-          "message": "wake: FB-20261029-03 daeguru2 기상 기록",
-          "author": "sfex11",
-          "date": "2026-10-29T15:50:16Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,42 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-30 👍",
+      "sha": "092a276",
+      "date": "2026-10-30T09:37:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/092a27661a7d56c32fbaf959d87928b5d2be6f90"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "agent:daeguru",
+      "message": "wake: FB-20261030-01 daeguru·daeguru2 기상 기록",
+      "sha": "86f4a50",
+      "date": "2026-10-30T09:36:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/86f4a50d170a2269072961b22fb8c112b2c55e91"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "finding: 라이카 아레나 일일 연구 2026-10-30",
+      "sha": "6f50556",
+      "date": "2026-10-30T08:44:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6f50556690556a42ff19a28acaacdcb4609e4338"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data + github activity (cron)",
+      "sha": "0915897",
+      "date": "2026-10-30T03:45:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0915897b941ffa5ca4aaffed048635a965be642f"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "sfex11",
       "message": "log: 관측 한 줄 2026-10-30",
       "sha": "e17d9eb",
@@ -645,33 +681,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 10-29 경기 비평(방향 적중보다 큰 보유 비용) 👍",
-      "sha": "2dd13a6",
-      "date": "2026-10-29T15:51:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2dd13a6c97c420ca97a7bb20665963a86a74ca1f"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "log: 관측 한 줄 2026-10-30",
-      "sha": "f12cd83",
-      "date": "2026-10-29T15:50:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f12cd839aa725b0f63aeb6b556b14c9d6574ddab"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "wake: FB-20261029-03 daeguru2 기상 기록",
-      "sha": "b4e6ef2",
-      "date": "2026-10-29T15:50:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b4e6ef21d2eaf93236b4146ed7c01d89d90bdb05"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard 데이터 자동 갱신 (cron)",
@@ -696,15 +705,6 @@
       "sha": "fff7e68",
       "date": "2026-10-29T09:46:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fff7e681c9b311ae963a47896001ecf352f4a579"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard 데이터 자동 갱신 (cron)",
-      "sha": "f34b50b",
-      "date": "2026-10-29T03:46:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f34b50be8dfe12bdd173654c30460bfdc38fdcde"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 15,
+      "commits": 13,
       "prs": 18,
       "issues": 0,
       "reviews": 0
