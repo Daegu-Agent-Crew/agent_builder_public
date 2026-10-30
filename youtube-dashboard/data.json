@@ -2,15 +2,16 @@
   "meta": {
     "version": 1,
     "generatedAt": "2026-08-11",
-    "totalVideos": 26,
+    "totalVideos": 27,
     "totalChannels": 19,
     "byType": {
-      "영상 요약": 18,
+      "영상 요약": 19,
       "담화 패턴 분석": 5,
       "기타": 2,
       "참가자 분석": 1
     },
     "byChannel": {
+      "AgentOS": 3,
       "Dante's Datalab (단테랩)": 1,
       "Dr. Jungmi Choi's Brain Science (최정미의 뇌과학)": 1,
       "배움의달인 (김정)": 1,
@@ -19,7 +20,6 @@
       "AI Jason": 3,
       "Tech Bridge": 1,
       "미상": 5,
-      "AgentOS": 2,
       "Y Combinator": 1,
       "Google Cloud X Solana Hackathon (공식)": 1,
       "네이버 D2F 강남 (스토리브 구독)": 1,
@@ -32,7 +32,7 @@
       "천영록": 1
     },
     "byMonth": {
-      "2026-10": 1,
+      "2026-10": 2,
       "2026-09": 4,
       "2026-08": 7,
       "2026-07": 11,
@@ -40,6 +40,24 @@
     }
   },
   "videos": [
+    {
+      "filename": "2026-10-30-claude-cowork-delegation.md",
+      "title": "클로드에게 일을 맡기는 법 — '전문가처럼 해 줘' 대신 쓰는 4가지",
+      "videoUrl": "https://youtu.be/gV0CtvIX5zk",
+      "channel": "AgentOS",
+      "speaker": "",
+      "date": "2026-10-30",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "클로드 코워크(Claude Cowork)를 1주 반 만에 만든 앤트로픽 리드의 실전 위임법. \"훌륭한 전문가처럼 행동해라\"는 2024년식이고 역할극을 유발해 오히려 결과가 나빠진다. 대신 (1) 경쟁 리뷰(레드팀), (2) 판사(judge) 검증, (3) 출처 기반 팩트체크, (4) 과거 리뷰의 원칙화 — 이 4가지 워크플로로 맡겨라. 자기 평가(self-eval)는 신뢰하지 말고 외부 신호로 검증하라.",
+      "sections": [
+        "주요 내용",
+        "우리 팀(Daegu Agent Crew)에 적용할 것"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-10-30-claude-cowork-delegation.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/gV0CtvIX5zk/mqdefault.jpg"
+    },
     {
       "filename": "2026-10-14-rea-reverse-engineering-agent.md",
       "title": "리버스 엔지니어링 도구 REA — 20분 만에 앱 복사 실험",
