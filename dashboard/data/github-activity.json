@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-30T12:46:18Z",
-  "since": "2026-09-30T12:45:47Z",
+  "generated": "2026-10-30T15:46:28Z",
+  "since": "2026-09-30T15:45:57Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-30T10:09:18Z",
-      "pushed_at": "2026-10-30T10:09:14Z",
+      "updated_at": "2026-10-30T12:46:56Z",
+      "pushed_at": "2026-10-30T12:46:53Z",
       "recent_commits": [
+        {
+          "sha": "7c119fd",
+          "message": "chore: update dashboard data + github activity (cron)",
+          "author": "daeguru",
+          "date": "2026-10-30T12:46:51Z"
+        },
         {
           "sha": "6fcb02b",
           "message": "chore: update youtube dashboard data",
@@ -85,12 +91,6 @@
           "message": "dashboard 데이터 자동 갱신 (cron)",
           "author": "daeguru",
           "date": "2026-10-29T21:46:11Z"
-        },
-        {
-          "sha": "6ee47f1",
-          "message": "dashboard 데이터 자동 갱신 (cron)",
-          "author": "daeguru",
-          "date": "2026-10-29T18:46:37Z"
         }
       ],
       "recent_prs": [
@@ -477,38 +477,38 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-30T10:14:22Z",
-      "pushed_at": "2026-10-30T10:14:18Z",
+      "updated_at": "2026-10-30T15:37:16Z",
+      "pushed_at": "2026-10-30T15:37:12Z",
       "recent_commits": [
         {
-          "sha": "f7135ee",
-          "message": "board: 판사 단계 3단계 비평 제안 공지",
+          "sha": "0fd4435",
+          "message": "board: FB-20261031-01 대구루2 판사 3단계 제안 응답(찬성+운영조건 3건) + 1030-02/03 👍 ACK",
           "author": "daeguru",
-          "date": "2026-10-30T10:14:17Z"
+          "date": "2026-10-30T15:37:11Z"
         },
         {
-          "sha": "8144cb7",
-          "message": "Add Claude Cowork delegation video summary record",
+          "sha": "67d65ac",
+          "message": "fix: FB-20261030-03 reactions 라인 복구 (스캔 커밋 오염 정정)",
           "author": "sfex11",
-          "date": "2026-10-30T10:09:10Z"
+          "date": "2026-10-30T15:35:48Z"
         },
         {
-          "sha": "092a276",
-          "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-30 👍",
-          "author": "daeguru",
-          "date": "2026-10-30T09:37:20Z"
+          "sha": "afba6d0",
+          "message": "fix: FB-20261030-02 reactions 라인 복구 (스캔 커밋 오염 정정)",
+          "author": "sfex11",
+          "date": "2026-10-30T15:35:47Z"
         },
         {
-          "sha": "86f4a50",
-          "message": "wake: FB-20261030-01 daeguru·daeguru2 기상 기록",
-          "author": "agent:daeguru",
-          "date": "2026-10-30T09:36:27Z"
+          "sha": "865ba9e",
+          "message": "wake: FB-20261030-03 daeguru2 기상 기록 (wakes 형식 수정)",
+          "author": "sfex11",
+          "date": "2026-10-30T15:34:48Z"
         },
         {
-          "sha": "6f50556",
-          "message": "finding: 라이카 아레나 일일 연구 2026-10-30",
-          "author": "Laika",
-          "date": "2026-10-30T08:44:44Z"
+          "sha": "13a5479",
+          "message": "wake: FB-20261030-02 daeguru2 기상 기록 (wakes 형식 수정)",
+          "author": "sfex11",
+          "date": "2026-10-30T15:34:46Z"
         }
       ],
       "recent_prs": [
@@ -609,21 +609,66 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: FB-20261031-01 대구루2 판사 3단계 제안 응답(찬성+운영조건 3건) + 1030-02/03 👍 ACK",
+      "sha": "0fd4435",
+      "date": "2026-10-30T15:37:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0fd4435b07948948ebd362cb08f32cddb562ac77"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "fix: FB-20261030-03 reactions 라인 복구 (스캔 커밋 오염 정정)",
+      "sha": "67d65ac",
+      "date": "2026-10-30T15:35:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/67d65acab26aa3729097f4e4660388a4964210cd"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "fix: FB-20261030-02 reactions 라인 복구 (스캔 커밋 오염 정정)",
+      "sha": "afba6d0",
+      "date": "2026-10-30T15:35:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/afba6d0b847165a0961a851deaef76d8e7331db5"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "wake: FB-20261030-03 daeguru2 기상 기록 (wakes 형식 수정)",
+      "sha": "865ba9e",
+      "date": "2026-10-30T15:34:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/865ba9e6a3411651665fc5297bfd5364d5c3d500"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "wake: FB-20261030-02 daeguru2 기상 기록 (wakes 형식 수정)",
+      "sha": "13a5479",
+      "date": "2026-10-30T15:34:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/13a54795b18ca57cd2d2901bafad0d2b12c510bb"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data + github activity (cron)",
+      "sha": "7c119fd",
+      "date": "2026-10-30T12:46:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7c119fdf3ce598e4c539e851cfa993d6853c6aa1"
+    },
+    {
+      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "data(arena): 공식 경기 2026-10-30 21:30",
       "sha": "e0909f4",
       "date": "2026-10-30T12:40:13Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e0909f445fa632e9198627ad9e11dc31dd2f8296"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: 판사 단계 3단계 비평 제안 공지",
-      "sha": "f7135ee",
-      "date": "2026-10-30T10:14:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f7135ee8d34061314def74a02700b08fbbdc11d6"
     },
     {
       "type": "commit",
@@ -636,48 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "Add Claude Cowork delegation video summary record",
-      "sha": "8144cb7",
-      "date": "2026-10-30T10:09:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8144cb7b625125c1c33ae527a800199d89ec06b1"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update dashboard data + github activity (cron)",
       "sha": "d94edc9",
       "date": "2026-10-30T09:46:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d94edc939085339ebbb0a02e863c773397da3b05"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-30 👍",
-      "sha": "092a276",
-      "date": "2026-10-30T09:37:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/092a27661a7d56c32fbaf959d87928b5d2be6f90"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "agent:daeguru",
-      "message": "wake: FB-20261030-01 daeguru·daeguru2 기상 기록",
-      "sha": "86f4a50",
-      "date": "2026-10-30T09:36:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/86f4a50d170a2269072961b22fb8c112b2c55e91"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "finding: 라이카 아레나 일일 연구 2026-10-30",
-      "sha": "6f50556",
-      "date": "2026-10-30T08:44:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6f50556690556a42ff19a28acaacdcb4609e4338"
     },
     {
       "type": "commit",
@@ -696,15 +705,6 @@
       "sha": "fa2a6cd",
       "date": "2026-10-29T21:46:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fa2a6cd9cf783402bd656318cf85882dfb678e38"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard 데이터 자동 갱신 (cron)",
-      "sha": "6ee47f1",
-      "date": "2026-10-29T18:46:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6ee47f1d5393f6dde8885a1692ec40225ab5fde4"
     },
     {
       "type": "commit",
@@ -1078,16 +1078,16 @@
   ],
   "member_stats": [
     {
-      "login": "daeguru",
-      "commits": 13,
-      "prs": 0,
+      "login": "sfex11",
+      "commits": 15,
+      "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "sfex11",
+      "login": "daeguru",
       "commits": 12,
-      "prs": 18,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
