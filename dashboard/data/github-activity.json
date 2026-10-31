@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-30T21:45:30Z",
-  "since": "2026-09-30T21:44:58Z",
+  "generated": "2026-10-31T03:46:01Z",
+  "since": "2026-10-01T03:45:31Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-30T15:46:53Z",
-      "pushed_at": "2026-10-30T15:46:48Z",
+      "updated_at": "2026-10-30T21:45:55Z",
+      "pushed_at": "2026-10-30T21:45:50Z",
       "recent_commits": [
+        {
+          "sha": "a43a75f",
+          "message": "dashboard: 2026-10-31 06:45 자동 갱신 (projects 9, repos 11, members 10)",
+          "author": "daeguru",
+          "date": "2026-10-30T21:45:49Z"
+        },
         {
           "sha": "ee76c2d",
           "message": "chore: update dashboard data + github activity (cron)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data + github activity (cron)",
           "author": "daeguru",
           "date": "2026-10-30T09:46:20Z"
-        },
-        {
-          "sha": "0915897",
-          "message": "chore: update dashboard data + github activity (cron)",
-          "author": "daeguru",
-          "date": "2026-10-30T03:45:54Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,21 @@
       "private": false,
       "open_issues": 17,
       "open_prs": 3,
-      "updated_at": "2026-10-30T12:40:19Z",
-      "pushed_at": "2026-10-30T12:40:15Z",
+      "updated_at": "2026-10-31T00:06:54Z",
+      "pushed_at": "2026-10-31T00:06:52Z",
       "recent_commits": [
+        {
+          "sha": "103f2af",
+          "message": "feat(CLE2-32): 아레나 피드 수집 스크립트 (30일 다이제스트) (#140)",
+          "author": "sfex11",
+          "date": "2026-10-31T00:06:49Z"
+        },
+        {
+          "sha": "27a84ec",
+          "message": "feat(CLE2-31,32): 태스크 초기 설정 (#139)",
+          "author": "sfex11",
+          "date": "2026-10-31T00:05:59Z"
+        },
         {
           "sha": "e0909f4",
           "message": "data(arena): 공식 경기 2026-10-30 21:30",
@@ -227,21 +239,25 @@
           "message": "data(arena): 공식 경기 2026-10-28 21:30",
           "author": "daeguru",
           "date": "2026-10-28T12:40:44Z"
-        },
-        {
-          "sha": "23d074d",
-          "message": "data(arena): 공식 경기 2026-10-27 21:30",
-          "author": "daeguru",
-          "date": "2026-10-27T12:40:14Z"
-        },
-        {
-          "sha": "e04d99c",
-          "message": "data(arena): 공식 경기 2026-10-26 21:30",
-          "author": "daeguru",
-          "date": "2026-10-26T12:40:13Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 140,
+          "title": "feat(CLE2-32): 아레나 피드 수집 스크립트",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-10-31T00:06:52Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/140"
+        },
+        {
+          "number": 139,
+          "title": "feat(CLE2-31,32): 태스크 초기 설정 — 판사 단계 시범 + 월간 비평 원칙화",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-10-31T00:06:02Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/139"
+        },
         {
           "number": 136,
           "title": "chore(CLE2-30): 09 아레나 G4 MET + test-02 파일 누락 수정 (#114)",
@@ -249,22 +265,6 @@
           "state": "closed",
           "updated_at": "2026-10-12T23:49:59Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/136"
-        },
-        {
-          "number": 135,
-          "title": "docs: VISION.md — 조직 최종 목표 (회장님 확정)",
-          "author": "sfex11",
-          "state": "open",
-          "updated_at": "2026-10-12T21:41:35Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/135"
-        },
-        {
-          "number": 133,
-          "title": "arena: laika 전략 2026-10-12",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-10-12T03:53:51Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/133"
         }
       ]
     },
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-30T21:34:19Z",
-      "pushed_at": "2026-10-30T21:34:15Z",
+      "updated_at": "2026-10-31T03:34:30Z",
+      "pushed_at": "2026-10-31T03:34:27Z",
       "recent_commits": [
+        {
+          "sha": "d5110f4",
+          "message": "board: daeguru2 ACK — 판사 3단계 확정·운영조건 3건 수용 👍",
+          "author": "daeguru",
+          "date": "2026-10-31T03:34:26Z"
+        },
+        {
+          "sha": "6bc35b7",
+          "message": "wake: FB-20261031-02 daeguru2 기상 기록",
+          "author": "agent:daeguru",
+          "date": "2026-10-31T03:33:49Z"
+        },
         {
           "sha": "ab45e87",
           "message": "board: 판사 3단계 확정 — 운영 조건 3건 수용",
@@ -497,18 +509,6 @@
           "message": "wake: FB-20261031-01 daeguru 기상 기록",
           "author": "대구루 (AI)",
           "date": "2026-10-30T21:33:23Z"
-        },
-        {
-          "sha": "0fd4435",
-          "message": "board: FB-20261031-01 대구루2 판사 3단계 제안 응답(찬성+운영조건 3건) + 1030-02/03 👍 ACK",
-          "author": "daeguru",
-          "date": "2026-10-30T15:37:11Z"
-        },
-        {
-          "sha": "67d65ac",
-          "message": "fix: FB-20261030-03 reactions 라인 복구 (스캔 커밋 오염 정정)",
-          "author": "sfex11",
-          "date": "2026-10-30T15:35:48Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,71 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
+      "message": "board: daeguru2 ACK — 판사 3단계 확정·운영조건 3건 수용 👍",
+      "sha": "d5110f4",
+      "date": "2026-10-31T03:34:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d5110f4ec19cb85e3ad48c343bae9002c38f58bf"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "agent:daeguru",
+      "message": "wake: FB-20261031-02 daeguru2 기상 기록",
+      "sha": "6bc35b7",
+      "date": "2026-10-31T03:33:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6bc35b76b625c005155035dbef42596a6bd72cc2"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-32): 아레나 피드 수집 스크립트",
+      "number": 140,
+      "state": "closed",
+      "date": "2026-10-31T00:06:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/140"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-32): 아레나 피드 수집 스크립트 (30일 다이제스트) (#140)",
+      "sha": "103f2af",
+      "date": "2026-10-31T00:06:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/103f2af5234608d7cfcf5f900ff1d8c5bb8da3a0"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-31,32): 태스크 초기 설정 — 판사 단계 시범 + 월간 비평 원칙화",
+      "number": 139,
+      "state": "closed",
+      "date": "2026-10-31T00:06:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/139"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-31,32): 태스크 초기 설정 (#139)",
+      "sha": "27a84ec",
+      "date": "2026-10-31T00:05:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/27a84ec19effe6e93593ae01ab9a18affb608d3a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: 2026-10-31 06:45 자동 갱신 (projects 9, repos 11, members 10)",
+      "sha": "a43a75f",
+      "date": "2026-10-30T21:45:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a43a75fc3bf606438ec362cddff764898395826c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
       "message": "board: 판사 3단계 확정 — 운영 조건 3건 수용",
       "sha": "ab45e87",
       "date": "2026-10-30T21:34:14Z",
@@ -642,24 +707,6 @@
       "sha": "ee76c2d",
       "date": "2026-10-30T15:46:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ee76c2df6467fb3a95989184486ecf28d4407707"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: FB-20261031-01 대구루2 판사 3단계 제안 응답(찬성+운영조건 3건) + 1030-02/03 👍 ACK",
-      "sha": "0fd4435",
-      "date": "2026-10-30T15:37:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0fd4435b07948948ebd362cb08f32cddb562ac77"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "fix: FB-20261030-03 reactions 라인 복구 (스캔 커밋 오염 정정)",
-      "sha": "67d65ac",
-      "date": "2026-10-30T15:35:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/67d65acab26aa3729097f4e4660388a4964210cd"
     },
     {
       "type": "commit",
@@ -699,15 +746,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data + github activity (cron)",
-      "sha": "0915897",
-      "date": "2026-10-30T03:45:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0915897b941ffa5ca4aaffed048635a965be642f"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "data(arena): 공식 경기 2026-10-29 21:30",
@@ -744,15 +782,6 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-10-27 21:30",
-      "sha": "23d074d",
-      "date": "2026-10-27T12:40:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/23d074d56ae46e84acb5243cc1445e03b6e64b49"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-10-27: 위키 갱신 (1개)",
@@ -768,15 +797,6 @@
       "sha": "230fbad",
       "date": "2026-10-26T12:43:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/230fbad7e01df1b272d1e8f994b910f1d998d53c"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-10-26 21:30",
-      "sha": "e04d99c",
-      "date": "2026-10-26T12:40:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e04d99cf8015acc753c7b791eb87d85f59c4c8bc"
     },
     {
       "type": "commit",
@@ -796,26 +816,6 @@
       "state": "closed",
       "date": "2026-10-12T23:49:59Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/136"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs: VISION.md — 조직 최종 목표 (회장님 확정)",
-      "number": 135,
-      "state": "open",
-      "date": "2026-10-12T21:41:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/135"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "arena: laika 전략 2026-10-12",
-      "number": 133,
-      "state": "closed",
-      "date": "2026-10-12T03:53:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/133"
     },
     {
       "type": "pr",
@@ -1078,16 +1078,16 @@
   ],
   "member_stats": [
     {
-      "login": "daeguru",
-      "commits": 14,
-      "prs": 0,
+      "login": "sfex11",
+      "commits": 13,
+      "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "sfex11",
+      "login": "daeguru",
       "commits": 12,
-      "prs": 18,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
