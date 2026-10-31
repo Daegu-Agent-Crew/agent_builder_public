@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-31T09:46:41Z",
-  "since": "2026-10-01T09:46:09Z",
+  "generated": "2026-10-31T15:46:05Z",
+  "since": "2026-10-01T15:45:31Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-31T03:46:34Z",
-      "pushed_at": "2026-10-31T03:46:31Z",
+      "updated_at": "2026-10-31T09:47:25Z",
+      "pushed_at": "2026-10-31T09:47:21Z",
       "recent_commits": [
+        {
+          "sha": "f1c7102",
+          "message": "dashboard: refresh dashboard.json and github-activity.json (2026-10-31 18:46 KST)",
+          "author": "daeguru",
+          "date": "2026-10-31T09:47:20Z"
+        },
         {
           "sha": "520c2b7",
           "message": "chore: update dashboard data + github activity (cron)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data + github activity (cron)",
           "author": "daeguru",
           "date": "2026-10-30T12:46:51Z"
-        },
-        {
-          "sha": "6fcb02b",
-          "message": "chore: update youtube dashboard data",
-          "author": "daeguru",
-          "date": "2026-10-30T10:09:13Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 17,
       "open_prs": 3,
-      "updated_at": "2026-10-31T00:06:54Z",
-      "pushed_at": "2026-10-31T00:06:52Z",
+      "updated_at": "2026-10-31T12:51:18Z",
+      "pushed_at": "2026-10-31T12:51:15Z",
       "recent_commits": [
+        {
+          "sha": "f8645c1",
+          "message": "data(arena): 공식 경기 2026-10-31 21:40 (21:30 봉 결측 무효 대체 재기록)",
+          "author": "daeguru",
+          "date": "2026-10-31T12:51:14Z"
+        },
         {
           "sha": "103f2af",
           "message": "feat(CLE2-32): 아레나 피드 수집 스크립트 (30일 다이제스트) (#140)",
@@ -233,12 +239,6 @@
           "message": "data(arena): 공식 경기 2026-10-29 21:30",
           "author": "daeguru",
           "date": "2026-10-29T12:40:54Z"
-        },
-        {
-          "sha": "27b2d52",
-          "message": "data(arena): 공식 경기 2026-10-28 21:30",
-          "author": "daeguru",
-          "date": "2026-10-28T12:40:44Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-31T09:41:38Z",
-      "pushed_at": "2026-10-31T09:41:34Z",
+      "updated_at": "2026-10-31T15:34:38Z",
+      "pushed_at": "2026-10-31T15:34:35Z",
       "recent_commits": [
+        {
+          "sha": "a28554c",
+          "message": "log: 관측 한 줄 2026-11-01",
+          "author": "sfex11",
+          "date": "2026-10-31T15:34:35Z"
+        },
         {
           "sha": "0ad4f27",
           "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-31 👍",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261031-03 daeguru2 기상 기록",
           "author": "agent:daeguru",
           "date": "2026-10-31T09:40:57Z"
-        },
-        {
-          "sha": "200092a",
-          "message": "wake: FB-20261031-03 daeguru 기상 기록",
-          "author": "agent:daeguru",
-          "date": "2026-10-31T09:40:56Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,33 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "sfex11",
+      "message": "log: 관측 한 줄 2026-11-01",
+      "sha": "a28554c",
+      "date": "2026-10-31T15:34:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a28554cc42428e85be9f71cac3603f444c35576b"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-10-31 21:40 (21:30 봉 결측 무효 대체 재기록)",
+      "sha": "f8645c1",
+      "date": "2026-10-31T12:51:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f8645c143df8bc143915107b974570f3c13c32ad"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json and github-activity.json (2026-10-31 18:46 KST)",
+      "sha": "f1c7102",
+      "date": "2026-10-31T09:47:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f1c7102a03d0446b14ebc18979790d03750c24db"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-31 👍",
       "sha": "0ad4f27",
@@ -642,15 +669,6 @@
       "sha": "4c19bd1",
       "date": "2026-10-31T09:40:57Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4c19bd10c6c858ddc19dc186ea5540a72af2e63b"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "agent:daeguru",
-      "message": "wake: FB-20261031-03 daeguru 기상 기록",
-      "sha": "200092a",
-      "date": "2026-10-31T09:40:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/200092ad178fc89e29bf97c4f0fd97f21b528bba"
     },
     {
       "type": "commit",
@@ -737,15 +755,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update youtube dashboard data",
-      "sha": "6fcb02b",
-      "date": "2026-10-30T10:09:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6fcb02b7e13f40755ff9f538fc34f7fb7f5de61d"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "data(arena): 공식 경기 2026-10-29 21:30",
@@ -761,15 +770,6 @@
       "sha": "433c08c",
       "date": "2026-10-28T12:48:57Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/433c08c13f7e58ea047c427d69ee4453867ab9d0"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-10-28 21:30",
-      "sha": "27b2d52",
-      "date": "2026-10-28T12:40:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/27b2d52d07d542dee5725ff101d306251810c0ba"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 13,
+      "commits": 14,
       "prs": 18,
       "issues": 0,
       "reviews": 0
