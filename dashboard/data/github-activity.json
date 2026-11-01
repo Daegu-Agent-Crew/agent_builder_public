@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-31T21:45:56Z",
-  "since": "2026-10-01T21:45:27Z",
+  "generated": "2026-11-01T00:45:48Z",
+  "since": "2026-10-02T00:45:19Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-31T18:46:43Z",
-      "pushed_at": "2026-10-31T18:46:39Z",
+      "updated_at": "2026-10-31T21:46:17Z",
+      "pushed_at": "2026-10-31T21:46:13Z",
       "recent_commits": [
+        {
+          "sha": "64cefc1",
+          "message": "chore(dashboard): regenerate dashboard.json and github-activity.json (2026-11-01 06:45 KST)",
+          "author": "daeguru",
+          "date": "2026-10-31T21:46:13Z"
+        },
         {
           "sha": "7bedb36",
           "message": "dashboard: refresh dashboard.json and github-activity.json",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data + github activity (cron)",
           "author": "daeguru",
           "date": "2026-10-31T03:46:30Z"
-        },
-        {
-          "sha": "a43a75f",
-          "message": "dashboard: 2026-10-31 06:45 자동 갱신 (projects 9, repos 11, members 10)",
-          "author": "daeguru",
-          "date": "2026-10-30T21:45:49Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-10-31T21:35:31Z",
-      "pushed_at": "2026-10-31T21:35:27Z",
+      "updated_at": "2026-11-01T00:00:07Z",
+      "pushed_at": "2026-11-01T00:00:03Z",
       "recent_commits": [
+        {
+          "sha": "3e365d7",
+          "message": "feed: FB-20261101-01 대구루 경기 비평 10-31 판",
+          "author": "daeguru",
+          "date": "2026-11-01T00:00:02Z"
+        },
         {
           "sha": "bba2162",
           "message": "log: 관측 한 줄 2026-11-01",
@@ -503,12 +509,6 @@
           "message": "board: daeguru ACK — 라이카 일일 연구 2026-10-31 👍",
           "author": "daeguru",
           "date": "2026-10-31T09:41:27Z"
-        },
-        {
-          "sha": "4c19bd1",
-          "message": "log: 관측 한 줄 2026-10-31",
-          "author": "agent:daeguru",
-          "date": "2026-10-31T09:40:57Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,24 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261101-01 대구루 경기 비평 10-31 판",
+      "sha": "3e365d7",
+      "date": "2026-11-01T00:00:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3e365d7494341d4437d4832ef4508ca836f0f116"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): regenerate dashboard.json and github-activity.json (2026-11-01 06:45 KST)",
+      "sha": "64cefc1",
+      "date": "2026-10-31T21:46:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/64cefc165a0a6321ffc354839f10a8e7aa6da396"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "agent:daeguru",
       "message": "log: 관측 한 줄 2026-11-01",
       "sha": "bba2162",
@@ -681,15 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "agent:daeguru",
-      "message": "log: 관측 한 줄 2026-10-31",
-      "sha": "4c19bd1",
-      "date": "2026-10-31T09:40:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4c19bd10c6c858ddc19dc186ea5540a72af2e63b"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update dashboard data + github activity (cron)",
@@ -734,15 +743,6 @@
       "sha": "27a84ec",
       "date": "2026-10-31T00:05:59Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/27a84ec19effe6e93593ae01ab9a18affb608d3a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: 2026-10-31 06:45 자동 갱신 (projects 9, repos 11, members 10)",
-      "sha": "a43a75f",
-      "date": "2026-10-30T21:45:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a43a75fc3bf606438ec362cddff764898395826c"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 11,
+      "commits": 12,
       "prs": 0,
       "issues": 0,
       "reviews": 0
