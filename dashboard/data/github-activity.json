@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-01T00:45:48Z",
-  "since": "2026-10-02T00:45:19Z",
+  "generated": "2026-11-01T03:51:17Z",
+  "since": "2026-10-02T03:50:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-10-31T21:46:17Z",
-      "pushed_at": "2026-10-31T21:46:13Z",
+      "updated_at": "2026-11-01T00:46:09Z",
+      "pushed_at": "2026-11-01T00:46:05Z",
       "recent_commits": [
+        {
+          "sha": "22866fa",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-11-01 09:44 KST)",
+          "author": "daeguru",
+          "date": "2026-11-01T00:46:04Z"
+        },
         {
           "sha": "64cefc1",
           "message": "chore(dashboard): regenerate dashboard.json and github-activity.json (2026-11-01 06:45 KST)",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json and github-activity.json (2026-10-31 18:46 KST)",
           "author": "daeguru",
           "date": "2026-10-31T09:47:20Z"
-        },
-        {
-          "sha": "520c2b7",
-          "message": "chore: update dashboard data + github activity (cron)",
-          "author": "daeguru",
-          "date": "2026-10-31T03:46:30Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-01T00:00:07Z",
-      "pushed_at": "2026-11-01T00:00:03Z",
+      "updated_at": "2026-11-01T03:32:24Z",
+      "pushed_at": "2026-11-01T03:32:20Z",
       "recent_commits": [
+        {
+          "sha": "232b7cf",
+          "message": "log: 관측 한 줄 2026-11-01",
+          "author": "sfex11",
+          "date": "2026-11-01T03:32:20Z"
+        },
         {
           "sha": "3e365d7",
           "message": "feed: FB-20261101-01 대구루 경기 비평 10-31 판",
@@ -503,12 +509,6 @@
           "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-10-31 👍",
           "author": "daeguru",
           "date": "2026-10-31T09:41:33Z"
-        },
-        {
-          "sha": "6fc4673",
-          "message": "board: daeguru ACK — 라이카 일일 연구 2026-10-31 👍",
-          "author": "daeguru",
-          "date": "2026-10-31T09:41:27Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,24 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "sfex11",
+      "message": "log: 관측 한 줄 2026-11-01",
+      "sha": "232b7cf",
+      "date": "2026-11-01T03:32:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/232b7cf7159e9b28deb75b516cddc5dc72e753ef"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-11-01 09:44 KST)",
+      "sha": "22866fa",
+      "date": "2026-11-01T00:46:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/22866fa40a7d99ee0ef03d0560f7f929e0e47b6b"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "daeguru",
       "message": "feed: FB-20261101-01 대구루 경기 비평 10-31 판",
       "sha": "3e365d7",
@@ -687,24 +705,6 @@
       "sha": "0ad4f27",
       "date": "2026-10-31T09:41:33Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0ad4f275f1bd00a1804695cdb37c5b5e3f9311cf"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 일일 연구 2026-10-31 👍",
-      "sha": "6fc4673",
-      "date": "2026-10-31T09:41:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6fc4673a7ba6738835b8da6a039714d1f86eae63"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data + github activity (cron)",
-      "sha": "520c2b7",
-      "date": "2026-10-31T03:46:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/520c2b74457dfa1833261e6047d20685107c699a"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 14,
+      "commits": 15,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 12,
+      "commits": 11,
       "prs": 0,
       "issues": 0,
       "reviews": 0
