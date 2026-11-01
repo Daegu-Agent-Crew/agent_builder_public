@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-01T18:45:37Z",
-  "since": "2026-10-02T18:45:08Z",
+  "generated": "2026-11-01T21:45:26Z",
+  "since": "2026-10-02T21:44:55Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-01T15:46:12Z",
-      "pushed_at": "2026-11-01T15:46:08Z",
+      "updated_at": "2026-11-01T18:45:55Z",
+      "pushed_at": "2026-11-01T18:45:51Z",
       "recent_commits": [
+        {
+          "sha": "de52e60",
+          "message": "chore: update dashboard data and github activity (cron)",
+          "author": "daeguru",
+          "date": "2026-11-01T18:45:50Z"
+        },
         {
           "sha": "ec7abbf",
           "message": "chore: update dashboard data and github activity (cron)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-11-01 09:44 KST)",
           "author": "daeguru",
           "date": "2026-11-01T00:46:04Z"
-        },
-        {
-          "sha": "64cefc1",
-          "message": "chore(dashboard): regenerate dashboard.json and github-activity.json (2026-11-01 06:45 KST)",
-          "author": "daeguru",
-          "date": "2026-10-31T21:46:13Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-01T15:36:49Z",
-      "pushed_at": "2026-11-01T15:36:45Z",
+      "updated_at": "2026-11-01T21:33:00Z",
+      "pushed_at": "2026-11-01T21:32:56Z",
       "recent_commits": [
+        {
+          "sha": "34a2de6",
+          "message": "log: 관측 한 줄 2026-11-02",
+          "author": "sfex11",
+          "date": "2026-11-01T21:32:56Z"
+        },
         {
           "sha": "61e4e86",
           "message": "board: daeguru ACK — 라이카 11-01 경기 비평(10초 신호와 120초 보유) 👍",
@@ -501,12 +507,6 @@
         {
           "sha": "0d945bf",
           "message": "wake: FB-20261101-03 daeguru2 기상 기록",
-          "author": "Laika",
-          "date": "2026-11-01T15:35:58Z"
-        },
-        {
-          "sha": "64478e3",
-          "message": "wake: FB-20261101-03 daeguru 기상 기록",
           "author": "Laika",
           "date": "2026-11-01T15:35:58Z"
         }
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "log: 관측 한 줄 2026-11-02",
+      "sha": "34a2de6",
+      "date": "2026-11-01T21:32:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/34a2de6773ea84af1a37c5767bce8a05cddd8658"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data and github activity (cron)",
+      "sha": "de52e60",
+      "date": "2026-11-01T18:45:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/de52e60b2882eb6a47a6a831c75952780bbe2b8b"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update dashboard data and github activity (cron)",
@@ -633,15 +651,6 @@
       "sha": "064fda2",
       "date": "2026-11-01T15:36:40Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/064fda2000eec2e9b5a64f21550a2f3747214e0a"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "wake: FB-20261101-03 daeguru 기상 기록",
-      "sha": "64478e3",
-      "date": "2026-11-01T15:35:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/64478e32a1a1fe59d6be201d48861acf717c64e4"
     },
     {
       "type": "commit",
@@ -705,15 +714,6 @@
       "sha": "22866fa",
       "date": "2026-11-01T00:46:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/22866fa40a7d99ee0ef03d0560f7f929e0e47b6b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): regenerate dashboard.json and github-activity.json (2026-11-01 06:45 KST)",
-      "sha": "64cefc1",
-      "date": "2026-10-31T21:46:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/64cefc165a0a6321ffc354839f10a8e7aa6da396"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 13,
+      "commits": 14,
       "prs": 18,
       "issues": 0,
       "reviews": 0
