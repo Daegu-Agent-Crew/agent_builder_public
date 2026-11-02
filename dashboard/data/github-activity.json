@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-02T18:48:05Z",
-  "since": "2026-10-03T18:47:33Z",
+  "generated": "2026-11-02T21:46:20Z",
+  "since": "2026-10-03T21:45:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-02T15:47:11Z",
-      "pushed_at": "2026-11-02T15:47:06Z",
+      "updated_at": "2026-11-02T18:48:33Z",
+      "pushed_at": "2026-11-02T18:48:28Z",
       "recent_commits": [
+        {
+          "sha": "013ebbe",
+          "message": "daeguru chore(dashboard): update dashboard.json and github-activity.json (scheduled 2026-11-03 03:44 KST)",
+          "author": "daeguru",
+          "date": "2026-11-02T18:48:27Z"
+        },
         {
           "sha": "013c444",
           "message": "chore(dashboard): update dashboard.json and github-activity.json (scheduled 2026-11-03 00:44 KST)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-02 15:55)",
           "author": "daeguru",
           "date": "2026-11-02T06:59:10Z"
-        },
-        {
-          "sha": "0f51681",
-          "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-02 12:44)",
-          "author": "daeguru",
-          "date": "2026-11-02T03:47:59Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-02T15:38:52Z",
-      "pushed_at": "2026-11-02T15:38:47Z",
+      "updated_at": "2026-11-02T21:34:12Z",
+      "pushed_at": "2026-11-02T21:34:07Z",
       "recent_commits": [
+        {
+          "sha": "c53867c",
+          "message": "log: Jev 게이트 판정 기록 2026-11-03",
+          "author": "daeguru",
+          "date": "2026-11-02T21:34:07Z"
+        },
         {
           "sha": "694230f",
           "message": "board: daeguru ACK — 라이카 11-02 경기 비평(5bp 익절 비용 미달) 👍 [판사 3단계 1회차]",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261102-04 daeguru·daeguru2 기상 기록",
           "author": "daeguru-agent",
           "date": "2026-11-02T15:37:03Z"
-        },
-        {
-          "sha": "a2ff194",
-          "message": "arena: post Laika critique for 2026-11-02",
-          "author": "Laika",
-          "date": "2026-11-02T13:01:15Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-03",
+      "sha": "c53867c",
+      "date": "2026-11-02T21:34:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c53867c0f00f0714ae440d360fa8d9581c6c0728"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "daeguru chore(dashboard): update dashboard.json and github-activity.json (scheduled 2026-11-03 03:44 KST)",
+      "sha": "013ebbe",
+      "date": "2026-11-02T18:48:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/013ebbeb98edbfc7144bfbe8c8760e70132eb518"
+    },
+    {
+      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "daeguru: cockpit v2 - autonomous improvement panel + data refresh",
@@ -663,15 +681,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "arena: post Laika critique for 2026-11-02",
-      "sha": "a2ff194",
-      "date": "2026-11-02T13:01:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a2ff1940f87fda7df2c0a82a03a37c3701250060"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: 데이터 갱신 2026-11-02 21:46",
@@ -705,15 +714,6 @@
       "sha": "0788f87",
       "date": "2026-11-02T06:59:10Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0788f8714ea8838817c762df6a3008387a79a4b6"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-02 12:44)",
-      "sha": "0f51681",
-      "date": "2026-11-02T03:47:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0f516813a4a6ef01de0ba1d4a85084ede109b1cb"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 12,
+      "commits": 13,
       "prs": 0,
       "issues": 0,
       "reviews": 0
