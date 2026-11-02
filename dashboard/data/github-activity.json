@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-02T09:46:44Z",
-  "since": "2026-10-03T09:46:13Z",
+  "generated": "2026-11-02T12:46:05Z",
+  "since": "2026-10-03T12:45:32Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-02T06:59:15Z",
-      "pushed_at": "2026-11-02T06:59:11Z",
+      "updated_at": "2026-11-02T09:47:04Z",
+      "pushed_at": "2026-11-02T09:46:59Z",
       "recent_commits": [
+        {
+          "sha": "9411794",
+          "message": "dashboard: dashboard.json/github-activity.json 갱신 (cron 18:44)",
+          "author": "daeguru",
+          "date": "2026-11-02T09:46:58Z"
+        },
         {
           "sha": "0788f87",
           "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-02 15:55)",
@@ -85,12 +91,6 @@
           "message": "dashboard: dashboard.json, github-activity.json 갱신 (자동, 2026-11-02)",
           "author": "daeguru",
           "date": "2026-11-01T21:45:35Z"
-        },
-        {
-          "sha": "de52e60",
-          "message": "chore: update dashboard data and github activity (cron)",
-          "author": "daeguru",
-          "date": "2026-11-01T18:45:50Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 16,
       "open_prs": 3,
-      "updated_at": "2026-11-01T12:40:20Z",
-      "pushed_at": "2026-11-01T12:40:16Z",
+      "updated_at": "2026-11-02T12:40:37Z",
+      "pushed_at": "2026-11-02T12:40:32Z",
       "recent_commits": [
+        {
+          "sha": "008c084",
+          "message": "data(arena): 공식 경기 2026-11-02 21:30",
+          "author": "daeguru",
+          "date": "2026-11-02T12:40:32Z"
+        },
         {
           "sha": "57f3aed",
           "message": "data(arena): 공식 경기 2026-11-01 21:30",
@@ -233,12 +239,6 @@
           "message": "feat(CLE2-32): 아레나 피드 수집 스크립트 (30일 다이제스트) (#140)",
           "author": "sfex11",
           "date": "2026-10-31T00:06:49Z"
-        },
-        {
-          "sha": "27a84ec",
-          "message": "feat(CLE2-31,32): 태스크 초기 설정 (#139)",
-          "author": "sfex11",
-          "date": "2026-10-31T00:05:59Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-02 21:30",
+      "sha": "008c084",
+      "date": "2026-11-02T12:40:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/008c084c5500a597bdbe51010c5b864d5b9578b4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json/github-activity.json 갱신 (cron 18:44)",
+      "sha": "9411794",
+      "date": "2026-11-02T09:46:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/94117941b07f2d8c394f3a542a4cd412de4d3f00"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-02 👍",
@@ -690,15 +708,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data and github activity (cron)",
-      "sha": "de52e60",
-      "date": "2026-11-01T18:45:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/de52e60b2882eb6a47a6a831c75952780bbe2b8b"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "data(arena): 공식 경기 2026-11-01 21:30",
@@ -752,15 +761,6 @@
       "state": "closed",
       "date": "2026-10-31T00:06:02Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/139"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-31,32): 태스크 초기 설정 (#139)",
-      "sha": "27a84ec",
-      "date": "2026-10-31T00:05:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/27a84ec19effe6e93593ae01ab9a18affb608d3a"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "sfex11",
-      "commits": 13,
+      "commits": 12,
       "prs": 18,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "daeguru",
-      "commits": 11,
+      "commits": 12,
       "prs": 0,
       "issues": 0,
       "reviews": 0
