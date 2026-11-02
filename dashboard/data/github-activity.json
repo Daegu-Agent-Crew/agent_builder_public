@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-02T03:47:28Z",
-  "since": "2026-10-03T03:46:59Z",
+  "generated": "2026-11-02T06:58:46Z",
+  "since": "2026-10-03T06:58:17Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-02T00:46:58Z",
-      "pushed_at": "2026-11-02T00:46:53Z",
+      "updated_at": "2026-11-02T03:48:04Z",
+      "pushed_at": "2026-11-02T03:48:00Z",
       "recent_commits": [
+        {
+          "sha": "0f51681",
+          "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-02 12:44)",
+          "author": "daeguru",
+          "date": "2026-11-02T03:47:59Z"
+        },
         {
           "sha": "22141a6",
           "message": "dashboard.json/github-activity.json 갱신 (dashboard cron)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data and github activity (cron)",
           "author": "daeguru",
           "date": "2026-11-01T15:46:08Z"
-        },
-        {
-          "sha": "19afddf",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-11-01 18:47 KST)",
-          "author": "daeguru",
-          "date": "2026-11-01T09:46:04Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-02 12:44)",
+      "sha": "0f51681",
+      "date": "2026-11-02T03:47:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0f516813a4a6ef01de0ba1d4a85084ede109b1cb"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "feat(board): feedscan-parse 결정적 파서 — inline JSON·multiline YAML reactions/wakes 모두 지원 (스캐너 재기상 결함 수정)",
@@ -696,15 +705,6 @@
       "sha": "57f3aed",
       "date": "2026-11-01T12:40:15Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/57f3aedd3972f19167c903f43db34d0e3be185fd"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-11-01 18:47 KST)",
-      "sha": "19afddf",
-      "date": "2026-11-01T09:46:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/19afddfb23434c4b43d957f793ef409a161d865d"
     },
     {
       "type": "commit",
