@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-01T21:45:26Z",
-  "since": "2026-10-02T21:44:55Z",
+  "generated": "2026-11-02T00:46:43Z",
+  "since": "2026-10-03T00:46:13Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-01T18:45:55Z",
-      "pushed_at": "2026-11-01T18:45:51Z",
+      "updated_at": "2026-11-01T21:45:39Z",
+      "pushed_at": "2026-11-01T21:45:35Z",
       "recent_commits": [
+        {
+          "sha": "8ea66e5",
+          "message": "dashboard: dashboard.json, github-activity.json 갱신 (자동, 2026-11-02)",
+          "author": "daeguru",
+          "date": "2026-11-01T21:45:35Z"
+        },
         {
           "sha": "de52e60",
           "message": "chore: update dashboard data and github activity (cron)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-11-01 12:49 KST)",
           "author": "daeguru",
           "date": "2026-11-01T03:51:28Z"
-        },
-        {
-          "sha": "22866fa",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-11-01 09:44 KST)",
-          "author": "daeguru",
-          "date": "2026-11-01T00:46:04Z"
         }
       ],
       "recent_prs": [
@@ -205,7 +205,7 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 17,
+      "open_issues": 16,
       "open_prs": 3,
       "updated_at": "2026-11-01T12:40:20Z",
       "pushed_at": "2026-11-01T12:40:16Z",
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-01T21:33:00Z",
-      "pushed_at": "2026-11-01T21:32:56Z",
+      "updated_at": "2026-11-01T23:17:17Z",
+      "pushed_at": "2026-11-01T23:17:14Z",
       "recent_commits": [
+        {
+          "sha": "ab01ce9",
+          "message": "finding(arena): 라이카 주간 진화 리포트 2026-11-02",
+          "author": "Laika",
+          "date": "2026-11-01T23:17:11Z"
+        },
+        {
+          "sha": "b7a86a0",
+          "message": "feed: FB-20261102-01 대구루 경기 비평 11-01 판",
+          "author": "daeguru",
+          "date": "2026-11-01T23:00:02Z"
+        },
         {
           "sha": "34a2de6",
           "message": "log: 관측 한 줄 2026-11-02",
@@ -497,18 +509,6 @@
           "message": "board: daeguru2 ACK — 라이카 11-01 경기 비평(10초 신호와 120초 보유) 👍",
           "author": "daeguru",
           "date": "2026-11-01T15:36:40Z"
-        },
-        {
-          "sha": "0a84c8d",
-          "message": "log: 관측 한 줄 2026-11-02",
-          "author": "Laika",
-          "date": "2026-11-01T15:35:58Z"
-        },
-        {
-          "sha": "0d945bf",
-          "message": "wake: FB-20261101-03 daeguru2 기상 기록",
-          "author": "Laika",
-          "date": "2026-11-01T15:35:58Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,33 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "Laika",
+      "message": "finding(arena): 라이카 주간 진화 리포트 2026-11-02",
+      "sha": "ab01ce9",
+      "date": "2026-11-01T23:17:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ab01ce936f7d196ec621cc35e82513b86b3aa8c4"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261102-01 대구루 경기 비평 11-01 판",
+      "sha": "b7a86a0",
+      "date": "2026-11-01T23:00:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b7a86a0c0c17535bae15972f42dd41b7aa47597c"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json, github-activity.json 갱신 (자동, 2026-11-02)",
+      "sha": "8ea66e5",
+      "date": "2026-11-01T21:45:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8ea66e5ad0fe06a59f290b1be2d1085f2e06d580"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "sfex11",
       "message": "log: 관측 한 줄 2026-11-02",
       "sha": "34a2de6",
@@ -654,24 +681,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "wake: FB-20261101-03 daeguru2 기상 기록",
-      "sha": "0d945bf",
-      "date": "2026-11-01T15:35:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0d945bf2002b110efb23847546cc0bea091b2b49"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "log: 관측 한 줄 2026-11-02",
-      "sha": "0a84c8d",
-      "date": "2026-11-01T15:35:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0a84c8d430d40b728522aeebf21e112ca309a2c0"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "data(arena): 공식 경기 2026-11-01 21:30",
@@ -705,15 +714,6 @@
       "sha": "7f17fb8",
       "date": "2026-11-01T03:51:28Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7f17fb86281f8626a7b3908dd99d775287d299e3"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-11-01 09:44 KST)",
-      "sha": "22866fa",
-      "date": "2026-11-01T00:46:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/22866fa40a7d99ee0ef03d0560f7f929e0e47b6b"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "daeguru",
-      "commits": 10,
+      "commits": 11,
       "prs": 0,
       "issues": 0,
       "reviews": 0
