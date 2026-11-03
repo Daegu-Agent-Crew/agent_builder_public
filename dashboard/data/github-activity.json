@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-02T21:46:20Z",
-  "since": "2026-10-03T21:45:47Z",
+  "generated": "2026-11-03T00:46:48Z",
+  "since": "2026-10-04T00:46:16Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-02T18:48:33Z",
-      "pushed_at": "2026-11-02T18:48:28Z",
+      "updated_at": "2026-11-02T21:46:40Z",
+      "pushed_at": "2026-11-02T21:46:36Z",
       "recent_commits": [
+        {
+          "sha": "269960d",
+          "message": "daeguru chore(dashboard): update dashboard.json and github-activity.json (scheduled 2026-11-03 06:44 KST)",
+          "author": "daeguru",
+          "date": "2026-11-02T21:46:36Z"
+        },
         {
           "sha": "013ebbe",
           "message": "daeguru chore(dashboard): update dashboard.json and github-activity.json (scheduled 2026-11-03 03:44 KST)",
@@ -85,12 +91,6 @@
           "message": "dashboard: dashboard.json/github-activity.json 갱신 (cron 18:44)",
           "author": "daeguru",
           "date": "2026-11-02T09:46:58Z"
-        },
-        {
-          "sha": "0788f87",
-          "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-02 15:55)",
-          "author": "daeguru",
-          "date": "2026-11-02T06:59:10Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-02T21:34:12Z",
-      "pushed_at": "2026-11-02T21:34:07Z",
+      "updated_at": "2026-11-02T23:00:13Z",
+      "pushed_at": "2026-11-02T23:00:08Z",
       "recent_commits": [
+        {
+          "sha": "75aa837",
+          "message": "feed: FB-20261103-01 대구루 경기 비평 11-02 판 + 라이카 비평 ACK",
+          "author": "daeguru",
+          "date": "2026-11-02T23:00:07Z"
+        },
         {
           "sha": "c53867c",
           "message": "log: Jev 게이트 판정 기록 2026-11-03",
@@ -501,12 +507,6 @@
         {
           "sha": "1b25ed6",
           "message": "log: Jev 게이트 판정 기록 2026-11-03",
-          "author": "daeguru-agent",
-          "date": "2026-11-02T15:37:03Z"
-        },
-        {
-          "sha": "60c367d",
-          "message": "wake: FB-20261102-04 daeguru·daeguru2 기상 기록",
           "author": "daeguru-agent",
           "date": "2026-11-02T15:37:03Z"
         }
@@ -611,6 +611,24 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
+      "message": "feed: FB-20261103-01 대구루 경기 비평 11-02 판 + 라이카 비평 ACK",
+      "sha": "75aa837",
+      "date": "2026-11-02T23:00:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/75aa8378c12e31a773d233c995eae3dd17275e2f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "daeguru chore(dashboard): update dashboard.json and github-activity.json (scheduled 2026-11-03 06:44 KST)",
+      "sha": "269960d",
+      "date": "2026-11-02T21:46:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/269960d0fd47782ef316a742f1db8bc54bc71614"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-11-03",
       "sha": "c53867c",
       "date": "2026-11-02T21:34:07Z",
@@ -665,15 +683,6 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru-agent",
-      "message": "wake: FB-20261102-04 daeguru·daeguru2 기상 기록",
-      "sha": "60c367d",
-      "date": "2026-11-02T15:37:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/60c367de4fcc6bc8b3e24058be7e1b284939f11a"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru-agent",
       "message": "log: Jev 게이트 판정 기록 2026-11-03",
       "sha": "1b25ed6",
       "date": "2026-11-02T15:37:03Z",
@@ -705,15 +714,6 @@
       "sha": "9411794",
       "date": "2026-11-02T09:46:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/94117941b07f2d8c394f3a542a4cd412de4d3f00"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-02 15:55)",
-      "sha": "0788f87",
-      "date": "2026-11-02T06:59:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0788f8714ea8838817c762df6a3008387a79a4b6"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 13,
+      "commits": 14,
       "prs": 0,
       "issues": 0,
       "reviews": 0
