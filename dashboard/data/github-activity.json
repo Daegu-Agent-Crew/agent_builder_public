@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-03T15:45:46Z",
-  "since": "2026-10-04T15:45:13Z",
+  "generated": "2026-11-03T18:46:03Z",
+  "since": "2026-10-04T18:45:31Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-03T09:46:10Z",
-      "pushed_at": "2026-11-03T09:46:05Z",
+      "updated_at": "2026-11-03T15:46:01Z",
+      "pushed_at": "2026-11-03T15:45:57Z",
       "recent_commits": [
+        {
+          "sha": "c55a1b6",
+          "message": "dashboard 데이터 갱신 (cron)",
+          "author": "daeguru",
+          "date": "2026-11-03T15:45:56Z"
+        },
         {
           "sha": "4d89040",
           "message": "dashboard 데이터 갱신 (cron)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard.json and github-activity.json (2026-11-03 09:44 KST)",
           "author": "daeguru",
           "date": "2026-11-03T00:47:04Z"
-        },
-        {
-          "sha": "269960d",
-          "message": "daeguru chore(dashboard): update dashboard.json and github-activity.json (scheduled 2026-11-03 06:44 KST)",
-          "author": "daeguru",
-          "date": "2026-11-02T21:46:36Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 갱신 (cron)",
+      "sha": "c55a1b6",
+      "date": "2026-11-03T15:45:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c55a1b651eda26824d2d3b75b7f8849026c6954f"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 11-03 경기 비평(종가보다 장중 경로) 👍",
@@ -696,15 +705,6 @@
       "sha": "97193c1",
       "date": "2026-11-03T00:47:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/97193c1b597ba89ab34eecdd9c444c156f42aec7"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "daeguru chore(dashboard): update dashboard.json and github-activity.json (scheduled 2026-11-03 06:44 KST)",
-      "sha": "269960d",
-      "date": "2026-11-02T21:46:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/269960d0fd47782ef316a742f1db8bc54bc71614"
     },
     {
       "type": "commit",
