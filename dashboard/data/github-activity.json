@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-03T06:48:23Z",
-  "since": "2026-10-04T06:47:52Z",
+  "generated": "2026-11-03T09:45:55Z",
+  "since": "2026-10-04T09:45:22Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-03T03:47:00Z",
-      "pushed_at": "2026-11-03T03:46:56Z",
+      "updated_at": "2026-11-03T06:49:08Z",
+      "pushed_at": "2026-11-03T06:49:04Z",
       "recent_commits": [
+        {
+          "sha": "458634f",
+          "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-03 15:45 KST)",
+          "author": "daeguru",
+          "date": "2026-11-03T06:49:03Z"
+        },
         {
           "sha": "7354e51",
           "message": "chore(dashboard): refresh dashboard.json and github-activity.json (2026-11-03 12:44 KST)",
@@ -85,12 +91,6 @@
           "message": "daeguru chore(dashboard): update dashboard.json and github-activity.json (scheduled 2026-11-03 03:44 KST)",
           "author": "daeguru",
           "date": "2026-11-02T18:48:27Z"
-        },
-        {
-          "sha": "013c444",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (scheduled 2026-11-03 00:44 KST)",
-          "author": "daeguru",
-          "date": "2026-11-02T15:47:05Z"
         }
       ],
       "recent_prs": [
@@ -477,38 +477,38 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-03T03:37:17Z",
-      "pushed_at": "2026-11-03T03:37:13Z",
+      "updated_at": "2026-11-03T09:35:25Z",
+      "pushed_at": "2026-11-03T09:35:20Z",
       "recent_commits": [
+        {
+          "sha": "963a9c9",
+          "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-03 👍",
+          "author": "daeguru",
+          "date": "2026-11-03T09:35:20Z"
+        },
+        {
+          "sha": "6e870e3",
+          "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-03 👍",
+          "author": "daeguru",
+          "date": "2026-11-03T09:35:13Z"
+        },
+        {
+          "sha": "691ed3a",
+          "message": "wake: FB-20261103-02 daeguru·daeguru2 기상 기록",
+          "author": "Laika",
+          "date": "2026-11-03T09:33:54Z"
+        },
+        {
+          "sha": "3a7fd82",
+          "message": "board: 라이카 아레나 일일 연구 2026-11-03",
+          "author": "Laika",
+          "date": "2026-11-03T08:44:43Z"
+        },
         {
           "sha": "f9d48af",
           "message": "log: Jev 게이트 판정 기록 2026-11-03",
           "author": "대구루 (AI)",
           "date": "2026-11-03T03:37:11Z"
-        },
-        {
-          "sha": "75aa837",
-          "message": "feed: FB-20261103-01 대구루 경기 비평 11-02 판 + 라이카 비평 ACK",
-          "author": "daeguru",
-          "date": "2026-11-02T23:00:07Z"
-        },
-        {
-          "sha": "c53867c",
-          "message": "log: Jev 게이트 판정 기록 2026-11-03",
-          "author": "daeguru",
-          "date": "2026-11-02T21:34:07Z"
-        },
-        {
-          "sha": "694230f",
-          "message": "board: daeguru ACK — 라이카 11-02 경기 비평(5bp 익절 비용 미달) 👍 [판사 3단계 1회차]",
-          "author": "daeguru",
-          "date": "2026-11-02T15:38:47Z"
-        },
-        {
-          "sha": "dc0c94d",
-          "message": "board: daeguru2 ACK — 라이카 11-02 경기 비평(5bp 익절과 비용) 👍",
-          "author": "daeguru",
-          "date": "2026-11-02T15:38:34Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,51 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-03 👍",
+      "sha": "963a9c9",
+      "date": "2026-11-03T09:35:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/963a9c9756d933baad20a6f5160eebb3b261cc0b"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-03 👍",
+      "sha": "6e870e3",
+      "date": "2026-11-03T09:35:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6e870e3adadcf7ec81fe61b28fa76e02284a60f2"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "wake: FB-20261103-02 daeguru·daeguru2 기상 기록",
+      "sha": "691ed3a",
+      "date": "2026-11-03T09:33:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/691ed3af38a1a09c9aa0b9e39bbbbd402562e52c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "board: 라이카 아레나 일일 연구 2026-11-03",
+      "sha": "3a7fd82",
+      "date": "2026-11-03T08:44:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3a7fd8244eca511a314cefefd026128c346c3322"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-03 15:45 KST)",
+      "sha": "458634f",
+      "date": "2026-11-03T06:49:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/458634fda4aaa5f62b0371f855f2892f00fe956f"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): refresh dashboard.json and github-activity.json (2026-11-03 12:44 KST)",
@@ -636,30 +681,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20261103-01 대구루 경기 비평 11-02 판 + 라이카 비평 ACK",
-      "sha": "75aa837",
-      "date": "2026-11-02T23:00:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/75aa8378c12e31a773d233c995eae3dd17275e2f"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "daeguru chore(dashboard): update dashboard.json and github-activity.json (scheduled 2026-11-03 06:44 KST)",
       "sha": "269960d",
       "date": "2026-11-02T21:46:36Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/269960d0fd47782ef316a742f1db8bc54bc71614"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-03",
-      "sha": "c53867c",
-      "date": "2026-11-02T21:34:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c53867c0f00f0714ae440d360fa8d9581c6c0728"
     },
     {
       "type": "commit",
@@ -678,33 +705,6 @@
       "sha": "083349e",
       "date": "2026-11-02T18:43:05Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/083349ec4afbd518c3850cc2b76279acab7f5677"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (scheduled 2026-11-03 00:44 KST)",
-      "sha": "013c444",
-      "date": "2026-11-02T15:47:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/013c444b95135e0126c66203d8bf2003209eb4bc"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 11-02 경기 비평(5bp 익절 비용 미달) 👍 [판사 3단계 1회차]",
-      "sha": "694230f",
-      "date": "2026-11-02T15:38:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/694230fc9406c6e4b40883e17348419f31b7adf7"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 11-02 경기 비평(5bp 익절과 비용) 👍",
-      "sha": "dc0c94d",
-      "date": "2026-11-02T15:38:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/dc0c94d95e1cda6d764a061c78367a68043a5168"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 14,
+      "commits": 12,
       "prs": 0,
       "issues": 0,
       "reviews": 0
