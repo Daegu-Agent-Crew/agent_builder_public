@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-04T15:46:13Z",
-  "since": "2026-10-05T15:45:40Z",
+  "generated": "2026-11-04T21:45:28Z",
+  "since": "2026-10-05T21:44:58Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-04T12:47:44Z",
-      "pushed_at": "2026-11-04T12:47:39Z",
+      "updated_at": "2026-11-04T15:46:31Z",
+      "pushed_at": "2026-11-04T15:46:26Z",
       "recent_commits": [
+        {
+          "sha": "b4b3046",
+          "message": "dashboard: refresh dashboard.json + github-activity (2026-11-05)",
+          "author": "daeguru",
+          "date": "2026-11-04T15:46:26Z"
+        },
         {
           "sha": "0b45e3d",
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-11-04 21:44 KST)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-04 09:44 KST)",
           "author": "daeguru",
           "date": "2026-11-04T00:45:53Z"
-        },
-        {
-          "sha": "6335461",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
-          "author": "daeguru",
-          "date": "2026-11-03T21:46:46Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-04T15:35:26Z",
-      "pushed_at": "2026-11-04T15:35:21Z",
+      "updated_at": "2026-11-04T21:36:35Z",
+      "pushed_at": "2026-11-04T21:36:30Z",
       "recent_commits": [
+        {
+          "sha": "b14e7b8",
+          "message": "log: Jev 게이트 판정 기록 2026-11-05",
+          "author": "daeguru",
+          "date": "2026-11-04T21:36:30Z"
+        },
+        {
+          "sha": "1bd42d1",
+          "message": "log: 관측 한 줄 2026-11-05",
+          "author": "daeguru",
+          "date": "2026-11-04T21:36:07Z"
+        },
         {
           "sha": "67b50c8",
           "message": "board: daeguru ACK — 라이카 11-04 경기 비평(좁은 손절과 꼬리위험) 👍 [판사 3단계 3회차]",
@@ -497,18 +509,6 @@
           "message": "log: 관측 한 줄 2026-11-05",
           "author": "daeguru-agent",
           "date": "2026-11-04T15:34:29Z"
-        },
-        {
-          "sha": "46b5afe",
-          "message": "wake: FB-20261104-03 daeguru/daeguru2 기상 기록",
-          "author": "daeguru-agent",
-          "date": "2026-11-04T15:34:29Z"
-        },
-        {
-          "sha": "ed6de5a",
-          "message": "arena: post Laika critique for 2026-11-04",
-          "author": "Laika",
-          "date": "2026-11-04T12:50:47Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,33 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-05",
+      "sha": "b14e7b8",
+      "date": "2026-11-04T21:36:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b14e7b8985d3edd5bb79aeeb2985489818f34b2f"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: 관측 한 줄 2026-11-05",
+      "sha": "1bd42d1",
+      "date": "2026-11-04T21:36:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1bd42d10b99edcdfe24bb740f257b4b898b61f2e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json + github-activity (2026-11-05)",
+      "sha": "b4b3046",
+      "date": "2026-11-04T15:46:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b4b3046afe87989eedcae18b2f89b7f92a965d8b"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
       "message": "board: daeguru ACK — 라이카 11-04 경기 비평(좁은 손절과 꼬리위험) 👍 [판사 3단계 3회차]",
       "sha": "67b50c8",
       "date": "2026-11-04T15:35:22Z",
@@ -629,28 +656,10 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru-agent",
-      "message": "wake: FB-20261104-03 daeguru/daeguru2 기상 기록",
-      "sha": "46b5afe",
-      "date": "2026-11-04T15:34:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/46b5afe3510ce67b791f0e2696d8f433b306c929"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru-agent",
       "message": "log: 관측 한 줄 2026-11-05",
       "sha": "fee9d5c",
       "date": "2026-11-04T15:34:29Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fee9d5c9150eb7bb04e67f7294ff1355eb1d172a"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "arena: post Laika critique for 2026-11-04",
-      "sha": "ed6de5a",
-      "date": "2026-11-04T12:50:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ed6de5a4c2bf78f0c344a9ab5738e89a25d256e3"
     },
     {
       "type": "commit",
@@ -705,15 +714,6 @@
       "sha": "a426186",
       "date": "2026-11-04T00:05:41Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/a426186a35809b60a6d6c97f01bbde5b8c81678c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
-      "sha": "6335461",
-      "date": "2026-11-03T21:46:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6335461ad59d447751f96fb0b7ba2d8e00ac3185"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 14,
+      "commits": 16,
       "prs": 0,
       "issues": 0,
       "reviews": 0
