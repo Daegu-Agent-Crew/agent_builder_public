@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-03T21:46:28Z",
-  "since": "2026-10-04T21:45:53Z",
+  "generated": "2026-11-04T00:45:40Z",
+  "since": "2026-10-05T00:45:09Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-03T18:47:18Z",
-      "pushed_at": "2026-11-03T18:47:13Z",
+      "updated_at": "2026-11-03T21:46:51Z",
+      "pushed_at": "2026-11-03T21:46:47Z",
       "recent_commits": [
+        {
+          "sha": "6335461",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
+          "author": "daeguru",
+          "date": "2026-11-03T21:46:46Z"
+        },
         {
           "sha": "a374ea9",
           "message": "chore(dashboard): update dashboard data 2026-11-04 03:46",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-03 15:45 KST)",
           "author": "daeguru",
           "date": "2026-11-03T06:49:03Z"
-        },
-        {
-          "sha": "7354e51",
-          "message": "chore(dashboard): refresh dashboard.json and github-activity.json (2026-11-03 12:44 KST)",
-          "author": "daeguru",
-          "date": "2026-11-03T03:46:50Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-03T21:32:48Z",
-      "pushed_at": "2026-11-03T21:32:43Z",
+      "updated_at": "2026-11-03T23:00:04Z",
+      "pushed_at": "2026-11-03T23:00:00Z",
       "recent_commits": [
+        {
+          "sha": "640a250",
+          "message": "feed: FB-20261104-01 대구루 경기 비평 11-03 판 + 라이카 비평 ACK",
+          "author": "daeguru",
+          "date": "2026-11-03T23:00:00Z"
+        },
         {
           "sha": "68e031e",
           "message": "log: Jev 게이트 판정 기록 2026-11-04",
@@ -501,12 +507,6 @@
         {
           "sha": "0a1e5d7",
           "message": "log: Jev 게이트 판정 기록 2026-11-04",
-          "author": "대구루 (AI)",
-          "date": "2026-11-03T15:38:06Z"
-        },
-        {
-          "sha": "38be072",
-          "message": "wake: FB-20261103-03 daeguru, daeguru2 기상 기록",
           "author": "대구루 (AI)",
           "date": "2026-11-03T15:38:06Z"
         }
@@ -544,9 +544,15 @@
       "private": true,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-08-03T23:58:36Z",
-      "pushed_at": "2026-08-03T23:58:34Z",
+      "updated_at": "2026-11-04T00:06:17Z",
+      "pushed_at": "2026-11-04T00:06:11Z",
       "recent_commits": [
+        {
+          "sha": "a426186",
+          "message": "삼체 데일리 #1 — codex 내장 image_gen 생성 (예원제·송신 버튼 직전)",
+          "author": "daeguru",
+          "date": "2026-11-04T00:05:41Z"
+        },
         {
           "sha": "763c453",
           "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
@@ -570,12 +576,6 @@
           "message": "CLE5 EP002 image: p4-2_film_countdown.jpg",
           "author": "sfex11",
           "date": "2026-08-03T23:58:29Z"
-        },
-        {
-          "sha": "ed3d162",
-          "message": "CLE5 EP002 image: p2-3_first_flash.jpg",
-          "author": "sfex11",
-          "date": "2026-08-03T23:58:27Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,33 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "삼체 데일리 #1 — codex 내장 image_gen 생성 (예원제·송신 버튼 직전)",
+      "sha": "a426186",
+      "date": "2026-11-04T00:05:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/a426186a35809b60a6d6c97f01bbde5b8c81678c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261104-01 대구루 경기 비평 11-03 판 + 라이카 비평 ACK",
+      "sha": "640a250",
+      "date": "2026-11-03T23:00:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/640a2507bc35122d8cc88b4abe24646aa3299127"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
+      "sha": "6335461",
+      "date": "2026-11-03T21:46:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6335461ad59d447751f96fb0b7ba2d8e00ac3185"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -656,15 +683,6 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "대구루 (AI)",
-      "message": "wake: FB-20261103-03 daeguru, daeguru2 기상 기록",
-      "sha": "38be072",
-      "date": "2026-11-03T15:38:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/38be0723cc06a3f3fd4a536f6522cb1f131f04bf"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
       "message": "log: Jev 게이트 판정 기록 2026-11-04",
       "sha": "0a1e5d7",
       "date": "2026-11-03T15:38:06Z",
@@ -696,15 +714,6 @@
       "sha": "458634f",
       "date": "2026-11-03T06:49:03Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/458634fda4aaa5f62b0371f855f2892f00fe956f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json and github-activity.json (2026-11-03 12:44 KST)",
-      "sha": "7354e51",
-      "date": "2026-11-03T03:46:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7354e515a169f79466a75ffb73ce8a7f631fe382"
     },
     {
       "type": "commit",
@@ -933,15 +942,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/8bf7bf520820a4795f700145c7b4afc51cde6612"
     },
     {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "sfex11",
-      "message": "CLE5 EP002 image: p2-3_first_flash.jpg",
-      "sha": "ed3d162",
-      "date": "2026-08-03T23:58:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/ed3d1629473603b4f2c83c67784ebb57fe130b20"
-    },
-    {
       "type": "pr",
       "repo": "three-body-comic",
       "author": "sfex11",
@@ -1078,16 +1078,16 @@
   ],
   "member_stats": [
     {
-      "login": "sfex11",
-      "commits": 11,
-      "prs": 18,
+      "login": "daeguru",
+      "commits": 13,
+      "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
-      "login": "daeguru",
-      "commits": 11,
-      "prs": 0,
+      "login": "sfex11",
+      "commits": 10,
+      "prs": 18,
       "issues": 0,
       "reviews": 0
     },
