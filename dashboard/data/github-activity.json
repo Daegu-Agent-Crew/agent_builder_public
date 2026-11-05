@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-05T09:46:32Z",
-  "since": "2026-10-06T09:46:00Z",
+  "generated": "2026-11-05T12:07:53Z",
+  "since": "2026-10-06T12:06:52Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-05T08:46:47Z",
-      "pushed_at": "2026-11-05T08:46:42Z",
+      "updated_at": "2026-11-05T09:47:02Z",
+      "pushed_at": "2026-11-05T09:46:56Z",
       "recent_commits": [
+        {
+          "sha": "482cacc",
+          "message": "dashboard: refresh dashboard.json and github-activity.json (scheduled 2026-11-05)",
+          "author": "daeguru",
+          "date": "2026-11-05T09:46:56Z"
+        },
         {
           "sha": "e5e190f",
           "message": "assets: mirror DAC #263 real artifact (three-body daily 002)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-11-05 15:44 KST)",
           "author": "daeguru",
           "date": "2026-11-05T06:46:24Z"
-        },
-        {
-          "sha": "3bb9816",
-          "message": "data: update dashboard.json and github-activity.json (auto)",
-          "author": "daeguru",
-          "date": "2026-11-05T03:47:36Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json and github-activity.json (scheduled 2026-11-05)",
+      "sha": "482cacc",
+      "date": "2026-11-05T09:46:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/482caccb87357da11834bd03f29521359932c0a6"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru ACK — 라이카 일일 연구 11-05 원본(101) 👍",
@@ -687,15 +696,6 @@
       "sha": "2f370ca",
       "date": "2026-11-05T06:46:24Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2f370ca5d3ad9dedc6dd024ba29bfd2c88bd2e64"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "data: update dashboard.json and github-activity.json (auto)",
-      "sha": "3bb9816",
-      "date": "2026-11-05T03:47:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3bb9816eb3f7557e82d697bd3a5903836b847bdf"
     },
     {
       "type": "commit",
