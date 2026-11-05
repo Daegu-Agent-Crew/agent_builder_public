@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-05T12:07:53Z",
-  "since": "2026-10-06T12:06:52Z",
+  "generated": "2026-11-05T12:46:09Z",
+  "since": "2026-10-06T12:45:37Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-05T09:47:02Z",
-      "pushed_at": "2026-11-05T09:46:56Z",
+      "updated_at": "2026-11-05T12:08:11Z",
+      "pushed_at": "2026-11-05T12:08:07Z",
       "recent_commits": [
+        {
+          "sha": "5ff2811",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-05T12:07:53Z)",
+          "author": "daeguru",
+          "date": "2026-11-05T12:07:54Z"
+        },
         {
           "sha": "482cacc",
           "message": "dashboard: refresh dashboard.json and github-activity.json (scheduled 2026-11-05)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-05T08:42:36Z)",
           "author": "daeguru",
           "date": "2026-11-05T08:42:36Z"
-        },
-        {
-          "sha": "2f370ca",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-11-05 15:44 KST)",
-          "author": "daeguru",
-          "date": "2026-11-05T06:46:24Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 16,
       "open_prs": 3,
-      "updated_at": "2026-11-04T12:40:23Z",
-      "pushed_at": "2026-11-04T12:40:18Z",
+      "updated_at": "2026-11-05T12:40:20Z",
+      "pushed_at": "2026-11-05T12:40:16Z",
       "recent_commits": [
+        {
+          "sha": "63a5be3",
+          "message": "data(arena): 공식 경기 2026-11-05 21:30",
+          "author": "daeguru",
+          "date": "2026-11-05T12:40:15Z"
+        },
         {
           "sha": "cc601f1",
           "message": "data(arena): 공식 경기 2026-11-04 21:30",
@@ -233,12 +239,6 @@
           "message": "data(arena): 공식 경기 2026-11-02 21:30",
           "author": "daeguru",
           "date": "2026-11-02T12:40:32Z"
-        },
-        {
-          "sha": "57f3aed",
-          "message": "data(arena): 공식 경기 2026-11-01 21:30",
-          "author": "daeguru",
-          "date": "2026-11-01T12:40:15Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-05 21:30",
+      "sha": "63a5be3",
+      "date": "2026-11-05T12:40:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/63a5be332343ed9453c39a81c7f43615b172325f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-05T12:07:53Z)",
+      "sha": "5ff2811",
+      "date": "2026-11-05T12:07:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5ff2811b0c6d03a0340067312b2d430c4689c4d5"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json and github-activity.json (scheduled 2026-11-05)",
@@ -690,15 +708,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (2026-11-05 15:44 KST)",
-      "sha": "2f370ca",
-      "date": "2026-11-05T06:46:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2f370ca5d3ad9dedc6dd024ba29bfd2c88bd2e64"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "[삼체 데일리 #2] 2026-11-05 새벽 컷 — codex 내장 image_gen",
@@ -750,15 +759,6 @@
       "sha": "008c084",
       "date": "2026-11-02T12:40:32Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/008c084c5500a597bdbe51010c5b864d5b9578b4"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-01 21:30",
-      "sha": "57f3aed",
-      "date": "2026-11-01T12:40:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/57f3aedd3972f19167c903f43db34d0e3be185fd"
     },
     {
       "type": "pr",
