@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-05T15:46:57Z",
-  "since": "2026-10-06T15:46:25Z",
+  "generated": "2026-11-05T18:08:06Z",
+  "since": "2026-10-06T18:06:55Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-05T15:07:01Z",
-      "pushed_at": "2026-11-05T15:06:57Z",
+      "updated_at": "2026-11-05T15:47:20Z",
+      "pushed_at": "2026-11-05T15:47:16Z",
       "recent_commits": [
+        {
+          "sha": "340f3e1",
+          "message": "dashboard: update dashboard.json and github-activity.json (auto 2026-11-06 00:47)",
+          "author": "daeguru",
+          "date": "2026-11-05T15:47:15Z"
+        },
         {
           "sha": "886def2",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-05T15:06:53Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json and github-activity.json (scheduled 2026-11-05)",
           "author": "daeguru",
           "date": "2026-11-05T09:46:56Z"
-        },
-        {
-          "sha": "e5e190f",
-          "message": "assets: mirror DAC #263 real artifact (three-body daily 002)",
-          "author": "sfex11",
-          "date": "2026-11-05T08:46:41Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (auto 2026-11-06 00:47)",
+      "sha": "340f3e1",
+      "date": "2026-11-05T15:47:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/340f3e15826f78b5200add306b46ac0610906d85"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru ACK — 라이카 11-05 경기 비평 2건(102·103) 👍 [판사 3단계 4·5회차]",
@@ -696,15 +705,6 @@
       "sha": "482cacc",
       "date": "2026-11-05T09:46:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/482caccb87357da11834bd03f29521359932c0a6"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "assets: mirror DAC #263 real artifact (three-body daily 002)",
-      "sha": "e5e190f",
-      "date": "2026-11-05T08:46:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e5e190f2e12a06240ba7ed0c4e6e7df0592ac068"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 14,
+      "commits": 15,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 10,
+      "commits": 9,
       "prs": 18,
       "issues": 0,
       "reviews": 0
