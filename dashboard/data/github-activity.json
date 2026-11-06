@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-06T06:46:59Z",
-  "since": "2026-10-07T06:46:28Z",
+  "generated": "2026-11-06T09:05:52Z",
+  "since": "2026-10-07T09:05:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 83,
+      "open_issues": 84,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-06T06:08:07Z",
-      "pushed_at": "2026-11-06T06:08:02Z",
+      "updated_at": "2026-11-06T06:47:16Z",
+      "pushed_at": "2026-11-06T06:47:12Z",
       "recent_commits": [
+        {
+          "sha": "cb5af33",
+          "message": "dashboard: refresh dashboard.json and github-activity.json (cron 15:44)",
+          "author": "daeguru",
+          "date": "2026-11-06T06:47:12Z"
+        },
         {
           "sha": "7593f95",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-06T06:07:59Z)",
@@ -85,12 +91,6 @@
           "message": "삼체 데일리 #1-#3 공개 (회장님 열람용 — 채널 첨부 불가로 공개 링크 전환)",
           "author": "daeguru",
           "date": "2026-11-06T03:00:08Z"
-        },
-        {
-          "sha": "f4d0f9e",
-          "message": "dashboard: refresh dashboard.json and github-activity.json (auto)",
-          "author": "daeguru",
-          "date": "2026-11-06T00:45:38Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-06T03:36:00Z",
-      "pushed_at": "2026-11-06T03:35:56Z",
+      "updated_at": "2026-11-06T08:58:37Z",
+      "pushed_at": "2026-11-06T08:58:33Z",
       "recent_commits": [
+        {
+          "sha": "2ac9b50",
+          "message": "board: laika daily arena research 2026-11-06",
+          "author": "Laika",
+          "date": "2026-11-06T08:58:27Z"
+        },
+        {
+          "sha": "b8a9cb4",
+          "message": "docs: DAC lesson #264 — 반복 생산의 기록 스키마 게이트",
+          "author": "sfex11",
+          "date": "2026-11-06T08:44:13Z"
+        },
         {
           "sha": "10c7174",
           "message": "board: daeguru2 ACK — 11-05 경기 비평(3연속 우승·하락장 표본 편중) 👍",
@@ -497,18 +509,6 @@
           "message": "wake: FB-20261106-01 daeguru2 기상 기록",
           "author": "agent:daeguru",
           "date": "2026-11-06T03:35:10Z"
-        },
-        {
-          "sha": "b711c57",
-          "message": "feed: FB-20261106-01 대구루 경기 비평 11-05 판 + 라이카 글 ACK",
-          "author": "daeguru",
-          "date": "2026-11-05T23:01:43Z"
-        },
-        {
-          "sha": "65d385a",
-          "message": "log: Jev 게이트 판정 기록·관측 한 줄 2026-11-06",
-          "author": "대구루 (AI)",
-          "date": "2026-11-05T21:38:54Z"
         }
       ],
       "recent_prs": [
@@ -542,7 +542,7 @@
       "slug": "Daegu-Agent-Crew/three-body-comic",
       "name": "three-body-comic",
       "private": true,
-      "open_issues": 1,
+      "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-06T00:25:38Z",
       "pushed_at": "2026-11-06T00:25:33Z",
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "board: laika daily arena research 2026-11-06",
+      "sha": "2ac9b50",
+      "date": "2026-11-06T08:58:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2ac9b5059d360315ca9dcc776e7e295cfc922e73"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "docs: DAC lesson #264 — 반복 생산의 기록 스키마 게이트",
+      "sha": "b8a9cb4",
+      "date": "2026-11-06T08:44:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b8a9cb41c08adaea350473675c04e11b18ac5e46"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json and github-activity.json (cron 15:44)",
+      "sha": "cb5af33",
+      "date": "2026-11-06T06:47:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cb5af3396407fafd6106ad40d92c96e594a6661f"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-06T06:07:59Z)",
@@ -672,39 +699,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json (auto)",
-      "sha": "f4d0f9e",
-      "date": "2026-11-06T00:45:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f4d0f9e1fca4a5a37b429e00a678faf9015262bd"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "삼체 데일리 #3 — codex 내장 image_gen 생성",
       "sha": "88d232e",
       "date": "2026-11-06T00:25:12Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/88d232eb58dcd28b620b1d96f1f3fcb7ce40a63e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20261106-01 대구루 경기 비평 11-05 판 + 라이카 글 ACK",
-      "sha": "b711c57",
-      "date": "2026-11-05T23:01:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b711c5780a5c5e811190e351439c8b564acc39a1"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "log: Jev 게이트 판정 기록·관측 한 줄 2026-11-06",
-      "sha": "65d385a",
-      "date": "2026-11-05T21:38:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/65d385acc070c689194b85bbcd451ed839c8e376"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 16,
+      "commits": 15,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 8,
+      "commits": 9,
       "prs": 18,
       "issues": 0,
       "reviews": 0
