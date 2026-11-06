@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06T06:07:59Z",
-  "since": "2026-10-07T06:06:42Z",
+  "generated": "2026-11-06T06:46:59Z",
+  "since": "2026-10-07T06:46:28Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-06T03:46:11Z",
-      "pushed_at": "2026-11-06T03:46:07Z",
+      "updated_at": "2026-11-06T06:08:07Z",
+      "pushed_at": "2026-11-06T06:08:02Z",
       "recent_commits": [
+        {
+          "sha": "7593f95",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-06T06:07:59Z)",
+          "author": "daeguru",
+          "date": "2026-11-06T06:07:59Z"
+        },
         {
           "sha": "b7b75aa",
           "message": "dashboard: update dashboard.json and github-activity.json (cron)",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json and github-activity.json (auto)",
           "author": "daeguru",
           "date": "2026-11-06T00:45:38Z"
-        },
-        {
-          "sha": "a04dc7f",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-06T00:08:06Z)",
-          "author": "daeguru",
-          "date": "2026-11-06T00:08:06Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-06T06:07:59Z)",
+      "sha": "7593f95",
+      "date": "2026-11-06T06:07:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7593f9564a60cb059210bed96fef26050f7bad84"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json (cron)",
       "sha": "b7b75aa",
       "date": "2026-11-06T03:46:07Z",
@@ -678,15 +687,6 @@
       "sha": "88d232e",
       "date": "2026-11-06T00:25:12Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/88d232eb58dcd28b620b1d96f1f3fcb7ce40a63e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-06T00:08:06Z)",
-      "sha": "a04dc7f",
-      "date": "2026-11-06T00:08:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a04dc7f422bbc8005f0dcf7fa4d4cdaab4f7dc9f"
     },
     {
       "type": "commit",
