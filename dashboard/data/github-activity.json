@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06T03:45:43Z",
-  "since": "2026-10-07T03:45:15Z",
+  "generated": "2026-11-06T06:07:59Z",
+  "since": "2026-10-07T06:06:42Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-06T03:06:58Z",
-      "pushed_at": "2026-11-06T03:06:54Z",
+      "updated_at": "2026-11-06T03:46:11Z",
+      "pushed_at": "2026-11-06T03:46:07Z",
       "recent_commits": [
+        {
+          "sha": "b7b75aa",
+          "message": "dashboard: update dashboard.json and github-activity.json (cron)",
+          "author": "daeguru",
+          "date": "2026-11-06T03:46:07Z"
+        },
         {
           "sha": "1af9e5d",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-06T03:06:51Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-06T00:08:06Z)",
           "author": "daeguru",
           "date": "2026-11-06T00:08:06Z"
-        },
-        {
-          "sha": "43e4eba",
-          "message": "chore(dashboard): update dashboard.json and github activity (auto)",
-          "author": "daeguru",
-          "date": "2026-11-05T21:45:48Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (cron)",
+      "sha": "b7b75aa",
+      "date": "2026-11-06T03:46:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b7b75aa75635680e6f26ecd8ba57b51c87969bfc"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 11-05 경기 비평(3연속 우승·하락장 표본 편중) 👍",
@@ -687,15 +696,6 @@
       "sha": "b711c57",
       "date": "2026-11-05T23:01:43Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b711c5780a5c5e811190e351439c8b564acc39a1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github activity (auto)",
-      "sha": "43e4eba",
-      "date": "2026-11-05T21:45:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/43e4eba7a83949e66683e9d7aa3600a03318ad60"
     },
     {
       "type": "commit",
