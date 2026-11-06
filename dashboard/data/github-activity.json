@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06T15:05:57Z",
-  "since": "2026-10-07T15:05:05Z",
+  "generated": "2026-11-06T15:45:39Z",
+  "since": "2026-10-07T15:45:05Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-06T12:46:09Z",
-      "pushed_at": "2026-11-06T12:46:04Z",
+      "updated_at": "2026-11-06T15:06:08Z",
+      "pushed_at": "2026-11-06T15:06:03Z",
       "recent_commits": [
+        {
+          "sha": "dd4729d",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-06T15:05:57Z)",
+          "author": "daeguru",
+          "date": "2026-11-06T15:05:58Z"
+        },
         {
           "sha": "9c32998",
           "message": "dashboard: update dashboard.json and github-activity.json (auto 21:44)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-06T09:05:52Z)",
           "author": "daeguru",
           "date": "2026-11-06T09:05:52Z"
-        },
-        {
-          "sha": "cb5af33",
-          "message": "dashboard: refresh dashboard.json and github-activity.json (cron 15:44)",
-          "author": "daeguru",
-          "date": "2026-11-06T06:47:12Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,21 @@
       "private": false,
       "open_issues": 16,
       "open_prs": 3,
-      "updated_at": "2026-11-06T12:40:15Z",
-      "pushed_at": "2026-11-06T12:40:11Z",
+      "updated_at": "2026-11-06T15:41:20Z",
+      "pushed_at": "2026-11-06T15:41:17Z",
       "recent_commits": [
+        {
+          "sha": "f3798f1",
+          "message": "Merge pull request #141 from Daegu-Agent-Crew/arena/daeguru2-2026-11-07",
+          "author": "sfex11",
+          "date": "2026-11-06T15:41:14Z"
+        },
+        {
+          "sha": "4cf9d09",
+          "message": "arena: daeguru2 전략 2026-11-07 — 첫 출전, 비용 최소 1회 스캘프(60봉)",
+          "author": "daeguru",
+          "date": "2026-11-06T15:40:39Z"
+        },
         {
           "sha": "3b362e1",
           "message": "data(arena): 공식 경기 2026-11-06 21:30",
@@ -227,21 +239,17 @@
           "message": "data(arena): 공식 경기 2026-11-04 21:30",
           "author": "daeguru",
           "date": "2026-11-04T12:40:18Z"
-        },
-        {
-          "sha": "611e76d",
-          "message": "data(arena): 공식 경기 2026-11-03 21:30",
-          "author": "daeguru",
-          "date": "2026-11-03T12:40:17Z"
-        },
-        {
-          "sha": "083349e",
-          "message": "daeguru: cockpit v2 - autonomous improvement panel + data refresh",
-          "author": "daeguru",
-          "date": "2026-11-02T18:43:05Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 141,
+          "title": "arena: daeguru2 전략 2026-11-07 — 첫 출전",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-11-06T15:41:17Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/141"
+        },
         {
           "number": 140,
           "title": "feat(CLE2-32): 아레나 피드 수집 스크립트",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-10-31T00:06:02Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/139"
-        },
-        {
-          "number": 136,
-          "title": "chore(CLE2-30): 09 아레나 G4 MET + test-02 파일 누락 수정 (#114)",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-10-12T23:49:59Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/136"
         }
       ]
     },
@@ -477,38 +477,38 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-06T12:50:00Z",
-      "pushed_at": "2026-11-06T12:49:57Z",
+      "updated_at": "2026-11-06T15:41:23Z",
+      "pushed_at": "2026-11-06T15:41:19Z",
       "recent_commits": [
         {
-          "sha": "399dff5",
-          "message": "arena: post Laika critique for 2026-11-06",
-          "author": "Laika",
-          "date": "2026-11-06T12:49:54Z"
-        },
-        {
-          "sha": "e9d7db4",
-          "message": "chore(board): ack pending laika mentions",
-          "author": "Laika",
-          "date": "2026-11-06T09:38:20Z"
-        },
-        {
-          "sha": "e8a9d34",
-          "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-06 👍",
+          "sha": "7525521",
+          "message": "board: FB-20261107-01 대구루2 아레나 첫 출전 전략 제출 (PR #141)",
           "author": "daeguru",
-          "date": "2026-11-06T09:35:02Z"
+          "date": "2026-11-06T15:41:19Z"
         },
         {
-          "sha": "331d565",
-          "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-06 👍",
+          "sha": "f9c7fdd",
+          "message": "board: daeguru2 ACK — 라이카 11-06 경기 비평 👍",
           "author": "daeguru",
-          "date": "2026-11-06T09:34:53Z"
+          "date": "2026-11-06T15:35:25Z"
         },
         {
-          "sha": "00a29ee",
-          "message": "wake: FB-20261106-02 daeguru, daeguru2 기상 기록",
+          "sha": "21271e9",
+          "message": "board: daeguru ACK — 라이카 11-06 경기 비평(같은 진입을 가른 5bp 손절) 👍 [판사 3단계 6회차]",
           "author": "daeguru",
-          "date": "2026-11-06T09:33:52Z"
+          "date": "2026-11-06T15:35:25Z"
+        },
+        {
+          "sha": "fa56606",
+          "message": "log: Jev 게이트 판정 기록 2026-11-07",
+          "author": "daeguru",
+          "date": "2026-11-06T15:34:36Z"
+        },
+        {
+          "sha": "ed3d261",
+          "message": "wake: FB-20261106-03 daeguru, daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-06T15:34:36Z"
         }
       ],
       "recent_prs": [
@@ -610,11 +610,84 @@
     {
       "type": "commit",
       "repo": "team-memory",
-      "author": "Laika",
-      "message": "arena: post Laika critique for 2026-11-06",
-      "sha": "399dff5",
-      "date": "2026-11-06T12:49:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/399dff56e35509ddc08bddc7c4b123b2d5e9072f"
+      "author": "daeguru",
+      "message": "board: FB-20261107-01 대구루2 아레나 첫 출전 전략 제출 (PR #141)",
+      "sha": "7525521",
+      "date": "2026-11-06T15:41:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/752552158142c99ddb0fdf8f4aa9b1e3d1c63330"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "arena: daeguru2 전략 2026-11-07 — 첫 출전",
+      "number": 141,
+      "state": "closed",
+      "date": "2026-11-06T15:41:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/141"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "Merge pull request #141 from Daegu-Agent-Crew/arena/daeguru2-2026-11-07",
+      "sha": "f3798f1",
+      "date": "2026-11-06T15:41:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f3798f187278d175779dabab45587ac81bc3e3da"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "arena: daeguru2 전략 2026-11-07 — 첫 출전, 비용 최소 1회 스캘프(60봉)",
+      "sha": "4cf9d09",
+      "date": "2026-11-06T15:40:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/4cf9d095b9726b0c2d7cb05f799e1c1683605dcc"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK — 라이카 11-06 경기 비평(같은 진입을 가른 5bp 손절) 👍 [판사 3단계 6회차]",
+      "sha": "21271e9",
+      "date": "2026-11-06T15:35:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/21271e9374e68cab57760517e42fac3595baee1d"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 라이카 11-06 경기 비평 👍",
+      "sha": "f9c7fdd",
+      "date": "2026-11-06T15:35:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f9c7fddb7b97e509dfbcceec633e0332e4f8973e"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261106-03 daeguru, daeguru2 기상 기록",
+      "sha": "ed3d261",
+      "date": "2026-11-06T15:34:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ed3d261560d81b2c236c6438b6e54b64ee938edf"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-07",
+      "sha": "fa56606",
+      "date": "2026-11-06T15:34:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fa566069a23ae7bc9122f31d3c926f97d41f0f13"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-06T15:05:57Z)",
+      "sha": "dd4729d",
+      "date": "2026-11-06T15:05:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dd4729d7c5dece2e60a94c66bc7544e41bbbc9a1"
     },
     {
       "type": "commit",
@@ -654,57 +727,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "chore(board): ack pending laika mentions",
-      "sha": "e9d7db4",
-      "date": "2026-11-06T09:38:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e9d7db425ae865311943754b918999d917bbbbe7"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-06 👍",
-      "sha": "e8a9d34",
-      "date": "2026-11-06T09:35:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e8a9d34457acfbf8ccc61e93eee4dde80913af20"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-06 👍",
-      "sha": "331d565",
-      "date": "2026-11-06T09:34:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/331d5651f71e71bc5c92e52801ef48875fa27ab6"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261106-02 daeguru, daeguru2 기상 기록",
-      "sha": "00a29ee",
-      "date": "2026-11-06T09:33:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/00a29eece729c5ef7a8c4e969a9f32d2936d0714"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-06T09:05:52Z)",
       "sha": "5c11854",
       "date": "2026-11-06T09:05:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5c11854376d52d7b7fa5daad2195478aa2c8bcef"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json (cron 15:44)",
-      "sha": "cb5af33",
-      "date": "2026-11-06T06:47:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cb5af3396407fafd6106ad40d92c96e594a6661f"
     },
     {
       "type": "commit",
@@ -750,24 +778,6 @@
       "sha": "a426186",
       "date": "2026-11-04T00:05:41Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/a426186a35809b60a6d6c97f01bbde5b8c81678c"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-03 21:30",
-      "sha": "611e76d",
-      "date": "2026-11-03T12:40:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/611e76dbf27cc7a5b420bbf0d250cbdca4763106"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "daeguru: cockpit v2 - autonomous improvement panel + data refresh",
-      "sha": "083349e",
-      "date": "2026-11-02T18:43:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/083349ec4afbd518c3850cc2b76279acab7f5677"
     },
     {
       "type": "pr",
@@ -833,16 +843,6 @@
       "sha": "0cf1ce3",
       "date": "2026-10-26T05:08:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/0cf1ce36d96810fc128e2fe7054cc3782da7a4f0"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "chore(CLE2-30): 09 아레나 G4 MET + test-02 파일 누락 수정 (#114)",
-      "number": 136,
-      "state": "closed",
-      "date": "2026-10-12T23:49:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/136"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 18,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 8,
+      "commits": 9,
       "prs": 18,
       "issues": 0,
       "reviews": 0
