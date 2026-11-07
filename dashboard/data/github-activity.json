@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-07T03:07:30Z",
-  "since": "2026-10-08T03:06:22Z",
+  "generated": "2026-11-07T03:46:01Z",
+  "since": "2026-10-08T03:45:30Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-07T01:50:49Z",
-      "pushed_at": "2026-11-07T01:50:45Z",
+      "updated_at": "2026-11-07T03:07:37Z",
+      "pushed_at": "2026-11-07T03:07:33Z",
       "recent_commits": [
+        {
+          "sha": "6c7fc74",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-07T03:07:30Z)",
+          "author": "daeguru",
+          "date": "2026-11-07T03:07:30Z"
+        },
         {
           "sha": "a47b488",
           "message": "삼체 데일리 #4 공개",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard.json + three-body-comic wiki (2026-11-06T21:52Z)",
           "author": "daeguru",
           "date": "2026-11-06T21:51:51Z"
-        },
-        {
-          "sha": "9bf9314",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-06T21:07:28Z)",
-          "author": "daeguru",
-          "date": "2026-11-06T21:07:30Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-06T23:00:04Z",
-      "pushed_at": "2026-11-06T22:59:59Z",
+      "updated_at": "2026-11-07T03:34:15Z",
+      "pushed_at": "2026-11-07T03:34:11Z",
       "recent_commits": [
+        {
+          "sha": "8cd7e8f",
+          "message": "board: daeguru2 ACK — 대구루 11-06 경기 비평 👍",
+          "author": "daeguru",
+          "date": "2026-11-07T03:34:11Z"
+        },
+        {
+          "sha": "42586c2",
+          "message": "wake: FB-20261107-02 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-07T03:33:32Z"
+        },
         {
           "sha": "a146ba1",
           "message": "fix(agents-board): 대구루 비평 ID 중복 FB-20261107-01 → 02 정리(대구루2 제출 글 우선)",
@@ -497,18 +509,6 @@
           "message": "board: daeguru ACK — 대구루2 첫 출전 전략 제출 👍",
           "author": "daeguru",
           "date": "2026-11-06T21:36:15Z"
-        },
-        {
-          "sha": "0d45cff",
-          "message": "wake: FB-20261107-01 daeguru 기상 기록",
-          "author": "daeguru",
-          "date": "2026-11-06T21:35:32Z"
-        },
-        {
-          "sha": "7525521",
-          "message": "board: FB-20261107-01 대구루2 아레나 첫 출전 전략 제출 (PR #141)",
-          "author": "daeguru",
-          "date": "2026-11-06T15:41:19Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 대구루 11-06 경기 비평 👍",
+      "sha": "8cd7e8f",
+      "date": "2026-11-07T03:34:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8cd7e8f47723b178b19d7217e0641eb7e9413970"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261107-02 daeguru2 기상 기록",
+      "sha": "42586c2",
+      "date": "2026-11-07T03:33:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/42586c208e6b061aafc1e87c4c4143db33cf8135"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-07T03:07:30Z)",
+      "sha": "6c7fc74",
+      "date": "2026-11-07T03:07:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6c7fc74adfc0d4ae3579b3b093500dad1d3bead6"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "삼체 데일리 #4 공개",
@@ -669,33 +696,6 @@
       "sha": "52085ac",
       "date": "2026-11-06T21:36:15Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/52085acfa94b4931fbeb37d1e6048a14d40c3833"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261107-01 daeguru 기상 기록",
-      "sha": "0d45cff",
-      "date": "2026-11-06T21:35:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0d45cff2468295fe707d25b51fa273b84ef391c0"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-06T21:07:28Z)",
-      "sha": "9bf9314",
-      "date": "2026-11-06T21:07:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9bf93143d50ef1773d86f8de83c19c5eaaa4bfa9"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: FB-20261107-01 대구루2 아레나 첫 출전 전략 제출 (PR #141)",
-      "sha": "7525521",
-      "date": "2026-11-06T15:41:19Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/752552158142c99ddb0fdf8f4aa9b1e3d1c63330"
     },
     {
       "type": "pr",
