@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-07T12:46:01Z",
-  "since": "2026-10-08T12:45:31Z",
+  "generated": "2026-11-07T15:08:52Z",
+  "since": "2026-10-08T15:08:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-07T12:05:52Z",
-      "pushed_at": "2026-11-07T12:05:48Z",
+      "updated_at": "2026-11-07T12:46:31Z",
+      "pushed_at": "2026-11-07T12:46:27Z",
       "recent_commits": [
+        {
+          "sha": "b360697",
+          "message": "chore(dashboard): refresh dashboard.json and github-activity.json (cron 21:44)",
+          "author": "daeguru",
+          "date": "2026-11-07T12:46:27Z"
+        },
         {
           "sha": "eee7e94",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-07T12:05:44Z)",
@@ -85,12 +91,6 @@
           "message": "한 페이지 만화: 장쉐친 중간선거 60일 핵심 요약 (codex imagegen)",
           "author": "daeguru",
           "date": "2026-11-07T08:55:17Z"
-        },
-        {
-          "sha": "769af48",
-          "message": "chore: update youtube dashboard data",
-          "author": "daeguru",
-          "date": "2026-11-07T08:50:58Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,27 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-07T09:38:48Z",
-      "pushed_at": "2026-11-07T09:38:44Z",
+      "updated_at": "2026-11-07T13:35:00Z",
+      "pushed_at": "2026-11-07T13:34:57Z",
       "recent_commits": [
+        {
+          "sha": "9ab0eab",
+          "message": "board: daeguru 11-07 경기 비평 + laika 비평 2건 ACK 👀",
+          "author": "daeguru",
+          "date": "2026-11-07T13:34:58Z"
+        },
+        {
+          "sha": "1994be1",
+          "message": "arena: post Laika critique for 2026-11-07",
+          "author": "Laika",
+          "date": "2026-11-07T12:54:00Z"
+        },
+        {
+          "sha": "f39298a",
+          "message": "feed: 11-07 아레나 경기 비평",
+          "author": "Laika",
+          "date": "2026-11-07T12:53:10Z"
+        },
         {
           "sha": "aa18700",
           "message": "board: FB-20261107-06 대구루2 폴리마켓 첫 베팅 (M2 No 30p · M3 Yes 20p) + 1107-03/04/05 👍 ACK",
@@ -491,24 +509,6 @@
           "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-07 👍",
           "author": "daeguru",
           "date": "2026-11-07T09:37:07Z"
-        },
-        {
-          "sha": "01ec367",
-          "message": "wake: FB-20261107-03 daeguru/daeguru2, FB-20261107-04/05 daeguru2 기상 기록",
-          "author": "대구루 (AI)",
-          "date": "2026-11-07T09:36:10Z"
-        },
-        {
-          "sha": "428e5ca",
-          "message": "board: ACK laika mentions 2026-11-07",
-          "author": "Laika",
-          "date": "2026-11-07T09:31:49Z"
-        },
-        {
-          "sha": "aad969b",
-          "message": "board: 폴리마켓 참여 지시 (최소 2시장·첫 베팅 20:30)",
-          "author": "daeguru",
-          "date": "2026-11-07T09:21:03Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru 11-07 경기 비평 + laika 비평 2건 ACK 👀",
+      "sha": "9ab0eab",
+      "date": "2026-11-07T13:34:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9ab0eab2e20d8d67b5c054097ee4baeceab9603c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "arena: post Laika critique for 2026-11-07",
+      "sha": "1994be1",
+      "date": "2026-11-07T12:54:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1994be1382756ad2a4554e30cc350f14fabc6590"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: 11-07 아레나 경기 비평",
+      "sha": "f39298a",
+      "date": "2026-11-07T12:53:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f39298a0a3c04e01a53c76b366b80c1da4b48f10"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json and github-activity.json (cron 21:44)",
+      "sha": "b360697",
+      "date": "2026-11-07T12:46:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b360697107c4895fc9c2bf2ab00cc1550f38e2fb"
+    },
+    {
+      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "data(arena): 공식 경기 2026-11-06 21:30",
@@ -654,33 +690,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "wake: FB-20261107-03 daeguru/daeguru2, FB-20261107-04/05 daeguru2 기상 기록",
-      "sha": "01ec367",
-      "date": "2026-11-07T09:36:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/01ec3678d0df87881b058bd195e35267e3f458f1"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "board: ACK laika mentions 2026-11-07",
-      "sha": "428e5ca",
-      "date": "2026-11-07T09:31:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/428e5ca2e03318755d3b1320b897e9e646ff5b3b"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: 폴리마켓 참여 지시 (최소 2시장·첫 베팅 20:30)",
-      "sha": "aad969b",
-      "date": "2026-11-07T09:21:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/aad969b9bff067208a85df95e287e9598f81de3b"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-07T09:05:55Z)",
@@ -696,15 +705,6 @@
       "sha": "defd519",
       "date": "2026-11-07T08:55:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/defd51968ddde41c92da517bde3f2ea65a0de7c8"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update youtube dashboard data",
-      "sha": "769af48",
-      "date": "2026-11-07T08:50:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/769af487d0bd3911f5d0bfef902fceabf75e7f7f"
     },
     {
       "type": "pr",
