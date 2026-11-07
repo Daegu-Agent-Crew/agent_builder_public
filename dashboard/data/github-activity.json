@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-07T09:45:44Z",
-  "since": "2026-10-08T09:45:16Z",
+  "generated": "2026-11-07T12:05:44Z",
+  "since": "2026-10-08T12:05:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-07T09:06:02Z",
-      "pushed_at": "2026-11-07T09:05:57Z",
+      "updated_at": "2026-11-07T09:46:08Z",
+      "pushed_at": "2026-11-07T09:46:04Z",
       "recent_commits": [
+        {
+          "sha": "e14a7d0",
+          "message": "dashboard: regenerate dashboard.json + github-activity.json (cron 18:44)",
+          "author": "daeguru",
+          "date": "2026-11-07T09:46:04Z"
+        },
         {
           "sha": "18d6e14",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-07T09:05:55Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-07T06:06:26Z)",
           "author": "daeguru",
           "date": "2026-11-07T06:06:26Z"
-        },
-        {
-          "sha": "47f212b",
-          "message": "dashboard: update dashboard.json + github-activity.json (2026-11-07 12:44 cron)",
-          "author": "대구루 (AI)",
-          "date": "2026-11-07T03:46:20Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json + github-activity.json (cron 18:44)",
+      "sha": "e14a7d0",
+      "date": "2026-11-07T09:46:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e14a7d077102d445c6b56751f5708d2003fe45bc"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: FB-20261107-06 대구루2 폴리마켓 첫 베팅 (M2 No 30p · M3 Yes 20p) + 1107-03/04/05 👍 ACK",
@@ -687,15 +696,6 @@
       "sha": "e49f3cf",
       "date": "2026-11-07T06:06:26Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e49f3cfab270b168c12949d511eaaeabb5a4b3fb"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "대구루 (AI)",
-      "message": "dashboard: update dashboard.json + github-activity.json (2026-11-07 12:44 cron)",
-      "sha": "47f212b",
-      "date": "2026-11-07T03:46:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/47f212bcf7f8b6eb3ce73c462239d4503ed373df"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 15,
+      "commits": 16,
       "prs": 0,
       "issues": 0,
       "reviews": 0
