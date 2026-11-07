@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-07T03:46:01Z",
-  "since": "2026-10-08T03:45:30Z",
+  "generated": "2026-11-07T06:06:26Z",
+  "since": "2026-10-08T06:05:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-07T03:07:37Z",
-      "pushed_at": "2026-11-07T03:07:33Z",
+      "updated_at": "2026-11-07T03:46:24Z",
+      "pushed_at": "2026-11-07T03:46:20Z",
       "recent_commits": [
+        {
+          "sha": "47f212b",
+          "message": "dashboard: update dashboard.json + github-activity.json (2026-11-07 12:44 cron)",
+          "author": "대구루 (AI)",
+          "date": "2026-11-07T03:46:20Z"
+        },
         {
           "sha": "6c7fc74",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-07T03:07:30Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-07T00:08:25Z)",
           "author": "daeguru",
           "date": "2026-11-07T00:08:25Z"
-        },
-        {
-          "sha": "cf84de0",
-          "message": "chore(dashboard): refresh dashboard.json + three-body-comic wiki (2026-11-06T21:52Z)",
-          "author": "daeguru",
-          "date": "2026-11-06T21:51:51Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "대구루 (AI)",
+      "message": "dashboard: update dashboard.json + github-activity.json (2026-11-07 12:44 cron)",
+      "sha": "47f212b",
+      "date": "2026-11-07T03:46:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/47f212bcf7f8b6eb3ce73c462239d4503ed373df"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 대구루 11-06 경기 비평 👍",
@@ -678,15 +687,6 @@
       "sha": "1d0d3ac",
       "date": "2026-11-06T22:59:43Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1d0d3ac7e1e1b80314a65c36e6b312ba0c910e56"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json + three-body-comic wiki (2026-11-06T21:52Z)",
-      "sha": "cf84de0",
-      "date": "2026-11-06T21:51:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cf84de06b96020c3dc206f0c5f1b44676bae53d5"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 18,
+      "commits": 17,
       "prs": 0,
       "issues": 0,
       "reviews": 0
