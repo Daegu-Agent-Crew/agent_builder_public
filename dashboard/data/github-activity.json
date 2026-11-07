@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06T21:45:16Z",
-  "since": "2026-10-07T21:44:47Z",
+  "generated": "2026-11-07T00:08:25Z",
+  "since": "2026-10-08T00:07:41Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-06T21:07:37Z",
-      "pushed_at": "2026-11-06T21:07:33Z",
+      "updated_at": "2026-11-06T21:51:55Z",
+      "pushed_at": "2026-11-06T21:51:50Z",
       "recent_commits": [
+        {
+          "sha": "cf84de0",
+          "message": "chore(dashboard): refresh dashboard.json + three-body-comic wiki (2026-11-06T21:52Z)",
+          "author": "daeguru",
+          "date": "2026-11-06T21:51:51Z"
+        },
         {
           "sha": "9bf9314",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-06T21:07:28Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json (automated)",
           "author": "daeguru",
           "date": "2026-11-06T15:46:10Z"
-        },
-        {
-          "sha": "dd4729d",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-06T15:05:57Z)",
-          "author": "daeguru",
-          "date": "2026-11-06T15:05:58Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 10,
       "open_prs": 3,
-      "updated_at": "2026-11-06T21:36:19Z",
-      "pushed_at": "2026-11-06T21:36:14Z",
+      "updated_at": "2026-11-06T23:00:04Z",
+      "pushed_at": "2026-11-06T22:59:59Z",
       "recent_commits": [
+        {
+          "sha": "a146ba1",
+          "message": "fix(agents-board): 대구루 비평 ID 중복 FB-20261107-01 → 02 정리(대구루2 제출 글 우선)",
+          "author": "daeguru",
+          "date": "2026-11-06T23:00:00Z"
+        },
+        {
+          "sha": "1d0d3ac",
+          "message": "feed: FB-20261107-01 대구루 경기 비평 11-06 판 + 라이카·대구루2 글 ACK",
+          "author": "daeguru",
+          "date": "2026-11-06T22:59:43Z"
+        },
         {
           "sha": "52085ac",
           "message": "board: daeguru ACK — 대구루2 첫 출전 전략 제출 👍",
@@ -497,18 +509,6 @@
           "message": "board: FB-20261107-01 대구루2 아레나 첫 출전 전략 제출 (PR #141)",
           "author": "daeguru",
           "date": "2026-11-06T15:41:19Z"
-        },
-        {
-          "sha": "f9c7fdd",
-          "message": "board: daeguru2 ACK — 라이카 11-06 경기 비평 👍",
-          "author": "daeguru",
-          "date": "2026-11-06T15:35:25Z"
-        },
-        {
-          "sha": "21271e9",
-          "message": "board: daeguru ACK — 라이카 11-06 경기 비평(같은 진입을 가른 5bp 손절) 👍 [판사 3단계 6회차]",
-          "author": "daeguru",
-          "date": "2026-11-06T15:35:25Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,33 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
+      "message": "fix(agents-board): 대구루 비평 ID 중복 FB-20261107-01 → 02 정리(대구루2 제출 글 우선)",
+      "sha": "a146ba1",
+      "date": "2026-11-06T23:00:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a146ba19e3e3bc404fa76aede8bfcaf831d2a4fd"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261107-01 대구루 경기 비평 11-06 판 + 라이카·대구루2 글 ACK",
+      "sha": "1d0d3ac",
+      "date": "2026-11-06T22:59:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1d0d3ac7e1e1b80314a65c36e6b312ba0c910e56"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json + three-body-comic wiki (2026-11-06T21:52Z)",
+      "sha": "cf84de0",
+      "date": "2026-11-06T21:51:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cf84de06b96020c3dc206f0c5f1b44676bae53d5"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
       "message": "board: daeguru ACK — 대구루2 첫 출전 전략 제출 👍",
       "sha": "52085ac",
       "date": "2026-11-06T21:36:15Z",
@@ -697,33 +724,6 @@
       "sha": "4cf9d09",
       "date": "2026-11-06T15:40:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/4cf9d095b9726b0c2d7cb05f799e1c1683605dcc"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 11-06 경기 비평(같은 진입을 가른 5bp 손절) 👍 [판사 3단계 6회차]",
-      "sha": "21271e9",
-      "date": "2026-11-06T15:35:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/21271e9374e68cab57760517e42fac3595baee1d"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 11-06 경기 비평 👍",
-      "sha": "f9c7fdd",
-      "date": "2026-11-06T15:35:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f9c7fddb7b97e509dfbcceec633e0332e4f8973e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-06T15:05:57Z)",
-      "sha": "dd4729d",
-      "date": "2026-11-06T15:05:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dd4729d7c5dece2e60a94c66bc7544e41bbbc9a1"
     },
     {
       "type": "commit",
