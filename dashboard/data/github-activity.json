@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-07T21:45:47Z",
-  "since": "2026-10-08T21:45:18Z",
+  "generated": "2026-11-08T00:05:43Z",
+  "since": "2026-10-09T00:05:03Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-07T21:07:22Z",
-      "pushed_at": "2026-11-07T21:07:18Z",
+      "updated_at": "2026-11-07T23:36:36Z",
+      "pushed_at": "2026-11-07T23:36:33Z",
       "recent_commits": [
+        {
+          "sha": "a7d8a09",
+          "message": "삼체 데일리 #5 공개",
+          "author": "daeguru",
+          "date": "2026-11-07T23:36:18Z"
+        },
+        {
+          "sha": "3bccc41",
+          "message": "dashboard: update dashboard.json and github-activity.json (auto)",
+          "author": "daeguru",
+          "date": "2026-11-07T21:46:00Z"
+        },
         {
           "sha": "d8171bd",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-07T21:07:15Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-07T18:07:16Z)",
           "author": "daeguru",
           "date": "2026-11-07T18:07:16Z"
-        },
-        {
-          "sha": "e057f10",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
-          "author": "daeguru",
-          "date": "2026-11-07T15:46:10Z"
-        },
-        {
-          "sha": "324cd82",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-07T15:08:52Z)",
-          "author": "daeguru",
-          "date": "2026-11-07T15:08:52Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "삼체 데일리 #5 공개",
+      "sha": "a7d8a09",
+      "date": "2026-11-07T23:36:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a7d8a097d2617a3889b0407f8f21679d702b01bb"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (auto)",
+      "sha": "3bccc41",
+      "date": "2026-11-07T21:46:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3bccc41fff7d0207e8b86f0a2502dbd56100ea72"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-11-08",
@@ -645,15 +663,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
-      "sha": "e057f10",
-      "date": "2026-11-07T15:46:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e057f10a3156fd5217e111a3abdf30ba0088e3b0"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru ACK — 폴리마켓 첫 베팅·라이카 11-07 연구·경기 비평 👍",
@@ -678,15 +687,6 @@
       "sha": "44680b5",
       "date": "2026-11-07T15:33:54Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/44680b503f6c1aa64becc3af809af67abc1648ac"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-07T15:08:52Z)",
-      "sha": "324cd82",
-      "date": "2026-11-07T15:08:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/324cd82d24d5d258a567ba8d63a72e1ac5c64c26"
     },
     {
       "type": "commit",
