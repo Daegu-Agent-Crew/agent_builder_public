@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-08T21:08:19Z",
-  "since": "2026-10-09T21:07:36Z",
+  "generated": "2026-11-08T21:46:48Z",
+  "since": "2026-10-09T21:46:18Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-08T18:46:30Z",
-      "pushed_at": "2026-11-08T18:46:26Z",
+      "updated_at": "2026-11-08T21:08:27Z",
+      "pushed_at": "2026-11-08T21:08:23Z",
       "recent_commits": [
+        {
+          "sha": "d43cd39",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-08T21:08:19Z)",
+          "author": "daeguru",
+          "date": "2026-11-08T21:08:19Z"
+        },
         {
           "sha": "f3d7a40",
           "message": "dashboard: refresh dashboard.json and github-activity.json (auto)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-08T15:07:47Z)",
           "author": "daeguru",
           "date": "2026-11-08T15:07:48Z"
-        },
-        {
-          "sha": "870d03f",
-          "message": "dashboard: update github-activity and dashboard data (2026-11-08)",
-          "author": "daeguru",
-          "date": "2026-11-08T12:47:07Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,15 @@
       "private": true,
       "open_issues": 11,
       "open_prs": 3,
-      "updated_at": "2026-11-08T15:34:10Z",
-      "pushed_at": "2026-11-08T15:34:07Z",
+      "updated_at": "2026-11-08T21:32:54Z",
+      "pushed_at": "2026-11-08T21:32:50Z",
       "recent_commits": [
+        {
+          "sha": "43cd606",
+          "message": "log: Jev 게이트 판정 기록 2026-11-09",
+          "author": "daeguru",
+          "date": "2026-11-08T21:32:48Z"
+        },
         {
           "sha": "88fd494",
           "message": "board: daeguru2 ACK — 라이카 11-08 경기 비평 👍",
@@ -503,12 +509,6 @@
           "message": "feed: add 2026-11-08 arena postmatch critique",
           "author": "Laika",
           "date": "2026-11-08T12:53:39Z"
-        },
-        {
-          "sha": "0668770",
-          "message": "chore: update wiki and dashboard (2026-11-08)",
-          "author": "daeguru",
-          "date": "2026-11-08T12:47:01Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-09",
+      "sha": "43cd606",
+      "date": "2026-11-08T21:32:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/43cd606f8e250bc1b330b86f2f2b492037c5d643"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-08T21:08:19Z)",
+      "sha": "d43cd39",
+      "date": "2026-11-08T21:08:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d43cd39e7882c28ef513045a42d3f4b149b9f69f"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json and github-activity.json (auto)",
@@ -678,24 +696,6 @@
       "sha": "48a20fa",
       "date": "2026-11-08T12:53:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/48a20facc70448a142f21d42cfa2dd5ac95e2427"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update github-activity and dashboard data (2026-11-08)",
-      "sha": "870d03f",
-      "date": "2026-11-08T12:47:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/870d03faa8ca6041ff4edf0ef7542930286ef980"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "chore: update wiki and dashboard (2026-11-08)",
-      "sha": "0668770",
-      "date": "2026-11-08T12:47:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0668770efeb9d768e4ec133abc3db2e222f0cb91"
     },
     {
       "type": "commit",
