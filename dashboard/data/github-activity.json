@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-09T00:45:48Z",
-  "since": "2026-10-10T00:45:17Z",
+  "generated": "2026-11-09T03:09:13Z",
+  "since": "2026-10-10T03:08:08Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,21 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-09T00:05:59Z",
-      "pushed_at": "2026-11-09T00:05:55Z",
+      "updated_at": "2026-11-09T01:06:24Z",
+      "pushed_at": "2026-11-09T01:06:19Z",
       "recent_commits": [
+        {
+          "sha": "53927bb",
+          "message": "three-body-daily: 003~006 공개 폴더 반영(전송 단계 유실 복구)",
+          "author": "daeguru",
+          "date": "2026-11-09T01:06:04Z"
+        },
+        {
+          "sha": "782dcee",
+          "message": "dashboard 데이터 갱신 (cron 09:44)",
+          "author": "daeguru",
+          "date": "2026-11-09T00:45:56Z"
+        },
         {
           "sha": "f273dbf",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-09T00:05:52Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-08T21:08:19Z)",
           "author": "daeguru",
           "date": "2026-11-08T21:08:19Z"
-        },
-        {
-          "sha": "f3d7a40",
-          "message": "dashboard: refresh dashboard.json and github-activity.json (auto)",
-          "author": "daeguru",
-          "date": "2026-11-08T18:46:24Z"
-        },
-        {
-          "sha": "0ef0d35",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-08T18:07:41Z)",
-          "author": "daeguru",
-          "date": "2026-11-08T18:07:41Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 16,
       "open_prs": 3,
-      "updated_at": "2026-11-08T12:40:24Z",
-      "pushed_at": "2026-11-08T12:40:21Z",
+      "updated_at": "2026-11-09T01:05:47Z",
+      "pushed_at": "2026-11-09T01:05:45Z",
       "recent_commits": [
+        {
+          "sha": "d2075e4",
+          "message": "daeguru: 조종석 아레나 순위 자동 갱신 (2026-W46 자율 개선) (#142)",
+          "author": "sfex11",
+          "date": "2026-11-09T01:05:42Z"
+        },
         {
           "sha": "1e36a19",
           "message": "data(arena): 공식 경기 2026-11-08 21:30",
@@ -233,15 +239,17 @@
           "message": "arena: daeguru2 전략 2026-11-07 — 첫 출전, 비용 최소 1회 스캘프(60봉)",
           "author": "daeguru",
           "date": "2026-11-06T15:40:39Z"
-        },
-        {
-          "sha": "3b362e1",
-          "message": "data(arena): 공식 경기 2026-11-06 21:30",
-          "author": "daeguru",
-          "date": "2026-11-06T12:40:11Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 142,
+          "title": "daeguru: 조종석 아레나 순위 자동 갱신 (2026-W46 자율 개선)",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-11-09T01:05:46Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/142"
+        },
         {
           "number": 141,
           "title": "arena: daeguru2 전략 2026-11-07 — 첫 출전",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-10-31T00:06:52Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/140"
-        },
-        {
-          "number": 139,
-          "title": "feat(CLE2-31,32): 태스크 초기 설정 — 판사 단계 시범 + 월간 비평 원칙화",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-10-31T00:06:02Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/139"
         }
       ]
     },
@@ -544,9 +544,15 @@
       "private": true,
       "open_issues": 2,
       "open_prs": 0,
-      "updated_at": "2026-11-06T00:25:38Z",
-      "pushed_at": "2026-11-06T00:25:33Z",
+      "updated_at": "2026-11-09T01:04:16Z",
+      "pushed_at": "2026-11-09T01:04:11Z",
       "recent_commits": [
+        {
+          "sha": "6e04dc4",
+          "message": "[삼체 데일리] 004~006 미푸시 3일치 일괄 반영 — 커밋 단계 유실 복구",
+          "author": "daeguru",
+          "date": "2026-11-09T01:03:37Z"
+        },
         {
           "sha": "88d232e",
           "message": "삼체 데일리 #3 — codex 내장 image_gen 생성",
@@ -570,12 +576,6 @@
           "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
           "author": "sfex11",
           "date": "2026-08-03T23:58:34Z"
-        },
-        {
-          "sha": "45d36a8",
-          "message": "CLE5 EP002 image: p6-1_family_warmth.jpg",
-          "author": "sfex11",
-          "date": "2026-08-03T23:58:32Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,52 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "three-body-daily: 003~006 공개 폴더 반영(전송 단계 유실 복구)",
+      "sha": "53927bb",
+      "date": "2026-11-09T01:06:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/53927bbdcd5347419beeec733b18655be08b405e"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "daeguru: 조종석 아레나 순위 자동 갱신 (2026-W46 자율 개선)",
+      "number": 142,
+      "state": "closed",
+      "date": "2026-11-09T01:05:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/142"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "daeguru: 조종석 아레나 순위 자동 갱신 (2026-W46 자율 개선) (#142)",
+      "sha": "d2075e4",
+      "date": "2026-11-09T01:05:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d2075e4922ab683f04d699d581d2806e7579bf34"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "[삼체 데일리] 004~006 미푸시 3일치 일괄 반영 — 커밋 단계 유실 복구",
+      "sha": "6e04dc4",
+      "date": "2026-11-09T01:03:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/6e04dc4be3bb01bfcb447af6b5047c595c2a16b7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 갱신 (cron 09:44)",
+      "sha": "782dcee",
+      "date": "2026-11-09T00:45:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/782dcee1ba0a8e67ab8252777a1af1d5dd0655e0"
+    },
     {
       "type": "commit",
       "repo": "agent_builder_public",
@@ -660,24 +706,6 @@
       "sha": "d43cd39",
       "date": "2026-11-08T21:08:19Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d43cd39e7882c28ef513045a42d3f4b149b9f69f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json (auto)",
-      "sha": "f3d7a40",
-      "date": "2026-11-08T18:46:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f3d7a40bd92a86d548685913b6a79940d3a04e1f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-08T18:07:41Z)",
-      "sha": "0ef0d35",
-      "date": "2026-11-08T18:07:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0ef0d358f8a14679e9776549eb64dacac2a1493e"
     },
     {
       "type": "commit",
@@ -745,15 +773,6 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-06 21:30",
-      "sha": "3b362e1",
-      "date": "2026-11-06T12:40:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/3b362e164ba461dcb5f3b777e29b5f4f81f0f380"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "삼체 데일리 #3 — codex 내장 image_gen 생성",
@@ -788,16 +807,6 @@
       "state": "closed",
       "date": "2026-10-31T00:06:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/140"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-31,32): 태스크 초기 설정 — 판사 단계 시범 + 월간 비평 원칙화",
-      "number": 139,
-      "state": "closed",
-      "date": "2026-10-31T00:06:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/139"
     },
     {
       "type": "commit",
@@ -931,15 +940,6 @@
       "sha": "763c453",
       "date": "2026-08-03T23:58:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/763c4531213a8b7036581da903c6183aa2777c7e"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "sfex11",
-      "message": "CLE5 EP002 image: p6-1_family_warmth.jpg",
-      "sha": "45d36a8",
-      "date": "2026-08-03T23:58:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/45d36a82b6111a93b47ca2cf3f0178d7a39a5951"
     },
     {
       "type": "pr",
