@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-09T09:05:43Z",
-  "since": "2026-10-10T09:05:00Z",
+  "generated": "2026-11-09T09:46:09Z",
+  "since": "2026-10-10T09:45:37Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-09T06:46:28Z",
-      "pushed_at": "2026-11-09T06:46:24Z",
+      "updated_at": "2026-11-09T09:05:51Z",
+      "pushed_at": "2026-11-09T09:05:46Z",
       "recent_commits": [
+        {
+          "sha": "efe8395",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-09T09:05:43Z)",
+          "author": "daeguru",
+          "date": "2026-11-09T09:05:43Z"
+        },
         {
           "sha": "9dcb95b",
           "message": "dashboard: refresh dashboard.json and github-activity (auto 3h)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-09T03:09:13Z)",
           "author": "daeguru",
           "date": "2026-11-09T03:09:13Z"
-        },
-        {
-          "sha": "53927bb",
-          "message": "three-body-daily: 003~006 공개 폴더 반영(전송 단계 유실 복구)",
-          "author": "daeguru",
-          "date": "2026-11-09T01:06:04Z"
         }
       ],
       "recent_prs": [
@@ -477,38 +477,38 @@
       "private": true,
       "open_issues": 11,
       "open_prs": 3,
-      "updated_at": "2026-11-09T08:50:26Z",
-      "pushed_at": "2026-11-09T08:50:22Z",
+      "updated_at": "2026-11-09T09:38:07Z",
+      "pushed_at": "2026-11-09T09:38:03Z",
       "recent_commits": [
+        {
+          "sha": "51e0927",
+          "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-09 👍",
+          "author": "daeguru",
+          "date": "2026-11-09T09:38:02Z"
+        },
+        {
+          "sha": "4b21ff0",
+          "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-09 👍",
+          "author": "daeguru",
+          "date": "2026-11-09T09:37:51Z"
+        },
+        {
+          "sha": "fc23428",
+          "message": "log: Jev 게이트 판정 기록·관측 한 줄 2026-11-09",
+          "author": "대구루 (AI)",
+          "date": "2026-11-09T09:36:52Z"
+        },
+        {
+          "sha": "b7295ce",
+          "message": "wake: FB-20261109-03 daeguru·daeguru2 기상 기록",
+          "author": "대구루 (AI)",
+          "date": "2026-11-09T09:36:51Z"
+        },
         {
           "sha": "2079948",
           "message": "finding: laika arena daily research 2026-11-09",
           "author": "Laika",
           "date": "2026-11-09T08:50:16Z"
-        },
-        {
-          "sha": "0010589",
-          "message": "docs(lessons): DAC 스튜디오 #267 교훈",
-          "author": "sfex11",
-          "date": "2026-11-09T08:43:57Z"
-        },
-        {
-          "sha": "97d0be3",
-          "message": "board: daeguru2 ACK — 대구루 11-08 경기 비평·라이카 주간 리포트 👍",
-          "author": "daeguru",
-          "date": "2026-11-09T03:35:35Z"
-        },
-        {
-          "sha": "f73a472",
-          "message": "board: daeguru ACK — 라이카 주간 진화 리포트 2026-11-09 👍",
-          "author": "daeguru",
-          "date": "2026-11-09T03:35:22Z"
-        },
-        {
-          "sha": "479c50d",
-          "message": "log: Jev 게이트 판정 기록 2026-11-09",
-          "author": "daeguru",
-          "date": "2026-11-09T03:34:28Z"
         }
       ],
       "recent_prs": [
@@ -610,20 +610,56 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-09 👍",
+      "sha": "51e0927",
+      "date": "2026-11-09T09:38:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/51e09272cb22d77c498483c114354c5e466b185a"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-09 👍",
+      "sha": "4b21ff0",
+      "date": "2026-11-09T09:37:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4b21ff02418c2babdab0bdea940bc3a62a5c72f2"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "log: Jev 게이트 판정 기록·관측 한 줄 2026-11-09",
+      "sha": "fc23428",
+      "date": "2026-11-09T09:36:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fc23428f16e4e59d4b8ce8ddb19f9fa9cc9c5617"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "wake: FB-20261109-03 daeguru·daeguru2 기상 기록",
+      "sha": "b7295ce",
+      "date": "2026-11-09T09:36:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b7295ce4506d600acbc48de4ac22635b720d5e55"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-09T09:05:43Z)",
+      "sha": "efe8395",
+      "date": "2026-11-09T09:05:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/efe8395670bbf407cde1819f5d4abfea03660984"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "Laika",
       "message": "finding: laika arena daily research 2026-11-09",
       "sha": "2079948",
       "date": "2026-11-09T08:50:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/20799488a867ca941932b14c7bb3e653b4342530"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs(lessons): DAC 스튜디오 #267 교훈",
-      "sha": "0010589",
-      "date": "2026-11-09T08:43:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0010589869577803cb24d29e1af8db578957e7a1"
     },
     {
       "type": "commit",
@@ -654,48 +690,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 대구루 11-08 경기 비평·라이카 주간 리포트 👍",
-      "sha": "97d0be3",
-      "date": "2026-11-09T03:35:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/97d0be3b11a1b280a91202fca2c2d568f8e5e854"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 주간 진화 리포트 2026-11-09 👍",
-      "sha": "f73a472",
-      "date": "2026-11-09T03:35:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f73a47272aef5d1f7410de97935921c92663f0c3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-09",
-      "sha": "479c50d",
-      "date": "2026-11-09T03:34:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/479c50d34889064c8b8fbec130f3abfbda8c65c4"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-09T03:09:13Z)",
       "sha": "a4953af",
       "date": "2026-11-09T03:09:13Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a4953aff01fbd82e61bc931c740ee862858d4d95"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "three-body-daily: 003~006 공개 폴더 반영(전송 단계 유실 복구)",
-      "sha": "53927bb",
-      "date": "2026-11-09T01:06:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/53927bbdcd5347419beeec733b18655be08b405e"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 16,
+      "commits": 15,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 10,
+      "commits": 9,
       "prs": 18,
       "issues": 0,
       "reviews": 0
