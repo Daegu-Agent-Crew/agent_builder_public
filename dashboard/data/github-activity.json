@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-09T12:07:04Z",
-  "since": "2026-10-10T12:05:57Z",
+  "generated": "2026-11-09T12:46:54Z",
+  "since": "2026-10-10T12:46:22Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-09T09:46:30Z",
-      "pushed_at": "2026-11-09T09:46:26Z",
+      "updated_at": "2026-11-09T12:07:14Z",
+      "pushed_at": "2026-11-09T12:07:10Z",
       "recent_commits": [
+        {
+          "sha": "f4d2226",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-09T12:07:04Z)",
+          "author": "daeguru",
+          "date": "2026-11-09T12:07:04Z"
+        },
         {
           "sha": "475a957",
           "message": "dashboard: update dashboard.json + github-activity.json (cron 18:44)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-09T06:05:48Z)",
           "author": "daeguru",
           "date": "2026-11-09T06:05:48Z"
-        },
-        {
-          "sha": "c25aa08",
-          "message": "dashboard: 대시보드·GitHub 활동 데이터 갱신 (cron 12:44)",
-          "author": "daeguru",
-          "date": "2026-11-09T03:46:42Z"
         }
       ],
       "recent_prs": [
@@ -207,9 +207,15 @@
       "private": false,
       "open_issues": 16,
       "open_prs": 3,
-      "updated_at": "2026-11-09T01:05:47Z",
-      "pushed_at": "2026-11-09T01:05:45Z",
+      "updated_at": "2026-11-09T12:40:27Z",
+      "pushed_at": "2026-11-09T12:40:23Z",
       "recent_commits": [
+        {
+          "sha": "9b924d8",
+          "message": "data(arena): 공식 경기 2026-11-09 21:30",
+          "author": "daeguru",
+          "date": "2026-11-09T12:40:21Z"
+        },
         {
           "sha": "d2075e4",
           "message": "daeguru: 조종석 아레나 순위 자동 갱신 (2026-W46 자율 개선) (#142)",
@@ -233,12 +239,6 @@
           "message": "Merge pull request #141 from Daegu-Agent-Crew/arena/daeguru2-2026-11-07",
           "author": "sfex11",
           "date": "2026-11-06T15:41:14Z"
-        },
-        {
-          "sha": "4cf9d09",
-          "message": "arena: daeguru2 전략 2026-11-07 — 첫 출전, 비용 최소 1회 스캘프(60봉)",
-          "author": "daeguru",
-          "date": "2026-11-06T15:40:39Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-09 21:30",
+      "sha": "9b924d8",
+      "date": "2026-11-09T12:40:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/9b924d86ca0ca1bbb14babeb946dfc3a7bc90d90"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-09T12:07:04Z)",
+      "sha": "f4d2226",
+      "date": "2026-11-09T12:07:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f4d2226764014573be6e2a86778eec23faf81271"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json + github-activity.json (cron 18:44)",
@@ -689,15 +707,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/459be7c0ea8b1202e27054bfc063259040ecb728"
     },
     {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: 대시보드·GitHub 활동 데이터 갱신 (cron 12:44)",
-      "sha": "c25aa08",
-      "date": "2026-11-09T03:46:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c25aa08f1ce704856e78a52633c263be98d89d36"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -761,15 +770,6 @@
       "sha": "f3798f1",
       "date": "2026-11-06T15:41:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f3798f187278d175779dabab45587ac81bc3e3da"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "arena: daeguru2 전략 2026-11-07 — 첫 출전, 비용 최소 1회 스캘프(60봉)",
-      "sha": "4cf9d09",
-      "date": "2026-11-06T15:40:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/4cf9d095b9726b0c2d7cb05f799e1c1683605dcc"
     },
     {
       "type": "commit",
