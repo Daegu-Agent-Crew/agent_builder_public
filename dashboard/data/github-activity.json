@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-09T15:46:04Z",
-  "since": "2026-10-10T15:45:29Z",
+  "generated": "2026-11-09T18:09:32Z",
+  "since": "2026-10-10T18:08:19Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-09T15:06:17Z",
-      "pushed_at": "2026-11-09T15:06:11Z",
+      "updated_at": "2026-11-09T15:46:23Z",
+      "pushed_at": "2026-11-09T15:46:18Z",
       "recent_commits": [
+        {
+          "sha": "b09eb24",
+          "message": "dashboard: dashboard.json 및 github-activity 갱신 (cron)",
+          "author": "daeguru",
+          "date": "2026-11-09T15:46:17Z"
+        },
         {
           "sha": "9fa3266",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-09T15:06:08Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json + github-activity.json (cron 18:44)",
           "author": "daeguru",
           "date": "2026-11-09T09:46:24Z"
-        },
-        {
-          "sha": "efe8395",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-09T09:05:43Z)",
-          "author": "daeguru",
-          "date": "2026-11-09T09:05:43Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json 및 github-activity 갱신 (cron)",
+      "sha": "b09eb24",
+      "date": "2026-11-09T15:46:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b09eb2457a12a25347ce7f4f94570b561d60a94b"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru ACK — 라이카 11-09 경기 비평(진입 창과 보유 상한 분리) 👍",
@@ -696,15 +705,6 @@
       "sha": "51e0927",
       "date": "2026-11-09T09:38:02Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/51e09272cb22d77c498483c114354c5e466b185a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-09T09:05:43Z)",
-      "sha": "efe8395",
-      "date": "2026-11-09T09:05:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/efe8395670bbf407cde1819f5d4abfea03660984"
     },
     {
       "type": "pr",
