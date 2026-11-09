@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-09T03:46:10Z",
-  "since": "2026-10-10T03:45:40Z",
+  "generated": "2026-11-09T06:05:48Z",
+  "since": "2026-10-10T06:05:04Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-09T03:09:20Z",
-      "pushed_at": "2026-11-09T03:09:16Z",
+      "updated_at": "2026-11-09T03:46:48Z",
+      "pushed_at": "2026-11-09T03:46:44Z",
       "recent_commits": [
+        {
+          "sha": "c25aa08",
+          "message": "dashboard: 대시보드·GitHub 활동 데이터 갱신 (cron 12:44)",
+          "author": "daeguru",
+          "date": "2026-11-09T03:46:42Z"
+        },
         {
           "sha": "a4953af",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-09T03:09:13Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-09T00:05:52Z)",
           "author": "daeguru",
           "date": "2026-11-09T00:05:52Z"
-        },
-        {
-          "sha": "1547ce0",
-          "message": "dashboards: refresh dashboard + github-activity (06:44 KST cron)",
-          "author": "daeguru",
-          "date": "2026-11-08T21:47:11Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: 대시보드·GitHub 활동 데이터 갱신 (cron 12:44)",
+      "sha": "c25aa08",
+      "date": "2026-11-09T03:46:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c25aa08f1ce704856e78a52633c263be98d89d36"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 대구루 11-08 경기 비평·라이카 주간 리포트 👍",
@@ -715,15 +724,6 @@
       "sha": "3402f2a",
       "date": "2026-11-08T23:23:01Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3402f2a094e934916ef0aa4013269004ddf2b4a4"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboards: refresh dashboard + github-activity (06:44 KST cron)",
-      "sha": "1547ce0",
-      "date": "2026-11-08T21:47:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1547ce079852e754939955df35b06fa91ae84128"
     },
     {
       "type": "commit",
