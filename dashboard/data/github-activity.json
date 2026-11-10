@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-10T03:46:12Z",
-  "since": "2026-10-11T03:45:41Z",
+  "generated": "2026-11-10T09:08:32Z",
+  "since": "2026-10-11T09:07:39Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 87,
+      "open_issues": 88,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-10T03:07:10Z",
-      "pushed_at": "2026-11-10T03:07:05Z",
+      "updated_at": "2026-11-10T03:46:33Z",
+      "pushed_at": "2026-11-10T03:46:29Z",
       "recent_commits": [
+        {
+          "sha": "db23731",
+          "message": "chore(dashboard): refresh dashboard + github activity (2026-11-10T03:46Z)",
+          "author": "daeguru",
+          "date": "2026-11-10T03:46:28Z"
+        },
         {
           "sha": "2177338",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-10T03:07:02Z)",
@@ -85,12 +91,6 @@
           "message": "three-body-daily: 007 공개 폴더 반영",
           "author": "daeguru",
           "date": "2026-11-09T23:04:23Z"
-        },
-        {
-          "sha": "32355f0",
-          "message": "dashboard: 데이터 갱신 (2026-11-10 06:44 KST)",
-          "author": "daeguru",
-          "date": "2026-11-09T21:45:41Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,21 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-11-09T23:03:49Z",
-      "pushed_at": "2026-11-09T23:03:45Z",
+      "updated_at": "2026-11-10T05:35:17Z",
+      "pushed_at": "2026-11-10T05:35:14Z",
       "recent_commits": [
+        {
+          "sha": "7d06b3f",
+          "message": "🖼️ 2026-11-10: 눈이 편한 아침 뉴스 그림책",
+          "author": "Renover",
+          "date": "2026-11-10T05:34:55Z"
+        },
+        {
+          "sha": "3d4b17f",
+          "message": "📚 2026-11-10: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-10T05:03:38Z"
+        },
         {
           "sha": "b6c8e11",
           "message": "📰 2026-11-10: 뉴스 수집 (5건)",
@@ -146,18 +158,6 @@
           "message": "📋 2026-10-28: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-10-28T12:48:57Z"
-        },
-        {
-          "sha": "3f867e5",
-          "message": "📋 2026-10-27: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-10-27T12:50:22Z"
-        },
-        {
-          "sha": "c362228",
-          "message": "📚 2026-10-27: 위키 갱신 (1개)",
-          "author": "Renover",
-          "date": "2026-10-27T05:04:37Z"
         }
       ],
       "recent_prs": [
@@ -477,9 +477,21 @@
       "private": true,
       "open_issues": 11,
       "open_prs": 3,
-      "updated_at": "2026-11-10T03:34:46Z",
-      "pushed_at": "2026-11-10T03:34:42Z",
+      "updated_at": "2026-11-10T08:47:02Z",
+      "pushed_at": "2026-11-10T08:46:57Z",
       "recent_commits": [
+        {
+          "sha": "9d315da",
+          "message": "board: add laika arena research 2026-11-10",
+          "author": "Laika",
+          "date": "2026-11-10T08:46:15Z"
+        },
+        {
+          "sha": "e284b69",
+          "message": "docs: DAC lesson #268 — 사건 단위 멱등성",
+          "author": "Laika",
+          "date": "2026-11-10T08:45:38Z"
+        },
         {
           "sha": "bd9c99a",
           "message": "board: daeguru2 ACK — 대구루 11-09 경기 비평 👍",
@@ -497,18 +509,6 @@
           "message": "feed: FB-20261110-01 대구루 경기 비평 11-09 판 + 라이카 비평 ACK",
           "author": "daeguru",
           "date": "2026-11-09T22:59:55Z"
-        },
-        {
-          "sha": "e932890",
-          "message": "log: Jev 게이트 판정 기록 2026-11-10",
-          "author": "daeguru-agent",
-          "date": "2026-11-09T21:32:52Z"
-        },
-        {
-          "sha": "a5788a5",
-          "message": "board: daeguru ACK — 라이카 11-09 경기 비평(진입 창과 보유 상한 분리) 👍",
-          "author": "daeguru",
-          "date": "2026-11-09T15:35:06Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,51 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "Laika",
+      "message": "board: add laika arena research 2026-11-10",
+      "sha": "9d315da",
+      "date": "2026-11-10T08:46:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9d315da2f76d8c593f44da5864863740308ae3de"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "docs: DAC lesson #268 — 사건 단위 멱등성",
+      "sha": "e284b69",
+      "date": "2026-11-10T08:45:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e284b693117b7c72f5f2f585b3f2e5f1ecc10290"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🖼️ 2026-11-10: 눈이 편한 아침 뉴스 그림책",
+      "sha": "7d06b3f",
+      "date": "2026-11-10T05:34:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/7d06b3f4c02c9df6c853a31f406533141a1d8abf"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-10: 위키 갱신 (2개)",
+      "sha": "3d4b17f",
+      "date": "2026-11-10T05:03:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3d4b17f1e10c5f4f5ca2b6d10f70962ed8c7f8b3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard + github activity (2026-11-10T03:46Z)",
+      "sha": "db23731",
+      "date": "2026-11-10T03:46:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/db2373122e66dc083aed4cf8fcef5c1b426933ce"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 대구루 11-09 경기 비평 👍",
       "sha": "bd9c99a",
@@ -687,33 +732,6 @@
       "sha": "0e8d90e",
       "date": "2026-11-09T21:53:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/0e8d90ebc8cf9ab158bf762aed74a3e0517c2079"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: 데이터 갱신 (2026-11-10 06:44 KST)",
-      "sha": "32355f0",
-      "date": "2026-11-09T21:45:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/32355f04e433aec46d8d3e23cc1ec13aebb99af6"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru-agent",
-      "message": "log: Jev 게이트 판정 기록 2026-11-10",
-      "sha": "e932890",
-      "date": "2026-11-09T21:32:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e932890dcbd2949f11ce70295fdde3cda3e2f5b8"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 11-09 경기 비평(진입 창과 보유 상한 분리) 👍",
-      "sha": "a5788a5",
-      "date": "2026-11-09T15:35:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a5788a5e1743629c0ef8c15418b13cde88a92000"
     },
     {
       "type": "commit",
@@ -834,24 +852,6 @@
       "sha": "433c08c",
       "date": "2026-10-28T12:48:57Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/433c08c13f7e58ea047c427d69ee4453867ab9d0"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-10-27: 데일리 브리핑 아카이브",
-      "sha": "3f867e5",
-      "date": "2026-10-27T12:50:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3f867e5be07c8878cd502bce6d62087bd85b57d5"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-10-27: 위키 갱신 (1개)",
-      "sha": "c362228",
-      "date": "2026-10-27T05:04:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c362228075587f742c1b600acdfad0f494b5919c"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 16,
+      "commits": 15,
       "prs": 0,
       "issues": 0,
       "reviews": 0
