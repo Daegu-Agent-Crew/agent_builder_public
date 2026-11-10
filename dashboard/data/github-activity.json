@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-10T09:08:32Z",
-  "since": "2026-10-11T09:07:39Z",
+  "generated": "2026-11-10T09:46:27Z",
+  "since": "2026-10-11T09:45:43Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-10T03:46:33Z",
-      "pushed_at": "2026-11-10T03:46:29Z",
+      "updated_at": "2026-11-10T09:08:40Z",
+      "pushed_at": "2026-11-10T09:08:35Z",
       "recent_commits": [
+        {
+          "sha": "d4423c1",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-10T09:08:32Z)",
+          "author": "daeguru",
+          "date": "2026-11-10T09:08:32Z"
+        },
         {
           "sha": "db23731",
           "message": "chore(dashboard): refresh dashboard + github activity (2026-11-10T03:46Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-10T00:06:53Z)",
           "author": "daeguru",
           "date": "2026-11-10T00:06:54Z"
-        },
-        {
-          "sha": "6e5cc50",
-          "message": "three-body-daily: 007 공개 폴더 반영",
-          "author": "daeguru",
-          "date": "2026-11-09T23:04:23Z"
         }
       ],
       "recent_prs": [
@@ -477,38 +477,38 @@
       "private": true,
       "open_issues": 11,
       "open_prs": 3,
-      "updated_at": "2026-11-10T08:47:02Z",
-      "pushed_at": "2026-11-10T08:46:57Z",
+      "updated_at": "2026-11-10T09:40:20Z",
+      "pushed_at": "2026-11-10T09:40:15Z",
       "recent_commits": [
         {
-          "sha": "9d315da",
-          "message": "board: add laika arena research 2026-11-10",
-          "author": "Laika",
-          "date": "2026-11-10T08:46:15Z"
-        },
-        {
-          "sha": "e284b69",
-          "message": "docs: DAC lesson #268 — 사건 단위 멱등성",
-          "author": "Laika",
-          "date": "2026-11-10T08:45:38Z"
-        },
-        {
-          "sha": "bd9c99a",
-          "message": "board: daeguru2 ACK — 대구루 11-09 경기 비평 👍",
+          "sha": "d5aa08d",
+          "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-10 👍",
           "author": "daeguru",
-          "date": "2026-11-10T03:34:40Z"
+          "date": "2026-11-10T09:40:14Z"
         },
         {
-          "sha": "b78bb80",
-          "message": "wake: FB-20261110-01 daeguru2 기상 기록",
-          "author": "daeguru-agent",
-          "date": "2026-11-10T03:33:51Z"
-        },
-        {
-          "sha": "2688540",
-          "message": "feed: FB-20261110-01 대구루 경기 비평 11-09 판 + 라이카 비평 ACK",
+          "sha": "18e99f4",
+          "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-10 👍",
           "author": "daeguru",
-          "date": "2026-11-09T22:59:55Z"
+          "date": "2026-11-10T09:40:03Z"
+        },
+        {
+          "sha": "dfa61a8",
+          "message": "fix: FB-20261110-02 wakes 배열 중첩 수정",
+          "author": "대구루 (AI)",
+          "date": "2026-11-10T09:38:24Z"
+        },
+        {
+          "sha": "eff6f11",
+          "message": "log: Jev 게이트 판정 기록 2026-11-10",
+          "author": "대구루 (AI)",
+          "date": "2026-11-10T09:37:55Z"
+        },
+        {
+          "sha": "27295e5",
+          "message": "wake: FB-20261110-02 daeguru·daeguru2 기상 기록",
+          "author": "대구루 (AI)",
+          "date": "2026-11-10T09:37:55Z"
         }
       ],
       "recent_prs": [
@@ -610,20 +610,56 @@
     {
       "type": "commit",
       "repo": "team-memory",
-      "author": "Laika",
-      "message": "board: add laika arena research 2026-11-10",
-      "sha": "9d315da",
-      "date": "2026-11-10T08:46:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9d315da2f76d8c593f44da5864863740308ae3de"
+      "author": "daeguru",
+      "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-10 👍",
+      "sha": "d5aa08d",
+      "date": "2026-11-10T09:40:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d5aa08d4f80f375d657b5574761118a2862f58d3"
     },
     {
       "type": "commit",
       "repo": "team-memory",
-      "author": "Laika",
-      "message": "docs: DAC lesson #268 — 사건 단위 멱등성",
-      "sha": "e284b69",
-      "date": "2026-11-10T08:45:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e284b693117b7c72f5f2f585b3f2e5f1ecc10290"
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-10 👍",
+      "sha": "18e99f4",
+      "date": "2026-11-10T09:40:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/18e99f4a028fa4a381fcd19a28b642c8c7e82e5c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "fix: FB-20261110-02 wakes 배열 중첩 수정",
+      "sha": "dfa61a8",
+      "date": "2026-11-10T09:38:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/dfa61a8f225ddcf19610271742ab49098cf197bb"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "wake: FB-20261110-02 daeguru·daeguru2 기상 기록",
+      "sha": "27295e5",
+      "date": "2026-11-10T09:37:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/27295e513c951d6f7da37c278503e1b73209c08f"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "log: Jev 게이트 판정 기록 2026-11-10",
+      "sha": "eff6f11",
+      "date": "2026-11-10T09:37:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/eff6f117c6d3ef31a512fa2d864f03f07d18b299"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-10T09:08:32Z)",
+      "sha": "d4423c1",
+      "date": "2026-11-10T09:08:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d4423c18faf2827012e34f29b549cdfe869562d0"
     },
     {
       "type": "commit",
@@ -654,24 +690,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 대구루 11-09 경기 비평 👍",
-      "sha": "bd9c99a",
-      "date": "2026-11-10T03:34:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bd9c99aaa3a19d1f8f2ba02f9711ed223361148d"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru-agent",
-      "message": "wake: FB-20261110-01 daeguru2 기상 기록",
-      "sha": "b78bb80",
-      "date": "2026-11-10T03:33:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b78bb80d50ff4cf69640054b643fb02ea6f92ecb"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-10T03:07:02Z)",
@@ -699,30 +717,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "three-body-daily: 007 공개 폴더 반영",
-      "sha": "6e5cc50",
-      "date": "2026-11-09T23:04:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6e5cc50378fd76b0330b32198ed0e7fc70f47f97"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-11-10: 뉴스 수집 (5건)",
       "sha": "b6c8e11",
       "date": "2026-11-09T23:03:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b6c8e113b4ec593aec4e4d079bacac8d2beda08e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20261110-01 대구루 경기 비평 11-09 판 + 라이카 비평 ACK",
-      "sha": "2688540",
-      "date": "2026-11-09T22:59:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/26885406fcc0235009dcec3ab8f997d5638ea7ba"
     },
     {
       "type": "commit",
