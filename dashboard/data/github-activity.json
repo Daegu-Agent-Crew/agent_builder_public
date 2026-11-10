@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-10T15:46:14Z",
-  "since": "2026-10-11T15:45:38Z",
+  "generated": "2026-11-10T18:10:18Z",
+  "since": "2026-10-11T18:09:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-10T15:07:33Z",
-      "pushed_at": "2026-11-10T15:07:22Z",
+      "updated_at": "2026-11-10T15:46:45Z",
+      "pushed_at": "2026-11-10T15:46:34Z",
       "recent_commits": [
+        {
+          "sha": "4af741d",
+          "message": "dashboard: refresh dashboard.json + github-activity.json (auto)",
+          "author": "daeguru",
+          "date": "2026-11-10T15:46:30Z"
+        },
         {
           "sha": "6c46c1b",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-10T15:07:17Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: regenerate dashboard.json and github-activity",
           "author": "daeguru",
           "date": "2026-11-10T09:46:45Z"
-        },
-        {
-          "sha": "d4423c1",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-10T09:08:32Z)",
-          "author": "daeguru",
-          "date": "2026-11-10T09:08:32Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json + github-activity.json (auto)",
+      "sha": "4af741d",
+      "date": "2026-11-10T15:46:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4af741db87bc1bd716a49b814c42595d037e7159"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 11-10 경기 비평(0.05% take는 비용 대조군) 👍",
@@ -714,15 +723,6 @@
       "sha": "d5aa08d",
       "date": "2026-11-10T09:40:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d5aa08d4f80f375d657b5574761118a2862f58d3"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-10T09:08:32Z)",
-      "sha": "d4423c1",
-      "date": "2026-11-10T09:08:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d4423c18faf2827012e34f29b549cdfe869562d0"
     },
     {
       "type": "commit",
