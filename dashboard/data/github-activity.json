@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-11T15:45:50Z",
-  "since": "2026-10-12T15:45:15Z",
+  "generated": "2026-11-11T18:06:36Z",
+  "since": "2026-10-12T18:05:37Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-11T13:06:52Z",
-      "pushed_at": "2026-11-11T12:06:48Z",
+      "updated_at": "2026-11-11T16:46:10Z",
+      "pushed_at": "2026-11-11T15:46:04Z",
       "recent_commits": [
+        {
+          "sha": "8d1706d",
+          "message": "chore: update dashboard data (github activity + dashboard.json)",
+          "author": "daeguru",
+          "date": "2026-11-11T15:46:03Z"
+        },
         {
           "sha": "8a2cf33",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-11T12:06:44Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard.json, github activity, wiki (2026-11-11T06:47:54Z)",
           "author": "daeguru",
           "date": "2026-11-11T06:47:54Z"
-        },
-        {
-          "sha": "9169f30",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-11T06:09:34Z)",
-          "author": "daeguru",
-          "date": "2026-11-11T06:09:34Z"
         }
       ],
       "recent_prs": [
@@ -477,7 +477,7 @@
       "private": true,
       "open_issues": 11,
       "open_prs": 3,
-      "updated_at": "2026-11-11T13:51:17Z",
+      "updated_at": "2026-11-11T16:36:46Z",
       "pushed_at": "2026-11-11T15:37:44Z",
       "recent_commits": [
         {
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (github activity + dashboard.json)",
+      "sha": "8d1706d",
+      "date": "2026-11-11T15:46:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8d1706d1f42ea4bece449bde381c397480b68557"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru ACK — 라이카 11-11 경기 비평(설정 차이는 개입할 때만 실험) 👍",
@@ -705,15 +714,6 @@
       "sha": "de5a6e4",
       "date": "2026-11-11T06:47:54Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/de5a6e4acc67389237d525f43dcc70a12ba90f5b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-11T06:09:34Z)",
-      "sha": "9169f30",
-      "date": "2026-11-11T06:09:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9169f301e139bb24dd757f4398f94f9e25be5ba5"
     },
     {
       "type": "commit",
