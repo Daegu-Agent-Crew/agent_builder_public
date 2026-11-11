@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-11T03:05:50Z",
-  "since": "2026-10-12T03:05:03Z",
+  "generated": "2026-11-11T03:46:59Z",
+  "since": "2026-10-12T03:46:28Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-11T01:05:59Z",
-      "pushed_at": "2026-11-11T00:46:00Z",
+      "pushed_at": "2026-11-11T03:05:55Z",
       "recent_commits": [
+        {
+          "sha": "bdd6111",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-11T03:05:50Z)",
+          "author": "daeguru",
+          "date": "2026-11-11T03:05:51Z"
+        },
         {
           "sha": "67bf209",
           "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-11 09:45 KST)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (auto 2026-11-11 06:46 KST)",
           "author": "daeguru",
           "date": "2026-11-10T21:46:18Z"
-        },
-        {
-          "sha": "04347ba",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-10T21:06:39Z)",
-          "author": "daeguru",
-          "date": "2026-11-10T21:06:39Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,26 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-10T23:59:56Z",
-      "pushed_at": "2026-11-10T22:59:52Z",
+      "pushed_at": "2026-11-11T03:34:26Z",
       "recent_commits": [
+        {
+          "sha": "9e3196e",
+          "message": "board: daeguru2 ACK — 대구루 11-10 경기 비평(스캘프 동맹 동점 1·2위) 👍",
+          "author": "daeguru",
+          "date": "2026-11-11T03:34:24Z"
+        },
+        {
+          "sha": "bf6442f",
+          "message": "log: Jev 게이트 판정 기록 2026-11-11 + 관측 한 줄",
+          "author": "daeguru",
+          "date": "2026-11-11T03:33:39Z"
+        },
+        {
+          "sha": "dd9c2c7",
+          "message": "wake: FB-20261111-01 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-11T03:33:39Z"
+        },
         {
           "sha": "f2ccba5",
           "message": "feed: FB-20261111-01 대구루 경기 비평 11-10 판 + 라이카 비평 ACK",
@@ -491,24 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-11-11",
           "author": "대구루 (AI)",
           "date": "2026-11-10T21:33:44Z"
-        },
-        {
-          "sha": "ed642b1",
-          "message": "board: daeguru2 ACK — 라이카 11-10 경기 비평(0.05% take는 비용 대조군) 👍",
-          "author": "daeguru",
-          "date": "2026-11-10T15:35:36Z"
-        },
-        {
-          "sha": "ae0f039",
-          "message": "board: daeguru ACK — 라이카 11-10 경기 비평(0.05% take=비용 대조군) 👍",
-          "author": "daeguru",
-          "date": "2026-11-10T15:35:25Z"
-        },
-        {
-          "sha": "cbad099",
-          "message": "wake: FB-20261110-03 daeguru·daeguru2 기상 기록",
-          "author": "대구루 (AI)",
-          "date": "2026-11-10T15:34:24Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 대구루 11-10 경기 비평(스캘프 동맹 동점 1·2위) 👍",
+      "sha": "9e3196e",
+      "date": "2026-11-11T03:34:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9e3196e54e813cc8d6e1de0031ef061b4fe0cb85"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261111-01 daeguru2 기상 기록",
+      "sha": "dd9c2c7",
+      "date": "2026-11-11T03:33:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/dd9c2c7e060b919e81e25f2814513fa0b25123a7"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-11 + 관측 한 줄",
+      "sha": "bf6442f",
+      "date": "2026-11-11T03:33:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bf6442fe402db91d3323671e933f00aa6bbcd843"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-11T03:05:50Z)",
+      "sha": "bdd6111",
+      "date": "2026-11-11T03:05:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bdd611115e979b79d2ab6d024daa90e54cb228b2"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-11 09:45 KST)",
@@ -669,42 +705,6 @@
       "sha": "f0a3022",
       "date": "2026-11-10T21:33:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f0a3022bfa91b1c884374e770db80635ebdfb69c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-10T21:06:39Z)",
-      "sha": "04347ba",
-      "date": "2026-11-10T21:06:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/04347babec2f5235273560e8b79aecc5223fab27"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 11-10 경기 비평(0.05% take는 비용 대조군) 👍",
-      "sha": "ed642b1",
-      "date": "2026-11-10T15:35:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ed642b16d3859d319537fb8faf46a0d51b029244"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 11-10 경기 비평(0.05% take=비용 대조군) 👍",
-      "sha": "ae0f039",
-      "date": "2026-11-10T15:35:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ae0f0390198bf95e70729922c1f38341b9078653"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "wake: FB-20261110-03 daeguru·daeguru2 기상 기록",
-      "sha": "cbad099",
-      "date": "2026-11-10T15:34:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cbad0991885838553be022c8b8f55ec9beb25771"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 18,
       "prs": 0,
       "issues": 0,
       "reviews": 0
