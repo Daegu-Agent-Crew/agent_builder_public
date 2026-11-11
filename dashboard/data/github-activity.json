@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-11T00:05:51Z",
-  "since": "2026-10-12T00:05:04Z",
+  "generated": "2026-11-11T00:45:51Z",
+  "since": "2026-10-12T00:45:19Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-11T00:04:18Z",
-      "pushed_at": "2026-11-10T23:04:15Z",
+      "pushed_at": "2026-11-11T00:05:54Z",
       "recent_commits": [
+        {
+          "sha": "a9599e0",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-11T00:05:51Z)",
+          "author": "daeguru",
+          "date": "2026-11-11T00:05:51Z"
+        },
         {
           "sha": "d9ee3ff",
           "message": "three-body-daily: 008 공개 폴더 반영",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update dashboard.json and github-activity.json [cron]",
           "author": "daeguru",
           "date": "2026-11-10T18:46:19Z"
-        },
-        {
-          "sha": "1265719",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-10T18:10:18Z)",
-          "author": "daeguru",
-          "date": "2026-11-10T18:10:23Z"
         }
       ],
       "recent_prs": [
@@ -126,7 +126,7 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-11-10T12:42:04Z",
+      "updated_at": "2026-11-11T00:05:37Z",
       "pushed_at": "2026-11-10T23:05:33Z",
       "recent_commits": [
         {
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-11T00:05:51Z)",
+      "sha": "a9599e0",
+      "date": "2026-11-11T00:05:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a9599e06c8344c1b39d167c44a0b3e426c6f3869"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-11-11: 뉴스 수집 (5건)",
@@ -669,15 +678,6 @@
       "sha": "5d70e26",
       "date": "2026-11-10T18:46:19Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5d70e264aad33c92bd84b191013bdc8d9b58fff6"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-10T18:10:18Z)",
-      "sha": "1265719",
-      "date": "2026-11-10T18:10:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1265719ecb99919882ef78724ab9121be366e936"
     },
     {
       "type": "commit",
