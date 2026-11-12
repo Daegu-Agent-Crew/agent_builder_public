@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-12T06:08:51Z",
-  "since": "2026-10-13T06:07:51Z",
+  "generated": "2026-11-12T06:47:01Z",
+  "since": "2026-10-13T06:46:29Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T04:07:45Z",
-      "pushed_at": "2026-11-12T03:46:48Z",
+      "pushed_at": "2026-11-12T06:08:54Z",
       "recent_commits": [
+        {
+          "sha": "160da74",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-12T06:08:51Z)",
+          "author": "daeguru",
+          "date": "2026-11-12T06:08:51Z"
+        },
         {
           "sha": "869a129",
           "message": "dashboard: refresh dashboard.json and github-activity.json (auto 2026-11-12 12:44 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-12T00:06:20Z)",
           "author": "daeguru",
           "date": "2026-11-12T00:06:20Z"
-        },
-        {
-          "sha": "5d871d2",
-          "message": "three-body-daily: 009 공개 폴더 반영",
-          "author": "daeguru",
-          "date": "2026-11-11T23:10:16Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-12T06:08:51Z)",
+      "sha": "160da74",
+      "date": "2026-11-12T06:08:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/160da74c5f8df3b250e8bc5b64d4f132f2643852"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-11-12: 위키 갱신 (2개)",
@@ -669,15 +678,6 @@
       "sha": "b702b22",
       "date": "2026-11-12T00:06:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b702b22abf648fda48110741b8a3e885a2fa142b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "three-body-daily: 009 공개 폴더 반영",
-      "sha": "5d871d2",
-      "date": "2026-11-11T23:10:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5d871d2692265c6a2351de6837ebe3e21a1602ab"
     },
     {
       "type": "commit",
