@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-12T09:47:20Z",
-  "since": "2026-10-13T09:46:40Z",
+  "generated": "2026-11-12T12:47:00Z",
+  "since": "2026-10-13T12:46:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-12T07:08:57Z",
-      "pushed_at": "2026-11-12T09:07:25Z",
+      "updated_at": "2026-11-12T10:07:30Z",
+      "pushed_at": "2026-11-12T09:47:35Z",
       "recent_commits": [
+        {
+          "sha": "dfc1f65",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-12 18:47 KST)",
+          "author": "daeguru",
+          "date": "2026-11-12T09:47:33Z"
+        },
         {
           "sha": "274ea69",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-12T09:07:22Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json and github-activity.json (auto 2026-11-12 12:44 KST)",
           "author": "daeguru",
           "date": "2026-11-12T03:46:46Z"
-        },
-        {
-          "sha": "6079148",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-12T03:07:32Z)",
-          "author": "daeguru",
-          "date": "2026-11-12T03:07:37Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T06:04:06Z",
-      "pushed_at": "2026-11-12T05:04:02Z",
+      "pushed_at": "2026-11-12T12:43:02Z",
       "recent_commits": [
+        {
+          "sha": "2d1e675",
+          "message": "📋 2026-11-12: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-11-12T12:43:00Z"
+        },
         {
           "sha": "e18a6c9",
           "message": "📚 2026-11-12: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📋 2026-11-11: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-11-11T12:42:02Z"
-        },
-        {
-          "sha": "f4f4111",
-          "message": "📚 2026-11-11: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-11-11T05:05:30Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,14 @@
       "open_issues": 17,
       "open_prs": 3,
       "updated_at": "2026-11-11T23:45:27Z",
-      "pushed_at": "2026-11-11T22:46:22Z",
+      "pushed_at": "2026-11-12T12:41:30Z",
       "recent_commits": [
+        {
+          "sha": "64d4235",
+          "message": "data(arena): 공식 경기 2026-11-12 21:30",
+          "author": "daeguru",
+          "date": "2026-11-12T12:41:28Z"
+        },
         {
           "sha": "0320171",
           "message": "Merge pull request #145 from Daegu-Agent-Crew/arena/daeguru2-2026-11-12",
@@ -233,12 +239,6 @@
           "message": "feat(arena): #143 실행 경로 활성화 자동 판정 — unique_path·path_twins·paths.distinct 기록",
           "author": "daeguru",
           "date": "2026-11-11T22:45:00Z"
-        },
-        {
-          "sha": "d2729ab",
-          "message": "data(arena): 공식 경기 2026-11-11 21:30",
-          "author": "daeguru",
-          "date": "2026-11-11T12:40:21Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-11-12: 데일리 브리핑 아카이브",
+      "sha": "2d1e675",
+      "date": "2026-11-12T12:43:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2d1e675f5997568b8c08e424fcc91fa85a8975ae"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-12 21:30",
+      "sha": "64d4235",
+      "date": "2026-11-12T12:41:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/64d4235abc1d0548a48bdb0f1bd5cf95fd9b4e7f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-12 18:47 KST)",
+      "sha": "dfc1f65",
+      "date": "2026-11-12T09:47:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dfc1f65916b9acb2e29410354fd94608856712fb"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-12 👍",
@@ -699,15 +726,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-12T03:07:32Z)",
-      "sha": "6079148",
-      "date": "2026-11-12T03:07:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6079148f6e622b47e706168aa0083e0a4532544b"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🖼️ 2026-11-12: 아침 뉴스 그림책",
@@ -788,24 +806,6 @@
       "sha": "2edb9cc",
       "date": "2026-11-11T12:42:02Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2edb9cc157124e365c174e719a23bdd3e3a28114"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-11 21:30",
-      "sha": "d2729ab",
-      "date": "2026-11-11T12:40:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/d2729abb83179d54c3f9dde71bd22ed460b85f9c"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-11-11: 위키 갱신 (2개)",
-      "sha": "f4f4111",
-      "date": "2026-11-11T05:05:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f4f41118f3263444ba8849ac257eb9f1d25bd8d2"
     },
     {
       "type": "pr",
