@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-12T03:45:59Z",
-  "since": "2026-10-13T03:45:28Z",
+  "generated": "2026-11-12T06:08:51Z",
+  "since": "2026-10-13T06:07:51Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-12T01:46:06Z",
-      "pushed_at": "2026-11-12T03:07:40Z",
+      "updated_at": "2026-11-12T04:07:45Z",
+      "pushed_at": "2026-11-12T03:46:48Z",
       "recent_commits": [
+        {
+          "sha": "869a129",
+          "message": "dashboard: refresh dashboard.json and github-activity.json (auto 2026-11-12 12:44 KST)",
+          "author": "daeguru",
+          "date": "2026-11-12T03:46:46Z"
+        },
         {
           "sha": "6079148",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-12T03:07:32Z)",
@@ -85,12 +91,6 @@
           "message": "three-body-daily: 009 공개 폴더 반영",
           "author": "daeguru",
           "date": "2026-11-11T23:10:16Z"
-        },
-        {
-          "sha": "9aaef95",
-          "message": "dashboard: update github-activity + dashboard.json (cron 2026-11-12 06:44)",
-          "author": "daeguru",
-          "date": "2026-11-11T21:45:36Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-11-12T00:06:02Z",
-      "pushed_at": "2026-11-12T03:01:19Z",
+      "updated_at": "2026-11-12T06:04:06Z",
+      "pushed_at": "2026-11-12T05:04:02Z",
       "recent_commits": [
+        {
+          "sha": "e18a6c9",
+          "message": "📚 2026-11-12: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-12T05:03:58Z"
+        },
         {
           "sha": "efe81fe",
           "message": "🖼️ 2026-11-12: 아침 뉴스 그림책",
@@ -152,12 +158,6 @@
           "message": "📚 2026-11-11: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-11-11T05:05:30Z"
-        },
-        {
-          "sha": "b0d8fe3",
-          "message": "🖼️ 2026-11-11: 아침 뉴스 그림책",
-          "author": "Renover",
-          "date": "2026-11-11T04:31:02Z"
         }
       ],
       "recent_prs": [
@@ -477,7 +477,7 @@
       "private": true,
       "open_issues": 11,
       "open_prs": 3,
-      "updated_at": "2026-11-12T00:00:19Z",
+      "updated_at": "2026-11-12T04:34:06Z",
       "pushed_at": "2026-11-12T03:34:02Z",
       "recent_commits": [
         {
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-12: 위키 갱신 (2개)",
+      "sha": "e18a6c9",
+      "date": "2026-11-12T05:03:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e18a6c9d5ec426c3a969346266fcd05882e66b5d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json and github-activity.json (auto 2026-11-12 12:44 KST)",
+      "sha": "869a129",
+      "date": "2026-11-12T03:46:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/869a129968abc0c9ceabfda2af36b0512443a7ca"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "wake: FB-20261112-01 daeguru2 기상 기록",
@@ -737,15 +755,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update github-activity + dashboard.json (cron 2026-11-12 06:44)",
-      "sha": "9aaef95",
-      "date": "2026-11-11T21:45:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9aaef95bb32c63a180c6eab77e1af10146ef6408"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-11-12",
@@ -797,15 +806,6 @@
       "sha": "f4f4111",
       "date": "2026-11-11T05:05:30Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f4f41118f3263444ba8849ac257eb9f1d25bd8d2"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🖼️ 2026-11-11: 아침 뉴스 그림책",
-      "sha": "b0d8fe3",
-      "date": "2026-11-11T04:31:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b0d8fe3061d26f85e4b8927dac3e7c9286e61718"
     },
     {
       "type": "pr",
