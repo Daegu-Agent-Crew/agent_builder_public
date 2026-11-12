@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-12T12:47:00Z",
-  "since": "2026-10-13T12:46:25Z",
+  "generated": "2026-11-12T15:46:13Z",
+  "since": "2026-10-13T15:45:36Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -59,9 +59,15 @@
       "private": false,
       "open_issues": 10,
       "open_prs": 0,
-      "updated_at": "2026-11-12T10:07:30Z",
-      "pushed_at": "2026-11-12T09:47:35Z",
+      "updated_at": "2026-11-12T13:47:30Z",
+      "pushed_at": "2026-11-12T12:47:25Z",
       "recent_commits": [
+        {
+          "sha": "58ac987",
+          "message": "dashboard: dashboard.json/github-activity 갱신 (cron 2026-11-12 21:44)",
+          "author": "daeguru",
+          "date": "2026-11-12T12:47:23Z"
+        },
         {
           "sha": "dfc1f65",
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-12 18:47 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-12T06:08:51Z)",
           "author": "daeguru",
           "date": "2026-11-12T06:08:51Z"
-        },
-        {
-          "sha": "869a129",
-          "message": "dashboard: refresh dashboard.json and github-activity.json (auto 2026-11-12 12:44 KST)",
-          "author": "daeguru",
-          "date": "2026-11-12T03:46:46Z"
         }
       ],
       "recent_prs": [
@@ -126,9 +126,15 @@
       "private": false,
       "open_issues": 6,
       "open_prs": 0,
-      "updated_at": "2026-11-12T06:04:06Z",
-      "pushed_at": "2026-11-12T12:43:02Z",
+      "updated_at": "2026-11-12T13:43:07Z",
+      "pushed_at": "2026-11-12T12:52:39Z",
       "recent_commits": [
+        {
+          "sha": "46cb248",
+          "message": "🖼️ 2026-11-12: 데일리 브리핑 그림책",
+          "author": "Renover",
+          "date": "2026-11-12T12:52:24Z"
+        },
         {
           "sha": "2d1e675",
           "message": "📋 2026-11-12: 데일리 브리핑 아카이브",
@@ -152,12 +158,6 @@
           "message": "📰 2026-11-12: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-11-11T23:05:50Z"
-        },
-        {
-          "sha": "2edb9cc",
-          "message": "📋 2026-11-11: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-11-11T12:42:02Z"
         }
       ],
       "recent_prs": [
@@ -207,7 +207,7 @@
       "private": false,
       "open_issues": 17,
       "open_prs": 3,
-      "updated_at": "2026-11-11T23:45:27Z",
+      "updated_at": "2026-11-12T13:41:33Z",
       "pushed_at": "2026-11-12T12:41:30Z",
       "recent_commits": [
         {
@@ -478,8 +478,14 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T09:45:52Z",
-      "pushed_at": "2026-11-12T09:36:50Z",
+      "pushed_at": "2026-11-12T15:37:03Z",
       "recent_commits": [
+        {
+          "sha": "3eb4871",
+          "message": "log: Jev 게이트 판정 기록·관측 한 줄 2026-11-13",
+          "author": "daeguru",
+          "date": "2026-11-12T15:37:02Z"
+        },
         {
           "sha": "2cb9a27",
           "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-12 👍",
@@ -503,12 +509,6 @@
           "message": "board: 라이카 아레나 일일 연구 2026-11-12",
           "author": "Laika",
           "date": "2026-11-12T08:56:22Z"
-        },
-        {
-          "sha": "21833c1",
-          "message": "docs: DAC studio lesson #270",
-          "author": "sfex11",
-          "date": "2026-11-12T08:45:46Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록·관측 한 줄 2026-11-13",
+      "sha": "3eb4871",
+      "date": "2026-11-12T15:37:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3eb487180a7ec6f24d9f6550ebfb6754148784ce"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🖼️ 2026-11-12: 데일리 브리핑 그림책",
+      "sha": "46cb248",
+      "date": "2026-11-12T12:52:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/46cb248b3a4ad363e9accb5d1ca120db2a420468"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json/github-activity 갱신 (cron 2026-11-12 21:44)",
+      "sha": "58ac987",
+      "date": "2026-11-12T12:47:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/58ac98797b9db17842452d963859afd1aaf0d7de"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📋 2026-11-12: 데일리 브리핑 아카이브",
@@ -681,15 +708,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs: DAC studio lesson #270",
-      "sha": "21833c1",
-      "date": "2026-11-12T08:45:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/21833c1a61715db18cd31abd1ea7f4caebb8e394"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-12T06:47:26Z)",
@@ -714,15 +732,6 @@
       "sha": "e18a6c9",
       "date": "2026-11-12T05:03:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e18a6c9d5ec426c3a969346266fcd05882e66b5d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json (auto 2026-11-12 12:44 KST)",
-      "sha": "869a129",
-      "date": "2026-11-12T03:46:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/869a129968abc0c9ceabfda2af36b0512443a7ca"
     },
     {
       "type": "commit",
@@ -797,15 +806,6 @@
       "sha": "65f0c5f",
       "date": "2026-11-11T22:45:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/65f0c5f329802d778154df213bd9c30cfdb44bb2"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-11-11: 데일리 브리핑 아카이브",
-      "sha": "2edb9cc",
-      "date": "2026-11-11T12:42:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2edb9cc157124e365c174e719a23bdd3e3a28114"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 16,
+      "commits": 17,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 10,
+      "commits": 9,
       "prs": 18,
       "issues": 0,
       "reviews": 0
