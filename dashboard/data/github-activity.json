@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-12T03:07:32Z",
-  "since": "2026-10-13T03:06:44Z",
+  "generated": "2026-11-12T03:45:59Z",
+  "since": "2026-10-13T03:45:28Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T01:46:06Z",
-      "pushed_at": "2026-11-12T00:46:03Z",
+      "pushed_at": "2026-11-12T03:07:40Z",
       "recent_commits": [
+        {
+          "sha": "6079148",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-12T03:07:32Z)",
+          "author": "daeguru",
+          "date": "2026-11-12T03:07:37Z"
+        },
         {
           "sha": "de930a1",
           "message": "dashboard: refresh dashboard.json + github-activity (cron 09:44)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update github-activity + dashboard.json (cron 2026-11-12 06:44)",
           "author": "daeguru",
           "date": "2026-11-11T21:45:36Z"
-        },
-        {
-          "sha": "f2ad0af",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-11T21:06:40Z)",
-          "author": "daeguru",
-          "date": "2026-11-11T21:06:40Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T00:00:19Z",
-      "pushed_at": "2026-11-11T23:00:15Z",
+      "pushed_at": "2026-11-12T03:34:02Z",
       "recent_commits": [
+        {
+          "sha": "3fbc79d",
+          "message": "wake: FB-20261112-01 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-12T03:34:01Z"
+        },
         {
           "sha": "91c1ff1",
           "message": "feed: FB-20261112-01 대구루 경기 비평 11-11 판",
@@ -503,12 +509,6 @@
           "message": "board: daeguru2 ACK — 라이카 11-11 경기 비평 👍",
           "author": "daeguru",
           "date": "2026-11-11T15:37:33Z"
-        },
-        {
-          "sha": "6781b6b",
-          "message": "wake: FB-20261111-03 daeguru·daeguru2 기상 기록",
-          "author": "대구루 (AI)",
-          "date": "2026-11-11T15:36:41Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,24 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261112-01 daeguru2 기상 기록",
+      "sha": "3fbc79d",
+      "date": "2026-11-12T03:34:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3fbc79dc66b0e115184722f002faf8e1316f5c93"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-12T03:07:32Z)",
+      "sha": "6079148",
+      "date": "2026-11-12T03:07:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6079148f6e622b47e706168aa0083e0a4532544b"
+    },
     {
       "type": "commit",
       "repo": "ai-agent-news",
@@ -737,15 +755,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-11T21:06:40Z)",
-      "sha": "f2ad0af",
-      "date": "2026-11-11T21:06:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f2ad0afde396df16a5f1d8747851e8b5c50b8376"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru ACK — 라이카 11-11 경기 비평(설정 차이는 개입할 때만 실험) 👍",
@@ -761,15 +770,6 @@
       "sha": "1848351",
       "date": "2026-11-11T15:37:33Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1848351e1d1b16a048a896bf3df315060c2290db"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "wake: FB-20261111-03 daeguru·daeguru2 기상 기록",
-      "sha": "6781b6b",
-      "date": "2026-11-11T15:36:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6781b6b0282cd8977784d53fcb4adb842c4d1d5a"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 18,
       "prs": 0,
       "issues": 0,
       "reviews": 0
