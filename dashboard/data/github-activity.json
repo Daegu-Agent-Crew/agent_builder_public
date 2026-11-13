@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-13T15:45:48Z",
-  "since": "2026-10-14T15:45:12Z",
+  "generated": "2026-11-13T21:45:45Z",
+  "since": "2026-10-14T21:45:12Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-13T09:46:34Z",
+      "pushed_at": "2026-11-13T15:46:01Z",
       "recent_commits": [
+        {
+          "sha": "99f9cd6",
+          "message": "dashboard: dashboard.json + github-activity 갱신 (cron 2026-11-14)",
+          "author": "daeguru",
+          "date": "2026-11-13T15:45:57Z"
+        },
         {
           "sha": "3ee3813",
           "message": "chore: update dashboard data ()",
@@ -85,12 +91,6 @@
           "message": "dashboard: 2026-11-13 09:44 데이터 갱신 (projects 9, repos 11)",
           "author": "daeguru",
           "date": "2026-11-13T00:46:00Z"
-        },
-        {
-          "sha": "3a03f87",
-          "message": "three-body-daily: 010 공개 폴더 반영",
-          "author": "daeguru",
-          "date": "2026-11-12T23:04:35Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-13T15:36:57Z",
+      "pushed_at": "2026-11-13T21:34:34Z",
       "recent_commits": [
+        {
+          "sha": "cb2b50e",
+          "message": "log: Jev 게이트 판정 기록 2026-11-14",
+          "author": "daeguru",
+          "date": "2026-11-13T21:34:32Z"
+        },
         {
           "sha": "1e50674",
           "message": "log: 관측 한 줄 2026-11-14",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261112-01 daeguru2 기상 기록",
           "author": "대구루 (AI)",
           "date": "2026-11-13T09:37:17Z"
-        },
-        {
-          "sha": "00cc3ff",
-          "message": "fix(agents-board): FB-20260917-01 파일명 깨진 UTF-8 바이트 정정",
-          "author": "daeguru",
-          "date": "2026-11-13T04:01:06Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,24 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-14",
+      "sha": "cb2b50e",
+      "date": "2026-11-13T21:34:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cb2b50e32ec59c22ae9a8c039dca4e4f125ba16c"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json + github-activity 갱신 (cron 2026-11-14)",
+      "sha": "99f9cd6",
+      "date": "2026-11-13T15:45:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/99f9cd6e27ef7bdcd14328afcc3deeb9741a242a"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -717,15 +735,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "fix(agents-board): FB-20260917-01 파일명 깨진 UTF-8 바이트 정정",
-      "sha": "00cc3ff",
-      "date": "2026-11-13T04:01:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/00cc3ff18fc9d4946b4accb30dbdcb482c3201be"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-11-13 12:46 KST",
@@ -741,15 +750,6 @@
       "sha": "5268245",
       "date": "2026-11-13T00:46:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/52682458553f9218117767f60921b3ff7905a66c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "three-body-daily: 010 공개 폴더 반영",
-      "sha": "3a03f87",
-      "date": "2026-11-12T23:04:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3a03f8789c803352f9043cc7e74fe633f3b294e9"
     },
     {
       "type": "commit",
