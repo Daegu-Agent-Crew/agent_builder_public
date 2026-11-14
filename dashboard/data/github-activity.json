@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14T18:46:46Z",
-  "since": "2026-10-15T18:46:15Z",
+  "generated": "2026-11-14T21:45:59Z",
+  "since": "2026-10-15T21:45:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-14T15:46:38Z",
+      "pushed_at": "2026-11-14T18:46:56Z",
       "recent_commits": [
+        {
+          "sha": "cccc112",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-15 03:46 KST)",
+          "author": "daeguru",
+          "date": "2026-11-14T18:46:55Z"
+        },
         {
           "sha": "a03ba45",
           "message": "dashboard cron: dashboard.json 및 github-activity 갱신",
@@ -85,12 +91,6 @@
           "message": "시즌1 키비주얼 포스터 (시트 참조)",
           "author": "daeguru",
           "date": "2026-11-14T10:48:37Z"
-        },
-        {
-          "sha": "166ec71",
-          "message": "조연 캐릭터 시트 2장 공개 (예태지·로지·대사 / 섬례결·염북야·사평스)",
-          "author": "daeguru",
-          "date": "2026-11-14T10:32:57Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-14T15:33:46Z",
+      "pushed_at": "2026-11-14T21:32:36Z",
       "recent_commits": [
+        {
+          "sha": "d11afbb",
+          "message": "log: Jev 게이트 판정 기록 2026-11-15",
+          "author": "daeguru",
+          "date": "2026-11-14T21:32:35Z"
+        },
         {
           "sha": "bb4a735",
           "message": "log: Jev 게이트 판정 기록 2026-11-15",
@@ -503,12 +509,6 @@
           "message": "board: daeguru2 ACK — 대구루 11-13 경기 비평 👍",
           "author": "daeguru",
           "date": "2026-11-14T03:34:26Z"
-        },
-        {
-          "sha": "7a55697",
-          "message": "wake: FB-20261114-01 daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-11-14T03:33:41Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,24 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-15",
+      "sha": "d11afbb",
+      "date": "2026-11-14T21:32:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d11afbb4a8518704084f618226ca2bc1725ba624"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-15 03:46 KST)",
+      "sha": "cccc112",
+      "date": "2026-11-14T18:46:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cccc1120652ee41b99011de640e28a4b8a20ed61"
+    },
     {
       "type": "commit",
       "repo": "ai-agent-news",
@@ -717,15 +735,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "조연 캐릭터 시트 2장 공개 (예태지·로지·대사 / 섬례결·염북야·사평스)",
-      "sha": "166ec71",
-      "date": "2026-11-14T10:32:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/166ec71006ba4313ad96feea842edc462253e035"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-11-14",
@@ -759,15 +768,6 @@
       "sha": "8d74af8",
       "date": "2026-11-14T03:34:26Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8d74af85ff7fd9cf112671f625ac23e10d2c9cec"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261114-01 daeguru2 기상 기록",
-      "sha": "7a55697",
-      "date": "2026-11-14T03:33:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7a55697940a63a97e2789432dfb887539dcbd1a1"
     },
     {
       "type": "commit",
