@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-13T21:45:45Z",
-  "since": "2026-10-14T21:45:12Z",
+  "generated": "2026-11-14T00:47:58Z",
+  "since": "2026-10-15T00:47:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,26 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-13T15:46:01Z",
+      "pushed_at": "2026-11-14T00:43:01Z",
       "recent_commits": [
+        {
+          "sha": "7a151f1",
+          "message": "만화 방향 전환 파일럿 3종 (개그·스릴러·직장코미디 — 회장님 '재미없네' 피드백)",
+          "author": "daeguru",
+          "date": "2026-11-14T00:42:26Z"
+        },
+        {
+          "sha": "61106d0",
+          "message": "three-body-daily: 011 공개 폴더 반영",
+          "author": "daeguru",
+          "date": "2026-11-13T23:06:55Z"
+        },
+        {
+          "sha": "70c7391",
+          "message": "chore: dashboard data update",
+          "author": "daeguru",
+          "date": "2026-11-13T21:45:55Z"
+        },
         {
           "sha": "99f9cd6",
           "message": "dashboard: dashboard.json + github-activity 갱신 (cron 2026-11-14)",
@@ -73,24 +91,6 @@
           "message": "chore: update dashboard data ()",
           "author": "daeguru",
           "date": "2026-11-13T09:46:32Z"
-        },
-        {
-          "sha": "f3fa190",
-          "message": "chore: dashboard 데이터 갱신 (cron)",
-          "author": "daeguru",
-          "date": "2026-11-13T06:46:37Z"
-        },
-        {
-          "sha": "4793079",
-          "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-11-13 12:46 KST",
-          "author": "daeguru",
-          "date": "2026-11-13T03:46:45Z"
-        },
-        {
-          "sha": "5268245",
-          "message": "dashboard: 2026-11-13 09:44 데이터 갱신 (projects 9, repos 11)",
-          "author": "daeguru",
-          "date": "2026-11-13T00:46:00Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,20 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-13T12:46:14Z",
+      "pushed_at": "2026-11-13T23:47:34Z",
       "recent_commits": [
+        {
+          "sha": "bb290bc",
+          "message": "🎨 2026-11-14 AI 뉴스 그림책 추가",
+          "author": "Renover",
+          "date": "2026-11-13T23:47:17Z"
+        },
+        {
+          "sha": "76c3b7d",
+          "message": "📰 2026-11-14: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-11-13T23:07:06Z"
+        },
         {
           "sha": "a8a48ea",
           "message": "🖼️ 2026-11-13: 브리핑 그림책 추가",
@@ -146,18 +158,6 @@
           "message": "📚 2026-11-13: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-11-13T05:03:11Z"
-        },
-        {
-          "sha": "beab28b",
-          "message": "🎨 뉴스·그림책 매거진 디자인 및 모바일 가독성 개선",
-          "author": "Renover",
-          "date": "2026-11-13T04:45:40Z"
-        },
-        {
-          "sha": "f4b23e4",
-          "message": "📰 뉴스·그림책 날짜별 Pages 보관함 및 자동 배포",
-          "author": "Renover",
-          "date": "2026-11-13T04:39:03Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-13T21:34:34Z",
+      "pushed_at": "2026-11-13T23:00:43Z",
       "recent_commits": [
+        {
+          "sha": "2c275fd",
+          "message": "feed: FB-20261114-01 대구루 경기 비평 11-13 판 + 라이카 비평 ACK",
+          "author": "daeguru",
+          "date": "2026-11-13T23:00:42Z"
+        },
         {
           "sha": "cb2b50e",
           "message": "log: Jev 게이트 판정 기록 2026-11-14",
@@ -503,12 +509,6 @@
           "message": "board: daeguru2 ACK — 대구루 11-11 경기 비평 👍",
           "author": "daeguru",
           "date": "2026-11-13T09:38:15Z"
-        },
-        {
-          "sha": "3e79dc2",
-          "message": "wake: FB-20261112-01 daeguru2 기상 기록",
-          "author": "대구루 (AI)",
-          "date": "2026-11-13T09:37:17Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,60 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "만화 방향 전환 파일럿 3종 (개그·스릴러·직장코미디 — 회장님 '재미없네' 피드백)",
+      "sha": "7a151f1",
+      "date": "2026-11-14T00:42:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7a151f1176031951f7d7ef293425e2a5ac6c6370"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🎨 2026-11-14 AI 뉴스 그림책 추가",
+      "sha": "bb290bc",
+      "date": "2026-11-13T23:47:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/bb290bc475f4245cd4282ab1005799991947d29a"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-11-14: 뉴스 수집 (5건)",
+      "sha": "76c3b7d",
+      "date": "2026-11-13T23:07:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/76c3b7d5655e2745f2af7de5ee99b42c9ea39e42"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "three-body-daily: 011 공개 폴더 반영",
+      "sha": "61106d0",
+      "date": "2026-11-13T23:06:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/61106d0e342c5fc1a1a4b7df33cf0f9137e72a05"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261114-01 대구루 경기 비평 11-13 판 + 라이카 비평 ACK",
+      "sha": "2c275fd",
+      "date": "2026-11-13T23:00:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2c275fd61b97e63857efa358856239353e9af01d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: dashboard data update",
+      "sha": "70c7391",
+      "date": "2026-11-13T21:45:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/70c7391a507cd0e92893a673c9de2e28826276d4"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-11-14",
@@ -690,66 +744,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "wake: FB-20261112-01 daeguru2 기상 기록",
-      "sha": "3e79dc2",
-      "date": "2026-11-13T09:37:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3e79dc2430f355e9aa0328ec45484fcf235fb87c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: dashboard 데이터 갱신 (cron)",
-      "sha": "f3fa190",
-      "date": "2026-11-13T06:46:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f3fa190baacb6d40f1eb84410c62e02cfd5f3e9d"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-11-13: 위키 갱신 (2개)",
       "sha": "c4d1c95",
       "date": "2026-11-13T05:03:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c4d1c95938179b39687a258a6fa286a80abd57ce"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🎨 뉴스·그림책 매거진 디자인 및 모바일 가독성 개선",
-      "sha": "beab28b",
-      "date": "2026-11-13T04:45:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/beab28bd5577ae1a216d81d3a2e0cc68b81ad82b"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 뉴스·그림책 날짜별 Pages 보관함 및 자동 배포",
-      "sha": "f4b23e4",
-      "date": "2026-11-13T04:39:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f4b23e45ba4f58370ba2bdf26e3f8807b36f3c16"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update dashboard.json and github-activity.json 2026-11-13 12:46 KST",
-      "sha": "4793079",
-      "date": "2026-11-13T03:46:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/47930798b321ced481fb30baf1f93217fb064cb3"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: 2026-11-13 09:44 데이터 갱신 (projects 9, repos 11)",
-      "sha": "5268245",
-      "date": "2026-11-13T00:46:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/52682458553f9218117767f60921b3ff7905a66c"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 18,
       "prs": 0,
       "issues": 0,
       "reviews": 0
