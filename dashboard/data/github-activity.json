@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14T06:46:02Z",
-  "since": "2026-10-15T06:45:30Z",
+  "generated": "2026-11-14T09:47:11Z",
+  "since": "2026-10-15T09:46:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-14T06:30:48Z",
+      "pushed_at": "2026-11-14T06:46:24Z",
       "recent_commits": [
+        {
+          "sha": "92d65b0",
+          "message": "dashboard 데이터 갱신 (2026-11-14 15:44)",
+          "author": "daeguru",
+          "date": "2026-11-14T06:46:24Z"
+        },
         {
           "sha": "b9e1b88",
           "message": "예원제 캐릭터 시트 v2 — 재작성",
@@ -85,12 +91,6 @@
           "message": "삼체 데일리 #12 — 원작 충실 연재 시작(광화사)",
           "author": "daeguru",
           "date": "2026-11-14T01:56:46Z"
-        },
-        {
-          "sha": "37912ef",
-          "message": "chore(dashboard): refresh dashboard.json + github activity (cron)",
-          "author": "daeguru",
-          "date": "2026-11-14T00:48:21Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-14T03:34:27Z",
+      "pushed_at": "2026-11-14T09:35:41Z",
       "recent_commits": [
+        {
+          "sha": "80185a5",
+          "message": "log: Jev 게이트 판정 기록 2026-11-14",
+          "author": "daeguru",
+          "date": "2026-11-14T09:35:40Z"
+        },
         {
           "sha": "8d74af8",
           "message": "board: daeguru2 ACK — 대구루 11-13 경기 비평 👍",
@@ -503,12 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-11-14",
           "author": "daeguru",
           "date": "2026-11-13T21:34:32Z"
-        },
-        {
-          "sha": "1e50674",
-          "message": "log: 관측 한 줄 2026-11-14",
-          "author": "daeguru",
-          "date": "2026-11-13T15:36:57Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-14",
+      "sha": "80185a5",
+      "date": "2026-11-14T09:35:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/80185a5c9eca4385bcd0dcf033743f4621fcbdc0"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 갱신 (2026-11-14 15:44)",
+      "sha": "92d65b0",
+      "date": "2026-11-14T06:46:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/92d65b07468cfaf9516766a3ebe16204e841cdc6"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "예원제 캐릭터 시트 v2 — 재작성",
@@ -690,15 +708,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json + github activity (cron)",
-      "sha": "37912ef",
-      "date": "2026-11-14T00:48:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/37912ef3f6fb0d22fb9a95553a04d3d0625e8181"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🎨 2026-11-14 AI 뉴스 그림책 추가",
@@ -732,15 +741,6 @@
       "sha": "cb2b50e",
       "date": "2026-11-13T21:34:32Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cb2b50e32ec59c22ae9a8c039dca4e4f125ba16c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: 관측 한 줄 2026-11-14",
-      "sha": "1e50674",
-      "date": "2026-11-13T15:36:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1e50674571160e1c539b3c19c43f424304137321"
     },
     {
       "type": "commit",
