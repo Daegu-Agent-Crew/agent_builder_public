@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14T15:46:27Z",
-  "since": "2026-10-15T15:45:56Z",
+  "generated": "2026-11-14T18:46:46Z",
+  "since": "2026-10-15T18:46:15Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-14T12:47:47Z",
+      "pushed_at": "2026-11-14T15:46:38Z",
       "recent_commits": [
+        {
+          "sha": "a03ba45",
+          "message": "dashboard cron: dashboard.json 및 github-activity 갱신",
+          "author": "daeguru",
+          "date": "2026-11-14T15:46:36Z"
+        },
         {
           "sha": "19af387",
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-14 21:47 KST)",
@@ -85,12 +91,6 @@
           "message": "조연 캐릭터 시트 2장 공개 (예태지·로지·대사 / 섬례결·염북야·사평스)",
           "author": "daeguru",
           "date": "2026-11-14T10:32:57Z"
-        },
-        {
-          "sha": "b1a3c29",
-          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-14 18:47 KST)",
-          "author": "daeguru",
-          "date": "2026-11-14T09:47:27Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-14T12:48:12Z",
+      "pushed_at": "2026-11-14T16:34:45Z",
       "recent_commits": [
+        {
+          "sha": "f0bf303",
+          "message": "🎨 모아별 편집부 오리지널 캐릭터 시안과 활용 규칙",
+          "author": "Renover",
+          "date": "2026-11-14T16:34:17Z"
+        },
         {
           "sha": "e780555",
           "message": "🖼️ 2026-11-14: 데일리 브리핑 그림책",
@@ -152,12 +158,6 @@
           "message": "🎨 2026-11-14 AI 뉴스 그림책 추가",
           "author": "Renover",
           "date": "2026-11-13T23:47:17Z"
-        },
-        {
-          "sha": "76c3b7d",
-          "message": "📰 2026-11-14: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-11-13T23:07:06Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🎨 모아별 편집부 오리지널 캐릭터 시안과 활용 규칙",
+      "sha": "f0bf303",
+      "date": "2026-11-14T16:34:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/f0bf30370a4e94643d2fcbe2df0318ebe757bf22"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard cron: dashboard.json 및 github-activity 갱신",
+      "sha": "a03ba45",
+      "date": "2026-11-14T15:46:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a03ba457106861914efa62c4ee0ba78387c82a1c"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-11-15",
@@ -708,15 +726,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-14 18:47 KST)",
-      "sha": "b1a3c29",
-      "date": "2026-11-14T09:47:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b1a3c296fafcf4e6c0abbec6a101c7be24191f03"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-11-14",
@@ -777,15 +786,6 @@
       "sha": "bb290bc",
       "date": "2026-11-13T23:47:17Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/bb290bc475f4245cd4282ab1005799991947d29a"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-11-14: 뉴스 수집 (5건)",
-      "sha": "76c3b7d",
-      "date": "2026-11-13T23:07:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/76c3b7d5655e2745f2af7de5ee99b42c9ea39e42"
     },
     {
       "type": "commit",
