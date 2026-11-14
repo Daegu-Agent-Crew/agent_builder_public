@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14T09:47:11Z",
-  "since": "2026-10-15T09:46:40Z",
+  "generated": "2026-11-14T12:46:56Z",
+  "since": "2026-10-15T12:46:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,37 +60,37 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-14T06:46:24Z",
+      "pushed_at": "2026-11-14T10:50:15Z",
       "recent_commits": [
+        {
+          "sha": "c802cfc",
+          "message": "시즌1 전형적 칸만화 8칸 (시트 참조)",
+          "author": "daeguru",
+          "date": "2026-11-14T10:50:06Z"
+        },
+        {
+          "sha": "982208b",
+          "message": "시즌1 키비주얼 포스터 (시트 참조)",
+          "author": "daeguru",
+          "date": "2026-11-14T10:48:37Z"
+        },
+        {
+          "sha": "166ec71",
+          "message": "조연 캐릭터 시트 2장 공개 (예태지·로지·대사 / 섬례결·염북야·사평스)",
+          "author": "daeguru",
+          "date": "2026-11-14T10:32:57Z"
+        },
+        {
+          "sha": "b1a3c29",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-14 18:47 KST)",
+          "author": "daeguru",
+          "date": "2026-11-14T09:47:27Z"
+        },
         {
           "sha": "92d65b0",
           "message": "dashboard 데이터 갱신 (2026-11-14 15:44)",
           "author": "daeguru",
           "date": "2026-11-14T06:46:24Z"
-        },
-        {
-          "sha": "b9e1b88",
-          "message": "예원제 캐릭터 시트 v2 — 재작성",
-          "author": "daeguru",
-          "date": "2026-11-14T06:30:41Z"
-        },
-        {
-          "sha": "edf5fdd",
-          "message": "캐릭터 시트·스타일 후보 공개",
-          "author": "daeguru",
-          "date": "2026-11-14T05:32:25Z"
-        },
-        {
-          "sha": "4e7b84c",
-          "message": "chore: dashboard 데이터 갱신 (github-activity + dashboard.json)",
-          "author": "daeguru",
-          "date": "2026-11-14T03:46:43Z"
-        },
-        {
-          "sha": "0bb0260",
-          "message": "삼체 데일리 #12 — 원작 충실 연재 시작(광화사)",
-          "author": "daeguru",
-          "date": "2026-11-14T01:56:46Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-14T05:03:02Z",
+      "pushed_at": "2026-11-14T12:42:21Z",
       "recent_commits": [
+        {
+          "sha": "a7e46ae",
+          "message": "📋 2026-11-14: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-11-14T12:42:15Z"
+        },
         {
           "sha": "db34126",
           "message": "📚 2026-11-14: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "🖼️ 2026-11-13: 브리핑 그림책 추가",
           "author": "Renover",
           "date": "2026-11-13T12:46:01Z"
-        },
-        {
-          "sha": "90e7055",
-          "message": "📋 2026-11-13: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-11-13T12:41:36Z"
         }
       ],
       "recent_prs": [
@@ -205,11 +205,17 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 17,
+      "open_issues": 18,
       "open_prs": 3,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-13T12:40:15Z",
+      "pushed_at": "2026-11-14T12:40:29Z",
       "recent_commits": [
+        {
+          "sha": "7187166",
+          "message": "data(arena): 공식 경기 2026-11-14 21:30",
+          "author": "daeguru",
+          "date": "2026-11-14T12:40:28Z"
+        },
         {
           "sha": "deb559e",
           "message": "data(arena): 공식 경기 2026-11-13 21:30",
@@ -233,12 +239,6 @@
           "message": "arena: daeguru2 전략 2026-11-12 — zscore 24→12 (#143 경로 활성화 규칙)",
           "author": "daeguru",
           "date": "2026-11-11T22:45:51Z"
-        },
-        {
-          "sha": "2dd6cef",
-          "message": "Merge pull request #144 from Daegu-Agent-Crew/issue-143-path-activation",
-          "author": "sfex11",
-          "date": "2026-11-11T22:45:21Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,20 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-14T05:32:23Z",
+      "pushed_at": "2026-11-14T11:01:34Z",
       "recent_commits": [
+        {
+          "sha": "d366df8",
+          "message": "연출 파이프라인 확정 — 비평 게이트 제외·사전 준비 철저화 (회장님 2026-11-14)",
+          "author": "daeguru",
+          "date": "2026-11-14T11:01:34Z"
+        },
+        {
+          "sha": "b5934d7",
+          "message": "시즌1 줄거리 확정 — 원작 충실 24화(#12~35), 과거·현재 교차 구조",
+          "author": "daeguru",
+          "date": "2026-11-14T10:37:34Z"
+        },
         {
           "sha": "0d6da77",
           "message": "캐릭터 시트·스타일 가이드 — 일관성 대책 1단계",
@@ -564,18 +576,6 @@
           "message": "[삼체 데일리] 004~006 미푸시 3일치 일괄 반영 — 커밋 단계 유실 복구",
           "author": "daeguru",
           "date": "2026-11-09T01:03:37Z"
-        },
-        {
-          "sha": "88d232e",
-          "message": "삼체 데일리 #3 — codex 내장 image_gen 생성",
-          "author": "daeguru",
-          "date": "2026-11-06T00:25:12Z"
-        },
-        {
-          "sha": "84ea367",
-          "message": "[삼체 데일리 #2] 2026-11-05 새벽 컷 — codex 내장 image_gen",
-          "author": "daeguru",
-          "date": "2026-11-04T23:04:20Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,78 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-11-14: 데일리 브리핑 아카이브",
+      "sha": "a7e46ae",
+      "date": "2026-11-14T12:42:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a7e46ae96e08b6591b7f5dfa45070f59b0c09e8c"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-14 21:30",
+      "sha": "7187166",
+      "date": "2026-11-14T12:40:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/718716663fe9ecd667f4f6535af5dc94908bb78c"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "연출 파이프라인 확정 — 비평 게이트 제외·사전 준비 철저화 (회장님 2026-11-14)",
+      "sha": "d366df8",
+      "date": "2026-11-14T11:01:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/d366df812b012d08e48493e00b3f068f78adf6fb"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "시즌1 전형적 칸만화 8칸 (시트 참조)",
+      "sha": "c802cfc",
+      "date": "2026-11-14T10:50:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c802cfc350ad42ba359fd684751e60b309ab5881"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "시즌1 키비주얼 포스터 (시트 참조)",
+      "sha": "982208b",
+      "date": "2026-11-14T10:48:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/982208b69cbadb977e9f749844210c233b93205d"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "시즌1 줄거리 확정 — 원작 충실 24화(#12~35), 과거·현재 교차 구조",
+      "sha": "b5934d7",
+      "date": "2026-11-14T10:37:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/b5934d7c16607821d7f2e6440529a78348fe2d2b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "조연 캐릭터 시트 2장 공개 (예태지·로지·대사 / 섬례결·염북야·사평스)",
+      "sha": "166ec71",
+      "date": "2026-11-14T10:32:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/166ec71006ba4313ad96feea842edc462253e035"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-14 18:47 KST)",
+      "sha": "b1a3c29",
+      "date": "2026-11-14T09:47:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b1a3c296fafcf4e6c0abbec6a101c7be24191f03"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-11-14",
@@ -624,24 +696,6 @@
       "sha": "92d65b0",
       "date": "2026-11-14T06:46:24Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/92d65b07468cfaf9516766a3ebe16204e841cdc6"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "예원제 캐릭터 시트 v2 — 재작성",
-      "sha": "b9e1b88",
-      "date": "2026-11-14T06:30:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b9e1b88623047790c444a72bd48a5ba9e389d896"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "캐릭터 시트·스타일 후보 공개",
-      "sha": "edf5fdd",
-      "date": "2026-11-14T05:32:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/edf5fddbbafa5ac6883d31bd342381fbc59c797d"
     },
     {
       "type": "commit",
@@ -663,15 +717,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: dashboard 데이터 갱신 (github-activity + dashboard.json)",
-      "sha": "4e7b84c",
-      "date": "2026-11-14T03:46:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4e7b84c05aad2cd3dc9b503e468685d53a59709d"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 대구루 11-13 경기 비평 👍",
@@ -687,15 +732,6 @@
       "sha": "7a55697",
       "date": "2026-11-14T03:33:41Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7a55697940a63a97e2789432dfb887539dcbd1a1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "삼체 데일리 #12 — 원작 충실 연재 시작(광화사)",
-      "sha": "0bb0260",
-      "date": "2026-11-14T01:56:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0bb02607655e976380198f29a16565e20f28d834"
     },
     {
       "type": "commit",
@@ -750,15 +786,6 @@
       "sha": "a8a48ea",
       "date": "2026-11-13T12:46:01Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a8a48ea8b8883717bcd1042967d9b15afa0224c0"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-11-13: 데일리 브리핑 아카이브",
-      "sha": "90e7055",
-      "date": "2026-11-13T12:41:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/90e70550fd978f7534bbdb3773c09835433b8b71"
     },
     {
       "type": "commit",
@@ -817,15 +844,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/144"
     },
     {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "Merge pull request #144 from Daegu-Agent-Crew/issue-143-path-activation",
-      "sha": "2dd6cef",
-      "date": "2026-11-11T22:45:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2dd6cef32eb41422797be3a8cb8b24c4125546ef"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -843,24 +861,6 @@
       "sha": "6e04dc4",
       "date": "2026-11-09T01:03:37Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/6e04dc4be3bb01bfcb447af6b5047c595c2a16b7"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "삼체 데일리 #3 — codex 내장 image_gen 생성",
-      "sha": "88d232e",
-      "date": "2026-11-06T00:25:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/88d232eb58dcd28b620b1d96f1f3fcb7ce40a63e"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "[삼체 데일리 #2] 2026-11-05 새벽 컷 — codex 내장 image_gen",
-      "sha": "84ea367",
-      "date": "2026-11-04T23:04:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/84ea367cd33eb3059167434f0005dc5ef8b77159"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 19,
+      "commits": 20,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 8,
+      "commits": 7,
       "prs": 18,
       "issues": 0,
       "reviews": 0
