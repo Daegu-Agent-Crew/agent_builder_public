@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14T03:46:30Z",
-  "since": "2026-10-15T03:45:58Z",
+  "generated": "2026-11-14T06:46:02Z",
+  "since": "2026-10-15T06:45:30Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,26 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-14T01:57:03Z",
+      "pushed_at": "2026-11-14T06:30:48Z",
       "recent_commits": [
+        {
+          "sha": "b9e1b88",
+          "message": "예원제 캐릭터 시트 v2 — 재작성",
+          "author": "daeguru",
+          "date": "2026-11-14T06:30:41Z"
+        },
+        {
+          "sha": "edf5fdd",
+          "message": "캐릭터 시트·스타일 후보 공개",
+          "author": "daeguru",
+          "date": "2026-11-14T05:32:25Z"
+        },
+        {
+          "sha": "4e7b84c",
+          "message": "chore: dashboard 데이터 갱신 (github-activity + dashboard.json)",
+          "author": "daeguru",
+          "date": "2026-11-14T03:46:43Z"
+        },
         {
           "sha": "0bb0260",
           "message": "삼체 데일리 #12 — 원작 충실 연재 시작(광화사)",
@@ -73,24 +91,6 @@
           "message": "chore(dashboard): refresh dashboard.json + github activity (cron)",
           "author": "daeguru",
           "date": "2026-11-14T00:48:21Z"
-        },
-        {
-          "sha": "7a151f1",
-          "message": "만화 방향 전환 파일럿 3종 (개그·스릴러·직장코미디 — 회장님 '재미없네' 피드백)",
-          "author": "daeguru",
-          "date": "2026-11-14T00:42:26Z"
-        },
-        {
-          "sha": "61106d0",
-          "message": "three-body-daily: 011 공개 폴더 반영",
-          "author": "daeguru",
-          "date": "2026-11-13T23:06:55Z"
-        },
-        {
-          "sha": "70c7391",
-          "message": "chore: dashboard data update",
-          "author": "daeguru",
-          "date": "2026-11-13T21:45:55Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-13T23:47:34Z",
+      "pushed_at": "2026-11-14T05:03:02Z",
       "recent_commits": [
+        {
+          "sha": "db34126",
+          "message": "📚 2026-11-14: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-14T05:03:01Z"
+        },
         {
           "sha": "bb290bc",
           "message": "🎨 2026-11-14 AI 뉴스 그림책 추가",
@@ -152,12 +158,6 @@
           "message": "📋 2026-11-13: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-11-13T12:41:36Z"
-        },
-        {
-          "sha": "c4d1c95",
-          "message": "📚 2026-11-13: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-11-13T05:03:11Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,14 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-14T01:56:44Z",
+      "pushed_at": "2026-11-14T05:32:23Z",
       "recent_commits": [
+        {
+          "sha": "0d6da77",
+          "message": "캐릭터 시트·스타일 가이드 — 일관성 대책 1단계",
+          "author": "daeguru",
+          "date": "2026-11-14T05:32:00Z"
+        },
         {
           "sha": "ead29cb",
           "message": "EP012 원작 충실 연재 시작 — 광화사(1부 1장)",
@@ -570,12 +576,6 @@
           "message": "[삼체 데일리 #2] 2026-11-05 새벽 컷 — codex 내장 image_gen",
           "author": "daeguru",
           "date": "2026-11-04T23:04:20Z"
-        },
-        {
-          "sha": "a426186",
-          "message": "삼체 데일리 #1 — codex 내장 image_gen 생성 (예원제·송신 버튼 직전)",
-          "author": "daeguru",
-          "date": "2026-11-04T00:05:41Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,51 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "예원제 캐릭터 시트 v2 — 재작성",
+      "sha": "b9e1b88",
+      "date": "2026-11-14T06:30:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b9e1b88623047790c444a72bd48a5ba9e389d896"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "캐릭터 시트·스타일 후보 공개",
+      "sha": "edf5fdd",
+      "date": "2026-11-14T05:32:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/edf5fddbbafa5ac6883d31bd342381fbc59c797d"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "캐릭터 시트·스타일 가이드 — 일관성 대책 1단계",
+      "sha": "0d6da77",
+      "date": "2026-11-14T05:32:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/0d6da771cd0b1a36735429d1c8eabbe5497e13d1"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-14: 위키 갱신 (2개)",
+      "sha": "db34126",
+      "date": "2026-11-14T05:03:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/db3412649600e03e813106b5950417182c9431f8"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: dashboard 데이터 갱신 (github-activity + dashboard.json)",
+      "sha": "4e7b84c",
+      "date": "2026-11-14T03:46:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4e7b84c05aad2cd3dc9b503e468685d53a59709d"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -654,15 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "만화 방향 전환 파일럿 3종 (개그·스릴러·직장코미디 — 회장님 '재미없네' 피드백)",
-      "sha": "7a151f1",
-      "date": "2026-11-14T00:42:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7a151f1176031951f7d7ef293425e2a5ac6c6370"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🎨 2026-11-14 AI 뉴스 그림책 추가",
@@ -681,30 +717,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "three-body-daily: 011 공개 폴더 반영",
-      "sha": "61106d0",
-      "date": "2026-11-13T23:06:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/61106d0e342c5fc1a1a4b7df33cf0f9137e72a05"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "feed: FB-20261114-01 대구루 경기 비평 11-13 판 + 라이카 비평 ACK",
       "sha": "2c275fd",
       "date": "2026-11-13T23:00:42Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2c275fd61b97e63857efa358856239353e9af01d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: dashboard data update",
-      "sha": "70c7391",
-      "date": "2026-11-13T21:45:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/70c7391a507cd0e92893a673c9de2e28826276d4"
     },
     {
       "type": "commit",
@@ -750,15 +768,6 @@
       "sha": "deb559e",
       "date": "2026-11-13T12:40:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/deb559e6b8a0b4ef71321ee804825add896cd7e3"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-11-13: 위키 갱신 (2개)",
-      "sha": "c4d1c95",
-      "date": "2026-11-13T05:03:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c4d1c95938179b39687a258a6fa286a80abd57ce"
     },
     {
       "type": "commit",
@@ -852,15 +861,6 @@
       "sha": "84ea367",
       "date": "2026-11-04T23:04:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/84ea367cd33eb3059167434f0005dc5ef8b77159"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "삼체 데일리 #1 — codex 내장 image_gen 생성 (예원제·송신 버튼 직전)",
-      "sha": "a426186",
-      "date": "2026-11-04T00:05:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/a426186a35809b60a6d6c97f01bbde5b8c81678c"
     },
     {
       "type": "pr",
