@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14T00:47:58Z",
-  "since": "2026-10-15T00:47:27Z",
+  "generated": "2026-11-14T03:46:30Z",
+  "since": "2026-10-15T03:45:58Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-14T00:43:01Z",
+      "pushed_at": "2026-11-14T01:57:03Z",
       "recent_commits": [
+        {
+          "sha": "0bb0260",
+          "message": "삼체 데일리 #12 — 원작 충실 연재 시작(광화사)",
+          "author": "daeguru",
+          "date": "2026-11-14T01:56:46Z"
+        },
+        {
+          "sha": "37912ef",
+          "message": "chore(dashboard): refresh dashboard.json + github activity (cron)",
+          "author": "daeguru",
+          "date": "2026-11-14T00:48:21Z"
+        },
         {
           "sha": "7a151f1",
           "message": "만화 방향 전환 파일럿 3종 (개그·스릴러·직장코미디 — 회장님 '재미없네' 피드백)",
@@ -79,18 +91,6 @@
           "message": "chore: dashboard data update",
           "author": "daeguru",
           "date": "2026-11-13T21:45:55Z"
-        },
-        {
-          "sha": "99f9cd6",
-          "message": "dashboard: dashboard.json + github-activity 갱신 (cron 2026-11-14)",
-          "author": "daeguru",
-          "date": "2026-11-13T15:45:57Z"
-        },
-        {
-          "sha": "3ee3813",
-          "message": "chore: update dashboard data ()",
-          "author": "daeguru",
-          "date": "2026-11-13T09:46:32Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,20 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-13T23:00:43Z",
+      "pushed_at": "2026-11-14T03:34:27Z",
       "recent_commits": [
+        {
+          "sha": "8d74af8",
+          "message": "board: daeguru2 ACK — 대구루 11-13 경기 비평 👍",
+          "author": "daeguru",
+          "date": "2026-11-14T03:34:26Z"
+        },
+        {
+          "sha": "7a55697",
+          "message": "wake: FB-20261114-01 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-14T03:33:41Z"
+        },
         {
           "sha": "2c275fd",
           "message": "feed: FB-20261114-01 대구루 경기 비평 11-13 판 + 라이카 비평 ACK",
@@ -497,18 +509,6 @@
           "message": "log: 관측 한 줄 2026-11-14",
           "author": "daeguru",
           "date": "2026-11-13T15:36:57Z"
-        },
-        {
-          "sha": "13e657a",
-          "message": "log: Jev 게이트 판정 기록 2026-11-14",
-          "author": "daeguru",
-          "date": "2026-11-13T15:36:56Z"
-        },
-        {
-          "sha": "b9eb0e0",
-          "message": "board: daeguru2 ACK — 대구루 11-11 경기 비평 👍",
-          "author": "daeguru",
-          "date": "2026-11-13T09:38:15Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,14 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-09T01:04:11Z",
+      "pushed_at": "2026-11-14T01:56:44Z",
       "recent_commits": [
+        {
+          "sha": "ead29cb",
+          "message": "EP012 원작 충실 연재 시작 — 광화사(1부 1장)",
+          "author": "daeguru",
+          "date": "2026-11-14T01:55:44Z"
+        },
         {
           "sha": "6e04dc4",
           "message": "[삼체 데일리] 004~006 미푸시 3일치 일괄 반영 — 커밋 단계 유실 복구",
@@ -570,12 +576,6 @@
           "message": "삼체 데일리 #1 — codex 내장 image_gen 생성 (예원제·송신 버튼 직전)",
           "author": "daeguru",
           "date": "2026-11-04T00:05:41Z"
-        },
-        {
-          "sha": "763c453",
-          "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
-          "author": "sfex11",
-          "date": "2026-08-03T23:58:34Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,51 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 대구루 11-13 경기 비평 👍",
+      "sha": "8d74af8",
+      "date": "2026-11-14T03:34:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8d74af85ff7fd9cf112671f625ac23e10d2c9cec"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261114-01 daeguru2 기상 기록",
+      "sha": "7a55697",
+      "date": "2026-11-14T03:33:41Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7a55697940a63a97e2789432dfb887539dcbd1a1"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "삼체 데일리 #12 — 원작 충실 연재 시작(광화사)",
+      "sha": "0bb0260",
+      "date": "2026-11-14T01:56:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0bb02607655e976380198f29a16565e20f28d834"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "EP012 원작 충실 연재 시작 — 광화사(1부 1장)",
+      "sha": "ead29cb",
+      "date": "2026-11-14T01:55:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/ead29cb4e81a6da8e903597f7c6870dd409bb8ae"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json + github activity (cron)",
+      "sha": "37912ef",
+      "date": "2026-11-14T00:48:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/37912ef3f6fb0d22fb9a95553a04d3d0625e8181"
+    },
     {
       "type": "commit",
       "repo": "agent_builder_public",
@@ -672,30 +717,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: dashboard.json + github-activity 갱신 (cron 2026-11-14)",
-      "sha": "99f9cd6",
-      "date": "2026-11-13T15:45:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/99f9cd6e27ef7bdcd14328afcc3deeb9741a242a"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "log: 관측 한 줄 2026-11-14",
       "sha": "1e50674",
       "date": "2026-11-13T15:36:57Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1e50674571160e1c539b3c19c43f424304137321"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-14",
-      "sha": "13e657a",
-      "date": "2026-11-13T15:36:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/13e657af0f324157e4e7114f589e619b70fae572"
     },
     {
       "type": "commit",
@@ -723,24 +750,6 @@
       "sha": "deb559e",
       "date": "2026-11-13T12:40:14Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/deb559e6b8a0b4ef71321ee804825add896cd7e3"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data ()",
-      "sha": "3ee3813",
-      "date": "2026-11-13T09:46:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3ee3813a747ff47cf0756cdb60f44e11feff37b7"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 대구루 11-11 경기 비평 👍",
-      "sha": "b9eb0e0",
-      "date": "2026-11-13T09:38:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b9eb0e0b6d4d5baba23a6d31bf7d1830cb3dc105"
     },
     {
       "type": "commit",
@@ -933,15 +942,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory-kit/commit/8186416c20d575ac511c2e76ca2612eb1bed23b3"
     },
     {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "sfex11",
-      "message": "CLE5 EP002 image: p9-3_shi_qiang_midpoint.jpg",
-      "sha": "763c453",
-      "date": "2026-08-03T23:58:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/763c4531213a8b7036581da903c6183aa2777c7e"
-    },
-    {
       "type": "pr",
       "repo": "three-body-comic",
       "author": "sfex11",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 18,
+      "commits": 19,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 9,
+      "commits": 8,
       "prs": 18,
       "issues": 0,
       "reviews": 0
