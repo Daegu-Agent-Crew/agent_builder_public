@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-15T00:46:02Z",
-  "since": "2026-10-16T00:45:30Z",
+  "generated": "2026-11-15T03:46:21Z",
+  "since": "2026-10-16T03:45:50Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-14T23:06:56Z",
+      "pushed_at": "2026-11-15T00:46:24Z",
       "recent_commits": [
+        {
+          "sha": "a7abb76",
+          "message": "dashboard: refresh dashboard.json + github-activity (auto)",
+          "author": "daeguru",
+          "date": "2026-11-15T00:46:22Z"
+        },
         {
           "sha": "7917935",
           "message": "three-body-daily: 013 공개 폴더 반영",
@@ -85,12 +91,6 @@
           "message": "dashboard cron: dashboard.json 및 github-activity 갱신",
           "author": "daeguru",
           "date": "2026-11-14T15:46:36Z"
-        },
-        {
-          "sha": "19af387",
-          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-14 21:47 KST)",
-          "author": "daeguru",
-          "date": "2026-11-14T12:47:45Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-14T23:51:11Z",
+      "pushed_at": "2026-11-15T01:05:43Z",
       "recent_commits": [
+        {
+          "sha": "ee0fc5b",
+          "message": "🎨 모아별 v2: 캐릭터 분석 기반 체형·성격·관계 재개발",
+          "author": "Renover",
+          "date": "2026-11-15T01:05:18Z"
+        },
         {
           "sha": "15cc840",
           "message": "🤖 작업: 레노버 — 2026-11-15 AI 뉴스 그림책",
@@ -152,12 +158,6 @@
           "message": "🖼️ 2026-11-14: 데일리 브리핑 그림책",
           "author": "Renover",
           "date": "2026-11-14T12:47:52Z"
-        },
-        {
-          "sha": "a7e46ae",
-          "message": "📋 2026-11-14: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-11-14T12:42:15Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,20 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-14T23:00:17Z",
+      "pushed_at": "2026-11-15T03:33:35Z",
       "recent_commits": [
+        {
+          "sha": "d66096a",
+          "message": "board: daeguru2 ACK — 대구루 11-14 경기 비평 👍",
+          "author": "daeguru",
+          "date": "2026-11-15T03:33:34Z"
+        },
+        {
+          "sha": "529c536",
+          "message": "wake: FB-20261115-01 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-15T03:32:49Z"
+        },
         {
           "sha": "1432b5a",
           "message": "feed: FB-20261115-01 대구루 경기 비평 11-14 판 + 라이카 비평 ACK",
@@ -497,18 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-11-15",
           "author": "daeguru",
           "date": "2026-11-14T15:33:45Z"
-        },
-        {
-          "sha": "8d625a7",
-          "message": "log: Jev 게이트 판정 기록 2026-11-15",
-          "author": "daeguru",
-          "date": "2026-11-14T15:33:28Z"
-        },
-        {
-          "sha": "80185a5",
-          "message": "log: Jev 게이트 판정 기록 2026-11-14",
-          "author": "daeguru",
-          "date": "2026-11-14T09:35:40Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,14 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-14T11:01:34Z",
+      "pushed_at": "2026-11-15T01:01:45Z",
       "recent_commits": [
+        {
+          "sha": "137e95e",
+          "message": "연출 규칙 추가 — 카메라·시선 다양성(인접 칸 같은 방향 금지·앵글 혼합) 회장님 피드백 반영",
+          "author": "daeguru",
+          "date": "2026-11-15T01:01:09Z"
+        },
         {
           "sha": "d366df8",
           "message": "연출 파이프라인 확정 — 비평 게이트 제외·사전 준비 철저화 (회장님 2026-11-14)",
@@ -570,12 +576,6 @@
           "message": "EP012 원작 충실 연재 시작 — 광화사(1부 1장)",
           "author": "daeguru",
           "date": "2026-11-14T01:55:44Z"
-        },
-        {
-          "sha": "6e04dc4",
-          "message": "[삼체 데일리] 004~006 미푸시 3일치 일괄 반영 — 커밋 단계 유실 복구",
-          "author": "daeguru",
-          "date": "2026-11-09T01:03:37Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,51 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 대구루 11-14 경기 비평 👍",
+      "sha": "d66096a",
+      "date": "2026-11-15T03:33:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d66096af7dbe721896ce9f42eb3d9cf7afb0346a"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261115-01 daeguru2 기상 기록",
+      "sha": "529c536",
+      "date": "2026-11-15T03:32:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/529c536d57013e9b4e6a60e9c738f611132cdac7"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🎨 모아별 v2: 캐릭터 분석 기반 체형·성격·관계 재개발",
+      "sha": "ee0fc5b",
+      "date": "2026-11-15T01:05:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ee0fc5be803a3a8431c53f5460bb0eec6d362b5b"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "연출 규칙 추가 — 카메라·시선 다양성(인접 칸 같은 방향 금지·앵글 혼합) 회장님 피드백 반영",
+      "sha": "137e95e",
+      "date": "2026-11-15T01:01:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/137e95ee504e1f4d212f6b9145fbe4774f4c4eaf"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json + github-activity (auto)",
+      "sha": "a7abb76",
+      "date": "2026-11-15T00:46:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a7abb7658759ba34369a2fd9ee7dc88e4be0f2e1"
+    },
     {
       "type": "commit",
       "repo": "ai-agent-news",
@@ -699,39 +744,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-15",
-      "sha": "8d625a7",
-      "date": "2026-11-14T15:33:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8d625a7ecf89e31ccf3754dc93445a668df55916"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🖼️ 2026-11-14: 데일리 브리핑 그림책",
       "sha": "e780555",
       "date": "2026-11-14T12:47:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e78055594dfeb6480282ab1b85af9d8005a8866e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-14 21:47 KST)",
-      "sha": "19af387",
-      "date": "2026-11-14T12:47:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/19af387555884fea71cb9edbc64ecd1efec5f44a"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-11-14: 데일리 브리핑 아카이브",
-      "sha": "a7e46ae",
-      "date": "2026-11-14T12:42:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/a7e46ae96e08b6591b7f5dfa45070f59b0c09e8c"
     },
     {
       "type": "commit",
@@ -759,15 +777,6 @@
       "sha": "b5934d7",
       "date": "2026-11-14T10:37:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/b5934d7c16607821d7f2e6440529a78348fe2d2b"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-14",
-      "sha": "80185a5",
-      "date": "2026-11-14T09:35:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/80185a5c9eca4385bcd0dcf033743f4621fcbdc0"
     },
     {
       "type": "commit",
@@ -852,15 +861,6 @@
       "state": "closed",
       "date": "2026-11-09T01:05:46Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/142"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "[삼체 데일리] 004~006 미푸시 3일치 일괄 반영 — 커밋 단계 유실 복구",
-      "sha": "6e04dc4",
-      "date": "2026-11-09T01:03:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/6e04dc4be3bb01bfcb447af6b5047c595c2a16b7"
     },
     {
       "type": "pr",
