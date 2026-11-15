@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14T21:45:59Z",
-  "since": "2026-10-15T21:45:27Z",
+  "generated": "2026-11-15T00:46:02Z",
+  "since": "2026-10-16T00:45:30Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-14T18:46:56Z",
+      "pushed_at": "2026-11-14T23:06:56Z",
       "recent_commits": [
+        {
+          "sha": "7917935",
+          "message": "three-body-daily: 013 공개 폴더 반영",
+          "author": "daeguru",
+          "date": "2026-11-14T23:06:39Z"
+        },
+        {
+          "sha": "0f21509",
+          "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-15 06:44)",
+          "author": "daeguru",
+          "date": "2026-11-14T21:46:07Z"
+        },
         {
           "sha": "cccc112",
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-15 03:46 KST)",
@@ -79,18 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-14 21:47 KST)",
           "author": "daeguru",
           "date": "2026-11-14T12:47:45Z"
-        },
-        {
-          "sha": "c802cfc",
-          "message": "시즌1 전형적 칸만화 8칸 (시트 참조)",
-          "author": "daeguru",
-          "date": "2026-11-14T10:50:06Z"
-        },
-        {
-          "sha": "982208b",
-          "message": "시즌1 키비주얼 포스터 (시트 참조)",
-          "author": "daeguru",
-          "date": "2026-11-14T10:48:37Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,20 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-14T16:34:45Z",
+      "pushed_at": "2026-11-14T23:51:11Z",
       "recent_commits": [
+        {
+          "sha": "15cc840",
+          "message": "🤖 작업: 레노버 — 2026-11-15 AI 뉴스 그림책",
+          "author": "Renover",
+          "date": "2026-11-14T23:50:52Z"
+        },
+        {
+          "sha": "7f2eb33",
+          "message": "📰 2026-11-15: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-11-14T23:04:47Z"
+        },
         {
           "sha": "f0bf303",
           "message": "🎨 모아별 편집부 오리지널 캐릭터 시안과 활용 규칙",
@@ -146,18 +158,6 @@
           "message": "📋 2026-11-14: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-11-14T12:42:15Z"
-        },
-        {
-          "sha": "db34126",
-          "message": "📚 2026-11-14: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-11-14T05:03:01Z"
-        },
-        {
-          "sha": "bb290bc",
-          "message": "🎨 2026-11-14 AI 뉴스 그림책 추가",
-          "author": "Renover",
-          "date": "2026-11-13T23:47:17Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-14T21:32:36Z",
+      "pushed_at": "2026-11-14T23:00:17Z",
       "recent_commits": [
+        {
+          "sha": "1432b5a",
+          "message": "feed: FB-20261115-01 대구루 경기 비평 11-14 판 + 라이카 비평 ACK",
+          "author": "daeguru",
+          "date": "2026-11-14T23:00:17Z"
+        },
         {
           "sha": "d11afbb",
           "message": "log: Jev 게이트 판정 기록 2026-11-15",
@@ -503,12 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-11-14",
           "author": "daeguru",
           "date": "2026-11-14T09:35:40Z"
-        },
-        {
-          "sha": "8d74af8",
-          "message": "board: daeguru2 ACK — 대구루 11-13 경기 비평 👍",
-          "author": "daeguru",
-          "date": "2026-11-14T03:34:26Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,51 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🤖 작업: 레노버 — 2026-11-15 AI 뉴스 그림책",
+      "sha": "15cc840",
+      "date": "2026-11-14T23:50:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/15cc840ffb2df2d3a76bb796643ef3171ca42771"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "three-body-daily: 013 공개 폴더 반영",
+      "sha": "7917935",
+      "date": "2026-11-14T23:06:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7917935780724ba47dc641d0593b0d2287e234ee"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-11-15: 뉴스 수집 (5건)",
+      "sha": "7f2eb33",
+      "date": "2026-11-14T23:04:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/7f2eb330252b7a9c949265b38af445c3a9c8003b"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261115-01 대구루 경기 비평 11-14 판 + 라이카 비평 ACK",
+      "sha": "1432b5a",
+      "date": "2026-11-14T23:00:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1432b5addc2a7310d8dbd323562c22df0a89681d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-15 06:44)",
+      "sha": "0f21509",
+      "date": "2026-11-14T21:46:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0f21509e57791cf971fc2921a313261ee064e505"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -708,24 +753,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "시즌1 전형적 칸만화 8칸 (시트 참조)",
-      "sha": "c802cfc",
-      "date": "2026-11-14T10:50:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c802cfc350ad42ba359fd684751e60b309ab5881"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "시즌1 키비주얼 포스터 (시트 참조)",
-      "sha": "982208b",
-      "date": "2026-11-14T10:48:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/982208b69cbadb977e9f749844210c233b93205d"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "시즌1 줄거리 확정 — 원작 충실 24화(#12~35), 과거·현재 교차 구조",
@@ -753,39 +780,12 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-11-14: 위키 갱신 (2개)",
-      "sha": "db34126",
-      "date": "2026-11-14T05:03:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/db3412649600e03e813106b5950417182c9431f8"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 대구루 11-13 경기 비평 👍",
-      "sha": "8d74af8",
-      "date": "2026-11-14T03:34:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8d74af85ff7fd9cf112671f625ac23e10d2c9cec"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "EP012 원작 충실 연재 시작 — 광화사(1부 1장)",
       "sha": "ead29cb",
       "date": "2026-11-14T01:55:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/ead29cb4e81a6da8e903597f7c6870dd409bb8ae"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🎨 2026-11-14 AI 뉴스 그림책 추가",
-      "sha": "bb290bc",
-      "date": "2026-11-13T23:47:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/bb290bc475f4245cd4282ab1005799991947d29a"
     },
     {
       "type": "commit",
