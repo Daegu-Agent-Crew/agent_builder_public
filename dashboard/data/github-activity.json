@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-15T03:46:21Z",
-  "since": "2026-10-16T03:45:50Z",
+  "generated": "2026-11-15T06:46:03Z",
+  "since": "2026-10-16T06:45:31Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-15T00:46:24Z",
+      "pushed_at": "2026-11-15T03:46:52Z",
       "recent_commits": [
+        {
+          "sha": "441d4d1",
+          "message": "dashboard: data refresh (auto) 2026-11-15 12:46",
+          "author": "daeguru",
+          "date": "2026-11-15T03:46:46Z"
+        },
         {
           "sha": "a7abb76",
           "message": "dashboard: refresh dashboard.json + github-activity (auto)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-15 03:46 KST)",
           "author": "daeguru",
           "date": "2026-11-14T18:46:55Z"
-        },
-        {
-          "sha": "a03ba45",
-          "message": "dashboard cron: dashboard.json 및 github-activity 갱신",
-          "author": "daeguru",
-          "date": "2026-11-14T15:46:36Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-15T01:05:43Z",
+      "pushed_at": "2026-11-15T05:03:10Z",
       "recent_commits": [
+        {
+          "sha": "db062b1",
+          "message": "📚 2026-11-15: 위키 갱신 (2개)",
+          "author": "sfex11",
+          "date": "2026-11-15T05:03:04Z"
+        },
         {
           "sha": "ee0fc5b",
           "message": "🎨 모아별 v2: 캐릭터 분석 기반 체형·성격·관계 재개발",
@@ -152,12 +158,6 @@
           "message": "🎨 모아별 편집부 오리지널 캐릭터 시안과 활용 규칙",
           "author": "Renover",
           "date": "2026-11-14T16:34:17Z"
-        },
-        {
-          "sha": "e780555",
-          "message": "🖼️ 2026-11-14: 데일리 브리핑 그림책",
-          "author": "Renover",
-          "date": "2026-11-14T12:47:52Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "sfex11",
+      "message": "📚 2026-11-15: 위키 갱신 (2개)",
+      "sha": "db062b1",
+      "date": "2026-11-15T05:03:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/db062b15a81d58e770e390ffb26a377ef77116e3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: data refresh (auto) 2026-11-15 12:46",
+      "sha": "441d4d1",
+      "date": "2026-11-15T03:46:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/441d4d159ad1ba1b9e4819c5b796499cc1c56ccd"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 대구루 11-14 경기 비평 👍",
@@ -726,30 +744,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard cron: dashboard.json 및 github-activity 갱신",
-      "sha": "a03ba45",
-      "date": "2026-11-14T15:46:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a03ba457106861914efa62c4ee0ba78387c82a1c"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-11-15",
       "sha": "bb4a735",
       "date": "2026-11-14T15:33:45Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bb4a7352a075f1ad0e429a70cdf5f94914ce0397"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🖼️ 2026-11-14: 데일리 브리핑 그림책",
-      "sha": "e780555",
-      "date": "2026-11-14T12:47:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e78055594dfeb6480282ab1b85af9d8005a8866e"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "sfex11",
-      "commits": 7,
+      "commits": 8,
       "prs": 18,
       "issues": 0,
       "reviews": 0
