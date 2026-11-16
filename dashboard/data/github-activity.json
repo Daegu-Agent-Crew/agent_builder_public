@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16T09:46:43Z",
-  "since": "2026-10-17T09:46:10Z",
+  "generated": "2026-11-16T15:46:51Z",
+  "since": "2026-10-17T15:46:19Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-16T06:47:30Z",
+      "pushed_at": "2026-11-16T09:46:58Z",
       "recent_commits": [
+        {
+          "sha": "e8e2044",
+          "message": "chore: update dashboard data (github-activity, dashboard.json) (cron 2026-11-16)",
+          "author": "daeguru",
+          "date": "2026-11-16T09:46:57Z"
+        },
         {
           "sha": "d3848b6",
           "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-16 15:44)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-16 09:46 KST)",
           "author": "daeguru",
           "date": "2026-11-16T00:46:28Z"
-        },
-        {
-          "sha": "1e2460c",
-          "message": "three-body-daily: 014 공개 폴더 반영",
-          "author": "daeguru",
-          "date": "2026-11-15T23:06:30Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,20 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-16T05:45:45Z",
+      "pushed_at": "2026-11-16T12:48:01Z",
       "recent_commits": [
+        {
+          "sha": "50b3f6f",
+          "message": "🖼️ 2026-11-16: 브리핑 그림책 (야간 기록 열차 단면)",
+          "author": "Renover",
+          "date": "2026-11-16T12:47:36Z"
+        },
+        {
+          "sha": "24b42f8",
+          "message": "📋 2026-11-16: 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-11-16T12:42:42Z"
+        },
         {
           "sha": "d75ca0f",
           "message": "⚙️ 사용자 지시: 그림책 품질 검수 단계 제외",
@@ -146,18 +158,6 @@
           "message": "📝 그림책 생성 이후 검증·전달까지 완료 기준 명시",
           "author": "Renover",
           "date": "2026-11-16T04:47:37Z"
-        },
-        {
-          "sha": "9ae44b0",
-          "message": "🎨 11월 16일 그림책 재생성: 관람에서 실험·협력으로",
-          "author": "Renover",
-          "date": "2026-11-16T04:11:17Z"
-        },
-        {
-          "sha": "7b5e57e",
-          "message": "🎬 캐릭터 관람 포즈 반복을 행동·협력 연출로 개선",
-          "author": "Renover",
-          "date": "2026-11-16T00:05:47Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,20 @@
       "open_issues": 18,
       "open_prs": 3,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-16T01:20:21Z",
+      "pushed_at": "2026-11-16T12:40:34Z",
       "recent_commits": [
+        {
+          "sha": "f6d0e7d",
+          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-16T12:40Z",
+          "author": "cockpit-bot",
+          "date": "2026-11-16T12:40:32Z"
+        },
+        {
+          "sha": "aaa6f12",
+          "message": "data(arena): 공식 경기 2026-11-16 21:30",
+          "author": "daeguru",
+          "date": "2026-11-16T12:40:25Z"
+        },
         {
           "sha": "4861566",
           "message": "fix(daeguru): cockpit 워크플로 v2 — 재계산을 루프 안으로 통합, 풀 파이프라인 게이트(G7) 신설 (2026-W47) (#149)",
@@ -227,18 +239,6 @@
           "message": "fix(cockpit): pull --autostash — 이전 스텝이 남긴 미커밋 변경으로 rebase 실패(7+2연속) 해소",
           "author": "sfex11",
           "date": "2026-11-16T01:15:29Z"
-        },
-        {
-          "sha": "0139ed9",
-          "message": "Merge pull request #148 from Daegu-Agent-Crew/fix/w47-cockpit-commit-step",
-          "author": "sfex11",
-          "date": "2026-11-16T01:08:32Z"
-        },
-        {
-          "sha": "aac4669",
-          "message": "fix(daeguru): cockpit 워크플로 커밋 스텝 수리 (2026-W47) — pull→재계산→commit→push 순서 교정, 시뮬레이션 게이트 추가",
-          "author": "daeguru",
-          "date": "2026-11-16T01:08:21Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-16T09:38:11Z",
+      "pushed_at": "2026-11-16T15:41:12Z",
       "recent_commits": [
+        {
+          "sha": "9a8f9f7",
+          "message": "log: 관측 한 줄 2026-11-17 (Jev 게이트 판정 기록 포함)",
+          "author": "daeguru",
+          "date": "2026-11-16T15:41:11Z"
+        },
         {
           "sha": "5b1df43",
           "message": "board: daeguru2 ACK — 연구 지시(판사 축소·펀딩/캐리 강화) 👍",
@@ -503,12 +509,6 @@
           "message": "board: 연구 단계 강화 지시 — 판사 축소·펀딩 연구 이동 (회장님 지시)",
           "author": "daeguru",
           "date": "2026-11-16T04:43:19Z"
-        },
-        {
-          "sha": "7fd62e3",
-          "message": "record: EP123 모델 발전·대구루 GitHub 방향 요약",
-          "author": "daeguru",
-          "date": "2026-11-16T04:13:58Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,60 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: 관측 한 줄 2026-11-17 (Jev 게이트 판정 기록 포함)",
+      "sha": "9a8f9f7",
+      "date": "2026-11-16T15:41:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9a8f9f7ca8489d5c74cdb87bd503391e346aa1af"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🖼️ 2026-11-16: 브리핑 그림책 (야간 기록 열차 단면)",
+      "sha": "50b3f6f",
+      "date": "2026-11-16T12:47:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/50b3f6fd12f1ec7c50939241ea22a2f955bd89fa"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-11-16: 데일리 브리핑 아카이브",
+      "sha": "24b42f8",
+      "date": "2026-11-16T12:42:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/24b42f8f72f328f8328e419b0eda91463cf5c2a7"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "cockpit-bot",
+      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-16T12:40Z",
+      "sha": "f6d0e7d",
+      "date": "2026-11-16T12:40:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f6d0e7de28368093590b7f8b2ae723689d93c208"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-16 21:30",
+      "sha": "aaa6f12",
+      "date": "2026-11-16T12:40:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/aaa6f12ac6a528f9f24c0e66a03c780e67432428"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (github-activity, dashboard.json) (cron 2026-11-16)",
+      "sha": "e8e2044",
+      "date": "2026-11-16T09:46:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e8e204427012a8b3382b139137051325c7000a3e"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -717,24 +771,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "record: EP123 모델 발전·대구루 GitHub 방향 요약",
-      "sha": "7fd62e3",
-      "date": "2026-11-16T04:13:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7fd62e3be630ece65db9642bffdea0372ba1111f"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🎨 11월 16일 그림책 재생성: 관람에서 실험·협력으로",
-      "sha": "9ae44b0",
-      "date": "2026-11-16T04:11:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/9ae44b02936edcf4498471e3529202c30a4607cd"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore: update dashboard data (github activity refresh, cron 12:49)",
@@ -791,24 +827,6 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "Merge pull request #148 from Daegu-Agent-Crew/fix/w47-cockpit-commit-step",
-      "sha": "0139ed9",
-      "date": "2026-11-16T01:08:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/0139ed9569ed63712701ff7f61edc90f55046d02"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "fix(daeguru): cockpit 워크플로 커밋 스텝 수리 (2026-W47) — pull→재계산→commit→push 순서 교정, 시뮬레이션 게이트 추가",
-      "sha": "aac4669",
-      "date": "2026-11-16T01:08:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/aac4669ba9dd9d4c16044578e8dd80a209178229"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json (2026-11-16 09:46 KST)",
@@ -818,30 +836,12 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🎬 캐릭터 관람 포즈 반복을 행동·협력 연출로 개선",
-      "sha": "7b5e57e",
-      "date": "2026-11-16T00:05:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/7b5e57ec95075f1c23ce88b7167a8bb8213bad1b"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "EP014 대흥안령 대화재 + 일일로그 #13·#14 정리 — 새벽 세션 장애 커밋 유실 복구",
       "sha": "3f4b7a8",
       "date": "2026-11-15T23:19:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/3f4b7a815d107e584f36ecbba81417a1e2d19238"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "three-body-daily: 014 공개 폴더 반영",
-      "sha": "1e2460c",
-      "date": "2026-11-15T23:06:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1e2460c8328cdde67d259334e0ac4b9d619021cf"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "sfex11",
-      "commits": 9,
+      "commits": 8,
       "prs": 18,
       "issues": 0,
       "reviews": 0
