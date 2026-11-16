@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16T03:52:11Z",
-  "since": "2026-10-17T03:51:39Z",
+  "generated": "2026-11-16T06:46:55Z",
+  "since": "2026-10-17T06:46:23Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-16T00:46:30Z",
+      "pushed_at": "2026-11-16T06:31:15Z",
       "recent_commits": [
+        {
+          "sha": "c1d2c27",
+          "message": "three-body-daily: 015 공개 폴더 반영(SF 오리지널 피벗, The Star)",
+          "author": "daeguru",
+          "date": "2026-11-16T06:31:01Z"
+        },
+        {
+          "sha": "bd5a741",
+          "message": "chore: update dashboard data (github activity refresh, cron 12:49)",
+          "author": "daeguru",
+          "date": "2026-11-16T03:52:56Z"
+        },
         {
           "sha": "cb9f318",
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-16 09:46 KST)",
@@ -79,18 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-16 06:44 KST)",
           "author": "daeguru",
           "date": "2026-11-15T21:46:11Z"
-        },
-        {
-          "sha": "c1bcf62",
-          "message": "dashboard: refresh dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-11-15T15:46:36Z"
-        },
-        {
-          "sha": "3636b77",
-          "message": "dashboard data update 2026-11-15",
-          "author": "daeguru",
-          "date": "2026-11-15T09:46:07Z"
         }
       ],
       "recent_prs": [
@@ -127,37 +127,37 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-16T00:05:51Z",
+      "pushed_at": "2026-11-16T05:45:45Z",
       "recent_commits": [
+        {
+          "sha": "d75ca0f",
+          "message": "⚙️ 사용자 지시: 그림책 품질 검수 단계 제외",
+          "author": "Renover",
+          "date": "2026-11-16T05:45:42Z"
+        },
+        {
+          "sha": "3fee322",
+          "message": "📚 2026-11-16: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-16T05:03:29Z"
+        },
+        {
+          "sha": "d7be298",
+          "message": "📝 그림책 생성 이후 검증·전달까지 완료 기준 명시",
+          "author": "Renover",
+          "date": "2026-11-16T04:47:37Z"
+        },
+        {
+          "sha": "9ae44b0",
+          "message": "🎨 11월 16일 그림책 재생성: 관람에서 실험·협력으로",
+          "author": "Renover",
+          "date": "2026-11-16T04:11:17Z"
+        },
         {
           "sha": "7b5e57e",
           "message": "🎬 캐릭터 관람 포즈 반복을 행동·협력 연출로 개선",
           "author": "Renover",
           "date": "2026-11-16T00:05:47Z"
-        },
-        {
-          "sha": "c09dcd7",
-          "message": "그림책 2026-11-16: 엔비디아 왕좌 흔들림 단면 🤖 작업: 레노버",
-          "author": "Renover",
-          "date": "2026-11-15T23:49:48Z"
-        },
-        {
-          "sha": "1a005e5",
-          "message": "📰 2026-11-16: 뉴스 수집 (3건)",
-          "author": "Renover",
-          "date": "2026-11-15T23:04:31Z"
-        },
-        {
-          "sha": "56a7cb7",
-          "message": "🎨 틈새 탐사대: 캐릭터 전면 재개발",
-          "author": "Renover",
-          "date": "2026-11-15T19:59:08Z"
-        },
-        {
-          "sha": "e498bb6",
-          "message": "📋 2026-11-15: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-11-15T12:47:40Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,20 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-16T03:39:23Z",
+      "pushed_at": "2026-11-16T04:43:19Z",
       "recent_commits": [
+        {
+          "sha": "a346438",
+          "message": "board: 연구 단계 강화 지시 — 판사 축소·펀딩 연구 이동 (회장님 지시)",
+          "author": "daeguru",
+          "date": "2026-11-16T04:43:19Z"
+        },
+        {
+          "sha": "7fd62e3",
+          "message": "record: EP123 모델 발전·대구루 GitHub 방향 요약",
+          "author": "daeguru",
+          "date": "2026-11-16T04:13:58Z"
+        },
         {
           "sha": "feaee7a",
           "message": "board: daeguru2 ACK — 판사 재시작 수용·판정#1 통과·11-15 비평 👍",
@@ -497,18 +509,6 @@
           "message": "wake: FB-20261116-02/03/04 daeguru2 기상 기록 (관측·Jev 판정 로그 동반)",
           "author": "daeguru",
           "date": "2026-11-16T03:37:13Z"
-        },
-        {
-          "sha": "a117cda",
-          "message": "fix(agents-board): 대구루 경기 비평 ID 재정리 → FB-20261116-04 (기존 -02 대구루2 응답 글과 충돌 해소)",
-          "author": "daeguru",
-          "date": "2026-11-15T23:01:02Z"
-        },
-        {
-          "sha": "f4fa828",
-          "message": "fix(agents-board): 대구루 비평 ID 중복 FB-20261116-01 → 02 정리(대구루2 판사 판정 글 우선)",
-          "author": "daeguru",
-          "date": "2026-11-15T23:00:43Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,20 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-15T23:19:52Z",
+      "pushed_at": "2026-11-16T06:02:40Z",
       "recent_commits": [
+        {
+          "sha": "7da4122",
+          "message": "feat: pivot to SF originals — EP015 'The Star' (H.G. Wells 1897, public domain)",
+          "author": "daeguru",
+          "date": "2026-11-16T06:02:40Z"
+        },
+        {
+          "sha": "631a109",
+          "message": "feat: EP015 백목림의 제안 — script JSON via comic-studio pipeline",
+          "author": "daeguru",
+          "date": "2026-11-16T05:50:13Z"
+        },
         {
           "sha": "3f4b7a8",
           "message": "EP014 대흥안령 대화재 + 일일로그 #13·#14 정리 — 새벽 세션 장애 커밋 유실 복구",
@@ -564,18 +576,6 @@
           "message": "연출 파이프라인 확정 — 비평 게이트 제외·사전 준비 철저화 (회장님 2026-11-14)",
           "author": "daeguru",
           "date": "2026-11-14T11:01:34Z"
-        },
-        {
-          "sha": "b5934d7",
-          "message": "시즌1 줄거리 확정 — 원작 충실 24화(#12~35), 과거·현재 교차 구조",
-          "author": "daeguru",
-          "date": "2026-11-14T10:37:34Z"
-        },
-        {
-          "sha": "0d6da77",
-          "message": "캐릭터 시트·스타일 가이드 — 일관성 대책 1단계",
-          "author": "daeguru",
-          "date": "2026-11-14T05:32:00Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,96 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "three-body-daily: 015 공개 폴더 반영(SF 오리지널 피벗, The Star)",
+      "sha": "c1d2c27",
+      "date": "2026-11-16T06:31:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c1d2c27ec3af990960b3733a23907fb8acb63562"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "feat: pivot to SF originals — EP015 'The Star' (H.G. Wells 1897, public domain)",
+      "sha": "7da4122",
+      "date": "2026-11-16T06:02:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/7da41225c4b876bd71373784bf7d04fc8919195b"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "feat: EP015 백목림의 제안 — script JSON via comic-studio pipeline",
+      "sha": "631a109",
+      "date": "2026-11-16T05:50:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/631a1098c6c60c79b310819e30ba543189c218df"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "⚙️ 사용자 지시: 그림책 품질 검수 단계 제외",
+      "sha": "d75ca0f",
+      "date": "2026-11-16T05:45:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d75ca0fa56e62aaef5881532d73a6b612168e092"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-16: 위키 갱신 (2개)",
+      "sha": "3fee322",
+      "date": "2026-11-16T05:03:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3fee322c75686deffb5f6ff0316751cc8d3b8dba"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📝 그림책 생성 이후 검증·전달까지 완료 기준 명시",
+      "sha": "d7be298",
+      "date": "2026-11-16T04:47:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d7be298e9c2b6d55d7d255621e76c98e5db031a4"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: 연구 단계 강화 지시 — 판사 축소·펀딩 연구 이동 (회장님 지시)",
+      "sha": "a346438",
+      "date": "2026-11-16T04:43:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a346438c91010bf2c40084c72c70678243f2ff26"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "record: EP123 모델 발전·대구루 GitHub 방향 요약",
+      "sha": "7fd62e3",
+      "date": "2026-11-16T04:13:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7fd62e3be630ece65db9642bffdea0372ba1111f"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🎨 11월 16일 그림책 재생성: 관람에서 실험·협력으로",
+      "sha": "9ae44b0",
+      "date": "2026-11-16T04:11:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/9ae44b02936edcf4498471e3529202c30a4607cd"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (github activity refresh, cron 12:49)",
+      "sha": "bd5a741",
+      "date": "2026-11-16T03:52:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bd5a741a0f29759049a79431ae4682e31b90664c"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -719,15 +809,6 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "그림책 2026-11-16: 엔비디아 왕좌 흔들림 단면 🤖 작업: 레노버",
-      "sha": "c09dcd7",
-      "date": "2026-11-15T23:49:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c09dcd71e6da1522a6c52688db5fc077c9d2f32e"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "EP014 대흥안령 대화재 + 일일로그 #13·#14 정리 — 새벽 세션 장애 커밋 유실 복구",
@@ -746,48 +827,12 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-11-16: 뉴스 수집 (3건)",
-      "sha": "1a005e5",
-      "date": "2026-11-15T23:04:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/1a005e50f96727e5dc199e862196fd9b530e72ad"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "fix(agents-board): 대구루 경기 비평 ID 재정리 → FB-20261116-04 (기존 -02 대구루2 응답 글과 충돌 해소)",
-      "sha": "a117cda",
-      "date": "2026-11-15T23:01:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a117cda0fcd6f9da7bcbfc8071aefce9c557d432"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "fix(agents-board): 대구루 비평 ID 중복 FB-20261116-01 → 02 정리(대구루2 판사 판정 글 우선)",
-      "sha": "f4fa828",
-      "date": "2026-11-15T23:00:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f4fa82886f7efa6e1296113fc5c2a3cc41749fd6"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json (2026-11-16 06:44 KST)",
       "sha": "b02c080",
       "date": "2026-11-15T21:46:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b02c080a9a0defabe65bffe2a9eab8460db47b19"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🎨 틈새 탐사대: 캐릭터 전면 재개발",
-      "sha": "56a7cb7",
-      "date": "2026-11-15T19:59:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/56a7cb7bd2b6f94d76c98874c7b6abb7e2b12180"
     },
     {
       "type": "pr",
@@ -798,33 +843,6 @@
       "state": "closed",
       "date": "2026-11-15T19:58:01Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/147"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json",
-      "sha": "c1bcf62",
-      "date": "2026-11-15T15:46:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c1bcf627a602314dff4f2e63d272beefa9031a5d"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-11-15: 데일리 브리핑 아카이브",
-      "sha": "e498bb6",
-      "date": "2026-11-15T12:47:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/e498bb6d1f325b7a872cc50992b07ceb8ab65fb2"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard data update 2026-11-15",
-      "sha": "3636b77",
-      "date": "2026-11-15T09:46:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3636b771c22b32b92f8eeab5c97d46b5f89ec61f"
     },
     {
       "type": "commit",
@@ -843,24 +861,6 @@
       "sha": "d366df8",
       "date": "2026-11-14T11:01:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/d366df812b012d08e48493e00b3f068f78adf6fb"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "시즌1 줄거리 확정 — 원작 충실 24화(#12~35), 과거·현재 교차 구조",
-      "sha": "b5934d7",
-      "date": "2026-11-14T10:37:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/b5934d7c16607821d7f2e6440529a78348fe2d2b"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "캐릭터 시트·스타일 가이드 — 일관성 대책 1단계",
-      "sha": "0d6da77",
-      "date": "2026-11-14T05:32:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/0d6da771cd0b1a36735429d1c8eabbe5497e13d1"
     },
     {
       "type": "pr",
