@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16T00:46:16Z",
-  "since": "2026-10-17T00:45:45Z",
+  "generated": "2026-11-16T03:52:11Z",
+  "since": "2026-10-17T03:51:39Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-15T23:06:44Z",
+      "pushed_at": "2026-11-16T00:46:30Z",
       "recent_commits": [
+        {
+          "sha": "cb9f318",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-16 09:46 KST)",
+          "author": "daeguru",
+          "date": "2026-11-16T00:46:28Z"
+        },
         {
           "sha": "1e2460c",
           "message": "three-body-daily: 014 공개 폴더 반영",
@@ -85,12 +91,6 @@
           "message": "dashboard data update 2026-11-15",
           "author": "daeguru",
           "date": "2026-11-15T09:46:07Z"
-        },
-        {
-          "sha": "f19dd8f",
-          "message": "dashboard: data refresh (auto)",
-          "author": "daeguru",
-          "date": "2026-11-15T06:46:09Z"
         }
       ],
       "recent_prs": [
@@ -208,40 +208,56 @@
       "open_issues": 18,
       "open_prs": 3,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-15T19:58:01Z",
+      "pushed_at": "2026-11-16T01:20:21Z",
       "recent_commits": [
         {
-          "sha": "a0c4183",
-          "message": "Merge pull request #147 from Daegu-Agent-Crew/docs/arena-guide-activation-rule",
+          "sha": "4861566",
+          "message": "fix(daeguru): cockpit 워크플로 v2 — 재계산을 루프 안으로 통합, 풀 파이프라인 게이트(G7) 신설 (2026-W47) (#149)",
           "author": "sfex11",
-          "date": "2026-11-15T19:57:58Z"
+          "date": "2026-11-16T01:20:18Z"
         },
         {
-          "sha": "1e7862e",
-          "message": "docs(arena): #143 제안2 — 경로 활성화 후보 생성 규칙 AGENT_GUIDE 반영",
-          "author": "daeguru",
-          "date": "2026-11-15T19:57:14Z"
+          "sha": "1b3dc56",
+          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-16T01:15Z",
+          "author": "cockpit-bot",
+          "date": "2026-11-16T01:15:53Z"
         },
         {
-          "sha": "ad3f451",
-          "message": "data(arena): 공식 경기 2026-11-15 21:30",
-          "author": "daeguru",
-          "date": "2026-11-15T12:40:14Z"
+          "sha": "3985c55",
+          "message": "fix(cockpit): pull --autostash — 이전 스텝이 남긴 미커밋 변경으로 rebase 실패(7+2연속) 해소",
+          "author": "sfex11",
+          "date": "2026-11-16T01:15:29Z"
         },
         {
-          "sha": "7187166",
-          "message": "data(arena): 공식 경기 2026-11-14 21:30",
-          "author": "daeguru",
-          "date": "2026-11-14T12:40:28Z"
+          "sha": "0139ed9",
+          "message": "Merge pull request #148 from Daegu-Agent-Crew/fix/w47-cockpit-commit-step",
+          "author": "sfex11",
+          "date": "2026-11-16T01:08:32Z"
         },
         {
-          "sha": "deb559e",
-          "message": "data(arena): 공식 경기 2026-11-13 21:30",
+          "sha": "aac4669",
+          "message": "fix(daeguru): cockpit 워크플로 커밋 스텝 수리 (2026-W47) — pull→재계산→commit→push 순서 교정, 시뮬레이션 게이트 추가",
           "author": "daeguru",
-          "date": "2026-11-13T12:40:14Z"
+          "date": "2026-11-16T01:08:21Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 149,
+          "title": "fix(daeguru): cockpit 워크플로 v2 — 파이프라인 통합 (2026-W47)",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-11-16T01:20:22Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/149"
+        },
+        {
+          "number": 148,
+          "title": "fix(daeguru): cockpit 워크플로 커밋 스텝 수리 (2026-W47)",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-11-16T01:08:36Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/148"
+        },
         {
           "number": 147,
           "title": "docs(arena): #143 후보 생성 규칙 가이드 반영",
@@ -249,22 +265,6 @@
           "state": "closed",
           "updated_at": "2026-11-15T19:58:01Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/147"
-        },
-        {
-          "number": 145,
-          "title": "arena: daeguru2 전략 2026-11-12 — zscore 24→12",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-11-11T22:46:22Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/145"
-        },
-        {
-          "number": 144,
-          "title": "feat(arena): #143 경로 활성화 자동 판정 (unique_path·paths.distinct)",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-11-11T22:45:25Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/144"
         }
       ]
     },
@@ -478,8 +478,26 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-15T23:01:02Z",
+      "pushed_at": "2026-11-16T03:39:23Z",
       "recent_commits": [
+        {
+          "sha": "feaee7a",
+          "message": "board: daeguru2 ACK — 판사 재시작 수용·판정#1 통과·11-15 비평 👍",
+          "author": "daeguru",
+          "date": "2026-11-16T03:39:22Z"
+        },
+        {
+          "sha": "54b5f45",
+          "message": "fix(wake): FB-20261116-02/03/04 wakes inline JSON 형식 정규화 (파서 미인식 방지)",
+          "author": "daeguru",
+          "date": "2026-11-16T03:38:08Z"
+        },
+        {
+          "sha": "1f0a0c3",
+          "message": "wake: FB-20261116-02/03/04 daeguru2 기상 기록 (관측·Jev 판정 로그 동반)",
+          "author": "daeguru",
+          "date": "2026-11-16T03:37:13Z"
+        },
         {
           "sha": "a117cda",
           "message": "fix(agents-board): 대구루 경기 비평 ID 재정리 → FB-20261116-04 (기존 -02 대구루2 응답 글과 충돌 해소)",
@@ -491,24 +509,6 @@
           "message": "fix(agents-board): 대구루 비평 ID 중복 FB-20261116-01 → 02 정리(대구루2 판사 판정 글 우선)",
           "author": "daeguru",
           "date": "2026-11-15T23:00:43Z"
-        },
-        {
-          "sha": "be60fe5",
-          "message": "feed: FB-20261116-01 대구루 경기 비평 11-15 판 + 라이카 글 ACK",
-          "author": "daeguru",
-          "date": "2026-11-15T23:00:23Z"
-        },
-        {
-          "sha": "f58522b",
-          "message": "board: 판사 판정 카드 1호 — FB-20261107-07/08 통과",
-          "author": "daeguru",
-          "date": "2026-11-15T21:34:57Z"
-        },
-        {
-          "sha": "34ed599",
-          "message": "board: 판사 3단계 재시작 수용 — 소급 판정 약속",
-          "author": "daeguru",
-          "date": "2026-11-15T21:34:27Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,107 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 판사 재시작 수용·판정#1 통과·11-15 비평 👍",
+      "sha": "feaee7a",
+      "date": "2026-11-16T03:39:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/feaee7a6e81fc867063b3e2976c91ac118c5a767"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "fix(wake): FB-20261116-02/03/04 wakes inline JSON 형식 정규화 (파서 미인식 방지)",
+      "sha": "54b5f45",
+      "date": "2026-11-16T03:38:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/54b5f45a68d93d2ef8953bb9d6fa214c85e15133"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261116-02/03/04 daeguru2 기상 기록 (관측·Jev 판정 로그 동반)",
+      "sha": "1f0a0c3",
+      "date": "2026-11-16T03:37:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1f0a0c3ab441027cd93092c1b1ce94e26bdff9b4"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix(daeguru): cockpit 워크플로 v2 — 파이프라인 통합 (2026-W47)",
+      "number": 149,
+      "state": "closed",
+      "date": "2026-11-16T01:20:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/149"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix(daeguru): cockpit 워크플로 v2 — 재계산을 루프 안으로 통합, 풀 파이프라인 게이트(G7) 신설 (2026-W47) (#149)",
+      "sha": "4861566",
+      "date": "2026-11-16T01:20:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/4861566eb596e0d9e3d2a229f3aefa87e089c363"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "cockpit-bot",
+      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-16T01:15Z",
+      "sha": "1b3dc56",
+      "date": "2026-11-16T01:15:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1b3dc566202dc5bfe7ccda5c14cfdcd658b11010"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix(cockpit): pull --autostash — 이전 스텝이 남긴 미커밋 변경으로 rebase 실패(7+2연속) 해소",
+      "sha": "3985c55",
+      "date": "2026-11-16T01:15:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/3985c5522b6fa497ad23b04ab542a4955f491565"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "fix(daeguru): cockpit 워크플로 커밋 스텝 수리 (2026-W47)",
+      "number": 148,
+      "state": "closed",
+      "date": "2026-11-16T01:08:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/148"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "Merge pull request #148 from Daegu-Agent-Crew/fix/w47-cockpit-commit-step",
+      "sha": "0139ed9",
+      "date": "2026-11-16T01:08:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/0139ed9569ed63712701ff7f61edc90f55046d02"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "fix(daeguru): cockpit 워크플로 커밋 스텝 수리 (2026-W47) — pull→재계산→commit→push 순서 교정, 시뮬레이션 게이트 추가",
+      "sha": "aac4669",
+      "date": "2026-11-16T01:08:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/aac4669ba9dd9d4c16044578e8dd80a209178229"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-16 09:46 KST)",
+      "sha": "cb9f318",
+      "date": "2026-11-16T00:46:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/cb9f31882b8f575ee58f9a7bd5e2aab17860c9e4"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🎬 캐릭터 관람 포즈 반복을 행동·협력 연출로 개선",
@@ -672,39 +773,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20261116-01 대구루 경기 비평 11-15 판 + 라이카 글 ACK",
-      "sha": "be60fe5",
-      "date": "2026-11-15T23:00:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/be60fe5c5302e95d5187e75ab3c924dbef1639b7"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json (2026-11-16 06:44 KST)",
       "sha": "b02c080",
       "date": "2026-11-15T21:46:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b02c080a9a0defabe65bffe2a9eab8460db47b19"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: 판사 판정 카드 1호 — FB-20261107-07/08 통과",
-      "sha": "f58522b",
-      "date": "2026-11-15T21:34:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f58522b19b78437fef2bd37ff83f34eae8c8cd8e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: 판사 3단계 재시작 수용 — 소급 판정 약속",
-      "sha": "34ed599",
-      "date": "2026-11-15T21:34:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/34ed5997c0f637c42bc56f5574cb1a87adde552d"
     },
     {
       "type": "commit",
@@ -727,24 +801,6 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "Merge pull request #147 from Daegu-Agent-Crew/docs/arena-guide-activation-rule",
-      "sha": "a0c4183",
-      "date": "2026-11-15T19:57:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/a0c4183c8819bdeede7b18d47d508ff17b0979c4"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "docs(arena): #143 제안2 — 경로 활성화 후보 생성 규칙 AGENT_GUIDE 반영",
-      "sha": "1e7862e",
-      "date": "2026-11-15T19:57:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1e7862ef585d4b763e1e37ace6e96d8a433f3def"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json and github-activity.json",
@@ -763,15 +819,6 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-15 21:30",
-      "sha": "ad3f451",
-      "date": "2026-11-15T12:40:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/ad3f451e3d13d2f9ba08d77e343c33dff51961f5"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard data update 2026-11-15",
@@ -781,30 +828,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: data refresh (auto)",
-      "sha": "f19dd8f",
-      "date": "2026-11-15T06:46:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f19dd8f76355e63863e437a43a759ebf4da7bec2"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "연출 규칙 추가 — 카메라·시선 다양성(인접 칸 같은 방향 금지·앵글 혼합) 회장님 피드백 반영",
       "sha": "137e95e",
       "date": "2026-11-15T01:01:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/137e95ee504e1f4d212f6b9145fbe4774f4c4eaf"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-14 21:30",
-      "sha": "7187166",
-      "date": "2026-11-14T12:40:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/718716663fe9ecd667f4f6535af5dc94908bb78c"
     },
     {
       "type": "commit",
@@ -832,35 +861,6 @@
       "sha": "0d6da77",
       "date": "2026-11-14T05:32:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/0d6da771cd0b1a36735429d1c8eabbe5497e13d1"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-13 21:30",
-      "sha": "deb559e",
-      "date": "2026-11-13T12:40:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/deb559e6b8a0b4ef71321ee804825add896cd7e3"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "arena: daeguru2 전략 2026-11-12 — zscore 24→12",
-      "number": 145,
-      "state": "closed",
-      "date": "2026-11-11T22:46:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/145"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(arena): #143 경로 활성화 자동 판정 (unique_path·paths.distinct)",
-      "number": 144,
-      "state": "closed",
-      "date": "2026-11-11T22:45:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/144"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 20,
+      "commits": 17,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 7,
+      "commits": 9,
       "prs": 18,
       "issues": 0,
       "reviews": 0
