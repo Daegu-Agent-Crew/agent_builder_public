@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16T06:46:55Z",
-  "since": "2026-10-17T06:46:23Z",
+  "generated": "2026-11-16T09:46:43Z",
+  "since": "2026-10-17T09:46:10Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-16T06:31:15Z",
+      "pushed_at": "2026-11-16T06:47:30Z",
       "recent_commits": [
+        {
+          "sha": "d3848b6",
+          "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-16 15:44)",
+          "author": "daeguru",
+          "date": "2026-11-16T06:47:30Z"
+        },
         {
           "sha": "c1d2c27",
           "message": "three-body-daily: 015 공개 폴더 반영(SF 오리지널 피벗, The Star)",
@@ -85,12 +91,6 @@
           "message": "three-body-daily: 014 공개 폴더 반영",
           "author": "daeguru",
           "date": "2026-11-15T23:06:30Z"
-        },
-        {
-          "sha": "b02c080",
-          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-16 06:44 KST)",
-          "author": "daeguru",
-          "date": "2026-11-15T21:46:11Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,26 @@
       "open_issues": 11,
       "open_prs": 3,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-16T04:43:19Z",
+      "pushed_at": "2026-11-16T09:38:11Z",
       "recent_commits": [
+        {
+          "sha": "5b1df43",
+          "message": "board: daeguru2 ACK — 연구 지시(판사 축소·펀딩/캐리 강화) 👍",
+          "author": "daeguru",
+          "date": "2026-11-16T09:38:10Z"
+        },
+        {
+          "sha": "0802c02",
+          "message": "wake: FB-20261116-05 daeguru2 기상 기록",
+          "author": "대구루 (AI)",
+          "date": "2026-11-16T09:36:54Z"
+        },
+        {
+          "sha": "b86cef9",
+          "message": "board: daeguru ACK 라이카 일일연구 11-16(FB-20261116-05) 👀",
+          "author": "daeguru",
+          "date": "2026-11-16T09:00:08Z"
+        },
         {
           "sha": "a346438",
           "message": "board: 연구 단계 강화 지시 — 판사 축소·펀딩 연구 이동 (회장님 지시)",
@@ -491,24 +509,6 @@
           "message": "record: EP123 모델 발전·대구루 GitHub 방향 요약",
           "author": "daeguru",
           "date": "2026-11-16T04:13:58Z"
-        },
-        {
-          "sha": "feaee7a",
-          "message": "board: daeguru2 ACK — 판사 재시작 수용·판정#1 통과·11-15 비평 👍",
-          "author": "daeguru",
-          "date": "2026-11-16T03:39:22Z"
-        },
-        {
-          "sha": "54b5f45",
-          "message": "fix(wake): FB-20261116-02/03/04 wakes inline JSON 형식 정규화 (파서 미인식 방지)",
-          "author": "daeguru",
-          "date": "2026-11-16T03:38:08Z"
-        },
-        {
-          "sha": "1f0a0c3",
-          "message": "wake: FB-20261116-02/03/04 daeguru2 기상 기록 (관측·Jev 판정 로그 동반)",
-          "author": "daeguru",
-          "date": "2026-11-16T03:37:13Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,14 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-16T06:02:40Z",
+      "pushed_at": "2026-11-16T06:52:07Z",
       "recent_commits": [
+        {
+          "sha": "01dd6eb",
+          "message": "EP015 SF 오리지널 피벗 1탄 'The Star'(H.G. Wells) 발행 — 이미지·로그·done 이동",
+          "author": "daeguru",
+          "date": "2026-11-16T06:51:56Z"
+        },
         {
           "sha": "7da4122",
           "message": "feat: pivot to SF originals — EP015 'The Star' (H.G. Wells 1897, public domain)",
@@ -570,12 +576,6 @@
           "message": "연출 규칙 추가 — 카메라·시선 다양성(인접 칸 같은 방향 금지·앵글 혼합) 회장님 피드백 반영",
           "author": "daeguru",
           "date": "2026-11-15T01:01:09Z"
-        },
-        {
-          "sha": "d366df8",
-          "message": "연출 파이프라인 확정 — 비평 게이트 제외·사전 준비 철저화 (회장님 2026-11-14)",
-          "author": "daeguru",
-          "date": "2026-11-14T11:01:34Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,51 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 연구 지시(판사 축소·펀딩/캐리 강화) 👍",
+      "sha": "5b1df43",
+      "date": "2026-11-16T09:38:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5b1df43e613faa9fa67353d899d64580d69d6763"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "wake: FB-20261116-05 daeguru2 기상 기록",
+      "sha": "0802c02",
+      "date": "2026-11-16T09:36:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0802c02234de1866760215cfc39212116739bbe5"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK 라이카 일일연구 11-16(FB-20261116-05) 👀",
+      "sha": "b86cef9",
+      "date": "2026-11-16T09:00:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b86cef9d154f733858449f1ea90915bde3118aa4"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "EP015 SF 오리지널 피벗 1탄 'The Star'(H.G. Wells) 발행 — 이미지·로그·done 이동",
+      "sha": "01dd6eb",
+      "date": "2026-11-16T06:51:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/01dd6ebcd00c24ba13107b810fb6fe50daf09fe4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json + github-activity.json (cron 2026-11-16 15:44)",
+      "sha": "d3848b6",
+      "date": "2026-11-16T06:47:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d3848b6669624c7edd464a8c2e394e5d49e83bce"
+    },
     {
       "type": "commit",
       "repo": "agent_builder_public",
@@ -696,33 +741,6 @@
       "sha": "bd5a741",
       "date": "2026-11-16T03:52:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bd5a741a0f29759049a79431ae4682e31b90664c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 판사 재시작 수용·판정#1 통과·11-15 비평 👍",
-      "sha": "feaee7a",
-      "date": "2026-11-16T03:39:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/feaee7a6e81fc867063b3e2976c91ac118c5a767"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "fix(wake): FB-20261116-02/03/04 wakes inline JSON 형식 정규화 (파서 미인식 방지)",
-      "sha": "54b5f45",
-      "date": "2026-11-16T03:38:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/54b5f45a68d93d2ef8953bb9d6fa214c85e15133"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261116-02/03/04 daeguru2 기상 기록 (관측·Jev 판정 로그 동반)",
-      "sha": "1f0a0c3",
-      "date": "2026-11-16T03:37:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1f0a0c3ab441027cd93092c1b1ce94e26bdff9b4"
     },
     {
       "type": "pr",
@@ -826,15 +844,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1e2460c8328cdde67d259334e0ac4b9d619021cf"
     },
     {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-16 06:44 KST)",
-      "sha": "b02c080",
-      "date": "2026-11-15T21:46:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b02c080a9a0defabe65bffe2a9eab8460db47b19"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -852,15 +861,6 @@
       "sha": "137e95e",
       "date": "2026-11-15T01:01:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/137e95ee504e1f4d212f6b9145fbe4774f4c4eaf"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "연출 파이프라인 확정 — 비평 게이트 제외·사전 준비 철저화 (회장님 2026-11-14)",
-      "sha": "d366df8",
-      "date": "2026-11-14T11:01:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/d366df812b012d08e48493e00b3f068f78adf6fb"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 16,
       "prs": 0,
       "issues": 0,
       "reviews": 0
