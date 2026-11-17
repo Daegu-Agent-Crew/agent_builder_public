@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-17T15:47:32Z",
-  "since": "2026-10-18T15:47:00Z",
+  "generated": "2026-11-17T21:06:38Z",
+  "since": "2026-10-18T21:05:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-17T15:06:34Z",
+      "pushed_at": "2026-11-17T15:47:48Z",
       "recent_commits": [
+        {
+          "sha": "864b736",
+          "message": "chore: update dashboard data (cron)",
+          "author": "daeguru",
+          "date": "2026-11-17T15:47:48Z"
+        },
         {
           "sha": "d9b2f1b",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-17T15:06:31Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json (projects=9, repos=11) 2026-11-17 19:05 KST",
           "author": "daeguru",
           "date": "2026-11-17T10:09:55Z"
-        },
-        {
-          "sha": "5cb5c70",
-          "message": "dashboard 데이터 갱신 (cron 2026-11-17 18:44)",
-          "author": "daeguru",
-          "date": "2026-11-17T09:48:45Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,14 @@
       "open_issues": 19,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-17T12:41:25Z",
+      "pushed_at": "2026-11-17T19:49:46Z",
       "recent_commits": [
+        {
+          "sha": "9c05d97",
+          "message": "feat(research): 대구루2 연구 아카이브 페이지 — 아레나 5주 결론+펀딩 4단계 로드맵",
+          "author": "daeguru",
+          "date": "2026-11-17T19:49:46Z"
+        },
         {
           "sha": "fb8150c",
           "message": "data(daeguru): cockpit standings auto-refresh 2026-11-17T12:41Z",
@@ -233,12 +239,6 @@
           "message": "data(arena): 공식 경기 2026-11-16 21:30",
           "author": "daeguru",
           "date": "2026-11-16T12:40:25Z"
-        },
-        {
-          "sha": "4861566",
-          "message": "fix(daeguru): cockpit 워크플로 v2 — 재계산을 루프 안으로 통합, 풀 파이프라인 게이트(G7) 신설 (2026-W47) (#149)",
-          "author": "sfex11",
-          "date": "2026-11-16T01:20:18Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,20 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-17T00:10:41Z",
+      "pushed_at": "2026-11-17T19:35:04Z",
       "recent_commits": [
+        {
+          "sha": "db5d7c7",
+          "message": "정정: 밝은 캐주얼 스타일은 SF 데일리 전용 — 삼체 기존 유지",
+          "author": "daeguru",
+          "date": "2026-11-17T19:35:04Z"
+        },
+        {
+          "sha": "873594e",
+          "message": "스타일 전환 — 밝고 캐주얼 (회장님 2026-11-18)",
+          "author": "daeguru",
+          "date": "2026-11-17T19:33:46Z"
+        },
         {
           "sha": "f918cfc",
           "message": "시스템 분리 — SF 데일리 독립 이관 공지",
@@ -564,18 +576,6 @@
           "message": "feat: EP016 SF 오리지널 — The Machine Stops (E.M. Forster 1909, public domain)",
           "author": "daeguru",
           "date": "2026-11-16T22:08:22Z"
-        },
-        {
-          "sha": "313d205",
-          "message": "스타일 가이드: 텍스트 후조판 원칙 적용 (노벨비즈 분석 인사이터 — 11/16 분석, 11/17 이행)",
-          "author": "daeguru",
-          "date": "2026-11-16T21:18:51Z"
-        },
-        {
-          "sha": "01dd6eb",
-          "message": "EP015 SF 오리지널 피벗 1탄 'The Star'(H.G. Wells) 발행 — 이미지·로그·done 이동",
-          "author": "daeguru",
-          "date": "2026-11-16T06:51:56Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,42 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "feat(research): 대구루2 연구 아카이브 페이지 — 아레나 5주 결론+펀딩 4단계 로드맵",
+      "sha": "9c05d97",
+      "date": "2026-11-17T19:49:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/9c05d9723f27a53b4a4e70b254c99241e1a01fb3"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "정정: 밝은 캐주얼 스타일은 SF 데일리 전용 — 삼체 기존 유지",
+      "sha": "db5d7c7",
+      "date": "2026-11-17T19:35:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/db5d7c7645c822d85089d11aac43f8775429e159"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "스타일 전환 — 밝고 캐주얼 (회장님 2026-11-18)",
+      "sha": "873594e",
+      "date": "2026-11-17T19:33:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/873594e7a4716cf106edd209fb0406894cc888bc"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (cron)",
+      "sha": "864b736",
+      "date": "2026-11-17T15:47:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/864b736e3f8c00c38053a33155a670d1f1d3b333"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -736,15 +772,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/31022628d7d71e36bcf6c99ceca6127bc20222d4"
     },
     {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard 데이터 갱신 (cron 2026-11-17 18:44)",
-      "sha": "5cb5c70",
-      "date": "2026-11-17T09:48:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5cb5c70c90e272bdd41c6ab45af00196ab69ae42"
-    },
-    {
       "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
@@ -829,15 +856,6 @@
     },
     {
       "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "스타일 가이드: 텍스트 후조판 원칙 적용 (노벨비즈 분석 인사이터 — 11/16 분석, 11/17 이행)",
-      "sha": "313d205",
-      "date": "2026-11-16T21:18:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/313d2059910adb51c8c96f4dff86ba47cca6deac"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "cockpit-bot",
       "message": "data(daeguru): cockpit standings auto-refresh 2026-11-16T12:40Z",
@@ -853,24 +871,6 @@
       "sha": "aaa6f12",
       "date": "2026-11-16T12:40:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/aaa6f12ac6a528f9f24c0e66a03c780e67432428"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "EP015 SF 오리지널 피벗 1탄 'The Star'(H.G. Wells) 발행 — 이미지·로그·done 이동",
-      "sha": "01dd6eb",
-      "date": "2026-11-16T06:51:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/01dd6ebcd00c24ba13107b810fb6fe50daf09fe4"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix(daeguru): cockpit 워크플로 v2 — 재계산을 루프 안으로 통합, 풀 파이프라인 게이트(G7) 신설 (2026-W47) (#149)",
-      "sha": "4861566",
-      "date": "2026-11-16T01:20:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/4861566eb596e0d9e3d2a229f3aefa87e089c363"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 18,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 8,
+      "commits": 7,
       "prs": 18,
       "issues": 0,
       "reviews": 0
