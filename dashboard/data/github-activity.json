@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-17T03:46:42Z",
-  "since": "2026-10-18T03:46:11Z",
+  "generated": "2026-11-17T06:07:31Z",
+  "since": "2026-10-18T06:06:38Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-17T03:06:51Z",
+      "pushed_at": "2026-11-17T03:47:07Z",
       "recent_commits": [
+        {
+          "sha": "3e6a2e1",
+          "message": "dashboard 데이터 자동 갱신 2026-11-17",
+          "author": "daeguru",
+          "date": "2026-11-17T03:47:07Z"
+        },
         {
           "sha": "811e324",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-17T03:06:48Z)",
@@ -85,12 +91,6 @@
           "message": "three-body-daily #16: The Machine Stops (Forster 1909)",
           "author": "daeguru",
           "date": "2026-11-16T22:50:00Z"
-        },
-        {
-          "sha": "6b8450f",
-          "message": "dashboard 데이터 갱신 (자동 cron)",
-          "author": "daeguru",
-          "date": "2026-11-16T21:46:18Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-17T00:50:11Z",
+      "pushed_at": "2026-11-17T05:05:16Z",
       "recent_commits": [
+        {
+          "sha": "ead1ef9",
+          "message": "📚 2026-11-17: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-17T05:05:12Z"
+        },
         {
           "sha": "72679d3",
           "message": "🎨 11월 17일 그림책: 참조 필수 공통 경로로 재생성",
@@ -152,12 +158,6 @@
           "message": "📰 2026-11-17: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-11-16T23:12:51Z"
-        },
-        {
-          "sha": "50b3f6f",
-          "message": "🖼️ 2026-11-16: 브리핑 그림책 (야간 기록 열차 단면)",
-          "author": "Renover",
-          "date": "2026-11-16T12:47:36Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-17: 위키 갱신 (2개)",
+      "sha": "ead1ef9",
+      "date": "2026-11-17T05:05:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ead1ef9d36b46210d634103698749507782f5305"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 자동 갱신 2026-11-17",
+      "sha": "3e6a2e1",
+      "date": "2026-11-17T03:47:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3e6a2e1fd072048aa1bec871e81cbac3d6002821"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 대구루 11-16 경기 비평(동점 깨짐) 👍",
@@ -745,15 +763,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard 데이터 갱신 (자동 cron)",
-      "sha": "6b8450f",
-      "date": "2026-11-16T21:46:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6b8450f86630f4f1ff695d4f248f61248ea14b98"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 11-17 3건 👍",
@@ -778,15 +787,6 @@
       "sha": "313d205",
       "date": "2026-11-16T21:18:51Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/313d2059910adb51c8c96f4dff86ba47cca6deac"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🖼️ 2026-11-16: 브리핑 그림책 (야간 기록 열차 단면)",
-      "sha": "50b3f6f",
-      "date": "2026-11-16T12:47:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/50b3f6fd12f1ec7c50939241ea22a2f955bd89fa"
     },
     {
       "type": "commit",
