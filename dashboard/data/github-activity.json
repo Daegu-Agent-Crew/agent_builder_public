@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-17T12:06:53Z",
-  "since": "2026-10-18T12:05:51Z",
+  "generated": "2026-11-17T12:47:37Z",
+  "since": "2026-10-18T12:47:06Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-17T10:09:56Z",
+      "pushed_at": "2026-11-17T12:06:56Z",
       "recent_commits": [
+        {
+          "sha": "c4f5dbb",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-17T12:06:53Z)",
+          "author": "daeguru",
+          "date": "2026-11-17T12:06:53Z"
+        },
         {
           "sha": "3102262",
           "message": "dashboard: refresh dashboard.json (projects=9, repos=11) 2026-11-17 19:05 KST",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-17T06:07:31Z)",
           "author": "daeguru",
           "date": "2026-11-17T06:07:31Z"
-        },
-        {
-          "sha": "3e6a2e1",
-          "message": "dashboard 데이터 자동 갱신 2026-11-17",
-          "author": "daeguru",
-          "date": "2026-11-17T03:47:07Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-17T05:05:16Z",
+      "pushed_at": "2026-11-17T12:43:52Z",
       "recent_commits": [
+        {
+          "sha": "b2654b7",
+          "message": "📰 2026-11-17 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-11-17T12:43:47Z"
+        },
         {
           "sha": "ead1ef9",
           "message": "📚 2026-11-17: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "🎨 2026-11-17 뉴스 그림책 — 🤖 작업: 레노버",
           "author": "sfex11",
           "date": "2026-11-16T23:45:03Z"
-        },
-        {
-          "sha": "5775b3e",
-          "message": "📰 2026-11-17: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-11-16T23:12:51Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,20 @@
       "open_issues": 19,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-17T10:06:07Z",
+      "pushed_at": "2026-11-17T12:41:25Z",
       "recent_commits": [
+        {
+          "sha": "fb8150c",
+          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-17T12:41Z",
+          "author": "cockpit-bot",
+          "date": "2026-11-17T12:41:24Z"
+        },
+        {
+          "sha": "5ad6272",
+          "message": "data(arena): 공식 경기 2026-11-17 21:30",
+          "author": "daeguru",
+          "date": "2026-11-17T12:41:03Z"
+        },
         {
           "sha": "f6d0e7d",
           "message": "data(daeguru): cockpit standings auto-refresh 2026-11-16T12:40Z",
@@ -227,18 +239,6 @@
           "message": "fix(daeguru): cockpit 워크플로 v2 — 재계산을 루프 안으로 통합, 풀 파이프라인 게이트(G7) 신설 (2026-W47) (#149)",
           "author": "sfex11",
           "date": "2026-11-16T01:20:18Z"
-        },
-        {
-          "sha": "1b3dc56",
-          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-16T01:15Z",
-          "author": "cockpit-bot",
-          "date": "2026-11-16T01:15:53Z"
-        },
-        {
-          "sha": "3985c55",
-          "message": "fix(cockpit): pull --autostash — 이전 스텝이 남긴 미커밋 변경으로 rebase 실패(7+2연속) 해소",
-          "author": "sfex11",
-          "date": "2026-11-16T01:15:29Z"
         }
       ],
       "recent_prs": [
@@ -608,6 +608,42 @@
   ],
   "activity_feed": [
     {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-11-17 데일리 브리핑 아카이브",
+      "sha": "b2654b7",
+      "date": "2026-11-17T12:43:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b2654b7f479880211c082b3e9dc81011a240051a"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "cockpit-bot",
+      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-17T12:41Z",
+      "sha": "fb8150c",
+      "date": "2026-11-17T12:41:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/fb8150c318c6fd1e0008a26d1a067d40f9d81a5e"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-17 21:30",
+      "sha": "5ad6272",
+      "date": "2026-11-17T12:41:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/5ad62721456a7863e75f06b7ce1a5899ddeda226"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-17T12:06:53Z)",
+      "sha": "c4f5dbb",
+      "date": "2026-11-17T12:06:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c4f5dbbad3901acbb975d12d38bed8419b370684"
+    },
+    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -702,15 +738,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard 데이터 자동 갱신 2026-11-17",
-      "sha": "3e6a2e1",
-      "date": "2026-11-17T03:47:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3e6a2e1fd072048aa1bec871e81cbac3d6002821"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 대구루 11-16 경기 비평(동점 깨짐) 👍",
@@ -772,15 +799,6 @@
       "sha": "dee7204",
       "date": "2026-11-16T23:45:03Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/dee720453758e78e07e08628c19d0f063a572f3e"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-11-17: 뉴스 수집 (5건)",
-      "sha": "5775b3e",
-      "date": "2026-11-16T23:12:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5775b3efaac1c44aa665f370a9db126c596f859b"
     },
     {
       "type": "commit",
@@ -853,24 +871,6 @@
       "sha": "4861566",
       "date": "2026-11-16T01:20:18Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/4861566eb596e0d9e3d2a229f3aefa87e089c363"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "cockpit-bot",
-      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-16T01:15Z",
-      "sha": "1b3dc56",
-      "date": "2026-11-16T01:15:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1b3dc566202dc5bfe7ccda5c14cfdcd658b11010"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix(cockpit): pull --autostash — 이전 스텝이 남긴 미커밋 변경으로 rebase 실패(7+2연속) 해소",
-      "sha": "3985c55",
-      "date": "2026-11-16T01:15:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/3985c5522b6fa497ad23b04ab542a4955f491565"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 15,
+      "commits": 16,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 9,
+      "commits": 8,
       "prs": 18,
       "issues": 0,
       "reviews": 0
