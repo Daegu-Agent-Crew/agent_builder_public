@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-17T00:06:12Z",
-  "since": "2026-10-18T00:05:24Z",
+  "generated": "2026-11-17T00:46:11Z",
+  "since": "2026-10-18T00:45:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-16T22:50:10Z",
+      "pushed_at": "2026-11-17T00:06:15Z",
       "recent_commits": [
+        {
+          "sha": "861859e",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-17T00:06:12Z)",
+          "author": "daeguru",
+          "date": "2026-11-17T00:06:12Z"
+        },
         {
           "sha": "4da29d0",
           "message": "three-body-daily #16: The Machine Stops (Forster 1909)",
@@ -85,12 +91,6 @@
           "message": "dashboard: regenerate dashboard.json + github activity 2026-11-17",
           "author": "daeguru",
           "date": "2026-11-16T15:47:12Z"
-        },
-        {
-          "sha": "e8e2044",
-          "message": "chore: update dashboard data (github-activity, dashboard.json) (cron 2026-11-16)",
-          "author": "daeguru",
-          "date": "2026-11-16T09:46:57Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-16T23:45:39Z",
+      "pushed_at": "2026-11-17T00:18:22Z",
       "recent_commits": [
+        {
+          "sha": "8363484",
+          "message": "🔧 캐릭터 참조 필수 실행기 및 회귀 테스트 추가",
+          "author": "Renover",
+          "date": "2026-11-17T00:18:18Z"
+        },
         {
           "sha": "dee7204",
           "message": "🎨 2026-11-17 뉴스 그림책 — 🤖 작업: 레노버",
@@ -152,12 +158,6 @@
           "message": "📋 2026-11-16: 데일리 브리핑 아카이브",
           "author": "Renover",
           "date": "2026-11-16T12:42:42Z"
-        },
-        {
-          "sha": "d75ca0f",
-          "message": "⚙️ 사용자 지시: 그림책 품질 검수 단계 제외",
-          "author": "Renover",
-          "date": "2026-11-16T05:45:42Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,14 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-16T22:49:59Z",
+      "pushed_at": "2026-11-17T00:10:41Z",
       "recent_commits": [
+        {
+          "sha": "f918cfc",
+          "message": "시스템 분리 — SF 데일리 독립 이관 공지",
+          "author": "daeguru",
+          "date": "2026-11-17T00:10:24Z"
+        },
         {
           "sha": "32c09e9",
           "message": "daily #16: The Machine Stops (Forster 1909) — 무자 생성+텍스트 후조판 첫 적용",
@@ -570,12 +576,6 @@
           "message": "EP015 SF 오리지널 피벗 1탄 'The Star'(H.G. Wells) 발행 — 이미지·로그·done 이동",
           "author": "daeguru",
           "date": "2026-11-16T06:51:56Z"
-        },
-        {
-          "sha": "7da4122",
-          "message": "feat: pivot to SF originals — EP015 'The Star' (H.G. Wells 1897, public domain)",
-          "author": "daeguru",
-          "date": "2026-11-16T06:02:40Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,33 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🔧 캐릭터 참조 필수 실행기 및 회귀 테스트 추가",
+      "sha": "8363484",
+      "date": "2026-11-17T00:18:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/83634840ebb1025b09aec526739e1327010ef070"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "시스템 분리 — SF 데일리 독립 이관 공지",
+      "sha": "f918cfc",
+      "date": "2026-11-17T00:10:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/f918cfcf700a387ad9cb745efffc74bf64b4dfcd"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-17T00:06:12Z)",
+      "sha": "861859e",
+      "date": "2026-11-17T00:06:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/861859ec43d5d829a11a68e19ec70a2820012275"
+    },
     {
       "type": "commit",
       "repo": "ai-agent-news",
@@ -771,39 +798,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (github-activity, dashboard.json) (cron 2026-11-16)",
-      "sha": "e8e2044",
-      "date": "2026-11-16T09:46:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e8e204427012a8b3382b139137051325c7000a3e"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "EP015 SF 오리지널 피벗 1탄 'The Star'(H.G. Wells) 발행 — 이미지·로그·done 이동",
       "sha": "01dd6eb",
       "date": "2026-11-16T06:51:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/01dd6ebcd00c24ba13107b810fb6fe50daf09fe4"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "feat: pivot to SF originals — EP015 'The Star' (H.G. Wells 1897, public domain)",
-      "sha": "7da4122",
-      "date": "2026-11-16T06:02:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/7da41225c4b876bd71373784bf7d04fc8919195b"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "⚙️ 사용자 지시: 그림책 품질 검수 단계 제외",
-      "sha": "d75ca0f",
-      "date": "2026-11-16T05:45:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d75ca0fa56e62aaef5881532d73a6b612168e092"
     },
     {
       "type": "pr",
