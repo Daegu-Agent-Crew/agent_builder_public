@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-17T21:06:38Z",
-  "since": "2026-10-18T21:05:40Z",
+  "generated": "2026-11-17T21:48:59Z",
+  "since": "2026-10-18T21:48:27Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 91,
+      "open_issues": 92,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-17T15:47:48Z",
+      "pushed_at": "2026-11-17T21:06:41Z",
       "recent_commits": [
+        {
+          "sha": "89634db",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-17T21:06:38Z)",
+          "author": "daeguru",
+          "date": "2026-11-17T21:06:38Z"
+        },
         {
           "sha": "864b736",
           "message": "chore: update dashboard data (cron)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-17T12:06:53Z)",
           "author": "daeguru",
           "date": "2026-11-17T12:06:53Z"
-        },
-        {
-          "sha": "3102262",
-          "message": "dashboard: refresh dashboard.json (projects=9, repos=11) 2026-11-17 19:05 KST",
-          "author": "daeguru",
-          "date": "2026-11-17T10:09:55Z"
         }
       ],
       "recent_prs": [
@@ -205,7 +205,7 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 19,
+      "open_issues": 20,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
       "pushed_at": "2026-11-17T19:49:46Z",
@@ -478,8 +478,20 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-17T15:41:10Z",
+      "pushed_at": "2026-11-17T21:36:00Z",
       "recent_commits": [
+        {
+          "sha": "5feceef",
+          "message": "log: Jev 게이트 판정 기록 + 관측 한 줄 2026-11-18",
+          "author": "daeguru-agent",
+          "date": "2026-11-17T21:36:00Z"
+        },
+        {
+          "sha": "1376fb0",
+          "message": "docs: DAC lesson #272 — 다음 작품에서 규칙 검증",
+          "author": "sfex11",
+          "date": "2026-11-17T21:19:39Z"
+        },
         {
           "sha": "0fbec69",
           "message": "board: daeguru2 ACK — 라이카 11-17 경기 비평(시점 아닌 방향) 👍",
@@ -497,18 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-11-18",
           "author": "daeguru",
           "date": "2026-11-17T15:39:26Z"
-        },
-        {
-          "sha": "852777b",
-          "message": "wake: FB-20261117-05 daeguru·daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-11-17T15:39:26Z"
-        },
-        {
-          "sha": "e8c8854",
-          "message": "arena: post Laika critique for 2026-11-17",
-          "author": "Laika",
-          "date": "2026-11-17T12:50:23Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru-agent",
+      "message": "log: Jev 게이트 판정 기록 + 관측 한 줄 2026-11-18",
+      "sha": "5feceef",
+      "date": "2026-11-17T21:36:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5feceefe41c4d1eb1a267200d0a835eb5aeddee6"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "docs: DAC lesson #272 — 다음 작품에서 규칙 검증",
+      "sha": "1376fb0",
+      "date": "2026-11-17T21:19:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1376fb051c22897ab27e5658752689216397f193"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-17T21:06:38Z)",
+      "sha": "89634db",
+      "date": "2026-11-17T21:06:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/89634dbd90d1351ab580d4c3aa9f1c84ee71ebb4"
+    },
+    {
+      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "feat(research): 대구루2 연구 아카이브 페이지 — 아레나 5주 결론+펀딩 4단계 로드맵",
@@ -665,15 +692,6 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
-      "message": "wake: FB-20261117-05 daeguru·daeguru2 기상 기록",
-      "sha": "852777b",
-      "date": "2026-11-17T15:39:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/852777bd97e4e82ad3932bc2882101406acd7ed3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-11-18",
       "sha": "d09cdfc",
       "date": "2026-11-17T15:39:26Z",
@@ -687,15 +705,6 @@
       "sha": "d9b2f1b",
       "date": "2026-11-17T15:06:31Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d9b2f1ba9ceb5e88ac6d0328babe2afbf52acf38"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "arena: post Laika critique for 2026-11-17",
-      "sha": "e8c8854",
-      "date": "2026-11-17T12:50:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e8c885416a9305ad9ab6388168bed2a6a6657860"
     },
     {
       "type": "commit",
@@ -761,15 +770,6 @@
       "state": "closed",
       "date": "2026-11-17T10:14:28Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/154"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json (projects=9, repos=11) 2026-11-17 19:05 KST",
-      "sha": "3102262",
-      "date": "2026-11-17T10:09:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/31022628d7d71e36bcf6c99ceca6127bc20222d4"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 18,
+      "commits": 17,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 7,
+      "commits": 8,
       "prs": 18,
       "issues": 0,
       "reviews": 0
