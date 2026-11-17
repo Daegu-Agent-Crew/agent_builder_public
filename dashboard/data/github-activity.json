@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-17T00:46:11Z",
-  "since": "2026-10-18T00:45:40Z",
+  "generated": "2026-11-17T03:06:48Z",
+  "since": "2026-10-18T03:06:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-17T00:06:15Z",
+      "pushed_at": "2026-11-17T00:46:29Z",
       "recent_commits": [
+        {
+          "sha": "04f34ab",
+          "message": "dashboard: refresh dashboard.json and github-activity.json",
+          "author": "daeguru",
+          "date": "2026-11-17T00:46:29Z"
+        },
         {
           "sha": "861859e",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-17T00:06:12Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-16T21:17:29Z)",
           "author": "daeguru",
           "date": "2026-11-16T21:17:29Z"
-        },
-        {
-          "sha": "5eed892",
-          "message": "dashboard: regenerate dashboard.json + github activity 2026-11-17",
-          "author": "daeguru",
-          "date": "2026-11-16T15:47:12Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-17T00:18:22Z",
+      "pushed_at": "2026-11-17T00:50:11Z",
       "recent_commits": [
+        {
+          "sha": "72679d3",
+          "message": "🎨 11월 17일 그림책: 참조 필수 공통 경로로 재생성",
+          "author": "Renover",
+          "date": "2026-11-17T00:49:48Z"
+        },
         {
           "sha": "8363484",
           "message": "🔧 캐릭터 참조 필수 실행기 및 회귀 테스트 추가",
@@ -152,12 +158,6 @@
           "message": "🖼️ 2026-11-16: 브리핑 그림책 (야간 기록 열차 단면)",
           "author": "Renover",
           "date": "2026-11-16T12:47:36Z"
-        },
-        {
-          "sha": "24b42f8",
-          "message": "📋 2026-11-16: 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-11-16T12:42:42Z"
         }
       ],
       "recent_prs": [
@@ -205,10 +205,10 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 18,
-      "open_prs": 3,
+      "open_issues": 19,
+      "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-16T12:40:34Z",
+      "pushed_at": "2026-11-17T01:20:11Z",
       "recent_commits": [
         {
           "sha": "f6d0e7d",
@@ -243,6 +243,14 @@
       ],
       "recent_prs": [
         {
+          "number": 150,
+          "title": "laika funding/OI·HL 청산 수집기 2건 완성 (FB-20261116-05 2b항)",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-11-17T01:19:55Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/150"
+        },
+        {
           "number": 149,
           "title": "fix(daeguru): cockpit 워크플로 v2 — 파이프라인 통합 (2026-W47)",
           "author": "sfex11",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-11-16T01:08:36Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/148"
-        },
-        {
-          "number": 147,
-          "title": "docs(arena): #143 후보 생성 규칙 가이드 반영",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-11-15T19:58:01Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/147"
         }
       ]
     },
@@ -608,6 +608,34 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "laika funding/OI·HL 청산 수집기 2건 완성 (FB-20261116-05 2b항)",
+      "number": 150,
+      "state": "open",
+      "date": "2026-11-17T01:19:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/150"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🎨 11월 17일 그림책: 참조 필수 공통 경로로 재생성",
+      "sha": "72679d3",
+      "date": "2026-11-17T00:49:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/72679d30add11356cc219a495830de9006b39880"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json and github-activity.json",
+      "sha": "04f34ab",
+      "date": "2026-11-17T00:46:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/04f34ab23d520aa9050a4228c9a965a396195b4d"
+    },
+    {
       "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
@@ -753,30 +781,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: regenerate dashboard.json + github activity 2026-11-17",
-      "sha": "5eed892",
-      "date": "2026-11-16T15:47:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5eed892270c2bdecc16e56ef895f4107f63d8e35"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🖼️ 2026-11-16: 브리핑 그림책 (야간 기록 열차 단면)",
       "sha": "50b3f6f",
       "date": "2026-11-16T12:47:36Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/50b3f6fd12f1ec7c50939241ea22a2f955bd89fa"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-11-16: 데일리 브리핑 아카이브",
-      "sha": "24b42f8",
-      "date": "2026-11-16T12:42:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/24b42f8f72f328f8328e419b0eda91463cf5c2a7"
     },
     {
       "type": "commit",
@@ -851,16 +861,6 @@
       "state": "closed",
       "date": "2026-11-16T01:08:36Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/148"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(arena): #143 후보 생성 규칙 가이드 반영",
-      "number": 147,
-      "state": "closed",
-      "date": "2026-11-15T19:58:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/147"
     },
     {
       "type": "pr",
