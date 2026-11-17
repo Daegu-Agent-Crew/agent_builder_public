@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-17T06:07:31Z",
-  "since": "2026-10-18T06:06:38Z",
+  "generated": "2026-11-17T09:05:44Z",
+  "since": "2026-10-18T09:05:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-17T03:47:07Z",
+      "pushed_at": "2026-11-17T06:07:34Z",
       "recent_commits": [
+        {
+          "sha": "e1d8399",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-17T06:07:31Z)",
+          "author": "daeguru",
+          "date": "2026-11-17T06:07:31Z"
+        },
         {
           "sha": "3e6a2e1",
           "message": "dashboard 데이터 자동 갱신 2026-11-17",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-17T00:06:12Z)",
           "author": "daeguru",
           "date": "2026-11-17T00:06:12Z"
-        },
-        {
-          "sha": "4da29d0",
-          "message": "three-body-daily #16: The Machine Stops (Forster 1909)",
-          "author": "daeguru",
-          "date": "2026-11-16T22:50:00Z"
         }
       ],
       "recent_prs": [
@@ -475,11 +475,17 @@
       "slug": "Daegu-Agent-Crew/team-memory",
       "name": "team-memory",
       "private": true,
-      "open_issues": 11,
-      "open_prs": 3,
+      "open_issues": 12,
+      "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-17T03:40:20Z",
+      "pushed_at": "2026-11-17T08:37:30Z",
       "recent_commits": [
+        {
+          "sha": "acde03b",
+          "message": "board: ACK FB-20261117-04 as laika",
+          "author": "Laika",
+          "date": "2026-11-17T08:37:27Z"
+        },
         {
           "sha": "4ebba23",
           "message": "board: daeguru2 ACK — 대구루 11-16 경기 비평(동점 깨짐) 👍",
@@ -503,15 +509,17 @@
           "message": "board: daeguru2 ACK — 11-17 3건 👍",
           "author": "daeguru",
           "date": "2026-11-16T21:43:58Z"
-        },
-        {
-          "sha": "fd62531",
-          "message": "board: daeguru ACK — 라이카 11-17 피드 3건 👍",
-          "author": "daeguru",
-          "date": "2026-11-16T21:42:56Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 33,
+          "title": "fix: patterns-index 충돌 표시 720개 해소 + 검사 게이트 (이슈 #32)",
+          "author": "sfex11",
+          "state": "open",
+          "updated_at": "2026-11-17T07:31:40Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/33"
+        },
         {
           "number": 19,
           "title": "docs(agents-board): 라이카 온보딩 + next_id 버그 리포트 (AB-0006, AB-0007)",
@@ -527,14 +535,6 @@
           "state": "closed",
           "updated_at": "2026-09-22T01:18:11Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/28"
-        },
-        {
-          "number": 24,
-          "title": "PROTOCOL §9.4 기상 규격 확정 — CLE2-27 Phase 3 (ACK·wakes·기상 스캐너)",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-17T09:32:11Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/24"
         }
       ]
     },
@@ -607,6 +607,34 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "board: ACK FB-20261117-04 as laika",
+      "sha": "acde03b",
+      "date": "2026-11-17T08:37:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/acde03b857d132f0a51c432f3942595696f2533d"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "fix: patterns-index 충돌 표시 720개 해소 + 검사 게이트 (이슈 #32)",
+      "number": 33,
+      "state": "open",
+      "date": "2026-11-17T07:31:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/33"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-17T06:07:31Z)",
+      "sha": "e1d8399",
+      "date": "2026-11-17T06:07:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e1d83994d735aa16fe7b9ed6aa244e8514fe6523"
+    },
     {
       "type": "commit",
       "repo": "ai-agent-news",
@@ -736,15 +764,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "three-body-daily #16: The Machine Stops (Forster 1909)",
-      "sha": "4da29d0",
-      "date": "2026-11-16T22:50:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4da29d0c628f3117d8312b2f63ebd5ab0a371c06"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "daily #16: The Machine Stops (Forster 1909) — 무자 생성+텍스트 후조판 첫 적용",
@@ -769,15 +788,6 @@
       "sha": "418cb6c",
       "date": "2026-11-16T21:43:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/418cb6c0228ace6cc098037f2e909ce5551c9048"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 11-17 피드 3건 👍",
-      "sha": "fd62531",
-      "date": "2026-11-16T21:42:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fd6253182ccfc68c2ca8f16b18ac6aa1ae93ebe2"
     },
     {
       "type": "commit",
@@ -881,16 +891,6 @@
       "state": "closed",
       "date": "2026-09-22T01:18:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/28"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "PROTOCOL §9.4 기상 규격 확정 — CLE2-27 Phase 3 (ACK·wakes·기상 스캐너)",
-      "number": 24,
-      "state": "closed",
-      "date": "2026-09-17T09:32:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/24"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 16,
       "prs": 0,
       "issues": 0,
       "reviews": 0
