@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-17T09:47:55Z",
-  "since": "2026-10-18T09:47:20Z",
+  "generated": "2026-11-17T12:06:53Z",
+  "since": "2026-10-18T12:05:51Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-17T09:05:47Z",
+      "pushed_at": "2026-11-17T10:09:56Z",
       "recent_commits": [
+        {
+          "sha": "3102262",
+          "message": "dashboard: refresh dashboard.json (projects=9, repos=11) 2026-11-17 19:05 KST",
+          "author": "daeguru",
+          "date": "2026-11-17T10:09:55Z"
+        },
+        {
+          "sha": "5cb5c70",
+          "message": "dashboard 데이터 갱신 (cron 2026-11-17 18:44)",
+          "author": "daeguru",
+          "date": "2026-11-17T09:48:45Z"
+        },
         {
           "sha": "a2f39bc",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-17T09:05:44Z)",
@@ -79,18 +91,6 @@
           "message": "dashboard 데이터 자동 갱신 2026-11-17",
           "author": "daeguru",
           "date": "2026-11-17T03:47:07Z"
-        },
-        {
-          "sha": "811e324",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-17T03:06:48Z)",
-          "author": "daeguru",
-          "date": "2026-11-17T03:06:48Z"
-        },
-        {
-          "sha": "04f34ab",
-          "message": "dashboard: refresh dashboard.json and github-activity.json",
-          "author": "daeguru",
-          "date": "2026-11-17T00:46:29Z"
         }
       ],
       "recent_prs": [
@@ -205,10 +205,10 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 21,
-      "open_prs": 5,
+      "open_issues": 19,
+      "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-17T09:38:09Z",
+      "pushed_at": "2026-11-17T10:06:07Z",
       "recent_commits": [
         {
           "sha": "f6d0e7d",
@@ -243,11 +243,19 @@
       ],
       "recent_prs": [
         {
+          "number": 154,
+          "title": "feat(CLE2-35): 밈코인 마케팅 전략 태스크 초기 설정",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-11-17T10:14:28Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/154"
+        },
+        {
           "number": 152,
           "title": "feat(CLE2-34): 밈코인 발행 장기 계획 태스크 초기 설정",
           "author": "sfex11",
-          "state": "open",
-          "updated_at": "2026-11-17T09:38:11Z",
+          "state": "closed",
+          "updated_at": "2026-11-17T10:14:28Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/152"
         },
         {
@@ -257,14 +265,6 @@
           "state": "open",
           "updated_at": "2026-11-17T01:19:55Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/150"
-        },
-        {
-          "number": 149,
-          "title": "fix(daeguru): cockpit 워크플로 v2 — 파이프라인 통합 (2026-W47)",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-11-16T01:20:22Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/149"
         }
       ]
     },
@@ -608,6 +608,44 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-34): 밈코인 발행 장기 계획 태스크 초기 설정",
+      "number": 152,
+      "state": "closed",
+      "date": "2026-11-17T10:14:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/152"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(CLE2-35): 밈코인 마케팅 전략 태스크 초기 설정",
+      "number": 154,
+      "state": "closed",
+      "date": "2026-11-17T10:14:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/154"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json (projects=9, repos=11) 2026-11-17 19:05 KST",
+      "sha": "3102262",
+      "date": "2026-11-17T10:09:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/31022628d7d71e36bcf6c99ceca6127bc20222d4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 갱신 (cron 2026-11-17 18:44)",
+      "sha": "5cb5c70",
+      "date": "2026-11-17T09:48:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5cb5c70c90e272bdd41c6ab45af00196ab69ae42"
+    },
+    {
       "type": "commit",
       "repo": "team-memory",
       "author": "대구루 (AI)",
@@ -615,16 +653,6 @@
       "sha": "46e47b8",
       "date": "2026-11-17T09:39:12Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/46e47b8e66adb62e88e115a2e9d721a7e18bb10b"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-34): 밈코인 발행 장기 계획 태스크 초기 설정",
-      "number": 152,
-      "state": "open",
-      "date": "2026-11-17T09:38:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/152"
     },
     {
       "type": "commit",
@@ -700,15 +728,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4eea5b7dd0b489037251a9713b4a8e95c880ec51"
     },
     {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-17T03:06:48Z)",
-      "sha": "811e324",
-      "date": "2026-11-17T03:06:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/811e3240ee9e1f8a7cfae021cda12eaa2c20c3a5"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -726,15 +745,6 @@
       "sha": "72679d3",
       "date": "2026-11-17T00:49:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/72679d30add11356cc219a495830de9006b39880"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json",
-      "sha": "04f34ab",
-      "date": "2026-11-17T00:46:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/04f34ab23d520aa9050a4228c9a965a396195b4d"
     },
     {
       "type": "commit",
@@ -834,16 +844,6 @@
       "sha": "01dd6eb",
       "date": "2026-11-16T06:51:56Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/01dd6ebcd00c24ba13107b810fb6fe50daf09fe4"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "fix(daeguru): cockpit 워크플로 v2 — 파이프라인 통합 (2026-W47)",
-      "number": 149,
-      "state": "closed",
-      "date": "2026-11-16T01:20:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/149"
     },
     {
       "type": "commit",
