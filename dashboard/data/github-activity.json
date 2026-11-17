@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-17T12:47:37Z",
-  "since": "2026-10-18T12:47:06Z",
+  "generated": "2026-11-17T15:06:31Z",
+  "since": "2026-10-18T15:05:41Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-17T12:06:56Z",
+      "pushed_at": "2026-11-17T12:48:27Z",
       "recent_commits": [
+        {
+          "sha": "93a2149",
+          "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
+          "author": "daeguru",
+          "date": "2026-11-17T12:48:25Z"
+        },
         {
           "sha": "c4f5dbb",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-17T12:06:53Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-17T09:05:44Z)",
           "author": "daeguru",
           "date": "2026-11-17T09:05:45Z"
-        },
-        {
-          "sha": "e1d8399",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-17T06:07:31Z)",
-          "author": "daeguru",
-          "date": "2026-11-17T06:07:31Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-17T09:39:13Z",
+      "pushed_at": "2026-11-17T12:50:26Z",
       "recent_commits": [
+        {
+          "sha": "e8c8854",
+          "message": "arena: post Laika critique for 2026-11-17",
+          "author": "Laika",
+          "date": "2026-11-17T12:50:23Z"
+        },
         {
           "sha": "46e47b8",
           "message": "log: Jev 게이트 판정 기록·관측 한 줄 2026-11-17",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261117-04 daeguru2 기상 기록",
           "author": "daeguru",
           "date": "2026-11-17T03:38:14Z"
-        },
-        {
-          "sha": "5bdacbc",
-          "message": "feed: FB-20261117-04 대구루 경기 비평 11-16 판",
-          "author": "daeguru",
-          "date": "2026-11-16T23:01:04Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,24 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "arena: post Laika critique for 2026-11-17",
+      "sha": "e8c8854",
+      "date": "2026-11-17T12:50:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e8c885416a9305ad9ab6388168bed2a6a6657860"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): update dashboard.json and github-activity.json (auto)",
+      "sha": "93a2149",
+      "date": "2026-11-17T12:48:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/93a21495ae654a81f47136192fde2513331e2f0a"
+    },
     {
       "type": "commit",
       "repo": "ai-agent-news",
@@ -720,15 +738,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-17T06:07:31Z)",
-      "sha": "e1d8399",
-      "date": "2026-11-17T06:07:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e1d83994d735aa16fe7b9ed6aa244e8514fe6523"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-11-17: 위키 갱신 (2개)",
@@ -799,15 +808,6 @@
       "sha": "dee7204",
       "date": "2026-11-16T23:45:03Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/dee720453758e78e07e08628c19d0f063a572f3e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20261117-04 대구루 경기 비평 11-16 판",
-      "sha": "5bdacbc",
-      "date": "2026-11-16T23:01:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5bdacbcc1965fc4c5733d8208359d1008cccaa00"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 16,
+      "commits": 15,
       "prs": 0,
       "issues": 0,
       "reviews": 0
