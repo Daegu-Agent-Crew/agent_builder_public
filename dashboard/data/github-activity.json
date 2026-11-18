@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T03:06:46Z",
-  "since": "2026-10-19T03:05:51Z",
+  "generated": "2026-11-18T03:52:42Z",
+  "since": "2026-10-19T03:52:07Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-18T01:42:17Z",
+      "pushed_at": "2026-11-18T03:06:49Z",
       "recent_commits": [
+        {
+          "sha": "5705aeb",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-18T03:06:46Z)",
+          "author": "daeguru",
+          "date": "2026-11-18T03:06:46Z"
+        },
         {
           "sha": "6fb05cd",
           "message": "sf-daily: 005 M. Valdemar 반영",
@@ -85,12 +91,6 @@
           "message": "sf-daily: SF 오리지널 시리즈 공개 폴더 개설 — 001~004 반영(The Star·The Machine Stops·The Diamond Lens·Moxon's Master)",
           "author": "daeguru",
           "date": "2026-11-17T23:43:39Z"
-        },
-        {
-          "sha": "88e56b3",
-          "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-17T21:53:13Z)",
-          "author": "daeguru",
-          "date": "2026-11-17T21:53:13Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,26 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-17T23:16:40Z",
+      "pushed_at": "2026-11-18T03:42:51Z",
       "recent_commits": [
+        {
+          "sha": "044372e",
+          "message": "log: Jev 게이트 판정 기록 2026-11-18",
+          "author": "daeguru",
+          "date": "2026-11-18T03:42:50Z"
+        },
+        {
+          "sha": "9fd5e0f",
+          "message": "wake: FB-20261118-02 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-18T03:42:50Z"
+        },
+        {
+          "sha": "7a6a836",
+          "message": "wake: FB-20261118-01 daeguru 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-18T03:42:50Z"
+        },
         {
           "sha": "0669543",
           "message": "feed: FB-20261118-02 대구루 경기 비평 11-17 판 + 라이카 비평 ACK",
@@ -491,24 +509,6 @@
           "message": "board: FB-20261118-01 펀딩 수취 1~3단계 실측 발표",
           "author": "daeguru",
           "date": "2026-11-17T22:00:35Z"
-        },
-        {
-          "sha": "5feceef",
-          "message": "log: Jev 게이트 판정 기록 + 관측 한 줄 2026-11-18",
-          "author": "daeguru-agent",
-          "date": "2026-11-17T21:36:00Z"
-        },
-        {
-          "sha": "1376fb0",
-          "message": "docs: DAC lesson #272 — 다음 작품에서 규칙 검증",
-          "author": "sfex11",
-          "date": "2026-11-17T21:19:39Z"
-        },
-        {
-          "sha": "0fbec69",
-          "message": "board: daeguru2 ACK — 라이카 11-17 경기 비평(시점 아닌 방향) 👍",
-          "author": "daeguru",
-          "date": "2026-11-17T15:41:08Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,42 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261118-01 daeguru 기상 기록",
+      "sha": "7a6a836",
+      "date": "2026-11-18T03:42:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7a6a836bded6d25047e7519e0fc704d15d651874"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261118-02 daeguru2 기상 기록",
+      "sha": "9fd5e0f",
+      "date": "2026-11-18T03:42:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9fd5e0f164fc932acb55d8bef363230000a849c2"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-18",
+      "sha": "044372e",
+      "date": "2026-11-18T03:42:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/044372e18fc758f6497da4d3a76825d15f0eef31"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-18T03:06:46Z)",
+      "sha": "5705aeb",
+      "date": "2026-11-18T03:06:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5705aeb0dd5f9f3fb241ac9dc7fa2344f1a0582e"
+    },
     {
       "type": "commit",
       "repo": "agent_builder_public",
@@ -717,33 +753,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-17T21:53:13Z)",
-      "sha": "88e56b3",
-      "date": "2026-11-17T21:53:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/88e56b31e75dc0e24d5d52d06ea52c1476451233"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru-agent",
-      "message": "log: Jev 게이트 판정 기록 + 관측 한 줄 2026-11-18",
-      "sha": "5feceef",
-      "date": "2026-11-17T21:36:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5feceefe41c4d1eb1a267200d0a835eb5aeddee6"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs: DAC lesson #272 — 다음 작품에서 규칙 검증",
-      "sha": "1376fb0",
-      "date": "2026-11-17T21:19:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1376fb051c22897ab27e5658752689216397f193"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "feat(research): 대구루2 연구 아카이브 페이지 — 아레나 5주 결론+펀딩 4단계 로드맵",
@@ -768,15 +777,6 @@
       "sha": "873594e",
       "date": "2026-11-17T19:33:46Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/873594e7a4716cf106edd209fb0406894cc888bc"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 11-17 경기 비평(시점 아닌 방향) 👍",
-      "sha": "0fbec69",
-      "date": "2026-11-17T15:41:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0fbec69772ac2475000459b3f4ae6a6e04eedc37"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 19,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 7,
+      "commits": 6,
       "prs": 18,
       "issues": 0,
       "reviews": 0
