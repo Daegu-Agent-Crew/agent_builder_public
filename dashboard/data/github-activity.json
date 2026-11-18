@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T00:06:51Z",
-  "since": "2026-10-19T00:05:54Z",
+  "generated": "2026-11-18T03:06:46Z",
+  "since": "2026-10-19T03:05:51Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,26 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-17T23:44:48Z",
+      "pushed_at": "2026-11-18T01:42:17Z",
       "recent_commits": [
+        {
+          "sha": "6fb05cd",
+          "message": "sf-daily: 005 M. Valdemar 반영",
+          "author": "daeguru",
+          "date": "2026-11-18T01:42:09Z"
+        },
+        {
+          "sha": "7763250",
+          "message": "chore(dashboard): refresh dashboard.json (projects=9, repos=11)",
+          "author": "daeguru",
+          "date": "2026-11-18T00:46:52Z"
+        },
+        {
+          "sha": "0c10c0c",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-18T00:06:51Z)",
+          "author": "daeguru",
+          "date": "2026-11-18T00:07:01Z"
+        },
         {
           "sha": "9e51783",
           "message": "sf-daily: SF 오리지널 시리즈 공개 폴더 개설 — 001~004 반영(The Star·The Machine Stops·The Diamond Lens·Moxon's Master)",
@@ -73,24 +91,6 @@
           "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-17T21:53:13Z)",
           "author": "daeguru",
           "date": "2026-11-17T21:53:13Z"
-        },
-        {
-          "sha": "89634db",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-17T21:06:38Z)",
-          "author": "daeguru",
-          "date": "2026-11-17T21:06:38Z"
-        },
-        {
-          "sha": "864b736",
-          "message": "chore: update dashboard data (cron)",
-          "author": "daeguru",
-          "date": "2026-11-17T15:47:48Z"
-        },
-        {
-          "sha": "d9b2f1b",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-17T15:06:31Z)",
-          "author": "daeguru",
-          "date": "2026-11-17T15:06:31Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "sf-daily: 005 M. Valdemar 반영",
+      "sha": "6fb05cd",
+      "date": "2026-11-18T01:42:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6fb05cd6a1ca112fcf7077543c9ed8213de30733"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json (projects=9, repos=11)",
+      "sha": "7763250",
+      "date": "2026-11-18T00:46:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7763250c360909a44978abfcd75e803c1f1e9c9a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-18T00:06:51Z)",
+      "sha": "0c10c0c",
+      "date": "2026-11-18T00:07:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0c10c0c9ad25ccd03dffd896243ed7aba05f59cd"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🔭 2026-11-18 매일 미래예측: 문지기 친구들 (다온·비콩·쇠똔)",
@@ -717,15 +744,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-17T21:06:38Z)",
-      "sha": "89634db",
-      "date": "2026-11-17T21:06:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/89634dbd90d1351ab580d4c3aa9f1c84ee71ebb4"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "feat(research): 대구루2 연구 아카이브 페이지 — 아레나 5주 결론+펀딩 4단계 로드맵",
@@ -753,30 +771,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data (cron)",
-      "sha": "864b736",
-      "date": "2026-11-17T15:47:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/864b736e3f8c00c38053a33155a670d1f1d3b333"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 11-17 경기 비평(시점 아닌 방향) 👍",
       "sha": "0fbec69",
       "date": "2026-11-17T15:41:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0fbec69772ac2475000459b3f4ae6a6e04eedc37"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-17T15:06:31Z)",
-      "sha": "d9b2f1b",
-      "date": "2026-11-17T15:06:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d9b2f1ba9ceb5e88ac6d0328babe2afbf52acf38"
     },
     {
       "type": "commit",
