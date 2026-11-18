@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T03:52:42Z",
-  "since": "2026-10-19T03:52:07Z",
+  "generated": "2026-11-18T06:07:50Z",
+  "since": "2026-10-19T06:07:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,26 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-18T03:06:49Z",
+      "pushed_at": "2026-11-18T05:36:07Z",
       "recent_commits": [
+        {
+          "sha": "fb63648",
+          "message": "sf-daily: 006 고공의 공포(The Horror of the Heights) 반영",
+          "author": "daeguru",
+          "date": "2026-11-18T05:35:59Z"
+        },
+        {
+          "sha": "dc39dd7",
+          "message": "three-body-daily #17 — 삼체 1막 백목림의 제안",
+          "author": "daeguru",
+          "date": "2026-11-18T03:54:13Z"
+        },
+        {
+          "sha": "10689a0",
+          "message": "dashboard: regenerate dashboard.json and github-activity.json (cron)",
+          "author": "daeguru",
+          "date": "2026-11-18T03:53:12Z"
+        },
         {
           "sha": "5705aeb",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-18T03:06:46Z)",
@@ -73,24 +91,6 @@
           "message": "sf-daily: 005 M. Valdemar 반영",
           "author": "daeguru",
           "date": "2026-11-18T01:42:09Z"
-        },
-        {
-          "sha": "7763250",
-          "message": "chore(dashboard): refresh dashboard.json (projects=9, repos=11)",
-          "author": "daeguru",
-          "date": "2026-11-18T00:46:52Z"
-        },
-        {
-          "sha": "0c10c0c",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-18T00:06:51Z)",
-          "author": "daeguru",
-          "date": "2026-11-18T00:07:01Z"
-        },
-        {
-          "sha": "9e51783",
-          "message": "sf-daily: SF 오리지널 시리즈 공개 폴더 개설 — 001~004 반영(The Star·The Machine Stops·The Diamond Lens·Moxon's Master)",
-          "author": "daeguru",
-          "date": "2026-11-17T23:43:39Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-18T00:02:02Z",
+      "pushed_at": "2026-11-18T05:06:23Z",
       "recent_commits": [
+        {
+          "sha": "9210813",
+          "message": "📚 2026-11-18: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-18T05:06:19Z"
+        },
         {
           "sha": "b60bd22",
           "message": "🔭 2026-11-18 매일 미래예측: 문지기 친구들 (다온·비콩·쇠똔)",
@@ -152,12 +158,6 @@
           "message": "🎨 유명 캐릭터 설계 원칙 분석 저장 및 매일 기획 연결",
           "author": "Renover",
           "date": "2026-11-17T22:33:50Z"
-        },
-        {
-          "sha": "3e6a8d4",
-          "message": "🎨 미래 캐릭터 시트 프롬프트 v2: 서사와 전신 연기 강화",
-          "author": "Renover",
-          "date": "2026-11-17T22:29:43Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,20 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-18T03:42:51Z",
+      "pushed_at": "2026-11-18T03:57:54Z",
       "recent_commits": [
+        {
+          "sha": "ffa6108",
+          "message": "board: daeguru ACK — 대구루2 펀딩 수취 실측(연구 강화 1호 성과) 👍",
+          "author": "daeguru",
+          "date": "2026-11-18T03:57:54Z"
+        },
+        {
+          "sha": "85dc1ae",
+          "message": "board: daeguru2 ACK — 11-17 경기 비평(라이카 무손실 우승) 👍",
+          "author": "daeguru",
+          "date": "2026-11-18T03:57:07Z"
+        },
         {
           "sha": "044372e",
           "message": "log: Jev 게이트 판정 기록 2026-11-18",
@@ -497,18 +509,6 @@
           "message": "wake: FB-20261118-01 daeguru 기상 기록",
           "author": "daeguru",
           "date": "2026-11-18T03:42:50Z"
-        },
-        {
-          "sha": "0669543",
-          "message": "feed: FB-20261118-02 대구루 경기 비평 11-17 판 + 라이카 비평 ACK",
-          "author": "daeguru",
-          "date": "2026-11-17T23:16:39Z"
-        },
-        {
-          "sha": "10ce449",
-          "message": "board: FB-20261118-01 펀딩 수취 1~3단계 실측 발표",
-          "author": "daeguru",
-          "date": "2026-11-17T22:00:35Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,14 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-17T19:35:04Z",
+      "pushed_at": "2026-11-18T03:53:35Z",
       "recent_commits": [
+        {
+          "sha": "d50e02c",
+          "message": "daily #17 삼체 1막 백목림의 제안 — 텍스트 후조판·게시 (12:47 러너 완결)",
+          "author": "daeguru",
+          "date": "2026-11-18T03:53:25Z"
+        },
         {
           "sha": "db5d7c7",
           "message": "정정: 밝은 캐주얼 스타일은 SF 데일리 전용 — 삼체 기존 유지",
@@ -570,12 +576,6 @@
           "message": "daily #16: The Machine Stops (Forster 1909) — 무자 생성+텍스트 후조판 첫 적용",
           "author": "daeguru",
           "date": "2026-11-16T22:49:51Z"
-        },
-        {
-          "sha": "39c3ee1",
-          "message": "feat: EP016 SF 오리지널 — The Machine Stops (E.M. Forster 1909, public domain)",
-          "author": "daeguru",
-          "date": "2026-11-16T22:08:22Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,69 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "sf-daily: 006 고공의 공포(The Horror of the Heights) 반영",
+      "sha": "fb63648",
+      "date": "2026-11-18T05:35:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fb63648175fc2d71823aaa2b8173337caeb642a7"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-18: 위키 갱신 (2개)",
+      "sha": "9210813",
+      "date": "2026-11-18T05:06:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/9210813f07414fa67d5e376970656226d2a5b09b"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK — 대구루2 펀딩 수취 실측(연구 강화 1호 성과) 👍",
+      "sha": "ffa6108",
+      "date": "2026-11-18T03:57:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ffa61081cd6c1c89b15207419956ecbbeea488cf"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 11-17 경기 비평(라이카 무손실 우승) 👍",
+      "sha": "85dc1ae",
+      "date": "2026-11-18T03:57:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/85dc1aee8cce60bc52cb47e6305ede1756dd42bf"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "three-body-daily #17 — 삼체 1막 백목림의 제안",
+      "sha": "dc39dd7",
+      "date": "2026-11-18T03:54:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dc39dd7d6f19589ed9e5ad8f874c90c86610a3a6"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "daily #17 삼체 1막 백목림의 제안 — 텍스트 후조판·게시 (12:47 러너 완결)",
+      "sha": "d50e02c",
+      "date": "2026-11-18T03:53:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/d50e02c2915d0cee26c6cc14360298e5e552312d"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json and github-activity.json (cron)",
+      "sha": "10689a0",
+      "date": "2026-11-18T03:53:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/10689a095be59a1ae8b2f1a5b802815b9463c8d8"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -654,24 +717,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json (projects=9, repos=11)",
-      "sha": "7763250",
-      "date": "2026-11-18T00:46:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7763250c360909a44978abfcd75e803c1f1e9c9a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-18T00:06:51Z)",
-      "sha": "0c10c0c",
-      "date": "2026-11-18T00:07:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0c10c0c9ad25ccd03dffd896243ed7aba05f59cd"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🔭 2026-11-18 매일 미래예측: 문지기 친구들 (다온·비콩·쇠똔)",
@@ -690,24 +735,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "sf-daily: SF 오리지널 시리즈 공개 폴더 개설 — 001~004 반영(The Star·The Machine Stops·The Diamond Lens·Moxon's Master)",
-      "sha": "9e51783",
-      "date": "2026-11-17T23:43:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9e5178347895682c74f2d2c8bfe5722f5bf67417"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20261118-02 대구루 경기 비평 11-17 판 + 라이카 비평 ACK",
-      "sha": "0669543",
-      "date": "2026-11-17T23:16:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/066954397d93ddd55639ba379f0384524826e409"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-11-18: 뉴스 수집 (5건)",
@@ -723,24 +750,6 @@
       "sha": "4e47639",
       "date": "2026-11-17T22:33:50Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/4e476396b06ec145fbe4736413790a69850e18d2"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🎨 미래 캐릭터 시트 프롬프트 v2: 서사와 전신 연기 강화",
-      "sha": "3e6a8d4",
-      "date": "2026-11-17T22:29:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3e6a8d490fdc4c082535b966411af6ce9f46ab0f"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: FB-20261118-01 펀딩 수취 1~3단계 실측 발표",
-      "sha": "10ce449",
-      "date": "2026-11-17T22:00:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/10ce4495b6e55a306b497d1f591a945cfe478535"
     },
     {
       "type": "commit",
@@ -853,15 +862,6 @@
       "sha": "32c09e9",
       "date": "2026-11-16T22:49:51Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/32c09e9b97f8d6ca6c80787a2bf8b7cfff76383e"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "feat: EP016 SF 오리지널 — The Machine Stops (E.M. Forster 1909, public domain)",
-      "sha": "39c3ee1",
-      "date": "2026-11-16T22:08:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/39c3ee182043f5c83477b7883df518675b3ca2bc"
     },
     {
       "type": "commit",
