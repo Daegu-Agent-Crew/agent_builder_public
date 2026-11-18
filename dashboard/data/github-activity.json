@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T18:48:23Z",
-  "since": "2026-10-19T18:47:49Z",
+  "generated": "2026-11-18T21:06:14Z",
+  "since": "2026-10-19T21:05:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,37 +60,37 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-18T18:09:06Z",
+      "pushed_at": "2026-11-18T20:53:40Z",
       "recent_commits": [
         {
-          "sha": "c69bd72",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-18T18:09:02Z)",
+          "sha": "8d562bc",
+          "message": "대구루 공식 캐릭터 시트 — 정면·측면·후면·표정 6종",
           "author": "daeguru",
-          "date": "2026-11-18T18:09:03Z"
+          "date": "2026-11-18T20:53:35Z"
         },
         {
-          "sha": "6193867",
-          "message": "sf-daily: 010 황금 원자 속의 소녀(The Girl in the Golden Atom) 반영",
+          "sha": "2a6db59",
+          "message": "대구루 캐릭터 만화 「대구루의 하루」 8칸 (회장님 요청)",
           "author": "daeguru",
-          "date": "2026-11-18T17:39:26Z"
+          "date": "2026-11-18T20:05:28Z"
         },
         {
-          "sha": "808c5d5",
-          "message": "chore: update dashboard data (auto)",
+          "sha": "7f99950",
+          "message": "sf-daily: 011 달의 연못·012 해저 2만 리 반영",
           "author": "daeguru",
-          "date": "2026-11-18T15:47:22Z"
+          "date": "2026-11-18T19:40:17Z"
         },
         {
-          "sha": "fb0acb2",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-18T15:06:28Z)",
+          "sha": "d119a5f",
+          "message": "data: update dashboard.json (dashboard cron)",
           "author": "daeguru",
-          "date": "2026-11-18T15:06:29Z"
+          "date": "2026-11-18T18:52:56Z"
         },
         {
-          "sha": "4d7d52d",
-          "message": "sf-daily: 009 그림자와 섬광(The Shadow and the Flash) 반영",
+          "sha": "b3611e4",
+          "message": "dashboard data update",
           "author": "daeguru",
-          "date": "2026-11-18T13:50:02Z"
+          "date": "2026-11-18T18:48:40Z"
         }
       ],
       "recent_prs": [
@@ -611,28 +611,46 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-18T18:09:02Z)",
-      "sha": "c69bd72",
-      "date": "2026-11-18T18:09:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c69bd728393e5077b29714481a0ecd9ead04950e"
+      "message": "대구루 공식 캐릭터 시트 — 정면·측면·후면·표정 6종",
+      "sha": "8d562bc",
+      "date": "2026-11-18T20:53:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8d562bcd56876141eabfdb5f686121d7edcd922e"
     },
     {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
-      "message": "sf-daily: 010 황금 원자 속의 소녀(The Girl in the Golden Atom) 반영",
-      "sha": "6193867",
-      "date": "2026-11-18T17:39:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/61938673f4dbae1195d7349bb31522c80ee9dddc"
+      "message": "대구루 캐릭터 만화 「대구루의 하루」 8칸 (회장님 요청)",
+      "sha": "2a6db59",
+      "date": "2026-11-18T20:05:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2a6db592b68bddc968bd02bd82a44c443492bbc8"
     },
     {
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
-      "message": "chore: update dashboard data (auto)",
-      "sha": "808c5d5",
-      "date": "2026-11-18T15:47:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/808c5d5a433d3609092e690a2f69d5d61eb0c947"
+      "message": "sf-daily: 011 달의 연못·012 해저 2만 리 반영",
+      "sha": "7f99950",
+      "date": "2026-11-18T19:40:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7f999500373666483d0bca7bd927564f6ee76733"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "data: update dashboard.json (dashboard cron)",
+      "sha": "d119a5f",
+      "date": "2026-11-18T18:52:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d119a5feb98dec6354f4acd67afad6968dba3983"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard data update",
+      "sha": "b3611e4",
+      "date": "2026-11-18T18:48:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b3611e4388f689b6b4fe3a2848c9afca866d7320"
     },
     {
       "type": "commit",
@@ -660,24 +678,6 @@
       "sha": "379f057",
       "date": "2026-11-18T15:42:52Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/379f05789bd960c2d35f2aa6009868dbd6263d1c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-18T15:06:28Z)",
-      "sha": "fb0acb2",
-      "date": "2026-11-18T15:06:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fb0acb27f93e04f6872b72462a752ef584a0c63c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "sf-daily: 009 그림자와 섬광(The Shadow and the Flash) 반영",
-      "sha": "4d7d52d",
-      "date": "2026-11-18T13:50:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4d7d52dcd7d59c64f121f9e8a90bd57917fc930f"
     },
     {
       "type": "commit",
