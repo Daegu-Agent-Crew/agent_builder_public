@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T09:47:44Z",
-  "since": "2026-10-19T09:47:12Z",
+  "generated": "2026-11-18T12:06:52Z",
+  "since": "2026-10-19T12:05:41Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-18T09:06:18Z",
+      "pushed_at": "2026-11-18T09:58:35Z",
       "recent_commits": [
+        {
+          "sha": "67627ad",
+          "message": "dashboard: refresh dashboard.json (cron)",
+          "author": "daeguru",
+          "date": "2026-11-18T09:58:35Z"
+        },
+        {
+          "sha": "6cd11ca",
+          "message": "dashboard: update dashboard.json and github-activity.json 2026-11-18 18:44 KST",
+          "author": "daeguru",
+          "date": "2026-11-18T09:48:44Z"
+        },
         {
           "sha": "ad75528",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-18T09:06:15Z)",
@@ -79,18 +91,6 @@
           "message": "dashboard: dashboard.json + github-activity.json 갱신 (2026-11-18 15:44)",
           "author": "daeguru",
           "date": "2026-11-18T06:47:25Z"
-        },
-        {
-          "sha": "ba67391",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-18T06:07:50Z)",
-          "author": "daeguru",
-          "date": "2026-11-18T06:07:51Z"
-        },
-        {
-          "sha": "fb63648",
-          "message": "sf-daily: 006 고공의 공포(The Horror of the Heights) 반영",
-          "author": "daeguru",
-          "date": "2026-11-18T05:35:59Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json (cron)",
+      "sha": "67627ad",
+      "date": "2026-11-18T09:58:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/67627ad151c3407299f9567a4f61976b80f5181f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json 2026-11-18 18:44 KST",
+      "sha": "6cd11ca",
+      "date": "2026-11-18T09:48:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6cd11ca5e43a4e2db447e687d2a06bfb76e69306"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-18 👍",
@@ -678,24 +696,6 @@
       "sha": "14150c4",
       "date": "2026-11-18T06:47:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/14150c4e5c116dba6481be178d3dc904955796a7"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-18T06:07:50Z)",
-      "sha": "ba67391",
-      "date": "2026-11-18T06:07:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ba6739134a2cb2eece23e4a72d223c25691c572e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "sf-daily: 006 고공의 공포(The Horror of the Heights) 반영",
-      "sha": "fb63648",
-      "date": "2026-11-18T05:35:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fb63648175fc2d71823aaa2b8173337caeb642a7"
     },
     {
       "type": "commit",
