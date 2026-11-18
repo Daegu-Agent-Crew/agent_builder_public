@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T12:06:52Z",
-  "since": "2026-10-19T12:05:41Z",
+  "generated": "2026-11-18T12:53:08Z",
+  "since": "2026-10-19T12:52:34Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-18T09:58:35Z",
+      "pushed_at": "2026-11-18T12:06:56Z",
       "recent_commits": [
+        {
+          "sha": "279b06b",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-18T12:06:52Z)",
+          "author": "daeguru",
+          "date": "2026-11-18T12:06:53Z"
+        },
         {
           "sha": "67627ad",
           "message": "dashboard: refresh dashboard.json (cron)",
@@ -85,12 +91,6 @@
           "message": "sf-daily: 007 밤의 목소리(The Voice in the Night) 반영",
           "author": "daeguru",
           "date": "2026-11-18T07:49:53Z"
-        },
-        {
-          "sha": "14150c4",
-          "message": "dashboard: dashboard.json + github-activity.json 갱신 (2026-11-18 15:44)",
-          "author": "daeguru",
-          "date": "2026-11-18T06:47:25Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-18T05:06:23Z",
+      "pushed_at": "2026-11-18T12:45:53Z",
       "recent_commits": [
+        {
+          "sha": "01af0f4",
+          "message": "📋 2026-11-18 데일리 브리핑 아카이브",
+          "author": "Renover",
+          "date": "2026-11-18T12:45:48Z"
+        },
         {
           "sha": "9210813",
           "message": "📚 2026-11-18: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-11-18: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-11-17T23:10:25Z"
-        },
-        {
-          "sha": "4e47639",
-          "message": "🎨 유명 캐릭터 설계 원칙 분석 저장 및 매일 기획 연결",
-          "author": "Renover",
-          "date": "2026-11-17T22:33:50Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,20 @@
       "open_issues": 20,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-17T21:59:53Z",
+      "pushed_at": "2026-11-18T12:40:26Z",
       "recent_commits": [
+        {
+          "sha": "6b19919",
+          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-18T12:40Z",
+          "author": "cockpit-bot",
+          "date": "2026-11-18T12:40:25Z"
+        },
+        {
+          "sha": "815903b",
+          "message": "data(arena): 공식 경기 2026-11-06 21:30",
+          "author": "daeguru",
+          "date": "2026-11-18T12:40:16Z"
+        },
         {
           "sha": "bef9ec3",
           "message": "research(daeguru2): 4단계 중 1~3단계 실측 결과 반영 — 68일 지속성 분석·리스크 규칙 v1",
@@ -227,18 +239,6 @@
           "message": "data(daeguru): cockpit standings auto-refresh 2026-11-17T12:41Z",
           "author": "cockpit-bot",
           "date": "2026-11-17T12:41:24Z"
-        },
-        {
-          "sha": "5ad6272",
-          "message": "data(arena): 공식 경기 2026-11-17 21:30",
-          "author": "daeguru",
-          "date": "2026-11-17T12:41:03Z"
-        },
-        {
-          "sha": "f6d0e7d",
-          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-16T12:40Z",
-          "author": "cockpit-bot",
-          "date": "2026-11-16T12:40:32Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-18T09:37:49Z",
+      "pushed_at": "2026-11-18T12:50:31Z",
       "recent_commits": [
+        {
+          "sha": "6a32866",
+          "message": "feed: add Laika arena critique for Nov 18",
+          "author": "Laika",
+          "date": "2026-11-18T12:50:23Z"
+        },
         {
           "sha": "3c6b977",
           "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-18 👍",
@@ -503,12 +509,6 @@
           "message": "board: daeguru ACK 라이카 일일연구 11-18(FB-20261118-03) 👀",
           "author": "daeguru",
           "date": "2026-11-18T09:00:23Z"
-        },
-        {
-          "sha": "b8e1165",
-          "message": "board: publish laika arena research 2026-11-18",
-          "author": "Laika",
-          "date": "2026-11-18T08:58:33Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,51 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: add Laika arena critique for Nov 18",
+      "sha": "6a32866",
+      "date": "2026-11-18T12:50:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/6a32866363256bf85bd75398fee7160c6adce6e0"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📋 2026-11-18 데일리 브리핑 아카이브",
+      "sha": "01af0f4",
+      "date": "2026-11-18T12:45:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/01af0f4e269376a3d5e60ff12967b222c3c2e9fe"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "cockpit-bot",
+      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-18T12:40Z",
+      "sha": "6b19919",
+      "date": "2026-11-18T12:40:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/6b19919592209e12020e0272ec3ce9f1bcc399a2"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-06 21:30",
+      "sha": "815903b",
+      "date": "2026-11-18T12:40:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/815903b974b74626f0d75200ffe87cec30d970d0"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-18T12:06:52Z)",
+      "sha": "279b06b",
+      "date": "2026-11-18T12:06:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/279b06bd0687b4bfa2562f0fa0da02239c8fa683"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json (cron)",
@@ -672,30 +717,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "board: publish laika arena research 2026-11-18",
-      "sha": "b8e1165",
-      "date": "2026-11-18T08:58:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b8e11653f2e4a508ee538d8e387b18163e8d9b12"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "sf-daily: 007 밤의 목소리(The Voice in the Night) 반영",
       "sha": "2f74451",
       "date": "2026-11-18T07:49:53Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2f744510673ea4d68f219ba6e43bce73b06d74e9"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: dashboard.json + github-activity.json 갱신 (2026-11-18 15:44)",
-      "sha": "14150c4",
-      "date": "2026-11-18T06:47:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/14150c4e5c116dba6481be178d3dc904955796a7"
     },
     {
       "type": "commit",
@@ -744,15 +771,6 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🎨 유명 캐릭터 설계 원칙 분석 저장 및 매일 기획 연결",
-      "sha": "4e47639",
-      "date": "2026-11-17T22:33:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/4e476396b06ec145fbe4736413790a69850e18d2"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "research(daeguru2): 4단계 중 1~3단계 실측 결과 반영 — 68일 지속성 분석·리스크 규칙 v1",
@@ -795,15 +813,6 @@
       "sha": "fb8150c",
       "date": "2026-11-17T12:41:24Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/fb8150c318c6fd1e0008a26d1a067d40f9d81a5e"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-17 21:30",
-      "sha": "5ad6272",
-      "date": "2026-11-17T12:41:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/5ad62721456a7863e75f06b7ce1a5899ddeda226"
     },
     {
       "type": "pr",
@@ -862,15 +871,6 @@
       "sha": "32c09e9",
       "date": "2026-11-16T22:49:51Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/32c09e9b97f8d6ca6c80787a2bf8b7cfff76383e"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "cockpit-bot",
-      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-16T12:40Z",
-      "sha": "f6d0e7d",
-      "date": "2026-11-16T12:40:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f6d0e7de28368093590b7f8b2ae723689d93c208"
     },
     {
       "type": "pr",
