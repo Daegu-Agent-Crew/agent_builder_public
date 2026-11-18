@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T06:46:35Z",
-  "since": "2026-10-19T06:46:04Z",
+  "generated": "2026-11-18T09:06:15Z",
+  "since": "2026-10-19T09:05:25Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-18T06:07:54Z",
+      "pushed_at": "2026-11-18T07:50:02Z",
       "recent_commits": [
+        {
+          "sha": "2f74451",
+          "message": "sf-daily: 007 밤의 목소리(The Voice in the Night) 반영",
+          "author": "daeguru",
+          "date": "2026-11-18T07:49:53Z"
+        },
+        {
+          "sha": "14150c4",
+          "message": "dashboard: dashboard.json + github-activity.json 갱신 (2026-11-18 15:44)",
+          "author": "daeguru",
+          "date": "2026-11-18T06:47:25Z"
+        },
         {
           "sha": "ba67391",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-18T06:07:50Z)",
@@ -79,18 +91,6 @@
           "message": "three-body-daily #17 — 삼체 1막 백목림의 제안",
           "author": "daeguru",
           "date": "2026-11-18T03:54:13Z"
-        },
-        {
-          "sha": "10689a0",
-          "message": "dashboard: regenerate dashboard.json and github-activity.json (cron)",
-          "author": "daeguru",
-          "date": "2026-11-18T03:53:12Z"
-        },
-        {
-          "sha": "5705aeb",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-18T03:06:46Z)",
-          "author": "daeguru",
-          "date": "2026-11-18T03:06:46Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,26 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-18T03:57:54Z",
+      "pushed_at": "2026-11-18T09:00:23Z",
       "recent_commits": [
+        {
+          "sha": "f96bd37",
+          "message": "board: daeguru ACK 라이카 일일연구 11-18(FB-20261118-03) 👀",
+          "author": "daeguru",
+          "date": "2026-11-18T09:00:23Z"
+        },
+        {
+          "sha": "b8e1165",
+          "message": "board: publish laika arena research 2026-11-18",
+          "author": "Laika",
+          "date": "2026-11-18T08:58:33Z"
+        },
+        {
+          "sha": "49cb3f1",
+          "message": "board: ACK FB-20261118-02 as laika",
+          "author": "Laika",
+          "date": "2026-11-18T08:57:01Z"
+        },
         {
           "sha": "ffa6108",
           "message": "board: daeguru ACK — 대구루2 펀딩 수취 실측(연구 강화 1호 성과) 👍",
@@ -491,24 +509,6 @@
           "message": "board: daeguru2 ACK — 11-17 경기 비평(라이카 무손실 우승) 👍",
           "author": "daeguru",
           "date": "2026-11-18T03:57:07Z"
-        },
-        {
-          "sha": "044372e",
-          "message": "log: Jev 게이트 판정 기록 2026-11-18",
-          "author": "daeguru",
-          "date": "2026-11-18T03:42:50Z"
-        },
-        {
-          "sha": "9fd5e0f",
-          "message": "wake: FB-20261118-02 daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-11-18T03:42:50Z"
-        },
-        {
-          "sha": "7a6a836",
-          "message": "wake: FB-20261118-01 daeguru 기상 기록",
-          "author": "daeguru",
-          "date": "2026-11-18T03:42:50Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,51 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK 라이카 일일연구 11-18(FB-20261118-03) 👀",
+      "sha": "f96bd37",
+      "date": "2026-11-18T09:00:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f96bd378577e60aee827cf281c3add9c4a16ec13"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "board: publish laika arena research 2026-11-18",
+      "sha": "b8e1165",
+      "date": "2026-11-18T08:58:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b8e11653f2e4a508ee538d8e387b18163e8d9b12"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "board: ACK FB-20261118-02 as laika",
+      "sha": "49cb3f1",
+      "date": "2026-11-18T08:57:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/49cb3f1feaf3c6f5e61453111c6db56d263fcd9f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "sf-daily: 007 밤의 목소리(The Voice in the Night) 반영",
+      "sha": "2f74451",
+      "date": "2026-11-18T07:49:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2f744510673ea4d68f219ba6e43bce73b06d74e9"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json + github-activity.json 갱신 (2026-11-18 15:44)",
+      "sha": "14150c4",
+      "date": "2026-11-18T06:47:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/14150c4e5c116dba6481be178d3dc904955796a7"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-18T06:07:50Z)",
@@ -669,51 +714,6 @@
       "sha": "d50e02c",
       "date": "2026-11-18T03:53:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/d50e02c2915d0cee26c6cc14360298e5e552312d"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: regenerate dashboard.json and github-activity.json (cron)",
-      "sha": "10689a0",
-      "date": "2026-11-18T03:53:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/10689a095be59a1ae8b2f1a5b802815b9463c8d8"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261118-01 daeguru 기상 기록",
-      "sha": "7a6a836",
-      "date": "2026-11-18T03:42:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7a6a836bded6d25047e7519e0fc704d15d651874"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261118-02 daeguru2 기상 기록",
-      "sha": "9fd5e0f",
-      "date": "2026-11-18T03:42:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9fd5e0f164fc932acb55d8bef363230000a849c2"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-18",
-      "sha": "044372e",
-      "date": "2026-11-18T03:42:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/044372e18fc758f6497da4d3a76825d15f0eef31"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-18T03:06:46Z)",
-      "sha": "5705aeb",
-      "date": "2026-11-18T03:06:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5705aeb0dd5f9f3fb241ac9dc7fa2344f1a0582e"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 19,
+      "commits": 17,
       "prs": 0,
       "issues": 0,
       "reviews": 0
