@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T18:09:02Z",
-  "since": "2026-10-19T18:08:13Z",
+  "generated": "2026-11-18T18:48:23Z",
+  "since": "2026-10-19T18:47:49Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-18T17:39:35Z",
+      "pushed_at": "2026-11-18T18:09:06Z",
       "recent_commits": [
+        {
+          "sha": "c69bd72",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-18T18:09:02Z)",
+          "author": "daeguru",
+          "date": "2026-11-18T18:09:03Z"
+        },
         {
           "sha": "6193867",
           "message": "sf-daily: 010 황금 원자 속의 소녀(The Girl in the Golden Atom) 반영",
@@ -85,12 +91,6 @@
           "message": "sf-daily: 009 그림자와 섬광(The Shadow and the Flash) 반영",
           "author": "daeguru",
           "date": "2026-11-18T13:50:02Z"
-        },
-        {
-          "sha": "49d1e81",
-          "message": "sf-daily: 008 도망치는 마천루(The Runaway Skyscraper) 반영",
-          "author": "daeguru",
-          "date": "2026-11-18T13:44:28Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-18T18:09:02Z)",
+      "sha": "c69bd72",
+      "date": "2026-11-18T18:09:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c69bd728393e5077b29714481a0ecd9ead04950e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "sf-daily: 010 황금 원자 속의 소녀(The Girl in the Golden Atom) 반영",
       "sha": "6193867",
       "date": "2026-11-18T17:39:26Z",
@@ -669,15 +678,6 @@
       "sha": "4d7d52d",
       "date": "2026-11-18T13:50:02Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4d7d52dcd7d59c64f121f9e8a90bd57917fc930f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "sf-daily: 008 도망치는 마천루(The Runaway Skyscraper) 반영",
-      "sha": "49d1e81",
-      "date": "2026-11-18T13:44:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/49d1e815922956fb7eb3d28a71d28dfaf61282d6"
     },
     {
       "type": "commit",
