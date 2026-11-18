@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T12:53:08Z",
-  "since": "2026-10-19T12:52:34Z",
+  "generated": "2026-11-18T15:06:28Z",
+  "since": "2026-10-19T15:05:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,26 @@
       "open_issues": 10,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-18T12:06:56Z",
+      "pushed_at": "2026-11-18T13:50:15Z",
       "recent_commits": [
+        {
+          "sha": "4d7d52d",
+          "message": "sf-daily: 009 그림자와 섬광(The Shadow and the Flash) 반영",
+          "author": "daeguru",
+          "date": "2026-11-18T13:50:02Z"
+        },
+        {
+          "sha": "49d1e81",
+          "message": "sf-daily: 008 도망치는 마천루(The Runaway Skyscraper) 반영",
+          "author": "daeguru",
+          "date": "2026-11-18T13:44:28Z"
+        },
+        {
+          "sha": "8aca92d",
+          "message": "dashboard: update dashboard.json and github activity (2026-11-18 21:53 KST)",
+          "author": "daeguru",
+          "date": "2026-11-18T12:53:34Z"
+        },
         {
           "sha": "279b06b",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-18T12:06:52Z)",
@@ -73,24 +91,6 @@
           "message": "dashboard: refresh dashboard.json (cron)",
           "author": "daeguru",
           "date": "2026-11-18T09:58:35Z"
-        },
-        {
-          "sha": "6cd11ca",
-          "message": "dashboard: update dashboard.json and github-activity.json 2026-11-18 18:44 KST",
-          "author": "daeguru",
-          "date": "2026-11-18T09:48:44Z"
-        },
-        {
-          "sha": "ad75528",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-18T09:06:15Z)",
-          "author": "daeguru",
-          "date": "2026-11-18T09:06:15Z"
-        },
-        {
-          "sha": "2f74451",
-          "message": "sf-daily: 007 밤의 목소리(The Voice in the Night) 반영",
-          "author": "daeguru",
-          "date": "2026-11-18T07:49:53Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "sf-daily: 009 그림자와 섬광(The Shadow and the Flash) 반영",
+      "sha": "4d7d52d",
+      "date": "2026-11-18T13:50:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4d7d52dcd7d59c64f121f9e8a90bd57917fc930f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "sf-daily: 008 도망치는 마천루(The Runaway Skyscraper) 반영",
+      "sha": "49d1e81",
+      "date": "2026-11-18T13:44:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/49d1e815922956fb7eb3d28a71d28dfaf61282d6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github activity (2026-11-18 21:53 KST)",
+      "sha": "8aca92d",
+      "date": "2026-11-18T12:53:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8aca92d61686707549aad1d993f2cfc9de5ebc41"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "feed: add Laika arena critique for Nov 18",
@@ -663,15 +690,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json 2026-11-18 18:44 KST",
-      "sha": "6cd11ca",
-      "date": "2026-11-18T09:48:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6cd11ca5e43a4e2db447e687d2a06bfb76e69306"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-18 👍",
@@ -699,30 +717,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-18T09:06:15Z)",
-      "sha": "ad75528",
-      "date": "2026-11-18T09:06:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ad75528e98eabee3c70455464ffe21a63c0f21ee"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru ACK 라이카 일일연구 11-18(FB-20261118-03) 👀",
       "sha": "f96bd37",
       "date": "2026-11-18T09:00:23Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f96bd378577e60aee827cf281c3add9c4a16ec13"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "sf-daily: 007 밤의 목소리(The Voice in the Night) 반영",
-      "sha": "2f74451",
-      "date": "2026-11-18T07:49:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2f744510673ea4d68f219ba6e43bce73b06d74e9"
     },
     {
       "type": "commit",
