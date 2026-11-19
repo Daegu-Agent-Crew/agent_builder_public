@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T12:08:03Z",
-  "since": "2026-10-20T12:07:17Z",
+  "generated": "2026-11-19T12:47:13Z",
+  "since": "2026-10-20T12:46:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-19T09:46:46Z",
+      "pushed_at": "2026-11-19T12:08:07Z",
       "recent_commits": [
+        {
+          "sha": "ad88ceb",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-19T12:08:03Z)",
+          "author": "daeguru",
+          "date": "2026-11-19T12:08:03Z"
+        },
         {
           "sha": "9eaf346",
           "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-19T09:46Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-19T06:05:41Z)",
           "author": "daeguru",
           "date": "2026-11-19T06:05:42Z"
-        },
-        {
-          "sha": "7c99b4a",
-          "message": "sf-daily: 016 타이탄호의 침몰(The Wreck of the Titan) 반영",
-          "author": "daeguru",
-          "date": "2026-11-19T05:34:04Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,20 @@
       "open_issues": 21,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-18T12:40:26Z",
+      "pushed_at": "2026-11-19T12:40:37Z",
       "recent_commits": [
+        {
+          "sha": "ebb88d2",
+          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-19T12:40Z",
+          "author": "cockpit-bot",
+          "date": "2026-11-19T12:40:36Z"
+        },
+        {
+          "sha": "9ff3b15",
+          "message": "data(arena): 공식 경기 2026-11-19 21:30",
+          "author": "daeguru",
+          "date": "2026-11-19T12:40:22Z"
+        },
         {
           "sha": "6b19919",
           "message": "data(daeguru): cockpit standings auto-refresh 2026-11-18T12:40Z",
@@ -227,18 +239,6 @@
           "message": "research(daeguru2): 4단계 중 1~3단계 실측 결과 반영 — 68일 지속성 분석·리스크 규칙 v1",
           "author": "daeguru",
           "date": "2026-11-17T21:59:52Z"
-        },
-        {
-          "sha": "9c05d97",
-          "message": "feat(research): 대구루2 연구 아카이브 페이지 — 아레나 5주 결론+펀딩 4단계 로드맵",
-          "author": "daeguru",
-          "date": "2026-11-17T19:49:46Z"
-        },
-        {
-          "sha": "fb8150c",
-          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-17T12:41Z",
-          "author": "cockpit-bot",
-          "date": "2026-11-17T12:41:24Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "cockpit-bot",
+      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-19T12:40Z",
+      "sha": "ebb88d2",
+      "date": "2026-11-19T12:40:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/ebb88d29ed867dda411c693e50c5a5c9ae5940c6"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-19 21:30",
+      "sha": "9ff3b15",
+      "date": "2026-11-19T12:40:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/9ff3b153852a056987743086859f4af9a948d358"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-19T12:08:03Z)",
+      "sha": "ad88ceb",
+      "date": "2026-11-19T12:08:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ad88cebf215c1872fd7b99997e6bbce2ba120ef6"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-19T09:46Z)",
@@ -708,15 +735,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "sf-daily: 016 타이탄호의 침몰(The Wreck of the Titan) 반영",
-      "sha": "7c99b4a",
-      "date": "2026-11-19T05:34:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7c99b4a9fc244f0fa55a3cb1ad409f9ad1396ab0"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "2026-11-19 news digest picturebook",
@@ -789,15 +807,6 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "feat(research): 대구루2 연구 아카이브 페이지 — 아레나 5주 결론+펀딩 4단계 로드맵",
-      "sha": "9c05d97",
-      "date": "2026-11-17T19:49:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/9c05d9723f27a53b4a4e70b254c99241e1a01fb3"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "정정: 밝은 캐주얼 스타일은 SF 데일리 전용 — 삼체 기존 유지",
@@ -813,15 +822,6 @@
       "sha": "873594e",
       "date": "2026-11-17T19:33:46Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/873594e7a4716cf106edd209fb0406894cc888bc"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "cockpit-bot",
-      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-17T12:41Z",
-      "sha": "fb8150c",
-      "date": "2026-11-17T12:41:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/fb8150c318c6fd1e0008a26d1a067d40f9d81a5e"
     },
     {
       "type": "pr",
