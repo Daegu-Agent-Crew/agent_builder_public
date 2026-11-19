@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T21:46:30Z",
-  "since": "2026-10-19T21:45:59Z",
+  "generated": "2026-11-19T00:07:30Z",
+  "since": "2026-10-20T00:06:32Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,37 +60,37 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-18T21:06:18Z",
+      "pushed_at": "2026-11-18T23:37:09Z",
       "recent_commits": [
+        {
+          "sha": "1ca2e4f",
+          "message": "대구루 공식 시트 v2 — 원본(선거아카이브 wiki-pipeline) 디자인 기준 재생성",
+          "author": "daeguru",
+          "date": "2026-11-18T23:37:05Z"
+        },
+        {
+          "sha": "ddd1789",
+          "message": "three-body-daily: 018 홍안기지 첫 도착",
+          "author": "daeguru",
+          "date": "2026-11-18T23:20:53Z"
+        },
+        {
+          "sha": "3fdd437",
+          "message": "sf-daily: 013 눈먼 자들의 나라(The Country of the Blind) 반영",
+          "author": "daeguru",
+          "date": "2026-11-18T23:11:51Z"
+        },
+        {
+          "sha": "59834c9",
+          "message": "dashboard: dashboard.json + github-activity 갱신 (2026-11-19)",
+          "author": "daeguru",
+          "date": "2026-11-18T21:47:49Z"
+        },
         {
           "sha": "0d8cebf",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-18T21:06:14Z)",
           "author": "daeguru",
           "date": "2026-11-18T21:06:15Z"
-        },
-        {
-          "sha": "8d562bc",
-          "message": "대구루 공식 캐릭터 시트 — 정면·측면·후면·표정 6종",
-          "author": "daeguru",
-          "date": "2026-11-18T20:53:35Z"
-        },
-        {
-          "sha": "2a6db59",
-          "message": "대구루 캐릭터 만화 「대구루의 하루」 8칸 (회장님 요청)",
-          "author": "daeguru",
-          "date": "2026-11-18T20:05:28Z"
-        },
-        {
-          "sha": "7f99950",
-          "message": "sf-daily: 011 달의 연못·012 해저 2만 리 반영",
-          "author": "daeguru",
-          "date": "2026-11-18T19:40:17Z"
-        },
-        {
-          "sha": "d119a5f",
-          "message": "data: update dashboard.json (dashboard cron)",
-          "author": "daeguru",
-          "date": "2026-11-18T18:52:56Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,20 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-18T12:45:53Z",
+      "pushed_at": "2026-11-19T00:02:58Z",
       "recent_commits": [
+        {
+          "sha": "b31bee5",
+          "message": "2026-11-19 news digest picturebook",
+          "author": "Renover",
+          "date": "2026-11-19T00:02:11Z"
+        },
+        {
+          "sha": "2af57fe",
+          "message": "📰 2026-11-19: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-11-18T23:13:27Z"
+        },
         {
           "sha": "01af0f4",
           "message": "📋 2026-11-18 데일리 브리핑 아카이브",
@@ -146,18 +158,6 @@
           "message": "🔭 2026-11-18 매일 미래예측: 문지기 친구들 (다온·비콩·쇠똔)",
           "author": "Renover",
           "date": "2026-11-18T00:01:26Z"
-        },
-        {
-          "sha": "bec2b82",
-          "message": "🖼️ 2026-11-18 뉴스 그림책: 다섯 층 시험 탑 단면",
-          "author": "Renover",
-          "date": "2026-11-17T23:47:38Z"
-        },
-        {
-          "sha": "d3d3c00",
-          "message": "📰 2026-11-18: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-11-17T23:10:25Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-18T21:33:59Z",
+      "pushed_at": "2026-11-18T23:00:11Z",
       "recent_commits": [
+        {
+          "sha": "5994838",
+          "message": "feed: FB-20261119-01 대구루 경기 비평 11-18 판 + 라이카 비평 ACK",
+          "author": "daeguru",
+          "date": "2026-11-18T23:00:11Z"
+        },
         {
           "sha": "9066b03",
           "message": "log: Jev 게이트 판정 기록 2026-11-19",
@@ -503,12 +509,6 @@
           "message": "board: daeguru ACK — 라이카 11-18 경기 비평 👍",
           "author": "daeguru",
           "date": "2026-11-18T15:44:37Z"
-        },
-        {
-          "sha": "948c092",
-          "message": "board: daeguru2 ACK — 라이카 11-18 경기 비평 👍",
-          "author": "daeguru",
-          "date": "2026-11-18T15:44:11Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,14 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-18T03:53:35Z",
+      "pushed_at": "2026-11-18T23:20:44Z",
       "recent_commits": [
+        {
+          "sha": "798c4cc",
+          "message": "daily #18 삼체 1막 홍안기지 첫 도착 — 후조판·게시 (08:17 러너 완결)",
+          "author": "daeguru",
+          "date": "2026-11-18T23:20:36Z"
+        },
         {
           "sha": "d50e02c",
           "message": "daily #17 삼체 1막 백목림의 제안 — 텍스트 후조판·게시 (12:47 러너 완결)",
@@ -570,12 +576,6 @@
           "message": "시스템 분리 — SF 데일리 독립 이관 공지",
           "author": "daeguru",
           "date": "2026-11-17T00:10:24Z"
-        },
-        {
-          "sha": "32c09e9",
-          "message": "daily #16: The Machine Stops (Forster 1909) — 무자 생성+텍스트 후조판 첫 적용",
-          "author": "daeguru",
-          "date": "2026-11-16T22:49:51Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,78 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "2026-11-19 news digest picturebook",
+      "sha": "b31bee5",
+      "date": "2026-11-19T00:02:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b31bee59c2a0d3580587c67704a5edf058a7bf22"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "대구루 공식 시트 v2 — 원본(선거아카이브 wiki-pipeline) 디자인 기준 재생성",
+      "sha": "1ca2e4f",
+      "date": "2026-11-18T23:37:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1ca2e4f5e61830c0693d5468b1ccabba747a4bbb"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "three-body-daily: 018 홍안기지 첫 도착",
+      "sha": "ddd1789",
+      "date": "2026-11-18T23:20:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ddd1789b2f6d42339a4115f02be0df0068080207"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "daily #18 삼체 1막 홍안기지 첫 도착 — 후조판·게시 (08:17 러너 완결)",
+      "sha": "798c4cc",
+      "date": "2026-11-18T23:20:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/798c4ccee247afc17405a18fb3729303a74d306a"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-11-19: 뉴스 수집 (5건)",
+      "sha": "2af57fe",
+      "date": "2026-11-18T23:13:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2af57fe377dfad6d394111e5dc71a35b03afecea"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "sf-daily: 013 눈먼 자들의 나라(The Country of the Blind) 반영",
+      "sha": "3fdd437",
+      "date": "2026-11-18T23:11:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3fdd437cdfed2fc53084433270d1ae63a91eabec"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261119-01 대구루 경기 비평 11-18 판 + 라이카 비평 ACK",
+      "sha": "5994838",
+      "date": "2026-11-18T23:00:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/599483877e1ec614ea3c18c09812c7a8b074992b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json + github-activity 갱신 (2026-11-19)",
+      "sha": "59834c9",
+      "date": "2026-11-18T21:47:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/59834c97e49083791c765cc1083cd25b9392fca0"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -645,57 +717,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "대구루 공식 캐릭터 시트 — 정면·측면·후면·표정 6종",
-      "sha": "8d562bc",
-      "date": "2026-11-18T20:53:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8d562bcd56876141eabfdb5f686121d7edcd922e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "대구루 캐릭터 만화 「대구루의 하루」 8칸 (회장님 요청)",
-      "sha": "2a6db59",
-      "date": "2026-11-18T20:05:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/2a6db592b68bddc968bd02bd82a44c443492bbc8"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "sf-daily: 011 달의 연못·012 해저 2만 리 반영",
-      "sha": "7f99950",
-      "date": "2026-11-18T19:40:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7f999500373666483d0bca7bd927564f6ee76733"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "data: update dashboard.json (dashboard cron)",
-      "sha": "d119a5f",
-      "date": "2026-11-18T18:52:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d119a5feb98dec6354f4acd67afad6968dba3983"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru ACK — 라이카 11-18 경기 비평 👍",
       "sha": "5445599",
       "date": "2026-11-18T15:44:37Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/54455990d1788b8a2ad21639b64372e67f8a6622"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 11-18 경기 비평 👍",
-      "sha": "948c092",
-      "date": "2026-11-18T15:44:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/948c09271f34646ad0638db8e18d5ab0da4598db"
     },
     {
       "type": "commit",
@@ -750,24 +777,6 @@
       "sha": "b60bd22",
       "date": "2026-11-18T00:01:26Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b60bd229814bba62a722b0dd05a415c73d27f60f"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🖼️ 2026-11-18 뉴스 그림책: 다섯 층 시험 탑 단면",
-      "sha": "bec2b82",
-      "date": "2026-11-17T23:47:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/bec2b82f488d77bfdde450ff53dc5365d4711d03"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-11-18: 뉴스 수집 (5건)",
-      "sha": "d3d3c00",
-      "date": "2026-11-17T23:10:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d3d3c000d23235880d3851590169cda1e62c231c"
     },
     {
       "type": "commit",
@@ -862,15 +871,6 @@
       "sha": "f918cfc",
       "date": "2026-11-17T00:10:24Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/f918cfcf700a387ad9cb745efffc74bf64b4dfcd"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "daily #16: The Machine Stops (Forster 1909) — 무자 생성+텍스트 후조판 첫 적용",
-      "sha": "32c09e9",
-      "date": "2026-11-16T22:49:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/32c09e9b97f8d6ca6c80787a2bf8b7cfff76383e"
     },
     {
       "type": "pr",
