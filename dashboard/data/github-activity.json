@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T03:47:05Z",
-  "since": "2026-10-20T03:46:35Z",
+  "generated": "2026-11-19T06:05:41Z",
+  "since": "2026-10-20T06:05:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-19T03:07:50Z",
+      "pushed_at": "2026-11-19T05:34:14Z",
       "recent_commits": [
+        {
+          "sha": "7c99b4a",
+          "message": "sf-daily: 016 타이탄호의 침몰(The Wreck of the Titan) 반영",
+          "author": "daeguru",
+          "date": "2026-11-19T05:34:04Z"
+        },
+        {
+          "sha": "8e0cc3d",
+          "message": "dashboard 데이터 갱신 (자동 cron)",
+          "author": "daeguru",
+          "date": "2026-11-19T03:47:23Z"
+        },
         {
           "sha": "bc3551a",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-19T03:07:46Z)",
@@ -79,18 +91,6 @@
           "message": "dashboard: refresh dashboard.json and github-activity.json (cron 09:55)",
           "author": "daeguru",
           "date": "2026-11-19T00:58:32Z"
-        },
-        {
-          "sha": "1ae95c7",
-          "message": "chore: update youtube dashboard data",
-          "author": "daeguru",
-          "date": "2026-11-19T00:41:45Z"
-        },
-        {
-          "sha": "ccc34a0",
-          "message": "대구루 만화 「루프를 여는 자」 — 코딩은 끝났어도",
-          "author": "daeguru",
-          "date": "2026-11-19T00:20:28Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-19T03:43:50Z",
+      "pushed_at": "2026-11-19T03:50:41Z",
       "recent_commits": [
+        {
+          "sha": "e804196",
+          "message": "board: daeguru2 ACK — 11-18 경기 비평(라이카 연승) 👍",
+          "author": "daeguru",
+          "date": "2026-11-19T03:50:40Z"
+        },
         {
           "sha": "730b6e5",
           "message": "wake: FB-20261119-01 daeguru2 기상 기록",
@@ -503,12 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-11-19",
           "author": "daeguru",
           "date": "2026-11-18T21:33:58Z"
-        },
-        {
-          "sha": "bff4ab4",
-          "message": "docs: DAC lesson #273 — 새 IP의 독립 독서 동선",
-          "author": "Laika",
-          "date": "2026-11-18T21:22:49Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "sf-daily: 016 타이탄호의 침몰(The Wreck of the Titan) 반영",
+      "sha": "7c99b4a",
+      "date": "2026-11-19T05:34:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7c99b4a9fc244f0fa55a3cb1ad409f9ad1396ab0"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 11-18 경기 비평(라이카 연승) 👍",
+      "sha": "e804196",
+      "date": "2026-11-19T03:50:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e804196e4d8c676341a414d9f4a170ac0cccbc78"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 갱신 (자동 cron)",
+      "sha": "8e0cc3d",
+      "date": "2026-11-19T03:47:23Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8e0cc3dc84232222741ee74a95b5fe6b33030515"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "wake: FB-20261119-01 daeguru2 기상 기록",
@@ -645,30 +672,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update youtube dashboard data",
-      "sha": "1ae95c7",
-      "date": "2026-11-19T00:41:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1ae95c73cafbe759a7fa88b4e5cab2d2f3a36ac6"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "record: 슬롯바운드 1인 개발 성공요인 분석",
       "sha": "eb8917c",
       "date": "2026-11-19T00:41:42Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/eb8917c36485858c6fc72dc4a41d72685d102eb4"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "대구루 만화 「루프를 여는 자」 — 코딩은 끝났어도",
-      "sha": "ccc34a0",
-      "date": "2026-11-19T00:20:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ccc34a07af3c304199b35ad80b661934c26d9629"
     },
     {
       "type": "commit",
@@ -714,15 +723,6 @@
       "sha": "9066b03",
       "date": "2026-11-18T21:33:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9066b030f1a1fdfb0233d327affca4a090632077"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "docs: DAC lesson #273 — 새 IP의 독립 독서 동선",
-      "sha": "bff4ab4",
-      "date": "2026-11-18T21:22:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bff4ab477e78bd956cf93fb8f7a5ca319eb5c900"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 18,
+      "commits": 19,
       "prs": 0,
       "issues": 0,
       "reviews": 0
