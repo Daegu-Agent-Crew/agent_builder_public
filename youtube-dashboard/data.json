@@ -2,15 +2,17 @@
   "meta": {
     "version": 1,
     "generatedAt": "2026-08-11",
-    "totalVideos": 28,
-    "totalChannels": 20,
+    "totalVideos": 30,
+    "totalChannels": 21,
     "byType": {
-      "영상 요약": 20,
+      "영상 요약": 22,
       "담화 패턴 분석": 5,
       "기타": 2,
       "참가자 분석": 1
     },
     "byChannel": {
+      "조코딩 JoCoding (게스트: 슬롯바운드 개발자 김민)": 1,
+      "미상": 6,
       "판독 (3차대전을 읽다)": 1,
       "AgentOS": 3,
       "Dante's Datalab (단테랩)": 1,
@@ -20,7 +22,6 @@
       "AI Frontier Korea (노정석)": 1,
       "AI Jason": 3,
       "Tech Bridge": 1,
-      "미상": 5,
       "Y Combinator": 1,
       "Google Cloud X Solana Hackathon (공식)": 1,
       "네이버 D2F 강남 (스토리브 구독)": 1,
@@ -33,7 +34,7 @@
       "천영록": 1
     },
     "byMonth": {
-      "2026-11": 1,
+      "2026-11": 3,
       "2026-10": 2,
       "2026-09": 4,
       "2026-08": 7,
@@ -42,6 +43,44 @@
     }
   },
   "videos": [
+    {
+      "filename": "2026-11-19-slotbound-solo-dev-success.md",
+      "title": "슬롯바운드 1인 개발자 성공요인",
+      "videoUrl": "https://youtu.be/6_cqj13abyI",
+      "channel": "조코딩 JoCoding (게스트: 슬롯바운드 개발자 김민)",
+      "speaker": "",
+      "date": "2026-11-19",
+      "summarizer": "",
+      "type": "영상 요약",
+      "coreMessage": "",
+      "sections": [
+        "사실 관계",
+        "성공요인 8가지",
+        "구조적 통찰",
+        "우리 팀 적용"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-11-19-slotbound-solo-dev-success.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/6_cqj13abyI/mqdefault.jpg"
+    },
+    {
+      "filename": "2026-11-16-ep123-model-evolution-github-direction.md",
+      "title": "EP123 AI Frontier Korea — 젠슨 황 사임·Fable 5.2·초지수 효율",
+      "videoUrl": "https://youtu.be/a54SsPl5iQ0",
+      "channel": "",
+      "speaker": "",
+      "date": "2026-11-16",
+      "summarizer": "대구루",
+      "type": "영상 요약",
+      "coreMessage": "",
+      "sections": [
+        "주요 사실",
+        "대구루 GitHub 방향 (회장님 요청 분석)"
+      ],
+      "source": "https://github.com/Daegu-Agent-Crew/team-memory/blob/main/context/records/2026-11-16-ep123-model-evolution-github-direction.md",
+      "exists": true,
+      "thumbnail": "https://img.youtube.com/vi/a54SsPl5iQ0/mqdefault.jpg"
+    },
     {
       "filename": "2026-11-07-zhang-midterm-60days-polymarket.md",
       "title": "\"누가 이기든 상관없다\" — 장쉐친이 본 중간선거 다음 60일 [폴리마켓 특집]",
