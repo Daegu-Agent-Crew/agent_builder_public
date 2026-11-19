@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T00:07:30Z",
-  "since": "2026-10-20T00:06:32Z",
+  "generated": "2026-11-19T00:48:48Z",
+  "since": "2026-10-20T00:48:17Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,37 +60,37 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-18T23:37:09Z",
+      "pushed_at": "2026-11-19T00:41:45Z",
       "recent_commits": [
+        {
+          "sha": "1ae95c7",
+          "message": "chore: update youtube dashboard data",
+          "author": "daeguru",
+          "date": "2026-11-19T00:41:45Z"
+        },
+        {
+          "sha": "ccc34a0",
+          "message": "대구루 만화 「루프를 여는 자」 — 코딩은 끝났어도",
+          "author": "daeguru",
+          "date": "2026-11-19T00:20:28Z"
+        },
+        {
+          "sha": "0a4024c",
+          "message": "대구루 주연 만화 「대구루는 살아남는가」 — EP123 분석 기반 8칸",
+          "author": "daeguru",
+          "date": "2026-11-19T00:09:39Z"
+        },
+        {
+          "sha": "936831c",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-19T00:07:30Z)",
+          "author": "daeguru",
+          "date": "2026-11-19T00:07:30Z"
+        },
         {
           "sha": "1ca2e4f",
           "message": "대구루 공식 시트 v2 — 원본(선거아카이브 wiki-pipeline) 디자인 기준 재생성",
           "author": "daeguru",
           "date": "2026-11-18T23:37:05Z"
-        },
-        {
-          "sha": "ddd1789",
-          "message": "three-body-daily: 018 홍안기지 첫 도착",
-          "author": "daeguru",
-          "date": "2026-11-18T23:20:53Z"
-        },
-        {
-          "sha": "3fdd437",
-          "message": "sf-daily: 013 눈먼 자들의 나라(The Country of the Blind) 반영",
-          "author": "daeguru",
-          "date": "2026-11-18T23:11:51Z"
-        },
-        {
-          "sha": "59834c9",
-          "message": "dashboard: dashboard.json + github-activity 갱신 (2026-11-19)",
-          "author": "daeguru",
-          "date": "2026-11-18T21:47:49Z"
-        },
-        {
-          "sha": "0d8cebf",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-18T21:06:14Z)",
-          "author": "daeguru",
-          "date": "2026-11-18T21:06:15Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-18T23:00:11Z",
+      "pushed_at": "2026-11-19T00:41:42Z",
       "recent_commits": [
+        {
+          "sha": "eb8917c",
+          "message": "record: 슬롯바운드 1인 개발 성공요인 분석",
+          "author": "daeguru",
+          "date": "2026-11-19T00:41:42Z"
+        },
         {
           "sha": "5994838",
           "message": "feed: FB-20261119-01 대구루 경기 비평 11-18 판 + 라이카 비평 ACK",
@@ -503,12 +509,6 @@
           "message": "docs: DAC lesson #273 — 새 IP의 독립 독서 동선",
           "author": "Laika",
           "date": "2026-11-18T21:22:25Z"
-        },
-        {
-          "sha": "5445599",
-          "message": "board: daeguru ACK — 라이카 11-18 경기 비평 👍",
-          "author": "daeguru",
-          "date": "2026-11-18T15:44:37Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,51 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update youtube dashboard data",
+      "sha": "1ae95c7",
+      "date": "2026-11-19T00:41:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1ae95c73cafbe759a7fa88b4e5cab2d2f3a36ac6"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "record: 슬롯바운드 1인 개발 성공요인 분석",
+      "sha": "eb8917c",
+      "date": "2026-11-19T00:41:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/eb8917c36485858c6fc72dc4a41d72685d102eb4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "대구루 만화 「루프를 여는 자」 — 코딩은 끝났어도",
+      "sha": "ccc34a0",
+      "date": "2026-11-19T00:20:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ccc34a07af3c304199b35ad80b661934c26d9629"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "대구루 주연 만화 「대구루는 살아남는가」 — EP123 분석 기반 8칸",
+      "sha": "0a4024c",
+      "date": "2026-11-19T00:09:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0a4024c52b37f39d7a0d7f9961999dc7a26965f7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-19T00:07:30Z)",
+      "sha": "936831c",
+      "date": "2026-11-19T00:07:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/936831c73d996e965fe126fe255a5f9dc7a01102"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "2026-11-19 news digest picturebook",
@@ -624,15 +669,6 @@
       "sha": "1ca2e4f",
       "date": "2026-11-18T23:37:05Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1ca2e4f5e61830c0693d5468b1ccabba747a4bbb"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "three-body-daily: 018 홍안기지 첫 도착",
-      "sha": "ddd1789",
-      "date": "2026-11-18T23:20:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ddd1789b2f6d42339a4115f02be0df0068080207"
     },
     {
       "type": "commit",
@@ -654,30 +690,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "sf-daily: 013 눈먼 자들의 나라(The Country of the Blind) 반영",
-      "sha": "3fdd437",
-      "date": "2026-11-18T23:11:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3fdd437cdfed2fc53084433270d1ae63a91eabec"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "feed: FB-20261119-01 대구루 경기 비평 11-18 판 + 라이카 비평 ACK",
       "sha": "5994838",
       "date": "2026-11-18T23:00:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/599483877e1ec614ea3c18c09812c7a8b074992b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: dashboard.json + github-activity 갱신 (2026-11-19)",
-      "sha": "59834c9",
-      "date": "2026-11-18T21:47:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/59834c97e49083791c765cc1083cd25b9392fca0"
     },
     {
       "type": "commit",
@@ -705,24 +723,6 @@
       "sha": "56aba43",
       "date": "2026-11-18T21:22:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/56aba4301ff5db5002b36328966d9ee510cc93a7"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-18T21:06:14Z)",
-      "sha": "0d8cebf",
-      "date": "2026-11-18T21:06:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0d8cebf11af63de7be46f475c834ea40ac5d0fa3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 11-18 경기 비평 👍",
-      "sha": "5445599",
-      "date": "2026-11-18T15:44:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/54455990d1788b8a2ad21639b64372e67f8a6622"
     },
     {
       "type": "commit",
