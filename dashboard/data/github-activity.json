@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T12:47:13Z",
-  "since": "2026-10-20T12:46:40Z",
+  "generated": "2026-11-19T15:05:52Z",
+  "since": "2026-10-20T15:05:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-19T12:08:07Z",
+      "pushed_at": "2026-11-19T12:47:46Z",
       "recent_commits": [
+        {
+          "sha": "520875c",
+          "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-19T12:47Z)",
+          "author": "daeguru",
+          "date": "2026-11-19T12:47:46Z"
+        },
         {
           "sha": "ad88ceb",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-19T12:08:03Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-19T06:44Z)",
           "author": "daeguru",
           "date": "2026-11-19T06:46:32Z"
-        },
-        {
-          "sha": "f26500f",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-19T06:05:41Z)",
-          "author": "daeguru",
-          "date": "2026-11-19T06:05:42Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-19T06:58:22Z",
+      "pushed_at": "2026-11-19T12:47:20Z",
       "recent_commits": [
+        {
+          "sha": "bb81aa1",
+          "message": "briefing 2026-11-19 evening + picturebook",
+          "author": "Renover",
+          "date": "2026-11-19T12:47:02Z"
+        },
         {
           "sha": "51fb906",
           "message": "🎨 11월19일 미래예측 그림책 누락 단계 완료",
@@ -152,12 +158,6 @@
           "message": "📰 2026-11-19: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-11-18T23:13:27Z"
-        },
-        {
-          "sha": "01af0f4",
-          "message": "📋 2026-11-18 데일리 브리핑 아카이브",
-          "author": "Renover",
-          "date": "2026-11-18T12:45:48Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-19T09:38:07Z",
+      "pushed_at": "2026-11-19T12:53:39Z",
       "recent_commits": [
+        {
+          "sha": "01624eb",
+          "message": "feed: add 2026-11-19 arena postmatch review",
+          "author": "Laika",
+          "date": "2026-11-19T12:53:33Z"
+        },
         {
           "sha": "0259607",
           "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-19 👍",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261119-02 daeguru, daeguru2 기상 기록",
           "author": "daeguru",
           "date": "2026-11-19T09:34:33Z"
-        },
-        {
-          "sha": "7d66bdb",
-          "message": "board: publish laika daily arena research 2026-11-19",
-          "author": "Laika",
-          "date": "2026-11-19T09:00:27Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: add 2026-11-19 arena postmatch review",
+      "sha": "01624eb",
+      "date": "2026-11-19T12:53:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/01624eb6f8aa610f0eebe37b863724bcb6739815"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-19T12:47Z)",
+      "sha": "520875c",
+      "date": "2026-11-19T12:47:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/520875cd67cd182d483a89813e500fb8eec9305d"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "briefing 2026-11-19 evening + picturebook",
+      "sha": "bb81aa1",
+      "date": "2026-11-19T12:47:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/bb81aa13148f4201108a5c86af23bd245b9502a5"
+    },
+    {
+      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "cockpit-bot",
       "message": "data(daeguru): cockpit standings auto-refresh 2026-11-19T12:40Z",
@@ -690,15 +717,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "board: publish laika daily arena research 2026-11-19",
-      "sha": "7d66bdb",
-      "date": "2026-11-19T09:00:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7d66bdbb8043145a76f89deaadec63093817ceff"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🎨 11월19일 미래예측 그림책 누락 단계 완료",
@@ -726,15 +744,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-19T06:05:41Z)",
-      "sha": "f26500f",
-      "date": "2026-11-19T06:05:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f26500ff7f3b7a614f476d53bc183bca26f98446"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "2026-11-19 news digest picturebook",
@@ -759,15 +768,6 @@
       "sha": "2af57fe",
       "date": "2026-11-18T23:13:27Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2af57fe377dfad6d394111e5dc71a35b03afecea"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📋 2026-11-18 데일리 브리핑 아카이브",
-      "sha": "01af0f4",
-      "date": "2026-11-18T12:45:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/01af0f4e269376a3d5e60ff12967b222c3c2e9fe"
     },
     {
       "type": "commit",
