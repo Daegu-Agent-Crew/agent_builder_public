@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T00:48:48Z",
-  "since": "2026-10-20T00:48:17Z",
+  "generated": "2026-11-19T03:07:46Z",
+  "since": "2026-10-20T03:06:49Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-19T00:41:45Z",
+      "pushed_at": "2026-11-19T02:01:13Z",
       "recent_commits": [
+        {
+          "sha": "568cdf9",
+          "message": "sf-daily: 014 코네티컷 양키·015 독벨트 반영",
+          "author": "daeguru",
+          "date": "2026-11-19T02:00:47Z"
+        },
+        {
+          "sha": "fdcd9f3",
+          "message": "dashboard: refresh dashboard.json and github-activity.json (cron 09:55)",
+          "author": "daeguru",
+          "date": "2026-11-19T00:58:32Z"
+        },
         {
           "sha": "1ae95c7",
           "message": "chore: update youtube dashboard data",
@@ -79,18 +91,6 @@
           "message": "대구루 주연 만화 「대구루는 살아남는가」 — EP123 분석 기반 8칸",
           "author": "daeguru",
           "date": "2026-11-19T00:09:39Z"
-        },
-        {
-          "sha": "936831c",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-19T00:07:30Z)",
-          "author": "daeguru",
-          "date": "2026-11-19T00:07:30Z"
-        },
-        {
-          "sha": "1ca2e4f",
-          "message": "대구루 공식 시트 v2 — 원본(선거아카이브 wiki-pipeline) 디자인 기준 재생성",
-          "author": "daeguru",
-          "date": "2026-11-18T23:37:05Z"
         }
       ],
       "recent_prs": [
@@ -205,7 +205,7 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 20,
+      "open_issues": 21,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
       "pushed_at": "2026-11-18T12:40:26Z",
@@ -611,6 +611,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "sf-daily: 014 코네티컷 양키·015 독벨트 반영",
+      "sha": "568cdf9",
+      "date": "2026-11-19T02:00:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/568cdf9e434ddf1644094992ebfb74554073d2c2"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json and github-activity.json (cron 09:55)",
+      "sha": "fdcd9f3",
+      "date": "2026-11-19T00:58:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/fdcd9f3e94ad46927c05cf132ea5b72c4365dd57"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore: update youtube dashboard data",
       "sha": "1ae95c7",
       "date": "2026-11-19T00:41:45Z",
@@ -645,30 +663,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-19T00:07:30Z)",
-      "sha": "936831c",
-      "date": "2026-11-19T00:07:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/936831c73d996e965fe126fe255a5f9dc7a01102"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "2026-11-19 news digest picturebook",
       "sha": "b31bee5",
       "date": "2026-11-19T00:02:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b31bee59c2a0d3580587c67704a5edf058a7bf22"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "대구루 공식 시트 v2 — 원본(선거아카이브 wiki-pipeline) 디자인 기준 재생성",
-      "sha": "1ca2e4f",
-      "date": "2026-11-18T23:37:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1ca2e4f5e61830c0693d5468b1ccabba747a4bbb"
     },
     {
       "type": "commit",
