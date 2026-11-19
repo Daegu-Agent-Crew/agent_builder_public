@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-19T21:08:38Z",
-  "since": "2026-10-20T21:07:51Z",
+  "generated": "2026-11-19T23:22:50Z",
+  "since": "2026-10-20T23:22:20Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 93,
+      "open_issues": 94,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-19T18:45:45Z",
+      "pushed_at": "2026-11-19T21:08:41Z",
       "recent_commits": [
+        {
+          "sha": "767f5e6",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-19T21:08:38Z)",
+          "author": "daeguru",
+          "date": "2026-11-19T21:08:39Z"
+        },
         {
           "sha": "8ce4273",
           "message": "dashboard: refresh dashboard.json and github-activity.json (auto)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-19T15:05:52Z)",
           "author": "daeguru",
           "date": "2026-11-19T15:05:52Z"
-        },
-        {
-          "sha": "520875c",
-          "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-19T12:47Z)",
-          "author": "daeguru",
-          "date": "2026-11-19T12:47:46Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-19T12:47:20Z",
+      "pushed_at": "2026-11-19T23:05:00Z",
       "recent_commits": [
+        {
+          "sha": "eeaab1b",
+          "message": "📰 2026-11-20: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-11-19T23:04:56Z"
+        },
         {
           "sha": "bb81aa1",
           "message": "briefing 2026-11-19 evening + picturebook",
@@ -152,12 +158,6 @@
           "message": "2026-11-19 news digest picturebook",
           "author": "Renover",
           "date": "2026-11-19T00:02:11Z"
-        },
-        {
-          "sha": "2af57fe",
-          "message": "📰 2026-11-19: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-11-18T23:13:27Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,20 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-19T15:39:36Z",
+      "pushed_at": "2026-11-19T21:33:11Z",
       "recent_commits": [
+        {
+          "sha": "c987645",
+          "message": "log: Jev 게이트 판정 기록 2026-11-20 · 관측 한 줄",
+          "author": "daeguru-agent",
+          "date": "2026-11-19T21:33:11Z"
+        },
+        {
+          "sha": "1f58a10",
+          "message": "docs: DAC lesson #274 — 연재 속도와 독서 동선",
+          "author": "sfex11",
+          "date": "2026-11-19T21:21:57Z"
+        },
         {
           "sha": "2b80588",
           "message": "board: daeguru ACK — 라이카 11-19 경기 비평(zscore12 방향 반전 반례) 👍",
@@ -497,18 +509,6 @@
           "message": "wake: FB-20261119-03 daeguru·daeguru2 기상 기록",
           "author": "대구루 (AI)",
           "date": "2026-11-19T15:36:32Z"
-        },
-        {
-          "sha": "01624eb",
-          "message": "feed: add 2026-11-19 arena postmatch review",
-          "author": "Laika",
-          "date": "2026-11-19T12:53:33Z"
-        },
-        {
-          "sha": "0259607",
-          "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-19 👍",
-          "author": "daeguru",
-          "date": "2026-11-19T09:38:07Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-11-20: 뉴스 수집 (5건)",
+      "sha": "eeaab1b",
+      "date": "2026-11-19T23:04:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/eeaab1b3c4f99869df9cbb3ba999ae585e9b01fc"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru-agent",
+      "message": "log: Jev 게이트 판정 기록 2026-11-20 · 관측 한 줄",
+      "sha": "c987645",
+      "date": "2026-11-19T21:33:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c987645406b4564cc3835cc5e25945eece89856e"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "docs: DAC lesson #274 — 연재 속도와 독서 동선",
+      "sha": "1f58a10",
+      "date": "2026-11-19T21:21:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1f58a1008d8071507a3b2bd8b649005166e71238"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-19T21:08:38Z)",
+      "sha": "767f5e6",
+      "date": "2026-11-19T21:08:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/767f5e62d6056f376f76ffed979913682a8d4746"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json and github-activity.json (auto)",
@@ -672,24 +708,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "feed: add 2026-11-19 arena postmatch review",
-      "sha": "01624eb",
-      "date": "2026-11-19T12:53:33Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/01624eb6f8aa610f0eebe37b863724bcb6739815"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-19T12:47Z)",
-      "sha": "520875c",
-      "date": "2026-11-19T12:47:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/520875cd67cd182d483a89813e500fb8eec9305d"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "briefing 2026-11-19 evening + picturebook",
@@ -714,15 +732,6 @@
       "sha": "9ff3b15",
       "date": "2026-11-19T12:40:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/9ff3b153852a056987743086859f4af9a948d358"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-19 👍",
-      "sha": "0259607",
-      "date": "2026-11-19T09:38:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/025960786e4711796aaeece6bee2d9f2b62d0ed2"
     },
     {
       "type": "commit",
@@ -759,15 +768,6 @@
       "sha": "798c4cc",
       "date": "2026-11-18T23:20:36Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/798c4ccee247afc17405a18fb3729303a74d306a"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-11-19: 뉴스 수집 (5건)",
-      "sha": "2af57fe",
-      "date": "2026-11-18T23:13:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2af57fe377dfad6d394111e5dc71a35b03afecea"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 16,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 6,
+      "commits": 7,
       "prs": 18,
       "issues": 0,
       "reviews": 0
