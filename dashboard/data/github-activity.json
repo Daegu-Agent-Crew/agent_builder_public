@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T03:07:46Z",
-  "since": "2026-10-20T03:06:49Z",
+  "generated": "2026-11-19T03:47:05Z",
+  "since": "2026-10-20T03:46:35Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-19T02:01:13Z",
+      "pushed_at": "2026-11-19T03:07:50Z",
       "recent_commits": [
+        {
+          "sha": "bc3551a",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-19T03:07:46Z)",
+          "author": "daeguru",
+          "date": "2026-11-19T03:07:47Z"
+        },
         {
           "sha": "568cdf9",
           "message": "sf-daily: 014 코네티컷 양키·015 독벨트 반영",
@@ -85,12 +91,6 @@
           "message": "대구루 만화 「루프를 여는 자」 — 코딩은 끝났어도",
           "author": "daeguru",
           "date": "2026-11-19T00:20:28Z"
-        },
-        {
-          "sha": "0a4024c",
-          "message": "대구루 주연 만화 「대구루는 살아남는가」 — EP123 분석 기반 8칸",
-          "author": "daeguru",
-          "date": "2026-11-19T00:09:39Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-19T00:41:42Z",
+      "pushed_at": "2026-11-19T03:43:50Z",
       "recent_commits": [
+        {
+          "sha": "730b6e5",
+          "message": "wake: FB-20261119-01 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-19T03:43:49Z"
+        },
         {
           "sha": "eb8917c",
           "message": "record: 슬롯바운드 1인 개발 성공요인 분석",
@@ -503,12 +509,6 @@
           "message": "docs: DAC lesson #273 — 새 IP의 독립 독서 동선",
           "author": "Laika",
           "date": "2026-11-18T21:22:49Z"
-        },
-        {
-          "sha": "56aba43",
-          "message": "docs: DAC lesson #273 — 새 IP의 독립 독서 동선",
-          "author": "Laika",
-          "date": "2026-11-18T21:22:25Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261119-01 daeguru2 기상 기록",
+      "sha": "730b6e5",
+      "date": "2026-11-19T03:43:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/730b6e549ab6b5b4e967a581086182c569cc93c3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-19T03:07:46Z)",
+      "sha": "bc3551a",
+      "date": "2026-11-19T03:07:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bc3551ab44f0c03e1b0136e24571c3e3873222e5"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "sf-daily: 014 코네티컷 양키·015 독벨트 반영",
@@ -651,15 +669,6 @@
       "sha": "ccc34a0",
       "date": "2026-11-19T00:20:28Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ccc34a07af3c304199b35ad80b661934c26d9629"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "대구루 주연 만화 「대구루는 살아남는가」 — EP123 분석 기반 8칸",
-      "sha": "0a4024c",
-      "date": "2026-11-19T00:09:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0a4024c52b37f39d7a0d7f9961999dc7a26965f7"
     },
     {
       "type": "commit",
@@ -714,15 +723,6 @@
       "sha": "bff4ab4",
       "date": "2026-11-18T21:22:49Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bff4ab477e78bd956cf93fb8f7a5ca319eb5c900"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "docs: DAC lesson #273 — 새 IP의 독립 독서 동선",
-      "sha": "56aba43",
-      "date": "2026-11-18T21:22:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/56aba4301ff5db5002b36328966d9ee510cc93a7"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 18,
       "prs": 0,
       "issues": 0,
       "reviews": 0
