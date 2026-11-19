@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T09:46:24Z",
-  "since": "2026-10-20T09:45:49Z",
+  "generated": "2026-11-19T12:08:03Z",
+  "since": "2026-10-20T12:07:17Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-19T09:05:50Z",
+      "pushed_at": "2026-11-19T09:46:46Z",
       "recent_commits": [
+        {
+          "sha": "9eaf346",
+          "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-19T09:46Z)",
+          "author": "daeguru",
+          "date": "2026-11-19T09:46:46Z"
+        },
         {
           "sha": "d6ea314",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-19T09:05:46Z)",
@@ -85,12 +91,6 @@
           "message": "sf-daily: 016 타이탄호의 침몰(The Wreck of the Titan) 반영",
           "author": "daeguru",
           "date": "2026-11-19T05:34:04Z"
-        },
-        {
-          "sha": "8e0cc3d",
-          "message": "dashboard 데이터 갱신 (자동 cron)",
-          "author": "daeguru",
-          "date": "2026-11-19T03:47:23Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-19T09:46Z)",
+      "sha": "9eaf346",
+      "date": "2026-11-19T09:46:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/9eaf34607cc3c7b58777870b89bad12bb1cd01f8"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-19 👍",
@@ -705,15 +714,6 @@
       "sha": "7c99b4a",
       "date": "2026-11-19T05:34:04Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7c99b4a9fc244f0fa55a3cb1ad409f9ad1396ab0"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard 데이터 갱신 (자동 cron)",
-      "sha": "8e0cc3d",
-      "date": "2026-11-19T03:47:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8e0cc3dc84232222741ee74a95b5fe6b33030515"
     },
     {
       "type": "commit",
