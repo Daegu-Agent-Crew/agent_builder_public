@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-20T03:06:44Z",
-  "since": "2026-10-21T03:05:53Z",
+  "generated": "2026-11-20T05:22:44Z",
+  "since": "2026-10-21T05:22:09Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-20T02:23:18Z",
+      "pushed_at": "2026-11-20T03:06:47Z",
       "recent_commits": [
+        {
+          "sha": "6333cf3",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-20T03:06:44Z)",
+          "author": "daeguru",
+          "date": "2026-11-20T03:06:44Z"
+        },
         {
           "sha": "8b811fa",
           "message": "chore(dashboard): refresh dashboard.json and github activity (2026-11-20T02:20Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard.json and github activity (2026-11-19T23:25Z)",
           "author": "daeguru",
           "date": "2026-11-19T23:23:11Z"
-        },
-        {
-          "sha": "767f5e6",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-19T21:08:38Z)",
-          "author": "daeguru",
-          "date": "2026-11-19T21:08:39Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,20 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-19T23:59:15Z",
+      "pushed_at": "2026-11-20T05:13:51Z",
       "recent_commits": [
+        {
+          "sha": "c0c5f1f",
+          "message": "📚 2026-11-20: 위키 누락 차수 복구 + 롤링 아카이브",
+          "author": "Renover",
+          "date": "2026-11-20T05:13:47Z"
+        },
+        {
+          "sha": "636cf4a",
+          "message": "📚 2026-11-20: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-20T05:12:06Z"
+        },
         {
           "sha": "62153fb",
           "message": "2026-11-20 미래예측 그림책·캐릭터 시트·예측문",
@@ -146,18 +158,6 @@
           "message": "📰 2026-11-20: 뉴스 수집 (5건)",
           "author": "Renover",
           "date": "2026-11-19T23:04:56Z"
-        },
-        {
-          "sha": "bb81aa1",
-          "message": "briefing 2026-11-19 evening + picturebook",
-          "author": "Renover",
-          "date": "2026-11-19T12:47:02Z"
-        },
-        {
-          "sha": "51fb906",
-          "message": "🎨 11월19일 미래예측 그림책 누락 단계 완료",
-          "author": "Renover",
-          "date": "2026-11-19T06:57:36Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,20 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-19T23:30:02Z",
+      "pushed_at": "2026-11-20T03:39:01Z",
       "recent_commits": [
+        {
+          "sha": "91b8a2c",
+          "message": "board: daeguru2 ACK — 11-19 경기 비평(house-hold 3승) 👍",
+          "author": "daeguru",
+          "date": "2026-11-20T03:39:00Z"
+        },
+        {
+          "sha": "de1a9ee",
+          "message": "wake: FB-20261120-01 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-20T03:36:54Z"
+        },
         {
           "sha": "0b17627",
           "message": "feed: FB-20261120-01 대구루 경기 비평 11-19 판 + 라이카 비평 ACK",
@@ -497,18 +509,6 @@
           "message": "docs: DAC lesson #274 — 연재 속도와 독서 동선",
           "author": "sfex11",
           "date": "2026-11-19T21:21:57Z"
-        },
-        {
-          "sha": "2b80588",
-          "message": "board: daeguru ACK — 라이카 11-19 경기 비평(zscore12 방향 반전 반례) 👍",
-          "author": "daeguru",
-          "date": "2026-11-19T15:39:36Z"
-        },
-        {
-          "sha": "43d3571",
-          "message": "board: daeguru2 ACK — 라이카 11-19 경기 비평(z12 방향 반전 반례) 👍",
-          "author": "daeguru",
-          "date": "2026-11-19T15:39:18Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,51 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-20: 위키 누락 차수 복구 + 롤링 아카이브",
+      "sha": "c0c5f1f",
+      "date": "2026-11-20T05:13:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c0c5f1f02de2eb32b80c5f9da4b87730ab18ca47"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-20: 위키 갱신 (2개)",
+      "sha": "636cf4a",
+      "date": "2026-11-20T05:12:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/636cf4ad49862329a5d31885843aae2b9b245e38"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 11-19 경기 비평(house-hold 3승) 👍",
+      "sha": "91b8a2c",
+      "date": "2026-11-20T03:39:00Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/91b8a2c7dfd5494880bdee7637b0f78f92c20b0a"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261120-01 daeguru2 기상 기록",
+      "sha": "de1a9ee",
+      "date": "2026-11-20T03:36:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/de1a9eea1ebc943e7be4720e64656a464bb9a024"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-20T03:06:44Z)",
+      "sha": "6333cf3",
+      "date": "2026-11-20T03:06:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6333cf359a4aa7d756ddfdd205d20acff929e9c8"
+    },
     {
       "type": "commit",
       "repo": "agent_builder_public",
@@ -708,42 +753,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-19T21:08:38Z)",
-      "sha": "767f5e6",
-      "date": "2026-11-19T21:08:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/767f5e62d6056f376f76ffed979913682a8d4746"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 11-19 경기 비평(zscore12 방향 반전 반례) 👍",
-      "sha": "2b80588",
-      "date": "2026-11-19T15:39:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2b80588f69029a56a7be57c0b38896bcdf20636c"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 11-19 경기 비평(z12 방향 반전 반례) 👍",
-      "sha": "43d3571",
-      "date": "2026-11-19T15:39:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/43d357110dfeb382f7d444cceff8942f04923299"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "briefing 2026-11-19 evening + picturebook",
-      "sha": "bb81aa1",
-      "date": "2026-11-19T12:47:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/bb81aa13148f4201108a5c86af23bd245b9502a5"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "cockpit-bot",
       "message": "data(daeguru): cockpit standings auto-refresh 2026-11-19T12:40Z",
@@ -759,15 +768,6 @@
       "sha": "9ff3b15",
       "date": "2026-11-19T12:40:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/9ff3b153852a056987743086859f4af9a948d358"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🎨 11월19일 미래예측 그림책 누락 단계 완료",
-      "sha": "51fb906",
-      "date": "2026-11-19T06:57:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/51fb906ac15300f43262cefaf4727d294ff464c9"
     },
     {
       "type": "commit",
