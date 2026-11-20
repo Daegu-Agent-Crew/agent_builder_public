@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-20T05:22:44Z",
-  "since": "2026-10-21T05:22:09Z",
+  "generated": "2026-11-20T06:07:31Z",
+  "since": "2026-10-21T06:06:38Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-20T03:06:47Z",
+      "pushed_at": "2026-11-20T05:22:51Z",
       "recent_commits": [
+        {
+          "sha": "53986e9",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-20 14:20 KST)",
+          "author": "daeguru",
+          "date": "2026-11-20T05:22:51Z"
+        },
         {
           "sha": "6333cf3",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-20T03:06:44Z)",
@@ -85,12 +91,6 @@
           "message": "삼체 데일리 #19 태양 송신 실험 발행",
           "author": "daeguru",
           "date": "2026-11-19T23:53:16Z"
-        },
-        {
-          "sha": "1d9af95",
-          "message": "chore(dashboard): refresh dashboard.json and github activity (2026-11-19T23:25Z)",
-          "author": "daeguru",
-          "date": "2026-11-19T23:23:11Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-20 14:20 KST)",
+      "sha": "53986e9",
+      "date": "2026-11-20T05:22:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/53986e9c3729ddf0a72864fd7d076c8273ad1b5d"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-11-20: 위키 누락 차수 복구 + 롤링 아카이브",
@@ -714,15 +723,6 @@
       "sha": "0b17627",
       "date": "2026-11-19T23:30:01Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0b1762717f52f47bfc0d3d6aca0a57756156434b"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json and github activity (2026-11-19T23:25Z)",
-      "sha": "1d9af95",
-      "date": "2026-11-19T23:23:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1d9af9563ced571995754b53972b1fe883ce3077"
     },
     {
       "type": "commit",
