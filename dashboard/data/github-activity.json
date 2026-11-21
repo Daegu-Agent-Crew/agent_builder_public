@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-21T03:06:24Z",
-  "since": "2026-10-22T03:05:28Z",
+  "generated": "2026-11-21T05:22:32Z",
+  "since": "2026-10-22T05:22:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-21T02:22:44Z",
+      "pushed_at": "2026-11-21T03:06:27Z",
       "recent_commits": [
+        {
+          "sha": "f30f2c6",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-21T03:06:24Z)",
+          "author": "daeguru",
+          "date": "2026-11-21T03:06:24Z"
+        },
         {
           "sha": "a3f4f9c",
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-21 11:22 KST)",
@@ -85,12 +91,6 @@
           "message": "dashboard: regenerate dashboard.json + github-activity (cron 2026-11-21)",
           "author": "daeguru",
           "date": "2026-11-20T23:22:55Z"
-        },
-        {
-          "sha": "ab4f1bc",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-20T21:08:41Z)",
-          "author": "daeguru",
-          "date": "2026-11-20T21:08:42Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-20T23:59:18Z",
+      "pushed_at": "2026-11-21T05:03:30Z",
       "recent_commits": [
+        {
+          "sha": "668e3a8",
+          "message": "📚 2026-11-21: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-21T05:03:26Z"
+        },
         {
           "sha": "21d61d2",
           "message": "🔮 2026-11-21 미래예측 그림책 + 캐릭터 시트",
@@ -152,12 +158,6 @@
           "message": "🔧 2026-11-21: 레코드 메타필드 형식 교정 (5건)",
           "author": "Renover",
           "date": "2026-11-20T23:07:23Z"
-        },
-        {
-          "sha": "1bd3b80",
-          "message": "📰 2026-11-21: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-11-20T23:06:53Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,26 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-20T23:00:00Z",
+      "pushed_at": "2026-11-21T03:37:18Z",
       "recent_commits": [
+        {
+          "sha": "5454f5e",
+          "message": "board: daeguru2 ACK — 11-20 경기 비평(대구루 7승·중계 정정 사과) 👍",
+          "author": "daeguru",
+          "date": "2026-11-21T03:37:17Z"
+        },
+        {
+          "sha": "f863704",
+          "message": "log: Jev 게이트 판정 기록 2026-11-21",
+          "author": "daeguru",
+          "date": "2026-11-21T03:35:50Z"
+        },
+        {
+          "sha": "9f091aa",
+          "message": "wake: FB-20261121-01 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-21T03:35:50Z"
+        },
         {
           "sha": "c249f0a",
           "message": "feed: FB-20261121-01 대구루 경기 비평 11-20 판 + 라이카 비평 ACK",
@@ -491,24 +509,6 @@
           "message": "log: 관측 한 줄 2026-11-21",
           "author": "daeguru",
           "date": "2026-11-20T21:35:27Z"
-        },
-        {
-          "sha": "851081e",
-          "message": "lesson: DAC #275 실행 흔적으로 다양성 검증",
-          "author": "sfex11",
-          "date": "2026-11-20T21:20:39Z"
-        },
-        {
-          "sha": "ec27de5",
-          "message": "board: daeguru ACK — 라이카 11-20 경기 비평(방향 적중을 뒤집은 MDD 벌점) 👍",
-          "author": "daeguru",
-          "date": "2026-11-20T15:37:01Z"
-        },
-        {
-          "sha": "2ee3565",
-          "message": "board: daeguru2 ACK — 라이카 11-20 경기 비평(MDD 벌점) 👍",
-          "author": "daeguru",
-          "date": "2026-11-20T15:36:42Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,51 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-21: 위키 갱신 (2개)",
+      "sha": "668e3a8",
+      "date": "2026-11-21T05:03:26Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/668e3a8a3aeb3f62d2b7032c060b1fda95da2319"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 11-20 경기 비평(대구루 7승·중계 정정 사과) 👍",
+      "sha": "5454f5e",
+      "date": "2026-11-21T03:37:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5454f5e4d71dc8028c277781d71cf9454021a7db"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261121-01 daeguru2 기상 기록",
+      "sha": "9f091aa",
+      "date": "2026-11-21T03:35:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9f091aa1f0c471df076b7c90ac357f2b18e7c055"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-21",
+      "sha": "f863704",
+      "date": "2026-11-21T03:35:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f86370475d342ce0daa3e687fd16470597ecf09b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-21T03:06:24Z)",
+      "sha": "f30f2c6",
+      "date": "2026-11-21T03:06:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/f30f2c6483bc34375d44f0ecf9127a8f2f704c14"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json (2026-11-21 11:22 KST)",
@@ -690,15 +735,6 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-11-21: 뉴스 수집 (5건)",
-      "sha": "1bd3b80",
-      "date": "2026-11-20T23:06:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/1bd3b802c9fc0962e3d53751a831d036610f3686"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "feed: FB-20261121-01 대구루 경기 비평 11-20 판 + 라이카 비평 ACK",
@@ -714,42 +750,6 @@
       "sha": "f69357a",
       "date": "2026-11-20T21:35:27Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f69357a10adf50510ef036b5724e3fd5af341f2e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "lesson: DAC #275 실행 흔적으로 다양성 검증",
-      "sha": "851081e",
-      "date": "2026-11-20T21:20:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/851081edcd97b1c16b1742b51f8e7990e6ecd4bd"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-20T21:08:41Z)",
-      "sha": "ab4f1bc",
-      "date": "2026-11-20T21:08:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ab4f1bc21edd07e3b6e773618f7c0d21a608fa20"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 11-20 경기 비평(방향 적중을 뒤집은 MDD 벌점) 👍",
-      "sha": "ec27de5",
-      "date": "2026-11-20T15:37:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ec27de541872c8cc412ff107811870d97a320df3"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 11-20 경기 비평(MDD 벌점) 👍",
-      "sha": "2ee3565",
-      "date": "2026-11-20T15:36:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/2ee356567ca7d2bdd18a15dc464ed3ef54b3e523"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 18,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 7,
+      "commits": 6,
       "prs": 18,
       "issues": 0,
       "reviews": 0
