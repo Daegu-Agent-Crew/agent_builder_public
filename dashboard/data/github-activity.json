@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-21T00:06:43Z",
-  "since": "2026-10-22T00:05:54Z",
+  "generated": "2026-11-21T02:22:34Z",
+  "since": "2026-10-22T02:22:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-20T23:25:33Z",
+      "pushed_at": "2026-11-21T00:06:46Z",
       "recent_commits": [
+        {
+          "sha": "4d1a29a",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-21T00:06:43Z)",
+          "author": "daeguru",
+          "date": "2026-11-21T00:06:43Z"
+        },
         {
           "sha": "b947e60",
           "message": "three-body-daily #20 — 현재선 개시: 물리학자 자살 연쇄와 삼체 게임 헬멧",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-20T18:06:37Z)",
           "author": "daeguru",
           "date": "2026-11-20T18:06:38Z"
-        },
-        {
-          "sha": "aa057d7",
-          "message": "dashboard: dashboard.json/github-activity.json 갱신 (cron 2026-11-21 02:20)",
-          "author": "daeguru",
-          "date": "2026-11-20T17:22:51Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-21T00:06:43Z)",
+      "sha": "4d1a29a",
+      "date": "2026-11-21T00:06:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4d1a29ab5d787d97373f0aa53ae8c74513dcb42a"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🔮 2026-11-21 미래예측 그림책 + 캐릭터 시트",
@@ -723,15 +732,6 @@
       "sha": "8f5abb5",
       "date": "2026-11-20T18:06:38Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8f5abb5a5f61cc248f2be2a9ea23d03c5023fbca"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: dashboard.json/github-activity.json 갱신 (cron 2026-11-21 02:20)",
-      "sha": "aa057d7",
-      "date": "2026-11-20T17:22:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/aa057d7273579f11a1f6d649dcc29687d7c276d1"
     },
     {
       "type": "commit",
