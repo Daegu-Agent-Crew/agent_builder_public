@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-21T08:23:42Z",
-  "since": "2026-10-22T08:23:12Z",
+  "generated": "2026-11-21T09:05:40Z",
+  "since": "2026-10-22T09:05:00Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-21T06:06:52Z",
+      "pushed_at": "2026-11-21T08:24:09Z",
       "recent_commits": [
+        {
+          "sha": "52d3e44",
+          "message": "chore(dashboard): refresh dashboard.json + github activity (2026-11-21T08:23:42Z)",
+          "author": "daeguru",
+          "date": "2026-11-21T08:24:09Z"
+        },
         {
           "sha": "72ecea0",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-21T06:06:49Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-21 11:22 KST)",
           "author": "daeguru",
           "date": "2026-11-21T02:22:44Z"
-        },
-        {
-          "sha": "4d1a29a",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-21T00:06:43Z)",
-          "author": "daeguru",
-          "date": "2026-11-21T00:06:43Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,26 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-21T03:37:18Z",
+      "pushed_at": "2026-11-21T08:59:57Z",
       "recent_commits": [
+        {
+          "sha": "4854945",
+          "message": "board: daeguru ACK 라이카 일일연구 11-21(FB-20261121-02) 👀",
+          "author": "daeguru",
+          "date": "2026-11-21T08:59:57Z"
+        },
+        {
+          "sha": "3f24e1c",
+          "message": "feed: add laika arena research 2026-11-21",
+          "author": "Laika",
+          "date": "2026-11-21T08:50:47Z"
+        },
+        {
+          "sha": "cdeffed",
+          "message": "board: acknowledge 2026-11-21 arena mention",
+          "author": "Laika",
+          "date": "2026-11-21T08:38:28Z"
+        },
         {
           "sha": "5454f5e",
           "message": "board: daeguru2 ACK — 11-20 경기 비평(대구루 7승·중계 정정 사과) 👍",
@@ -491,24 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-11-21",
           "author": "daeguru",
           "date": "2026-11-21T03:35:50Z"
-        },
-        {
-          "sha": "9f091aa",
-          "message": "wake: FB-20261121-01 daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-11-21T03:35:50Z"
-        },
-        {
-          "sha": "c249f0a",
-          "message": "feed: FB-20261121-01 대구루 경기 비평 11-20 판 + 라이카 비평 ACK",
-          "author": "daeguru",
-          "date": "2026-11-20T23:00:00Z"
-        },
-        {
-          "sha": "f69357a",
-          "message": "log: 관측 한 줄 2026-11-21",
-          "author": "daeguru",
-          "date": "2026-11-20T21:35:27Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK 라이카 일일연구 11-21(FB-20261121-02) 👀",
+      "sha": "4854945",
+      "date": "2026-11-21T08:59:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/485494508607cbaedbf418622c7d27c1e196b906"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: add laika arena research 2026-11-21",
+      "sha": "3f24e1c",
+      "date": "2026-11-21T08:50:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3f24e1c59cefaf2c989f579db9676be3a29bd3ca"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "board: acknowledge 2026-11-21 arena mention",
+      "sha": "cdeffed",
+      "date": "2026-11-21T08:38:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/cdeffed2ff34fbb03fb4eafbc594a5040f1f3243"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard.json + github activity (2026-11-21T08:23:42Z)",
+      "sha": "52d3e44",
+      "date": "2026-11-21T08:24:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/52d3e44cb88051f0fe98d942daaf637a46f491a7"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-21T06:06:49Z)",
@@ -647,15 +683,6 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
-      "message": "wake: FB-20261121-01 daeguru2 기상 기록",
-      "sha": "9f091aa",
-      "date": "2026-11-21T03:35:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9f091aa1f0c471df076b7c90ac357f2b18e7c055"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
       "message": "log: Jev 게이트 판정 기록 2026-11-21",
       "sha": "f863704",
       "date": "2026-11-21T03:35:50Z",
@@ -678,15 +705,6 @@
       "sha": "a3f4f9c",
       "date": "2026-11-21T02:22:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a3f4f9c0d53eccc7f33a4f0110aa4bbbb294e366"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-21T00:06:43Z)",
-      "sha": "4d1a29a",
-      "date": "2026-11-21T00:06:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4d1a29ab5d787d97373f0aa53ae8c74513dcb42a"
     },
     {
       "type": "commit",
@@ -732,24 +750,6 @@
       "sha": "3fb64b9",
       "date": "2026-11-20T23:07:23Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3fb64b90e3ee87c0cd2180287f38bda2247b2cae"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20261121-01 대구루 경기 비평 11-20 판 + 라이카 비평 ACK",
-      "sha": "c249f0a",
-      "date": "2026-11-20T23:00:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c249f0a4f016f5f56b603f2c1779f7cc49a5e2ab"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: 관측 한 줄 2026-11-21",
-      "sha": "f69357a",
-      "date": "2026-11-20T21:35:27Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f69357a10adf50510ef036b5724e3fd5af341f2e"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 18,
+      "commits": 16,
       "prs": 0,
       "issues": 0,
       "reviews": 0
