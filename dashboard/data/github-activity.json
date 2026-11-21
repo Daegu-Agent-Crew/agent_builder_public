@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-21T06:06:49Z",
-  "since": "2026-10-22T06:06:04Z",
+  "generated": "2026-11-21T08:23:42Z",
+  "since": "2026-10-22T08:23:12Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-21T05:24:50Z",
+      "pushed_at": "2026-11-21T06:06:52Z",
       "recent_commits": [
+        {
+          "sha": "72ecea0",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-21T06:06:49Z)",
+          "author": "daeguru",
+          "date": "2026-11-21T06:06:49Z"
+        },
         {
           "sha": "c86c3b9",
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-21 14:20 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-21T00:06:43Z)",
           "author": "daeguru",
           "date": "2026-11-21T00:06:43Z"
-        },
-        {
-          "sha": "b947e60",
-          "message": "three-body-daily #20 — 현재선 개시: 물리학자 자살 연쇄와 삼체 게임 헬멧",
-          "author": "daeguru",
-          "date": "2026-11-20T23:25:23Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-21T06:06:49Z)",
+      "sha": "72ecea0",
+      "date": "2026-11-21T06:06:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/72ecea03cafc5e24f35d6aea4d81a0df53d87c78"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json (2026-11-21 14:20 KST)",
       "sha": "c86c3b9",
       "date": "2026-11-21T05:24:49Z",
@@ -705,15 +714,6 @@
       "sha": "07fa105",
       "date": "2026-11-20T23:45:28Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/07fa105a54c5085b340eac22d1aba08019e609aa"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "three-body-daily #20 — 현재선 개시: 물리학자 자살 연쇄와 삼체 게임 헬멧",
-      "sha": "b947e60",
-      "date": "2026-11-20T23:25:23Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b947e60feb5a8509eccb6c1d2572b6f9b49e64a4"
     },
     {
       "type": "commit",
