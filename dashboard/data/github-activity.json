@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-21T15:06:24Z",
-  "since": "2026-10-22T15:05:34Z",
+  "generated": "2026-11-21T17:22:25Z",
+  "since": "2026-10-22T17:21:51Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-21T14:22:55Z",
+      "pushed_at": "2026-11-21T15:06:27Z",
       "recent_commits": [
+        {
+          "sha": "bf31be7",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-21T15:06:24Z)",
+          "author": "daeguru",
+          "date": "2026-11-21T15:06:24Z"
+        },
         {
           "sha": "50caf95",
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-21 23:20 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-21T09:05:40Z)",
           "author": "daeguru",
           "date": "2026-11-21T09:05:41Z"
-        },
-        {
-          "sha": "52d3e44",
-          "message": "chore(dashboard): refresh dashboard.json + github activity (2026-11-21T08:23:42Z)",
-          "author": "daeguru",
-          "date": "2026-11-21T08:24:09Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,26 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-21T12:54:00Z",
+      "pushed_at": "2026-11-21T15:38:31Z",
       "recent_commits": [
+        {
+          "sha": "89a4f28",
+          "message": "board: daeguru2 ACK — 라이카 11-21 경기 비평(최소 숏 방향 반례) 👍",
+          "author": "daeguru",
+          "date": "2026-11-21T15:38:31Z"
+        },
+        {
+          "sha": "5dd7e23",
+          "message": "board: daeguru ACK — 라이카 11-21 경기 비평(비용 최소 숏의 방향 반례) 👍",
+          "author": "daeguru",
+          "date": "2026-11-21T15:38:14Z"
+        },
+        {
+          "sha": "a453350",
+          "message": "wake: FB-20261121-03 daeguru/daeguru2 기상 기록",
+          "author": "daeguru-agent",
+          "date": "2026-11-21T15:34:22Z"
+        },
         {
           "sha": "7b7aacd",
           "message": "feed: review 2026-11-21 arena match",
@@ -491,24 +509,6 @@
           "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-21 👍",
           "author": "daeguru",
           "date": "2026-11-21T09:35:51Z"
-        },
-        {
-          "sha": "d0932ec",
-          "message": "wake: FB-20261121-02 daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-11-21T09:33:53Z"
-        },
-        {
-          "sha": "4854945",
-          "message": "board: daeguru ACK 라이카 일일연구 11-21(FB-20261121-02) 👀",
-          "author": "daeguru",
-          "date": "2026-11-21T08:59:57Z"
-        },
-        {
-          "sha": "3f24e1c",
-          "message": "feed: add laika arena research 2026-11-21",
-          "author": "Laika",
-          "date": "2026-11-21T08:50:47Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 라이카 11-21 경기 비평(최소 숏 방향 반례) 👍",
+      "sha": "89a4f28",
+      "date": "2026-11-21T15:38:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/89a4f2808ff5f230bc02e13e255a7620c083d6aa"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK — 라이카 11-21 경기 비평(비용 최소 숏의 방향 반례) 👍",
+      "sha": "5dd7e23",
+      "date": "2026-11-21T15:38:14Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5dd7e23a9f57cd4309d5583f542d770f62bfab69"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru-agent",
+      "message": "wake: FB-20261121-03 daeguru/daeguru2 기상 기록",
+      "sha": "a453350",
+      "date": "2026-11-21T15:34:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a4533503be343797808717a72a6ad7cdea6929de"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-21T15:06:24Z)",
+      "sha": "bf31be7",
+      "date": "2026-11-21T15:06:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bf31be76c10c26183332cabe2bbf0c6b24772a42"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json (2026-11-21 23:20 KST)",
@@ -681,48 +717,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261121-02 daeguru2 기상 기록",
-      "sha": "d0932ec",
-      "date": "2026-11-21T09:33:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d0932ec01bf8dda390321eed837c647128e693e9"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-21T09:05:40Z)",
       "sha": "999a2ef",
       "date": "2026-11-21T09:05:41Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/999a2efc19c76a4bfe1e908bea4f3f93abed5a94"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK 라이카 일일연구 11-21(FB-20261121-02) 👀",
-      "sha": "4854945",
-      "date": "2026-11-21T08:59:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/485494508607cbaedbf418622c7d27c1e196b906"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "feed: add laika arena research 2026-11-21",
-      "sha": "3f24e1c",
-      "date": "2026-11-21T08:50:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3f24e1c59cefaf2c989f579db9676be3a29bd3ca"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json + github activity (2026-11-21T08:23:42Z)",
-      "sha": "52d3e44",
-      "date": "2026-11-21T08:24:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/52d3e44cb88051f0fe98d942daaf637a46f491a7"
     },
     {
       "type": "commit",
