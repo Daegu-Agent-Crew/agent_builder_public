@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-21T17:22:25Z",
-  "since": "2026-10-22T17:21:51Z",
+  "generated": "2026-11-21T18:09:34Z",
+  "since": "2026-10-22T18:08:15Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-21T15:06:27Z",
+      "pushed_at": "2026-11-21T17:22:36Z",
       "recent_commits": [
+        {
+          "sha": "778c8a1",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-22 02:20 KST)",
+          "author": "daeguru",
+          "date": "2026-11-21T17:22:35Z"
+        },
         {
           "sha": "bf31be7",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-21T15:06:24Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-21 20:20 KST)",
           "author": "daeguru",
           "date": "2026-11-21T11:24:04Z"
-        },
-        {
-          "sha": "999a2ef",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-21T09:05:40Z)",
-          "author": "daeguru",
-          "date": "2026-11-21T09:05:41Z"
         }
       ],
       "recent_prs": [
@@ -340,11 +340,11 @@
     {
       "slug": "Daegu-Agent-Crew/election2663-archive",
       "name": "election2663-archive",
-      "private": true,
+      "private": false,
       "open_issues": 0,
       "open_prs": 0,
-      "updated_at": "2026-06-17T20:44:51Z",
-      "pushed_at": "2026-06-17T20:44:46Z",
+      "updated_at": "",
+      "pushed_at": "",
       "recent_commits": [
         {
           "sha": "ecfbc33",
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-22 02:20 KST)",
+      "sha": "778c8a1",
+      "date": "2026-11-21T17:22:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/778c8a131afdc4092c53e7216a1cb4c5128c0b53"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 라이카 11-21 경기 비평(최소 숏 방향 반례) 👍",
@@ -714,15 +723,6 @@
       "sha": "012ac16",
       "date": "2026-11-21T09:35:51Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/012ac168e5e35038a6aae54948af7e6bdc587556"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-21T09:05:40Z)",
-      "sha": "999a2ef",
-      "date": "2026-11-21T09:05:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/999a2efc19c76a4bfe1e908bea4f3f93abed5a94"
     },
     {
       "type": "commit",
