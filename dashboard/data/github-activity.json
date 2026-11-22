@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-22T06:06:52Z",
-  "since": "2026-10-23T06:06:10Z",
+  "generated": "2026-11-22T08:23:03Z",
+  "since": "2026-10-23T08:22:33Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-22T05:23:19Z",
+      "pushed_at": "2026-11-22T06:06:55Z",
       "recent_commits": [
+        {
+          "sha": "445acc0",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-22T06:06:52Z)",
+          "author": "daeguru",
+          "date": "2026-11-22T06:06:52Z"
+        },
         {
           "sha": "283ad91",
           "message": "dashboard 데이터 갱신 (cron dg1)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-22T00:08:13Z)",
           "author": "daeguru",
           "date": "2026-11-22T00:08:13Z"
-        },
-        {
-          "sha": "5d1f4ea",
-          "message": "삼체 데일리 #21 삼체 게임 #1 난세와 탈수",
-          "author": "daeguru",
-          "date": "2026-11-21T23:24:05Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-22T06:06:52Z)",
+      "sha": "445acc0",
+      "date": "2026-11-22T06:06:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/445acc08925ec320f304255ade6920d04cf9c121"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "dashboard 데이터 갱신 (cron dg1)",
       "sha": "283ad91",
       "date": "2026-11-22T05:23:19Z",
@@ -705,15 +714,6 @@
       "sha": "52be4f1",
       "date": "2026-11-21T23:46:31Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/52be4f1a2603d1a98ce42ea29fdbcb253404f208"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "삼체 데일리 #21 삼체 게임 #1 난세와 탈수",
-      "sha": "5d1f4ea",
-      "date": "2026-11-21T23:24:05Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5d1f4eac03a55bc495bdfb1d7f7997e8838f05e8"
     },
     {
       "type": "commit",
