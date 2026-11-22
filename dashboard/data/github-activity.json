@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-22T02:23:21Z",
-  "since": "2026-10-23T02:22:49Z",
+  "generated": "2026-11-22T03:07:46Z",
+  "since": "2026-10-23T03:07:04Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-22T00:08:16Z",
+      "pushed_at": "2026-11-22T02:23:35Z",
       "recent_commits": [
+        {
+          "sha": "25d6646",
+          "message": "dashboard: update data 2026-11-22_11:23 KST",
+          "author": "daeguru",
+          "date": "2026-11-22T02:23:35Z"
+        },
         {
           "sha": "a436874",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-22T00:08:13Z)",
@@ -85,12 +91,6 @@
           "message": "fix: replace empty DAC 276 image with artwork",
           "author": "sfex11",
           "date": "2026-11-21T21:21:00Z"
-        },
-        {
-          "sha": "ff71bd9",
-          "message": "assets: add DAC #276 Three-Body daily 020",
-          "author": "sfex11",
-          "date": "2026-11-21T21:20:12Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update data 2026-11-22_11:23 KST",
+      "sha": "25d6646",
+      "date": "2026-11-22T02:23:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/25d66462b257eb383e34c5a40dc90e7b10d435a0"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "🎨 미래 만화 연출 개선: 캐릭터 매력과 사건 중심 콘티",
@@ -723,15 +732,6 @@
       "sha": "c663e92",
       "date": "2026-11-21T21:21:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c663e92d8039344a04f8e6a5fd4ae5b92420c36a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "assets: add DAC #276 Three-Body daily 020",
-      "sha": "ff71bd9",
-      "date": "2026-11-21T21:20:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ff71bd9a4c90787c96ce1057acbafbe09cbd0a87"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 14,
+      "commits": 15,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 10,
+      "commits": 9,
       "prs": 18,
       "issues": 0,
       "reviews": 0
