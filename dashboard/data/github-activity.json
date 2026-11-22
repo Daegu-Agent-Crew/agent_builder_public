@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-22T14:22:14Z",
-  "since": "2026-10-23T14:21:43Z",
+  "generated": "2026-11-22T15:06:48Z",
+  "since": "2026-10-23T15:06:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-22T14:16:04Z",
+      "pushed_at": "2026-11-22T15:01:05Z",
       "recent_commits": [
+        {
+          "sha": "404ff3b",
+          "message": "대구루 만화 「대구루의 2027」 — EP124 기반 미래 예측 8칸",
+          "author": "daeguru",
+          "date": "2026-11-22T15:00:55Z"
+        },
+        {
+          "sha": "5ccb963",
+          "message": "chore: update dashboard data (11-22)",
+          "author": "daeguru",
+          "date": "2026-11-22T14:22:24Z"
+        },
         {
           "sha": "a0a3ff5",
           "message": "chore: update youtube dashboard data",
@@ -79,18 +91,6 @@
           "message": "chore: update dashboard data (github-activity, dashboard.json)",
           "author": "daeguru",
           "date": "2026-11-22T11:22:52Z"
-        },
-        {
-          "sha": "c35dc77",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-22T09:05:47Z)",
-          "author": "daeguru",
-          "date": "2026-11-22T09:05:47Z"
-        },
-        {
-          "sha": "283a7be",
-          "message": "dashboard: refresh dashboard.json and github-activity (auto)",
-          "author": "daeguru",
-          "date": "2026-11-22T08:23:17Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,24 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "대구루 만화 「대구루의 2027」 — EP124 기반 미래 예측 8칸",
+      "sha": "404ff3b",
+      "date": "2026-11-22T15:00:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/404ff3b2168cd18a0186b82c281665c75446d71a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (11-22)",
+      "sha": "5ccb963",
+      "date": "2026-11-22T14:22:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5ccb963361ee401c3739a4ffc073972412a7c122"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "chore: update youtube dashboard data",
       "sha": "a0a3ff5",
       "date": "2026-11-22T14:16:04Z",
@@ -699,30 +717,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-22T09:05:47Z)",
-      "sha": "c35dc77",
-      "date": "2026-11-22T09:05:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c35dc775f30a4e50f0f2e6789620503c3998c654"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru ACK 라이카 일일연구 11-22(FB-20261122-03) 👀",
       "sha": "b1ae574",
       "date": "2026-11-22T09:00:02Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b1ae5747550b964c9e88434b1af70647cf564be2"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity (auto)",
-      "sha": "283a7be",
-      "date": "2026-11-22T08:23:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/283a7bed029c9ed071c42be5161e5c2d426ec85d"
     },
     {
       "type": "commit",
