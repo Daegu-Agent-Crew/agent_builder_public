@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-22T00:08:13Z",
-  "since": "2026-10-23T00:07:29Z",
+  "generated": "2026-11-22T02:23:21Z",
+  "since": "2026-10-23T02:22:49Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-21T23:24:24Z",
+      "pushed_at": "2026-11-22T00:08:16Z",
       "recent_commits": [
+        {
+          "sha": "a436874",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-22T00:08:13Z)",
+          "author": "daeguru",
+          "date": "2026-11-22T00:08:13Z"
+        },
         {
           "sha": "5d1f4ea",
           "message": "삼체 데일리 #21 삼체 게임 #1 난세와 탈수",
@@ -85,12 +91,6 @@
           "message": "assets: add DAC #276 Three-Body daily 020",
           "author": "sfex11",
           "date": "2026-11-21T21:20:12Z"
-        },
-        {
-          "sha": "5f065f0",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-21T21:06:14Z)",
-          "author": "daeguru",
-          "date": "2026-11-21T21:06:14Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,20 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-21T23:47:25Z",
+      "pushed_at": "2026-11-22T01:18:21Z",
       "recent_commits": [
+        {
+          "sha": "0e72127",
+          "message": "🎨 미래 만화 연출 개선: 캐릭터 매력과 사건 중심 콘티",
+          "author": "Renover",
+          "date": "2026-11-22T01:18:18Z"
+        },
+        {
+          "sha": "370a2a3",
+          "message": "🔮 2026-11-22 미래예측 그림책 완성(초침 청소부)",
+          "author": "Renover",
+          "date": "2026-11-22T00:10:22Z"
+        },
         {
           "sha": "b19f804",
           "message": "🔮 2026-11-22 미래편 캐릭터 기획(초침 청소부)",
@@ -146,18 +158,6 @@
           "message": "🖼️ 2026-11-22 오늘의 AI 뉴스 그림책",
           "author": "Renover",
           "date": "2026-11-21T23:45:21Z"
-        },
-        {
-          "sha": "65dd1e0",
-          "message": "📰 2026-11-22: 뉴스 수집 (4건)",
-          "author": "Renover",
-          "date": "2026-11-21T23:07:39Z"
-        },
-        {
-          "sha": "8b13ab6",
-          "message": "2026-11-21 저녁 브리핑 및 그림책",
-          "author": "Renover",
-          "date": "2026-11-21T12:46:42Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,33 @@
       "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
+      "message": "🎨 미래 만화 연출 개선: 캐릭터 매력과 사건 중심 콘티",
+      "sha": "0e72127",
+      "date": "2026-11-22T01:18:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/0e7212713a5eb9295d7194a07623af9629e69b2e"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🔮 2026-11-22 미래예측 그림책 완성(초침 청소부)",
+      "sha": "370a2a3",
+      "date": "2026-11-22T00:10:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/370a2a3298efaf161923c25e7f233b3ee3366cbe"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-22T00:08:13Z)",
+      "sha": "a436874",
+      "date": "2026-11-22T00:08:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a43687473ac5214e74c18635c1c1546a3b11dd2b"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
       "message": "🔮 2026-11-22 미래편 캐릭터 기획(초침 청소부)",
       "sha": "b19f804",
       "date": "2026-11-21T23:47:22Z",
@@ -660,15 +687,6 @@
       "sha": "a3667f3",
       "date": "2026-11-21T23:22:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a3667f35a8377c033bc026a6a0f39cd388d7b75a"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-11-22: 뉴스 수집 (4건)",
-      "sha": "65dd1e0",
-      "date": "2026-11-21T23:07:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/65dd1e0c73913ab828e1568e79998684f0a7607f"
     },
     {
       "type": "commit",
@@ -726,15 +744,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-21T21:06:14Z)",
-      "sha": "5f065f0",
-      "date": "2026-11-21T21:06:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5f065f0dd08c6ff207b17d4243ff0ec8f298a41d"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: 공통 용어장 전체 지시 공지",
@@ -760,15 +769,6 @@
       "sha": "6e4be90",
       "date": "2026-11-21T18:34:12Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/6e4be906da7f76c04bb6ba4000149772eb7259a0"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "2026-11-21 저녁 브리핑 및 그림책",
-      "sha": "8b13ab6",
-      "date": "2026-11-21T12:46:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/8b13ab6bf039c7a2702450c87f5958a27c232db9"
     },
     {
       "type": "commit",
