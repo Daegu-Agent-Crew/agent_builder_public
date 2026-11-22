@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-21T23:22:07Z",
-  "since": "2026-10-22T23:21:39Z",
+  "generated": "2026-11-22T00:08:13Z",
+  "since": "2026-10-23T00:07:29Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-21T21:21:02Z",
+      "pushed_at": "2026-11-21T23:24:24Z",
       "recent_commits": [
+        {
+          "sha": "5d1f4ea",
+          "message": "삼체 데일리 #21 삼체 게임 #1 난세와 탈수",
+          "author": "daeguru",
+          "date": "2026-11-21T23:24:05Z"
+        },
+        {
+          "sha": "a3667f3",
+          "message": "dashboard: refresh dashboard.json + github-activity (cron)",
+          "author": "daeguru",
+          "date": "2026-11-21T23:22:16Z"
+        },
         {
           "sha": "c663e92",
           "message": "fix: replace empty DAC 276 image with artwork",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-21T21:06:14Z)",
           "author": "daeguru",
           "date": "2026-11-21T21:06:14Z"
-        },
-        {
-          "sha": "16bbd53",
-          "message": "chore: update dashboard data",
-          "author": "daeguru",
-          "date": "2026-11-21T20:23:02Z"
-        },
-        {
-          "sha": "45868e9",
-          "message": "chore: update youtube dashboard data",
-          "author": "daeguru",
-          "date": "2026-11-21T18:35:49Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,26 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-21T23:08:03Z",
+      "pushed_at": "2026-11-21T23:47:25Z",
       "recent_commits": [
+        {
+          "sha": "b19f804",
+          "message": "🔮 2026-11-22 미래편 캐릭터 기획(초침 청소부)",
+          "author": "Renover",
+          "date": "2026-11-21T23:47:22Z"
+        },
+        {
+          "sha": "52be4f1",
+          "message": "🔮 2026-11-22 미래예측 예측문",
+          "author": "Renover",
+          "date": "2026-11-21T23:46:31Z"
+        },
+        {
+          "sha": "b4c889e",
+          "message": "🖼️ 2026-11-22 오늘의 AI 뉴스 그림책",
+          "author": "Renover",
+          "date": "2026-11-21T23:45:21Z"
+        },
         {
           "sha": "65dd1e0",
           "message": "📰 2026-11-22: 뉴스 수집 (4건)",
@@ -140,24 +158,6 @@
           "message": "2026-11-21 저녁 브리핑 및 그림책",
           "author": "Renover",
           "date": "2026-11-21T12:46:42Z"
-        },
-        {
-          "sha": "668e3a8",
-          "message": "📚 2026-11-21: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-11-21T05:03:26Z"
-        },
-        {
-          "sha": "21d61d2",
-          "message": "🔮 2026-11-21 미래예측 그림책 + 캐릭터 시트",
-          "author": "Renover",
-          "date": "2026-11-20T23:58:47Z"
-        },
-        {
-          "sha": "894476b",
-          "message": "🔮 2026-11-21 미래예측 예측문·캐릭터 기획",
-          "author": "Renover",
-          "date": "2026-11-20T23:47:11Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,14 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-20T23:25:17Z",
+      "pushed_at": "2026-11-21T23:23:48Z",
       "recent_commits": [
+        {
+          "sha": "2ed1227",
+          "message": "삼체 데일리 #21 삼체 게임 #1 난세와 탈수 — 후조판·게시 (08:2x 러너 완결)",
+          "author": "daeguru",
+          "date": "2026-11-21T23:23:35Z"
+        },
         {
           "sha": "e027adf",
           "message": "삼체 데일리 #20 현재선 개시 물리학자 자살 연쇄·삼체 게임 헬멧 — 후조판·게시 (08:2x 러너 완결)",
@@ -570,12 +576,6 @@
           "message": "daily #17 삼체 1막 백목림의 제안 — 텍스트 후조판·게시 (12:47 러너 완결)",
           "author": "daeguru",
           "date": "2026-11-18T03:53:25Z"
-        },
-        {
-          "sha": "db5d7c7",
-          "message": "정정: 밝은 캐주얼 스타일은 SF 데일리 전용 — 삼체 기존 유지",
-          "author": "daeguru",
-          "date": "2026-11-17T19:35:04Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,60 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🔮 2026-11-22 미래편 캐릭터 기획(초침 청소부)",
+      "sha": "b19f804",
+      "date": "2026-11-21T23:47:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b19f804c4441c2ee245eef2efb9676d4afd5514c"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🔮 2026-11-22 미래예측 예측문",
+      "sha": "52be4f1",
+      "date": "2026-11-21T23:46:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/52be4f1a2603d1a98ce42ea29fdbcb253404f208"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🖼️ 2026-11-22 오늘의 AI 뉴스 그림책",
+      "sha": "b4c889e",
+      "date": "2026-11-21T23:45:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b4c889e4b27387142a6484a895554a28e571f7c0"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "삼체 데일리 #21 삼체 게임 #1 난세와 탈수",
+      "sha": "5d1f4ea",
+      "date": "2026-11-21T23:24:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5d1f4eac03a55bc495bdfb1d7f7997e8838f05e8"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "삼체 데일리 #21 삼체 게임 #1 난세와 탈수 — 후조판·게시 (08:2x 러너 완결)",
+      "sha": "2ed1227",
+      "date": "2026-11-21T23:23:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/2ed122775dc0becc23d5ebda781de7a76b65c7c2"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json + github-activity (cron)",
+      "sha": "a3667f3",
+      "date": "2026-11-21T23:22:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a3667f35a8377c033bc026a6a0f39cd388d7b75a"
+    },
     {
       "type": "commit",
       "repo": "ai-agent-news",
@@ -681,30 +735,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update dashboard data",
-      "sha": "16bbd53",
-      "date": "2026-11-21T20:23:02Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/16bbd53cdeeb55a2a804903e3f5a9f2001a83861"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: 공통 용어장 전체 지시 공지",
       "sha": "29df86c",
       "date": "2026-11-21T18:41:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/29df86c36e3feadf759208fb593107173235100c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update youtube dashboard data",
-      "sha": "45868e9",
-      "date": "2026-11-21T18:35:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/45868e9874e2c82e365254b8eb1ef32ce780a89f"
     },
     {
       "type": "pr",
@@ -751,33 +787,6 @@
       "sha": "be6a3cc",
       "date": "2026-11-21T12:40:15Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/be6a3cc567fe5f83fcbbddee68f672b8c6ec8042"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-11-21: 위키 갱신 (2개)",
-      "sha": "668e3a8",
-      "date": "2026-11-21T05:03:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/668e3a8a3aeb3f62d2b7032c060b1fda95da2319"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔮 2026-11-21 미래예측 그림책 + 캐릭터 시트",
-      "sha": "21d61d2",
-      "date": "2026-11-20T23:58:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/21d61d22a63fffbf7fb310932979c7f019fdec76"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔮 2026-11-21 미래예측 예측문·캐릭터 기획",
-      "sha": "894476b",
-      "date": "2026-11-20T23:47:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/894476b8197c0d26cb10872cb9b74bd05507446b"
     },
     {
       "type": "commit",
@@ -832,15 +841,6 @@
       "sha": "d50e02c",
       "date": "2026-11-18T03:53:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/d50e02c2915d0cee26c6cc14360298e5e552312d"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "정정: 밝은 캐주얼 스타일은 SF 데일리 전용 — 삼체 기존 유지",
-      "sha": "db5d7c7",
-      "date": "2026-11-17T19:35:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/db5d7c7645c822d85089d11aac43f8775429e159"
     },
     {
       "type": "pr",
