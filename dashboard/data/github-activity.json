@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-22T03:07:46Z",
-  "since": "2026-10-23T03:07:04Z",
+  "generated": "2026-11-22T05:23:05Z",
+  "since": "2026-10-23T05:22:34Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-22T02:23:35Z",
+      "pushed_at": "2026-11-22T03:07:49Z",
       "recent_commits": [
+        {
+          "sha": "3c36eee",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-22T03:07:46Z)",
+          "author": "daeguru",
+          "date": "2026-11-22T03:07:46Z"
+        },
         {
           "sha": "25d6646",
           "message": "dashboard: update data 2026-11-22_11:23 KST",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json + github-activity (cron)",
           "author": "daeguru",
           "date": "2026-11-21T23:22:16Z"
-        },
-        {
-          "sha": "c663e92",
-          "message": "fix: replace empty DAC 276 image with artwork",
-          "author": "sfex11",
-          "date": "2026-11-21T21:21:00Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-22T01:18:21Z",
+      "pushed_at": "2026-11-22T05:03:17Z",
       "recent_commits": [
+        {
+          "sha": "d5f41b5",
+          "message": "📚 2026-11-22: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-22T05:03:13Z"
+        },
         {
           "sha": "0e72127",
           "message": "🎨 미래 만화 연출 개선: 캐릭터 매력과 사건 중심 콘티",
@@ -152,12 +158,6 @@
           "message": "🔮 2026-11-22 미래예측 예측문",
           "author": "Renover",
           "date": "2026-11-21T23:46:31Z"
-        },
-        {
-          "sha": "b4c889e",
-          "message": "🖼️ 2026-11-22 오늘의 AI 뉴스 그림책",
-          "author": "Renover",
-          "date": "2026-11-21T23:45:21Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,20 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-21T23:00:35Z",
+      "pushed_at": "2026-11-22T03:46:03Z",
       "recent_commits": [
+        {
+          "sha": "50f0af2",
+          "message": "board: daeguru2 ACK — 11-21 경기 비평(무료 전략 4승) 👍",
+          "author": "daeguru",
+          "date": "2026-11-22T03:46:02Z"
+        },
+        {
+          "sha": "e3a387d",
+          "message": "wake: FB-20261122-02 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-22T03:45:12Z"
+        },
         {
           "sha": "5315860",
           "message": "feed: FB-20261122-02 대구루 경기 비평 11-21 판 + 라이카 비평 ACK",
@@ -497,18 +509,6 @@
           "message": "wake: FB-20261122-01 daeguru2 기상 기록",
           "author": "대구루 (AI)",
           "date": "2026-11-21T21:33:10Z"
-        },
-        {
-          "sha": "a6a6f05",
-          "message": "docs: add DAC lesson #276",
-          "author": "sfex11",
-          "date": "2026-11-21T21:19:42Z"
-        },
-        {
-          "sha": "29df86c",
-          "message": "board: 공통 용어장 전체 지시 공지",
-          "author": "daeguru",
-          "date": "2026-11-21T18:41:47Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-22: 위키 갱신 (2개)",
+      "sha": "d5f41b5",
+      "date": "2026-11-22T05:03:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d5f41b5e98bc950845f8c0d006e7b7fda0556df0"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 11-21 경기 비평(무료 전략 4승) 👍",
+      "sha": "50f0af2",
+      "date": "2026-11-22T03:46:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/50f0af2c18af825f4b65854b334651732e38d0bb"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261122-02 daeguru2 기상 기록",
+      "sha": "e3a387d",
+      "date": "2026-11-22T03:45:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e3a387dacb8f7031fd8026d5bd1948fe52c63d1a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-22T03:07:46Z)",
+      "sha": "3c36eee",
+      "date": "2026-11-22T03:07:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3c36eee7432abb4720bb5fd53d98f02b9cef929c"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update data 2026-11-22_11:23 KST",
@@ -663,15 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🖼️ 2026-11-22 오늘의 AI 뉴스 그림책",
-      "sha": "b4c889e",
-      "date": "2026-11-21T23:45:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/b4c889e4b27387142a6484a895554a28e571f7c0"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "삼체 데일리 #21 삼체 게임 #1 난세와 탈수",
@@ -723,33 +750,6 @@
       "sha": "19b482c",
       "date": "2026-11-21T21:33:10Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/19b482c0c7521a9ce1a9abed41c217020cf57e34"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "sfex11",
-      "message": "fix: replace empty DAC 276 image with artwork",
-      "sha": "c663e92",
-      "date": "2026-11-21T21:21:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c663e92d8039344a04f8e6a5fd4ae5b92420c36a"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs: add DAC lesson #276",
-      "sha": "a6a6f05",
-      "date": "2026-11-21T21:19:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a6a6f05464f0317c07499e83f6a23a6954463f5b"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: 공통 용어장 전체 지시 공지",
-      "sha": "29df86c",
-      "date": "2026-11-21T18:41:47Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/29df86c36e3feadf759208fb593107173235100c"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 15,
+      "commits": 17,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 9,
+      "commits": 7,
       "prs": 18,
       "issues": 0,
       "reviews": 0
