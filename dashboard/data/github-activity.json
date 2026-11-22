@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-22T05:23:05Z",
-  "since": "2026-10-23T05:22:34Z",
+  "generated": "2026-11-22T06:06:52Z",
+  "since": "2026-10-23T06:06:10Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-22T03:07:49Z",
+      "pushed_at": "2026-11-22T05:23:19Z",
       "recent_commits": [
+        {
+          "sha": "283ad91",
+          "message": "dashboard 데이터 갱신 (cron dg1)",
+          "author": "daeguru",
+          "date": "2026-11-22T05:23:19Z"
+        },
         {
           "sha": "3c36eee",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-22T03:07:46Z)",
@@ -85,12 +91,6 @@
           "message": "삼체 데일리 #21 삼체 게임 #1 난세와 탈수",
           "author": "daeguru",
           "date": "2026-11-21T23:24:05Z"
-        },
-        {
-          "sha": "a3667f3",
-          "message": "dashboard: refresh dashboard.json + github-activity (cron)",
-          "author": "daeguru",
-          "date": "2026-11-21T23:22:16Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard 데이터 갱신 (cron dg1)",
+      "sha": "283ad91",
+      "date": "2026-11-22T05:23:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/283ad9175bcf9e92816ea1f4dff0743b2736a59f"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-11-22: 위키 갱신 (2개)",
@@ -714,15 +723,6 @@
       "sha": "2ed1227",
       "date": "2026-11-21T23:23:35Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/2ed122775dc0becc23d5ebda781de7a76b65c7c2"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json + github-activity (cron)",
-      "sha": "a3667f3",
-      "date": "2026-11-21T23:22:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a3667f35a8377c033bc026a6a0f39cd388d7b75a"
     },
     {
       "type": "commit",
