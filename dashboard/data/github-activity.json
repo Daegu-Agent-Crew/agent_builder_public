@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-22T18:05:48Z",
-  "since": "2026-10-23T18:05:05Z",
+  "generated": "2026-11-22T20:22:04Z",
+  "since": "2026-10-23T20:21:33Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-22T17:22:33Z",
+      "pushed_at": "2026-11-22T18:05:51Z",
       "recent_commits": [
+        {
+          "sha": "a38dce6",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-22T18:05:48Z)",
+          "author": "daeguru",
+          "date": "2026-11-22T18:05:48Z"
+        },
         {
           "sha": "10f2c85",
           "message": "dashboard 데이터 갱신 (cron 11-23_02:22)",
@@ -85,12 +91,6 @@
           "message": "chore: update dashboard data (11-22)",
           "author": "daeguru",
           "date": "2026-11-22T14:22:24Z"
-        },
-        {
-          "sha": "a0a3ff5",
-          "message": "chore: update youtube dashboard data",
-          "author": "daeguru",
-          "date": "2026-11-22T14:16:04Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,15 @@
       "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-22T18:05:48Z)",
+      "sha": "a38dce6",
+      "date": "2026-11-22T18:05:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a38dce65925588453ca92b40ec632aebb87d950b"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
       "message": "dashboard 데이터 갱신 (cron 11-23_02:22)",
       "sha": "10f2c85",
       "date": "2026-11-22T17:22:34Z",
@@ -669,15 +678,6 @@
       "sha": "5ccb963",
       "date": "2026-11-22T14:22:24Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5ccb963361ee401c3739a4ffc073972412a7c122"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore: update youtube dashboard data",
-      "sha": "a0a3ff5",
-      "date": "2026-11-22T14:16:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a0a3ff50ea44841a1d256d112cfd0942f2f7b236"
     },
     {
       "type": "commit",
