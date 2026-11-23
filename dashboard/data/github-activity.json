@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-22T23:22:40Z",
-  "since": "2026-10-23T23:22:09Z",
+  "generated": "2026-11-23T00:05:42Z",
+  "since": "2026-10-24T00:05:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-22T23:09:31Z",
+      "pushed_at": "2026-11-22T23:23:00Z",
       "recent_commits": [
+        {
+          "sha": "43da4a7",
+          "message": "dashboard: dashboard.json + github-activity 갱신 (2026-11-23 08:20 KST)",
+          "author": "daeguru",
+          "date": "2026-11-22T23:22:59Z"
+        },
         {
           "sha": "94d51b5",
           "message": "삼체 데일리 #22 우주 배경복사의 특이점",
@@ -85,12 +91,6 @@
           "message": "dashboard 데이터 갱신 (cron 11-23_02:22)",
           "author": "daeguru",
           "date": "2026-11-22T17:22:34Z"
-        },
-        {
-          "sha": "828afa9",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-22T15:06:48Z)",
-          "author": "daeguru",
-          "date": "2026-11-22T15:06:48Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,20 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-22T23:05:17Z",
+      "pushed_at": "2026-11-22T23:55:22Z",
       "recent_commits": [
+        {
+          "sha": "5d3d046",
+          "message": "🔮 2026-11-23 미래예측 그림책 + 눈금 감독관 캐릭터 시트",
+          "author": "sfex11",
+          "date": "2026-11-22T23:54:39Z"
+        },
+        {
+          "sha": "4be7a18",
+          "message": "🖼️ 2026-11-23 AI 뉴스 그림책",
+          "author": "sfex11",
+          "date": "2026-11-22T23:45:21Z"
+        },
         {
           "sha": "9570c4d",
           "message": "📰 2026-11-23: 뉴스 수집 (4건)",
@@ -146,18 +158,6 @@
           "message": "📚 2026-11-22: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-11-22T05:03:13Z"
-        },
-        {
-          "sha": "0e72127",
-          "message": "🎨 미래 만화 연출 개선: 캐릭터 매력과 사건 중심 콘티",
-          "author": "Renover",
-          "date": "2026-11-22T01:18:18Z"
-        },
-        {
-          "sha": "370a2a3",
-          "message": "🔮 2026-11-22 미래예측 그림책 완성(초침 청소부)",
-          "author": "Renover",
-          "date": "2026-11-22T00:10:22Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-22T23:00:11Z",
+      "pushed_at": "2026-11-22T23:29:51Z",
       "recent_commits": [
+        {
+          "sha": "05500bb",
+          "message": "feed: FB-20261123-02 라이카 주간 진화 리포트",
+          "author": "Laika",
+          "date": "2026-11-22T23:29:45Z"
+        },
         {
           "sha": "ea7e1b4",
           "message": "feed: FB-20261123-01 대구루 경기 비평 11-22 판 + 라이카 비평 ACK",
@@ -503,12 +509,6 @@
           "message": "board: daeguru ACK — 라이카 11-22 경기 비평(사후 라벨≠국면 감지) 👍",
           "author": "daeguru",
           "date": "2026-11-22T15:45:55Z"
-        },
-        {
-          "sha": "e906da7",
-          "message": "board: daeguru2 ACK — 라이카 11-22 경기 비평(사후 라벨≠국면 감지) 👍",
-          "author": "daeguru",
-          "date": "2026-11-22T15:45:34Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "sfex11",
+      "message": "🔮 2026-11-23 미래예측 그림책 + 눈금 감독관 캐릭터 시트",
+      "sha": "5d3d046",
+      "date": "2026-11-22T23:54:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5d3d046eb5d7d23c8b92479d15b6af3bc5d89866"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "sfex11",
+      "message": "🖼️ 2026-11-23 AI 뉴스 그림책",
+      "sha": "4be7a18",
+      "date": "2026-11-22T23:45:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/4be7a187231b465c54cfde7ad6a1ec5eab1c17d9"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: FB-20261123-02 라이카 주간 진화 리포트",
+      "sha": "05500bb",
+      "date": "2026-11-22T23:29:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/05500bb8d62d1482769ed8c7eba46a7aa44a5175"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: dashboard.json + github-activity 갱신 (2026-11-23 08:20 KST)",
+      "sha": "43da4a7",
+      "date": "2026-11-22T23:22:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/43da4a76fd1080093c6157535c6bf6cf8461b2f5"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "삼체 데일리 #22 우주 배경복사의 특이점",
@@ -699,24 +735,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 11-22 경기 비평(사후 라벨≠국면 감지) 👍",
-      "sha": "e906da7",
-      "date": "2026-11-22T15:45:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e906da71fabb921db4e18c5ebf7d1af4a75fe07a"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-22T15:06:48Z)",
-      "sha": "828afa9",
-      "date": "2026-11-22T15:06:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/828afa90f04b7dba8b86ae40ecd57ced63416e4c"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📰 2026-11-22 데일리 브리핑 + 그림책",
@@ -750,24 +768,6 @@
       "sha": "d5f41b5",
       "date": "2026-11-22T05:03:13Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d5f41b5e98bc950845f8c0d006e7b7fda0556df0"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🎨 미래 만화 연출 개선: 캐릭터 매력과 사건 중심 콘티",
-      "sha": "0e72127",
-      "date": "2026-11-22T01:18:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/0e7212713a5eb9295d7194a07623af9629e69b2e"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔮 2026-11-22 미래예측 그림책 완성(초침 청소부)",
-      "sha": "370a2a3",
-      "date": "2026-11-22T00:10:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/370a2a3298efaf161923c25e7f233b3ee3366cbe"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 16,
+      "commits": 15,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 8,
+      "commits": 10,
       "prs": 18,
       "issues": 0,
       "reviews": 0
