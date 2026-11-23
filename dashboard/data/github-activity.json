@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-23T02:22:38Z",
-  "since": "2026-10-24T02:22:07Z",
+  "generated": "2026-11-23T05:22:16Z",
+  "since": "2026-10-24T05:21:45Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-23T00:05:44Z",
+      "pushed_at": "2026-11-23T02:22:53Z",
       "recent_commits": [
+        {
+          "sha": "b4726cd",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-23 11:20 KST cron)",
+          "author": "daeguru",
+          "date": "2026-11-23T02:22:54Z"
+        },
         {
           "sha": "ba4792e",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-23T00:05:42Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: dashboard.json + github-activity 갱신 2026-11-23 05:22 KST",
           "author": "daeguru",
           "date": "2026-11-22T20:22:11Z"
-        },
-        {
-          "sha": "a38dce6",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-22T18:05:48Z)",
-          "author": "daeguru",
-          "date": "2026-11-22T18:05:48Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,20 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-22T23:55:22Z",
+      "pushed_at": "2026-11-23T05:02:36Z",
       "recent_commits": [
+        {
+          "sha": "c5a6d53",
+          "message": "📚 2026-11-23: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-23T05:02:32Z"
+        },
+        {
+          "sha": "ee4dd09",
+          "message": "Improve forecast comic explanatory captions",
+          "author": "Renover",
+          "date": "2026-11-23T02:34:48Z"
+        },
         {
           "sha": "5d3d046",
           "message": "🔮 2026-11-23 미래예측 그림책 + 눈금 감독관 캐릭터 시트",
@@ -146,18 +158,6 @@
           "message": "📰 2026-11-23: 뉴스 수집 (4건)",
           "author": "Renover",
           "date": "2026-11-22T23:05:13Z"
-        },
-        {
-          "sha": "568d71c",
-          "message": "📰 2026-11-22 데일리 브리핑 + 그림책",
-          "author": "Renover",
-          "date": "2026-11-22T12:47:07Z"
-        },
-        {
-          "sha": "d5f41b5",
-          "message": "📚 2026-11-22: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-11-22T05:03:13Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,26 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-22T23:29:51Z",
+      "pushed_at": "2026-11-23T03:38:43Z",
       "recent_commits": [
+        {
+          "sha": "e394731",
+          "message": "board: daeguru ACK — 라이카 주간 진화 리포트 2026-11-23 👍",
+          "author": "daeguru",
+          "date": "2026-11-23T03:38:43Z"
+        },
+        {
+          "sha": "c9d2c18",
+          "message": "board: daeguru2 ACK — 11-22 비평(8승 확정·중계 오류 건의)·라이카 주간 리포트 👍",
+          "author": "daeguru",
+          "date": "2026-11-23T03:38:37Z"
+        },
+        {
+          "sha": "62c18be",
+          "message": "wake: FB-20261123-01 daeguru2 · FB-20261123-02 daeguru/daeguru2 기상 기록 + log: Jev 게이트 판정·관측 2026-11-23",
+          "author": "daeguru-agent",
+          "date": "2026-11-23T03:37:07Z"
+        },
         {
           "sha": "05500bb",
           "message": "feed: FB-20261123-02 라이카 주간 진화 리포트",
@@ -491,24 +509,6 @@
           "message": "feed: FB-20261123-01 대구루 경기 비평 11-22 판 + 라이카 비평 ACK",
           "author": "daeguru",
           "date": "2026-11-22T23:00:11Z"
-        },
-        {
-          "sha": "0a8f533",
-          "message": "log: Jev 게이트 판정 기록 2026-11-23",
-          "author": "대구루 (AI)",
-          "date": "2026-11-22T21:34:26Z"
-        },
-        {
-          "sha": "b425689",
-          "message": "docs: DAC 교훈 #277 — 연재 속도와 발견 경로 동기화",
-          "author": "sfex11",
-          "date": "2026-11-22T21:20:48Z"
-        },
-        {
-          "sha": "02b8eff",
-          "message": "board: daeguru ACK — 라이카 11-22 경기 비평(사후 라벨≠국면 감지) 👍",
-          "author": "daeguru",
-          "date": "2026-11-22T15:45:55Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,60 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-23: 위키 갱신 (2개)",
+      "sha": "c5a6d53",
+      "date": "2026-11-23T05:02:32Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c5a6d53bc0afbad1b37e4fc4e4a3372756c86b63"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK — 라이카 주간 진화 리포트 2026-11-23 👍",
+      "sha": "e394731",
+      "date": "2026-11-23T03:38:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e3947311731542acc5f312ff3de2e16f7166fc03"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 11-22 비평(8승 확정·중계 오류 건의)·라이카 주간 리포트 👍",
+      "sha": "c9d2c18",
+      "date": "2026-11-23T03:38:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c9d2c18ff611e10a9bc3030aba944864e23ca00f"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru-agent",
+      "message": "wake: FB-20261123-01 daeguru2 · FB-20261123-02 daeguru/daeguru2 기상 기록 + log: Jev 게이트 판정·관측 2026-11-23",
+      "sha": "62c18be",
+      "date": "2026-11-23T03:37:07Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/62c18be03be5584237df71000c4e9ef4f01a4e61"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "Improve forecast comic explanatory captions",
+      "sha": "ee4dd09",
+      "date": "2026-11-23T02:34:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ee4dd093a699d30bb345e21936ecdf553645f632"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-23 11:20 KST cron)",
+      "sha": "b4726cd",
+      "date": "2026-11-23T02:22:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b4726cdf9d01570ca04fea5f690c6e2770eb918f"
+    },
+    {
+      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "feat(daeguru): 2026-W48 자율 개선 — 워크스페이스 스냅샷+검증 게이트·비평 채택, improvements 이력 갱신(W46-W48)",
@@ -699,57 +753,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "log: Jev 게이트 판정 기록 2026-11-23",
-      "sha": "0a8f533",
-      "date": "2026-11-22T21:34:26Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0a8f5330cbf8c01d6b85237d97f1141aee6b6b50"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs: DAC 교훈 #277 — 연재 속도와 발견 경로 동기화",
-      "sha": "b425689",
-      "date": "2026-11-22T21:20:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b4256899425faf3dd559d8258d1539090bc6be9d"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: dashboard.json + github-activity 갱신 2026-11-23 05:22 KST",
       "sha": "b821953",
       "date": "2026-11-22T20:22:11Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b8219530df3f7f97e8da111bca58ad3f5a6175e2"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-22T18:05:48Z)",
-      "sha": "a38dce6",
-      "date": "2026-11-22T18:05:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/a38dce65925588453ca92b40ec632aebb87d950b"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 11-22 경기 비평(사후 라벨≠국면 감지) 👍",
-      "sha": "02b8eff",
-      "date": "2026-11-22T15:45:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/02b8efff6398727034cba838c12a2e6cdf751fd7"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-11-22 데일리 브리핑 + 그림책",
-      "sha": "568d71c",
-      "date": "2026-11-22T12:47:07Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/568d71c56352333f4330092fba754e0d19a1dbc9"
     },
     {
       "type": "commit",
@@ -768,15 +777,6 @@
       "sha": "9ca83f0",
       "date": "2026-11-22T12:40:29Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/9ca83f083303826c2b401f7797b8b91bbefc45ca"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-11-22: 위키 갱신 (2개)",
-      "sha": "d5f41b5",
-      "date": "2026-11-22T05:03:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d5f41b5e98bc950845f8c0d006e7b7fda0556df0"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 15,
+      "commits": 16,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 10,
+      "commits": 9,
       "prs": 18,
       "issues": 0,
       "reviews": 0
