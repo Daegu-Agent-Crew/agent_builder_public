@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-23T00:05:42Z",
-  "since": "2026-10-24T00:05:01Z",
+  "generated": "2026-11-23T02:22:38Z",
+  "since": "2026-10-24T02:22:07Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-22T23:23:00Z",
+      "pushed_at": "2026-11-23T00:05:44Z",
       "recent_commits": [
+        {
+          "sha": "ba4792e",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-23T00:05:42Z)",
+          "author": "daeguru",
+          "date": "2026-11-23T00:05:42Z"
+        },
         {
           "sha": "43da4a7",
           "message": "dashboard: dashboard.json + github-activity 갱신 (2026-11-23 08:20 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-22T18:05:48Z)",
           "author": "daeguru",
           "date": "2026-11-22T18:05:48Z"
-        },
-        {
-          "sha": "10f2c85",
-          "message": "dashboard 데이터 갱신 (cron 11-23_02:22)",
-          "author": "daeguru",
-          "date": "2026-11-22T17:22:34Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,14 @@
       "open_issues": 22,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-22T12:40:38Z",
+      "pushed_at": "2026-11-23T01:15:42Z",
       "recent_commits": [
+        {
+          "sha": "daba1d4",
+          "message": "feat(daeguru): 2026-W48 자율 개선 — 워크스페이스 스냅샷+검증 게이트·비평 채택, improvements 이력 갱신(W46-W48)",
+          "author": "daeguru",
+          "date": "2026-11-23T01:15:37Z"
+        },
         {
           "sha": "04cb824",
           "message": "data(daeguru): cockpit standings auto-refresh 2026-11-22T12:40Z",
@@ -233,12 +239,6 @@
           "message": "data(daeguru): cockpit standings auto-refresh 2026-11-21T12:40Z",
           "author": "cockpit-bot",
           "date": "2026-11-21T12:40:23Z"
-        },
-        {
-          "sha": "be6a3cc",
-          "message": "data(arena): 공식 경기 2026-11-21 21:30",
-          "author": "daeguru",
-          "date": "2026-11-21T12:40:15Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "feat(daeguru): 2026-W48 자율 개선 — 워크스페이스 스냅샷+검증 게이트·비평 채택, improvements 이력 갱신(W46-W48)",
+      "sha": "daba1d4",
+      "date": "2026-11-23T01:15:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/daba1d49f0c8691bb938bb3cd861a0cd5592b2d3"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-23T00:05:42Z)",
+      "sha": "ba4792e",
+      "date": "2026-11-23T00:05:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ba4792e16f41996d48c225f8d7b075293679ac88"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "sfex11",
       "message": "🔮 2026-11-23 미래예측 그림책 + 눈금 감독관 캐릭터 시트",
@@ -717,15 +735,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard 데이터 갱신 (cron 11-23_02:22)",
-      "sha": "10f2c85",
-      "date": "2026-11-22T17:22:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/10f2c8513d2c185edcee9ba58cfea8921ac0fa19"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru ACK — 라이카 11-22 경기 비평(사후 라벨≠국면 감지) 👍",
@@ -805,15 +814,6 @@
       "sha": "738b3b7",
       "date": "2026-11-21T12:40:23Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/738b3b7fb5b4c6285a5bb6b4e2c28aeacc0bc9dd"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-21 21:30",
-      "sha": "be6a3cc",
-      "date": "2026-11-21T12:40:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/be6a3cc567fe5f83fcbbddee68f672b8c6ec8042"
     },
     {
       "type": "commit",
