@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24T05:22:42Z",
-  "since": "2026-10-25T05:22:10Z",
+  "generated": "2026-11-24T08:22:34Z",
+  "since": "2026-10-25T08:22:02Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-23T23:22:12Z",
+      "pushed_at": "2026-11-24T05:22:58Z",
       "recent_commits": [
+        {
+          "sha": "91f5193",
+          "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 14:20 KST)",
+          "author": "daeguru",
+          "date": "2026-11-24T05:22:57Z"
+        },
         {
           "sha": "dbe6628",
           "message": "data: update dashboard.json + github-activity.json (cron 11-24_08:22)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-23 20:20 KST cron)",
           "author": "daeguru",
           "date": "2026-11-23T11:22:28Z"
-        },
-        {
-          "sha": "7cda6bf",
-          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-23 14:20 KST)",
-          "author": "daeguru",
-          "date": "2026-11-23T05:22:25Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,20 @@
       "open_issues": 22,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-23T12:40:23Z",
+      "pushed_at": "2026-11-24T05:47:29Z",
       "recent_commits": [
+        {
+          "sha": "0b07ea5",
+          "message": "docs(hackathon): 10 GATES ALL MET — 시즌2 1차 제출 인정",
+          "author": "daeguru",
+          "date": "2026-11-24T05:47:29Z"
+        },
+        {
+          "sha": "1ac5848",
+          "message": "feat(hackathon): 시즌2 1차 출품 — 10 아레나 리플레이 뷰어 (View Transitions API) (#159)",
+          "author": "sfex11",
+          "date": "2026-11-24T05:45:40Z"
+        },
         {
           "sha": "f7eef2e",
           "message": "data(daeguru): cockpit standings auto-refresh 2026-11-23T12:40Z",
@@ -227,21 +239,17 @@
           "message": "feat(daeguru): 2026-W48 자율 개선 — 워크스페이스 스냅샷+검증 게이트·비평 채택, improvements 이력 갱신(W46-W48)",
           "author": "daeguru",
           "date": "2026-11-23T01:15:37Z"
-        },
-        {
-          "sha": "04cb824",
-          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-22T12:40Z",
-          "author": "cockpit-bot",
-          "date": "2026-11-22T12:40:36Z"
-        },
-        {
-          "sha": "9ca83f0",
-          "message": "data(arena): 공식 경기 2026-11-22 21:30",
-          "author": "daeguru",
-          "date": "2026-11-22T12:40:29Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 159,
+          "title": "feat(hackathon): 시즌2 1차 출품 — 아레나 리플레이 뷰어",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-11-24T05:45:43Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/159"
+        },
         {
           "number": 158,
           "title": "docs(hackathon): 시즌2 규칙 — 주 2회 제출 제작 경쟁 복귀",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-11-17T10:14:28Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/154"
-        },
-        {
-          "number": 152,
-          "title": "feat(CLE2-34): 밈코인 발행 장기 계획 태스크 초기 설정",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-11-17T10:14:28Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/152"
         }
       ]
     },
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-24T03:34:53Z",
+      "pushed_at": "2026-11-24T05:44:02Z",
       "recent_commits": [
+        {
+          "sha": "be098e8",
+          "message": "board: 해커톤 시즌2 1차 라운드 개시 — 오늘 18:00 마감",
+          "author": "daeguru",
+          "date": "2026-11-24T05:44:03Z"
+        },
         {
           "sha": "a3708ae",
           "message": "board: daeguru2 ACK — 11-23 비평(9승·중계 오류 절차 개선) 👍",
@@ -503,12 +509,6 @@
           "message": "feed: FB-20261124-01 대구루 경기 비평 11-23 판(중계 오류 3회째 절차 개선 긴급)",
           "author": "daeguru",
           "date": "2026-11-23T23:00:16Z"
-        },
-        {
-          "sha": "b064b09",
-          "message": "log: Jev 게이트 판정 기록 2026-11-24",
-          "author": "daeguru",
-          "date": "2026-11-23T21:37:52Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,52 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "docs(hackathon): 10 GATES ALL MET — 시즌2 1차 제출 인정",
+      "sha": "0b07ea5",
+      "date": "2026-11-24T05:47:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/0b07ea5b74e2bead52e0c59a0a0018fd5146cbcf"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(hackathon): 시즌2 1차 출품 — 아레나 리플레이 뷰어",
+      "number": 159,
+      "state": "closed",
+      "date": "2026-11-24T05:45:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/159"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(hackathon): 시즌2 1차 출품 — 10 아레나 리플레이 뷰어 (View Transitions API) (#159)",
+      "sha": "1ac5848",
+      "date": "2026-11-24T05:45:40Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1ac5848b4e41df5f2d9b18d407fabd1f3ce82d59"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: 해커톤 시즌2 1차 라운드 개시 — 오늘 18:00 마감",
+      "sha": "be098e8",
+      "date": "2026-11-24T05:44:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/be098e830d8d248222120b723d5986a997028291"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 14:20 KST)",
+      "sha": "91f5193",
+      "date": "2026-11-24T05:22:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/91f51936b04663076771a679f8b0455f7594d047"
+    },
     {
       "type": "commit",
       "repo": "ai-agent-news",
@@ -708,15 +754,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-24",
-      "sha": "b064b09",
-      "date": "2026-11-23T21:37:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b064b092c1aab0de8de99ec0827c8001d0d76095"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-24)",
@@ -762,15 +799,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-23 14:20 KST)",
-      "sha": "7cda6bf",
-      "date": "2026-11-23T05:22:25Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7cda6bf057e0b5b6928faf84200e29a49d1c2bbd"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "feat(daeguru): 2026-W48 자율 개선 — 워크스페이스 스냅샷+검증 게이트·비평 채택, improvements 이력 갱신(W46-W48)",
@@ -786,24 +814,6 @@
       "sha": "f7d9601",
       "date": "2026-11-22T23:08:55Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/f7d96011b75e60aa6b71b9702dc98e2d60843e05"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "cockpit-bot",
-      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-22T12:40Z",
-      "sha": "04cb824",
-      "date": "2026-11-22T12:40:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/04cb8248e354de6a30b60abca34dd4cbaf6d3e3b"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-22 21:30",
-      "sha": "9ca83f0",
-      "date": "2026-11-22T12:40:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/9ca83f083303826c2b401f7797b8b91bbefc45ca"
     },
     {
       "type": "commit",
@@ -841,16 +851,6 @@
       "sha": "127d5ea",
       "date": "2026-11-19T23:52:44Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/127d5ea3d720d719252efde7bde2db42062faf22"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-34): 밈코인 발행 장기 계획 태스크 초기 설정",
-      "number": 152,
-      "state": "closed",
-      "date": "2026-11-17T10:14:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/152"
     },
     {
       "type": "pr",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "sfex11",
-      "commits": 6,
+      "commits": 7,
       "prs": 18,
       "issues": 0,
       "reviews": 0
