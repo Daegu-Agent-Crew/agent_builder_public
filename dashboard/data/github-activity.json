@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-23T23:22:05Z",
-  "since": "2026-10-24T23:21:32Z",
+  "generated": "2026-11-24T05:22:42Z",
+  "since": "2026-10-25T05:22:10Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-23T23:20:27Z",
+      "pushed_at": "2026-11-23T23:22:12Z",
       "recent_commits": [
+        {
+          "sha": "dbe6628",
+          "message": "data: update dashboard.json + github-activity.json (cron 11-24_08:22)",
+          "author": "daeguru",
+          "date": "2026-11-23T23:22:12Z"
+        },
         {
           "sha": "aea6ca0",
           "message": "three-body-daily: publish #023 인형 컴퓨터 (2026-11-24)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-23 14:20 KST)",
           "author": "daeguru",
           "date": "2026-11-23T05:22:25Z"
-        },
-        {
-          "sha": "b4726cd",
-          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-23 11:20 KST cron)",
-          "author": "daeguru",
-          "date": "2026-11-23T02:22:54Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,26 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-23T23:03:42Z",
+      "pushed_at": "2026-11-24T05:04:13Z",
       "recent_commits": [
+        {
+          "sha": "c54c79d",
+          "message": "📚 2026-11-24: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-24T05:04:08Z"
+        },
+        {
+          "sha": "2831f93",
+          "message": "🔮 2026-11-24 미래예측 그림책 + 도장 찍는 저녁 팀 캐릭터 시트",
+          "author": "Renover",
+          "date": "2026-11-24T00:08:45Z"
+        },
+        {
+          "sha": "76e484b",
+          "message": "🖼️ 2026-11-24 뉴스 그림책",
+          "author": "Renover",
+          "date": "2026-11-23T23:45:51Z"
+        },
         {
           "sha": "233a568",
           "message": "📰 2026-11-24: 뉴스 수집 (4건)",
@@ -140,24 +158,6 @@
           "message": "📝 2026-11-23 저녁 브리핑 + 그림책",
           "author": "Renover",
           "date": "2026-11-23T12:47:18Z"
-        },
-        {
-          "sha": "c5a6d53",
-          "message": "📚 2026-11-23: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-11-23T05:02:32Z"
-        },
-        {
-          "sha": "ee4dd09",
-          "message": "Improve forecast comic explanatory captions",
-          "author": "Renover",
-          "date": "2026-11-23T02:34:48Z"
-        },
-        {
-          "sha": "5d3d046",
-          "message": "🔮 2026-11-23 미래예측 그림책 + 눈금 감독관 캐릭터 시트",
-          "author": "sfex11",
-          "date": "2026-11-22T23:54:39Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,26 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-23T23:00:15Z",
+      "pushed_at": "2026-11-24T03:34:53Z",
       "recent_commits": [
+        {
+          "sha": "a3708ae",
+          "message": "board: daeguru2 ACK — 11-23 비평(9승·중계 오류 절차 개선) 👍",
+          "author": "daeguru",
+          "date": "2026-11-24T03:34:53Z"
+        },
+        {
+          "sha": "1a4c9b7",
+          "message": "log: Jev 게이트 판정 기록 2026-11-24",
+          "author": "대구루 (AI)",
+          "date": "2026-11-24T03:33:48Z"
+        },
+        {
+          "sha": "175708f",
+          "message": "wake: FB-20261124-01 daeguru2 기상 기록",
+          "author": "대구루 (AI)",
+          "date": "2026-11-24T03:33:48Z"
+        },
         {
           "sha": "40dd898",
           "message": "feed: FB-20261124-01 대구루 경기 비평 11-23 판(중계 오류 3회째 절차 개선 긴급)",
@@ -491,24 +509,6 @@
           "message": "log: Jev 게이트 판정 기록 2026-11-24",
           "author": "daeguru",
           "date": "2026-11-23T21:37:52Z"
-        },
-        {
-          "sha": "7d0bcdc",
-          "message": "log: Jev 게이트 판정 기록 2026-11-24",
-          "author": "daeguru",
-          "date": "2026-11-23T21:37:38Z"
-        },
-        {
-          "sha": "7f1b41b",
-          "message": "log: Jev 게이트 판정 기록 2026-11-24",
-          "author": "daeguru",
-          "date": "2026-11-23T15:32:41Z"
-        },
-        {
-          "sha": "efa9aea",
-          "message": "log: Jev 게이트 판정 기록 2026-11-23",
-          "author": "daeguru",
-          "date": "2026-11-23T09:33:22Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,69 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-24: 위키 갱신 (2개)",
+      "sha": "c54c79d",
+      "date": "2026-11-24T05:04:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c54c79d365e0a01fac9e13f3017f4c68e6588aa8"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 11-23 비평(9승·중계 오류 절차 개선) 👍",
+      "sha": "a3708ae",
+      "date": "2026-11-24T03:34:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a3708ae95503b406ac73e700a0690a148b2ec816"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "wake: FB-20261124-01 daeguru2 기상 기록",
+      "sha": "175708f",
+      "date": "2026-11-24T03:33:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/175708f65ee4c7be3fb711b4bc9eabe6f0bf8074"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "log: Jev 게이트 판정 기록 2026-11-24",
+      "sha": "1a4c9b7",
+      "date": "2026-11-24T03:33:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1a4c9b7b0f1e2d8b1a3f49a9bcf6a6bda03733b5"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🔮 2026-11-24 미래예측 그림책 + 도장 찍는 저녁 팀 캐릭터 시트",
+      "sha": "2831f93",
+      "date": "2026-11-24T00:08:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2831f932ddf1677ee105eaf06083a8c13bc29b6b"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🖼️ 2026-11-24 뉴스 그림책",
+      "sha": "76e484b",
+      "date": "2026-11-23T23:45:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/76e484b1616cbb786435b847f2530776b8bd01aa"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "data: update dashboard.json + github-activity.json (cron 11-24_08:22)",
+      "sha": "dbe6628",
+      "date": "2026-11-23T23:22:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dbe66287fbfc209b234fc408b0fc376710c35cdd"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "three-body-daily: publish #023 인형 컴퓨터 (2026-11-24)",
@@ -654,30 +717,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-24",
-      "sha": "7d0bcdc",
-      "date": "2026-11-23T21:37:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7d0bcdcb1e11f6b0704033aa9f3985a2391df589"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-24)",
       "sha": "6cf12ef",
       "date": "2026-11-23T17:23:24Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6cf12ef48d311e405fc88146f303b13f13bed14e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-24",
-      "sha": "7f1b41b",
-      "date": "2026-11-23T15:32:41Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7f1b41b73bd1695aac303fd19044dd588bab674e"
     },
     {
       "type": "commit",
@@ -717,15 +762,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-23",
-      "sha": "efa9aea",
-      "date": "2026-11-23T09:33:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/efa9aea1f23ffcf57ec99467c38288ca3480e37a"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json (2026-11-23 14:20 KST)",
@@ -735,48 +771,12 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-11-23: 위키 갱신 (2개)",
-      "sha": "c5a6d53",
-      "date": "2026-11-23T05:02:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c5a6d53bc0afbad1b37e4fc4e4a3372756c86b63"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "Improve forecast comic explanatory captions",
-      "sha": "ee4dd09",
-      "date": "2026-11-23T02:34:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ee4dd093a699d30bb345e21936ecdf553645f632"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-23 11:20 KST cron)",
-      "sha": "b4726cd",
-      "date": "2026-11-23T02:22:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b4726cdf9d01570ca04fea5f690c6e2770eb918f"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "feat(daeguru): 2026-W48 자율 개선 — 워크스페이스 스냅샷+검증 게이트·비평 채택, improvements 이력 갱신(W46-W48)",
       "sha": "daba1d4",
       "date": "2026-11-23T01:15:37Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/daba1d49f0c8691bb938bb3cd861a0cd5592b2d3"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "sfex11",
-      "message": "🔮 2026-11-23 미래예측 그림책 + 눈금 감독관 캐릭터 시트",
-      "sha": "5d3d046",
-      "date": "2026-11-22T23:54:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5d3d046eb5d7d23c8b92479d15b6af3bc5d89866"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 19,
+      "commits": 17,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 7,
+      "commits": 6,
       "prs": 18,
       "issues": 0,
       "reviews": 0
