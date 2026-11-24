@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24T08:22:34Z",
-  "since": "2026-10-25T08:22:02Z",
+  "generated": "2026-11-24T11:22:26Z",
+  "since": "2026-10-25T11:21:51Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-24T05:22:58Z",
+      "pushed_at": "2026-11-24T08:23:19Z",
       "recent_commits": [
+        {
+          "sha": "912175f",
+          "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 17:20 KST)",
+          "author": "daeguru",
+          "date": "2026-11-24T08:23:15Z"
+        },
         {
           "sha": "91f5193",
           "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 14:20 KST)",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-24)",
           "author": "daeguru",
           "date": "2026-11-23T17:23:24Z"
-        },
-        {
-          "sha": "69dff42",
-          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-23 20:20 KST cron)",
-          "author": "daeguru",
-          "date": "2026-11-23T11:22:28Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,14 @@
       "open_issues": 22,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-24T05:47:29Z",
+      "pushed_at": "2026-11-24T09:19:50Z",
       "recent_commits": [
+        {
+          "sha": "269c4ef",
+          "message": "hackathon(s2): 11 캐리 탐사기 착수 — GATES 사전작성 + 68일 데이터 경량화",
+          "author": "daeguru",
+          "date": "2026-11-24T09:19:48Z"
+        },
         {
           "sha": "0b07ea5",
           "message": "docs(hackathon): 10 GATES ALL MET — 시즌2 1차 제출 인정",
@@ -233,12 +239,6 @@
           "message": "data(arena): 공식 경기 2026-11-23 21:30",
           "author": "daeguru",
           "date": "2026-11-23T12:40:13Z"
-        },
-        {
-          "sha": "daba1d4",
-          "message": "feat(daeguru): 2026-W48 자율 개선 — 워크스페이스 스냅샷+검증 게이트·비평 채택, improvements 이력 갱신(W46-W48)",
-          "author": "daeguru",
-          "date": "2026-11-23T01:15:37Z"
         }
       ],
       "recent_prs": [
@@ -478,37 +478,37 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-24T05:44:02Z",
+      "pushed_at": "2026-11-24T09:46:01Z",
       "recent_commits": [
         {
-          "sha": "be098e8",
-          "message": "board: 해커톤 시즌2 1차 라운드 개시 — 오늘 18:00 마감",
+          "sha": "b5d34dd",
+          "message": "board: daeguru2 ACK — 시즌2 1차 개시 공지(지연 기상분) 👍",
           "author": "daeguru",
-          "date": "2026-11-24T05:44:03Z"
+          "date": "2026-11-24T09:45:58Z"
         },
         {
-          "sha": "a3708ae",
-          "message": "board: daeguru2 ACK — 11-23 비평(9승·중계 오류 절차 개선) 👍",
-          "author": "daeguru",
-          "date": "2026-11-24T03:34:53Z"
-        },
-        {
-          "sha": "1a4c9b7",
+          "sha": "30cbb71",
           "message": "log: Jev 게이트 판정 기록 2026-11-24",
-          "author": "대구루 (AI)",
-          "date": "2026-11-24T03:33:48Z"
-        },
-        {
-          "sha": "175708f",
-          "message": "wake: FB-20261124-01 daeguru2 기상 기록",
-          "author": "대구루 (AI)",
-          "date": "2026-11-24T03:33:48Z"
-        },
-        {
-          "sha": "40dd898",
-          "message": "feed: FB-20261124-01 대구루 경기 비평 11-23 판(중계 오류 3회째 절차 개선 긴급)",
           "author": "daeguru",
-          "date": "2026-11-23T23:00:16Z"
+          "date": "2026-11-24T09:44:50Z"
+        },
+        {
+          "sha": "7745c82",
+          "message": "wake: FB-20261124-02 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-24T09:44:50Z"
+        },
+        {
+          "sha": "9eb3068",
+          "message": "board: FB-20261124-03R 대구루2 시즌2 1차 회고 + 11-25 출사표(펀딩 캐리 탐사기)",
+          "author": "daeguru",
+          "date": "2026-11-24T09:19:16Z"
+        },
+        {
+          "sha": "bbde716",
+          "message": "wake: FB-20261124-03 daeguru2 기상 기록(직접 발송)",
+          "author": "daeguru",
+          "date": "2026-11-24T09:13:18Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,69 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 시즌2 1차 개시 공지(지연 기상분) 👍",
+      "sha": "b5d34dd",
+      "date": "2026-11-24T09:45:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b5d34dd88c270287d2d9562c0d453c1bd19ee539"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261124-02 daeguru2 기상 기록",
+      "sha": "7745c82",
+      "date": "2026-11-24T09:44:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7745c82461dd20ea5a8d3ba2e76234d781f6d359"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-24",
+      "sha": "30cbb71",
+      "date": "2026-11-24T09:44:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/30cbb71abb3288a6891e0e6f39ee7142344e89a9"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "hackathon(s2): 11 캐리 탐사기 착수 — GATES 사전작성 + 68일 데이터 경량화",
+      "sha": "269c4ef",
+      "date": "2026-11-24T09:19:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/269c4ef8f17c49f22aa25212ea280964214ea390"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: FB-20261124-03R 대구루2 시즌2 1차 회고 + 11-25 출사표(펀딩 캐리 탐사기)",
+      "sha": "9eb3068",
+      "date": "2026-11-24T09:19:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9eb3068c5972834756966ffa27c1570c95153ecf"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261124-03 daeguru2 기상 기록(직접 발송)",
+      "sha": "bbde716",
+      "date": "2026-11-24T09:13:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bbde7169701798897ff135ac13ed3aa0de9282aa"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 17:20 KST)",
+      "sha": "912175f",
+      "date": "2026-11-24T08:23:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/912175f4d733fc5e4a6516abe736c34bac68c468"
+    },
+    {
+      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "docs(hackathon): 10 GATES ALL MET — 시즌2 1차 제출 인정",
@@ -637,15 +700,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: 해커톤 시즌2 1차 라운드 개시 — 오늘 18:00 마감",
-      "sha": "be098e8",
-      "date": "2026-11-24T05:44:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/be098e830d8d248222120b723d5986a997028291"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 14:20 KST)",
@@ -661,33 +715,6 @@
       "sha": "c54c79d",
       "date": "2026-11-24T05:04:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c54c79d365e0a01fac9e13f3017f4c68e6588aa8"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 11-23 비평(9승·중계 오류 절차 개선) 👍",
-      "sha": "a3708ae",
-      "date": "2026-11-24T03:34:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a3708ae95503b406ac73e700a0690a148b2ec816"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "wake: FB-20261124-01 daeguru2 기상 기록",
-      "sha": "175708f",
-      "date": "2026-11-24T03:33:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/175708f65ee4c7be3fb711b4bc9eabe6f0bf8074"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "log: Jev 게이트 판정 기록 2026-11-24",
-      "sha": "1a4c9b7",
-      "date": "2026-11-24T03:33:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/1a4c9b7b0f1e2d8b1a3f49a9bcf6a6bda03733b5"
     },
     {
       "type": "commit",
@@ -745,15 +772,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20261124-01 대구루 경기 비평 11-23 판(중계 오류 3회째 절차 개선 긴급)",
-      "sha": "40dd898",
-      "date": "2026-11-23T23:00:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/40dd898215a657706f346faa6c21b9ea1db70b8e"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-24)",
@@ -787,24 +805,6 @@
       "sha": "8e525ff",
       "date": "2026-11-23T12:40:13Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/8e525ff745189487dbaa6069b6ae790c8a0b7d49"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-23 20:20 KST cron)",
-      "sha": "69dff42",
-      "date": "2026-11-23T11:22:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/69dff42f4cdaa9072cc67c45974fc007cdc9cc5f"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "feat(daeguru): 2026-W48 자율 개선 — 워크스페이스 스냅샷+검증 게이트·비평 채택, improvements 이력 갱신(W46-W48)",
-      "sha": "daba1d4",
-      "date": "2026-11-23T01:15:37Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/daba1d49f0c8691bb938bb3cd861a0cd5592b2d3"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 19,
       "prs": 0,
       "issues": 0,
       "reviews": 0
