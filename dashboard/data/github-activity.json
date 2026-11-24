@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24T11:22:26Z",
-  "since": "2026-10-25T11:21:51Z",
+  "generated": "2026-11-24T14:23:15Z",
+  "since": "2026-10-25T14:22:41Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-24T08:23:19Z",
+      "pushed_at": "2026-11-24T11:22:44Z",
       "recent_commits": [
+        {
+          "sha": "583adbe",
+          "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 20:25 KST)",
+          "author": "daeguru",
+          "date": "2026-11-24T11:22:42Z"
+        },
         {
           "sha": "912175f",
           "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 17:20 KST)",
@@ -85,12 +91,6 @@
           "message": "three-body-daily: publish #023 인형 컴퓨터 (2026-11-24)",
           "author": "daeguru",
           "date": "2026-11-23T23:20:13Z"
-        },
-        {
-          "sha": "6cf12ef",
-          "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-24)",
-          "author": "daeguru",
-          "date": "2026-11-23T17:23:24Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-24T05:04:13Z",
+      "pushed_at": "2026-11-24T12:46:34Z",
       "recent_commits": [
+        {
+          "sha": "1c60fa1",
+          "message": "📝 2026-11-24 저녁 브리핑 + 그림책",
+          "author": "Renover",
+          "date": "2026-11-24T12:46:04Z"
+        },
         {
           "sha": "c54c79d",
           "message": "📚 2026-11-24: 위키 갱신 (2개)",
@@ -152,12 +158,6 @@
           "message": "📰 2026-11-24: 뉴스 수집 (4건)",
           "author": "Renover",
           "date": "2026-11-23T23:03:39Z"
-        },
-        {
-          "sha": "d7abf03",
-          "message": "📝 2026-11-23 저녁 브리핑 + 그림책",
-          "author": "Renover",
-          "date": "2026-11-23T12:47:18Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,20 @@
       "open_issues": 22,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-24T09:19:50Z",
+      "pushed_at": "2026-11-24T12:44:06Z",
       "recent_commits": [
+        {
+          "sha": "df033d4",
+          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-24T12:44Z",
+          "author": "cockpit-bot",
+          "date": "2026-11-24T12:44:04Z"
+        },
+        {
+          "sha": "7057d8c",
+          "message": "data(arena): 공식 경기 2026-11-24 21:30",
+          "author": "daeguru",
+          "date": "2026-11-24T12:43:51Z"
+        },
         {
           "sha": "269c4ef",
           "message": "hackathon(s2): 11 캐리 탐사기 착수 — GATES 사전작성 + 68일 데이터 경량화",
@@ -227,18 +239,6 @@
           "message": "feat(hackathon): 시즌2 1차 출품 — 10 아레나 리플레이 뷰어 (View Transitions API) (#159)",
           "author": "sfex11",
           "date": "2026-11-24T05:45:40Z"
-        },
-        {
-          "sha": "f7eef2e",
-          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-23T12:40Z",
-          "author": "cockpit-bot",
-          "date": "2026-11-23T12:40:22Z"
-        },
-        {
-          "sha": "8e525ff",
-          "message": "data(arena): 공식 경기 2026-11-23 21:30",
-          "author": "daeguru",
-          "date": "2026-11-23T12:40:13Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-24T09:46:01Z",
+      "pushed_at": "2026-11-24T12:46:19Z",
       "recent_commits": [
+        {
+          "sha": "5feeb58",
+          "message": "board: FB-20261124-05 후속 점검 — 대구루2 응답 확보·라이카 재기상 대기 + daeguru ACK FB-04 👀",
+          "author": "daeguru",
+          "date": "2026-11-24T12:46:18Z"
+        },
         {
           "sha": "b5d34dd",
           "message": "board: daeguru2 ACK — 시즌2 1차 개시 공지(지연 기상분) 👍",
@@ -503,12 +509,6 @@
           "message": "board: FB-20261124-03R 대구루2 시즌2 1차 회고 + 11-25 출사표(펀딩 캐리 탐사기)",
           "author": "daeguru",
           "date": "2026-11-24T09:19:16Z"
-        },
-        {
-          "sha": "bbde716",
-          "message": "wake: FB-20261124-03 daeguru2 기상 기록(직접 발송)",
-          "author": "daeguru",
-          "date": "2026-11-24T09:13:18Z"
         }
       ],
       "recent_prs": [
@@ -611,6 +611,51 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
+      "message": "board: FB-20261124-05 후속 점검 — 대구루2 응답 확보·라이카 재기상 대기 + daeguru ACK FB-04 👀",
+      "sha": "5feeb58",
+      "date": "2026-11-24T12:46:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5feeb586cf6f71482fcc8a65dc8f781d9c6b2c13"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📝 2026-11-24 저녁 브리핑 + 그림책",
+      "sha": "1c60fa1",
+      "date": "2026-11-24T12:46:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/1c60fa1f690e10d55a1fefce7da24189782b872d"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "cockpit-bot",
+      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-24T12:44Z",
+      "sha": "df033d4",
+      "date": "2026-11-24T12:44:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/df033d4830666b2d03451e1f1f6091cad6476ab7"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-24 21:30",
+      "sha": "7057d8c",
+      "date": "2026-11-24T12:43:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/7057d8c7886daa19915aaf8752dc9e0d83445bc5"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 20:25 KST)",
+      "sha": "583adbe",
+      "date": "2026-11-24T11:22:42Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/583adbef472a9881686dd93ebde6d7b8d3b15a27"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
       "message": "board: daeguru2 ACK — 시즌2 1차 개시 공지(지연 기상분) 👍",
       "sha": "b5d34dd",
       "date": "2026-11-24T09:45:58Z",
@@ -651,15 +696,6 @@
       "sha": "9eb3068",
       "date": "2026-11-24T09:19:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9eb3068c5972834756966ffa27c1570c95153ecf"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261124-03 daeguru2 기상 기록(직접 발송)",
-      "sha": "bbde716",
-      "date": "2026-11-24T09:13:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bbde7169701798897ff135ac13ed3aa0de9282aa"
     },
     {
       "type": "commit",
@@ -769,42 +805,6 @@
       "sha": "233a568",
       "date": "2026-11-23T23:03:39Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/233a5686fff07c84c376197c98fd2012b72dcea1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-24)",
-      "sha": "6cf12ef",
-      "date": "2026-11-23T17:23:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6cf12ef48d311e405fc88146f303b13f13bed14e"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📝 2026-11-23 저녁 브리핑 + 그림책",
-      "sha": "d7abf03",
-      "date": "2026-11-23T12:47:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/d7abf0388ed39d7740541400ea1e81851d41efc6"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "cockpit-bot",
-      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-23T12:40Z",
-      "sha": "f7eef2e",
-      "date": "2026-11-23T12:40:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/f7eef2ec11cb8906d784fbc9a089a8887debf34b"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-23 21:30",
-      "sha": "8e525ff",
-      "date": "2026-11-23T12:40:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/8e525ff745189487dbaa6069b6ae790c8a0b7d49"
     },
     {
       "type": "commit",
