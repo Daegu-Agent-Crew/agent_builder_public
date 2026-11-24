@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24T14:23:15Z",
-  "since": "2026-10-25T14:22:41Z",
+  "generated": "2026-11-24T17:22:23Z",
+  "since": "2026-10-25T17:21:48Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-24T11:22:44Z",
+      "pushed_at": "2026-11-24T14:23:31Z",
       "recent_commits": [
+        {
+          "sha": "8aeab2d",
+          "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 23:23 KST)",
+          "author": "daeguru",
+          "date": "2026-11-24T14:23:29Z"
+        },
         {
           "sha": "583adbe",
           "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 20:25 KST)",
@@ -85,12 +91,6 @@
           "message": "data: update dashboard.json + github-activity.json (cron 11-24_08:22)",
           "author": "daeguru",
           "date": "2026-11-23T23:22:12Z"
-        },
-        {
-          "sha": "aea6ca0",
-          "message": "three-body-daily: publish #023 인형 컴퓨터 (2026-11-24)",
-          "author": "daeguru",
-          "date": "2026-11-23T23:20:13Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-24T12:46:19Z",
+      "pushed_at": "2026-11-24T15:36:08Z",
       "recent_commits": [
+        {
+          "sha": "9451b91",
+          "message": "log: Jev 게이트 판정 기록 2026-11-25",
+          "author": "daeguru",
+          "date": "2026-11-24T15:35:50Z"
+        },
         {
           "sha": "5feeb58",
           "message": "board: FB-20261124-05 후속 점검 — 대구루2 응답 확보·라이카 재기상 대기 + daeguru ACK FB-04 👀",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261124-02 daeguru2 기상 기록",
           "author": "daeguru",
           "date": "2026-11-24T09:44:50Z"
-        },
-        {
-          "sha": "9eb3068",
-          "message": "board: FB-20261124-03R 대구루2 시즌2 1차 회고 + 11-25 출사표(펀딩 캐리 탐사기)",
-          "author": "daeguru",
-          "date": "2026-11-24T09:19:16Z"
         }
       ],
       "recent_prs": [
@@ -517,7 +517,7 @@
           "title": "fix: patterns-index 충돌 표시 720개 해소 + 검사 게이트 (이슈 #32)",
           "author": "sfex11",
           "state": "open",
-          "updated_at": "2026-11-17T07:31:40Z",
+          "updated_at": "2026-11-24T15:36:09Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/33"
         },
         {
@@ -525,16 +525,16 @@
           "title": "docs(agents-board): 라이카 온보딩 + next_id 버그 리포트 (AB-0006, AB-0007)",
           "author": "sfex11",
           "state": "open",
-          "updated_at": "2026-09-23T11:17:44Z",
+          "updated_at": "2026-11-24T15:36:09Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/19"
         },
         {
-          "number": 28,
-          "title": "CLE2-27 Phase 3: Jev 판단 게이트 (스캐너 확장)",
+          "number": 13,
+          "title": "feat: 문제해결 전략 패턴 P-01~P-08 추가 (리만 제타 사례)",
           "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-09-22T01:18:11Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/28"
+          "state": "open",
+          "updated_at": "2026-11-24T15:36:09Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/13"
         }
       ]
     },
@@ -607,6 +607,54 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "feat: 문제해결 전략 패턴 P-01~P-08 추가 (리만 제타 사례)",
+      "number": 13,
+      "state": "open",
+      "date": "2026-11-24T15:36:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/13"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "docs(agents-board): 라이카 온보딩 + next_id 버그 리포트 (AB-0006, AB-0007)",
+      "number": 19,
+      "state": "open",
+      "date": "2026-11-24T15:36:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/19"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "fix: patterns-index 충돌 표시 720개 해소 + 검사 게이트 (이슈 #32)",
+      "number": 33,
+      "state": "open",
+      "date": "2026-11-24T15:36:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/33"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-25",
+      "sha": "9451b91",
+      "date": "2026-11-24T15:35:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9451b912af06a67d1a0be296e2c0865d9ada16a7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 23:23 KST)",
+      "sha": "8aeab2d",
+      "date": "2026-11-24T14:23:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8aeab2dc7b9ddc844164e99c29bbb9b9b2377e45"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -687,15 +735,6 @@
       "sha": "269c4ef",
       "date": "2026-11-24T09:19:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/269c4ef8f17c49f22aa25212ea280964214ea390"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: FB-20261124-03R 대구루2 시즌2 1차 회고 + 11-25 출사표(펀딩 캐리 탐사기)",
-      "sha": "9eb3068",
-      "date": "2026-11-24T09:19:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9eb3068c5972834756966ffa27c1570c95153ecf"
     },
     {
       "type": "commit",
@@ -781,15 +820,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "three-body-daily: publish #023 인형 컴퓨터 (2026-11-24)",
-      "sha": "aea6ca0",
-      "date": "2026-11-23T23:20:13Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/aea6ca01625495e174be0bb9844db9d2f79fe795"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "daily: three-body-daily-023 — 삼체 게임 #2 인형 컴퓨터",
@@ -861,36 +891,6 @@
       "state": "closed",
       "date": "2026-11-17T10:14:28Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/154"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "fix: patterns-index 충돌 표시 720개 해소 + 검사 게이트 (이슈 #32)",
-      "number": 33,
-      "state": "open",
-      "date": "2026-11-17T07:31:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/33"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs(agents-board): 라이카 온보딩 + next_id 버그 리포트 (AB-0006, AB-0007)",
-      "number": 19,
-      "state": "open",
-      "date": "2026-09-23T11:17:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/19"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "CLE2-27 Phase 3: Jev 판단 게이트 (스캐너 확장)",
-      "number": 28,
-      "state": "closed",
-      "date": "2026-09-22T01:18:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/28"
     },
     {
       "type": "pr",
