@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24T17:22:23Z",
-  "since": "2026-10-25T17:21:48Z",
+  "generated": "2026-11-24T23:22:12Z",
+  "since": "2026-10-25T23:21:40Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-24T14:23:31Z",
+      "pushed_at": "2026-11-24T22:23:50Z",
       "recent_commits": [
+        {
+          "sha": "068db3c",
+          "message": "말풍선 생성 반영 B안 테스트 — 우주 전쟁 6칸",
+          "author": "daeguru",
+          "date": "2026-11-24T22:23:22Z"
+        },
+        {
+          "sha": "c8e62f2",
+          "message": "dashboard: update dashboard.json and github-activity 2026-11-25 02:2x",
+          "author": "daeguru",
+          "date": "2026-11-24T17:22:38Z"
+        },
         {
           "sha": "8aeab2d",
           "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 23:23 KST)",
@@ -79,18 +91,6 @@
           "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 17:20 KST)",
           "author": "daeguru",
           "date": "2026-11-24T08:23:15Z"
-        },
-        {
-          "sha": "91f5193",
-          "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 14:20 KST)",
-          "author": "daeguru",
-          "date": "2026-11-24T05:22:57Z"
-        },
-        {
-          "sha": "dbe6628",
-          "message": "data: update dashboard.json + github-activity.json (cron 11-24_08:22)",
-          "author": "daeguru",
-          "date": "2026-11-23T23:22:12Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-24T12:46:34Z",
+      "pushed_at": "2026-11-24T23:06:49Z",
       "recent_commits": [
+        {
+          "sha": "75840ac",
+          "message": "📰 2026-11-25: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-11-24T23:06:46Z"
+        },
         {
           "sha": "1c60fa1",
           "message": "📝 2026-11-24 저녁 브리핑 + 그림책",
@@ -152,12 +158,6 @@
           "message": "🖼️ 2026-11-24 뉴스 그림책",
           "author": "Renover",
           "date": "2026-11-23T23:45:51Z"
-        },
-        {
-          "sha": "233a568",
-          "message": "📰 2026-11-24: 뉴스 수집 (4건)",
-          "author": "Renover",
-          "date": "2026-11-23T23:03:39Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,20 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-24T15:36:08Z",
+      "pushed_at": "2026-11-24T23:01:01Z",
       "recent_commits": [
+        {
+          "sha": "360e127",
+          "message": "feed: FB-20261125-01 대구루 경기 비평 11-24 판(라이카 5승·중계 정상 복귀)",
+          "author": "daeguru",
+          "date": "2026-11-24T23:00:59Z"
+        },
+        {
+          "sha": "f5aac01",
+          "message": "log: Jev 게이트 판정 기록 2026-11-25",
+          "author": "daeguru",
+          "date": "2026-11-24T21:38:49Z"
+        },
         {
           "sha": "9451b91",
           "message": "log: Jev 게이트 판정 기록 2026-11-25",
@@ -497,18 +509,6 @@
           "message": "board: daeguru2 ACK — 시즌2 1차 개시 공지(지연 기상분) 👍",
           "author": "daeguru",
           "date": "2026-11-24T09:45:58Z"
-        },
-        {
-          "sha": "30cbb71",
-          "message": "log: Jev 게이트 판정 기록 2026-11-24",
-          "author": "daeguru",
-          "date": "2026-11-24T09:44:50Z"
-        },
-        {
-          "sha": "7745c82",
-          "message": "wake: FB-20261124-02 daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-11-24T09:44:50Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,51 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-11-25: 뉴스 수집 (5건)",
+      "sha": "75840ac",
+      "date": "2026-11-24T23:06:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/75840acabb6d76cbefcc52ab72721326a346d7f9"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261125-01 대구루 경기 비평 11-24 판(라이카 5승·중계 정상 복귀)",
+      "sha": "360e127",
+      "date": "2026-11-24T23:00:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/360e127de10b7eea246b97fb96d68784ab26a27e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "말풍선 생성 반영 B안 테스트 — 우주 전쟁 6칸",
+      "sha": "068db3c",
+      "date": "2026-11-24T22:23:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/068db3c475f97e9d9f24d80f9bb83d9cc54e87b2"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-25",
+      "sha": "f5aac01",
+      "date": "2026-11-24T21:38:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f5aac0147611045257a822fe0c893da94a33c198"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity 2026-11-25 02:2x",
+      "sha": "c8e62f2",
+      "date": "2026-11-24T17:22:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/c8e62f23916e277ef7a15be8eb1905c69b91ec21"
+    },
     {
       "type": "pr",
       "repo": "team-memory",
@@ -711,24 +756,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261124-02 daeguru2 기상 기록",
-      "sha": "7745c82",
-      "date": "2026-11-24T09:44:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7745c82461dd20ea5a8d3ba2e76234d781f6d359"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-24",
-      "sha": "30cbb71",
-      "date": "2026-11-24T09:44:50Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/30cbb71abb3288a6891e0e6f39ee7142344e89a9"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "hackathon(s2): 11 캐리 탐사기 착수 — GATES 사전작성 + 68일 데이터 경량화",
@@ -775,15 +802,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 14:20 KST)",
-      "sha": "91f5193",
-      "date": "2026-11-24T05:22:57Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/91f51936b04663076771a679f8b0455f7594d047"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-11-24: 위키 갱신 (2개)",
@@ -811,30 +829,12 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "data: update dashboard.json + github-activity.json (cron 11-24_08:22)",
-      "sha": "dbe6628",
-      "date": "2026-11-23T23:22:12Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/dbe66287fbfc209b234fc408b0fc376710c35cdd"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "daily: three-body-daily-023 — 삼체 게임 #2 인형 컴퓨터",
       "sha": "4d56b82",
       "date": "2026-11-23T23:20:00Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/4d56b82bacf6d39704925e4ba90430babf087459"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-11-24: 뉴스 수집 (4건)",
-      "sha": "233a568",
-      "date": "2026-11-23T23:03:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/233a5686fff07c84c376197c98fd2012b72dcea1"
     },
     {
       "type": "commit",
