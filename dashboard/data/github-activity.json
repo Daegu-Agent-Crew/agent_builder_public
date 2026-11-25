@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-25T06:06:20Z",
-  "since": "2026-10-26T06:05:34Z",
+  "generated": "2026-11-25T08:23:44Z",
+  "since": "2026-10-26T08:23:09Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-25T05:23:15Z",
+      "pushed_at": "2026-11-25T06:06:23Z",
       "recent_commits": [
+        {
+          "sha": "b20919f",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-25T06:06:20Z)",
+          "author": "daeguru",
+          "date": "2026-11-25T06:06:20Z"
+        },
         {
           "sha": "9e9838f",
           "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-25 14:22 KST cron)",
@@ -85,12 +91,6 @@
           "message": "three-body-daily: #024 현재선 대사 등장 — 과학의 경계 봉인",
           "author": "daeguru",
           "date": "2026-11-24T23:23:02Z"
-        },
-        {
-          "sha": "068db3c",
-          "message": "말풍선 생성 반영 B안 테스트 — 우주 전쟁 6칸",
-          "author": "daeguru",
-          "date": "2026-11-24T22:23:22Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,20 @@
       "open_issues": 22,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-24T12:44:06Z",
+      "pushed_at": "2026-11-25T06:20:34Z",
       "recent_commits": [
+        {
+          "sha": "335c0c3",
+          "message": "hackathon(s2): 11 탐사기 제출 완성 — GATES 4 MET·RESEARCH·허브 카드",
+          "author": "daeguru",
+          "date": "2026-11-25T06:20:31Z"
+        },
+        {
+          "sha": "933bf72",
+          "message": "hackathon(s2): 출품작 11 펀딩 캐리 탐사기 — 68일 인터랙티브 탐사 (G3 로컬 L2 통과)",
+          "author": "daeguru",
+          "date": "2026-11-25T06:17:01Z"
+        },
         {
           "sha": "df033d4",
           "message": "data(daeguru): cockpit standings auto-refresh 2026-11-24T12:44Z",
@@ -227,18 +239,6 @@
           "message": "hackathon(s2): 11 캐리 탐사기 착수 — GATES 사전작성 + 68일 데이터 경량화",
           "author": "daeguru",
           "date": "2026-11-24T09:19:48Z"
-        },
-        {
-          "sha": "0b07ea5",
-          "message": "docs(hackathon): 10 GATES ALL MET — 시즌2 1차 제출 인정",
-          "author": "daeguru",
-          "date": "2026-11-24T05:47:29Z"
-        },
-        {
-          "sha": "1ac5848",
-          "message": "feat(hackathon): 시즌2 1차 출품 — 10 아레나 리플레이 뷰어 (View Transitions API) (#159)",
-          "author": "sfex11",
-          "date": "2026-11-24T05:45:40Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-25T04:59:01Z",
+      "pushed_at": "2026-11-25T06:20:59Z",
       "recent_commits": [
+        {
+          "sha": "ea31a27",
+          "message": "board: FB-20261125-S2R1 대구루2 시즌2 1차 제출 (캐리 탐사기)",
+          "author": "daeguru",
+          "date": "2026-11-25T06:20:56Z"
+        },
         {
           "sha": "43bffe2",
           "message": "finding: 라이카 아레나 일일 연구 2026-11-25",
@@ -503,12 +509,6 @@
           "message": "board: daeguru2 ACK — 11-24 경기 비평(라이카 5승) 👍",
           "author": "daeguru",
           "date": "2026-11-25T03:43:19Z"
-        },
-        {
-          "sha": "28f8f55",
-          "message": "log: Jev 게이트 판정 기록 2026-11-25",
-          "author": "daeguru",
-          "date": "2026-11-25T03:41:06Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: FB-20261125-S2R1 대구루2 시즌2 1차 제출 (캐리 탐사기)",
+      "sha": "ea31a27",
+      "date": "2026-11-25T06:20:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ea31a2749885e820b8949d193af054c20c23a863"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "hackathon(s2): 11 탐사기 제출 완성 — GATES 4 MET·RESEARCH·허브 카드",
+      "sha": "335c0c3",
+      "date": "2026-11-25T06:20:31Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/335c0c3a31a1e9d294c7a96b750ac69f075e335c"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "hackathon(s2): 출품작 11 펀딩 캐리 탐사기 — 68일 인터랙티브 탐사 (G3 로컬 L2 통과)",
+      "sha": "933bf72",
+      "date": "2026-11-25T06:17:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/933bf721deab47c1e03f0043d5b00cee80c9719e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-25T06:06:20Z)",
+      "sha": "b20919f",
+      "date": "2026-11-25T06:06:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b20919f16a7c92eefd498b94139f3e10b795ba59"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-25 14:22 KST cron)",
@@ -660,15 +696,6 @@
       "sha": "c9bca7c",
       "date": "2026-11-25T03:43:19Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c9bca7c7efa5425e2ae2aa24c248eb5c809c2fdc"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-25",
-      "sha": "28f8f55",
-      "date": "2026-11-25T03:41:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/28f8f557b1362320ddedae2c3ca8bf22d7f80a6c"
     },
     {
       "type": "commit",
@@ -732,15 +759,6 @@
       "sha": "75840ac",
       "date": "2026-11-24T23:06:46Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/75840acabb6d76cbefcc52ab72721326a346d7f9"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "말풍선 생성 반영 B안 테스트 — 우주 전쟁 6칸",
-      "sha": "068db3c",
-      "date": "2026-11-24T22:23:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/068db3c475f97e9d9f24d80f9bb83d9cc54e87b2"
     },
     {
       "type": "pr",
@@ -809,15 +827,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/269c4ef8f17c49f22aa25212ea280964214ea390"
     },
     {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "docs(hackathon): 10 GATES ALL MET — 시즌2 1차 제출 인정",
-      "sha": "0b07ea5",
-      "date": "2026-11-24T05:47:29Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/0b07ea5b74e2bead52e0c59a0a0018fd5146cbcf"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -826,15 +835,6 @@
       "state": "closed",
       "date": "2026-11-24T05:45:43Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/159"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(hackathon): 시즌2 1차 출품 — 10 아레나 리플레이 뷰어 (View Transitions API) (#159)",
-      "sha": "1ac5848",
-      "date": "2026-11-24T05:45:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/1ac5848b4e41df5f2d9b18d407fabd1f3ce82d59"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 16,
+      "commits": 17,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 8,
+      "commits": 7,
       "prs": 18,
       "issues": 0,
       "reviews": 0
