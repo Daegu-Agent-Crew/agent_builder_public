@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24T23:22:12Z",
-  "since": "2026-10-25T23:21:40Z",
+  "generated": "2026-11-25T02:23:57Z",
+  "since": "2026-10-26T02:23:24Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-24T22:23:50Z",
+      "pushed_at": "2026-11-24T23:23:25Z",
       "recent_commits": [
+        {
+          "sha": "6b4718e",
+          "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-25 08:20 KST cron)",
+          "author": "daeguru",
+          "date": "2026-11-24T23:23:06Z"
+        },
+        {
+          "sha": "260aeb7",
+          "message": "three-body-daily: #024 현재선 대사 등장 — 과학의 경계 봉인",
+          "author": "daeguru",
+          "date": "2026-11-24T23:23:02Z"
+        },
         {
           "sha": "068db3c",
           "message": "말풍선 생성 반영 B안 테스트 — 우주 전쟁 6칸",
@@ -79,18 +91,6 @@
           "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 23:23 KST)",
           "author": "daeguru",
           "date": "2026-11-24T14:23:29Z"
-        },
-        {
-          "sha": "583adbe",
-          "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 20:25 KST)",
-          "author": "daeguru",
-          "date": "2026-11-24T11:22:42Z"
-        },
-        {
-          "sha": "912175f",
-          "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 17:20 KST)",
-          "author": "daeguru",
-          "date": "2026-11-24T08:23:15Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,20 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-24T23:06:49Z",
+      "pushed_at": "2026-11-25T00:00:46Z",
       "recent_commits": [
+        {
+          "sha": "61dde17",
+          "message": "🔮 2026-11-25 미래예측 그림책 + 여과망 수조 캐릭터 시트",
+          "author": "Renover",
+          "date": "2026-11-24T23:59:56Z"
+        },
+        {
+          "sha": "5356737",
+          "message": "🖼️ 2026-11-25 뉴스 그림책",
+          "author": "Renover",
+          "date": "2026-11-24T23:45:54Z"
+        },
         {
           "sha": "75840ac",
           "message": "📰 2026-11-25: 뉴스 수집 (5건)",
@@ -146,18 +158,6 @@
           "message": "📚 2026-11-24: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-11-24T05:04:08Z"
-        },
-        {
-          "sha": "2831f93",
-          "message": "🔮 2026-11-24 미래예측 그림책 + 도장 찍는 저녁 팀 캐릭터 시트",
-          "author": "Renover",
-          "date": "2026-11-24T00:08:45Z"
-        },
-        {
-          "sha": "76e484b",
-          "message": "🖼️ 2026-11-24 뉴스 그림책",
-          "author": "Renover",
-          "date": "2026-11-23T23:45:51Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,14 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-23T23:20:09Z",
+      "pushed_at": "2026-11-24T23:22:51Z",
       "recent_commits": [
+        {
+          "sha": "6e70bdf",
+          "message": "daily: three-body-daily-024 — 현재선 대사 등장, 과학의 경계 봉인",
+          "author": "daeguru",
+          "date": "2026-11-24T23:22:38Z"
+        },
         {
           "sha": "4d56b82",
           "message": "daily: three-body-daily-023 — 삼체 게임 #2 인형 컴퓨터",
@@ -570,12 +576,6 @@
           "message": "삼체 데일리 #20 현재선 개시 물리학자 자살 연쇄·삼체 게임 헬멧 — 후조판·게시 (08:2x 러너 완결)",
           "author": "daeguru",
           "date": "2026-11-20T23:25:06Z"
-        },
-        {
-          "sha": "127d5ea",
-          "message": "삼체 데일리 #19 태양 송신 실험 발행",
-          "author": "daeguru",
-          "date": "2026-11-19T23:52:44Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,51 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🔮 2026-11-25 미래예측 그림책 + 여과망 수조 캐릭터 시트",
+      "sha": "61dde17",
+      "date": "2026-11-24T23:59:56Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/61dde1750e394e5d4c52e203afa9da8485815703"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "🖼️ 2026-11-25 뉴스 그림책",
+      "sha": "5356737",
+      "date": "2026-11-24T23:45:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5356737ac3643b869d673ce3c54d425b9ce728f8"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-25 08:20 KST cron)",
+      "sha": "6b4718e",
+      "date": "2026-11-24T23:23:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6b4718ee10e4eb0dad8b9cbd1aaf66b3f7467679"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "three-body-daily: #024 현재선 대사 등장 — 과학의 경계 봉인",
+      "sha": "260aeb7",
+      "date": "2026-11-24T23:23:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/260aeb7c03a9480f6d82f2e3365f4a15527ebdec"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "daily: three-body-daily-024 — 현재선 대사 등장, 과학의 경계 봉인",
+      "sha": "6e70bdf",
+      "date": "2026-11-24T23:22:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/6e70bdfefe032bea382e1efbf266173c59ca9f04"
+    },
     {
       "type": "commit",
       "repo": "ai-agent-news",
@@ -738,15 +783,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 20:25 KST)",
-      "sha": "583adbe",
-      "date": "2026-11-24T11:22:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/583adbef472a9881686dd93ebde6d7b8d3b15a27"
-    },
-    {
-      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru2 ACK — 시즌2 1차 개시 공지(지연 기상분) 👍",
@@ -762,15 +798,6 @@
       "sha": "269c4ef",
       "date": "2026-11-24T09:19:48Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/269c4ef8f17c49f22aa25212ea280964214ea390"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json & github-activity.json (2026-11-24 17:20 KST)",
-      "sha": "912175f",
-      "date": "2026-11-24T08:23:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/912175f4d733fc5e4a6516abe736c34bac68c468"
     },
     {
       "type": "commit",
@@ -808,24 +835,6 @@
       "sha": "c54c79d",
       "date": "2026-11-24T05:04:08Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c54c79d365e0a01fac9e13f3017f4c68e6588aa8"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔮 2026-11-24 미래예측 그림책 + 도장 찍는 저녁 팀 캐릭터 시트",
-      "sha": "2831f93",
-      "date": "2026-11-24T00:08:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2831f932ddf1677ee105eaf06083a8c13bc29b6b"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🖼️ 2026-11-24 뉴스 그림책",
-      "sha": "76e484b",
-      "date": "2026-11-23T23:45:51Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/76e484b1616cbb786435b847f2530776b8bd01aa"
     },
     {
       "type": "commit",
@@ -872,15 +881,6 @@
       "sha": "e027adf",
       "date": "2026-11-20T23:25:06Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/e027adf51601d0c93b9cc5e13496b03d0beb8eed"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "삼체 데일리 #19 태양 송신 실험 발행",
-      "sha": "127d5ea",
-      "date": "2026-11-19T23:52:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/127d5ea3d720d719252efde7bde2db42062faf22"
     },
     {
       "type": "pr",
