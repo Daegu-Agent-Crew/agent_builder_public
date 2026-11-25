@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-25T14:24:51Z",
-  "since": "2026-10-26T14:23:53Z",
+  "generated": "2026-11-25T15:08:03Z",
+  "since": "2026-10-26T15:07:09Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-25T12:07:34Z",
+      "pushed_at": "2026-11-25T14:34:17Z",
       "recent_commits": [
+        {
+          "sha": "69b90a0",
+          "message": "dashboard: refresh dashboard.json (dg1 cron 2026-11-25 23:33)",
+          "author": "daeguru",
+          "date": "2026-11-25T14:34:15Z"
+        },
+        {
+          "sha": "85857a2",
+          "message": "chore: update dashboard data (2026-11-25)",
+          "author": "daeguru",
+          "date": "2026-11-25T14:25:24Z"
+        },
         {
           "sha": "04776ba",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-25T12:07:30Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-25T09:05:47Z)",
           "author": "daeguru",
           "date": "2026-11-25T09:05:47Z"
-        },
-        {
-          "sha": "d28d812",
-          "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-25 17:24 KST cron)",
-          "author": "daeguru",
-          "date": "2026-11-25T08:24:22Z"
-        },
-        {
-          "sha": "b20919f",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-25T06:06:20Z)",
-          "author": "daeguru",
-          "date": "2026-11-25T06:06:20Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json (dg1 cron 2026-11-25 23:33)",
+      "sha": "69b90a0",
+      "date": "2026-11-25T14:34:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/69b90a0e993506711087920b32f4409ce2ed9c1f"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore: update dashboard data (2026-11-25)",
+      "sha": "85857a2",
+      "date": "2026-11-25T14:25:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/85857a2654631947360e8dadced674b599ff7d3f"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "Laika",
       "message": "feed: 11-25 arena postmatch critique",
@@ -717,15 +735,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-25 17:24 KST cron)",
-      "sha": "d28d812",
-      "date": "2026-11-25T08:24:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d28d8126e41b84939ff1c52d06d3a763972a402e"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "hackathon(s2): 11 탐사기 제출 완성 — GATES 4 MET·RESEARCH·허브 카드",
@@ -741,15 +750,6 @@
       "sha": "933bf72",
       "date": "2026-11-25T06:17:01Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/933bf721deab47c1e03f0043d5b00cee80c9719e"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-25T06:06:20Z)",
-      "sha": "b20919f",
-      "date": "2026-11-25T06:06:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/b20919f16a7c92eefd498b94139f3e10b795ba59"
     },
     {
       "type": "commit",
