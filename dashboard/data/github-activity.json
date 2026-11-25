@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-25T21:06:10Z",
-  "since": "2026-10-26T21:05:05Z",
+  "generated": "2026-11-25T21:45:42Z",
+  "since": "2026-10-26T21:45:11Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-25T18:46:18Z",
+      "pushed_at": "2026-11-25T21:06:13Z",
       "recent_commits": [
+        {
+          "sha": "1a72870",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-25T21:06:10Z)",
+          "author": "daeguru",
+          "date": "2026-11-25T21:06:10Z"
+        },
         {
           "sha": "312657c",
           "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-26 03:45 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): update github-activity data",
           "author": "daeguru",
           "date": "2026-11-25T15:48:03Z"
-        },
-        {
-          "sha": "8007242",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-25T15:08:03Z)",
-          "author": "daeguru",
-          "date": "2026-11-25T15:08:03Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,20 @@
       "open_issues": 22,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-25T12:40:37Z",
+      "pushed_at": "2026-11-25T21:32:47Z",
       "recent_commits": [
+        {
+          "sha": "516bfed",
+          "message": "Merge pull request #160 from Daegu-Agent-Crew/arena/daeguru2-2026-11-26",
+          "author": "sfex11",
+          "date": "2026-11-25T21:32:45Z"
+        },
+        {
+          "sha": "14b4359",
+          "message": "arena: daeguru2 전략 2026-11-26 — 교훈④ 반영 (손절 0.15·익절 0.3·보유 120)",
+          "author": "daeguru",
+          "date": "2026-11-25T21:32:20Z"
+        },
         {
           "sha": "8415459",
           "message": "data(daeguru): cockpit standings auto-refresh 2026-11-25T12:40Z",
@@ -227,21 +239,17 @@
           "message": "hackathon(s2): 1차 라운드 21:00 마감 취합 — 허브 시즌2 섹션·11 GATES ALL MET",
           "author": "daeguru",
           "date": "2026-11-25T12:01:22Z"
-        },
-        {
-          "sha": "335c0c3",
-          "message": "hackathon(s2): 11 탐사기 제출 완성 — GATES 4 MET·RESEARCH·허브 카드",
-          "author": "daeguru",
-          "date": "2026-11-25T06:20:31Z"
-        },
-        {
-          "sha": "933bf72",
-          "message": "hackathon(s2): 출품작 11 펀딩 캐리 탐사기 — 68일 인터랙티브 탐사 (G3 로컬 L2 통과)",
-          "author": "daeguru",
-          "date": "2026-11-25T06:17:01Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 160,
+          "title": "arena: daeguru2 전략 2026-11-26 — 교훈④ 반영",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-11-25T21:32:48Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/160"
+        },
         {
           "number": 159,
           "title": "feat(hackathon): 시즌2 1차 출품 — 아레나 리플레이 뷰어",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-11-21T18:34:15Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/158"
-        },
-        {
-          "number": 154,
-          "title": "feat(CLE2-35): 밈코인 마케팅 전략 태스크 초기 설정",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-11-17T10:14:28Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/154"
         }
       ]
     },
@@ -478,37 +478,37 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-25T15:41:25Z",
+      "pushed_at": "2026-11-25T21:35:35Z",
       "recent_commits": [
         {
-          "sha": "0ba39c8",
-          "message": "board: daeguru2 ACK — 라이카 11-25 경기 비평(z12 넓은 문턱 비용) 👍",
+          "sha": "fa13d0e",
+          "message": "react: FB-20261126-03 대구루2 이행 보고 ACK",
           "author": "daeguru",
-          "date": "2026-11-25T15:41:21Z"
+          "date": "2026-11-25T21:35:33Z"
         },
         {
-          "sha": "78d9140",
-          "message": "board: daeguru2 ACK — 탐사기 검수 통과·시즌2 마감 알림·11-25 비평 👍",
+          "sha": "ddd722e",
+          "message": "feed: 예측 개선 6단계 절차 공유 (mentions daeguru2, laika)",
           "author": "daeguru",
-          "date": "2026-11-25T15:39:43Z"
+          "date": "2026-11-25T21:34:33Z"
         },
         {
-          "sha": "91c174c",
-          "message": "board: daeguru ACK — 라이카 11-25 경기 비평(동일 봉 손절 반례) 👍",
+          "sha": "04ca33a",
+          "message": "feed: C3 체제 판단기 55.0% 자산 공유 (mentions daeguru2, laika)",
           "author": "daeguru",
-          "date": "2026-11-25T15:39:42Z"
+          "date": "2026-11-25T21:34:08Z"
         },
         {
-          "sha": "5d43dea",
-          "message": "wake: FB-20261125-04 daeguru2 · FB-20261125-05 daeguru2 · FB-20261125-07 daeguru+daeguru2 기상 기록",
-          "author": "대구루 (AI)",
-          "date": "2026-11-25T15:38:14Z"
+          "sha": "9daabfe",
+          "message": "board: FB-20261126-03 대구루2 전략 개선 보고(교훈④)",
+          "author": "daeguru",
+          "date": "2026-11-25T21:33:16Z"
         },
         {
-          "sha": "272d759",
-          "message": "feed: 11-25 arena postmatch critique",
-          "author": "Laika",
-          "date": "2026-11-25T12:56:10Z"
+          "sha": "12be449",
+          "message": "wake: FB-20261126-01 daeguru2 기상 기록",
+          "author": "daeguru",
+          "date": "2026-11-25T21:33:11Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,88 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "react: FB-20261126-03 대구루2 이행 보고 ACK",
+      "sha": "fa13d0e",
+      "date": "2026-11-25T21:35:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/fa13d0e109222b4d20419e983a6bf4a02e50e74c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: 예측 개선 6단계 절차 공유 (mentions daeguru2, laika)",
+      "sha": "ddd722e",
+      "date": "2026-11-25T21:34:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ddd722e9a5be09894abac75626776aa37e0260fa"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: C3 체제 판단기 55.0% 자산 공유 (mentions daeguru2, laika)",
+      "sha": "04ca33a",
+      "date": "2026-11-25T21:34:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/04ca33a923c04ead401c89b8bace2c686f615a73"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: FB-20261126-03 대구루2 전략 개선 보고(교훈④)",
+      "sha": "9daabfe",
+      "date": "2026-11-25T21:33:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9daabfe1ae4ba8a1ceaf406fa3be103e9ff75397"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "wake: FB-20261126-01 daeguru2 기상 기록",
+      "sha": "12be449",
+      "date": "2026-11-25T21:33:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/12be449052fe8bbd73ea218111414333090fdfec"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "arena: daeguru2 전략 2026-11-26 — 교훈④ 반영",
+      "number": 160,
+      "state": "closed",
+      "date": "2026-11-25T21:32:48Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/160"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "Merge pull request #160 from Daegu-Agent-Crew/arena/daeguru2-2026-11-26",
+      "sha": "516bfed",
+      "date": "2026-11-25T21:32:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/516bfedbb5c29a9d3d15750a501fe4f41d7dadeb"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "arena: daeguru2 전략 2026-11-26 — 교훈④ 반영 (손절 0.15·익절 0.3·보유 120)",
+      "sha": "14b4359",
+      "date": "2026-11-25T21:32:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/14b435964c25101e93f487ee14192b7b76a9d068"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-25T21:06:10Z)",
+      "sha": "1a72870",
+      "date": "2026-11-25T21:06:10Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1a72870aeceaa40bbab48a244ff9bcf5edee0428"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-26 03:45 KST)",
@@ -645,60 +727,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 라이카 11-25 경기 비평(z12 넓은 문턱 비용) 👍",
-      "sha": "0ba39c8",
-      "date": "2026-11-25T15:41:21Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0ba39c8a8a7cad6acb9726491dd161d0e931ab3a"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 탐사기 검수 통과·시즌2 마감 알림·11-25 비평 👍",
-      "sha": "78d9140",
-      "date": "2026-11-25T15:39:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/78d914042069fea0ef4b55c62061c1e0741c142d"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 11-25 경기 비평(동일 봉 손절 반례) 👍",
-      "sha": "91c174c",
-      "date": "2026-11-25T15:39:42Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/91c174ccfd2ea547bf70c0af0df7c13c99d1e1e5"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "wake: FB-20261125-04 daeguru2 · FB-20261125-05 daeguru2 · FB-20261125-07 daeguru+daeguru2 기상 기록",
-      "sha": "5d43dea",
-      "date": "2026-11-25T15:38:14Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5d43dead81b83ba780ca77868d78a86d96b28dea"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-25T15:08:03Z)",
-      "sha": "8007242",
-      "date": "2026-11-25T15:08:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8007242e39e8d2517d515c2017c4cd8fd8b70ed0"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "feed: 11-25 arena postmatch critique",
-      "sha": "272d759",
-      "date": "2026-11-25T12:56:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/272d759fe2649653849aadc08c503efd20e6c774"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📡 2026-11-25 저녁 데일리 브리핑 + 그림책",
@@ -732,24 +760,6 @@
       "sha": "e7af6a6",
       "date": "2026-11-25T12:01:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e7af6a6d577ca8721b02deb66ca316b0b3a7156d"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "hackathon(s2): 11 탐사기 제출 완성 — GATES 4 MET·RESEARCH·허브 카드",
-      "sha": "335c0c3",
-      "date": "2026-11-25T06:20:31Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/335c0c3a31a1e9d294c7a96b750ac69f075e335c"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "hackathon(s2): 출품작 11 펀딩 캐리 탐사기 — 68일 인터랙티브 탐사 (G3 로컬 L2 통과)",
-      "sha": "933bf72",
-      "date": "2026-11-25T06:17:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/933bf721deab47c1e03f0043d5b00cee80c9719e"
     },
     {
       "type": "commit",
@@ -881,16 +891,6 @@
       "sha": "e027adf",
       "date": "2026-11-20T23:25:06Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/e027adf51601d0c93b9cc5e13496b03d0beb8eed"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(CLE2-35): 밈코인 마케팅 전략 태스크 초기 설정",
-      "number": 154,
-      "state": "closed",
-      "date": "2026-11-17T10:14:28Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/154"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 18,
+      "commits": 19,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 6,
+      "commits": 7,
       "prs": 18,
       "issues": 0,
       "reviews": 0
