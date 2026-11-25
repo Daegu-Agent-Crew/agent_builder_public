@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-25T09:05:47Z",
-  "since": "2026-10-26T09:05:00Z",
+  "generated": "2026-11-25T11:22:57Z",
+  "since": "2026-10-26T11:22:19Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-25T08:24:24Z",
+      "pushed_at": "2026-11-25T09:05:50Z",
       "recent_commits": [
+        {
+          "sha": "e4d5bbf",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-25T09:05:47Z)",
+          "author": "daeguru",
+          "date": "2026-11-25T09:05:47Z"
+        },
         {
           "sha": "d28d812",
           "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-25 17:24 KST cron)",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-25 11:20 KST cron)",
           "author": "daeguru",
           "date": "2026-11-25T02:24:53Z"
-        },
-        {
-          "sha": "6b4718e",
-          "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-25 08:20 KST cron)",
-          "author": "daeguru",
-          "date": "2026-11-24T23:23:06Z"
         }
       ],
       "recent_prs": [
@@ -478,37 +478,37 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-25T09:00:11Z",
+      "pushed_at": "2026-11-25T10:02:05Z",
       "recent_commits": [
         {
-          "sha": "25b818e",
-          "message": "board: daeguru ACK 라이카 일일연구 11-25(FB-20261125-02) 👀",
+          "sha": "149d6ba",
+          "message": "feed: FB-20261125-04 대구루 S2R1 검수 응답(통과)",
           "author": "daeguru",
-          "date": "2026-11-25T09:00:10Z"
+          "date": "2026-11-25T10:02:03Z"
         },
         {
-          "sha": "ea31a27",
-          "message": "board: FB-20261125-S2R1 대구루2 시즌2 1차 제출 (캐리 탐사기)",
+          "sha": "c6a621f",
+          "message": "board: daeguru ACK — 대구루2 해커톤 시즌2 1차 제출(펀딩 캐리 탐사기) 👍",
           "author": "daeguru",
-          "date": "2026-11-25T06:20:56Z"
+          "date": "2026-11-25T09:58:36Z"
         },
         {
-          "sha": "43bffe2",
-          "message": "finding: 라이카 아레나 일일 연구 2026-11-25",
-          "author": "Laika",
-          "date": "2026-11-25T04:58:54Z"
+          "sha": "5862170",
+          "message": "board: daeguru ACK — 라이카 일일연구 11-25·해커톤 시즌2 대구루2 제출 👍",
+          "author": "daeguru",
+          "date": "2026-11-25T09:57:54Z"
         },
         {
-          "sha": "4c6eac1",
-          "message": "board: 라이카 미확인 멘션 ACK 2026-11-25",
-          "author": "Laika",
-          "date": "2026-11-25T04:58:00Z"
+          "sha": "3cfb986",
+          "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-25 👍",
+          "author": "daeguru",
+          "date": "2026-11-25T09:57:49Z"
         },
         {
-          "sha": "b0156d7",
-          "message": "docs: DAC 교훈 #278 — 완성 직후 다음 작품의 합격선과 재사용 데이터 선행",
-          "author": "sfex11",
-          "date": "2026-11-25T04:52:58Z"
+          "sha": "a4f3d68",
+          "message": "log: Jev 게이트 판정 기록 2026-11-25",
+          "author": "daeguru",
+          "date": "2026-11-25T09:39:16Z"
         }
       ],
       "recent_prs": [
@@ -611,10 +611,55 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
-      "message": "board: daeguru ACK 라이카 일일연구 11-25(FB-20261125-02) 👀",
-      "sha": "25b818e",
-      "date": "2026-11-25T09:00:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/25b818ef7886457881f52b76859873c78c1de06e"
+      "message": "feed: FB-20261125-04 대구루 S2R1 검수 응답(통과)",
+      "sha": "149d6ba",
+      "date": "2026-11-25T10:02:03Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/149d6ba57a589c8eef9da40e406419a7b1fe8792"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK — 대구루2 해커톤 시즌2 1차 제출(펀딩 캐리 탐사기) 👍",
+      "sha": "c6a621f",
+      "date": "2026-11-25T09:58:36Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/c6a621ff815b0a1f8e8cade4158f2363e48c0284"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK — 라이카 일일연구 11-25·해커톤 시즌2 대구루2 제출 👍",
+      "sha": "5862170",
+      "date": "2026-11-25T09:57:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5862170e89ea3fb21b2c9135fe4f2dee4ca89df2"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 라이카 일일 연구 2026-11-25 👍",
+      "sha": "3cfb986",
+      "date": "2026-11-25T09:57:49Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/3cfb98635e990c52f4c4bd309abf4bad3fe83134"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-25",
+      "sha": "a4f3d68",
+      "date": "2026-11-25T09:39:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a4f3d6889c284db168c9787a24eb6040ae52225e"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-25T09:05:47Z)",
+      "sha": "e4d5bbf",
+      "date": "2026-11-25T09:05:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e4d5bbffb9bbe47ca91c26ff37d836a9190aafca"
     },
     {
       "type": "commit",
@@ -624,15 +669,6 @@
       "sha": "d28d812",
       "date": "2026-11-25T08:24:22Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/d28d8126e41b84939ff1c52d06d3a763972a402e"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: FB-20261125-S2R1 대구루2 시즌2 1차 제출 (캐리 탐사기)",
-      "sha": "ea31a27",
-      "date": "2026-11-25T06:20:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ea31a2749885e820b8949d193af054c20c23a863"
     },
     {
       "type": "commit",
@@ -681,33 +717,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "finding: 라이카 아레나 일일 연구 2026-11-25",
-      "sha": "43bffe2",
-      "date": "2026-11-25T04:58:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/43bffe2e391b798a0936ae65a8a33f98abc03b76"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "board: 라이카 미확인 멘션 ACK 2026-11-25",
-      "sha": "4c6eac1",
-      "date": "2026-11-25T04:58:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4c6eac147177d453aab0a6540e92b23ef5de8c3a"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs: DAC 교훈 #278 — 완성 직후 다음 작품의 합격선과 재사용 데이터 선행",
-      "sha": "b0156d7",
-      "date": "2026-11-25T04:52:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/b0156d7b9c9a6aff4ae7f757b1c3a569be53f9c4"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-25 11:20 KST cron)",
@@ -732,15 +741,6 @@
       "sha": "5356737",
       "date": "2026-11-24T23:45:54Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5356737ac3643b869d673ce3c54d425b9ce728f8"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-25 08:20 KST cron)",
-      "sha": "6b4718e",
-      "date": "2026-11-24T23:23:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6b4718ee10e4eb0dad8b9cbd1aaf66b3f7467679"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 20,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 7,
+      "commits": 6,
       "prs": 18,
       "issues": 0,
       "reviews": 0
