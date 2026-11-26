@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-26T12:06:38Z",
-  "since": "2026-10-27T12:05:42Z",
+  "generated": "2026-11-26T12:46:11Z",
+  "since": "2026-10-27T12:45:39Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-26T09:47:22Z",
+      "pushed_at": "2026-11-26T12:06:41Z",
       "recent_commits": [
+        {
+          "sha": "3a00f98",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-26T12:06:38Z)",
+          "author": "daeguru",
+          "date": "2026-11-26T12:06:38Z"
+        },
         {
           "sha": "60530f5",
           "message": "dashboard: refresh dashboard.json + github-activity.json (2026-11-26 18:47 KST cron)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-26T06:06:11Z)",
           "author": "daeguru",
           "date": "2026-11-26T06:06:12Z"
-        },
-        {
-          "sha": "0508ecd",
-          "message": "dashboard: update dashboard.json + github-activity.json (2026-11-26_12:46)",
-          "author": "daeguru",
-          "date": "2026-11-26T03:46:59Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,20 @@
       "open_issues": 23,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-26T05:33:47Z",
+      "pushed_at": "2026-11-26T12:41:16Z",
       "recent_commits": [
+        {
+          "sha": "761360d",
+          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-26T12:41Z",
+          "author": "cockpit-bot",
+          "date": "2026-11-26T12:41:15Z"
+        },
+        {
+          "sha": "e683540",
+          "message": "data(arena): 공식 경기 2026-11-26 21:30",
+          "author": "daeguru",
+          "date": "2026-11-26T12:41:04Z"
+        },
         {
           "sha": "93defbc",
           "message": "docs(hackathon): 12 GATES ALL MET — 시즌2 2차 제출 (#164)",
@@ -227,18 +239,6 @@
           "message": "arena: 시즌 2026-Q4 규칙 등록 — 12/15 종료·판정기준 2개·체제태그·통제실험 (회장님 승인) (#161)",
           "author": "sfex11",
           "date": "2026-11-25T21:53:34Z"
-        },
-        {
-          "sha": "516bfed",
-          "message": "Merge pull request #160 from Daegu-Agent-Crew/arena/daeguru2-2026-11-26",
-          "author": "sfex11",
-          "date": "2026-11-25T21:32:45Z"
-        },
-        {
-          "sha": "14b4359",
-          "message": "arena: daeguru2 전략 2026-11-26 — 교훈④ 반영 (손절 0.15·익절 0.3·보유 120)",
-          "author": "daeguru",
-          "date": "2026-11-25T21:32:20Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "cockpit-bot",
+      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-26T12:41Z",
+      "sha": "761360d",
+      "date": "2026-11-26T12:41:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/761360dabe0aa1de536360a089c3969f927d5084"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-26 21:30",
+      "sha": "e683540",
+      "date": "2026-11-26T12:41:04Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e6835402a92e3001a0a32f53773e2445c1122ca4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-26T12:06:38Z)",
+      "sha": "3a00f98",
+      "date": "2026-11-26T12:06:38Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3a00f98216204bafe5605c2f97f41831b031d205"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru 피드 — 아레나 교훈④ 최신30일 재검증 재현·청산 3종 반영 (FB-20261126-12)",
@@ -757,15 +784,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: update dashboard.json + github-activity.json (2026-11-26_12:46)",
-      "sha": "0508ecd",
-      "date": "2026-11-26T03:46:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0508ecd4f85b946d5486087b274b190eb04dd2cf"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "forecast 2026-11-26 picturebook + gatekeeper team sheet",
@@ -818,24 +836,6 @@
       "sha": "bdb1e16",
       "date": "2026-11-25T21:53:34Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/bdb1e16d17fe66c266662e38aa387d31d1d2d011"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "Merge pull request #160 from Daegu-Agent-Crew/arena/daeguru2-2026-11-26",
-      "sha": "516bfed",
-      "date": "2026-11-25T21:32:45Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/516bfedbb5c29a9d3d15750a501fe4f41d7dadeb"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "arena: daeguru2 전략 2026-11-26 — 교훈④ 반영 (손절 0.15·익절 0.3·보유 120)",
-      "sha": "14b4359",
-      "date": "2026-11-25T21:32:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/14b435964c25101e93f487ee14192b7b76a9d068"
     },
     {
       "type": "commit",
@@ -1086,7 +1086,7 @@
     },
     {
       "login": "sfex11",
-      "commits": 10,
+      "commits": 9,
       "prs": 18,
       "issues": 0,
       "reviews": 0
