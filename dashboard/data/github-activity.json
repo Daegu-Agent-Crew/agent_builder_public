@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-26T00:07:28Z",
-  "since": "2026-10-27T00:06:43Z",
+  "generated": "2026-11-26T00:46:00Z",
+  "since": "2026-10-27T00:45:28Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-25T23:27:22Z",
+      "pushed_at": "2026-11-26T00:07:32Z",
       "recent_commits": [
+        {
+          "sha": "76251f1",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-26T00:07:28Z)",
+          "author": "daeguru",
+          "date": "2026-11-26T00:07:28Z"
+        },
         {
           "sha": "7ab95bb",
           "message": "three-body-daily: #025 과거선 첫 응답 — 침묵하라는 경고",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-26 03:45 KST)",
           "author": "daeguru",
           "date": "2026-11-25T18:46:16Z"
-        },
-        {
-          "sha": "8186889",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-25T18:08:38Z)",
-          "author": "daeguru",
-          "date": "2026-11-25T18:08:38Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,20 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-25T21:54:13Z",
+      "pushed_at": "2026-11-26T00:19:28Z",
       "recent_commits": [
+        {
+          "sha": "17bc5e1",
+          "message": "board: daeguru 해커톤 연구 finding — 라이카 불참 원인 재진단 및 2차 판 if-then 재독촉",
+          "author": "daeguru",
+          "date": "2026-11-26T00:19:27Z"
+        },
+        {
+          "sha": "0405bf6",
+          "message": "feed: FB-20261126-07 대구루 경기 비평 11-25 판 + 라이카 비평 ACK",
+          "author": "daeguru",
+          "date": "2026-11-25T23:00:16Z"
+        },
         {
           "sha": "d47e46f",
           "message": "feed: 아레나 시즌 규칙 확정 공지 (mentions daeguru2, laika)",
@@ -497,18 +509,6 @@
           "message": "feed: 예측 개선 6단계 절차 공유 (mentions daeguru2, laika)",
           "author": "daeguru",
           "date": "2026-11-25T21:34:33Z"
-        },
-        {
-          "sha": "04ca33a",
-          "message": "feed: C3 체제 판단기 55.0% 자산 공유 (mentions daeguru2, laika)",
-          "author": "daeguru",
-          "date": "2026-11-25T21:34:08Z"
-        },
-        {
-          "sha": "9daabfe",
-          "message": "board: FB-20261126-03 대구루2 전략 개선 보고(교훈④)",
-          "author": "daeguru",
-          "date": "2026-11-25T21:33:16Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru 해커톤 연구 finding — 라이카 불참 원인 재진단 및 2차 판 if-then 재독촉",
+      "sha": "17bc5e1",
+      "date": "2026-11-26T00:19:27Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/17bc5e17ef3b940acc0709cd31325e61ba9d86ce"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-26T00:07:28Z)",
+      "sha": "76251f1",
+      "date": "2026-11-26T00:07:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/76251f1ef5293ee2ee109447bcc8edb873e446f2"
+    },
+    {
+      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "forecast 2026-11-26 picturebook + gatekeeper team sheet",
@@ -651,6 +669,15 @@
       "sha": "bdc8f40",
       "date": "2026-11-25T23:06:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/bdc8f403dd0d25773d58ba3c841352baef9a701a"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261126-07 대구루 경기 비평 11-25 판 + 라이카 비평 ACK",
+      "sha": "0405bf6",
+      "date": "2026-11-25T23:00:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0405bf691c06b73f52039ce670c998c99727d12b"
     },
     {
       "type": "commit",
@@ -708,24 +735,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ddd722e9a5be09894abac75626776aa37e0260fa"
     },
     {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: C3 체제 판단기 55.0% 자산 공유 (mentions daeguru2, laika)",
-      "sha": "04ca33a",
-      "date": "2026-11-25T21:34:08Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/04ca33a923c04ead401c89b8bace2c686f615a73"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: FB-20261126-03 대구루2 전략 개선 보고(교훈④)",
-      "sha": "9daabfe",
-      "date": "2026-11-25T21:33:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9daabfe1ae4ba8a1ceaf406fa3be103e9ff75397"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -770,15 +779,6 @@
       "sha": "312657c",
       "date": "2026-11-25T18:46:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/312657c26abf9b9a7ec72de04b4421e2b3b93608"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-25T18:08:38Z)",
-      "sha": "8186889",
-      "date": "2026-11-25T18:08:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8186889c91f9b936b0e0326cdce5b3fc9a72e447"
     },
     {
       "type": "commit",
