@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-26T00:46:00Z",
-  "since": "2026-10-27T00:45:28Z",
+  "generated": "2026-11-26T03:08:20Z",
+  "since": "2026-10-27T03:07:04Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-26T00:07:32Z",
+      "pushed_at": "2026-11-26T00:51:19Z",
       "recent_commits": [
+        {
+          "sha": "8a56ab5",
+          "message": "dashboard: regenerate dashboard.json (projects=9, repos=11)",
+          "author": "daeguru",
+          "date": "2026-11-26T00:51:17Z"
+        },
+        {
+          "sha": "5fd8908",
+          "message": "dashboard: refresh dashboard.json + github-activity.json (2026-11-26 09:48 KST)",
+          "author": "daeguru",
+          "date": "2026-11-26T00:48:50Z"
+        },
         {
           "sha": "76251f1",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-26T00:07:28Z)",
@@ -79,18 +91,6 @@
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-26 06:44 KST)",
           "author": "daeguru",
           "date": "2026-11-25T21:46:09Z"
-        },
-        {
-          "sha": "1a72870",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-25T21:06:10Z)",
-          "author": "daeguru",
-          "date": "2026-11-25T21:06:10Z"
-        },
-        {
-          "sha": "312657c",
-          "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-26 03:45 KST)",
-          "author": "daeguru",
-          "date": "2026-11-25T18:46:16Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json (projects=9, repos=11)",
+      "sha": "8a56ab5",
+      "date": "2026-11-26T00:51:17Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8a56ab58ceb671903618f1f7ff99a18d4e92bdc4"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json + github-activity.json (2026-11-26 09:48 KST)",
+      "sha": "5fd8908",
+      "date": "2026-11-26T00:48:50Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/5fd8908fef0942adc5296654a662a0519060f1a3"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru 해커톤 연구 finding — 라이카 불참 원인 재진단 및 2차 판 if-then 재독촉",
@@ -761,24 +779,6 @@
       "sha": "14b4359",
       "date": "2026-11-25T21:32:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/14b435964c25101e93f487ee14192b7b76a9d068"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-25T21:06:10Z)",
-      "sha": "1a72870",
-      "date": "2026-11-25T21:06:10Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/1a72870aeceaa40bbab48a244ff9bcf5edee0428"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: refresh dashboard.json and github-activity.json (2026-11-26 03:45 KST)",
-      "sha": "312657c",
-      "date": "2026-11-25T18:46:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/312657c26abf9b9a7ec72de04b4421e2b3b93608"
     },
     {
       "type": "commit",
