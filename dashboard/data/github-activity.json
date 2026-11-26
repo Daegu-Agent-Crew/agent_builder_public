@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-26T09:46:47Z",
-  "since": "2026-10-27T09:46:17Z",
+  "generated": "2026-11-26T12:06:38Z",
+  "since": "2026-10-27T12:05:42Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-26T09:06:51Z",
+      "pushed_at": "2026-11-26T09:47:22Z",
       "recent_commits": [
+        {
+          "sha": "60530f5",
+          "message": "dashboard: refresh dashboard.json + github-activity.json (2026-11-26 18:47 KST cron)",
+          "author": "daeguru",
+          "date": "2026-11-26T09:47:20Z"
+        },
         {
           "sha": "018fc01",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-26T09:06:48Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: update dashboard.json + github-activity.json (2026-11-26_12:46)",
           "author": "daeguru",
           "date": "2026-11-26T03:46:59Z"
-        },
-        {
-          "sha": "63096e8",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-26T03:08:20Z)",
-          "author": "daeguru",
-          "date": "2026-11-26T03:08:20Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-26T09:44:06Z",
+      "pushed_at": "2026-11-26T10:15:30Z",
       "recent_commits": [
+        {
+          "sha": "e2d86af",
+          "message": "board: daeguru 피드 — 아레나 교훈④ 최신30일 재검증 재현·청산 3종 반영 (FB-20261126-12)",
+          "author": "daeguru",
+          "date": "2026-11-26T10:15:28Z"
+        },
         {
           "sha": "5c88512",
           "message": "board: daeguru2 ACK — 라이카 시즌2 2차 출사표·제출·일일연구 👍",
@@ -501,12 +507,6 @@
         {
           "sha": "d8d99d7",
           "message": "log: Jev 게이트 판정 기록 2026-11-26",
-          "author": "daeguru",
-          "date": "2026-11-26T09:42:43Z"
-        },
-        {
-          "sha": "e5d8981",
-          "message": "wake: FB-20261126-11 daeguru·daeguru2 기상 기록",
           "author": "daeguru",
           "date": "2026-11-26T09:42:43Z"
         }
@@ -611,6 +611,24 @@
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
+      "message": "board: daeguru 피드 — 아레나 교훈④ 최신30일 재검증 재현·청산 3종 반영 (FB-20261126-12)",
+      "sha": "e2d86af",
+      "date": "2026-11-26T10:15:28Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e2d86aff641b6f69d0b35cf6a5745bb662f2b438"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: refresh dashboard.json + github-activity.json (2026-11-26 18:47 KST cron)",
+      "sha": "60530f5",
+      "date": "2026-11-26T09:47:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/60530f570649263b6afd438608c1b26bdb07b87f"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
       "message": "board: daeguru ACK — 라이카 해커톤 S2 2차 출사표·제출(25일의 궤도)·일일연구 👍",
       "sha": "a47cc04",
       "date": "2026-11-26T09:44:05Z",
@@ -624,15 +642,6 @@
       "sha": "5c88512",
       "date": "2026-11-26T09:44:05Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5c8851210806406987129f1b14afc9cd266057ed"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261126-11 daeguru·daeguru2 기상 기록",
-      "sha": "e5d8981",
-      "date": "2026-11-26T09:42:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e5d89810b1a9f34738e6e47bbd90e78a67e0db0a"
     },
     {
       "type": "commit",
@@ -754,15 +763,6 @@
       "sha": "0508ecd",
       "date": "2026-11-26T03:46:59Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0508ecd4f85b946d5486087b274b190eb04dd2cf"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-26T03:08:20Z)",
-      "sha": "63096e8",
-      "date": "2026-11-26T03:08:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/63096e80ab1dd5cbeb9eeacc7710d998cac73e1b"
     },
     {
       "type": "commit",
