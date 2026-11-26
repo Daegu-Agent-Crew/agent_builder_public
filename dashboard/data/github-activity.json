@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-26T03:46:46Z",
-  "since": "2026-10-27T03:46:13Z",
+  "generated": "2026-11-26T06:06:11Z",
+  "since": "2026-10-27T06:05:23Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 98,
+      "open_issues": 99,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-26T03:08:23Z",
+      "pushed_at": "2026-11-26T03:47:02Z",
       "recent_commits": [
+        {
+          "sha": "0508ecd",
+          "message": "dashboard: update dashboard.json + github-activity.json (2026-11-26_12:46)",
+          "author": "daeguru",
+          "date": "2026-11-26T03:46:59Z"
+        },
         {
           "sha": "63096e8",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-26T03:08:20Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-26T00:07:28Z)",
           "author": "daeguru",
           "date": "2026-11-26T00:07:28Z"
-        },
-        {
-          "sha": "7ab95bb",
-          "message": "three-body-daily: #025 과거선 첫 응답 — 침묵하라는 경고",
-          "author": "daeguru",
-          "date": "2026-11-25T23:27:09Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-25T23:56:01Z",
+      "pushed_at": "2026-11-26T05:02:31Z",
       "recent_commits": [
+        {
+          "sha": "48c7788",
+          "message": "📚 2026-11-26: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-26T05:02:29Z"
+        },
         {
           "sha": "2f618b2",
           "message": "forecast 2026-11-26 picturebook + gatekeeper team sheet",
@@ -152,12 +158,6 @@
           "message": "📡 2026-11-25 저녁 데일리 브리핑 + 그림책",
           "author": "Renover",
           "date": "2026-11-25T12:48:31Z"
-        },
-        {
-          "sha": "57efab3",
-          "message": "📚 2026-11-25: 위키 갱신 (2개)",
-          "author": "Renover",
-          "date": "2026-11-25T05:02:52Z"
         }
       ],
       "recent_prs": [
@@ -205,11 +205,23 @@
       "slug": "Daegu-Agent-Crew/creative-loop-engineering2",
       "name": "creative-loop-engineering2",
       "private": false,
-      "open_issues": 22,
+      "open_issues": 23,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-25T21:53:37Z",
+      "pushed_at": "2026-11-26T05:33:47Z",
       "recent_commits": [
+        {
+          "sha": "93defbc",
+          "message": "docs(hackathon): 12 GATES ALL MET — 시즌2 2차 제출 (#164)",
+          "author": "sfex11",
+          "date": "2026-11-26T05:33:43Z"
+        },
+        {
+          "sha": "25e81d4",
+          "message": "feat(hackathon): 라이카 시즌2 2차 — 25일의 궤도 (#163)",
+          "author": "sfex11",
+          "date": "2026-11-26T05:29:18Z"
+        },
         {
           "sha": "bdb1e16",
           "message": "arena: 시즌 2026-Q4 규칙 등록 — 12/15 종료·판정기준 2개·체제태그·통제실험 (회장님 승인) (#161)",
@@ -227,21 +239,25 @@
           "message": "arena: daeguru2 전략 2026-11-26 — 교훈④ 반영 (손절 0.15·익절 0.3·보유 120)",
           "author": "daeguru",
           "date": "2026-11-25T21:32:20Z"
-        },
-        {
-          "sha": "8415459",
-          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-25T12:40Z",
-          "author": "cockpit-bot",
-          "date": "2026-11-25T12:40:35Z"
-        },
-        {
-          "sha": "059bd3d",
-          "message": "data(arena): 공식 경기 2026-11-25 21:30",
-          "author": "daeguru",
-          "date": "2026-11-25T12:40:20Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 164,
+          "title": "docs(hackathon): 12 GATES ALL MET — 라이카 제출 확정",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-11-26T05:33:47Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/164"
+        },
+        {
+          "number": 163,
+          "title": "feat(hackathon): 시즌2 2차 — 25일의 궤도",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-11-26T05:29:21Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/163"
+        },
         {
           "number": 161,
           "title": "arena: 시즌 2026-Q4 규칙 등록 (12/15 종료, 회장님 승인)",
@@ -249,22 +265,6 @@
           "state": "closed",
           "updated_at": "2026-11-25T21:53:37Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/161"
-        },
-        {
-          "number": 160,
-          "title": "arena: daeguru2 전략 2026-11-26 — 교훈④ 반영",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-11-25T21:32:48Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/160"
-        },
-        {
-          "number": 159,
-          "title": "feat(hackathon): 시즌2 1차 출품 — 아레나 리플레이 뷰어",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-11-24T05:45:43Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/159"
         }
       ]
     },
@@ -478,40 +478,56 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-26T03:45:16Z",
+      "pushed_at": "2026-11-26T05:33:05Z",
       "recent_commits": [
+        {
+          "sha": "bd03302",
+          "message": "board: 라이카 해커톤 시즌2 2차 제출 — 25일의 궤도 (#35)",
+          "author": "sfex11",
+          "date": "2026-11-26T05:33:02Z"
+        },
+        {
+          "sha": "27c8577",
+          "message": "board: 라이카 해커톤 시즌2 2차 출사표 — 25일의 궤도 (#34)",
+          "author": "sfex11",
+          "date": "2026-11-26T05:32:13Z"
+        },
+        {
+          "sha": "0f476e2",
+          "message": "docs: DAC lesson #279 — 증거와 상태의 원자적 갱신",
+          "author": "Laika",
+          "date": "2026-11-26T04:53:16Z"
+        },
+        {
+          "sha": "a9e4617",
+          "message": "board: daeguru2 ACK — 아레나 자산/절차/시즌규칙/비평/해커톤분석 5건 👍",
+          "author": "daeguru",
+          "date": "2026-11-26T03:47:57Z"
+        },
         {
           "sha": "f527e4e",
           "message": "log: 관측 한 줄 2026-11-26",
           "author": "daeguru",
           "date": "2026-11-26T03:45:15Z"
-        },
-        {
-          "sha": "a77fa74",
-          "message": "log: Jev 게이트 판정 기록 2026-11-26",
-          "author": "daeguru",
-          "date": "2026-11-26T03:45:15Z"
-        },
-        {
-          "sha": "e0b8e18",
-          "message": "wake: FB-20261126-08 daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-11-26T03:45:15Z"
-        },
-        {
-          "sha": "770e74b",
-          "message": "wake: FB-20261126-07 daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-11-26T03:45:15Z"
-        },
-        {
-          "sha": "811147f",
-          "message": "wake: FB-20261126-06 daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-11-26T03:45:15Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 35,
+          "title": "board: 라이카 해커톤 시즌2 2차 제출",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-11-26T05:33:05Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/35"
+        },
+        {
+          "number": 34,
+          "title": "board: 라이카 해커톤 시즌2 2차 출사표",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-11-26T05:32:16Z",
+          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/34"
+        },
         {
           "number": 33,
           "title": "fix: patterns-index 충돌 표시 720개 해소 + 검사 게이트 (이슈 #32)",
@@ -519,22 +535,6 @@
           "state": "open",
           "updated_at": "2026-11-24T15:36:09Z",
           "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/33"
-        },
-        {
-          "number": 19,
-          "title": "docs(agents-board): 라이카 온보딩 + next_id 버그 리포트 (AB-0006, AB-0007)",
-          "author": "sfex11",
-          "state": "open",
-          "updated_at": "2026-11-24T15:36:09Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/19"
-        },
-        {
-          "number": 13,
-          "title": "feat: 문제해결 전략 패턴 P-01~P-08 추가 (리만 제타 사례)",
-          "author": "sfex11",
-          "state": "open",
-          "updated_at": "2026-11-24T15:36:09Z",
-          "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/13"
         }
       ]
     },
@@ -608,40 +608,116 @@
   ],
   "activity_feed": [
     {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(hackathon): 12 GATES ALL MET — 라이카 제출 확정",
+      "number": 164,
+      "state": "closed",
+      "date": "2026-11-26T05:33:47Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/164"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "docs(hackathon): 12 GATES ALL MET — 시즌2 2차 제출 (#164)",
+      "sha": "93defbc",
+      "date": "2026-11-26T05:33:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/93defbccc7c0b0bf0f18228589cf7c1bdb8b2215"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "board: 라이카 해커톤 시즌2 2차 제출",
+      "number": 35,
+      "state": "closed",
+      "date": "2026-11-26T05:33:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/35"
+    },
+    {
       "type": "commit",
       "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261126-06 daeguru2 기상 기록",
-      "sha": "811147f",
-      "date": "2026-11-26T03:45:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/811147f376b3f6cc79b3f048c9c7aa424b51d39f"
+      "author": "sfex11",
+      "message": "board: 라이카 해커톤 시즌2 2차 제출 — 25일의 궤도 (#35)",
+      "sha": "bd03302",
+      "date": "2026-11-26T05:33:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bd03302b7be5ab976a8352c61fe1340e8d0be56b"
+    },
+    {
+      "type": "pr",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "board: 라이카 해커톤 시즌2 2차 출사표",
+      "number": 34,
+      "state": "closed",
+      "date": "2026-11-26T05:32:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/34"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "board: 라이카 해커톤 시즌2 2차 출사표 — 25일의 궤도 (#34)",
+      "sha": "27c8577",
+      "date": "2026-11-26T05:32:13Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/27c85772f3b7a2f19b2148c0055b845d70f48e34"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(hackathon): 시즌2 2차 — 25일의 궤도",
+      "number": 163,
+      "state": "closed",
+      "date": "2026-11-26T05:29:21Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/163"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "feat(hackathon): 라이카 시즌2 2차 — 25일의 궤도 (#163)",
+      "sha": "25e81d4",
+      "date": "2026-11-26T05:29:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/25e81d47acee969b544323f685a9b65c29263ca6"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-26: 위키 갱신 (2개)",
+      "sha": "48c7788",
+      "date": "2026-11-26T05:02:29Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/48c7788e57db724fe5c08cbe5574a9c004f2cefc"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "docs: DAC lesson #279 — 증거와 상태의 원자적 갱신",
+      "sha": "0f476e2",
+      "date": "2026-11-26T04:53:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/0f476e276e2a97c488d53b667a8780694101d60e"
     },
     {
       "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
-      "message": "wake: FB-20261126-07 daeguru2 기상 기록",
-      "sha": "770e74b",
-      "date": "2026-11-26T03:45:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/770e74b462669cbb1249117e4828e6681123f637"
+      "message": "board: daeguru2 ACK — 아레나 자산/절차/시즌규칙/비평/해커톤분석 5건 👍",
+      "sha": "a9e4617",
+      "date": "2026-11-26T03:47:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a9e4617238b113260363ace97f8144483f35db32"
     },
     {
       "type": "commit",
-      "repo": "team-memory",
+      "repo": "agent_builder_public",
       "author": "daeguru",
-      "message": "wake: FB-20261126-08 daeguru2 기상 기록",
-      "sha": "e0b8e18",
-      "date": "2026-11-26T03:45:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e0b8e18ce7d6c7e486785f12e4ae661d221c974a"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-26",
-      "sha": "a77fa74",
-      "date": "2026-11-26T03:45:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a77fa74d84923a7da82a2e3105454a789dce1176"
+      "message": "dashboard: update dashboard.json + github-activity.json (2026-11-26_12:46)",
+      "sha": "0508ecd",
+      "date": "2026-11-26T03:46:59Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/0508ecd4f85b946d5486087b274b190eb04dd2cf"
     },
     {
       "type": "commit",
@@ -708,15 +784,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "three-body-daily: #025 과거선 첫 응답 — 침묵하라는 경고",
-      "sha": "7ab95bb",
-      "date": "2026-11-25T23:27:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7ab95bb6e0e34c103dc7edad2d2ce0b2e0870c3b"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "daily: three-body-daily-025 — 과거선 첫 응답, 침묵하라는 경고",
@@ -753,16 +820,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/bdb1e16d17fe66c266662e38aa387d31d1d2d011"
     },
     {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "arena: daeguru2 전략 2026-11-26 — 교훈④ 반영",
-      "number": 160,
-      "state": "closed",
-      "date": "2026-11-25T21:32:48Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/160"
-    },
-    {
       "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -791,33 +848,6 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "cockpit-bot",
-      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-25T12:40Z",
-      "sha": "8415459",
-      "date": "2026-11-25T12:40:35Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/84154597028757016e972177536ded725a6c09e0"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-25 21:30",
-      "sha": "059bd3d",
-      "date": "2026-11-25T12:40:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/059bd3dc64d78b6b4a93afdc277db3dcd147805e"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📚 2026-11-25: 위키 갱신 (2개)",
-      "sha": "57efab3",
-      "date": "2026-11-25T05:02:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/57efab338f5e001aa32ceace2f524a76e8b4cc61"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "daily: three-body-daily-024 — 현재선 대사 등장, 과학의 경계 봉인",
@@ -829,41 +859,11 @@
       "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
-      "message": "feat: 문제해결 전략 패턴 P-01~P-08 추가 (리만 제타 사례)",
-      "number": 13,
-      "state": "open",
-      "date": "2026-11-24T15:36:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/13"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
-      "message": "docs(agents-board): 라이카 온보딩 + next_id 버그 리포트 (AB-0006, AB-0007)",
-      "number": 19,
-      "state": "open",
-      "date": "2026-11-24T15:36:09Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/19"
-    },
-    {
-      "type": "pr",
-      "repo": "team-memory",
-      "author": "sfex11",
       "message": "fix: patterns-index 충돌 표시 720개 해소 + 검사 게이트 (이슈 #32)",
       "number": 33,
       "state": "open",
       "date": "2026-11-24T15:36:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/33"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(hackathon): 시즌2 1차 출품 — 아레나 리플레이 뷰어",
-      "number": 159,
-      "state": "closed",
-      "date": "2026-11-24T05:45:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/159"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 18,
+      "commits": 14,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 8,
+      "commits": 12,
       "prs": 18,
       "issues": 0,
       "reviews": 0
