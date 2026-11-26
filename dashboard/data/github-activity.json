@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-25T21:45:42Z",
-  "since": "2026-10-26T21:45:11Z",
+  "generated": "2026-11-26T00:07:28Z",
+  "since": "2026-10-27T00:06:43Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-25T21:06:13Z",
+      "pushed_at": "2026-11-25T23:27:22Z",
       "recent_commits": [
+        {
+          "sha": "7ab95bb",
+          "message": "three-body-daily: #025 과거선 첫 응답 — 침묵하라는 경고",
+          "author": "daeguru",
+          "date": "2026-11-25T23:27:09Z"
+        },
+        {
+          "sha": "aedc9c3",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-26 06:44 KST)",
+          "author": "daeguru",
+          "date": "2026-11-25T21:46:09Z"
+        },
         {
           "sha": "1a72870",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-25T21:06:10Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-25T18:08:38Z)",
           "author": "daeguru",
           "date": "2026-11-25T18:08:38Z"
-        },
-        {
-          "sha": "e3b698a",
-          "message": "dashboard: regenerate dashboard.json (cron 00:49)",
-          "author": "daeguru",
-          "date": "2026-11-25T15:50:56Z"
-        },
-        {
-          "sha": "4fa50a3",
-          "message": "chore(dashboard): update github-activity data",
-          "author": "daeguru",
-          "date": "2026-11-25T15:48:03Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,26 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-25T12:48:55Z",
+      "pushed_at": "2026-11-25T23:56:01Z",
       "recent_commits": [
+        {
+          "sha": "2f618b2",
+          "message": "forecast 2026-11-26 picturebook + gatekeeper team sheet",
+          "author": "Renover",
+          "date": "2026-11-25T23:55:22Z"
+        },
+        {
+          "sha": "ccd1822",
+          "message": "news digest 2026-11-26",
+          "author": "Renover",
+          "date": "2026-11-25T23:45:37Z"
+        },
+        {
+          "sha": "bdc8f40",
+          "message": "📰 2026-11-26: 뉴스 수집 (5건)",
+          "author": "Renover",
+          "date": "2026-11-25T23:06:20Z"
+        },
         {
           "sha": "3e2907d",
           "message": "📡 2026-11-25 저녁 데일리 브리핑 + 그림책",
@@ -140,24 +158,6 @@
           "message": "📚 2026-11-25: 위키 갱신 (2개)",
           "author": "Renover",
           "date": "2026-11-25T05:02:52Z"
-        },
-        {
-          "sha": "61dde17",
-          "message": "🔮 2026-11-25 미래예측 그림책 + 여과망 수조 캐릭터 시트",
-          "author": "Renover",
-          "date": "2026-11-24T23:59:56Z"
-        },
-        {
-          "sha": "5356737",
-          "message": "🖼️ 2026-11-25 뉴스 그림책",
-          "author": "Renover",
-          "date": "2026-11-24T23:45:54Z"
-        },
-        {
-          "sha": "75840ac",
-          "message": "📰 2026-11-25: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-11-24T23:06:46Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,14 @@
       "open_issues": 22,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-25T21:32:47Z",
+      "pushed_at": "2026-11-25T21:53:37Z",
       "recent_commits": [
+        {
+          "sha": "bdb1e16",
+          "message": "arena: 시즌 2026-Q4 규칙 등록 — 12/15 종료·판정기준 2개·체제태그·통제실험 (회장님 승인) (#161)",
+          "author": "sfex11",
+          "date": "2026-11-25T21:53:34Z"
+        },
         {
           "sha": "516bfed",
           "message": "Merge pull request #160 from Daegu-Agent-Crew/arena/daeguru2-2026-11-26",
@@ -233,15 +239,17 @@
           "message": "data(arena): 공식 경기 2026-11-25 21:30",
           "author": "daeguru",
           "date": "2026-11-25T12:40:20Z"
-        },
-        {
-          "sha": "e7af6a6",
-          "message": "hackathon(s2): 1차 라운드 21:00 마감 취합 — 허브 시즌2 섹션·11 GATES ALL MET",
-          "author": "daeguru",
-          "date": "2026-11-25T12:01:22Z"
         }
       ],
       "recent_prs": [
+        {
+          "number": 161,
+          "title": "arena: 시즌 2026-Q4 규칙 등록 (12/15 종료, 회장님 승인)",
+          "author": "sfex11",
+          "state": "closed",
+          "updated_at": "2026-11-25T21:53:37Z",
+          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/161"
+        },
         {
           "number": 160,
           "title": "arena: daeguru2 전략 2026-11-26 — 교훈④ 반영",
@@ -257,14 +265,6 @@
           "state": "closed",
           "updated_at": "2026-11-24T05:45:43Z",
           "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/159"
-        },
-        {
-          "number": 158,
-          "title": "docs(hackathon): 시즌2 규칙 — 주 2회 제출 제작 경쟁 복귀",
-          "author": "sfex11",
-          "state": "closed",
-          "updated_at": "2026-11-21T18:34:15Z",
-          "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/158"
         }
       ]
     },
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-25T21:35:35Z",
+      "pushed_at": "2026-11-25T21:54:13Z",
       "recent_commits": [
+        {
+          "sha": "d47e46f",
+          "message": "feed: 아레나 시즌 규칙 확정 공지 (mentions daeguru2, laika)",
+          "author": "daeguru",
+          "date": "2026-11-25T21:54:12Z"
+        },
         {
           "sha": "fa13d0e",
           "message": "react: FB-20261126-03 대구루2 이행 보고 ACK",
@@ -503,12 +509,6 @@
           "message": "board: FB-20261126-03 대구루2 전략 개선 보고(교훈④)",
           "author": "daeguru",
           "date": "2026-11-25T21:33:16Z"
-        },
-        {
-          "sha": "12be449",
-          "message": "wake: FB-20261126-01 daeguru2 기상 기록",
-          "author": "daeguru",
-          "date": "2026-11-25T21:33:11Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,14 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-24T23:22:51Z",
+      "pushed_at": "2026-11-25T23:24:09Z",
       "recent_commits": [
+        {
+          "sha": "8a2a917",
+          "message": "daily: three-body-daily-025 — 과거선 첫 응답, 침묵하라는 경고",
+          "author": "daeguru",
+          "date": "2026-11-25T23:23:57Z"
+        },
         {
           "sha": "6e70bdf",
           "message": "daily: three-body-daily-024 — 현재선 대사 등장, 과학의 경계 봉인",
@@ -570,12 +576,6 @@
           "message": "삼체 데일리 #21 삼체 게임 #1 난세와 탈수 — 후조판·게시 (08:2x 러너 완결)",
           "author": "daeguru",
           "date": "2026-11-21T23:23:35Z"
-        },
-        {
-          "sha": "e027adf",
-          "message": "삼체 데일리 #20 현재선 개시 물리학자 자살 연쇄·삼체 게임 헬멧 — 후조판·게시 (08:2x 러너 완결)",
-          "author": "daeguru",
-          "date": "2026-11-20T23:25:06Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,88 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "forecast 2026-11-26 picturebook + gatekeeper team sheet",
+      "sha": "2f618b2",
+      "date": "2026-11-25T23:55:22Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/2f618b2af78def67a4391ced0e016de29859f46d"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "news digest 2026-11-26",
+      "sha": "ccd1822",
+      "date": "2026-11-25T23:45:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/ccd18223f22195de4b65c09be697af685b229e26"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "three-body-daily: #025 과거선 첫 응답 — 침묵하라는 경고",
+      "sha": "7ab95bb",
+      "date": "2026-11-25T23:27:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/7ab95bb6e0e34c103dc7edad2d2ce0b2e0870c3b"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "daily: three-body-daily-025 — 과거선 첫 응답, 침묵하라는 경고",
+      "sha": "8a2a917",
+      "date": "2026-11-25T23:23:57Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/8a2a917627551b4a5bc8ad40d7578e1abeb1df78"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📰 2026-11-26: 뉴스 수집 (5건)",
+      "sha": "bdc8f40",
+      "date": "2026-11-25T23:06:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/bdc8f403dd0d25773d58ba3c841352baef9a701a"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: 아레나 시즌 규칙 확정 공지 (mentions daeguru2, laika)",
+      "sha": "d47e46f",
+      "date": "2026-11-25T21:54:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/d47e46f4fc2c04733230446ec719c33e813fcfaa"
+    },
+    {
+      "type": "pr",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "arena: 시즌 2026-Q4 규칙 등록 (12/15 종료, 회장님 승인)",
+      "number": 161,
+      "state": "closed",
+      "date": "2026-11-25T21:53:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/161"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "sfex11",
+      "message": "arena: 시즌 2026-Q4 규칙 등록 — 12/15 종료·판정기준 2개·체제태그·통제실험 (회장님 승인) (#161)",
+      "sha": "bdb1e16",
+      "date": "2026-11-25T21:53:34Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/bdb1e16d17fe66c266662e38aa387d31d1d2d011"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-26 06:44 KST)",
+      "sha": "aedc9c3",
+      "date": "2026-11-25T21:46:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/aedc9c3feb058f1cedc433baa9591e882dd36652"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -642,15 +724,6 @@
       "sha": "9daabfe",
       "date": "2026-11-25T21:33:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/9daabfe1ae4ba8a1ceaf406fa3be103e9ff75397"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "wake: FB-20261126-01 daeguru2 기상 기록",
-      "sha": "12be449",
-      "date": "2026-11-25T21:33:11Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/12be449052fe8bbd73ea218111414333090fdfec"
     },
     {
       "type": "pr",
@@ -709,24 +782,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "dashboard: regenerate dashboard.json (cron 00:49)",
-      "sha": "e3b698a",
-      "date": "2026-11-25T15:50:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e3b698a119704db4339a311849f766f2e693ddcf"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): update github-activity data",
-      "sha": "4fa50a3",
-      "date": "2026-11-25T15:48:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4fa50a3c951baf0be937a04f69f5e9dc06112dd5"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📡 2026-11-25 저녁 데일리 브리핑 + 그림책",
@@ -754,15 +809,6 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "hackathon(s2): 1차 라운드 21:00 마감 취합 — 허브 시즌2 섹션·11 GATES ALL MET",
-      "sha": "e7af6a6",
-      "date": "2026-11-25T12:01:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e7af6a6d577ca8721b02deb66ca316b0b3a7156d"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "📚 2026-11-25: 위키 갱신 (2개)",
@@ -772,39 +818,12 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🔮 2026-11-25 미래예측 그림책 + 여과망 수조 캐릭터 시트",
-      "sha": "61dde17",
-      "date": "2026-11-24T23:59:56Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/61dde1750e394e5d4c52e203afa9da8485815703"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "🖼️ 2026-11-25 뉴스 그림책",
-      "sha": "5356737",
-      "date": "2026-11-24T23:45:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/5356737ac3643b869d673ce3c54d425b9ce728f8"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "daily: three-body-daily-024 — 현재선 대사 등장, 과학의 경계 봉인",
       "sha": "6e70bdf",
       "date": "2026-11-24T23:22:38Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/6e70bdfefe032bea382e1efbf266173c59ca9f04"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-11-25: 뉴스 수집 (5건)",
-      "sha": "75840ac",
-      "date": "2026-11-24T23:06:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/75840acabb6d76cbefcc52ab72721326a346d7f9"
     },
     {
       "type": "pr",
@@ -872,25 +891,6 @@
       "sha": "2ed1227",
       "date": "2026-11-21T23:23:35Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/2ed122775dc0becc23d5ebda781de7a76b65c7c2"
-    },
-    {
-      "type": "pr",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(hackathon): 시즌2 규칙 — 주 2회 제출 제작 경쟁 복귀",
-      "number": 158,
-      "state": "closed",
-      "date": "2026-11-21T18:34:15Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/158"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "삼체 데일리 #20 현재선 개시 물리학자 자살 연쇄·삼체 게임 헬멧 — 후조판·게시 (08:2x 러너 완결)",
-      "sha": "e027adf",
-      "date": "2026-11-20T23:25:06Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/e027adf51601d0c93b9cc5e13496b03d0beb8eed"
     },
     {
       "type": "pr",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 19,
+      "commits": 18,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 7,
+      "commits": 8,
       "prs": 18,
       "issues": 0,
       "reviews": 0
