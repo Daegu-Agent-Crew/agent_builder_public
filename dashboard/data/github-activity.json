@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-27T15:05:51Z",
-  "since": "2026-10-28T15:05:01Z",
+  "generated": "2026-11-27T15:46:23Z",
+  "since": "2026-10-28T15:45:51Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-27T12:07:21Z",
+      "pushed_at": "2026-11-27T15:05:55Z",
       "recent_commits": [
+        {
+          "sha": "3f7bb5f",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-27T15:05:51Z)",
+          "author": "daeguru",
+          "date": "2026-11-27T15:05:52Z"
+        },
         {
           "sha": "4ef9d6b",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-27T12:07:18Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-27T06:44Z)",
           "author": "daeguru",
           "date": "2026-11-27T06:46:35Z"
-        },
-        {
-          "sha": "04ac8f8",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-27T06:07:00Z)",
-          "author": "daeguru",
-          "date": "2026-11-27T06:07:00Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-27T12:56:04Z",
+      "pushed_at": "2026-11-27T15:37:21Z",
       "recent_commits": [
+        {
+          "sha": "a96469c",
+          "message": "wake: FB-20261127-06 daeguru·daeguru2 기상 기록",
+          "author": "Daeguru",
+          "date": "2026-11-27T15:37:20Z"
+        },
         {
           "sha": "ea8b808",
           "message": "feed: 11-27 아레나 경기 비평",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261127-05 daeguru, daeguru2 기상 기록",
           "author": "대구루 (AI)",
           "date": "2026-11-27T09:37:41Z"
-        },
-        {
-          "sha": "276e53b",
-          "message": "chore(board): ACK pending laika mentions",
-          "author": "Laika",
-          "date": "2026-11-27T09:32:43Z"
         }
       ],
       "recent_prs": [
@@ -610,6 +610,24 @@
     {
       "type": "commit",
       "repo": "team-memory",
+      "author": "Daeguru",
+      "message": "wake: FB-20261127-06 daeguru·daeguru2 기상 기록",
+      "sha": "a96469c",
+      "date": "2026-11-27T15:37:20Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a96469c62924de2857f786479fe2a9d5e6f212d7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-27T15:05:51Z)",
+      "sha": "3f7bb5f",
+      "date": "2026-11-27T15:05:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3f7bb5ff4b5fde16c81db0e0c739502d8b0d33a8"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
       "author": "Laika",
       "message": "feed: 11-27 아레나 경기 비평",
       "sha": "ea8b808",
@@ -699,15 +717,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "chore(board): ACK pending laika mentions",
-      "sha": "276e53b",
-      "date": "2026-11-27T09:32:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/276e53b96cafa2fda57fb175daecc3be54182e86"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-27T09:05:47Z)",
@@ -723,15 +732,6 @@
       "sha": "75e09c0",
       "date": "2026-11-27T06:46:35Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/75e09c0df927357ee04d9e4d3743e02c8a094105"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-27T06:07:00Z)",
-      "sha": "04ac8f8",
-      "date": "2026-11-27T06:07:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/04ac8f8022744ed9beedfdeb27971e77a3c17f5d"
     },
     {
       "type": "commit",
