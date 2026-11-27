@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-27T21:07:16Z",
-  "since": "2026-10-28T21:06:04Z",
+  "generated": "2026-11-27T21:45:44Z",
+  "since": "2026-10-28T21:45:14Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-27T18:46:32Z",
+      "pushed_at": "2026-11-27T21:07:19Z",
       "recent_commits": [
+        {
+          "sha": "986077d",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-27T21:07:16Z)",
+          "author": "daeguru",
+          "date": "2026-11-27T21:07:16Z"
+        },
         {
           "sha": "009838b",
           "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-27T18:44Z, cron 1a18806c)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-27T15:05:51Z)",
           "author": "daeguru",
           "date": "2026-11-27T15:05:52Z"
-        },
-        {
-          "sha": "4ef9d6b",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-27T12:07:18Z)",
-          "author": "daeguru",
-          "date": "2026-11-27T12:07:18Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-27T16:00:06Z",
+      "pushed_at": "2026-11-27T21:40:55Z",
       "recent_commits": [
+        {
+          "sha": "482d0fb",
+          "message": "log: Jev 게이트 판정 기록 2026-11-28",
+          "author": "대구루 (AI)",
+          "date": "2026-11-27T21:40:54Z"
+        },
         {
           "sha": "ed3f073",
           "message": "fix(board): FB-20261126-01 충돌 마커 최종 정리 — reactions 3인 병합",
@@ -503,12 +509,6 @@
           "message": "wake: FB-20261127-06 daeguru·daeguru2 기상 기록",
           "author": "Daeguru",
           "date": "2026-11-27T15:37:20Z"
-        },
-        {
-          "sha": "ea8b808",
-          "message": "feed: 11-27 아레나 경기 비평",
-          "author": "Laika",
-          "date": "2026-11-27T12:56:01Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "log: Jev 게이트 판정 기록 2026-11-28",
+      "sha": "482d0fb",
+      "date": "2026-11-27T21:40:54Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/482d0fb882e72c77f51f805d0d61e8f0945605b1"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-27T21:07:16Z)",
+      "sha": "986077d",
+      "date": "2026-11-27T21:07:16Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/986077dabf7a0dd6eb5786b93803955895229484"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-27T18:44Z, cron 1a18806c)",
@@ -681,15 +699,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "feed: 11-27 아레나 경기 비평",
-      "sha": "ea8b808",
-      "date": "2026-11-27T12:56:01Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ea8b808ba625943bc5fd4387a363e33f05b1b0f8"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "2026-11-27 저녁 데일리 브리핑 — 수로 공방의 관문 시험",
@@ -714,15 +723,6 @@
       "sha": "4b4c2a9",
       "date": "2026-11-27T12:40:46Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/4b4c2a9c788013520114a5efb5475b6664af21a6"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-27T12:07:18Z)",
-      "sha": "4ef9d6b",
-      "date": "2026-11-27T12:07:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4ef9d6b33e7656e29a7e6ed837e81ad9a8ce2cbd"
     },
     {
       "type": "commit",
