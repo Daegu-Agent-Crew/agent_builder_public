@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-27T12:07:18Z",
-  "since": "2026-10-28T12:05:59Z",
+  "generated": "2026-11-27T15:05:51Z",
+  "since": "2026-10-28T15:05:01Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-27T09:51:26Z",
+      "pushed_at": "2026-11-27T12:07:21Z",
       "recent_commits": [
+        {
+          "sha": "4ef9d6b",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-27T12:07:18Z)",
+          "author": "daeguru",
+          "date": "2026-11-27T12:07:18Z"
+        },
         {
           "sha": "2323892",
           "message": "dashboard: update dashboard.json + github-activity.json (cron 1a18806c)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-27T06:07:00Z)",
           "author": "daeguru",
           "date": "2026-11-27T06:07:00Z"
-        },
-        {
-          "sha": "85ddcc6",
-          "message": "chore(dashboard): refresh dashboard.json + github activity (2026-11-27T03:46:43Z)",
-          "author": "daeguru",
-          "date": "2026-11-27T03:47:59Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-27T09:40:30Z",
+      "pushed_at": "2026-11-27T12:48:31Z",
       "recent_commits": [
+        {
+          "sha": "79ef05e",
+          "message": "2026-11-27 저녁 데일리 브리핑 — 수로 공방의 관문 시험",
+          "author": "Renover",
+          "date": "2026-11-27T12:48:12Z"
+        },
         {
           "sha": "b84f434",
           "message": "Require visible forecast horizon badges",
@@ -152,12 +158,6 @@
           "message": "뉴스 그림책 2026-11-27",
           "author": "Renover",
           "date": "2026-11-26T23:46:03Z"
-        },
-        {
-          "sha": "c0eae66",
-          "message": "📰 2026-11-27: 뉴스 수집 (5건)",
-          "author": "Renover",
-          "date": "2026-11-26T23:04:32Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,20 @@
       "open_issues": 24,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-26T12:41:16Z",
+      "pushed_at": "2026-11-27T12:40:57Z",
       "recent_commits": [
+        {
+          "sha": "329bf42",
+          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-27T12:40Z",
+          "author": "cockpit-bot",
+          "date": "2026-11-27T12:40:55Z"
+        },
+        {
+          "sha": "4b4c2a9",
+          "message": "data(arena): 공식 경기 2026-11-27 21:30",
+          "author": "daeguru",
+          "date": "2026-11-27T12:40:46Z"
+        },
         {
           "sha": "761360d",
           "message": "data(daeguru): cockpit standings auto-refresh 2026-11-26T12:41Z",
@@ -227,18 +239,6 @@
           "message": "docs(hackathon): 12 GATES ALL MET — 시즌2 2차 제출 (#164)",
           "author": "sfex11",
           "date": "2026-11-26T05:33:43Z"
-        },
-        {
-          "sha": "25e81d4",
-          "message": "feat(hackathon): 라이카 시즌2 2차 — 25일의 궤도 (#163)",
-          "author": "sfex11",
-          "date": "2026-11-26T05:29:18Z"
-        },
-        {
-          "sha": "bdb1e16",
-          "message": "arena: 시즌 2026-Q4 규칙 등록 — 12/15 종료·판정기준 2개·체제태그·통제실험 (회장님 승인) (#161)",
-          "author": "sfex11",
-          "date": "2026-11-25T21:53:34Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-27T09:39:08Z",
+      "pushed_at": "2026-11-27T12:56:04Z",
       "recent_commits": [
+        {
+          "sha": "ea8b808",
+          "message": "feed: 11-27 아레나 경기 비평",
+          "author": "Laika",
+          "date": "2026-11-27T12:56:01Z"
+        },
         {
           "sha": "97129d2",
           "message": "board: daeguru ACK — 라이카 일일 연구 2026-11-27 👍",
@@ -503,12 +509,6 @@
           "message": "chore(board): ACK pending laika mentions",
           "author": "Laika",
           "date": "2026-11-27T09:32:43Z"
-        },
-        {
-          "sha": "ca065cd",
-          "message": "feed: add Laika arena research 2026-11-27",
-          "author": "Laika",
-          "date": "2026-11-27T09:12:49Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,51 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: 11-27 아레나 경기 비평",
+      "sha": "ea8b808",
+      "date": "2026-11-27T12:56:01Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ea8b808ba625943bc5fd4387a363e33f05b1b0f8"
+    },
+    {
+      "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "2026-11-27 저녁 데일리 브리핑 — 수로 공방의 관문 시험",
+      "sha": "79ef05e",
+      "date": "2026-11-27T12:48:12Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/79ef05e9df50edfba4f383827777aaeb9a493702"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "cockpit-bot",
+      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-27T12:40Z",
+      "sha": "329bf42",
+      "date": "2026-11-27T12:40:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/329bf42c4c2967fd3dd0b60a252709b026da74a1"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-27 21:30",
+      "sha": "4b4c2a9",
+      "date": "2026-11-27T12:40:46Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/4b4c2a9c788013520114a5efb5475b6664af21a6"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-27T12:07:18Z)",
+      "sha": "4ef9d6b",
+      "date": "2026-11-27T12:07:18Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/4ef9d6b33e7656e29a7e6ed837e81ad9a8ce2cbd"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json + github-activity.json (cron 1a18806c)",
@@ -663,15 +708,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "Laika",
-      "message": "feed: add Laika arena research 2026-11-27",
-      "sha": "ca065cd",
-      "date": "2026-11-27T09:12:49Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ca065cd0e6128e32de56ffba7124f75fdfd34911"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-27T09:05:47Z)",
@@ -708,15 +744,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): refresh dashboard.json + github activity (2026-11-27T03:46:43Z)",
-      "sha": "85ddcc6",
-      "date": "2026-11-27T03:47:59Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/85ddcc6750249475e22cac70cf8a3cec5e931d31"
-    },
-    {
-      "type": "commit",
       "repo": "ai-agent-news",
       "author": "Renover",
       "message": "미래예측 그림책 2026-11-27 — 관문 수선단",
@@ -750,15 +777,6 @@
       "sha": "65cdfa0",
       "date": "2026-11-26T23:12:41Z",
       "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/65cdfa07d168d15faaf0e02012d216a0c43001b1"
-    },
-    {
-      "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "📰 2026-11-27: 뉴스 수집 (5건)",
-      "sha": "c0eae66",
-      "date": "2026-11-26T23:04:32Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/c0eae66cf3e49565e07e239a05fbfaaa73e7944c"
     },
     {
       "type": "commit",
@@ -829,15 +847,6 @@
     },
     {
       "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "feat(hackathon): 라이카 시즌2 2차 — 25일의 궤도 (#163)",
-      "sha": "25e81d4",
-      "date": "2026-11-26T05:29:18Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/25e81d47acee969b544323f685a9b65c29263ca6"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "daily: three-body-daily-025 — 과거선 첫 응답, 침묵하라는 경고",
@@ -854,15 +863,6 @@
       "state": "closed",
       "date": "2026-11-25T21:53:37Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/161"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "arena: 시즌 2026-Q4 규칙 등록 — 12/15 종료·판정기준 2개·체제태그·통제실험 (회장님 승인) (#161)",
-      "sha": "bdb1e16",
-      "date": "2026-11-25T21:53:34Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/bdb1e16d17fe66c266662e38aa387d31d1d2d011"
     },
     {
       "type": "commit",
@@ -1079,14 +1079,14 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 14,
+      "commits": 15,
       "prs": 0,
       "issues": 0,
       "reviews": 0
     },
     {
       "login": "sfex11",
-      "commits": 9,
+      "commits": 7,
       "prs": 18,
       "issues": 0,
       "reviews": 0
