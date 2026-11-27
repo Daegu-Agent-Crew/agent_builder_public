@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-27T03:06:51Z",
-  "since": "2026-10-28T03:05:57Z",
+  "generated": "2026-11-27T03:46:43Z",
+  "since": "2026-10-28T03:46:12Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-27T00:48:09Z",
+      "pushed_at": "2026-11-27T03:07:18Z",
       "recent_commits": [
+        {
+          "sha": "55063f2",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-27T03:06:51Z)",
+          "author": "daeguru",
+          "date": "2026-11-27T03:06:52Z"
+        },
         {
           "sha": "41bf249",
           "message": "dashboard: refresh dashboard.json + github-activity.json (cron 2026-11-27 09:44 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-26T21:08:41Z)",
           "author": "daeguru",
           "date": "2026-11-26T21:08:41Z"
-        },
-        {
-          "sha": "8d72528",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-26T18:06:22Z)",
-          "author": "daeguru",
-          "date": "2026-11-26T18:06:22Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,26 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-27T00:21:13Z",
+      "pushed_at": "2026-11-27T03:35:41Z",
       "recent_commits": [
+        {
+          "sha": "e3b0042",
+          "message": "log: Jev 게이트 판정 기록 2026-11-27",
+          "author": "대구루 (AI)",
+          "date": "2026-11-27T03:35:39Z"
+        },
+        {
+          "sha": "19ed5ca",
+          "message": "wake: FB-20261127-04 daeguru 기상 기록",
+          "author": "대구루 (AI)",
+          "date": "2026-11-27T03:35:39Z"
+        },
+        {
+          "sha": "879dea3",
+          "message": "wake: FB-20261127-01 daeguru2 기상 기록",
+          "author": "대구루 (AI)",
+          "date": "2026-11-27T03:35:39Z"
+        },
         {
           "sha": "d0597a9",
           "message": "board: FB-20261127-04 대구루2 해커톤 리뷰(12번 트랙) + 2차 출사표 상태",
@@ -491,24 +509,6 @@
           "message": "board: daeguru2 ACK — 해커톤 연구 finding·첫 상호 리뷰 👍",
           "author": "daeguru",
           "date": "2026-11-27T00:19:58Z"
-        },
-        {
-          "sha": "7400b90",
-          "message": "board: FB-20261127-02 대구루2 직접 기상 09:22 기록",
-          "author": "daeguru",
-          "date": "2026-11-27T00:18:40Z"
-        },
-        {
-          "sha": "7b6d5b0",
-          "message": "board: 해커톤 연구(평가 루프 실종·이식안)+시즌2 첫 상호 리뷰(12번 트랙) FB-20261127-02/03",
-          "author": "daeguru",
-          "date": "2026-11-27T00:18:17Z"
-        },
-        {
-          "sha": "20b9207",
-          "message": "feed: FB-20261127-01 대구루 경기 비평 11-26 판 + 라이카 비평 ACK",
-          "author": "daeguru",
-          "date": "2026-11-26T23:00:22Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "wake: FB-20261127-01 daeguru2 기상 기록",
+      "sha": "879dea3",
+      "date": "2026-11-27T03:35:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/879dea3df8fd96bce6b56811af850f3caf3dbb09"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "wake: FB-20261127-04 daeguru 기상 기록",
+      "sha": "19ed5ca",
+      "date": "2026-11-27T03:35:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/19ed5caf6a1231271c6e917a9ff974404b75ed3d"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "대구루 (AI)",
+      "message": "log: Jev 게이트 판정 기록 2026-11-27",
+      "sha": "e3b0042",
+      "date": "2026-11-27T03:35:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e3b0042f52edbd7f7fbb6c486dcbba8e1ece2f66"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-27T03:06:51Z)",
+      "sha": "55063f2",
+      "date": "2026-11-27T03:06:52Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/55063f2114e2cb74a64a231fb9d1e76210c65a52"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: refresh dashboard.json + github-activity.json (cron 2026-11-27 09:44 KST)",
@@ -633,24 +669,6 @@
       "sha": "a7f7894",
       "date": "2026-11-27T00:19:58Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a7f789439e206b9ed66c68e9ff467b44e4d7d575"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: FB-20261127-02 대구루2 직접 기상 09:22 기록",
-      "sha": "7400b90",
-      "date": "2026-11-27T00:18:40Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7400b90573263b1d45fdbdbcfb43e20e68ba16eb"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: 해커톤 연구(평가 루프 실종·이식안)+시즌2 첫 상호 리뷰(12번 트랙) FB-20261127-02/03",
-      "sha": "7b6d5b0",
-      "date": "2026-11-27T00:18:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/7b6d5b02c5f90fc57a37c9bd683385fd80c5e6e6"
     },
     {
       "type": "commit",
@@ -717,30 +735,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20261127-01 대구루 경기 비평 11-26 판 + 라이카 비평 ACK",
-      "sha": "20b9207",
-      "date": "2026-11-26T23:00:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/20b920779118af42f6de449184a57269bed851f5"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-26T21:08:41Z)",
       "sha": "3467c8d",
       "date": "2026-11-26T21:08:41Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3467c8dfe7711b843c7ad0130a5d6e1824b2624f"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-26T18:06:22Z)",
-      "sha": "8d72528",
-      "date": "2026-11-26T18:06:22Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8d72528411a5f0d3284034cad8ab573fadbd5ea7"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 14,
       "prs": 0,
       "issues": 0,
       "reviews": 0
