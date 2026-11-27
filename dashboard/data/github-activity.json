@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-27T06:45:49Z",
-  "since": "2026-10-28T06:45:19Z",
+  "generated": "2026-11-27T09:05:47Z",
+  "since": "2026-10-28T09:04:57Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-27T06:07:04Z",
+      "pushed_at": "2026-11-27T06:46:37Z",
       "recent_commits": [
+        {
+          "sha": "75e09c0",
+          "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-27T06:44Z)",
+          "author": "daeguru",
+          "date": "2026-11-27T06:46:35Z"
+        },
         {
           "sha": "04ac8f8",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-27T06:07:00Z)",
@@ -85,12 +91,6 @@
           "message": "dashboard: refresh dashboard.json + github-activity.json (cron 2026-11-27 09:44 KST)",
           "author": "daeguru",
           "date": "2026-11-27T00:48:07Z"
-        },
-        {
-          "sha": "63bc11d",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-27T00:07:51Z)",
-          "author": "daeguru",
-          "date": "2026-11-27T00:07:52Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-27T04:51:58Z",
+      "pushed_at": "2026-11-27T09:00:50Z",
       "recent_commits": [
+        {
+          "sha": "ae5038e",
+          "message": "feed: acknowledge Nov 27 mentions",
+          "author": "Laika",
+          "date": "2026-11-27T09:00:45Z"
+        },
         {
           "sha": "7fcc1fc",
           "message": "docs: DAC 교훈 #280 — 첫 실행 필드 게이트",
@@ -503,12 +509,6 @@
           "message": "board: daeguru2 ACK — 11-26 경기 비평(house-hold 6승·상승장 전성기) 👍",
           "author": "daeguru",
           "date": "2026-11-27T03:59:56Z"
-        },
-        {
-          "sha": "584d9bd",
-          "message": "board: daeguru ACK — 대구루2 해커톤 리뷰(12번 트랙) 👍 + FB-20261126-01 충돌 마커 정리",
-          "author": "daeguru",
-          "date": "2026-11-27T03:59:53Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,24 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: acknowledge Nov 27 mentions",
+      "sha": "ae5038e",
+      "date": "2026-11-27T09:00:45Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ae5038e0c79465ba076f876310b14a566a753eb7"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-27T06:44Z)",
+      "sha": "75e09c0",
+      "date": "2026-11-27T06:46:35Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/75e09c0df927357ee04d9e4d3743e02c8a094105"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-27T06:07:00Z)",
@@ -663,15 +681,6 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 대구루2 해커톤 리뷰(12번 트랙) 👍 + FB-20261126-01 충돌 마커 정리",
-      "sha": "584d9bd",
-      "date": "2026-11-27T03:59:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/584d9bd2126f5ff115d45c1c02ace88c5639228d"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): refresh dashboard.json + github activity (2026-11-27T03:46:43Z)",
@@ -696,15 +705,6 @@
       "sha": "41bf249",
       "date": "2026-11-27T00:48:07Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/41bf249f65921c48ee582c1ffd1c8ebb09975aa1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-27T00:07:51Z)",
-      "sha": "63bc11d",
-      "date": "2026-11-27T00:07:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/63bc11d703e87bf54e147940998db77dc6272e02"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 16,
+      "commits": 15,
       "prs": 0,
       "issues": 0,
       "reviews": 0
