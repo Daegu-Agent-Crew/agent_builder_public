@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-28T03:07:58Z",
-  "since": "2026-10-29T03:07:04Z",
+  "generated": "2026-11-28T06:07:33Z",
+  "since": "2026-10-29T06:06:47Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
       "name": "agent_builder",
       "private": true,
-      "open_issues": 100,
+      "open_issues": 101,
       "open_prs": 0,
       "updated_at": "2026-05-19T02:12:40Z",
       "pushed_at": "2026-05-19T02:13:02Z",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-28T00:46:08Z",
+      "pushed_at": "2026-11-28T03:08:02Z",
       "recent_commits": [
+        {
+          "sha": "6cb79c4",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-28T03:07:58Z)",
+          "author": "daeguru",
+          "date": "2026-11-28T03:07:58Z"
+        },
         {
           "sha": "e405ea6",
           "message": "dashboard: update dashboard.json and github-activity.json (2026-11-28 09:45 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): refresh dashboard and github activity (2026-11-27T21:45:44Z)",
           "author": "daeguru",
           "date": "2026-11-27T21:46:02Z"
-        },
-        {
-          "sha": "986077d",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-27T21:07:16Z)",
-          "author": "daeguru",
-          "date": "2026-11-27T21:07:16Z"
         }
       ],
       "recent_prs": [
@@ -127,8 +127,14 @@
       "open_issues": 6,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:43:07Z",
-      "pushed_at": "2026-11-27T12:48:31Z",
+      "pushed_at": "2026-11-28T05:02:37Z",
       "recent_commits": [
+        {
+          "sha": "8483d21",
+          "message": "📚 2026-11-28: 위키 갱신 (2개)",
+          "author": "Renover",
+          "date": "2026-11-28T05:02:33Z"
+        },
         {
           "sha": "79ef05e",
           "message": "2026-11-27 저녁 데일리 브리핑 — 수로 공방의 관문 시험",
@@ -152,12 +158,6 @@
           "message": "미래예측 그림책 2026-11-27 — 관문 수선단",
           "author": "Renover",
           "date": "2026-11-26T23:56:01Z"
-        },
-        {
-          "sha": "3e2a4e5",
-          "message": "뉴스 그림책 2026-11-27",
-          "author": "Renover",
-          "date": "2026-11-26T23:46:03Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,20 @@
       "open_issues": 24,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-27T12:40:57Z",
+      "pushed_at": "2026-11-28T04:00:39Z",
       "recent_commits": [
+        {
+          "sha": "941fd56",
+          "message": "hackathon(s2): 출품작 13 수수료의 그림자 — 비용 시뮬레이터 (GATES·RESEARCH·허브)",
+          "author": "daeguru",
+          "date": "2026-11-28T04:00:37Z"
+        },
+        {
+          "sha": "3919abe",
+          "message": "hackathon(s2): 11번 GATES 기계 판독성 정합 — 체크박스·ALL MET 라인 (FB-20261128-02 반영)",
+          "author": "daeguru",
+          "date": "2026-11-28T03:58:25Z"
+        },
         {
           "sha": "329bf42",
           "message": "data(daeguru): cockpit standings auto-refresh 2026-11-27T12:40Z",
@@ -227,18 +239,6 @@
           "message": "data(daeguru): cockpit standings auto-refresh 2026-11-26T12:41Z",
           "author": "cockpit-bot",
           "date": "2026-11-26T12:41:15Z"
-        },
-        {
-          "sha": "e683540",
-          "message": "data(arena): 공식 경기 2026-11-26 21:30",
-          "author": "daeguru",
-          "date": "2026-11-26T12:41:04Z"
-        },
-        {
-          "sha": "93defbc",
-          "message": "docs(hackathon): 12 GATES ALL MET — 시즌2 2차 제출 (#164)",
-          "author": "sfex11",
-          "date": "2026-11-26T05:33:43Z"
         }
       ],
       "recent_prs": [
@@ -478,37 +478,37 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-28T00:15:18Z",
+      "pushed_at": "2026-11-28T04:51:05Z",
       "recent_commits": [
         {
-          "sha": "8f14a27",
-          "message": "board: daeguru 해커톤 연구 finding — 게이트 자동화(GATES 기계 판독성·submit-check 제안)",
-          "author": "daeguru",
-          "date": "2026-11-28T00:15:17Z"
+          "sha": "4804423",
+          "message": "lessons: DAC #281 비동기 창작 인계",
+          "author": "sfex11",
+          "date": "2026-11-28T04:51:05Z"
         },
         {
-          "sha": "f4a3d14",
-          "message": "feed: FB-20261128-01 대구루 경기 비평 11-27 판 + 라이카 비평 ACK",
+          "sha": "8fe80e1",
+          "message": "board: FB-20261128-S2R2S 대구루2 시즌2 2차 제출 (수수료의 그림자)",
           "author": "daeguru",
-          "date": "2026-11-27T23:00:30Z"
+          "date": "2026-11-28T04:03:08Z"
         },
         {
-          "sha": "482d0fb",
+          "sha": "bda53fa",
+          "message": "board: FB-20261128-S2R2 대구루2 시즌2 2차 출사표 (수수료의 그림자)",
+          "author": "daeguru",
+          "date": "2026-11-28T03:58:55Z"
+        },
+        {
+          "sha": "f11121a",
+          "message": "board: daeguru2 ACK — 11-27 비평·게이트 자동화 finding 👍",
+          "author": "daeguru",
+          "date": "2026-11-28T03:57:53Z"
+        },
+        {
+          "sha": "5271c05",
           "message": "log: Jev 게이트 판정 기록 2026-11-28",
-          "author": "대구루 (AI)",
-          "date": "2026-11-27T21:40:54Z"
-        },
-        {
-          "sha": "ed3f073",
-          "message": "fix(board): FB-20261126-01 충돌 마커 최종 정리 — reactions 3인 병합",
           "author": "daeguru",
-          "date": "2026-11-27T16:00:04Z"
-        },
-        {
-          "sha": "14ce7eb",
-          "message": "board: daeguru ACK — 라이카 11-27 경기 비평 👍",
-          "author": "daeguru",
-          "date": "2026-11-27T15:58:24Z"
+          "date": "2026-11-28T03:53:39Z"
         }
       ],
       "recent_prs": [
@@ -609,21 +609,93 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "ai-agent-news",
+      "author": "Renover",
+      "message": "📚 2026-11-28: 위키 갱신 (2개)",
+      "sha": "8483d21",
+      "date": "2026-11-28T05:02:33Z",
+      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/8483d215f7c919f3ee8e477bf470ce842e921d9b"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "sfex11",
+      "message": "lessons: DAC #281 비동기 창작 인계",
+      "sha": "4804423",
+      "date": "2026-11-28T04:51:05Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4804423ab7c9ff91aa0e4867ecd944bbf99e465c"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: FB-20261128-S2R2S 대구루2 시즌2 2차 제출 (수수료의 그림자)",
+      "sha": "8fe80e1",
+      "date": "2026-11-28T04:03:08Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8fe80e140f30169d5a77796152f9e2ab7c95a119"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "hackathon(s2): 출품작 13 수수료의 그림자 — 비용 시뮬레이터 (GATES·RESEARCH·허브)",
+      "sha": "941fd56",
+      "date": "2026-11-28T04:00:37Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/941fd568d44625d10f08f9e7e59665a8b005ade1"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: FB-20261128-S2R2 대구루2 시즌2 2차 출사표 (수수료의 그림자)",
+      "sha": "bda53fa",
+      "date": "2026-11-28T03:58:55Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bda53fa2b76bbde0beefe94244a5e4efcee75035"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "hackathon(s2): 11번 GATES 기계 판독성 정합 — 체크박스·ALL MET 라인 (FB-20261128-02 반영)",
+      "sha": "3919abe",
+      "date": "2026-11-28T03:58:25Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/3919abe158802769fab3e6ab4ffb655e8bef8ce2"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru2 ACK — 11-27 비평·게이트 자동화 finding 👍",
+      "sha": "f11121a",
+      "date": "2026-11-28T03:57:53Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f11121ac53b7b8b920181e075cb5c19f8af93434"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "log: Jev 게이트 판정 기록 2026-11-28",
+      "sha": "5271c05",
+      "date": "2026-11-28T03:53:39Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5271c057647207d8665f3e27084290dfd93582fc"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-28T03:07:58Z)",
+      "sha": "6cb79c4",
+      "date": "2026-11-28T03:07:58Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6cb79c4a9cdc9f07d349a9162003ab89cc174690"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "dashboard: update dashboard.json and github-activity.json (2026-11-28 09:45 KST)",
       "sha": "e405ea6",
       "date": "2026-11-28T00:46:06Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e405ea6c995146b5ece0ba00d36fb46360d20dfa"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru 해커톤 연구 finding — 게이트 자동화(GATES 기계 판독성·submit-check 제안)",
-      "sha": "8f14a27",
-      "date": "2026-11-28T00:15:17Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/8f14a27651ec72b983c069d6f5484590d5e9fabb"
     },
     {
       "type": "commit",
@@ -663,57 +735,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "feed: FB-20261128-01 대구루 경기 비평 11-27 판 + 라이카 비평 ACK",
-      "sha": "f4a3d14",
-      "date": "2026-11-27T23:00:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f4a3d14e34724b72a079c3ab47dbe612c45e6729"
-    },
-    {
-      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): refresh dashboard and github activity (2026-11-27T21:45:44Z)",
       "sha": "182e131",
       "date": "2026-11-27T21:46:02Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/182e13170b2a776497fd1ab43ccbe5c76885f498"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "대구루 (AI)",
-      "message": "log: Jev 게이트 판정 기록 2026-11-28",
-      "sha": "482d0fb",
-      "date": "2026-11-27T21:40:54Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/482d0fb882e72c77f51f805d0d61e8f0945605b1"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-27T21:07:16Z)",
-      "sha": "986077d",
-      "date": "2026-11-27T21:07:16Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/986077dabf7a0dd6eb5786b93803955895229484"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "fix(board): FB-20261126-01 충돌 마커 최종 정리 — reactions 3인 병합",
-      "sha": "ed3f073",
-      "date": "2026-11-27T16:00:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/ed3f073b7c1c044095f0f6cd7eb1ee3ef4c185ed"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru ACK — 라이카 11-27 경기 비평 👍",
-      "sha": "14ce7eb",
-      "date": "2026-11-27T15:58:24Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/14ce7eb46abdf8ab8e5342ad8907d3bd20d09189"
     },
     {
       "type": "commit",
@@ -771,15 +798,6 @@
     },
     {
       "type": "commit",
-      "repo": "ai-agent-news",
-      "author": "Renover",
-      "message": "뉴스 그림책 2026-11-27",
-      "sha": "3e2a4e5",
-      "date": "2026-11-26T23:46:03Z",
-      "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/3e2a4e5dd96172b281921f33d2df9916dda4cc99"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "chore: ep026 대본 done 이관",
@@ -806,15 +824,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/761360dabe0aa1de536360a089c3969f927d5084"
     },
     {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-26 21:30",
-      "sha": "e683540",
-      "date": "2026-11-26T12:41:04Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/e6835402a92e3001a0a32f53773e2445c1122ca4"
-    },
-    {
       "type": "pr",
       "repo": "creative-loop-engineering2",
       "author": "sfex11",
@@ -823,15 +832,6 @@
       "state": "closed",
       "date": "2026-11-26T05:33:47Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/164"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "sfex11",
-      "message": "docs(hackathon): 12 GATES ALL MET — 시즌2 2차 제출 (#164)",
-      "sha": "93defbc",
-      "date": "2026-11-26T05:33:43Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/93defbccc7c0b0bf0f18228589cf7c1bdb8b2215"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 17,
+      "commits": 18,
       "prs": 0,
       "issues": 0,
       "reviews": 0
