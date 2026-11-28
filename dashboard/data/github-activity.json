@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-27T21:45:44Z",
-  "since": "2026-10-28T21:45:14Z",
+  "generated": "2026-11-28T00:07:25Z",
+  "since": "2026-10-29T00:06:13Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,20 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-27T21:07:19Z",
+      "pushed_at": "2026-11-27T23:50:57Z",
       "recent_commits": [
+        {
+          "sha": "657e57f",
+          "message": "daily: three-body-daily-027 — 삼체 게임 #3: 함대, 출발",
+          "author": "daeguru",
+          "date": "2026-11-27T23:50:44Z"
+        },
+        {
+          "sha": "182e131",
+          "message": "chore(dashboard): refresh dashboard and github activity (2026-11-27T21:45:44Z)",
+          "author": "daeguru",
+          "date": "2026-11-27T21:46:02Z"
+        },
         {
           "sha": "986077d",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-27T21:07:16Z)",
@@ -79,18 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-27T18:06:37Z)",
           "author": "daeguru",
           "date": "2026-11-27T18:06:37Z"
-        },
-        {
-          "sha": "6af8b87",
-          "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-27T15:46Z, cron 1a18806c)",
-          "author": "daeguru",
-          "date": "2026-11-27T15:48:36Z"
-        },
-        {
-          "sha": "3f7bb5f",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-27T15:05:51Z)",
-          "author": "daeguru",
-          "date": "2026-11-27T15:05:52Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,14 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-27T21:40:55Z",
+      "pushed_at": "2026-11-27T23:00:31Z",
       "recent_commits": [
+        {
+          "sha": "f4a3d14",
+          "message": "feed: FB-20261128-01 대구루 경기 비평 11-27 판 + 라이카 비평 ACK",
+          "author": "daeguru",
+          "date": "2026-11-27T23:00:30Z"
+        },
         {
           "sha": "482d0fb",
           "message": "log: Jev 게이트 판정 기록 2026-11-28",
@@ -503,12 +509,6 @@
           "message": "board: daeguru2 ACK — 11-27 경기 비평(동일 진입·넓은 청산의 종가 반납) 👍",
           "author": "daeguru",
           "date": "2026-11-27T15:58:20Z"
-        },
-        {
-          "sha": "a96469c",
-          "message": "wake: FB-20261127-06 daeguru·daeguru2 기상 기록",
-          "author": "Daeguru",
-          "date": "2026-11-27T15:37:20Z"
         }
       ],
       "recent_prs": [
@@ -545,8 +545,20 @@
       "open_issues": 2,
       "open_prs": 0,
       "updated_at": "2026-11-09T01:04:16Z",
-      "pushed_at": "2026-11-26T23:13:20Z",
+      "pushed_at": "2026-11-27T23:50:29Z",
       "recent_commits": [
+        {
+          "sha": "926517b",
+          "message": "chore: ep027 대본 done 이관",
+          "author": "daeguru",
+          "date": "2026-11-27T23:50:19Z"
+        },
+        {
+          "sha": "3bb3265",
+          "message": "feat: three-body-daily-027 삼체 게임 #3 함대 출발 (2막 #25)",
+          "author": "daeguru",
+          "date": "2026-11-27T23:50:19Z"
+        },
         {
           "sha": "310b927",
           "message": "chore: ep026 대본 done 이관",
@@ -564,18 +576,6 @@
           "message": "daily: three-body-daily-025 — 과거선 첫 응답, 침묵하라는 경고",
           "author": "daeguru",
           "date": "2026-11-25T23:23:57Z"
-        },
-        {
-          "sha": "6e70bdf",
-          "message": "daily: three-body-daily-024 — 현재선 대사 등장, 과학의 경계 봉인",
-          "author": "daeguru",
-          "date": "2026-11-24T23:22:38Z"
-        },
-        {
-          "sha": "4d56b82",
-          "message": "daily: three-body-daily-023 — 삼체 게임 #2 인형 컴퓨터",
-          "author": "daeguru",
-          "date": "2026-11-23T23:20:00Z"
         }
       ],
       "recent_prs": [
@@ -607,6 +607,51 @@
     }
   ],
   "activity_feed": [
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "daily: three-body-daily-027 — 삼체 게임 #3: 함대, 출발",
+      "sha": "657e57f",
+      "date": "2026-11-27T23:50:44Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/657e57fe73a4091a78a1476e7ceaf860590d55c8"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "feat: three-body-daily-027 삼체 게임 #3 함대 출발 (2막 #25)",
+      "sha": "3bb3265",
+      "date": "2026-11-27T23:50:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/3bb32654a4e9000abef383205e99ce54e6171c06"
+    },
+    {
+      "type": "commit",
+      "repo": "three-body-comic",
+      "author": "daeguru",
+      "message": "chore: ep027 대본 done 이관",
+      "sha": "926517b",
+      "date": "2026-11-27T23:50:19Z",
+      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/926517b3ca391192c4e5561ea6bf6f612f2e3abd"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "feed: FB-20261128-01 대구루 경기 비평 11-27 판 + 라이카 비평 ACK",
+      "sha": "f4a3d14",
+      "date": "2026-11-27T23:00:30Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f4a3d14e34724b72a079c3ab47dbe612c45e6729"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): refresh dashboard and github activity (2026-11-27T21:45:44Z)",
+      "sha": "182e131",
+      "date": "2026-11-27T21:46:02Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/182e13170b2a776497fd1ab43ccbe5c76885f498"
+    },
     {
       "type": "commit",
       "repo": "team-memory",
@@ -669,33 +714,6 @@
       "sha": "996d16e",
       "date": "2026-11-27T15:58:20Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/996d16eff52eceb3073a709ab13958e0a32747c4"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-27T15:46Z, cron 1a18806c)",
-      "sha": "6af8b87",
-      "date": "2026-11-27T15:48:36Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6af8b8737daabba53911c3134bd750fe3912a102"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "Daeguru",
-      "message": "wake: FB-20261127-06 daeguru·daeguru2 기상 기록",
-      "sha": "a96469c",
-      "date": "2026-11-27T15:37:20Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/a96469c62924de2857f786479fe2a9d5e6f212d7"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-27T15:05:51Z)",
-      "sha": "3f7bb5f",
-      "date": "2026-11-27T15:05:52Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/3f7bb5ff4b5fde16c81db0e0c739502d8b0d33a8"
     },
     {
       "type": "commit",
@@ -865,15 +883,6 @@
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/pull/161"
     },
     {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "daily: three-body-daily-024 — 현재선 대사 등장, 과학의 경계 봉인",
-      "sha": "6e70bdf",
-      "date": "2026-11-24T23:22:38Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/6e70bdfefe032bea382e1efbf266173c59ca9f04"
-    },
-    {
       "type": "pr",
       "repo": "team-memory",
       "author": "sfex11",
@@ -882,15 +891,6 @@
       "state": "open",
       "date": "2026-11-24T15:36:09Z",
       "url": "https://github.com/Daegu-Agent-Crew/team-memory/pull/33"
-    },
-    {
-      "type": "commit",
-      "repo": "three-body-comic",
-      "author": "daeguru",
-      "message": "daily: three-body-daily-023 — 삼체 게임 #2 인형 컴퓨터",
-      "sha": "4d56b82",
-      "date": "2026-11-23T23:20:00Z",
-      "url": "https://github.com/Daegu-Agent-Crew/three-body-comic/commit/4d56b82bacf6d39704925e4ba90430babf087459"
     },
     {
       "type": "pr",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 16,
+      "commits": 17,
       "prs": 0,
       "issues": 0,
       "reviews": 0
