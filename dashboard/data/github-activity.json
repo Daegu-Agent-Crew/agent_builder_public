@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-28T00:45:50Z",
-  "since": "2026-10-29T00:45:20Z",
+  "generated": "2026-11-28T03:07:58Z",
+  "since": "2026-10-29T03:07:04Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-28T00:07:28Z",
+      "pushed_at": "2026-11-28T00:46:08Z",
       "recent_commits": [
+        {
+          "sha": "e405ea6",
+          "message": "dashboard: update dashboard.json and github-activity.json (2026-11-28 09:45 KST)",
+          "author": "daeguru",
+          "date": "2026-11-28T00:46:06Z"
+        },
         {
           "sha": "bf35b5b",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-28T00:07:25Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-27T21:07:16Z)",
           "author": "daeguru",
           "date": "2026-11-27T21:07:16Z"
-        },
-        {
-          "sha": "009838b",
-          "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-27T18:44Z, cron 1a18806c)",
-          "author": "daeguru",
-          "date": "2026-11-27T18:46:30Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,15 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: update dashboard.json and github-activity.json (2026-11-28 09:45 KST)",
+      "sha": "e405ea6",
+      "date": "2026-11-28T00:46:06Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/e405ea6c995146b5ece0ba00d36fb46360d20dfa"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "board: daeguru 해커톤 연구 finding — 게이트 자동화(GATES 기계 판독성·submit-check 제안)",
@@ -687,15 +696,6 @@
       "sha": "986077d",
       "date": "2026-11-27T21:07:16Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/986077dabf7a0dd6eb5786b93803955895229484"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh dashboard + github activity (2026-11-27T18:44Z, cron 1a18806c)",
-      "sha": "009838b",
-      "date": "2026-11-27T18:46:30Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/009838be691b56f290383de467717c724e9a9ee8"
     },
     {
       "type": "commit",
