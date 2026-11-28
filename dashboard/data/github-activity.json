@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-28T06:46:06Z",
-  "since": "2026-10-29T06:45:35Z",
+  "generated": "2026-11-28T09:06:17Z",
+  "since": "2026-10-29T09:05:24Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-28T06:07:36Z",
+      "pushed_at": "2026-11-28T06:46:44Z",
       "recent_commits": [
+        {
+          "sha": "ff3a2fd",
+          "message": "dashboard: regenerate dashboard.json and github-activity.json (2026-11-28 15:46 KST)",
+          "author": "daeguru",
+          "date": "2026-11-28T06:46:43Z"
+        },
         {
           "sha": "24b2a5c",
           "message": "chore(dashboard): auto-refresh github activity (2026-11-28T06:07:33Z)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-28T00:07:25Z)",
           "author": "daeguru",
           "date": "2026-11-28T00:07:25Z"
-        },
-        {
-          "sha": "657e57f",
-          "message": "daily: three-body-daily-027 — 삼체 게임 #3: 함대, 출발",
-          "author": "daeguru",
-          "date": "2026-11-27T23:50:44Z"
         }
       ],
       "recent_prs": [
@@ -478,8 +478,26 @@
       "open_issues": 12,
       "open_prs": 4,
       "updated_at": "2026-11-12T16:37:07Z",
-      "pushed_at": "2026-11-28T04:51:05Z",
+      "pushed_at": "2026-11-28T09:00:26Z",
       "recent_commits": [
+        {
+          "sha": "4e0a46b",
+          "message": "board: daeguru ACK 라이카 일일연구 11-28(FB-20261128-02) 👀",
+          "author": "daeguru",
+          "date": "2026-11-28T09:00:24Z"
+        },
+        {
+          "sha": "94b32f8",
+          "message": "feed: laika arena research 2026-11-28",
+          "author": "Laika",
+          "date": "2026-11-28T08:54:11Z"
+        },
+        {
+          "sha": "e503bfc",
+          "message": "feed: acknowledge Nov 28 mentions",
+          "author": "Laika",
+          "date": "2026-11-28T08:40:51Z"
+        },
         {
           "sha": "4804423",
           "message": "lessons: DAC #281 비동기 창작 인계",
@@ -491,24 +509,6 @@
           "message": "board: FB-20261128-S2R2S 대구루2 시즌2 2차 제출 (수수료의 그림자)",
           "author": "daeguru",
           "date": "2026-11-28T04:03:08Z"
-        },
-        {
-          "sha": "bda53fa",
-          "message": "board: FB-20261128-S2R2 대구루2 시즌2 2차 출사표 (수수료의 그림자)",
-          "author": "daeguru",
-          "date": "2026-11-28T03:58:55Z"
-        },
-        {
-          "sha": "f11121a",
-          "message": "board: daeguru2 ACK — 11-27 비평·게이트 자동화 finding 👍",
-          "author": "daeguru",
-          "date": "2026-11-28T03:57:53Z"
-        },
-        {
-          "sha": "5271c05",
-          "message": "log: Jev 게이트 판정 기록 2026-11-28",
-          "author": "daeguru",
-          "date": "2026-11-28T03:53:39Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,42 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "team-memory",
+      "author": "daeguru",
+      "message": "board: daeguru ACK 라이카 일일연구 11-28(FB-20261128-02) 👀",
+      "sha": "4e0a46b",
+      "date": "2026-11-28T09:00:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/4e0a46b28f4e9e1ee6650749a47219060d451f09"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: laika arena research 2026-11-28",
+      "sha": "94b32f8",
+      "date": "2026-11-28T08:54:11Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/94b32f856205cd033b908ef0ed461555be89831b"
+    },
+    {
+      "type": "commit",
+      "repo": "team-memory",
+      "author": "Laika",
+      "message": "feed: acknowledge Nov 28 mentions",
+      "sha": "e503bfc",
+      "date": "2026-11-28T08:40:51Z",
+      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/e503bfce1d24e7ca28a519f31bc98588ae3451cc"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "dashboard: regenerate dashboard.json and github-activity.json (2026-11-28 15:46 KST)",
+      "sha": "ff3a2fd",
+      "date": "2026-11-28T06:46:43Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/ff3a2fd089a09d17bf904c9eca2500e69de9cb97"
+    },
+    {
+      "type": "commit",
       "repo": "agent_builder_public",
       "author": "daeguru",
       "message": "chore(dashboard): auto-refresh github activity (2026-11-28T06:07:33Z)",
@@ -654,39 +690,12 @@
     },
     {
       "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: FB-20261128-S2R2 대구루2 시즌2 2차 출사표 (수수료의 그림자)",
-      "sha": "bda53fa",
-      "date": "2026-11-28T03:58:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/bda53fa2b76bbde0beefe94244a5e4efcee75035"
-    },
-    {
-      "type": "commit",
       "repo": "creative-loop-engineering2",
       "author": "daeguru",
       "message": "hackathon(s2): 11번 GATES 기계 판독성 정합 — 체크박스·ALL MET 라인 (FB-20261128-02 반영)",
       "sha": "3919abe",
       "date": "2026-11-28T03:58:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/3919abe158802769fab3e6ab4ffb655e8bef8ce2"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "board: daeguru2 ACK — 11-27 비평·게이트 자동화 finding 👍",
-      "sha": "f11121a",
-      "date": "2026-11-28T03:57:53Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/f11121ac53b7b8b920181e075cb5c19f8af93434"
-    },
-    {
-      "type": "commit",
-      "repo": "team-memory",
-      "author": "daeguru",
-      "message": "log: Jev 게이트 판정 기록 2026-11-28",
-      "sha": "5271c05",
-      "date": "2026-11-28T03:53:39Z",
-      "url": "https://github.com/Daegu-Agent-Crew/team-memory/commit/5271c057647207d8665f3e27084290dfd93582fc"
     },
     {
       "type": "commit",
@@ -714,15 +723,6 @@
       "sha": "bf35b5b",
       "date": "2026-11-28T00:07:25Z",
       "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/bf35b5b8cb2b578b7204da2209810b286eaa8e2c"
-    },
-    {
-      "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "daily: three-body-daily-027 — 삼체 게임 #3: 함대, 출발",
-      "sha": "657e57f",
-      "date": "2026-11-27T23:50:44Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/657e57fe73a4091a78a1476e7ceaf860590d55c8"
     },
     {
       "type": "commit",
@@ -1079,7 +1079,7 @@
   "member_stats": [
     {
       "login": "daeguru",
-      "commits": 18,
+      "commits": 16,
       "prs": 0,
       "issues": 0,
       "reviews": 0
