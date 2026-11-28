@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-28T12:06:15Z",
-  "since": "2026-10-29T12:05:23Z",
+  "generated": "2026-11-28T12:46:18Z",
+  "since": "2026-10-29T12:45:46Z",
   "repos": [
     {
       "slug": "Daegu-Agent-Crew/agent_builder",
@@ -60,8 +60,14 @@
       "open_issues": 11,
       "open_prs": 0,
       "updated_at": "2026-11-12T13:47:30Z",
-      "pushed_at": "2026-11-28T09:47:21Z",
+      "pushed_at": "2026-11-28T12:06:18Z",
       "recent_commits": [
+        {
+          "sha": "8d7968c",
+          "message": "chore(dashboard): auto-refresh github activity (2026-11-28T12:06:15Z)",
+          "author": "daeguru",
+          "date": "2026-11-28T12:06:15Z"
+        },
         {
           "sha": "e425661",
           "message": "dashboard: regenerate dashboard.json and github-activity.json (2026-11-28 18:47 KST)",
@@ -85,12 +91,6 @@
           "message": "chore(dashboard): auto-refresh github activity (2026-11-28T06:07:33Z)",
           "author": "daeguru",
           "date": "2026-11-28T06:07:33Z"
-        },
-        {
-          "sha": "6cb79c4",
-          "message": "chore(dashboard): auto-refresh github activity (2026-11-28T03:07:58Z)",
-          "author": "daeguru",
-          "date": "2026-11-28T03:07:58Z"
         }
       ],
       "recent_prs": [
@@ -208,8 +208,20 @@
       "open_issues": 24,
       "open_prs": 4,
       "updated_at": "2026-11-12T13:41:33Z",
-      "pushed_at": "2026-11-28T12:03:32Z",
+      "pushed_at": "2026-11-28T12:41:25Z",
       "recent_commits": [
+        {
+          "sha": "2ac67ec",
+          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-28T12:41Z",
+          "author": "cockpit-bot",
+          "date": "2026-11-28T12:41:24Z"
+        },
+        {
+          "sha": "4959888",
+          "message": "data(arena): 공식 경기 2026-11-28 21:30",
+          "author": "daeguru",
+          "date": "2026-11-28T12:41:09Z"
+        },
         {
           "sha": "ebc3915",
           "message": "해커톤 S2R2 마감 취합 — 허브 13 카드 추가·2차 라운드 결과 갱신",
@@ -227,18 +239,6 @@
           "message": "hackathon(s2): 11번 GATES 기계 판독성 정합 — 체크박스·ALL MET 라인 (FB-20261128-02 반영)",
           "author": "daeguru",
           "date": "2026-11-28T03:58:25Z"
-        },
-        {
-          "sha": "329bf42",
-          "message": "data(daeguru): cockpit standings auto-refresh 2026-11-27T12:40Z",
-          "author": "cockpit-bot",
-          "date": "2026-11-27T12:40:55Z"
-        },
-        {
-          "sha": "4b4c2a9",
-          "message": "data(arena): 공식 경기 2026-11-27 21:30",
-          "author": "daeguru",
-          "date": "2026-11-27T12:40:46Z"
         }
       ],
       "recent_prs": [
@@ -609,6 +609,33 @@
   "activity_feed": [
     {
       "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "cockpit-bot",
+      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-28T12:41Z",
+      "sha": "2ac67ec",
+      "date": "2026-11-28T12:41:24Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/2ac67ec8474519e428eb04d6028b4154a89f4641"
+    },
+    {
+      "type": "commit",
+      "repo": "creative-loop-engineering2",
+      "author": "daeguru",
+      "message": "data(arena): 공식 경기 2026-11-28 21:30",
+      "sha": "4959888",
+      "date": "2026-11-28T12:41:09Z",
+      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/49598888c34c527de03a7c285bd8d7a722a6a22a"
+    },
+    {
+      "type": "commit",
+      "repo": "agent_builder_public",
+      "author": "daeguru",
+      "message": "chore(dashboard): auto-refresh github activity (2026-11-28T12:06:15Z)",
+      "sha": "8d7968c",
+      "date": "2026-11-28T12:06:15Z",
+      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/8d7968c3bf5b2d99aba0989a27f52ecad0914295"
+    },
+    {
+      "type": "commit",
       "repo": "team-memory",
       "author": "daeguru",
       "message": "게시판: 해커톤 S2R2 마감 취합 결과 (FB-20261128-08)",
@@ -726,15 +753,6 @@
     },
     {
       "type": "commit",
-      "repo": "agent_builder_public",
-      "author": "daeguru",
-      "message": "chore(dashboard): auto-refresh github activity (2026-11-28T03:07:58Z)",
-      "sha": "6cb79c4",
-      "date": "2026-11-28T03:07:58Z",
-      "url": "https://github.com/Daegu-Agent-Crew/agent_builder_public/commit/6cb79c4a9cdc9f07d349a9162003ab89cc174690"
-    },
-    {
-      "type": "commit",
       "repo": "three-body-comic",
       "author": "daeguru",
       "message": "feat: three-body-daily-027 삼체 게임 #3 함대 출발 (2막 #25)",
@@ -759,24 +777,6 @@
       "sha": "79ef05e",
       "date": "2026-11-27T12:48:12Z",
       "url": "https://github.com/Daegu-Agent-Crew/ai-agent-news/commit/79ef05e9df50edfba4f383827777aaeb9a493702"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "cockpit-bot",
-      "message": "data(daeguru): cockpit standings auto-refresh 2026-11-27T12:40Z",
-      "sha": "329bf42",
-      "date": "2026-11-27T12:40:55Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/329bf42c4c2967fd3dd0b60a252709b026da74a1"
-    },
-    {
-      "type": "commit",
-      "repo": "creative-loop-engineering2",
-      "author": "daeguru",
-      "message": "data(arena): 공식 경기 2026-11-27 21:30",
-      "sha": "4b4c2a9",
-      "date": "2026-11-27T12:40:46Z",
-      "url": "https://github.com/Daegu-Agent-Crew/creative-loop-engineering2/commit/4b4c2a9c788013520114a5efb5475b6664af21a6"
     },
     {
       "type": "commit",
